@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "id": "m074",
+  "cue": 74,
+  "t_start": 215.61,
+  "t_end": 217.27,
+  "duration_sec": 1.66,
+  "spoken": "Those songs have Bond's fingerprint.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Visual compare — Bon-era vs Brian-era (two-up or sequential).",
+  "situation": "Bon Scott and Brian Johnson AC/DC vocalists comparison photos",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1979",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "Bon Scott 1979 live",
+    "Brian Johnson 1980 AC/DC"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Visual compare — Bon-era vs Brian-era (two-up or sequential).",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1979 live",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Brian Johnson 1980 AC/DC",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.009Z",
+  "effects": [
+    "film_grain",
+    "film_scratches",
+    "film_damage",
+    "vignette_soft",
+    "tilt_left"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-f6689233be25.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

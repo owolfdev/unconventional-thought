@@ -1,0 +1,50 @@
+{
+  "id": "m014",
+  "cue": 14,
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "make the 50 Million really big, extruded and should have an animated gold style gradient shine. ",
+  "effects": [
+    "slow_spin",
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "gold record award disc close up",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:bib_gold2-blkbg.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m014/acquired/bib_gold2-blkbg.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m014/acquired/bib_gold2-blkbg.jpg",
+          "title": "bib_gold2-blkbg.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m014/acquired/bib_gold2-blkbg.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-23T20:14:18.028Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "platinum album plaque 1980s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:22:12.436Z",
+  "updated_at": "2026-05-23T20:14:52.572Z"
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "m003",
+  "cue": 3,
+  "t_start": 12.59,
+  "t_end": 15.45,
+  "duration_sec": 2.86,
+  "spoken": "Fine, doesn't matter. Sit down, hear me out.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Pacing line — band in studio context, not furniture.",
+  "situation": "AC/DC entering recording studio or group walking corridor 1980",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "Bahamas",
+  "search_queries": [
+    "AC/DC Compass Point Studios 1980",
+    "AC/DC recording studio 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.956Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "sticker-fa67303a.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

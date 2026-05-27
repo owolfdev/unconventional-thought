@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "id": "m050",
+  "cue": 50,
+  "t_start": 154.29,
+  "t_end": 157.79,
+  "duration_sec": 3.5,
+  "spoken": "Just a few years before his death, Bond was in a motorcycle accident.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Bon Scott motorcycle accident period — historical photos of Bon on bike if available.",
+  "situation": "Bon Scott motorcycle 1970s",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1974",
+  "date_to": "1978",
+  "location": "",
+  "search_queries": [
+    "Bon Scott motorcycle",
+    "Bon Scott motorbike 1970s"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Bon Scott motorcycle accident period — historical photos of Bon on bike if available.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott motorcycle",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott motorbike 1970s",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.994Z",
+  "effects": [
+    "tremble",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "sticker-1e73279a.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

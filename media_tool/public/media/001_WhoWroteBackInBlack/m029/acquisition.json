@@ -1,0 +1,47 @@
+{
+  "id": "m029",
+  "cue": 29,
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "in_progress",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "Very convenient.",
+    "style": "bold font"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:sticker-7b57d8d3.png",
+          "url": "/media/001_WhoWroteBackInBlack/m029/acquired/sticker-7b57d8d3.png",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m029/acquired/sticker-7b57d8d3.png",
+          "title": "sticker-7b57d8d3.png",
+          "source_page": "/media/001_WhoWroteBackInBlack/m029/acquired/sticker-7b57d8d3.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: Rock Font similar to AC/DC logo: VERY CONVENIENT",
+          "selected_at": "2026-05-23T21:09:44.734Z"
+        }
+      ]
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-05-23T21:10:55.804Z"
+}

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "m090",
+  "cue": 90,
+  "t_start": 239.89,
+  "t_end": 240.47,
+  "duration_sec": 0.58,
+  "spoken": "That's bonds.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: single-word punctuation beat.",
+  "situation": "Generated text graphic (title)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "THAT'S BONDS",
+    "style": "minimal_white"
+  },
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.019Z",
+  "effects": [],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "giphy-3o6fJ8HKKgkICRwEjS.gif"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

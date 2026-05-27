@@ -1,0 +1,50 @@
+{
+  "id": "m069",
+  "cue": 69,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "tilt_left",
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Geordie band UK 1975",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-4eddf94e3387.jpeg",
+          "url": "/media/001_WhoWroteBackInBlack/m069/acquired/download-4eddf94e3387.jpeg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m069/acquired/download-4eddf94e3387.jpeg",
+          "title": "download-4eddf94e3387.jpeg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m069/acquired/download-4eddf94e3387.jpeg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-22T21:57:02.086Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Slade band 1973 live",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-23T23:42:28.186Z",
+  "updated_at": "2026-05-23T23:42:28.186Z"
+}

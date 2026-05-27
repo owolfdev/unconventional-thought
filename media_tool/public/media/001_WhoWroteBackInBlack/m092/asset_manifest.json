@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "m092",
+  "cue": 92,
+  "t_start": 244.91,
+  "t_end": 246.79,
+  "duration_sec": 1.88,
+  "spoken": "Where did it go after Back in Black?",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+  "situation": "Generated text graphic (transcription)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "Where did it go after Back in Black?",
+    "style": "typewriter"
+  },
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.020Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

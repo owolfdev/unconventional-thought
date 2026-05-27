@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "m121",
+  "cue": 121,
+  "t_start": 303.89,
+  "t_end": 306.39,
+  "duration_sec": 2.5,
+  "spoken": "No, there's only one explanation that makes sense.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Thesis restatement — strong Bon Scott live still.",
+  "situation": "Bon Scott AC/DC live performance 1979",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott AC/DC live 1979"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.036Z",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "sticker-7454bd61.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

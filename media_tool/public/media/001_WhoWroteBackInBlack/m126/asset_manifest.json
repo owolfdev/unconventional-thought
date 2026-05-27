@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "id": "m126",
+  "cue": 126,
+  "t_start": 315.65,
+  "t_end": 316.59,
+  "duration_sec": 0.94,
+  "spoken": "His actual voice.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+  "situation": "Bon Scott early career Australia 1970s",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1970",
+  "date_to": "1979",
+  "location": "Australia",
+  "search_queries": [
+    "Bon Scott 1974 photograph",
+    "Bon Scott Fraternity band 1970s",
+    "Bon Scott AC/DC early"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1974 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott Fraternity band 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott AC/DC early",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.039Z",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-dbf8054b9902.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

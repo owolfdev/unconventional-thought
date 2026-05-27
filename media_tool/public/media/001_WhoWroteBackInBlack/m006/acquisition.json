@@ -1,0 +1,60 @@
+{
+  "id": "m006",
+  "cue": 6,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "still image. no camera or push. type out each word one at a time. make the text really big. loose leading.",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": {
+    "type": "transcription",
+    "text": "Bon Scott wrote the lyrics on Back in Black.",
+    "style": "typewriter"
+  },
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott AC/DC portrait",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-18ca1121b377.jpeg",
+          "url": "/media/001_WhoWroteBackInBlack/m006/acquired/download-18ca1121b377.jpeg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m006/acquired/download-18ca1121b377.jpeg",
+          "title": "download-18ca1121b377.jpeg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m006/acquired/download-18ca1121b377.jpeg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-20T21:42:14.077Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott microphone on stage 1978",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott concert 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:21:40.222Z",
+  "updated_at": "2026-05-23T12:45:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "m072",
+  "cue": 72,
+  "t_start": 209.99,
+  "t_end": 210.79,
+  "duration_sec": 0.8,
+  "spoken": "Not even close.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
+  "situation": "Generated text graphic (quote)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "Not even close.",
+    "style": "minimal_white"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "Not even close.",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.008Z",
+  "effects": [],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

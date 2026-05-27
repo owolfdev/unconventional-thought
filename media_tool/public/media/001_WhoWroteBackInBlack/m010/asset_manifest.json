@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "id": "m010",
+  "cue": 10,
+  "t_start": 33.85,
+  "t_end": 35.67,
+  "duration_sec": 1.82,
+  "spoken": "The man has been dead for five months.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Bon Scott death — memorial, funeral, or documented public mourning.",
+  "situation": "Bon Scott funeral or public memorial February 1980 Australia",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist",
+      "date_died": "1980-02-19"
+    }
+  ],
+  "date_from": "1980-02",
+  "date_to": "1980-02",
+  "location": "Fremantle, Western Australia",
+  "search_queries": [
+    "Bon Scott funeral February 1980",
+    "Bon Scott memorial Fremantle 1980",
+    "Bon Scott death 1980 Australia"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Bon Scott death — memorial, funeral, or documented public mourning.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott funeral February 1980",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott memorial Fremantle 1980",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott death 1980 Australia",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.963Z",
+  "effects": [
+    "film_scratches",
+    "slow_zoom_out",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-b517fafd5bcf.jpg",
+    "download-b62db1cd5918.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "id": "m078",
+  "cue": 78,
+  "t_start": 224.29,
+  "t_end": 225.37,
+  "duration_sec": 1.08,
+  "spoken": "Hell's bells.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Song title — live performance moment same era.",
+  "situation": "AC/DC performing Hells Bells live early 1980s",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    },
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1980",
+  "date_to": "1982",
+  "location": "",
+  "search_queries": [
+    "AC/DC Hells Bells live 1981",
+    "AC/DC live 1980 stage bells"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Song title — live performance moment same era.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC Hells Bells live 1981",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC live 1980 stage bells",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.011Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-c43f565bd9d9.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

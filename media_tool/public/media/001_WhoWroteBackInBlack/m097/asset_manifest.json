@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "id": "m097",
+  "cue": 97,
+  "t_start": 253.65,
+  "t_end": 254.87,
+  "duration_sec": 1.22,
+  "spoken": "You shook me all night long.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Iconic song — AC/DC live energy (Bon era archive or early Brian era).",
+  "situation": "AC/DC live concert 1979 or 1981 crowd and stage",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1979",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "AC/DC live 1979 audience",
+    "AC/DC concert 1981"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Iconic song — AC/DC live energy (Bon era archive or early Brian era).",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC live 1979 audience",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC concert 1981",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.022Z",
+  "effects": [
+    "film_scratches",
+    "film_damage",
+    "shake",
+    "tilt_left"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "sticker-deae3012.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

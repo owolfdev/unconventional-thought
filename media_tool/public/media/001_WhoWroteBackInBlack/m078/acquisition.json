@@ -1,0 +1,49 @@
+{
+  "id": "m078",
+  "cue": 78,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "in_progress",
+  "notes": "show the entire vertical size of image center in video frame. dont crop",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC Hells Bells live 1981",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-c43f565bd9d9.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m078/acquired/download-c43f565bd9d9.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m078/acquired/download-c43f565bd9d9.jpg",
+          "title": "download-c43f565bd9d9.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m078/acquired/download-c43f565bd9d9.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-22T22:18:34.557Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC live 1980 stage bells",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-05-22T22:19:40.732Z"
+}

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "id": "m071",
+  "cue": 71,
+  "t_start": 207.25,
+  "t_end": 209.45,
+  "duration_sec": 2.2,
+  "spoken": "But it is not how Bond Scott wrote.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "Bon Scott historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "Bon Scott 1979 photograph",
+    "Bon Scott AC/DC 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1979 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott AC/DC 1980",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.007Z",
+  "effects": [
+    "film_grain",
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-8af648b79dce.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

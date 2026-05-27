@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "id": "m009",
+  "cue": 9,
+  "t_start": 31.21,
+  "t_end": 33.39,
+  "duration_sec": 2.18,
+  "spoken": "Let's look at the facts. It's 1980.",
+  "visual_mode": "stock",
+  "expected_media_type": "photo",
+  "editorial_intent": "Year anchor — period news or studio dated 1980.",
+  "situation": "1980 music press or studio session dated 1980",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "",
+  "search_queries": [
+    "AC/DC 1980 studio",
+    "music magazine 1980 rock"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Year anchor — period news or studio dated 1980.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC 1980 studio",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: music magazine 1980 rock",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.962Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "Pac-Man-589b45ce5f9b5874eef15b58.webp",
+    "sticker-09450726.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

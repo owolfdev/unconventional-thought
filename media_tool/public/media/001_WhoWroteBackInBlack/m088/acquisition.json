@@ -1,0 +1,32 @@
+{
+  "id": "m088",
+  "cue": 88,
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "",
+  "effects": [],
+  "transition": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "That point of view.",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "bon scott",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-23T23:58:49.056Z",
+  "updated_at": "2026-05-23T23:58:49.056Z"
+}

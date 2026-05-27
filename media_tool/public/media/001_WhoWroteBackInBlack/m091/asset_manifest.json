@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "id": "m091",
+  "cue": 91,
+  "t_start": 241.19,
+  "t_end": 244.39,
+  "duration_sec": 3.2,
+  "spoken": "If that was Brian Johnson's, what happened to that genius?",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "Brian Johnson historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "Brian Johnson 1979 photograph",
+    "Brian Johnson AC/DC 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.019Z",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "sticker-8a8de823.png",
+    "sticker-d4c886e9.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

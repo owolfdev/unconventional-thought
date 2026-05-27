@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "id": "m117",
+  "cue": 117,
+  "t_start": 292.29,
+  "t_end": 294.75,
+  "duration_sec": 2.46,
+  "spoken": "Maybe Brian Johnson also had a near-death experience",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "Brian Johnson historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "Brian Johnson 1979 photograph",
+    "Brian Johnson AC/DC 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Brian Johnson 1979 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Brian Johnson AC/DC 1980",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.034Z",
+  "effects": [
+    "film_scratches",
+    "slow_zoom_out",
+    "vignette_heavy"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-6d2660df2d64.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

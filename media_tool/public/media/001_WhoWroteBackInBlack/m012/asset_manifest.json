@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "id": "m012",
+  "cue": 12,
+  "t_start": 37.57,
+  "t_end": 42.53,
+  "duration_sec": 4.96,
+  "spoken": "And his band, his grief-stricken shell-shocked, everybody expected them to fold band,",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Band after Bon — Brian Johnson era begins; group in studio 1980.",
+  "situation": "AC/DC with Brian Johnson recording Back in Black 1980",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    },
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "Nassau, Bahamas",
+  "search_queries": [
+    "AC/DC Brian Johnson studio 1980",
+    "AC/DC Compass Point Studios Brian Johnson 1980",
+    "Brian Johnson AC/DC recording 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Band after Bon — Brian Johnson era begins; group in studio 1980.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC Brian Johnson studio 1980",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC Compass Point Studios Brian Johnson 1980",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Brian Johnson AC/DC recording 1980",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.965Z",
+  "effects": [
+    "film_damage",
+    "slow_zoom_out",
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "angus_malcolm.jpg",
+    "download-6b0001eaf65d.bin"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

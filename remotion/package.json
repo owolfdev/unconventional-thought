@@ -1,0 +1,27 @@
+{
+  "name": "who-wrote-back-in-black-remotion",
+  "private": true,
+  "scripts": {
+    "build:timeline": "python3 ../tools/build_remotion_timeline.py --episode 001_WhoWroteBackInBlack --max m140",
+    "dev": "npm run build:timeline && remotion studio",
+    "render:preview": "npm run build:timeline && remotion render EpisodePreview out/preview-m140.mp4",
+    "render:preview:low": "npm run build:timeline && remotion render EpisodePreview out/preview-m140.mp4 --scale=0.5 --concurrency=2",
+    "render:open": "npm run build:timeline && node scripts/render-cues.mjs m000 m001",
+    "render:open:full": "npm run build:timeline && node scripts/render-cues.mjs m000 m001 --full",
+    "render:cue": "npm run build:timeline && node scripts/render-cue.mjs",
+    "render:cues": "npm run build:timeline && node scripts/render-cues.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.286",
+    "@remotion/gif": "^4.0.286",
+    "@remotion/media-utils": "^4.0.286",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.286",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "typescript": "^5.7.3"
+  }
+}

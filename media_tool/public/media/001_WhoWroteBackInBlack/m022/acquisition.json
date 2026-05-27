@@ -1,0 +1,51 @@
+{
+  "id": "m022",
+  "cue": 22,
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "make sure the entire image spins not the parent of the image at video resolution. need the whole square image to spin within the parent so that there are no black parts. ",
+  "effects": [
+    "slow_spin",
+    "film_scratches",
+    "slow_zoom_out"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Back in Black vinyl 1980",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:bib-record.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m022/acquired/bib-record.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m022/acquired/bib-record.jpg",
+          "title": "bib-record.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m022/acquired/bib-record.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-23T20:59:18.497Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "rock album LP sleeve Atlantic",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-05-23T20:59:18.497Z"
+}

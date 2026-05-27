@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "id": "m137",
+  "cue": 137,
+  "t_start": 343.35,
+  "t_end": 345.23,
+  "duration_sec": 1.88,
+  "spoken": "Yes, I know Brian Johnson is incredible.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Acknowledgment — Brian interview or live still.",
+  "situation": "Brian Johnson interview or live 1980s",
+  "people": [
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1980",
+  "date_to": "1990",
+  "location": "",
+  "search_queries": [
+    "Brian Johnson interview 1980s",
+    "Brian Johnson AC/DC live"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Acknowledgment — Brian interview or live still.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Brian Johnson interview 1980s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Brian Johnson AC/DC live",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.046Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-742cbcd0d3bf.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "built_at": "2026-05-27T23:36:18.341945+00:00",
+  "episode": "001_WhoWroteBackInBlack",
+  "max_id": "m001",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 266,
+  "audioSrc": "audio/master/who_wrote_back_in_black.mp3",
+  "showCueOverlay": false,
+  "shots": [
+    {
+      "id": "m000",
+      "cue": 0,
+      "fromFrame": 0,
+      "durationInFrames": 60,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 0.0,
+      "tEnd": 2.0,
+      "spoken": "",
+      "notes": "font size XL. start early.",
+      "visualMode": "stock",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "vignette_heavy"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "The Unconventional Thought",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": "media/001_WhoWroteBackInBlack/m000/acquired/download-473d7cc0fac3.jpg",
+      "mediaKind": "image",
+      "overlaySrc": null,
+      "overlays": [],
+      "missingMedia": false,
+      "stickerSrc": "media/001_WhoWroteBackInBlack/m000/acquired/sticker-11845c08.png",
+      "stickerMaxPercent": 62
+    },
+    {
+      "id": "m001",
+      "cue": 1,
+      "fromFrame": 13,
+      "durationInFrames": 223,
+      "mediaDelayFrames": 47,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 0.43,
+      "tEnd": 7.87,
+      "spoken": "Ladies and gentlemen of the jury, I'm gonna make a slightly controversial case here about the most beloved AC DC album in history.",
+      "notes": "bring image in a few seconds later.",
+      "visualMode": "artifact",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": "media/001_WhoWroteBackInBlack/m001/acquired/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 423.419,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    }
+  ],
+  "stats": {
+    "shot_count": 2,
+    "missing_media": 0,
+    "end_sec": 7.87
+  }
+}

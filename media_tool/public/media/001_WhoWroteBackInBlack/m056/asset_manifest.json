@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "m056",
+  "cue": 56,
+  "t_start": 170.25,
+  "t_end": 171.29,
+  "duration_sec": 1.04,
+  "spoken": "We'll come back to that later.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: intertitle on film grain/black — breaks redundancy; no new archive photo needed.",
+  "situation": "Generated text graphic (intertitle)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "intertitle",
+    "text": "We'll come back to that later.",
+    "style": "typewriter"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "We'll come back to that later.",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.998Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

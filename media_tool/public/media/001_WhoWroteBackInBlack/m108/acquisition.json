@@ -1,0 +1,47 @@
+{
+  "id": "m108",
+  "cue": 108,
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "text_graphic",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "film_grain"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "Tells people privately.",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:giphy-QR9TcUo31aGNq.gif",
+          "url": "/media/001_WhoWroteBackInBlack/m108/acquired/giphy-QR9TcUo31aGNq.gif",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m108/acquired/giphy-QR9TcUo31aGNq.gif",
+          "title": "giphy-QR9TcUo31aGNq.gif",
+          "source_page": "/media/001_WhoWroteBackInBlack/m108/acquired/giphy-QR9TcUo31aGNq.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: tori amos confession GIF",
+          "selected_at": "2026-05-22T23:13:37.094Z"
+        }
+      ]
+    }
+  ],
+  "completed_at": "2026-05-22T23:14:02.485Z",
+  "updated_at": "2026-05-24T20:49:29.103Z"
+}

@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "id": "m068",
+  "cue": 68,
+  "t_start": 201.67,
+  "t_end": 202.35,
+  "duration_sec": 0.68,
+  "spoken": "There's no wink.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: guitar amplifier knobs",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "guitar amplifier knobs close up",
+    "Marshall amplifier vintage"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "guitar amplifier knobs",
+    "story_link": "Rock backline",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.005Z",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "sticker-11fc5d68.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

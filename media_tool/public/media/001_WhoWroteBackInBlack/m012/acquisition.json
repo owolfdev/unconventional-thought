@@ -1,0 +1,58 @@
+{
+  "id": "m012",
+  "cue": 12,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_damage",
+    "slow_zoom_out",
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC 1980 interview",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:angus_malcolm.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m012/acquired/angus_malcolm.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m012/acquired/angus_malcolm.jpg",
+          "title": "angus_malcolm.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m012/acquired/angus_malcolm.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-19T21:27:11.494Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC Compass Point Studios Brian Johnson 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Brian Johnson AC/DC recording 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-19T21:27:14.530Z",
+  "updated_at": "2026-05-23T20:03:50.203Z"
+}

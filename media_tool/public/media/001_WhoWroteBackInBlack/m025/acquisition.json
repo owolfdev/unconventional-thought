@@ -1,0 +1,50 @@
+{
+  "id": "m025",
+  "cue": 25,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "slow_zoom_out"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "mixing board acdc 1980",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-1c183cc5df51.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m025/acquired/download-1c183cc5df51.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m025/acquired/download-1c183cc5df51.jpg",
+          "title": "download-1c183cc5df51.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m025/acquired/download-1c183cc5df51.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-19T21:52:46.582Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC 1980 press photo band",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:22:27.642Z",
+  "updated_at": "2026-05-20T21:22:27.642Z"
+}

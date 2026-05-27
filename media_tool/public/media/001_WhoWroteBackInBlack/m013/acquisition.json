@@ -1,0 +1,57 @@
+{
+  "id": "m013",
+  "cue": 13,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC Brian Johnson studio 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+          "url": "/media/001_WhoWroteBackInBlack/m013/acquired/4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m013/acquired/4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+          "title": "4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+          "source_page": "/media/001_WhoWroteBackInBlack/m013/acquired/4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-19T21:28:20.914Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC Compass Point Studios Brian Johnson 1980",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Brian Johnson AC/DC recording 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:31:15.298Z",
+  "updated_at": "2026-05-20T21:31:15.298Z"
+}

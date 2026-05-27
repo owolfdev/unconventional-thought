@@ -1,0 +1,54 @@
+{
+  "id": "m037",
+  "cue": 37,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott smiling live 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-7f7935ff1588.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m037/acquired/download-7f7935ff1588.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m037/acquired/download-7f7935ff1588.jpg",
+          "title": "download-7f7935ff1588.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m037/acquired/download-7f7935ff1588.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-23T22:45:14.016Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott laughing interview photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott cheeky grin AC/DC",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-05-23T22:45:14.017Z"
+}

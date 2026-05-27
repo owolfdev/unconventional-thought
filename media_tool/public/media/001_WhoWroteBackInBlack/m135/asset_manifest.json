@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "id": "m135",
+  "cue": 135,
+  "t_start": 338.35,
+  "t_end": 340.09,
+  "duration_sec": 1.74,
+  "spoken": "Render your verdict in the comments.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
+  "situation": "Generated text graphic (quote)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "Render your verdict in the comments.",
+    "style": "minimal_white"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "Render your verdict in the comments.",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.045Z",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "m035",
+  "cue": 35,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "make this image black and white. desaturate. ",
+  "effects": [
+    "tilt_right",
+    "film_scratches",
+    "film_damage",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott AC/DC live stage gesture 1979",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-4003c1f1e508.jpeg",
+          "url": "/media/001_WhoWroteBackInBlack/m035/acquired/download-4003c1f1e508.jpeg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m035/acquired/download-4003c1f1e508.jpeg",
+          "title": "download-4003c1f1e508.jpeg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m035/acquired/download-4003c1f1e508.jpeg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-19T22:31:54.218Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott animated performance photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott backstage talking 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:28:46.170Z",
+  "updated_at": "2026-05-23T22:32:18.332Z"
+}

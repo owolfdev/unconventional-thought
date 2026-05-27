@@ -1,0 +1,38 @@
+{
+  "_comment": "Copy to timeline/voicecut_overrides.json. Build: python3 tools/voicecut.py build transcript/who_wrote_back_in_black.srt timeline/who_wrote_back_in_black.voicecut.srt --overrides timeline/voicecut_overrides.json",
+  "26": {
+    "media": { "kind": "image", "ref": "brian-johnson-newspaper.jpg" },
+    "effects": ["film_grain", "slow_zoom", "tilt_right"],
+    "transition": "none",
+    "notes": "Tabloid / audition headline energy; no modern tabloid UI chrome.",
+    "prompt": "1980 UK newspaper stack macro, headline about new singer audition, yellow newsprint, shallow DOF, documentary grain"
+  },
+  "27": {
+    "media": { "kind": "image", "ref": "brian-johnson-geordie.jpg" },
+    "effects": ["film_grain", "slow_zoom", "tilt_left"],
+    "transition": "broken_film",
+    "notes": "Geordie-era band photo or LP sleeve; generic 70s rock look OK.",
+    "prompt": null
+  },
+  "28": {
+    "media": { "kind": "image", "ref": "lyrics-on-legal-pad.jpg" },
+    "effects": ["film_grain", "slow_scroll_up"],
+    "transition": "flame",
+    "notes": "Handwriting illegible or neutral filler lines; avoid quoting real unreleased lyrics.",
+    "prompt": "Close-up legal pad, pencil, slow upward scroll, warm desk lamp, film grain"
+  },
+  "29": {
+    "media": { "kind": "video", "ref": "audience-laughing.mp4" },
+    "effects": ["film_grain", "tilt_right"],
+    "transition": "film_burn",
+    "notes": "Faceless crowd silhouette preferred.",
+    "prompt": null
+  },
+  "30": {
+    "media": { "kind": "image", "ref": "bon-scott.jpg" },
+    "effects": ["film_grain", "slow_zoom"],
+    "transition": "none",
+    "notes": "Rights-cleared live or press still only.",
+    "prompt": "1970s rock vocalist live, tight on mic, stage smoke, tungsten, documentary photograph"
+  }
+}

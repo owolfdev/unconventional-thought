@@ -1,0 +1,47 @@
+{
+  "id": "m100",
+  "cue": 100,
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "You'd be chasing that your whole career.",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:giphy-dIT3fPGfXrfZ6.gif",
+          "url": "/media/001_WhoWroteBackInBlack/m100/acquired/giphy-dIT3fPGfXrfZ6.gif",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m100/acquired/giphy-dIT3fPGfXrfZ6.gif",
+          "title": "giphy-dIT3fPGfXrfZ6.gif",
+          "source_page": "/media/001_WhoWroteBackInBlack/m100/acquired/giphy-dIT3fPGfXrfZ6.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: chasing GIF",
+          "selected_at": "2026-05-22T23:06:51.192Z"
+        }
+      ]
+    }
+  ],
+  "completed_at": "2026-05-22T23:07:13.135Z",
+  "updated_at": "2026-05-24T00:25:58.812Z"
+}

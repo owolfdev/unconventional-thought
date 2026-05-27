@@ -1,0 +1,49 @@
+{
+  "id": "m137",
+  "cue": 137,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Brian Johnson interview 1980s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-742cbcd0d3bf.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m137/acquired/download-742cbcd0d3bf.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m137/acquired/download-742cbcd0d3bf.jpg",
+          "title": "download-742cbcd0d3bf.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m137/acquired/download-742cbcd0d3bf.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-23T00:38:40.840Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Brian Johnson AC/DC live",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-23T00:38:50.131Z",
+  "updated_at": "2026-05-23T00:38:50.131Z"
+}

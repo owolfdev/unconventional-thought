@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "id": "m058",
+  "cue": 58,
+  "t_start": 173.71,
+  "t_end": 174.89,
+  "duration_sec": 1.18,
+  "spoken": "Love the man, genuinely.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: vinyl record on turntable",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "vinyl record spinning turntable 1970s",
+    "LP record needle drop"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "vinyl record on turntable",
+    "story_link": "Rock album culture",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.000Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "giphy-jWRnA7aBoUOvsiAzJB.gif"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

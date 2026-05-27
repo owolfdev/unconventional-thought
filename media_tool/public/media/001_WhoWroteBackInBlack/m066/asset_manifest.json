@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "id": "m066",
+  "cue": 66,
+  "t_start": 198.87,
+  "t_end": 199.63,
+  "duration_sec": 0.76,
+  "spoken": "It could be anyone.",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: electric guitar body close-up",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "electric guitar body close up sunburst",
+    "Gibson SG guitar detail"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "electric guitar body close-up",
+    "story_link": "Rock instrumentation",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: electric guitar body close up sunburst",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Gibson SG guitar detail",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.004Z",
+  "effects": [
+    "film_scratches",
+    "film_damage",
+    "slow_push_in",
+    "tilt_left"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-36a245fbf4d4.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

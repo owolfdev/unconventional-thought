@@ -1,0 +1,32 @@
+{
+  "id": "m105",
+  "cue": 105,
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "",
+  "effects": [],
+  "transition": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "I told you to hold on to that.",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-22T23:11:55.659Z",
+  "updated_at": "2026-05-22T23:11:55.659Z"
+}

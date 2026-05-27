@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "m102",
+  "cue": 102,
+  "t_start": 266.85,
+  "t_end": 268.53,
+  "duration_sec": 1.68,
+  "spoken": "I'm just asking questions here.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
+  "situation": "Generated text graphic (quote)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "I'm just asking questions here.",
+    "style": "minimal_white"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "I'm just asking questions here.",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.026Z",
+  "effects": [
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

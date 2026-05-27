@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unconventionalthought.local/voicecut-directive",
+  "title": "Voicecut cue directive",
+  "description": "Optional JSON line after each SRT subtitle block in .voicecut.srt files.",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "media": {
+      "description": "Still, clip, or procedural / function call.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["kind"],
+          "properties": {
+            "kind": {
+              "enum": ["image", "video", "call", "text"],
+              "description": "call = procedural; text = typography / transcription (see fn or ref)"
+            },
+            "ref": {
+              "type": "string",
+              "description": "Filename or path under episode media/, e.g. brian-johnson-newspaper.jpg"
+            },
+            "fn": {
+              "type": "string",
+              "description": "When kind=call: function id, e.g. animated_title, ken_burns_stack"
+            },
+            "args": {
+              "type": "object",
+              "description": "Arbitrary parameters for fn (text, font, duration, etc.)"
+            }
+          }
+        }
+      ]
+    },
+    "effects": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Stack of look modifiers: film_grain, halftone, slow_zoom, slow_spin, tilt_left, tilt_right, slow_scroll_up, vignette, ..."
+    },
+    "transition": {
+      "oneOf": [
+        { "type": "null" },
+        { "type": "string", "description": "e.g. none, film_burn, broken_film, flame, light_leak" }
+      ]
+    },
+    "notes": {
+      "oneOf": [{ "type": "null" }, { "type": "string" }],
+      "description": "Human-facing: continuity, framing, legal, mood, or edit reminders (not sent to generative APIs unless you choose to)."
+    },
+    "prompt": {
+      "oneOf": [{ "type": "null" }, { "type": "string" }],
+      "description": "Optional full instruction for an LLM / image-video model / procedural renderer when media.kind is call or when sourcing is TBD."
+    }
+  }
+}

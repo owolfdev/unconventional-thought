@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "id": "m051",
+  "cue": 51,
+  "t_start": 158.11,
+  "t_end": 158.93,
+  "duration_sec": 0.82,
+  "spoken": "Nearly kills him.",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: concert ticket stub vintage",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "vintage concert ticket stub",
+    "rock concert ticket 1970s"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "concert ticket stub vintage",
+    "story_link": "Live music culture",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: vintage concert ticket stub",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: rock concert ticket 1970s",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.995Z",
+  "effects": [
+    "film_scratches",
+    "tilt_left",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-872ce405e658.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

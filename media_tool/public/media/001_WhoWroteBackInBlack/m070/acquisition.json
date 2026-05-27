@@ -1,0 +1,37 @@
+{
+  "id": "m070",
+  "cue": 70,
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "vintage concert ticket stub",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 1,
+      "query": "rock concert ticket 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-23T23:42:32.332Z",
+  "updated_at": "2026-05-23T23:42:32.332Z"
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "m108",
+  "cue": 108,
+  "t_start": 276.69,
+  "t_end": 278.35,
+  "duration_sec": 1.66,
+  "spoken": "Tells people close to him privately.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+  "situation": "Generated text graphic (transcription)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "Tells people privately.",
+    "style": "typewriter"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "Tells people privately.",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.029Z",
+  "effects": [
+    "film_scratches",
+    "film_grain"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "giphy-QR9TcUo31aGNq.gif"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

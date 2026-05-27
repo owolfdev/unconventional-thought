@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "m099",
+  "cue": 99,
+  "t_start": 258.99,
+  "t_end": 259.91,
+  "duration_sec": 0.92,
+  "spoken": "You'd at least try.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+  "situation": "Generated text graphic (transcription)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "You'd at least try.",
+    "style": "typewriter"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "You'd at least try.",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.024Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

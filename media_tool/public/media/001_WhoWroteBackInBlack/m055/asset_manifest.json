@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "id": "m055",
+  "cue": 55,
+  "t_start": 166.83,
+  "t_end": 169.97,
+  "duration_sec": 3.14,
+  "spoken": "His words, private, personal, filed away.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "His words...",
+    "style": "typewriter"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "His words...",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.997Z",
+  "effects": [
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "m093",
+  "cue": 93,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "slow_zoom_out",
+    "tilt_right"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC For Those About to Rock 1981",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:ftatr.jpeg",
+          "url": "/media/001_WhoWroteBackInBlack/m093/acquired/ftatr.jpeg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m093/acquired/ftatr.jpeg",
+          "title": "ftatr.jpeg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m093/acquired/ftatr.jpeg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-22T22:45:36.784Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC Fly on the Wall 1985",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Brian Johnson 1980s live",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-22T22:46:06.467Z",
+  "updated_at": "2026-05-22T22:47:26.149Z"
+}

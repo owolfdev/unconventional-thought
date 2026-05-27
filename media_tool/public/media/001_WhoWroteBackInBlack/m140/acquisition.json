@@ -1,0 +1,28 @@
+{
+  "id": "m140",
+  "cue": 140,
+  "source_visual_mode": "effect_only",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "black tail — no VO, silence after master audio ends",
+  "effects": [],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": false,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "(effect only — black plate)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-24T21:00:00.000Z",
+  "updated_at": "2026-05-24T21:00:00.000Z"
+}

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "m011",
+  "cue": 11,
+  "t_start": 36.37,
+  "t_end": 36.77,
+  "duration_sec": 0.4,
+  "spoken": "Five.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: audio cassette tape",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "cassette tape vintage 1980",
+    "audio cassette close up"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "audio cassette tape",
+    "story_link": "Pre-digital era",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "extruded rock poster text. colorful bold big text.",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.964Z",
+  "effects": [],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "sticker-b3800530.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

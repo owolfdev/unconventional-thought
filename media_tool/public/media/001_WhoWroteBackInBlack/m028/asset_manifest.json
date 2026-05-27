@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "m028",
+  "cue": 28,
+  "t_start": 86.87,
+  "t_end": 91.13,
+  "duration_sec": 4.26,
+  "spoken": "Goes in for an audition and just writes the lyrics that save the entire band.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Artifact beat: handwritten lyrics legal pad — story-linked inanimate; prefer no faces, tight macro or detail.",
+  "situation": "Inanimate: handwritten lyrics legal pad",
+  "people": [],
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "",
+  "search_queries": [
+    "handwritten lyrics paper legal pad",
+    "songwriting notebook pencil"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "handwritten lyrics legal pad",
+    "story_link": "Audition / writing beat",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Artifact beat: handwritten lyrics legal pad — story-linked inanimate; prefer no faces, tight macro or detail.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: handwritten lyrics paper legal pad",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: songwriting notebook pencil",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.980Z",
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

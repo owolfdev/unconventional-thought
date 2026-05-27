@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "id": "m042",
+  "cue": 42,
+  "t_start": 129.47,
+  "t_end": 133.87,
+  "duration_sec": 4.4,
+  "spoken": "That's a guy describing his actual lifestyle with zero apology and a grin.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+  "situation": "Bon Scott early career Australia 1970s",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1970",
+  "date_to": "1979",
+  "location": "Australia",
+  "search_queries": [
+    "Bon Scott 1974 photograph",
+    "Bon Scott Fraternity band 1970s",
+    "Bon Scott AC/DC early"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1974 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott Fraternity band 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott AC/DC early",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.989Z",
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "bon-scott-middle-finger2.jpg",
+    "download-82a5e302aea3.bin",
+    "witty-bon.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

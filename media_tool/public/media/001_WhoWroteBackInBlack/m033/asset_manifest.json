@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "id": "m033",
+  "cue": 33,
+  "t_start": 101.51,
+  "t_end": 102.25,
+  "duration_sec": 0.74,
+  "spoken": "You've got the narrator.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "First-person lyric voice — Bon addressing crowd, mic in hand, direct presence.",
+  "situation": "Bon Scott addressing audience or press 1978-1979",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott microphone addressing crowd 1979",
+    "Bon Scott press interview speaking 1978",
+    "Bon Scott live talking to audience"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.983Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "sticker-dcd87224.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

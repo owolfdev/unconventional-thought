@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "m000",
+  "cue": 0,
+  "t_start": 0,
+  "t_end": 2,
+  "duration_sec": 2,
+  "spoken": "",
+  "visual_mode": "stock",
+  "expected_media_type": "photo",
+  "editorial_intent": "Channel id on black + film grain before cold open (m001).",
+  "situation": "Generated text graphic (transcription)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "The Unconventional Thought",
+    "style": "typewriter"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "The Unconventional Thought",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.953Z",
+  "effects": [
+    "vignette_heavy"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-473d7cc0fac3.jpg",
+    "giphy-3ohhwiLsBJcRdGMM6c.gif",
+    "sticker-11845c08.png",
+    "sticker-1b31b89c.png",
+    "sticker-84c822fe.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

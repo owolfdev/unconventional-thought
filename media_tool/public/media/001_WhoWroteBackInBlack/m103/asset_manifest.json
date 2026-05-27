@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "id": "m103",
+  "cue": 103,
+  "t_start": 269.33,
+  "t_end": 269.81,
+  "duration_sec": 0.48,
+  "spoken": "Okay.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: single-word punctuation beat.",
+  "situation": "Generated text graphic (title)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "OKAY",
+    "style": "minimal_white"
+  },
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.026Z",
+  "effects": [
+    "tremble",
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "sticker-c79a4f74.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

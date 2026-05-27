@@ -1,0 +1,49 @@
+{
+  "id": "m047",
+  "cue": 47,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "small",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC 1979 live concert photograph",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:giphy-117P9MlBvxqSBi.gif",
+          "url": "/media/001_WhoWroteBackInBlack/m047/acquired/giphy-117P9MlBvxqSBi.gif",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m047/acquired/giphy-117P9MlBvxqSBi.gif",
+          "title": "giphy-117P9MlBvxqSBi.gif",
+          "source_page": "/media/001_WhoWroteBackInBlack/m047/acquired/giphy-117P9MlBvxqSBi.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: keanu reeves woah face GIF",
+          "selected_at": "2026-05-24T20:16:11.151Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC 1980 press photo band",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-22T21:19:44.931Z",
+  "updated_at": "2026-05-24T20:18:05.100Z"
+}

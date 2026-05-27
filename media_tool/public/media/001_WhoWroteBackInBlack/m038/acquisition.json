@@ -1,0 +1,60 @@
+{
+  "id": "m038",
+  "cue": 38,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "Big bold font. display the text in sync. each comma separated block, separately. Animated. ",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "Clever rhymes, double entendres, puns, tongue firmly, planted in cheek, half the time.",
+    "style": "bold font"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott wink live performance AC/DC",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:funny bon.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m038/acquired/funny%20bon.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m038/acquired/funny%20bon.jpg",
+          "title": "funny bon.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m038/acquired/funny%20bon.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-20T21:51:09.195Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott playful stage expression 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott Big Balls live 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-22T21:19:16.798Z",
+  "updated_at": "2026-05-22T21:19:16.798Z"
+}

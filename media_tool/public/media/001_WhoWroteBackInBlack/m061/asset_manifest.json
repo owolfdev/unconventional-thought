@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "id": "m061",
+  "cue": 61,
+  "t_start": 184.25,
+  "t_end": 185.91,
+  "duration_sec": 1.66,
+  "spoken": "But go listen to Jordy.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Geordie era comparison.",
+  "situation": "Geordie band promotional photo 1970s",
+  "people": [
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    },
+    {
+      "name": "Geordie",
+      "role": "band"
+    }
+  ],
+  "date_from": "1973",
+  "date_to": "1978",
+  "location": "",
+  "search_queries": [
+    "Geordie band 1975",
+    "Brian Johnson Geordie"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Geordie era comparison.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Geordie band 1975",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Brian Johnson Geordie",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.001Z",
+  "effects": [
+    "film_scratches",
+    "tilt_left",
+    "slow_zoom_out"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "geordie-records.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

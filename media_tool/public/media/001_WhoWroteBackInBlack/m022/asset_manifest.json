@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "id": "m022",
+  "cue": 22,
+  "t_start": 69.71,
+  "t_end": 71.55,
+  "duration_sec": 1.84,
+  "spoken": "Five months later, they release Back in Black.",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
+  "editorial_intent": "Artifact beat: vinyl LP record — story-linked inanimate; prefer no faces, tight macro or detail.",
+  "situation": "Inanimate: vinyl LP record",
+  "people": [],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "Back in Black vinyl 1980",
+    "rock album LP sleeve Atlantic"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "vinyl LP record",
+    "story_link": "Album release 1980",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Artifact beat: vinyl LP record — story-linked inanimate; prefer no faces, tight macro or detail.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Back in Black vinyl 1980",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: rock album LP sleeve Atlantic",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.976Z",
+  "effects": [
+    "slow_spin",
+    "film_scratches",
+    "slow_zoom_out"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "bib-record.jpg",
+    "download-398be3dd6abd.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

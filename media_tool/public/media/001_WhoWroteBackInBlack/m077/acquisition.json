@@ -1,0 +1,49 @@
+{
+  "id": "m077",
+  "cue": 77,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "show the entire vertical size of image center in video frame. dont crop",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC Back in Black single",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:_single_bib.jpeg",
+          "url": "/media/001_WhoWroteBackInBlack/m077/acquired/_single_bib.jpeg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m077/acquired/_single_bib.jpeg",
+          "title": "_single_bib.jpeg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m077/acquired/_single_bib.jpeg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-22T22:17:22.798Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC live 1981 Brian Johnson",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-22T22:17:39.956Z",
+  "updated_at": "2026-05-22T22:19:48.629Z"
+}

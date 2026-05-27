@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "m067",
+  "cue": 67,
+  "t_start": 199.85,
+  "t_end": 201.03,
+  "duration_sec": 1.18,
+  "spoken": "There's no wit underneath.",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: vintage microphone on stand",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "vintage microphone SM58 stand",
+    "stage microphone close up 1970s"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "vintage microphone on stand",
+    "story_link": "Vocal performance object",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: vintage microphone SM58 stand",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: stage microphone close up 1970s",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.005Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "giphy-1Zbeweu52ZaQE.gif",
+    "giphy-h4Z6RfuQycdiM.gif"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

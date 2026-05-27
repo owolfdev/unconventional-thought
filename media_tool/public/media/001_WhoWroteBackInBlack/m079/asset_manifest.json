@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "id": "m079",
+  "cue": 79,
+  "t_start": 225.73,
+  "t_end": 227.17,
+  "duration_sec": 1.44,
+  "spoken": "Let me put my love into you.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: vinyl record on turntable",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "vinyl record spinning turntable 1970s",
+    "LP record needle drop"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "vinyl record on turntable",
+    "story_link": "Rock album culture",
+    "media_preference": "photo"
+  },
+  "text_graphic": {
+    "type": "transcription",
+    "text": "Let me put my love into you.",
+    "style": "serif font"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "Let me put my love into you.",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.011Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

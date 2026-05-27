@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "id": "m133",
+  "cue": 133,
+  "t_start": 334.79,
+  "t_end": 336.61,
+  "duration_sec": 1.82,
+  "spoken": "Bond Scott was at the scene.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Closing metaphor — return to definitive Bon live image, NOT forensic stock.",
+  "situation": "Bon Scott live on stage definitive photograph 1979",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1979",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott AC/DC live 1979 full stage"
+  ],
+  "avoid": [
+    "fingerprint macro",
+    "crime scene",
+    "courtroom"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Closing metaphor — return to definitive Bon live image, NOT forensic stock.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott AC/DC live 1979 full stage",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.044Z",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "bonscott_onstage-1.jpg",
+    "bonscott_onstage.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

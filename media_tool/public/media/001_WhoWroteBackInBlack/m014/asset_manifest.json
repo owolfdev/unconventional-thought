@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "m014",
+  "cue": 14,
+  "t_start": 49.45,
+  "t_end": 51.03,
+  "duration_sec": 1.58,
+  "spoken": "50 million copies.",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
+  "editorial_intent": "Artifact: sales award object — tight on disc/plaque, not band portrait.",
+  "situation": "Inanimate: gold / platinum award disc",
+  "people": [],
+  "date_from": "1980",
+  "date_to": "1982",
+  "location": "",
+  "search_queries": [
+    "gold record award disc close up",
+    "platinum album plaque 1980s"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "gold / platinum award disc",
+    "story_link": "Back in Black sales milestone",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Artifact: sales award object — tight on disc/plaque, not band portrait.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: gold record award disc close up",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: platinum album plaque 1980s",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.967Z",
+  "effects": [
+    "slow_spin",
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "bib_gold2-blkbg.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

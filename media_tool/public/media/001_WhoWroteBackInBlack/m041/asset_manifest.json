@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "id": "m041",
+  "cue": 41,
+  "t_start": 128.35,
+  "t_end": 129.31,
+  "duration_sec": 0.96,
+  "spoken": "That's a confessional.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Confessional lyric — intimate Bon portrait (bar, backstage, tired truth-teller).",
+  "situation": "Bon Scott intimate candid portrait 1970s",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1976",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott bar candid 1970s",
+    "Bon Scott backstage portrait intimate",
+    "Bon Scott Australia candid photograph"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.988Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "sticker-d168de49.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

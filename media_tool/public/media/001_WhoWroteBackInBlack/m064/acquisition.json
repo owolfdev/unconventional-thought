@@ -1,0 +1,49 @@
+{
+  "id": "m064",
+  "cue": 64,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC 1979 live concert photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:sticker-edcba964.png",
+          "url": "/media/001_WhoWroteBackInBlack/m064/acquired/sticker-edcba964.png",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m064/acquired/sticker-edcba964.png",
+          "title": "sticker-edcba964.png",
+          "source_page": "/media/001_WhoWroteBackInBlack/m064/acquired/sticker-edcba964.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: render a 70s 3D extruded font: Good Songs!",
+          "selected_at": "2026-05-22T21:44:47.826Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC 1980 press photo band",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-23T23:41:36.405Z",
+  "updated_at": "2026-05-23T23:41:36.405Z"
+}

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "id": "m016",
+  "cue": 16,
+  "t_start": 53.43,
+  "t_end": 55.47,
+  "duration_sec": 2.04,
+  "spoken": "Cool. Fine. We're just going with that.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: vintage rock tour t-shirt",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "vintage concert t-shirt 1979",
+    "rock tour merchandise shirt"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "vintage rock tour t-shirt",
+    "story_link": "Tour merch era",
+    "media_preference": "photo"
+  },
+  "text_graphic": {
+    "type": "transcription",
+    "text": "Cool. Fine. ",
+    "style": "typewriter"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "Cool. Fine. ",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.972Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

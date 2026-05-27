@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "m023",
+  "cue": 23,
+  "t_start": 71.97,
+  "t_end": 73.45,
+  "duration_sec": 1.48,
+  "spoken": "And it's not just a comeback album.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: electric guitar body close-up",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "electric guitar body close up sunburst",
+    "Gibson SG guitar detail"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "electric guitar body close-up",
+    "story_link": "Rock instrumentation",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: electric guitar body close up sunburst",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Gibson SG guitar detail",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.976Z",
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-c274c9181c81.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

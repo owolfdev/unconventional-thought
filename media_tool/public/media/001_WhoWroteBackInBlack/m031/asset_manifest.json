@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "id": "m031",
+  "cue": 31,
+  "t_start": 95.97,
+  "t_end": 97.53,
+  "duration_sec": 1.56,
+  "spoken": "As a writer, he leaves a fingerprint.",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
+  "editorial_intent": "Bon as author — candid or performance showing character.",
+  "situation": "Bon Scott candid photograph 1970s",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1974",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott portrait 1970s",
+    "Bon Scott AC/DC 1978 photograph"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Bon as author — candid or performance showing character.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott portrait 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott AC/DC 1978 photograph",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.982Z",
+  "effects": [
+    "tilt_right",
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-872321de6e71-inv.jpg",
+    "download-872321de6e71.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

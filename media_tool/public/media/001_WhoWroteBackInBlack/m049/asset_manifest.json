@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "id": "m049",
+  "cue": 49,
+  "t_start": 153.27,
+  "t_end": 153.77,
+  "duration_sec": 0.5,
+  "spoken": "Pay attention.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: title on film grain/black — breaks redundancy; no new archive photo needed.",
+  "situation": "Generated text graphic (title)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "PAY ATTENTION",
+    "style": "minimal_white"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "PAY ATTENTION",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.994Z",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "m010",
+  "cue": 10,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "make image black and white. ",
+  "effects": [
+    "film_scratches",
+    "slow_zoom_out",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott funeral February 1980",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-b517fafd5bcf.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m010/acquired/download-b517fafd5bcf.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m010/acquired/download-b517fafd5bcf.jpg",
+          "title": "download-b517fafd5bcf.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m010/acquired/download-b517fafd5bcf.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-24T20:39:27.912Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott memorial Fremantle 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott death 1980 Australia",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:22:06.387Z",
+  "updated_at": "2026-05-24T20:40:00.826Z"
+}

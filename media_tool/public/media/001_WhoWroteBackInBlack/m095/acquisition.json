@@ -1,0 +1,35 @@
+{
+  "id": "m095",
+  "cue": 95,
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "The next 20 years of records?",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-24T00:15:22.420Z",
+  "updated_at": "2026-05-24T20:19:44.611Z"
+}

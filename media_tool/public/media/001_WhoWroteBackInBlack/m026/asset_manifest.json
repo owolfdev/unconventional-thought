@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "id": "m026",
+  "cue": 26,
+  "t_start": 79.41,
+  "t_end": 83.69,
+  "duration_sec": 4.28,
+  "spoken": "And the story we're supposed to accept is, okay, so there's this guy, Brian Johnson.",
+  "visual_mode": "historical",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "Brian Johnson historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "Brian Johnson 1979 photograph",
+    "Brian Johnson AC/DC 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Brian Johnson 1979 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Brian Johnson AC/DC 1980",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.978Z",
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "bj.jpg",
+    "sticker-51178439.png",
+    "sticker-e2e6ca43.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

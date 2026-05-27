@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "id": "m001",
+  "cue": 1,
+  "t_start": 0.43,
+  "t_end": 7.87,
+  "duration_sec": 7.44,
+  "spoken": "Ladies and gentlemen of the jury, I'm gonna make a slightly controversial case here about the most beloved AC DC album in history.",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
+  "editorial_intent": "Rhetorical 'jury' — do NOT show a courtroom. Open on AC/DC at cultural peak (late 70s live) or 1980 press moment.",
+  "situation": "AC/DC live concert performance crowd and stage",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1980",
+  "location": "",
+  "search_queries": [
+    "AC/DC live 1979 concert",
+    "AC/DC Highway to Hell tour 1979 stage",
+    "AC/DC audience 1979"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on black",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.954Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
+    "download-67e860ae90c8.jpg",
+    "download-6ff1d3774537.webp",
+    "download-ff200e16c265.php"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

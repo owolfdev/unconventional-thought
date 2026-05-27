@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "id": "m094",
+  "cue": 94,
+  "t_start": 249.67,
+  "t_end": 250.43,
+  "duration_sec": 0.76,
+  "spoken": "Fly on the wall?",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Later Brian era albums — period-accurate promo or live.",
+  "situation": "AC/DC For Those About to Rock era 1981 or Fly on the Wall 1985",
+  "people": [
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    },
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1981",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "AC/DC For Those About to Rock 1981",
+    "AC/DC Fly on the Wall 1985",
+    "Brian Johnson 1980s live"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Later Brian era albums — period-accurate promo or live.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC For Those About to Rock 1981",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC Fly on the Wall 1985",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Brian Johnson 1980s live",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.021Z",
+  "effects": [
+    "film_scratches",
+    "film_damage",
+    "slow_zoom_out",
+    "tilt_left"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "fotw.jpeg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

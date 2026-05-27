@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "m039",
+  "cue": 39,
+  "t_start": 119.95,
+  "t_end": 124.99,
+  "duration_sec": 5.04,
+  "spoken": "And best of all, you've got this swagger that is just pure distilled bottled energy.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Pure kinetic Bon — jump, hair, sweat, chaos; definitive high-energy AC/DC live still.",
+  "situation": "Bon Scott explosive AC/DC live performance energy 1979",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1979",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott jumping live stage 1979",
+    "AC/DC Bon Scott live energy photograph 1979",
+    "Bon Scott AC/DC concert dynamic 1979"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.987Z",
+  "effects": [
+    "film_grain",
+    "film_scratches",
+    "slow_zoom_out",
+    "film_damage"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "giphy-l49JZLHlZu2ZCVFN6.gif"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

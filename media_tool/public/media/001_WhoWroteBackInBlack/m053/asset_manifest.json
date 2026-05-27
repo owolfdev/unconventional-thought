@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "id": "m053",
+  "cue": 53,
+  "t_start": 162.67,
+  "t_end": 164.01,
+  "duration_sec": 1.34,
+  "spoken": "Just the people he actually knows.",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: peeling rock concert poster",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "peeling concert posters wall",
+    "vintage rock poster torn"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "peeling rock concert poster",
+    "story_link": "Gig poster wall",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: peeling concert posters wall",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: vintage rock poster torn",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.996Z",
+  "effects": [
+    "tilt_left",
+    "slow_push_in",
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "bon_and_angus.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

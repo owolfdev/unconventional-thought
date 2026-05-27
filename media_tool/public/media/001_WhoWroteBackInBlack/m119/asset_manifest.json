@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "id": "m119",
+  "cue": 119,
+  "t_start": 298.95,
+  "t_end": 301.39,
+  "duration_sec": 2.44,
+  "spoken": "that Bond Scott used privately with his friends.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "Bon Scott historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "Bon Scott 1979 photograph",
+    "Bon Scott AC/DC 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1979 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott AC/DC 1980",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.035Z",
+  "effects": [
+    "film_scratches",
+    "tilt_left",
+    "slow_zoom_out"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "acdc-1979-billboard-1548.webp"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

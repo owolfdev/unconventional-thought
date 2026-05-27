@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "id": "m038",
+  "cue": 38,
+  "t_start": 114.39,
+  "t_end": 119.41,
+  "duration_sec": 5.02,
+  "spoken": "Clever rhymes, double entendres, puns, tongue firmly planted in cheek half the time.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Innuendo/wordplay — playful Bon (wink, grin, tongue-in-cheek pose) or Big Balls-era stage wit; not literal infographic.",
+  "situation": "Bon Scott playful innuendo performance 1979",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott wink live performance AC/DC",
+    "Bon Scott playful stage expression 1979",
+    "Bon Scott Big Balls live 1979"
+  ],
+  "avoid": [
+    "dictionary",
+    "pun chart",
+    "explainer graphic"
+  ],
+  "artifact": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "Clever rhymes, double entendres, puns, tongue firmly, planted in cheek, half the time.",
+    "style": "bold font"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "Clever rhymes, double entendres, puns, tongue firmly, planted in cheek, half the time.",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.986Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "funny bon.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

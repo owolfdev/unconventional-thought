@@ -1,0 +1,50 @@
+{
+  "id": "m045",
+  "cue": 45,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_damage",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "bon scott laughing",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-892c18c69a0b.webp",
+          "url": "/media/001_WhoWroteBackInBlack/m045/acquired/download-892c18c69a0b.webp",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m045/acquired/download-892c18c69a0b.webp",
+          "title": "download-892c18c69a0b.webp",
+          "source_page": "/media/001_WhoWroteBackInBlack/m045/acquired/download-892c18c69a0b.webp",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-22T11:01:06.540Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC 1980 press photo band",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-23T22:50:08.994Z",
+  "updated_at": "2026-05-23T22:50:08.994Z"
+}

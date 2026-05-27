@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-19T22:41:18.339873+00:00",
+  "output_dir": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/media_tool/public/media/_effects",
+  "source_docs": [
+    "effects.md",
+    "transitions.md"
+  ],
+  "entries": [
+    {
+      "category": "floating_particles",
+      "url": "https://www.youtube.com/watch?v=DbGVDUiIpbw",
+      "source_file": "effects.md",
+      "video_id": "DbGVDUiIpbw",
+      "file": "floating_particles/DbGVDUiIpbw.f399.mp4",
+      "status": "skipped"
+    },
+    {
+      "category": "film_damage",
+      "url": "https://www.youtube.com/watch?v=n4j77OIbmmw",
+      "source_file": "effects.md",
+      "video_id": "n4j77OIbmmw",
+      "file": "film_damage/n4j77OIbmmw.f399.mp4",
+      "status": "skipped"
+    },
+    {
+      "category": "scratches",
+      "url": "https://www.youtube.com/watch?v=su121IWji9o&list=PLj6XzcqwRpN4Gmb-f-Z8XHP54aTX9VmJZ&index=2",
+      "source_file": "effects.md",
+      "video_id": "su121IWji9o",
+      "file": "scratches/su121IWji9o.f248.webm",
+      "status": "skipped"
+    },
+    {
+      "category": "scratches",
+      "url": "https://www.youtube.com/watch?v=RG6-qo3qt8A",
+      "source_file": "effects.md",
+      "video_id": "RG6-qo3qt8A",
+      "file": "scratches/RG6-qo3qt8A.f248.webm",
+      "status": "skipped"
+    },
+    {
+      "category": "scratches",
+      "url": "https://www.youtube.com/watch?v=DYcqz8gkWUQ",
+      "source_file": "effects.md",
+      "video_id": "DYcqz8gkWUQ",
+      "file": "scratches/DYcqz8gkWUQ.f399.mp4",
+      "status": "skipped"
+    },
+    {
+      "category": "scratches",
+      "url": "https://www.youtube.com/watch?v=z8Y9W0cdzJU",
+      "source_file": "effects.md",
+      "video_id": "z8Y9W0cdzJU",
+      "file": "scratches/z8Y9W0cdzJU.f399.mp4",
+      "status": "skipped"
+    },
+    {
+      "category": "scratches",
+      "url": "https://www.youtube.com/watch?v=U-Efgj0ZuDo",
+      "source_file": "effects.md",
+      "video_id": "U-Efgj0ZuDo",
+      "file": "scratches/U-Efgj0ZuDo.f248.webm",
+      "status": "skipped"
+    },
+    {
+      "category": "overlays",
+      "url": "https://www.youtube.com/watch?v=ZedIJjbnWqw",
+      "source_file": "effects.md",
+      "video_id": "ZedIJjbnWqw",
+      "file": "overlays/ZedIJjbnWqw.f248.webm",
+      "status": "skipped"
+    },
+    {
+      "category": "burns",
+      "url": "https://www.youtube.com/watch?v=22vkZ8-CEkw",
+      "source_file": "transitions.md",
+      "video_id": "22vkZ8-CEkw",
+      "file": "burns/22vkZ8-CEkw.f399.mp4",
+      "status": "skipped"
+    },
+    {
+      "category": "burns",
+      "url": "https://www.youtube.com/watch?v=fV8IkrQLkis",
+      "source_file": "transitions.md",
+      "video_id": "fV8IkrQLkis",
+      "file": "burns/fV8IkrQLkis.f248.webm",
+      "status": "skipped"
+    },
+    {
+      "category": "burns",
+      "url": "https://www.youtube.com/watch?v=o8xwVwbTaNg",
+      "source_file": "transitions.md",
+      "video_id": "o8xwVwbTaNg",
+      "file": "burns/o8xwVwbTaNg.f248.webm",
+      "status": "skipped"
+    },
+    {
+      "category": "burns",
+      "url": "https://www.youtube.com/watch?v=WGtxSTqXQ9E",
+      "source_file": "transitions.md",
+      "video_id": "WGtxSTqXQ9E",
+      "file": "burns/WGtxSTqXQ9E.f248.webm",
+      "status": "skipped"
+    },
+    {
+      "category": "light_leaks",
+      "url": "https://www.youtube.com/watch?v=JnSoIqmwzfw&list=PLj6XzcqwRpN4Gmb-f-Z8XHP54aTX9VmJZ&index=5",
+      "source_file": "transitions.md",
+      "video_id": "JnSoIqmwzfw",
+      "file": "light_leaks/JnSoIqmwzfw.f303.webm",
+      "status": "skipped"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "id": "m004",
+  "cue": 4,
+  "t_start": 15.89,
+  "t_end": 19.23,
+  "duration_sec": 3.34,
+  "spoken": "I think there's something happening here that nobody's really talking about.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Hidden story beat — contemporary news coverage of Bon Scott death.",
+  "situation": "Newspaper headlines reporting Bon Scott death February 1980",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1980-02",
+  "date_to": "1980-03",
+  "location": "United Kingdom / Australia",
+  "search_queries": [
+    "Bon Scott death newspaper February 1980",
+    "Bon Scott obituary 1980",
+    "AC/DC Bon Scott dies headline 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Hidden story beat — contemporary news coverage of Bon Scott death.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott death newspaper February 1980",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott obituary 1980",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: AC/DC Bon Scott dies headline 1980",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.957Z",
+  "effects": [
+    "slow_zoom_out",
+    "film_scratches",
+    "film_damage",
+    "vignette_soft"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-4f614b29ecd9.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

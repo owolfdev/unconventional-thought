@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "id": "m113",
+  "cue": 113,
+  "t_start": 284.69,
+  "t_end": 285.39,
+  "duration_sec": 0.7,
+  "spoken": "Cat's Eyes.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+  "situation": "Bon Scott portrait late 1970s",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1977",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott 1978 photograph",
+    "Bon Scott AC/DC portrait"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1978 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott AC/DC portrait",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.032Z",
+  "effects": [
+    "film_scratches",
+    "film_damage",
+    "film_grain"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "giphy-iCJOfQcXf32uY.gif"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

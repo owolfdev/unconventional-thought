@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "m134",
+  "cue": 134,
+  "t_start": 337.23,
+  "t_end": 338.35,
+  "duration_sec": 1.12,
+  "spoken": "The prosecution rests.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: title on film grain/black — breaks redundancy; no new archive photo needed.",
+  "situation": "Generated text graphic (title)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "THE PROSECUTION RESTS",
+    "style": "blockbuster"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "THE PROSECUTION RESTS",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.045Z",
+  "effects": [],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

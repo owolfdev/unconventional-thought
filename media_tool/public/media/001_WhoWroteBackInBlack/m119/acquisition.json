@@ -1,0 +1,51 @@
+{
+  "id": "m119",
+  "cue": 119,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "in_progress",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "tilt_left",
+    "slow_zoom_out"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott 1979 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:acdc-1979-billboard-1548.webp",
+          "url": "/media/001_WhoWroteBackInBlack/m119/acquired/acdc-1979-billboard-1548.webp",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m119/acquired/acdc-1979-billboard-1548.webp",
+          "title": "acdc-1979-billboard-1548.webp",
+          "source_page": "/media/001_WhoWroteBackInBlack/m119/acquired/acdc-1979-billboard-1548.webp",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-22T23:22:43.345Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott AC/DC 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-05-22T23:22:59.037Z"
+}

@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "id": "m032",
+  "cue": 32,
+  "t_start": 97.91,
+  "t_end": 100.95,
+  "duration_sec": 3.04,
+  "spoken": "Every single thing he ever wrote has that same fingerprint.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Writer identity — Bon with lyrics/paper if archived; else candid pen-in-hand or studio notes.",
+  "situation": "Bon Scott songwriting lyrics or notebook 1970s",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1974",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott handwritten lyrics",
+    "Bon Scott writing song lyrics 1970s",
+    "Bon Scott AC/DC studio 1979"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Writer identity — Bon with lyrics/paper if archived; else candid pen-in-hand or studio notes.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott handwritten lyrics",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott writing song lyrics 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott AC/DC studio 1979",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.982Z",
+  "effects": [
+    "film_scratches",
+    "tilt_left",
+    "slow_scroll_up"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
+    "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

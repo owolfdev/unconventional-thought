@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "id": "m077",
+  "cue": 77,
+  "t_start": 223.57,
+  "t_end": 224.29,
+  "duration_sec": 0.72,
+  "spoken": "Back in black.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Album deep dive — studio or tour 1980-81.",
+  "situation": "AC/DC Back in Black tour live 1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1980",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "AC/DC Back in Black tour 1981",
+    "AC/DC live 1981 Brian Johnson"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Album deep dive — studio or tour 1980-81.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC Back in Black tour 1981",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC live 1981 Brian Johnson",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.010Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "_single_bib.jpeg",
+    "download-6124af076fa9.bin"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

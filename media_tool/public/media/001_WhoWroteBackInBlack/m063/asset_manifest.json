@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "m063",
+  "cue": 63,
+  "t_start": 190.89,
+  "t_end": 192.71,
+  "duration_sec": 1.82,
+  "spoken": "All because of you, can you do it?",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: audio cassette tape",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "cassette tape vintage 1980",
+    "audio cassette close up"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "audio cassette tape",
+    "story_link": "Pre-digital era",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: cassette tape vintage 1980",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: audio cassette close up",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.002Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "jk9Xda52Vuw.mp4",
+    "sticker-6ab6a77b.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

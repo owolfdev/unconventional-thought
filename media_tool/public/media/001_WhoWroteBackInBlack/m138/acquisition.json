@@ -1,0 +1,47 @@
+{
+  "id": "m138",
+  "cue": 138,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Brian Johnson interview 1980s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:giphy-3o7WIP8qaBp9ifndcI.gif",
+          "url": "/media/001_WhoWroteBackInBlack/m138/acquired/giphy-3o7WIP8qaBp9ifndcI.gif",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m138/acquired/giphy-3o7WIP8qaBp9ifndcI.gif",
+          "title": "giphy-3o7WIP8qaBp9ifndcI.gif",
+          "source_page": "/media/001_WhoWroteBackInBlack/m138/acquired/giphy-3o7WIP8qaBp9ifndcI.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: brian johnson GIF",
+          "selected_at": "2026-05-24T00:53:11.545Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Brian Johnson AC/DC live",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-23T00:39:03.172Z",
+  "updated_at": "2026-05-24T00:53:11.547Z"
+}

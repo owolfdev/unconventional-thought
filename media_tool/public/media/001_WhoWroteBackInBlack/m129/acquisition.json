@@ -1,0 +1,52 @@
+{
+  "id": "m129",
+  "cue": 129,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "tilt_left",
+    "film_scratches",
+    "film_damage",
+    "slow_zoom_out"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott 1979 live",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:ACDC-Back-in-Black.webp",
+          "url": "/media/001_WhoWroteBackInBlack/m129/acquired/ACDC-Back-in-Black.webp",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m129/acquired/ACDC-Back-in-Black.webp",
+          "title": "ACDC-Back-in-Black.webp",
+          "source_page": "/media/001_WhoWroteBackInBlack/m129/acquired/ACDC-Back-in-Black.webp",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-23T00:27:46.202Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Brian Johnson 1980 AC/DC",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-23T00:28:15.862Z",
+  "updated_at": "2026-05-23T00:28:15.862Z"
+}

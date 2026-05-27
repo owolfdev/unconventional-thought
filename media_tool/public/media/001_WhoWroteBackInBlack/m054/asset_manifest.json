@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "id": "m054",
+  "cue": 54,
+  "t_start": 164.69,
+  "t_end": 166.83,
+  "duration_sec": 2.14,
+  "spoken": "I used up one of my nine lives on that one.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+  "situation": "Bon Scott portrait late 1970s",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1977",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott 1978 photograph",
+    "Bon Scott AC/DC portrait"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1978 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott AC/DC portrait",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.997Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-489057d76828.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

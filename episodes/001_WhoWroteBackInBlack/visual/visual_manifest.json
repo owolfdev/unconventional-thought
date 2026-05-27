@@ -1,0 +1,189 @@
+{
+  "manifest_note": "Paths are relative to the episode folder (001_WhoWroteBackInBlack/). recommended_source is advisory; only provider controls fetch. Credits: media/fetch/credits.json.",
+  "episode_root": "../..",
+  "voice_json": "transcript/who_wrote_back_in_black.json",
+  "output_dir": "media/fetch",
+  "placeholders": {
+    "photo_path": "media/manual/PLACEHOLDER.jpg",
+    "video_path": "media/manual/PLACEHOLDER.mp4"
+  },
+  "defaults": {
+    "photo": {
+      "provider": "commons"
+    }
+  },
+  "slots": [
+    {
+      "id": "v01",
+      "label": "Jury / courtroom (opening metaphor)",
+      "t_start": 0.0,
+      "t_end": 1.58,
+      "media": "photo",
+      "recommended_source": "wikimedia_commons",
+      "query": "empty courtroom jury box wood benches dramatic light historical photograph"
+    },
+    {
+      "id": "v02",
+      "label": "Faceless: making the case (hands, mic, papers)",
+      "t_start": 1.98,
+      "t_end": 3.88,
+      "media": "video",
+      "recommended_source": "pexels",
+      "query": "hands gesturing over documents podcast microphone desk no face close up"
+    },
+    {
+      "id": "v03",
+      "label": "Back in Black album \u2014 cover / LP / Atlantic era packaging",
+      "t_start": 3.88,
+      "t_end": 7.2,
+      "media": "photo",
+      "provider": "placeholder",
+      "recommended_source": "local",
+      "query": "Back in Black AC DC album cover LP vinyl Atlantic Records 1980"
+    },
+    {
+      "id": "v04",
+      "label": "Audience thinks you're crazy (reaction)",
+      "t_start": 7.52,
+      "t_end": 9.0,
+      "media": "photo",
+      "provider": "unsplash",
+      "recommended_source": "unsplash",
+      "query": "person frustrated head in hands silhouette disagreement reaction"
+    },
+    {
+      "id": "v05",
+      "label": "Wrong on the facts \u2014 evidence / files",
+      "t_start": 9.3,
+      "t_end": 10.36,
+      "media": "photo",
+      "recommended_source": "wikimedia_commons",
+      "query": "typewritten police report dossier documents archive 1970s"
+    },
+    {
+      "id": "v06",
+      "label": "Fine / sit down / hear me out (pace break)",
+      "t_start": 10.92,
+      "t_end": 13.68,
+      "media": "video",
+      "recommended_source": "pexels",
+      "query": "person sitting down office chair silhouette frustrated b roll"
+    },
+    {
+      "id": "v07",
+      "label": "Something nobody is talking about (conspiracy wall)",
+      "t_start": 13.92,
+      "t_end": 17.38,
+      "media": "photo",
+      "recommended_source": "wikimedia_commons",
+      "query": "newspaper clippings bulletin board string pins investigation wall"
+    },
+    {
+      "id": "v08",
+      "label": "Here goes \u2014 sting / title energy",
+      "t_start": 18.02,
+      "t_end": 18.7,
+      "media": "photo",
+      "provider": "placeholder",
+      "recommended_source": "llm",
+      "query": "breaking news television graphic bold red typography black"
+    },
+    {
+      "id": "v09",
+      "label": "Bon Scott \u2014 wrote lyrics / Back in Black claim (live energy B-roll)",
+      "t_start": 19.16,
+      "t_end": 21.14,
+      "media": "video",
+      "provider": "placeholder",
+      "recommended_source": "pexels",
+      "query": "Bon Scott AC DC live concert 1970s stage lights crowd singer microphone"
+    },
+    {
+      "id": "v10",
+      "label": "Yeah / that's the whole thing (punchy graphic beat)",
+      "t_start": 21.58,
+      "t_end": 23.46,
+      "media": "photo",
+      "provider": "unsplash",
+      "recommended_source": "unsplash",
+      "query": "neon sign downtown night city electric glow typography"
+    },
+    {
+      "id": "v11",
+      "label": "So obvious \u2014 lightbulb moment",
+      "t_start": 24.16,
+      "t_end": 26.12,
+      "media": "photo",
+      "provider": "unsplash",
+      "recommended_source": "unsplash",
+      "query": "single lightbulb glowing dark room idea revelation"
+    },
+    {
+      "id": "v12",
+      "label": "It's 1980 \u2014 calendar / news of the year",
+      "t_start": 26.62,
+      "t_end": 28.56,
+      "media": "photo",
+      "recommended_source": "wikimedia_commons",
+      "query": "1980 newspaper headline January world events calendar year"
+    },
+    {
+      "id": "v13",
+      "label": "Bon Scott \u2014 five months dead; grief / memorial context",
+      "t_start": 28.56,
+      "t_end": 31.32,
+      "media": "photo",
+      "provider": "placeholder",
+      "recommended_source": "wikimedia_commons",
+      "query": "Bon Scott funeral Fremantle February 1980 memorial crowd AC DC"
+    },
+    {
+      "id": "v14",
+      "label": "Shell-shocked band \u2014 into the studio (corridor / group)",
+      "t_start": 31.94,
+      "t_end": 34.22,
+      "media": "video",
+      "recommended_source": "pexels",
+      "query": "rock band walking recording studio hallway musicians carrying instruments"
+    },
+    {
+      "id": "v15",
+      "label": "Recording Back in Black \u2014 console / studio session",
+      "t_start": 34.94,
+      "t_end": 39.62,
+      "media": "video",
+      "recommended_source": "pexels",
+      "query": "recording studio mixing console VU meters analog tape machine 1970s"
+    },
+    {
+      "id": "v16",
+      "label": "50 million copies / biggest albums \u2014 sales gravity",
+      "t_start": 40.52,
+      "t_end": 44.32,
+      "media": "photo",
+      "provider": "placeholder",
+      "recommended_source": "wikimedia_commons",
+      "query": "Back in Black AC DC gold record platinum disc sales award fifty million"
+    },
+    {
+      "id": "v17",
+      "label": "Wait \u2014 nobody finds that convenient? (side-eye / doubt)",
+      "t_start": 45.32,
+      "t_end": 49.18,
+      "media": "photo",
+      "provider": "unsplash",
+      "recommended_source": "unsplash",
+      "query": "skeptical side eye close portrait doubt suspicion"
+    },
+    {
+      "id": "v18",
+      "label": "I don't buy it \u2014 wallet / pay / decline metaphor",
+      "t_start": 50.08,
+      "t_end": 54.83,
+      "media": "photo",
+      "provider": "unsplash",
+      "recommended_source": "unsplash",
+      "query": "wallet open hands counting cash decision close up"
+    }
+  ]
+}

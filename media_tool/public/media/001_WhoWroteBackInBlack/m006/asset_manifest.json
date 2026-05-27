@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "id": "m006",
+  "cue": 6,
+  "t_start": 21.37,
+  "t_end": 23.55,
+  "duration_sec": 2.18,
+  "spoken": "Bond Scott wrote the lyrics on Back in Black.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Core thesis — Bon Scott portrait or live, era-accurate.",
+  "situation": "Bon Scott performing live with microphone 1978-1979",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott AC/DC live 1979",
+    "Bon Scott microphone on stage 1978",
+    "Bon Scott concert 1979"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Core thesis — Bon Scott portrait or live, era-accurate.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott AC/DC live 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott microphone on stage 1978",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott concert 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "text_overlay",
+      "description": "Text layer: transcription — Bon Scott wrote the lyrics on Back in Black.",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.959Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-18ca1121b377.jpeg",
+    "download-ebdb131c6c3c.bin",
+    "download-fe39cc26479e.jpg"
+  ],
+  "text_graphic_layer": {
+    "type": "transcription",
+    "text": "Bon Scott wrote the lyrics on Back in Black.",
+    "style": "typewriter"
+  },
+  "background_color": "#000000"
+}

@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "id": "m034",
+  "cue": 34,
+  "t_start": 102.85,
+  "t_end": 105.81,
+  "duration_sec": 2.96,
+  "spoken": "Specific guy, bad reputation. He's proud of it.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Outlaw persona — leather, defiant smirk, backstage or street candid; proud troublemaker.",
+  "situation": "Bon Scott rebellious image photograph 1970s",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1975",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott leather jacket photograph 1970s",
+    "Bon Scott defiant backstage 1979",
+    "Bon Scott bad reputation press photo"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Outlaw persona — leather, defiant smirk, backstage or street candid; proud troublemaker.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott leather jacket photograph 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott defiant backstage 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott bad reputation press photo",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.984Z",
+  "effects": [
+    "film_scratches",
+    "tilt_left",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-9152897a3ead.jpg",
+    "download-c0e3234a11d1.jpg",
+    "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

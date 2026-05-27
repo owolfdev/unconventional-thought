@@ -1,0 +1,42 @@
+{
+  "id": "m132",
+  "cue": 132,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott AC/DC live 1979 full stage",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:detective.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m132/acquired/detective.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m132/acquired/detective.jpg",
+          "title": "detective.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m132/acquired/detective.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-24T00:51:31.503Z"
+        }
+      ]
+    }
+  ],
+  "completed_at": "2026-05-23T00:32:19.850Z",
+  "updated_at": "2026-05-24T20:22:45.087Z"
+}

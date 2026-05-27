@@ -1,0 +1,60 @@
+{
+  "id": "m089",
+  "cue": 89,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC 1979 live concert photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:giphy-3ohc1crzXpJ3pZQn9C.gif",
+          "url": "/media/001_WhoWroteBackInBlack/m089/acquired/giphy-3ohc1crzXpJ3pZQn9C.gif",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m089/acquired/giphy-3ohc1crzXpJ3pZQn9C.gif",
+          "title": "giphy-3ohc1crzXpJ3pZQn9C.gif",
+          "source_page": "/media/001_WhoWroteBackInBlack/m089/acquired/giphy-3ohc1crzXpJ3pZQn9C.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: brian johnson GIF",
+          "selected_at": "2026-05-22T22:39:12.890Z"
+        },
+        {
+          "result_id": "local-acquired:giphy-3osBL8qjECZKHfObfO.gif",
+          "url": "/media/001_WhoWroteBackInBlack/m089/acquired/giphy-3osBL8qjECZKHfObfO.gif",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m089/acquired/giphy-3osBL8qjECZKHfObfO.gif",
+          "title": "giphy-3osBL8qjECZKHfObfO.gif",
+          "source_page": "/media/001_WhoWroteBackInBlack/m089/acquired/giphy-3osBL8qjECZKHfObfO.gif",
+          "license": "local acquired file - verify rights",
+          "engine_id": "giphy_sticker",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-23T23:59:18.348Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC 1980 press photo band",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-22T22:39:27.129Z",
+  "updated_at": "2026-05-23T23:59:29.587Z"
+}

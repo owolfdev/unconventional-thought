@@ -1,0 +1,49 @@
+{
+  "id": "m067",
+  "cue": 67,
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "vintage microphone SM58 stand",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:giphy-h4Z6RfuQycdiM.gif",
+          "url": "/media/001_WhoWroteBackInBlack/m067/acquired/giphy-h4Z6RfuQycdiM.gif",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m067/acquired/giphy-h4Z6RfuQycdiM.gif",
+          "title": "giphy-h4Z6RfuQycdiM.gif",
+          "source_page": "/media/001_WhoWroteBackInBlack/m067/acquired/giphy-h4Z6RfuQycdiM.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: Confused Britney Spears GIF",
+          "selected_at": "2026-05-22T21:51:36.537Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "stage microphone close up 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-23T23:41:42.631Z",
+  "updated_at": "2026-05-23T23:41:42.631Z"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "m083",
+  "cue": 83,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "show this entire image. do not crop. ",
+  "effects": [
+    "film_scratches",
+    "film_damage",
+    "tilt_left",
+    "shake",
+    "slow_zoom_out"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC live 1979 audience",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:_single_ysmanl.jpeg",
+          "url": "/media/001_WhoWroteBackInBlack/m083/acquired/_single_ysmanl.jpeg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m083/acquired/_single_ysmanl.jpeg",
+          "title": "_single_ysmanl.jpeg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m083/acquired/_single_ysmanl.jpeg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-22T22:30:52.361Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC concert 1981",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-22T22:34:07.220Z",
+  "updated_at": "2026-05-22T22:34:07.220Z"
+}

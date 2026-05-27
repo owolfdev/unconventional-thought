@@ -1,0 +1,57 @@
+{
+  "id": "m124",
+  "cue": 124,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott 1974 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-a3a98b09d70b.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m124/acquired/download-a3a98b09d70b.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m124/acquired/download-a3a98b09d70b.jpg",
+          "title": "download-a3a98b09d70b.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m124/acquired/download-a3a98b09d70b.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-24T00:47:07.312Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott Fraternity band 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott AC/DC early",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-23T00:19:54.857Z",
+  "updated_at": "2026-05-24T00:47:27.693Z"
+}

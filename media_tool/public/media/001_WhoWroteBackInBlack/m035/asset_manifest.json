@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "id": "m035",
+  "cue": 35,
+  "t_start": 106.09,
+  "t_end": 106.95,
+  "duration_sec": 0.86,
+  "spoken": "You've got the storytelling.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Narrative songs — Bon animated on stage (gesture, point) or backstage mid-anecdote.",
+  "situation": "Bon Scott expressive storytelling gesture live 1979",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "Bon Scott AC/DC live stage gesture 1979",
+    "Bon Scott animated performance photograph",
+    "Bon Scott backstage talking 1970s"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Narrative songs — Bon animated on stage (gesture, point) or backstage mid-anecdote.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott AC/DC live stage gesture 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott animated performance photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott backstage talking 1970s",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.984Z",
+  "effects": [
+    "tilt_right",
+    "film_scratches",
+    "film_damage",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-4003c1f1e508.jpeg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

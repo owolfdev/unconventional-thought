@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.next/
+.venv*/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Remotion renders
+remotion/out/
+
+# Acquired media (large binaries) — keep folder structure via .gitkeep
+media_tool/public/media/**/acquired/*
+!media_tool/public/media/**/acquired/.gitkeep
+
+# Stock effect clips (re-download with tools/download_effects_library.py)
+media_tool/public/media/_effects/**/*.mp4
+media_tool/public/media/_effects/**/*.webm
+media_tool/public/media/_effects/**/*.mov
+
+# Episode-local media downloads (optional; uncomment if you move fetch under episodes/)
+# episodes/**/media/fetch/*
+# episodes/**/media/manual/*
+
+# Master audio / video (large — restore from backup or regenerate)
+episodes/**/audio/master/*.mp3
+episodes/**/audio/master/*.wav
+episodes/**/audio/segments/*.mp3
+episodes/**/audio/preview/*.mp3
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Audacity lock
+*.aup3-wal
+*.aup3-shm
+
+# Temp render props
+remotion/out/.props-*.json

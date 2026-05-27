@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "id": "m115",
+  "cue": 115,
+  "t_start": 288.83,
+  "t_end": 289.71,
+  "duration_sec": 0.88,
+  "spoken": "Told privately.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Whitespace: single-word punctuation beat.",
+  "situation": "Generated text graphic (title)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "TOLD PRIVATELY",
+    "style": "minimal_white"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "TOLD PRIVATELY",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.033Z",
+  "effects": [
+    "film_scratches",
+    "tremble"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

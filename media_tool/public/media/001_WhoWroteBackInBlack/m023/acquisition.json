@@ -1,0 +1,50 @@
+{
+  "id": "m023",
+  "cue": 23,
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "acdc concert crowd 1980",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-c274c9181c81.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m023/acquired/download-c274c9181c81.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m023/acquired/download-c274c9181c81.jpg",
+          "title": "download-c274c9181c81.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m023/acquired/download-c274c9181c81.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-19T21:49:45.432Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Gibson SG guitar detail",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:22:25.569Z",
+  "updated_at": "2026-05-20T21:22:25.569Z"
+}

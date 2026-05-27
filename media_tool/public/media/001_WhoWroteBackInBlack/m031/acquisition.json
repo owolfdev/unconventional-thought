@@ -1,0 +1,50 @@
+{
+  "id": "m031",
+  "cue": 31,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "tilt_right",
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "fingerprint",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-872321de6e71-inv.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m031/acquired/download-872321de6e71-inv.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m031/acquired/download-872321de6e71-inv.jpg",
+          "title": "download-872321de6e71-inv.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m031/acquired/download-872321de6e71-inv.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-19T22:13:09.824Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott AC/DC 1978 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:33:04.225Z",
+  "updated_at": "2026-05-21T20:45:31.243Z"
+}

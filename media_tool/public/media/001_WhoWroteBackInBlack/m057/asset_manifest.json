@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "id": "m057",
+  "cue": 57,
+  "t_start": 171.87,
+  "t_end": 173.35,
+  "duration_sec": 1.48,
+  "spoken": "Okay, now take Brian Johnson.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Respect beat — Brian performing with AC/DC, early 80s.",
+  "situation": "Brian Johnson singing live AC/DC 1981",
+  "people": [
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1980",
+  "date_to": "1982",
+  "location": "",
+  "search_queries": [
+    "Brian Johnson AC/DC live 1981",
+    "Brian Johnson on stage Back in Black tour"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Respect beat — Brian performing with AC/DC, early 80s.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Brian Johnson AC/DC live 1981",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Brian Johnson on stage Back in Black tour",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.999Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-6fcb3f703f2a.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

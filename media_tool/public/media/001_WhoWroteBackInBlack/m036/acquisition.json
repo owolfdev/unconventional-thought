@@ -1,0 +1,85 @@
+{
+  "id": "m036",
+  "cue": 36,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "in_progress",
+  "notes": "",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott aggressive live performance 1979",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-e949b85b93e2.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m036/acquired/download-e949b85b93e2.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m036/acquired/download-e949b85b93e2.jpg",
+          "title": "download-e949b85b93e2.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m036/acquired/download-e949b85b93e2.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-23T21:27:24.237Z"
+        },
+        {
+          "result_id": "local-acquired:bon on stage.webp",
+          "url": "/media/001_WhoWroteBackInBlack/m036/acquired/bon%20on%20stage.webp",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m036/acquired/bon%20on%20stage.webp",
+          "title": "bon on stage.webp",
+          "source_page": "/media/001_WhoWroteBackInBlack/m036/acquired/bon%20on%20stage.webp",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-23T21:27:28.579Z"
+        },
+        {
+          "result_id": "local-acquired:download-5b7356a8226d.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m036/acquired/download-5b7356a8226d.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m036/acquired/download-5b7356a8226d.jpg",
+          "title": "download-5b7356a8226d.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m036/acquired/download-5b7356a8226d.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-23T21:27:32.811Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott AC/DC stage snarl microphone",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott backstage fans 1970s photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 3,
+      "query": "Bon Scott groupies backstage AC/DC 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:30:59.077Z",
+  "updated_at": "2026-05-23T21:27:32.811Z"
+}

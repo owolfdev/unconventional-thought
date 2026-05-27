@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "id": "m005",
+  "cue": 5,
+  "t_start": 19.87,
+  "t_end": 20.47,
+  "duration_sec": 0.6,
+  "spoken": "Here goes.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Artifact: tape machine macro — no faces; optional brief text overlay in edit.",
+  "situation": "Inanimate: reel-to-reel tape machine",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
+  "location": "",
+  "search_queries": [
+    "reel to reel tape recorder studio 1970s",
+    "analog multitrack tape machine close up"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "reel-to-reel tape machine",
+    "story_link": "Transition sting — analog recording era",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "make extruded text that looks like a rock video title",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.958Z",
+  "effects": [
+    "film_scratches",
+    "tremble"
+  ],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [
+    "sticker-596588d0.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

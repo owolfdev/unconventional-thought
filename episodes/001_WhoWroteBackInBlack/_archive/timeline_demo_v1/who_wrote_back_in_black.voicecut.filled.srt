@@ -1,0 +1,694 @@
+1
+00:00:00,430 --> 00:00:07,870
+Ladies and gentlemen of the jury, I'm gonna make a slightly controversial case here about the most beloved AC DC album in history.
+{"media": {"kind": "image", "ref": "courtroom-empty-jury-box-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "tilt_right"], "transition": "film_burn", "notes": "Faceless doc: no jury faces; wide wood + empty seats; high contrast.", "prompt": "1970s courtroom wide shot, empty jury box, warm tungsten, slight wide-angle distortion, documentary grain, no readable faces"}
+
+2
+00:00:08,270 --> 00:00:11,990
+Some of you are probably gonna think I'm crazy, or just wrong on the facts.
+{"media": {"kind": "image", "ref": "microphone-sm58-on-stand-shadow-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+3
+00:00:12,590 --> 00:00:15,450
+Fine, doesn't matter. Sit down, hear me out.
+{"media": {"kind": "video", "ref": "office-chair-sit-down-silhouette-broll-01.mp4"}, "effects": ["film_grain", "slow_push_in"], "transition": "light_leak", "notes": "Cut on 'Sit down' beat; keep silhouette only."}
+
+4
+00:00:15,890 --> 00:00:19,230
+I think there's something happening here that nobody's really talking about.
+{"media": {"kind": "image", "ref": "corkboard-red-string-evidence-wall-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "push_in_slow"], "transition": "flame"}
+
+5
+00:00:19,870 --> 00:00:20,470
+Here goes.
+{"media": {"kind": "video", "ref": "tape-machine-reels-spinning-close-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "paper_flash"}
+
+6
+00:00:21,370 --> 00:00:23,550
+Bond Scott wrote the lyrics on Back in Black.
+{"media": {"kind": "image", "ref": "bon-scott-handwritten-setlist-01.jpeg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "paper_yellow_age"], "transition": "film_burn"}
+
+7
+00:00:24,350 --> 00:00:27,330
+There, I said it. Yeah, that's the whole thing.
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+8
+00:00:27,330 --> 00:00:30,490
+Pretty much. It's actually so obvious.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+9
+00:00:31,210 --> 00:00:33,390
+Let's look at the facts. It's 1980.
+{"media": {"kind": "image", "ref": "desk-calendar-1980-january-macro-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in"], "transition": "light_leak"}
+
+10
+00:00:33,850 --> 00:00:35,670
+The man has been dead for five months.
+{"media": {"kind": "video", "ref": "paper-shuffle-hands-desk-broll-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "flame"}
+
+11
+00:00:36,370 --> 00:00:36,770
+Five.
+{"media": {"kind": "image", "ref": "electric-guitar-body-sunburst-macro-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+12
+00:00:37,570 --> 00:00:42,530
+And his band, his grief-stricken shell-shocked, everybody expected them to fold band,
+{"media": {"kind": "image", "ref": "cassette-tape-chrome-shell-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+13
+00:00:42,770 --> 00:00:48,950
+goes into the studio with a brand new singer, and records the second best-selling album in the history of recorded music.
+{"media": {"kind": "image", "ref": "neon-arrow-sign-generic-motel-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+14
+00:00:49,450 --> 00:00:51,030
+50 million copies.
+{"media": {"kind": "call", "fn": "counter_rush", "args": {"end_value": 50000000, "label": "COPIES", "duration_sec": 2.2}}, "effects": ["film_grain", "crt_glow"], "transition": "broken_film", "notes": "If numbers feel tacky, swap for gold-disc macro instead.", "prompt": "CRT seven-segment counter rushes to 50000000 with label COPIES, phosphor bloom, scanlines, 2.2s"}
+
+15
+00:00:51,690 --> 00:00:53,250
+But sure, new guy wrote it.
+{"media": {"kind": "video", "ref": "film-dust-scratch-overlay-loop-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "light_leak"}
+
+16
+00:00:53,430 --> 00:00:55,470
+Cool. Fine. We're just going with that.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+17
+00:00:55,470 --> 00:00:58,710
+Wait, nobody finds that a little convenience?
+{"media": {"kind": "image", "ref": "35mm-film-leader-countdown-frame-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+18
+00:00:59,530 --> 00:01:01,230
+Personally, I don't buy it.
+{"media": {"kind": "image", "ref": "wallet-leather-open-empty-01.jpg"}, "effects": ["film_grain", "halftone_soft", "vignette_heavy"], "transition": "film_burn"}
+
+19
+00:01:01,930 --> 00:01:02,950
+Okay, background.
+{"media": {"kind": "image", "ref": "electric-guitar-body-sunburst-macro-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+20
+00:01:03,450 --> 00:01:07,730
+Bond Scott dies February 19, 1980. 33 years old.
+{"media": {"kind": "image", "ref": "memorial-flowers-rain-cemetery-wide-01.jpg"}, "effects": ["film_grain", "desaturate_soft", "slow_zoom_out"], "transition": "broken_film"}
+
+21
+00:01:08,190 --> 00:01:09,270
+So Bond Scott dies.
+{"media": {"kind": "image", "ref": "neon-arrow-sign-generic-motel-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+22
+00:01:09,710 --> 00:01:11,550
+Five months later, they release Back in Black.
+{"media": {"kind": "image", "ref": "rain-on-window-city-bokeh-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+23
+00:01:11,970 --> 00:01:13,450
+And it's not just a comeback album.
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+24
+00:01:13,650 --> 00:01:15,110
+It's not pretty good considering.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+25
+00:01:15,670 --> 00:01:19,090
+It is one of the most perfectly constructed rock records ever made.
+{"media": {"kind": "video", "ref": "paper-shuffle-hands-desk-broll-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "none"}
+
+26
+00:01:19,410 --> 00:01:23,690
+And the story we're supposed to accept is, okay, so there's this guy, Brian Johnson.
+{"media": {"kind": "image", "ref": "brian-johnson-press-clipping-01.jpg"}, "effects": ["film_grain", "halftone_soft", "vignette_heavy", "tilt_right"], "transition": "broken_film", "notes": "Editorial still or news clipping; avoid non-licensed promo packshots.", "prompt": "Vintage UK tabloid stack, headline about audition, yellow newsprint, macro, 1980, no legible trademark logos"}
+
+27
+00:01:23,690 --> 00:01:26,750
+Lovely fella. Been knocking around in a band called Geordie.
+{"media": {"kind": "image", "ref": "geordie-band-lp-sleeve-generic-1970s-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "slight_rotation_ccw"], "transition": "light_leak"}
+
+28
+00:01:26,870 --> 00:01:31,130
+Goes in for an audition and just writes the lyrics that save the entire band.
+{"media": {"kind": "image", "ref": "legal-pad-handwritten-lyrics-close-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "slow_scroll_up"], "transition": "flame"}
+
+29
+00:01:31,650 --> 00:01:33,630
+Great story. Very convenient.
+{"media": {"kind": "video", "ref": "studio-audience-laugh-reaction-stock-01.mp4"}, "effects": ["film_grain", "halftone_soft", "vignette_heavy", "flash_frame_subtle"], "transition": "paper_flash"}
+
+30
+00:01:34,250 --> 00:01:35,690
+But here's the thing about Bond Scott.
+{"media": {"kind": "image", "ref": "bon-scott-live-mic-02.jpeg"}, "effects": ["film_grain", "chromatic_aberration_subtle", "strobe_stage_lights", "slow_zoom_in"], "transition": "film_burn", "notes": "Prefer live-stage press still; respect memorial tone if using funeral-adjacent frames elsewhere.", "prompt": "1970s rock singer live, tight on mic and sweat, stage haze, tungsten spots, documentary still, not a modern AI glam portrait"}
+
+31
+00:01:35,970 --> 00:01:37,530
+As a writer, he leaves a fingerprint.
+{"media": {"kind": "image", "ref": "macro-fingerprint-ink-paper-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "extreme_close_up_push"], "transition": "none"}
+
+32
+00:01:37,910 --> 00:01:40,950
+Every single thing he ever wrote has that same fingerprint.
+{"media": {"kind": "image", "ref": "macro-fingerprint-ink-paper-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "extreme_close_up_push"], "transition": "broken_film"}
+
+33
+00:01:41,510 --> 00:01:42,250
+You've got the narrator.
+{"media": {"kind": "image", "ref": "35mm-film-leader-countdown-frame-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+34
+00:01:42,850 --> 00:01:45,810
+Specific guy, bad reputation. He's proud of it.
+{"media": {"kind": "image", "ref": "microphone-sm58-on-stand-shadow-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+35
+00:01:46,090 --> 00:01:46,950
+You've got the storytelling.
+{"media": {"kind": "video", "ref": "tape-machine-reels-spinning-close-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "paper_flash"}
+
+36
+00:01:47,470 --> 00:01:51,030
+Always a fight, a conquest, a boast, or a badass woman.
+{"media": {"kind": "image", "ref": "cassette-tape-chrome-shell-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+37
+00:01:51,030 --> 00:01:53,890
+Then you've got the wit. That's always there.
+{"media": {"kind": "image", "ref": "neon-arrow-sign-generic-motel-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+38
+00:01:54,390 --> 00:01:59,410
+Clever rhymes, double entendres, puns, tongue firmly planted in cheek half the time.
+{"media": {"kind": "image", "ref": "rain-on-window-city-bokeh-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+39
+00:01:59,950 --> 00:02:04,990
+And best of all, you've got this swagger that is just pure distilled bottled energy.
+{"media": {"kind": "video", "ref": "crowd-silhouette-hands-up-stadium-01.mp4"}, "effects": ["film_grain", "chromatic_aberration_subtle", "strobe_stage_lights"], "transition": "light_leak"}
+
+40
+00:02:05,770 --> 00:02:08,030
+Highway to hell, not a vague rock statement.
+{"media": {"kind": "video", "ref": "highway-night-lights-driving-pov-01.mp4"}, "effects": ["film_grain", "chromatic_aberration_subtle", "strobe_stage_lights", "heat_shimmer"], "transition": "flame"}
+
+41
+00:02:08,350 --> 00:02:09,310
+That's a confessional.
+{"media": {"kind": "image", "ref": "35mm-film-leader-countdown-frame-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+42
+00:02:09,470 --> 00:02:13,870
+That's a guy describing his actual lifestyle with zero apology and a grin.
+{"media": {"kind": "image", "ref": "microphone-sm58-on-stand-shadow-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+43
+00:02:14,590 --> 00:02:15,030
+Big balls?
+{"media": {"kind": "image", "ref": "chandelier-crystal-ceiling-vintage-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "double_entendre_split_screen_hint"], "transition": "none"}
+
+44
+00:02:15,550 --> 00:02:18,370
+Yes, it's filthy, obviously, like a dirty limbric.
+{"media": {"kind": "image", "ref": "cassette-tape-chrome-shell-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+45
+00:02:18,370 --> 00:02:21,730
+But it's also a meticulously constructed double entendre.
+{"media": {"kind": "video", "ref": "film-dust-scratch-overlay-loop-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "light_leak"}
+
+46
+00:02:22,290 --> 00:02:25,610
+Crystal chandeliers, distinguished guests, and balls.
+{"media": {"kind": "image", "ref": "rain-on-window-city-bokeh-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+47
+00:02:26,330 --> 00:02:30,630
+He is working two tracks at once for the entire song that is not an accident.
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+48
+00:02:31,310 --> 00:02:32,890
+Okay, here's an Easter egg.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+49
+00:02:33,270 --> 00:02:33,770
+Pay attention.
+{"media": {"kind": "image", "ref": "35mm-film-leader-countdown-frame-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+50
+00:02:34,290 --> 00:02:37,790
+Just a few years before his death, Bond was in a motorcycle accident.
+{"media": {"kind": "video", "ref": "motorcycle-night-highway-b-roll-danger-01.mp4"}, "effects": ["film_grain", "chromatic_aberration_subtle", "strobe_stage_lights", "motion_blur_edges"], "transition": "broken_film"}
+
+51
+00:02:38,110 --> 00:02:38,930
+Nearly kills him.
+{"media": {"kind": "image", "ref": "electric-guitar-body-sunburst-macro-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+52
+00:02:39,070 --> 00:02:42,390
+And he tells people privately, not in interviews, not for the press.
+{"media": {"kind": "image", "ref": "cassette-tape-chrome-shell-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+53
+00:02:42,670 --> 00:02:44,010
+Just the people he actually knows.
+{"media": {"kind": "image", "ref": "neon-arrow-sign-generic-motel-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+54
+00:02:44,690 --> 00:02:46,830
+I used up one of my nine lives on that one.
+{"media": {"kind": "call", "fn": "animated_title", "args": {"text": "9 LIVES", "subtext": "private metaphor", "style": "neon_flicker", "duration_sec": 1.8}}, "effects": ["film_grain", "ken_burns_slow"], "transition": "film_burn", "notes": "Sting should land on 'nine lives' VO stress; hold 1 beat.", "prompt": "Neon flicker title card: 9 LIVES + subtext 'private metaphor', black matte, subtle film gate weave, 1.8s"}
+
+55
+00:02:46,830 --> 00:02:49,970
+His words, private, personal, filed away.
+{"media": {"kind": "video", "ref": "paper-shuffle-hands-desk-broll-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "none"}
+
+56
+00:02:50,250 --> 00:02:51,290
+We'll come back to that later.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+57
+00:02:51,870 --> 00:02:53,350
+Okay, now take Brian Johnson.
+{"media": {"kind": "image", "ref": "brian-johnson-press-clipping-02.jpg"}, "effects": ["film_grain", "halftone_soft", "vignette_heavy", "tilt_left"], "transition": "light_leak", "notes": "Editorial still or news clipping; avoid non-licensed promo packshots.", "prompt": "Vintage UK tabloid stack, headline about audition, yellow newsprint, macro, 1980, no legible trademark logos"}
+
+58
+00:02:53,710 --> 00:02:54,890
+Love the man, genuinely.
+{"media": {"kind": "image", "ref": "microphone-sm58-on-stand-shadow-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+59
+00:02:55,310 --> 00:03:00,050
+What he did, walking into that situation, singing those songs with that fire,
+{"media": {"kind": "image", "ref": "electric-guitar-body-sunburst-macro-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+60
+00:03:00,630 --> 00:03:03,530
+respect, sincere, uneironic respect.
+{"media": {"kind": "video", "ref": "film-dust-scratch-overlay-loop-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "film_burn"}
+
+61
+00:03:04,250 --> 00:03:05,910
+But go listen to Jordy.
+{"media": {"kind": "image", "ref": "geordie-band-lp-sleeve-generic-1970s-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "slight_rotation_ccw"], "transition": "none"}
+
+62
+00:03:06,230 --> 00:03:10,250
+Go listen to what Brian Johnson sounded like when he was not filling Bond's shoes.
+{"media": {"kind": "image", "ref": "brian-johnson-press-clipping-03.jpg"}, "effects": ["film_grain", "halftone_soft", "vignette_heavy", "tilt_right"], "transition": "broken_film", "notes": "Editorial still or news clipping; avoid non-licensed promo packshots.", "prompt": "Vintage UK tabloid stack, headline about audition, yellow newsprint, macro, 1980, no legible trademark logos"}
+
+63
+00:03:10,890 --> 00:03:12,710
+All because of you, can you do it?
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+64
+00:03:13,090 --> 00:03:16,210
+Good songs, competent, professional, fun even.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+65
+00:03:16,210 --> 00:03:18,530
+But the narrator is generic.
+{"media": {"kind": "video", "ref": "tape-machine-reels-spinning-close-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "paper_flash"}
+
+66
+00:03:18,870 --> 00:03:19,630
+It could be anyone.
+{"media": {"kind": "image", "ref": "microphone-sm58-on-stand-shadow-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+67
+00:03:19,850 --> 00:03:21,030
+There's no wit underneath.
+{"media": {"kind": "image", "ref": "electric-guitar-body-sunburst-macro-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+68
+00:03:21,670 --> 00:03:22,350
+There's no wink.
+{"media": {"kind": "image", "ref": "cassette-tape-chrome-shell-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+69
+00:03:22,970 --> 00:03:24,690
+They were trying to sound like slayed.
+{"media": {"kind": "image", "ref": "neon-arrow-sign-generic-motel-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+70
+00:03:24,990 --> 00:03:27,010
+Which is a completely valid thing to be.
+{"media": {"kind": "video", "ref": "paper-shuffle-hands-desk-broll-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "flame"}
+
+71
+00:03:27,250 --> 00:03:29,450
+But it is not how Bond Scott wrote.
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+72
+00:03:29,990 --> 00:03:30,790
+Not even close.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+73
+00:03:31,890 --> 00:03:35,070
+Okay, now listen to the best songs on Back in Black.
+{"media": {"kind": "image", "ref": "35mm-film-leader-countdown-frame-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+74
+00:03:35,610 --> 00:03:37,270
+Those songs have Bond's fingerprint.
+{"media": {"kind": "image", "ref": "macro-fingerprint-ink-paper-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "extreme_close_up_push"], "transition": "broken_film"}
+
+75
+00:03:38,030 --> 00:03:40,230
+Those songs are lyrically genius.
+{"media": {"kind": "video", "ref": "film-dust-scratch-overlay-loop-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "light_leak"}
+
+76
+00:03:41,070 --> 00:03:42,710
+Swagger up the wazoo.
+{"media": {"kind": "video", "ref": "crowd-silhouette-hands-up-stadium-01.mp4"}, "effects": ["film_grain", "chromatic_aberration_subtle", "strobe_stage_lights"], "transition": "flame"}
+
+77
+00:03:43,570 --> 00:03:44,290
+Back in black.
+{"media": {"kind": "image", "ref": "neon-arrow-sign-generic-motel-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+78
+00:03:44,290 --> 00:03:45,370
+Hell's bells.
+{"media": {"kind": "image", "ref": "rain-on-window-city-bokeh-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+79
+00:03:45,730 --> 00:03:47,170
+Let me put my love into you.
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+80
+00:03:47,330 --> 00:03:48,390
+Have a drink on me.
+{"media": {"kind": "video", "ref": "tape-machine-reels-spinning-close-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "broken_film"}
+
+81
+00:03:48,850 --> 00:03:49,090
+Man.
+{"media": {"kind": "image", "ref": "35mm-film-leader-countdown-frame-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+82
+00:03:49,790 --> 00:03:50,650
+Let's take a look at.
+{"media": {"kind": "image", "ref": "microphone-sm58-on-stand-shadow-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+83
+00:03:50,830 --> 00:03:52,230
+You shook me all night long.
+{"media": {"kind": "image", "ref": "electric-guitar-body-sunburst-macro-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+84
+00:03:52,530 --> 00:03:52,650
+Right?
+{"media": {"kind": "image", "ref": "cassette-tape-chrome-shell-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+85
+00:03:52,930 --> 00:03:55,570
+It's one of the most perfect rock songs ever written.
+{"media": {"kind": "video", "ref": "paper-shuffle-hands-desk-broll-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "none"}
+
+86
+00:03:55,870 --> 00:03:56,270
+That hook.
+{"media": {"kind": "image", "ref": "rain-on-window-city-bokeh-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+87
+00:03:56,750 --> 00:03:57,410
+That mischief.
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+88
+00:03:57,710 --> 00:03:58,470
+That point of view.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+89
+00:03:58,750 --> 00:03:59,430
+That swagger.
+{"media": {"kind": "video", "ref": "crowd-silhouette-hands-up-stadium-01.mp4"}, "effects": ["film_grain", "chromatic_aberration_subtle", "strobe_stage_lights"], "transition": "paper_flash"}
+
+90
+00:03:59,890 --> 00:04:00,470
+That's bonds.
+{"media": {"kind": "video", "ref": "film-dust-scratch-overlay-loop-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "film_burn"}
+
+91
+00:04:01,190 --> 00:04:04,390
+If that was Brian Johnson's, what happened to that genius?
+{"media": {"kind": "image", "ref": "brian-johnson-press-clipping-04.jpg"}, "effects": ["film_grain", "halftone_soft", "vignette_heavy", "tilt_left"], "transition": "none", "notes": "Editorial still or news clipping; avoid non-licensed promo packshots.", "prompt": "Vintage UK tabloid stack, headline about audition, yellow newsprint, macro, 1980, no legible trademark logos"}
+
+92
+00:04:04,910 --> 00:04:06,790
+Where did it go after Back in Black?
+{"media": {"kind": "image", "ref": "cassette-tape-chrome-shell-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+93
+00:04:07,310 --> 00:04:09,110
+Where is it on for those about to rock?
+{"media": {"kind": "image", "ref": "neon-arrow-sign-generic-motel-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+94
+00:04:09,670 --> 00:04:10,430
+Fly on the wall?
+{"media": {"kind": "image", "ref": "rain-on-window-city-bokeh-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+95
+00:04:10,730 --> 00:04:12,110
+The next 20 years of records?
+{"media": {"kind": "video", "ref": "tape-machine-reels-spinning-close-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "paper_flash"}
+
+96
+00:04:12,110 --> 00:04:13,370
+You don't write.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+97
+00:04:13,650 --> 00:04:14,870
+You shook me all night long.
+{"media": {"kind": "image", "ref": "35mm-film-leader-countdown-frame-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+98
+00:04:15,130 --> 00:04:18,390
+And then just never, ever find that frequency again.
+{"media": {"kind": "image", "ref": "microphone-sm58-on-stand-shadow-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+99
+00:04:18,990 --> 00:04:19,910
+You'd at least try.
+{"media": {"kind": "image", "ref": "electric-guitar-body-sunburst-macro-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+100
+00:04:20,410 --> 00:04:22,510
+You'd be chasing that your whole career.
+{"media": {"kind": "video", "ref": "paper-shuffle-hands-desk-broll-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "flame"}
+
+101
+00:04:22,790 --> 00:04:26,330
+Unless that frequency was never on your dial to begin with?
+{"media": {"kind": "image", "ref": "neon-arrow-sign-generic-motel-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+102
+00:04:26,850 --> 00:04:28,530
+I'm just asking questions here.
+{"media": {"kind": "image", "ref": "rain-on-window-city-bokeh-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+103
+00:04:29,330 --> 00:04:29,810
+Okay.
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+104
+00:04:30,250 --> 00:04:31,190
+The Nine Lives thing.
+{"media": {"kind": "call", "fn": "animated_title", "args": {"text": "9 LIVES", "subtext": "private metaphor", "style": "neon_flicker", "duration_sec": 1.8}}, "effects": ["film_grain", "ken_burns_slow"], "transition": "broken_film", "notes": "Sting should land on 'nine lives' VO stress; hold 1 beat.", "prompt": "Neon flicker title card: 9 LIVES + subtext 'private metaphor', black matte, subtle film gate weave, 1.8s"}
+
+105
+00:04:31,410 --> 00:04:32,650
+I told you to hold on to that.
+{"media": {"kind": "video", "ref": "film-dust-scratch-overlay-loop-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "light_leak"}
+
+106
+00:04:33,230 --> 00:04:35,110
+Bond Scott, motorcycle accident.
+{"media": {"kind": "video", "ref": "motorcycle-night-highway-b-roll-danger-01.mp4"}, "effects": ["film_grain", "chromatic_aberration_subtle", "strobe_stage_lights", "motion_blur_edges"], "transition": "flame"}
+
+107
+00:04:35,470 --> 00:04:36,350
+Should not have survived.
+{"media": {"kind": "image", "ref": "electric-guitar-body-sunburst-macro-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+108
+00:04:36,690 --> 00:04:38,350
+Tells people close to him privately.
+{"media": {"kind": "image", "ref": "cassette-tape-chrome-shell-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+109
+00:04:38,730 --> 00:04:40,550
+That he used up one of his Nine Lives.
+{"media": {"kind": "call", "fn": "animated_title", "args": {"text": "9 LIVES", "subtext": "private metaphor", "style": "neon_flicker", "duration_sec": 1.8}}, "effects": ["film_grain", "ken_burns_slow"], "transition": "none", "notes": "Sting should land on 'nine lives' VO stress; hold 1 beat.", "prompt": "Neon flicker title card: 9 LIVES + subtext 'private metaphor', black matte, subtle film gate weave, 1.8s"}
+
+110
+00:04:40,550 --> 00:04:41,650
+Back in Black.
+{"media": {"kind": "video", "ref": "tape-machine-reels-spinning-close-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "broken_film"}
+
+111
+00:04:42,090 --> 00:04:42,770
+The title track.
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+112
+00:04:43,110 --> 00:04:44,370
+I've got Nine Lives.
+{"media": {"kind": "call", "fn": "animated_title", "args": {"text": "9 LIVES", "subtext": "private metaphor", "style": "neon_flicker", "duration_sec": 1.8}}, "effects": ["film_grain", "ken_burns_slow"], "transition": "flame", "notes": "Sting should land on 'nine lives' VO stress; hold 1 beat.", "prompt": "Neon flicker title card: 9 LIVES + subtext 'private metaphor', black matte, subtle film gate weave, 1.8s"}
+
+113
+00:04:44,690 --> 00:04:45,390
+Cat's Eyes.
+{"media": {"kind": "image", "ref": "35mm-film-leader-countdown-frame-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+114
+00:04:46,070 --> 00:04:48,410
+Written in the first person about a private thing.
+{"media": {"kind": "image", "ref": "microphone-sm58-on-stand-shadow-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+115
+00:04:48,830 --> 00:04:49,710
+Told privately.
+{"media": {"kind": "video", "ref": "paper-shuffle-hands-desk-broll-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "none"}
+
+116
+00:04:50,350 --> 00:04:51,590
+But sure, yeah, coincidence.
+{"media": {"kind": "image", "ref": "cassette-tape-chrome-shell-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+117
+00:04:52,290 --> 00:04:54,750
+Maybe Brian Johnson also had a near-death experience
+{"media": {"kind": "image", "ref": "brian-johnson-press-clipping-05.jpg"}, "effects": ["film_grain", "halftone_soft", "vignette_heavy", "tilt_right"], "transition": "light_leak", "notes": "Editorial still or news clipping; avoid non-licensed promo packshots.", "prompt": "Vintage UK tabloid stack, headline about audition, yellow newsprint, macro, 1980, no legible trademark logos"}
+
+118
+00:04:54,750 --> 00:04:58,950
+that he never publicly mentioned, but somehow independently landed on the exact same metaphor
+{"media": {"kind": "image", "ref": "rain-on-window-city-bokeh-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+119
+00:04:58,950 --> 00:05:01,390
+that Bond Scott used privately with his friends.
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "paper_flash"}
+
+120
+00:05:01,750 --> 00:05:03,290
+Totally normal, super common.
+{"media": {"kind": "video", "ref": "film-dust-scratch-overlay-loop-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "film_burn"}
+
+121
+00:05:03,890 --> 00:05:06,390
+No, there's only one explanation that makes sense.
+{"media": {"kind": "image", "ref": "35mm-film-leader-countdown-frame-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+122
+00:05:06,890 --> 00:05:08,510
+Bond Scott wrote those words.
+{"media": {"kind": "image", "ref": "microphone-sm58-on-stand-shadow-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+123
+00:05:09,230 --> 00:05:09,530
+Look.
+{"media": {"kind": "image", "ref": "electric-guitar-body-sunburst-macro-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "light_leak"}
+
+124
+00:05:09,530 --> 00:05:14,130
+I'm just saying, Bond Scott spent his entire career writing himself into his music.
+{"media": {"kind": "image", "ref": "cassette-tape-chrome-shell-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+125
+00:05:14,390 --> 00:05:15,310
+His actual life.
+{"media": {"kind": "video", "ref": "tape-machine-reels-spinning-close-01.mp4"}, "effects": ["film_grain", "halftone_dots_light", "vignette_soft"], "transition": "paper_flash"}
+
+126
+00:05:15,650 --> 00:05:16,590
+His actual voice.
+{"media": {"kind": "image", "ref": "rain-on-window-city-bokeh-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+127
+00:05:16,990 --> 00:05:17,890
+His actual memories.
+{"media": {"kind": "image", "ref": "vinyl-spinning-top-down-blur-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+128
+00:05:18,430 --> 00:05:21,130
+And he deserves to have his last words credited to him.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "broken_film"}
+
+129
+00:05:22,010 --> 00:05:23,810
+The fingerprint is on back in Black.
+{"media": {"kind": "image", "ref": "macro-fingerprint-ink-paper-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "extreme_close_up_push"], "transition": "light_leak"}
+
+130
+00:05:24,490 --> 00:05:25,270
+Bond's fingerprint.
+{"media": {"kind": "image", "ref": "macro-fingerprint-ink-paper-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "extreme_close_up_push"], "transition": "flame"}
+
+131
+00:05:25,890 --> 00:05:31,350
+And it is completely absent from everything Brian Johnson wrote before and after.
+{"media": {"kind": "image", "ref": "brian-johnson-press-clipping-06.jpg"}, "effects": ["film_grain", "halftone_soft", "vignette_heavy", "tilt_left"], "transition": "paper_flash", "notes": "Editorial still or news clipping; avoid non-licensed promo packshots.", "prompt": "Vintage UK tabloid stack, headline about audition, yellow newsprint, macro, 1980, no legible trademark logos"}
+
+132
+00:05:32,150 --> 00:05:34,090
+A fingerprint puts someone at the scene.
+{"media": {"kind": "image", "ref": "macro-fingerprint-ink-paper-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "extreme_close_up_push"], "transition": "film_burn"}
+
+133
+00:05:34,790 --> 00:05:36,610
+Bond Scott was at the scene.
+{"media": {"kind": "image", "ref": "neon-arrow-sign-generic-motel-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_right"], "transition": "none"}
+
+134
+00:05:37,230 --> 00:05:38,350
+The prosecution rests.
+{"media": {"kind": "call", "fn": "lower_third", "args": {"text": "THE PROSECUTION RESTS", "style": "typewriter_stamp", "duration_sec": 2.8}}, "effects": ["film_grain", "crt_scanlines", "tilt_left"], "transition": "broken_film"}
+
+135
+00:05:38,350 --> 00:05:40,090
+Render your verdict in the comments.
+{"media": {"kind": "call", "fn": "lower_third", "args": {"text": "THE PROSECUTION RESTS", "style": "typewriter_stamp", "duration_sec": 2.8}}, "effects": ["film_grain", "crt_scanlines", "tilt_left"], "transition": "light_leak"}
+
+136
+00:05:40,770 --> 00:05:43,090
+And before you come at me, yes, I know he's credited.
+{"media": {"kind": "image", "ref": "archive-paper-texture-fullframe-01.jpg"}, "effects": ["film_grain", "slow_zoom_in", "tilt_left"], "transition": "flame"}
+
+137
+00:05:43,350 --> 00:05:45,230
+Yes, I know Brian Johnson is incredible.
+{"media": {"kind": "image", "ref": "brian-johnson-press-clipping-07.jpg"}, "effects": ["film_grain", "halftone_soft", "vignette_heavy", "tilt_right"], "transition": "paper_flash", "notes": "Editorial still or news clipping; avoid non-licensed promo packshots.", "prompt": "Vintage UK tabloid stack, headline about audition, yellow newsprint, macro, 1980, no legible trademark logos"}
+
+138
+00:05:45,490 --> 00:05:46,930
+Yes, I've heard the interviews.
+{"media": {"kind": "image", "ref": "microphone-sm58-on-stand-shadow-01.jpg"}, "effects": ["film_grain", "slow_zoom_in"], "transition": "film_burn"}
+
+139
+00:05:47,190 --> 00:05:51,290
+Doesn't explain the fingerprint or lack thereof in subsequent records.
+{"media": {"kind": "image", "ref": "macro-fingerprint-ink-paper-01.jpg"}, "effects": ["film_grain", "paper_texture", "slow_zoom_in", "extreme_close_up_push"], "transition": "none"}

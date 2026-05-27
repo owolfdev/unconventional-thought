@@ -1,0 +1,44 @@
+{
+  "id": "m084",
+  "cue": 84,
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "in_progress",
+  "notes": "",
+  "effects": [],
+  "transition": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "RIGHT?",
+    "style": "minimal_white"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:giphy-qUB8aayj9DNQI.gif",
+          "url": "/media/001_WhoWroteBackInBlack/m084/acquired/giphy-qUB8aayj9DNQI.gif",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m084/acquired/giphy-qUB8aayj9DNQI.gif",
+          "title": "giphy-qUB8aayj9DNQI.gif",
+          "source_page": "/media/001_WhoWroteBackInBlack/m084/acquired/giphy-qUB8aayj9DNQI.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: amy poehler what GIF",
+          "selected_at": "2026-05-22T22:35:18.503Z"
+        }
+      ]
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-05-22T22:35:27.415Z"
+}

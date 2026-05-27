@@ -1,0 +1,50 @@
+{
+  "id": "m007",
+  "cue": 7,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "stock",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "make the image black and white, high contrast. ",
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#ffffff",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "little kid hands over mouth",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-941250669925.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m007/acquired/download-941250669925.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m007/acquired/download-941250669925.jpg",
+          "title": "download-941250669925.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m007/acquired/download-941250669925.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-20T21:45:53.463Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC 1980 promotional photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:48:08.331Z",
+  "updated_at": "2026-05-23T20:04:16.865Z"
+}

@@ -1,0 +1,4703 @@
+{
+  "version": 3,
+  "episode": "001_WhoWroteBackInBlack",
+  "style": "historical_documentary_not_explainer",
+  "source_transcript": "transcript/who_wrote_back_in_black.srt",
+  "source_audio": "audio/master/who_wrote_back_in_black.mp3",
+  "cue_count": 141,
+  "historical_count": 81,
+  "artifact_count": 22,
+  "text_graphic_count": 37,
+  "notes": "visual_mode: historical (people/era archive), artifact (story-relevant objects — vinyl, cassette, gold disc, shirt, tape machine, etc.), or text_graphic (procedural transcription/quote/title). text_graphic.types: transcription | quote | title | intertitle. Artifacts use search_queries like photos; prefer macro/detail, faces optional. Downstream: text_graphic → voicecut media.kind=call; artifact/photo → image or video.",
+  "items": [
+    {
+      "id": "m000",
+      "cue": 0,
+      "t_start": 0.0,
+      "t_end": 2.0,
+      "duration_sec": 2.0,
+      "spoken": "",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "The Unconventional Thought",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Channel id on black + film grain before cold open (m001). Edit copy in media_tool m000 acquisition. Pair with SPECIAL_MEDIA_DELAY on m001 so m001 plate does not cover this card.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m001",
+      "cue": 1,
+      "t_start": 0.43,
+      "t_end": 7.87,
+      "duration_sec": 7.44,
+      "spoken": "Ladies and gentlemen of the jury, I'm gonna make a slightly controversial case here about the most beloved AC DC album in history.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Rhetorical 'jury' — do NOT show a courtroom. Open on AC/DC at cultural peak (late 70s live) or 1980 press moment.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC live concert performance crowd and stage",
+      "date_from": "1978",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "AC/DC live 1979 concert",
+        "AC/DC Highway to Hell tour 1979 stage",
+        "AC/DC audience 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m002",
+      "cue": 2,
+      "t_start": 8.27,
+      "t_end": 11.99,
+      "duration_sec": 3.72,
+      "spoken": "Some of you are probably gonna think I'm crazy, or just wrong on the facts.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "vinyl record on turntable",
+        "story_link": "Rock album culture",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: vinyl record on turntable",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vinyl record spinning turntable 1970s",
+        "LP record needle drop"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m003",
+      "cue": 3,
+      "t_start": 12.59,
+      "t_end": 15.45,
+      "duration_sec": 2.86,
+      "spoken": "Fine, doesn't matter. Sit down, hear me out.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Pacing line — band in studio context, not furniture.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC entering recording studio or group walking corridor 1980",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "Bahamas",
+      "search_queries": [
+        "AC/DC Compass Point Studios 1980",
+        "AC/DC recording studio 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m004",
+      "cue": 4,
+      "t_start": 15.89,
+      "t_end": 19.23,
+      "duration_sec": 3.34,
+      "spoken": "I think there's something happening here that nobody's really talking about.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Hidden story beat — contemporary news coverage of Bon Scott death.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Newspaper headlines reporting Bon Scott death February 1980",
+      "date_from": "1980-02",
+      "date_to": "1980-03",
+      "location": "United Kingdom / Australia",
+      "search_queries": [
+        "Bon Scott death newspaper February 1980",
+        "Bon Scott obituary 1980",
+        "AC/DC Bon Scott dies headline 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m005",
+      "cue": 5,
+      "t_start": 19.87,
+      "t_end": 20.47,
+      "duration_sec": 0.6,
+      "spoken": "Here goes.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "reel-to-reel tape machine",
+        "story_link": "Transition sting — analog recording era",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Artifact: tape machine macro — no faces; optional brief text overlay in edit.",
+      "people": [],
+      "situation": "Inanimate: reel-to-reel tape machine",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "reel to reel tape recorder studio 1970s",
+        "analog multitrack tape machine close up"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m006",
+      "cue": 6,
+      "t_start": 21.37,
+      "t_end": 23.55,
+      "duration_sec": 2.18,
+      "spoken": "Bond Scott wrote the lyrics on Back in Black.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Core thesis — Bon Scott portrait or live, era-accurate.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott performing live with microphone 1978-1979",
+      "date_from": "1978",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott AC/DC live 1979",
+        "Bon Scott microphone on stage 1978",
+        "Bon Scott concert 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m007",
+      "cue": 7,
+      "t_start": 24.35,
+      "t_end": 27.33,
+      "duration_sec": 2.98,
+      "spoken": "There, I said it. Yeah, that's the whole thing.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Back in Black era — press or live, avoid trademark album cover art if possible.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        },
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "AC/DC Back in Black release period press photo or live 1980",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "AC/DC Back in Black 1980 press photo",
+        "AC/DC 1980 promotional photograph"
+      ],
+      "avoid": [
+        "album cover scan",
+        "courtroom",
+        "office chair"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m008",
+      "cue": 8,
+      "t_start": 27.33,
+      "t_end": 30.49,
+      "duration_sec": 3.16,
+      "spoken": "Pretty much. It's actually so obvious.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m009",
+      "cue": 9,
+      "t_start": 31.21,
+      "t_end": 33.39,
+      "duration_sec": 2.18,
+      "spoken": "Let's look at the facts. It's 1980.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Year anchor — period news or studio dated 1980.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "1980 music press or studio session dated 1980",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1980 studio",
+        "music magazine 1980 rock"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m010",
+      "cue": 10,
+      "t_start": 33.85,
+      "t_end": 35.67,
+      "duration_sec": 1.82,
+      "spoken": "The man has been dead for five months.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bon Scott death — memorial, funeral, or documented public mourning.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist",
+          "date_died": "1980-02-19"
+        }
+      ],
+      "situation": "Bon Scott funeral or public memorial February 1980 Australia",
+      "date_from": "1980-02",
+      "date_to": "1980-02",
+      "location": "Fremantle, Western Australia",
+      "search_queries": [
+        "Bon Scott funeral February 1980",
+        "Bon Scott memorial Fremantle 1980",
+        "Bon Scott death 1980 Australia"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m011",
+      "cue": 11,
+      "t_start": 36.37,
+      "t_end": 36.77,
+      "duration_sec": 0.4,
+      "spoken": "Five.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "audio cassette tape",
+        "story_link": "Pre-digital era",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: audio cassette tape",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "cassette tape vintage 1980",
+        "audio cassette close up"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m012",
+      "cue": 12,
+      "t_start": 37.57,
+      "t_end": 42.53,
+      "duration_sec": 4.96,
+      "spoken": "And his band, his grief-stricken shell-shocked, everybody expected them to fold band,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Band after Bon — Brian Johnson era begins; group in studio 1980.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "AC/DC with Brian Johnson recording Back in Black 1980",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "Nassau, Bahamas",
+      "search_queries": [
+        "AC/DC Brian Johnson studio 1980",
+        "AC/DC Compass Point Studios Brian Johnson 1980",
+        "Brian Johnson AC/DC recording 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m013",
+      "cue": 13,
+      "t_start": 42.77,
+      "t_end": 48.95,
+      "duration_sec": 6.18,
+      "spoken": "goes into the studio with a brand new singer, and records the second best-selling album in the history of recorded music.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Band after Bon — Brian Johnson era begins; group in studio 1980.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "AC/DC with Brian Johnson recording Back in Black 1980",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "Nassau, Bahamas",
+      "search_queries": [
+        "AC/DC Brian Johnson studio 1980",
+        "AC/DC Compass Point Studios Brian Johnson 1980",
+        "Brian Johnson AC/DC recording 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m014",
+      "cue": 14,
+      "t_start": 49.45,
+      "t_end": 51.03,
+      "duration_sec": 1.58,
+      "spoken": "50 million copies.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "gold / platinum award disc",
+        "story_link": "Back in Black sales milestone",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Artifact: sales award object — tight on disc/plaque, not band portrait.",
+      "people": [],
+      "situation": "Inanimate: gold / platinum award disc",
+      "date_from": "1980",
+      "date_to": "1982",
+      "location": "",
+      "search_queries": [
+        "gold record award disc close up",
+        "platinum album plaque 1980s"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m015",
+      "cue": 15,
+      "t_start": 51.69,
+      "t_end": 53.25,
+      "duration_sec": 1.56,
+      "spoken": "But sure, new guy wrote it.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Skeptical beat on Brian — portrait or early AC/DC with Brian.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson portrait early 1980s",
+      "date_from": "1980",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Brian Johnson 1980 portrait",
+        "Brian Johnson AC/DC 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m016",
+      "cue": 16,
+      "t_start": 53.43,
+      "t_end": 55.47,
+      "duration_sec": 2.04,
+      "spoken": "Cool. Fine. We're just going with that.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "vintage rock tour t-shirt",
+        "story_link": "Tour merch era",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: vintage rock tour t-shirt",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vintage concert t-shirt 1979",
+        "rock tour merchandise shirt"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m017",
+      "cue": 17,
+      "t_start": 55.47,
+      "t_end": 58.71,
+      "duration_sec": 3.24,
+      "spoken": "Wait, nobody finds that a little convenience?",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m018",
+      "cue": 18,
+      "t_start": 59.53,
+      "t_end": 61.23,
+      "duration_sec": 1.7,
+      "spoken": "Personally, I don't buy it.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "Personally, I don't buy it.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m019",
+      "cue": 19,
+      "t_start": 61.93,
+      "t_end": 62.95,
+      "duration_sec": 1.02,
+      "spoken": "Okay, background.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "intertitle",
+        "text": "Okay, background.",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: intertitle on film grain/black — breaks redundancy; no new archive photo needed.",
+      "people": [],
+      "situation": "Generated text graphic (intertitle)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m020",
+      "cue": 20,
+      "t_start": 63.45,
+      "t_end": 67.73,
+      "duration_sec": 4.28,
+      "spoken": "Bond Scott dies February 19, 1980. 33 years old.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bon Scott death — memorial, funeral, or documented public mourning.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist",
+          "date_died": "1980-02-19"
+        }
+      ],
+      "situation": "Bon Scott funeral or public memorial February 1980 Australia",
+      "date_from": "1980-02",
+      "date_to": "1980-02",
+      "location": "Fremantle, Western Australia",
+      "search_queries": [
+        "Bon Scott funeral February 1980",
+        "Bon Scott memorial Fremantle 1980",
+        "Bon Scott death 1980 Australia"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m021",
+      "cue": 21,
+      "t_start": 68.19,
+      "t_end": 69.27,
+      "duration_sec": 1.08,
+      "spoken": "So Bond Scott dies.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1979 photograph",
+        "Bon Scott AC/DC 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "m020",
+      "priority": "low"
+    },
+    {
+      "id": "m022",
+      "cue": 22,
+      "t_start": 69.71,
+      "t_end": 71.55,
+      "duration_sec": 1.84,
+      "spoken": "Five months later, they release Back in Black.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "vinyl LP record",
+        "story_link": "Album release 1980",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Artifact beat: vinyl LP record — story-linked inanimate; prefer no faces, tight macro or detail.",
+      "people": [],
+      "situation": "Inanimate: vinyl LP record",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Back in Black vinyl 1980",
+        "rock album LP sleeve Atlantic"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m023",
+      "cue": 23,
+      "t_start": 71.97,
+      "t_end": 73.45,
+      "duration_sec": 1.48,
+      "spoken": "And it's not just a comeback album.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "electric guitar body close-up",
+        "story_link": "Rock instrumentation",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: electric guitar body close-up",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "electric guitar body close up sunburst",
+        "Gibson SG guitar detail"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m024",
+      "cue": 24,
+      "t_start": 73.65,
+      "t_end": 75.11,
+      "duration_sec": 1.46,
+      "spoken": "It's not pretty good considering.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "vintage microphone on stand",
+        "story_link": "Vocal performance object",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: vintage microphone on stand",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vintage microphone SM58 stand",
+        "stage microphone close up 1970s"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m025",
+      "cue": 25,
+      "t_start": 75.67,
+      "t_end": 79.09,
+      "duration_sec": 3.42,
+      "spoken": "It is one of the most perfectly constructed rock records ever made.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m026",
+      "cue": 26,
+      "t_start": 79.41,
+      "t_end": 83.69,
+      "duration_sec": 4.28,
+      "spoken": "And the story we're supposed to accept is, okay, so there's this guy, Brian Johnson.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Brian Johnson 1979 photograph",
+        "Brian Johnson AC/DC 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m027",
+      "cue": 27,
+      "t_start": 83.69,
+      "t_end": 86.75,
+      "duration_sec": 3.06,
+      "spoken": "Lovely fella. Been knocking around in a band called Geordie.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Geordie era comparison.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        },
+        {
+          "name": "Geordie",
+          "role": "band"
+        }
+      ],
+      "situation": "Geordie band promotional photo 1970s",
+      "date_from": "1973",
+      "date_to": "1978",
+      "location": "",
+      "search_queries": [
+        "Geordie band 1975",
+        "Brian Johnson Geordie"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m028",
+      "cue": 28,
+      "t_start": 86.87,
+      "t_end": 91.13,
+      "duration_sec": 4.26,
+      "spoken": "Goes in for an audition and just writes the lyrics that save the entire band.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "handwritten lyrics legal pad",
+        "story_link": "Audition / writing beat",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Artifact beat: handwritten lyrics legal pad — story-linked inanimate; prefer no faces, tight macro or detail.",
+      "people": [],
+      "situation": "Inanimate: handwritten lyrics legal pad",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "handwritten lyrics paper legal pad",
+        "songwriting notebook pencil"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m029",
+      "cue": 29,
+      "t_start": 91.65,
+      "t_end": 93.63,
+      "duration_sec": 1.98,
+      "spoken": "Great story. Very convenient.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "Great story. Very convenient.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m030",
+      "cue": 30,
+      "t_start": 94.25,
+      "t_end": 95.69,
+      "duration_sec": 1.44,
+      "spoken": "But here's the thing about Bond Scott.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bon as author — candid or performance showing character.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott candid photograph 1970s",
+      "date_from": "1974",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott portrait 1970s",
+        "Bon Scott AC/DC 1978 photograph"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m031",
+      "cue": 31,
+      "t_start": 95.97,
+      "t_end": 97.53,
+      "duration_sec": 1.56,
+      "spoken": "As a writer, he leaves a fingerprint.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bon as author — candid or performance showing character.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott candid photograph 1970s",
+      "date_from": "1974",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott portrait 1970s",
+        "Bon Scott AC/DC 1978 photograph"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m032",
+      "cue": 32,
+      "t_start": 97.91,
+      "t_end": 100.95,
+      "duration_sec": 3.04,
+      "spoken": "Every single thing he ever wrote has that same fingerprint.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Writer identity — Bon with lyrics/paper if archived; else candid pen-in-hand or studio notes.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott songwriting lyrics or notebook 1970s",
+      "date_from": "1974",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott handwritten lyrics",
+        "Bon Scott writing song lyrics 1970s",
+        "Bon Scott AC/DC studio 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m033",
+      "cue": 33,
+      "t_start": 101.51,
+      "t_end": 102.25,
+      "duration_sec": 0.74,
+      "spoken": "You've got the narrator.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "First-person lyric voice — Bon addressing crowd, mic in hand, direct presence.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott addressing audience or press 1978-1979",
+      "date_from": "1978",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott microphone addressing crowd 1979",
+        "Bon Scott press interview speaking 1978",
+        "Bon Scott live talking to audience"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m034",
+      "cue": 34,
+      "t_start": 102.85,
+      "t_end": 105.81,
+      "duration_sec": 2.96,
+      "spoken": "Specific guy, bad reputation. He's proud of it.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Outlaw persona — leather, defiant smirk, backstage or street candid; proud troublemaker.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott rebellious image photograph 1970s",
+      "date_from": "1975",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott leather jacket photograph 1970s",
+        "Bon Scott defiant backstage 1979",
+        "Bon Scott bad reputation press photo"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m035",
+      "cue": 35,
+      "t_start": 106.09,
+      "t_end": 106.95,
+      "duration_sec": 0.86,
+      "spoken": "You've got the storytelling.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Narrative songs — Bon animated on stage (gesture, point) or backstage mid-anecdote.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott expressive storytelling gesture live 1979",
+      "date_from": "1978",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott AC/DC live stage gesture 1979",
+        "Bon Scott animated performance photograph",
+        "Bon Scott backstage talking 1970s"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m036",
+      "cue": 36,
+      "t_start": 107.47,
+      "t_end": 111.03,
+      "duration_sec": 3.56,
+      "spoken": "Always a fight, a conquest, a boast, or a badass woman.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Fight/conquest/women lyric tropes — fierce Bon on stage (snarl, mic thrust, fist) OR era backstage with female fans; documentary tone, period rock tour, not stock glamour.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott aggressive live performance or backstage with fans 1970s",
+      "date_from": "1977",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott aggressive live performance 1979",
+        "Bon Scott AC/DC stage snarl microphone",
+        "Bon Scott backstage fans 1970s photograph",
+        "Bon Scott groupies backstage AC/DC 1979"
+      ],
+      "avoid": [
+        "stock model",
+        "modern nightclub",
+        "generic bar stock"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m037",
+      "cue": 37,
+      "t_start": 111.03,
+      "t_end": 113.89,
+      "duration_sec": 2.86,
+      "spoken": "Then you've got the wit. That's always there.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Comic writer — Bon laughing, smirk, or mid-joke on stage or in interview.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott witty expression laughing 1979",
+      "date_from": "1978",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott smiling live 1979",
+        "Bon Scott laughing interview photograph",
+        "Bon Scott cheeky grin AC/DC"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m038",
+      "cue": 38,
+      "t_start": 114.39,
+      "t_end": 119.41,
+      "duration_sec": 5.02,
+      "spoken": "Clever rhymes, double entendres, puns, tongue firmly planted in cheek half the time.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Innuendo/wordplay — playful Bon (wink, grin, tongue-in-cheek pose) or Big Balls-era stage wit; not literal infographic.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott playful innuendo performance 1979",
+      "date_from": "1978",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott wink live performance AC/DC",
+        "Bon Scott playful stage expression 1979",
+        "Bon Scott Big Balls live 1979"
+      ],
+      "avoid": [
+        "dictionary",
+        "pun chart",
+        "explainer graphic"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m039",
+      "cue": 39,
+      "t_start": 119.95,
+      "t_end": 124.99,
+      "duration_sec": 5.04,
+      "spoken": "And best of all, you've got this swagger that is just pure distilled bottled energy.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Pure kinetic Bon — jump, hair, sweat, chaos; definitive high-energy AC/DC live still.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "Bon Scott explosive AC/DC live performance energy 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott jumping live stage 1979",
+        "AC/DC Bon Scott live energy photograph 1979",
+        "Bon Scott AC/DC concert dynamic 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m040",
+      "cue": 40,
+      "t_start": 125.77,
+      "t_end": 128.03,
+      "duration_sec": 2.26,
+      "spoken": "Highway to hell, not a vague rock statement.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell tour live performance 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "AC/DC Highway to Hell tour 1979",
+        "Bon Scott Highway to Hell live 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m041",
+      "cue": 41,
+      "t_start": 128.35,
+      "t_end": 129.31,
+      "duration_sec": 0.96,
+      "spoken": "That's a confessional.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Confessional lyric — intimate Bon portrait (bar, backstage, tired truth-teller).",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott intimate candid portrait 1970s",
+      "date_from": "1976",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott bar candid 1970s",
+        "Bon Scott backstage portrait intimate",
+        "Bon Scott Australia candid photograph"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m042",
+      "cue": 42,
+      "t_start": 129.47,
+      "t_end": 133.87,
+      "duration_sec": 4.4,
+      "spoken": "That's a guy describing his actual lifestyle with zero apology and a grin.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott early career Australia 1970s",
+      "date_from": "1970",
+      "date_to": "1979",
+      "location": "Australia",
+      "search_queries": [
+        "Bon Scott 1974 photograph",
+        "Bon Scott Fraternity band 1970s",
+        "Bon Scott AC/DC early"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m043",
+      "cue": 43,
+      "t_start": 134.59,
+      "t_end": 135.03,
+      "duration_sec": 0.44,
+      "spoken": "Big balls?",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "BIG BALLS?",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: single-word punctuation beat.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m044",
+      "cue": 44,
+      "t_start": 135.55,
+      "t_end": 138.37,
+      "duration_sec": 2.82,
+      "spoken": "Yes, it's filthy, obviously, like a dirty limbric.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m045",
+      "cue": 45,
+      "t_start": 138.37,
+      "t_end": 141.73,
+      "duration_sec": 3.36,
+      "spoken": "But it's also a meticulously constructed double entendre.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m046",
+      "cue": 46,
+      "t_start": 142.29,
+      "t_end": 145.61,
+      "duration_sec": 3.32,
+      "spoken": "Crystal chandeliers, distinguished guests, and balls.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "crystal chandelier",
+        "story_link": "Big Balls double-entendre object",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Artifact beat: crystal chandelier — story-linked inanimate; prefer no faces, tight macro or detail.",
+      "people": [],
+      "situation": "Inanimate: crystal chandelier",
+      "date_from": "1978",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "crystal chandelier vintage ballroom",
+        "chandelier close up ornate"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m047",
+      "cue": 47,
+      "t_start": 146.33,
+      "t_end": 150.63,
+      "duration_sec": 4.3,
+      "spoken": "He is working two tracks at once for the entire song that is not an accident.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m048",
+      "cue": 48,
+      "t_start": 151.31,
+      "t_end": 152.89,
+      "duration_sec": 1.58,
+      "spoken": "Okay, here's an Easter egg.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "guitar amplifier knobs",
+        "story_link": "Rock backline",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: guitar amplifier knobs",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "guitar amplifier knobs close up",
+        "Marshall amplifier vintage"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m049",
+      "cue": 49,
+      "t_start": 153.27,
+      "t_end": 153.77,
+      "duration_sec": 0.5,
+      "spoken": "Pay attention.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "PAY ATTENTION",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: title on film grain/black — breaks redundancy; no new archive photo needed.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m050",
+      "cue": 50,
+      "t_start": 154.29,
+      "t_end": 157.79,
+      "duration_sec": 3.5,
+      "spoken": "Just a few years before his death, Bond was in a motorcycle accident.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bon Scott motorcycle accident period — historical photos of Bon on bike if available.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott motorcycle 1970s",
+      "date_from": "1974",
+      "date_to": "1978",
+      "location": "",
+      "search_queries": [
+        "Bon Scott motorcycle",
+        "Bon Scott motorbike 1970s"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m051",
+      "cue": 51,
+      "t_start": 158.11,
+      "t_end": 158.93,
+      "duration_sec": 0.82,
+      "spoken": "Nearly kills him.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "concert ticket stub vintage",
+        "story_link": "Live music culture",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: concert ticket stub vintage",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vintage concert ticket stub",
+        "rock concert ticket 1970s"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m052",
+      "cue": 52,
+      "t_start": 159.07,
+      "t_end": 162.39,
+      "duration_sec": 3.32,
+      "spoken": "And he tells people privately, not in interviews, not for the press.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m053",
+      "cue": 53,
+      "t_start": 162.67,
+      "t_end": 164.01,
+      "duration_sec": 1.34,
+      "spoken": "Just the people he actually knows.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "peeling rock concert poster",
+        "story_link": "Gig poster wall",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: peeling rock concert poster",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "peeling concert posters wall",
+        "vintage rock poster torn"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m054",
+      "cue": 54,
+      "t_start": 164.69,
+      "t_end": 166.83,
+      "duration_sec": 2.14,
+      "spoken": "I used up one of my nine lives on that one.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott portrait late 1970s",
+      "date_from": "1977",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1978 photograph",
+        "Bon Scott AC/DC portrait"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m055",
+      "cue": 55,
+      "t_start": 166.83,
+      "t_end": 169.97,
+      "duration_sec": 3.14,
+      "spoken": "His words, private, personal, filed away.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m056",
+      "cue": 56,
+      "t_start": 170.25,
+      "t_end": 171.29,
+      "duration_sec": 1.04,
+      "spoken": "We'll come back to that later.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "intertitle",
+        "text": "We'll come back to that later.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: intertitle on film grain/black — breaks redundancy; no new archive photo needed.",
+      "people": [],
+      "situation": "Generated text graphic (intertitle)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m057",
+      "cue": 57,
+      "t_start": 171.87,
+      "t_end": 173.35,
+      "duration_sec": 1.48,
+      "spoken": "Okay, now take Brian Johnson.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Respect beat — Brian performing with AC/DC, early 80s.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson singing live AC/DC 1981",
+      "date_from": "1980",
+      "date_to": "1982",
+      "location": "",
+      "search_queries": [
+        "Brian Johnson AC/DC live 1981",
+        "Brian Johnson on stage Back in Black tour"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m058",
+      "cue": 58,
+      "t_start": 173.71,
+      "t_end": 174.89,
+      "duration_sec": 1.18,
+      "spoken": "Love the man, genuinely.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "vinyl record on turntable",
+        "story_link": "Rock album culture",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: vinyl record on turntable",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vinyl record spinning turntable 1970s",
+        "LP record needle drop"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m059",
+      "cue": 59,
+      "t_start": 175.31,
+      "t_end": 180.05,
+      "duration_sec": 4.74,
+      "spoken": "What he did, walking into that situation, singing those songs with that fire,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m060",
+      "cue": 60,
+      "t_start": 180.63,
+      "t_end": 183.53,
+      "duration_sec": 2.9,
+      "spoken": "respect, sincere, uneironic respect.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m061",
+      "cue": 61,
+      "t_start": 184.25,
+      "t_end": 185.91,
+      "duration_sec": 1.66,
+      "spoken": "But go listen to Jordy.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Geordie era comparison.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        },
+        {
+          "name": "Geordie",
+          "role": "band"
+        }
+      ],
+      "situation": "Geordie band promotional photo 1970s",
+      "date_from": "1973",
+      "date_to": "1978",
+      "location": "",
+      "search_queries": [
+        "Geordie band 1975",
+        "Brian Johnson Geordie"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m062",
+      "cue": 62,
+      "t_start": 186.23,
+      "t_end": 190.25,
+      "duration_sec": 4.02,
+      "spoken": "Go listen to what Brian Johnson sounded like when he was not filling Bond's shoes.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Contrast Brian pre-AC/DC vs in AC/DC.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson Geordie then AC/DC comparison period",
+      "date_from": "1975",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Brian Johnson Geordie 1976",
+        "Brian Johnson AC/DC 1980 live"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m063",
+      "cue": 63,
+      "t_start": 190.89,
+      "t_end": 192.71,
+      "duration_sec": 1.82,
+      "spoken": "All because of you, can you do it?",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "audio cassette tape",
+        "story_link": "Pre-digital era",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: audio cassette tape",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "cassette tape vintage 1980",
+        "audio cassette close up"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m064",
+      "cue": 64,
+      "t_start": 193.09,
+      "t_end": 196.21,
+      "duration_sec": 3.12,
+      "spoken": "Good songs, competent, professional, fun even.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m065",
+      "cue": 65,
+      "t_start": 196.21,
+      "t_end": 198.53,
+      "duration_sec": 2.32,
+      "spoken": "But the narrator is generic.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "vintage rock tour t-shirt",
+        "story_link": "Tour merch era",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: vintage rock tour t-shirt",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vintage concert t-shirt 1979",
+        "rock tour merchandise shirt"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m066",
+      "cue": 66,
+      "t_start": 198.87,
+      "t_end": 199.63,
+      "duration_sec": 0.76,
+      "spoken": "It could be anyone.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "electric guitar body close-up",
+        "story_link": "Rock instrumentation",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: electric guitar body close-up",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "electric guitar body close up sunburst",
+        "Gibson SG guitar detail"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m067",
+      "cue": 67,
+      "t_start": 199.85,
+      "t_end": 201.03,
+      "duration_sec": 1.18,
+      "spoken": "There's no wit underneath.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "vintage microphone on stand",
+        "story_link": "Vocal performance object",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: vintage microphone on stand",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vintage microphone SM58 stand",
+        "stage microphone close up 1970s"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m068",
+      "cue": 68,
+      "t_start": 201.67,
+      "t_end": 202.35,
+      "duration_sec": 0.68,
+      "spoken": "There's no wink.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "guitar amplifier knobs",
+        "story_link": "Rock backline",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: guitar amplifier knobs",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "guitar amplifier knobs close up",
+        "Marshall amplifier vintage"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m069",
+      "cue": 69,
+      "t_start": 202.97,
+      "t_end": 204.69,
+      "duration_sec": 1.72,
+      "spoken": "They were trying to sound like slayed.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Musical influence reference — UK glam era context photo (Geordie/Slade era).",
+      "people": [
+        {
+          "name": "Geordie",
+          "role": "band"
+        }
+      ],
+      "situation": "UK rock band glam era 1970s promotional",
+      "date_from": "1972",
+      "date_to": "1977",
+      "location": "",
+      "search_queries": [
+        "Geordie band UK 1975",
+        "Slade band 1973 live"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m070",
+      "cue": 70,
+      "t_start": 204.99,
+      "t_end": 207.01,
+      "duration_sec": 2.02,
+      "spoken": "Which is a completely valid thing to be.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "concert ticket stub vintage",
+        "story_link": "Live music culture",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: concert ticket stub vintage",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vintage concert ticket stub",
+        "rock concert ticket 1970s"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m071",
+      "cue": 71,
+      "t_start": 207.25,
+      "t_end": 209.45,
+      "duration_sec": 2.2,
+      "spoken": "But it is not how Bond Scott wrote.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1979 photograph",
+        "Bon Scott AC/DC 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "m069",
+      "priority": "low"
+    },
+    {
+      "id": "m072",
+      "cue": 72,
+      "t_start": 209.99,
+      "t_end": 210.79,
+      "duration_sec": 0.8,
+      "spoken": "Not even close.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "Not even close.",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m073",
+      "cue": 73,
+      "t_start": 211.89,
+      "t_end": 215.07,
+      "duration_sec": 3.18,
+      "spoken": "Okay, now listen to the best songs on Back in Black.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Album deep dive — studio or tour 1980-81.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Back in Black tour live 1981",
+      "date_from": "1980",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC Back in Black tour 1981",
+        "AC/DC live 1981 Brian Johnson"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m074",
+      "cue": 74,
+      "t_start": 215.61,
+      "t_end": 217.27,
+      "duration_sec": 1.66,
+      "spoken": "Those songs have Bond's fingerprint.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Visual compare — Bon-era vs Brian-era (two-up or sequential).",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott and Brian Johnson AC/DC vocalists comparison photos",
+      "date_from": "1979",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1979 live",
+        "Brian Johnson 1980 AC/DC"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m075",
+      "cue": 75,
+      "t_start": 218.03,
+      "t_end": 220.23,
+      "duration_sec": 2.2,
+      "spoken": "Those songs are lyrically genius.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "peeling rock concert poster",
+        "story_link": "Gig poster wall",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: peeling rock concert poster",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "peeling concert posters wall",
+        "vintage rock poster torn"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m076",
+      "cue": 76,
+      "t_start": 221.07,
+      "t_end": 222.71,
+      "duration_sec": 1.64,
+      "spoken": "Swagger up the wazoo.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "m074",
+      "priority": "low"
+    },
+    {
+      "id": "m077",
+      "cue": 77,
+      "t_start": 223.57,
+      "t_end": 224.29,
+      "duration_sec": 0.72,
+      "spoken": "Back in black.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Album deep dive — studio or tour 1980-81.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Back in Black tour live 1981",
+      "date_from": "1980",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC Back in Black tour 1981",
+        "AC/DC live 1981 Brian Johnson"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m078",
+      "cue": 78,
+      "t_start": 224.29,
+      "t_end": 225.37,
+      "duration_sec": 1.08,
+      "spoken": "Hell's bells.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Song title — live performance moment same era.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "AC/DC performing Hells Bells live early 1980s",
+      "date_from": "1980",
+      "date_to": "1982",
+      "location": "",
+      "search_queries": [
+        "AC/DC Hells Bells live 1981",
+        "AC/DC live 1980 stage bells"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m079",
+      "cue": 79,
+      "t_start": 225.73,
+      "t_end": 227.17,
+      "duration_sec": 1.44,
+      "spoken": "Let me put my love into you.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "vinyl record on turntable",
+        "story_link": "Rock album culture",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: vinyl record on turntable",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vinyl record spinning turntable 1970s",
+        "LP record needle drop"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m080",
+      "cue": 80,
+      "t_start": 227.33,
+      "t_end": 228.39,
+      "duration_sec": 1.06,
+      "spoken": "Have a drink on me.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "Have a drink on me.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m081",
+      "cue": 81,
+      "t_start": 228.85,
+      "t_end": 229.09,
+      "duration_sec": 0.24,
+      "spoken": "Man.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "MAN",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: single-word punctuation beat.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m082",
+      "cue": 82,
+      "t_start": 229.79,
+      "t_end": 230.65,
+      "duration_sec": 0.86,
+      "spoken": "Let's take a look at.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "Let's take a look at.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m083",
+      "cue": 83,
+      "t_start": 230.83,
+      "t_end": 232.23,
+      "duration_sec": 1.4,
+      "spoken": "You shook me all night long.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Iconic song — AC/DC live energy (Bon era archive or early Brian era).",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC live concert 1979 or 1981 crowd and stage",
+      "date_from": "1979",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC live 1979 audience",
+        "AC/DC concert 1981"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m084",
+      "cue": 84,
+      "t_start": 232.53,
+      "t_end": 232.65,
+      "duration_sec": 0.12,
+      "spoken": "Right?",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "RIGHT?",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: single-word punctuation beat.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m085",
+      "cue": 85,
+      "t_start": 232.93,
+      "t_end": 235.57,
+      "duration_sec": 2.64,
+      "spoken": "It's one of the most perfect rock songs ever written.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m086",
+      "cue": 86,
+      "t_start": 235.87,
+      "t_end": 236.27,
+      "duration_sec": 0.4,
+      "spoken": "That hook.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "THAT HOOK",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: single-word punctuation beat.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m087",
+      "cue": 87,
+      "t_start": 236.75,
+      "t_end": 237.41,
+      "duration_sec": 0.66,
+      "spoken": "That mischief.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "THAT MISCHIEF",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: single-word punctuation beat.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m088",
+      "cue": 88,
+      "t_start": 237.71,
+      "t_end": 238.47,
+      "duration_sec": 0.76,
+      "spoken": "That point of view.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "That point of view.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m089",
+      "cue": 89,
+      "t_start": 238.75,
+      "t_end": 239.43,
+      "duration_sec": 0.68,
+      "spoken": "That swagger.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "m085",
+      "priority": "low"
+    },
+    {
+      "id": "m090",
+      "cue": 90,
+      "t_start": 239.89,
+      "t_end": 240.47,
+      "duration_sec": 0.58,
+      "spoken": "That's bonds.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "THAT'S BONDS",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: single-word punctuation beat.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m091",
+      "cue": 91,
+      "t_start": 241.19,
+      "t_end": 244.39,
+      "duration_sec": 3.2,
+      "spoken": "If that was Brian Johnson's, what happened to that genius?",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Brian Johnson 1979 photograph",
+        "Brian Johnson AC/DC 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m092",
+      "cue": 92,
+      "t_start": 244.91,
+      "t_end": 246.79,
+      "duration_sec": 1.88,
+      "spoken": "Where did it go after Back in Black?",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "Where did it go after Back in Black?",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m093",
+      "cue": 93,
+      "t_start": 247.31,
+      "t_end": 249.11,
+      "duration_sec": 1.8,
+      "spoken": "Where is it on for those about to rock?",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Later Brian era albums — period-accurate promo or live.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC For Those About to Rock era 1981 or Fly on the Wall 1985",
+      "date_from": "1981",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "AC/DC For Those About to Rock 1981",
+        "AC/DC Fly on the Wall 1985",
+        "Brian Johnson 1980s live"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m094",
+      "cue": 94,
+      "t_start": 249.67,
+      "t_end": 250.43,
+      "duration_sec": 0.76,
+      "spoken": "Fly on the wall?",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Later Brian era albums — period-accurate promo or live.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC For Those About to Rock era 1981 or Fly on the Wall 1985",
+      "date_from": "1981",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "AC/DC For Those About to Rock 1981",
+        "AC/DC Fly on the Wall 1985",
+        "Brian Johnson 1980s live"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m095",
+      "cue": 95,
+      "t_start": 250.73,
+      "t_end": 252.11,
+      "duration_sec": 1.38,
+      "spoken": "The next 20 years of records?",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "The next 20 years of records?",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m096",
+      "cue": 96,
+      "t_start": 252.11,
+      "t_end": 253.37,
+      "duration_sec": 1.26,
+      "spoken": "You don't write.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "You don't write.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m097",
+      "cue": 97,
+      "t_start": 253.65,
+      "t_end": 254.87,
+      "duration_sec": 1.22,
+      "spoken": "You shook me all night long.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Iconic song — AC/DC live energy (Bon era archive or early Brian era).",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC live concert 1979 or 1981 crowd and stage",
+      "date_from": "1979",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC live 1979 audience",
+        "AC/DC concert 1981"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m098",
+      "cue": 98,
+      "t_start": 255.13,
+      "t_end": 258.39,
+      "duration_sec": 3.26,
+      "spoken": "And then just never, ever find that frequency again.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m099",
+      "cue": 99,
+      "t_start": 258.99,
+      "t_end": 259.91,
+      "duration_sec": 0.92,
+      "spoken": "You'd at least try.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "You'd at least try.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m100",
+      "cue": 100,
+      "t_start": 260.41,
+      "t_end": 262.51,
+      "duration_sec": 2.1,
+      "spoken": "You'd be chasing that your whole career.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "You'd be chasing that your whole career.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m101",
+      "cue": 101,
+      "t_start": 262.79,
+      "t_end": 266.33,
+      "duration_sec": 3.54,
+      "spoken": "Unless that frequency was never on your dial to begin with?",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m102",
+      "cue": 102,
+      "t_start": 266.85,
+      "t_end": 268.53,
+      "duration_sec": 1.68,
+      "spoken": "I'm just asking questions here.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "I'm just asking questions here.",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m103",
+      "cue": 103,
+      "t_start": 269.33,
+      "t_end": 269.81,
+      "duration_sec": 0.48,
+      "spoken": "Okay.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "OKAY",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: single-word punctuation beat.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m104",
+      "cue": 104,
+      "t_start": 270.25,
+      "t_end": 271.19,
+      "duration_sec": 0.94,
+      "spoken": "The Nine Lives thing.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott portrait late 1970s",
+      "date_from": "1977",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1978 photograph",
+        "Bon Scott AC/DC portrait"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m105",
+      "cue": 105,
+      "t_start": 271.41,
+      "t_end": 272.65,
+      "duration_sec": 1.24,
+      "spoken": "I told you to hold on to that.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "I told you to hold on to that.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m106",
+      "cue": 106,
+      "t_start": 273.23,
+      "t_end": 275.11,
+      "duration_sec": 1.88,
+      "spoken": "Bond Scott, motorcycle accident.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bon Scott motorcycle accident period — historical photos of Bon on bike if available.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott motorcycle 1970s",
+      "date_from": "1974",
+      "date_to": "1978",
+      "location": "",
+      "search_queries": [
+        "Bon Scott motorcycle",
+        "Bon Scott motorbike 1970s"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m107",
+      "cue": 107,
+      "t_start": 275.47,
+      "t_end": 276.35,
+      "duration_sec": 0.88,
+      "spoken": "Should not have survived.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "Should not have survived.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m108",
+      "cue": 108,
+      "t_start": 276.69,
+      "t_end": 278.35,
+      "duration_sec": 1.66,
+      "spoken": "Tells people close to him privately.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "Tells people close to him privately.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m109",
+      "cue": 109,
+      "t_start": 278.73,
+      "t_end": 280.55,
+      "duration_sec": 1.82,
+      "spoken": "That he used up one of his Nine Lives.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott portrait late 1970s",
+      "date_from": "1977",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1978 photograph",
+        "Bon Scott AC/DC portrait"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m110",
+      "cue": 110,
+      "t_start": 280.55,
+      "t_end": 281.65,
+      "duration_sec": 1.1,
+      "spoken": "Back in Black.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "Back in Black.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m111",
+      "cue": 111,
+      "t_start": 282.09,
+      "t_end": 282.77,
+      "duration_sec": 0.68,
+      "spoken": "The title track.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "The title track.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m112",
+      "cue": 112,
+      "t_start": 283.11,
+      "t_end": 284.37,
+      "duration_sec": 1.26,
+      "spoken": "I've got Nine Lives.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott portrait late 1970s",
+      "date_from": "1977",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1978 photograph",
+        "Bon Scott AC/DC portrait"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m113",
+      "cue": 113,
+      "t_start": 284.69,
+      "t_end": 285.39,
+      "duration_sec": 0.7,
+      "spoken": "Cat's Eyes.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott portrait late 1970s",
+      "date_from": "1977",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1978 photograph",
+        "Bon Scott AC/DC portrait"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m114",
+      "cue": 114,
+      "t_start": 286.07,
+      "t_end": 288.41,
+      "duration_sec": 2.34,
+      "spoken": "Written in the first person about a private thing.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "Written in the first person about a private thing.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m115",
+      "cue": 115,
+      "t_start": 288.83,
+      "t_end": 289.71,
+      "duration_sec": 0.88,
+      "spoken": "Told privately.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "TOLD PRIVATELY",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: single-word punctuation beat.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m116",
+      "cue": 116,
+      "t_start": 290.35,
+      "t_end": 291.59,
+      "duration_sec": 1.24,
+      "spoken": "But sure, yeah, coincidence.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "But sure, yeah, coincidence.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m117",
+      "cue": 117,
+      "t_start": 292.29,
+      "t_end": 294.75,
+      "duration_sec": 2.46,
+      "spoken": "Maybe Brian Johnson also had a near-death experience",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Brian Johnson 1979 photograph",
+        "Brian Johnson AC/DC 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "m113",
+      "priority": "low"
+    },
+    {
+      "id": "m118",
+      "cue": 118,
+      "t_start": 294.75,
+      "t_end": 298.95,
+      "duration_sec": 4.2,
+      "spoken": "that he never publicly mentioned, but somehow independently landed on the exact same metaphor",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m119",
+      "cue": 119,
+      "t_start": 298.95,
+      "t_end": 301.39,
+      "duration_sec": 2.44,
+      "spoken": "that Bond Scott used privately with his friends.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1979 photograph",
+        "Bon Scott AC/DC 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "m118",
+      "priority": "low"
+    },
+    {
+      "id": "m120",
+      "cue": 120,
+      "t_start": 301.75,
+      "t_end": 303.29,
+      "duration_sec": 1.54,
+      "spoken": "Totally normal, super common.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "Totally normal, super common.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m121",
+      "cue": 121,
+      "t_start": 303.89,
+      "t_end": 306.39,
+      "duration_sec": 2.5,
+      "spoken": "No, there's only one explanation that makes sense.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Thesis restatement — strong Bon Scott live still.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott AC/DC live performance 1979",
+      "date_from": "1978",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott AC/DC live 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m122",
+      "cue": 122,
+      "t_start": 306.89,
+      "t_end": 308.51,
+      "duration_sec": 1.62,
+      "spoken": "Bond Scott wrote those words.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Thesis restatement — strong Bon Scott live still.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott AC/DC live performance 1979",
+      "date_from": "1978",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott AC/DC live 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m123",
+      "cue": 123,
+      "t_start": 309.23,
+      "t_end": 309.53,
+      "duration_sec": 0.3,
+      "spoken": "Look.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "LOOK",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: single-word punctuation beat.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m124",
+      "cue": 124,
+      "t_start": 309.53,
+      "t_end": 314.13,
+      "duration_sec": 4.6,
+      "spoken": "I'm just saying, Bond Scott spent his entire career writing himself into his music.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott early career Australia 1970s",
+      "date_from": "1970",
+      "date_to": "1979",
+      "location": "Australia",
+      "search_queries": [
+        "Bon Scott 1974 photograph",
+        "Bon Scott Fraternity band 1970s",
+        "Bon Scott AC/DC early"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m125",
+      "cue": 125,
+      "t_start": 314.39,
+      "t_end": 315.31,
+      "duration_sec": 0.92,
+      "spoken": "His actual life.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott early career Australia 1970s",
+      "date_from": "1970",
+      "date_to": "1979",
+      "location": "Australia",
+      "search_queries": [
+        "Bon Scott 1974 photograph",
+        "Bon Scott Fraternity band 1970s",
+        "Bon Scott AC/DC early"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m126",
+      "cue": 126,
+      "t_start": 315.65,
+      "t_end": 316.59,
+      "duration_sec": 0.94,
+      "spoken": "His actual voice.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott early career Australia 1970s",
+      "date_from": "1970",
+      "date_to": "1979",
+      "location": "Australia",
+      "search_queries": [
+        "Bon Scott 1974 photograph",
+        "Bon Scott Fraternity band 1970s",
+        "Bon Scott AC/DC early"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m127",
+      "cue": 127,
+      "t_start": 316.99,
+      "t_end": 317.89,
+      "duration_sec": 0.9,
+      "spoken": "His actual memories.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "His actual memories.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m128",
+      "cue": 128,
+      "t_start": 318.43,
+      "t_end": 321.13,
+      "duration_sec": 2.7,
+      "spoken": "And he deserves to have his last words credited to him.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m129",
+      "cue": 129,
+      "t_start": 322.01,
+      "t_end": 323.81,
+      "duration_sec": 1.8,
+      "spoken": "The fingerprint is on back in Black.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Visual compare — Bon-era vs Brian-era (two-up or sequential).",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott and Brian Johnson AC/DC vocalists comparison photos",
+      "date_from": "1979",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1979 live",
+        "Brian Johnson 1980 AC/DC"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m130",
+      "cue": 130,
+      "t_start": 324.49,
+      "t_end": 325.27,
+      "duration_sec": 0.78,
+      "spoken": "Bond's fingerprint.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Visual compare — Bon-era vs Brian-era (two-up or sequential).",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott and Brian Johnson AC/DC vocalists comparison photos",
+      "date_from": "1979",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1979 live",
+        "Brian Johnson 1980 AC/DC"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m131",
+      "cue": 131,
+      "t_start": 325.89,
+      "t_end": 331.35,
+      "duration_sec": 5.46,
+      "spoken": "And it is completely absent from everything Brian Johnson wrote before and after.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Brian discography era — Geordie vs later AC/DC promo shots.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson Geordie 1970s and AC/DC 1980s promotional photos",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "Brian Johnson Geordie",
+        "Brian Johnson AC/DC 1983"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m132",
+      "cue": 132,
+      "t_start": 332.15,
+      "t_end": 334.09,
+      "duration_sec": 1.94,
+      "spoken": "A fingerprint puts someone at the scene.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Closing metaphor — return to definitive Bon live image, NOT forensic stock.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott live on stage definitive photograph 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott AC/DC live 1979 full stage"
+      ],
+      "avoid": [
+        "fingerprint macro",
+        "crime scene",
+        "courtroom"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m133",
+      "cue": 133,
+      "t_start": 334.79,
+      "t_end": 336.61,
+      "duration_sec": 1.82,
+      "spoken": "Bond Scott was at the scene.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Closing metaphor — return to definitive Bon live image, NOT forensic stock.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott live on stage definitive photograph 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "Bon Scott AC/DC live 1979 full stage"
+      ],
+      "avoid": [
+        "fingerprint macro",
+        "crime scene",
+        "courtroom"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m134",
+      "cue": 134,
+      "t_start": 337.23,
+      "t_end": 338.35,
+      "duration_sec": 1.12,
+      "spoken": "The prosecution rests.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "title",
+        "text": "THE PROSECUTION RESTS",
+        "style": "blockbuster"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: title on film grain/black — breaks redundancy; no new archive photo needed.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m135",
+      "cue": 135,
+      "t_start": 338.35,
+      "t_end": 340.09,
+      "duration_sec": 1.74,
+      "spoken": "Render your verdict in the comments.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "Render your verdict in the comments.",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m136",
+      "cue": 136,
+      "t_start": 340.77,
+      "t_end": 343.09,
+      "duration_sec": 2.32,
+      "spoken": "And before you come at me, yes, I know he's credited.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "And before you come at me, yes, I know he's credited.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m137",
+      "cue": 137,
+      "t_start": 343.35,
+      "t_end": 345.23,
+      "duration_sec": 1.88,
+      "spoken": "Yes, I know Brian Johnson is incredible.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Acknowledgment — Brian interview or live still.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson interview or live 1980s",
+      "date_from": "1980",
+      "date_to": "1990",
+      "location": "",
+      "search_queries": [
+        "Brian Johnson interview 1980s",
+        "Brian Johnson AC/DC live"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m138",
+      "cue": 138,
+      "t_start": 345.49,
+      "t_end": 346.93,
+      "duration_sec": 1.44,
+      "spoken": "Yes, I've heard the interviews.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Acknowledgment — Brian interview or live still.",
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson interview or live 1980s",
+      "date_from": "1980",
+      "date_to": "1990",
+      "location": "",
+      "search_queries": [
+        "Brian Johnson interview 1980s",
+        "Brian Johnson AC/DC live"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m139",
+      "cue": 139,
+      "t_start": 347.19,
+      "t_end": 351.29,
+      "duration_sec": 4.1,
+      "spoken": "Doesn't explain the fingerprint or lack thereof in subsequent records.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m140",
+      "cue": 140,
+      "t_start": 351.29,
+      "t_end": 353.29,
+      "duration_sec": 2.0,
+      "spoken": "",
+      "visual_mode": "effect_only",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "2s black tail after final VO cue — picture hold only; master audio ends with m139, no VO shift on m001–m139.",
+      "people": [],
+      "situation": "Black plate (effect-only tail)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    }
+  ]
+}

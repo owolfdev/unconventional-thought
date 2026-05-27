@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "m140",
+  "cue": 140,
+  "t_start": 351.29,
+  "t_end": 353.29,
+  "duration_sec": 2,
+  "spoken": "",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "2s black tail after final VO cue — picture hold only; master audio ends with m139.",
+  "situation": "Black plate (effect-only tail)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "black tail — no VO, silence after master audio ends",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.048Z",
+  "effects": [],
+  "transition": null,
+  "requires_media_files": false,
+  "acquired_files": [],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

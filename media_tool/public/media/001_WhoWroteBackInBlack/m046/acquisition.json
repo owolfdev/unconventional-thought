@@ -1,0 +1,63 @@
+{
+  "id": "m046",
+  "cue": 46,
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "vignette_soft",
+    "film_scratches",
+    "film_grain",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "crystal chandelier vintage ballroom high society",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:download-d2a4359b8fe9.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m046/acquired/download-d2a4359b8fe9.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m046/acquired/download-d2a4359b8fe9.jpg",
+          "title": "download-d2a4359b8fe9.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m046/acquired/download-d2a4359b8fe9.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-21T12:04:43.769Z"
+        },
+        {
+          "result_id": "local-acquired:giphy-K20uJQyNnchq0.gif",
+          "url": "/media/001_WhoWroteBackInBlack/m046/acquired/giphy-K20uJQyNnchq0.gif",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m046/acquired/giphy-K20uJQyNnchq0.gif",
+          "title": "giphy-K20uJQyNnchq0.gif",
+          "source_page": "/media/001_WhoWroteBackInBlack/m046/acquired/giphy-K20uJQyNnchq0.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: ball disco GIF",
+          "selected_at": "2026-05-22T20:58:01.158Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "chandelier close up ornate",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-22T21:19:42.224Z",
+  "updated_at": "2026-05-22T21:19:42.224Z"
+}

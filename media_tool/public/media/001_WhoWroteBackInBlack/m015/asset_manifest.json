@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "id": "m015",
+  "cue": 15,
+  "t_start": 51.69,
+  "t_end": 53.25,
+  "duration_sec": 1.56,
+  "spoken": "But sure, new guy wrote it.",
+  "visual_mode": "stock",
+  "expected_media_type": "generated",
+  "editorial_intent": "Skeptical beat on Brian — portrait or early AC/DC with Brian.",
+  "situation": "Brian Johnson portrait early 1980s",
+  "people": [
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1980",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "Brian Johnson 1980 portrait",
+    "Brian Johnson AC/DC 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.968Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "sticker-1976e747.png",
+    "sticker-996044e6.png"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

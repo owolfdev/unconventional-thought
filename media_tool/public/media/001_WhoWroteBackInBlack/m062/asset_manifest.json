@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "id": "m062",
+  "cue": 62,
+  "t_start": 186.23,
+  "t_end": 190.25,
+  "duration_sec": 4.02,
+  "spoken": "Go listen to what Brian Johnson sounded like when he was not filling Bond's shoes.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Contrast Brian pre-AC/DC vs in AC/DC.",
+  "situation": "Brian Johnson Geordie then AC/DC comparison period",
+  "people": [
+    {
+      "name": "Brian Johnson",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1975",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "Brian Johnson Geordie 1976",
+    "Brian Johnson AC/DC 1980 live"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Contrast Brian pre-AC/DC vs in AC/DC.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Brian Johnson Geordie 1976",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Brian Johnson AC/DC 1980 live",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:23.002Z",
+  "effects": [
+    "film_scratches",
+    "tilt_left",
+    "film_damage",
+    "vignette_soft",
+    "slow_zoom_out"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-0621c2df22a3.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

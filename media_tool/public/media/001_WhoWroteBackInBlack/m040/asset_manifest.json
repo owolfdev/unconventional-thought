@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "id": "m040",
+  "cue": 40,
+  "t_start": 125.77,
+  "t_end": 128.03,
+  "duration_sec": 2.26,
+  "spoken": "Highway to hell, not a vague rock statement.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+  "situation": "AC/DC Highway to Hell tour live performance 1979",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1979",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "AC/DC Highway to Hell tour 1979",
+    "Bon Scott Highway to Hell live 1979"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC Highway to Hell tour 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott Highway to Hell live 1979",
+      "status": "needed"
+    }
+  ],
+  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-05-24T20:54:22.987Z",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "requires_media_files": true,
+  "acquired_files": [
+    "download-950beebf907b.jpg",
+    "download-f95d387722a1.jpg"
+  ],
+  "text_graphic_layer": null,
+  "background_color": "#000000"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "m001",
+  "cue": 1,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "bring image in a few seconds later. ",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC logo",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "local-acquired:ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
+          "url": "/media/001_WhoWroteBackInBlack/m001/acquired/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
+          "thumbnail_url": "/media/001_WhoWroteBackInBlack/m001/acquired/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
+          "title": "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
+          "source_page": "/media/001_WhoWroteBackInBlack/m001/acquired/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
+          "license": "local acquired file - verify rights",
+          "engine_id": "local_acquired",
+          "query": "Local acquired files",
+          "selected_at": "2026-05-23T12:36:38.302Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC Highway to Hell tour 1979 stage",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "AC/DC audience 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-05-20T21:31:26.533Z",
+  "updated_at": "2026-05-23T12:36:39.163Z"
+}

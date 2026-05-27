@@ -1,0 +1,9 @@
+{
+  "id": "001_WhoWroteBackInBlack",
+  "number": "001",
+  "title": "Who Wrote Back in Black",
+  "audio_master": "audio/master/who_wrote_back_in_black.mp3",
+  "transcript_json": "transcript/who_wrote_back_in_black.json",
+  "transcript_srt": "transcript/who_wrote_back_in_black.srt",
+  "timeline_manifest": "timeline/media_search.json"
+}
