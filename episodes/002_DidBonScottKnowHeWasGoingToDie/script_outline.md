@@ -1,13 +1,8 @@
-I know exactly what you mean. It's like a fireside chat but at a party. Someone grabs your arm and goes "okay wait, do you know about this?" and then just takes you on a ride. Every paragraph is another "wait what" moment. It never stops moving. It never gets preachy. It just keeps going deeper and deeper and the person listening can't leave because they need to know what comes next.
 
-Give me a few minutes. I'm gonna rewrite the whole thing as one continuous flowing conversation. No sections that feel like sections. Just one guy talking to another guy and slowly blowing his mind.
-
-Back in a minute.
 
 ---
 
 # **DID BON SCOTT KNOW HE WAS GOING TO DIE?**
-### *Final Script — Party Conversation Version*
 
 ---
 
@@ -15,35 +10,27 @@ Back in a minute.
 
 So you like this song?
 
-Yeah everybody likes this song. It's everywhere right. Football games, movie trailers, your uncle's barbecue. It's just part of the furniture at this point.
+Yeah everybody likes this song. 
 
 But here's the thing.
 
-I don't think most people actually *listen* to it. Like really listen. And if you do — if you actually stop and pay attention to what's happening in that recording — there's something going on that nobody really talks about.
+If you really *listen* to it. Like really listen. And if you do — if you actually stop and pay attention to what's happening in that recording — there's something going on that I never heard anyone talk about.
 
 Something that once I tell you, you're not gonna be able to unhear.
 
 You want to hear it?
 
-Okay. So first I need you to do something. Pull up something from the early AC/DC records. Whole Lotta Rosie, Let There Be Rock, anything from like 1976, 1977. Just listen to Bon Scott's voice for a second.
+If you listen to early AC/DC, you'll hear that Bon Scott's voice is like a coiled rattlesnake. The guy sounds like he's about to fight everyone in the room simultaneously and he's genuinely looking forward to it. It's one of the most electric sounds in rock history. Genuinely.
 
-You hear that? That coiled spring thing? That tension? The guy sounds like he's about to fight everyone in the room simultaneously and he's genuinely looking forward to it. It's one of the most electric sounds in rock history. Genuinely.
-
-Okay now put Highway to Hell back on.
+Okay now listen to Highway to Hell.
 
 Same guy. Three years later.
 
-And tell me that's the same voice.
-
-Because it's not. It's still incredible — don't get me wrong — but something has shifted. There's this looseness now. This warmth. Like he's floating downstream instead of swimming upstream. Especially on the title track — the way he delivers "I'm on the highway to hell" isn't aggressive at all.
-
-It's almost peaceful.
+It's still incredible — but something has shifted. There's this looseness. This warmth. Like he's floating downstream instead of swimming upstream. Especially on the title track — the way he delivers "I'm on the highway to hell" isn't aggressive at all.
 
 Like a man who's made a decision and he's completely okay with it.
 
-Now here's the thing. That specific quality — that liquid, relaxed, leaning-back-into-it feeling — that's not what alcohol does to a voice. Alcohol makes you sloppy. Alcohol makes you fall off your stool.
-
-This isn't sloppy.
+Now here's the thing. That specific quality — that liquid, relaxed, leaning-back-into-it feeling — where does that come from? It almost sounds inebriated. But.. That's not what alcohol does to a voice. Alcohol makes you sloppy. Alcohol makes you fall off your stool.
 
 This is something else. And people who know about these things would recognise it immediately.
 
@@ -59,13 +46,11 @@ He recorded that eight months before he died.
 
 Eight months.
 
-Okay so now I need to take you somewhere for a second because this is where it gets really interesting.
+Okay so now I need to take you somewhere for a second because this is where it gets interesting.
 
 You know the Robert Johnson story?
 
 Robert Johnson. Delta blues. 1930s Mississippi. By most accounts the greatest blues guitarist who ever lived — so far ahead of everyone around him that people genuinely didn't know what to make of him. And the legend — the story everyone tells — is that he went down to the crossroads at midnight and sold his soul to the devil in exchange for his gift.
-
-Now obviously that's a myth. But here's the thing about myths. They exist because they're pointing at something real.
 
 What the Robert Johnson story is really describing is the bargain. The artistic bargain. You give me access to something transcendent — something beyond what normal people can reach — and I'll pay whatever the price is.
 
@@ -79,27 +64,11 @@ The 27 Club isn't a coincidence man. It's what the bargain looks like when it co
 
 Bon Scott made it to 33 which honestly — given what we're about to talk about — is kind of remarkable.
 
-Now. You know who made the bargain most explicitly?
-
-Charlie Parker.
-
-Bird. Greatest jazz saxophonist who ever lived. The guy who invented bebop while everyone else was still trying to figure out what he was doing. Miles Davis — who was absolutely no slouch — said Bird was so far ahead it was frightening.
-
-Also a heroin addict for most of his adult life.
-
-And here's the uncomfortable truth that nobody really likes to say out loud.
-
-For certain kinds of artists — the ones wired a very specific way — heroin works.
-
-Like it actually works.
-
-It produces this state — this warmth, this looseness, this access to emotional depth that feels unreachable any other way — and for artists wired like Bird it unlocks something genuinely extraordinary. Bird knew this. Billie Holiday knew it. Keith Richards knew it and somehow survived which is its own miracle and probably its own video.
-
 These weren't stupid people making stupid decisions. These were some of the most gifted artists of the twentieth century making a very specific calculated bet.
 
 The bet goes like this. This thing gives me access to something I can't get any other way. And yeah it's probably gonna kill me. And I'm doing it anyway. Because what it produces is worth more to me than whatever years it costs.
 
-Devil's bargain. Always has been.
+Devil's bargain. Always has been this way.
 
 But it's a real bargain that real artists have made over and over throughout history.
 
@@ -109,9 +78,7 @@ Now here's the thing about Bon that most people don't know.
 
 The image — sweaty shirtless larrikin, working class guy from the wrong side of town, all swagger and beer — that was completely real. He grew up in Fremantle which is a rough port town in Western Australia. Left school young. Scrapes with the law. He wasn't performing working class. He was the genuine article.
 
-But the guy also read widely. Wrote poetry. Had this whole interior life that his public image never came close to capturing. People who actually knew him describe this curiosity, this warmth, this genuine intellectual engagement with the world that you'd never guess from watching him onstage.
-
-And that's the thing about AC/DC that people don't fully appreciate now because the band's become so universal — back then they were navigating something really specific culturally.
+But the guy also wrote poetry... OK mostly limericks, but he had this whole interior life that his public image never came close to capturing. People who actually knew him describe this curiosity, this genuine intellectual engagement with the world that you'd never guess from watching him onstage.
 
 Think about what's happening in 1979. Punk on one side. Disco on the other.
 
@@ -121,11 +88,7 @@ Disco meanwhile is Studio 54 and glamour and sophistication and everything that 
 
 And AC/DC are standing there going — guys. Guys. It's just rock and roll. It's a guitar and a riff and Angus running around like a lunatic who can't believe how good this feels. Isn't this the greatest thing you've ever seen?
 
-That's the key thing about them. They weren't against anything. They were for everything. For rock and roll. For a good time. For the pure visceral joy of being alive and turned up to eleven. No irony. No concept. No nihilism. Just — this. Right here. Isn't this incredible.
-
-Angus wore a schoolboy uniform onstage and it looked like a punk provocation but it was actually the complete opposite. That wasn't ironic. That was a guy playing with pure unironic joy. Like a kid who just discovered rock and roll and can't believe how good it feels.
-
-Not a single ironic bone in AC/DC's body. Ever.
+That's the key thing about them. They weren't against anything. They were for everything. For rock and roll. For a good time. For the pure visceral joy of being alive and turned up to eleven.
 
 Which is exactly why they connected with that specific working class American audience the way they did. Post Vietnam, post Watergate, Carter talking about national malaise — the country felt defeated. And here come these five Australian lunatics offering something completely different. Not escape into glamour. Not escape into nihilism.
 
