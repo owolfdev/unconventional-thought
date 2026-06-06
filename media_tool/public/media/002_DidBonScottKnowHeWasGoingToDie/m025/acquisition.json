@@ -1,0 +1,35 @@
+{
+  "id": "m025",
+  "cue": 25,
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
+  "status": "pending",
+  "notes": "",
+  "effects": [],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "vinyl record spinning turntable 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 1,
+      "query": "LP record needle drop",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-06-06T10:46:09.767Z"
+}

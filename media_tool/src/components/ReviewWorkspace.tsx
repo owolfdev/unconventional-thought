@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type {
   ItemAcquisition,
@@ -7,6 +8,7 @@ import type {
   MediaToolItem,
   MediaToolManifest,
   ResolvedMediaType,
+  SelectedMedia,
   VisualMode,
 } from "@/lib/types";
 import {
@@ -14,6 +16,8 @@ import {
   VISUAL_MODE_LABELS,
   VISUAL_MODES,
 } from "@/lib/visual-modes";
+import { CueLibraryPicker } from "./CueLibraryPicker";
+import { CueStagedMedia } from "./CueStagedMedia";
 import { EffectsPanel } from "./EffectsPanel";
 import { QueryRow } from "./QueryRow";
 import {
@@ -27,10 +31,16 @@ import { GiphyStickerPanel } from "./GiphyStickerPanel";
 import { UnsavedChangesDialog } from "./UnsavedChangesDialog";
 import { normalizeBackgroundColor } from "@/lib/background-color";
 import { findIncompleteItemIndex } from "@/lib/acquisition";
+import { libraryHrefForCue } from "@/lib/library-cue-link";
 import {
   cloneSavedItems,
   isItemAcquisitionDirty,
 } from "@/lib/acquisition-dirty";
+import {
+  buildCuesMarkdown,
+  cuesMarkdownFilename,
+  downloadMarkdownFile,
+} from "@/lib/export-cues-markdown";
 
 const DEFAULT_MANIFEST =
   process.env.NEXT_PUBLIC_DEFAULT_MANIFEST_PATH ||
@@ -67,6 +77,12 @@ export function ReviewWorkspace() {
   const [folderMessage, setFolderMessage] = useState<string | null>(null);
   const [acquiredFiles, setAcquiredFiles] = useState<string[]>([]);
   const [ytDlpOk, setYtDlpOk] = useState<boolean | null>(null);
+  const [googleCseStatus, setGoogleCseStatus] = useState<
+    "not_configured" | "ok" | "blocked" | null
+  >(null);
+  const [libraryAssetCount, setLibraryAssetCount] = useState<number | null>(
+    null,
+  );
   const [jumpItemId, setJumpItemId] = useState("");
   /** Last saved acquisition per item (baseline for dirty detection). */
   const [savedItems, setSavedItems] = useState<
@@ -75,6 +91,20 @@ export function ReviewWorkspace() {
   const [pendingNavIndex, setPendingNavIndex] = useState<number | null>(null);
   const [showCueOverlay, setShowCueOverlay] = useState(true);
   const [overlayBusy, setOverlayBusy] = useState(false);
+  const didInitialLoad = useRef(false);
+
+  const exportCuesMarkdown = useCallback(() => {
+    if (!loadState) return;
+    const md = buildCuesMarkdown(
+      loadState.manifest,
+      loadState.acquisition,
+      loadState.manifestPath,
+    );
+    downloadMarkdownFile(
+      md,
+      cuesMarkdownFilename(loadState.manifest.episode),
+    );
+  }, [loadState]);
 
   const loadManifest = useCallback(async (path: string, targetItemId?: string | null) => {
     setError(null);
@@ -134,45 +164,71 @@ export function ReviewWorkspace() {
   );
 
   useEffect(() => {
+    if (didInitialLoad.current) return;
+    didInitialLoad.current = true;
+
     const params = new URLSearchParams(window.location.search);
     const saved = localStorage.getItem("mediaSearch.manifestPath");
     const path = params.get("path") || saved || DEFAULT_MANIFEST;
     const itemId = params.get("itemId");
-    window.setTimeout(() => {
-      setManifestPathInput(path);
-      loadManifest(path, itemId).catch((e) =>
-        setError(e instanceof Error ? e.message : "Load failed"),
-      );
-    }, 0);
+    setManifestPathInput(path);
+    loadManifest(path, itemId).catch((e) =>
+      setError(e instanceof Error ? e.message : "Load failed"),
+    );
+
+    fetch("/api/config")
+      .then((r) => r.json())
+      .then((data) => {
+        setGoogleCseStatus(
+          data.googleCseStatus === "ok" ||
+            data.googleCseStatus === "blocked" ||
+            data.googleCseStatus === "not_configured"
+            ? data.googleCseStatus
+            : data.googleCseConfigured === true
+              ? "ok"
+              : "not_configured",
+        );
+        setYtDlpOk(data.ytDlpAvailable === true);
+        setLibraryAssetCount(
+          typeof data.libraryAssetCount === "number"
+            ? data.libraryAssetCount
+            : 0,
+        );
+      })
+      .catch(() => {
+        setGoogleCseStatus(null);
+      });
   }, [loadManifest]);
 
   const items = loadState?.manifest.items ?? [];
   const currentItem: MediaToolItem | undefined = items[itemIndex];
+  const currentItemId = currentItem?.id;
+  const manifestPathLoaded = loadState?.manifestPath;
   const currentAcq: ItemAcquisition | undefined = currentItem
     ? loadState?.acquisition.items[currentItem.id]
     : undefined;
 
   const refreshAcquired = useCallback(async () => {
-    if (!loadState || !currentItem) return;
+    if (!manifestPathLoaded || !currentItemId) return;
     const res = await fetch(
-      `/api/download?path=${encodeURIComponent(loadState.manifestPath)}&itemId=${currentItem.id}`,
+      `/api/download?path=${encodeURIComponent(manifestPathLoaded)}&itemId=${currentItemId}`,
     );
     const data = await res.json();
     if (res.ok) {
       setAcquiredFiles(data.files ?? []);
       setYtDlpOk(data.ytDlpAvailable ?? false);
     }
-  }, [loadState, currentItem]);
+  }, [manifestPathLoaded, currentItemId]);
 
   /** Reload per-cue acquisition.json after server-side import (GIPHY, generate-sticker). */
   const reloadItemAcquisition = useCallback(async () => {
-    if (!loadState || !currentItem) return;
+    if (!manifestPathLoaded || !currentItemId) return;
     const res = await fetch(
-      `/api/manifest?path=${encodeURIComponent(loadState.manifestPath)}`,
+      `/api/manifest?path=${encodeURIComponent(manifestPathLoaded)}`,
     );
     const data = await res.json();
     if (!res.ok) return;
-    const itemAcq = data.acquisition?.items?.[currentItem.id] as
+    const itemAcq = data.acquisition?.items?.[currentItemId] as
       | ItemAcquisition
       | undefined;
     if (!itemAcq) return;
@@ -184,13 +240,13 @@ export function ReviewWorkspace() {
               ...s.acquisition,
               items: {
                 ...s.acquisition.items,
-                [currentItem.id]: itemAcq,
+                [currentItemId]: itemAcq,
               },
             },
           }
         : s,
     );
-  }, [loadState, currentItem]);
+  }, [manifestPathLoaded, currentItemId]);
 
   const refreshAfterAcquiredChange = useCallback(async () => {
     await refreshAcquired();
@@ -198,18 +254,19 @@ export function ReviewWorkspace() {
   }, [refreshAcquired, reloadItemAcquisition]);
 
   useEffect(() => {
-    window.setTimeout(() => {
-      void refreshAcquired();
-    }, 0);
-  }, [refreshAcquired, itemIndex]);
+    if (!manifestPathLoaded || !currentItemId) return;
+    void refreshAcquired();
+  }, [refreshAcquired, manifestPathLoaded, currentItemId]);
 
   useEffect(() => {
-    if (!loadState || !currentItem) return;
+    if (!manifestPathLoaded || !currentItemId) return;
     const params = new URLSearchParams();
-    params.set("path", loadState.manifestPath);
-    params.set("itemId", currentItem.id);
-    window.history.replaceState(null, "", `/?${params.toString()}`);
-  }, [loadState, currentItem]);
+    params.set("path", manifestPathLoaded);
+    params.set("itemId", currentItemId);
+    const desired = `?${params.toString()}`;
+    if (window.location.search === desired) return;
+    window.history.replaceState(null, "", `/${desired}`);
+  }, [manifestPathLoaded, currentItemId]);
 
   const updateCurrentAcq = useCallback(
     (patch: Partial<ItemAcquisition>) => {
@@ -232,6 +289,24 @@ export function ReviewWorkspace() {
       });
     },
     [loadState, currentItem],
+  );
+
+  const removeStagedSelection = useCallback(
+    (queryIndex: number, selection: SelectedMedia) => {
+      if (!currentAcq) return;
+      const queries = currentAcq.queries.map((q, i) =>
+        i === queryIndex
+          ? {
+              ...q,
+              selections: q.selections.filter(
+                (s) => s.result_id !== selection.result_id,
+              ),
+            }
+          : q,
+      );
+      updateCurrentAcq({ queries });
+    },
+    [currentAcq, updateCurrentAcq],
   );
 
   const isCurrentDirty =
@@ -474,6 +549,11 @@ export function ReviewWorkspace() {
     Boolean(currentAcq) &&
     !isTextGraphic;
 
+  const libraryHref =
+    loadState && currentItem
+      ? libraryHrefForCue(loadState.manifestPath, currentItem.id)
+      : "/library";
+
   if (!loadState && !error) {
     return (
       <div className="flex min-h-[40vh] items-center justify-center text-zinc-500">
@@ -488,7 +568,15 @@ export function ReviewWorkspace() {
       <header className="mb-8 rounded-xl border border-zinc-800 bg-zinc-900/50 p-4">
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
-            <h1 className="text-lg font-semibold tracking-tight">Media Search</h1>
+            <div className="flex flex-wrap items-center gap-3">
+              <h1 className="text-lg font-semibold tracking-tight">Media Search</h1>
+              <Link
+                href={libraryHref}
+                className="rounded-lg border border-zinc-700 px-2.5 py-1 text-xs text-zinc-300 hover:bg-zinc-900"
+              >
+                Library ({libraryAssetCount ?? "…"})
+              </Link>
+            </div>
             <p className="mt-1 text-sm text-zinc-400">
           Per-cue folders under{" "}
           <code className="text-amber-400/90">public/media/&lt;project&gt;/m001/</code>{" "}
@@ -541,7 +629,14 @@ export function ReviewWorkspace() {
         {loadState && (
           <p className="mt-2 text-xs text-zinc-500">
             {loadState.manifest.episode} · {items.length} items ·{" "}
-            {loadState.acquisition.completed_count} marked complete
+            {loadState.acquisition.completed_count} marked complete ·{" "}
+            <button
+              type="button"
+              onClick={exportCuesMarkdown}
+              className="text-amber-400/90 hover:underline"
+            >
+              Export cues (.md)
+            </button>
           </p>
         )}
 
@@ -573,11 +668,48 @@ export function ReviewWorkspace() {
                 {" · "}
                 {loadState.mediaLibrary.itemFolders}/
                 {loadState.mediaLibrary.totalItems} folders ·{" "}
-                {loadState.mediaLibrary.acquiredFileCount} files in acquired/
+                {loadState.mediaLibrary.acquiredFileCount} files in acquired/{" "}
+                (legacy)
+              </p>
+            )}
+            {libraryAssetCount !== null && (
+              <p className="mt-1 text-xs text-zinc-500">
+                <code className="text-zinc-400">public/media/_library/</code>
+                {" · "}
+                {libraryAssetCount} archive asset
+                {libraryAssetCount === 1 ? "" : "s"}
+                {libraryAssetCount === 0
+                  ? " — empty until you download or run Phase 2 migration"
+                  : ""}
               </p>
             )}
             {folderMessage && (
               <p className="mt-2 text-xs text-emerald-400/90">{folderMessage}</p>
+            )}
+            {googleCseStatus === "not_configured" && (
+              <p className="mt-2 text-xs text-amber-200/80">
+                Google Images gallery: add{" "}
+                <code className="text-zinc-300">GOOGLE_API_KEY</code> and{" "}
+                <code className="text-zinc-300">GOOGLE_CSE_ID</code> to{" "}
+                <code className="text-zinc-300">media_tool/.env.local</code>{" "}
+                — or use Commons / Openverse / Repo library. Restart dev server.
+              </p>
+            )}
+            {googleCseStatus === "blocked" && (
+              <p className="mt-2 text-xs text-amber-200/80">
+                Google Images API blocked for this GCP project (403 — JSON API
+                closed to new customers). Search still opens Google in browser;
+                in-app gallery falls back to Openverse. Use{" "}
+                <strong className="font-normal text-amber-100/90">
+                  Repo library
+                </strong>
+                , Commons, or paste URLs manually.
+              </p>
+            )}
+            {googleCseStatus === "ok" && (
+              <p className="mt-1 text-xs text-zinc-600">
+                Google Custom Search ready · gallery returns direct image URLs
+              </p>
             )}
             {ytDlpOk === false && (
               <p className="mt-2 text-xs text-amber-200/80">
@@ -621,7 +753,7 @@ export function ReviewWorkspace() {
                       public/media/{loadState.mediaLibrary.project}/
                       {currentItem.id}/
                     </a>
-                    {" · asset_manifest.json · acquired/"}
+                    {" · asset_manifest.json · acquisition.json"}
                   </p>
                 )}
               </div>
@@ -631,24 +763,47 @@ export function ReviewWorkspace() {
             </div>
 
             {showMediaPreview && loadState.mediaLibrary && (
-              <SelectedMediaPreview
-                acquisition={currentAcq}
-                project={loadState.mediaLibrary.project}
-                itemId={currentItem.id}
-                acquiredFiles={acquiredFiles}
-                durationSec={currentItem.duration_sec}
-                tStart={currentItem.t_start}
-                tEnd={currentItem.t_end}
-                onStickerOverlayEnabledChange={(enabled) =>
-                  updateCurrentAcq({ sticker_overlay_enabled: enabled })
-                }
-                onStickerOverlaySizeChange={(size) =>
-                  updateCurrentAcq({ sticker_overlay_size: size })
-                }
-                onTitleOverlayEnabledChange={(enabled) =>
-                  updateCurrentAcq({ title_overlay_enabled: enabled })
-                }
-              />
+              <>
+                <SelectedMediaPreview
+                  acquisition={currentAcq}
+                  project={loadState.mediaLibrary.project}
+                  itemId={currentItem.id}
+                  acquiredFiles={acquiredFiles}
+                  durationSec={currentItem.duration_sec}
+                  tStart={currentItem.t_start}
+                  tEnd={currentItem.t_end}
+                  onStickerOverlayEnabledChange={(enabled) =>
+                    updateCurrentAcq({ sticker_overlay_enabled: enabled })
+                  }
+                  onStickerOverlaySizeChange={(size) =>
+                    updateCurrentAcq({ sticker_overlay_size: size })
+                  }
+                  onTitleOverlayEnabledChange={(enabled) =>
+                    updateCurrentAcq({ title_overlay_enabled: enabled })
+                  }
+                />
+                {needsMediaTool && (
+                  <CueLibraryPicker
+                    manifestPath={loadState.manifestPath}
+                    episodeId={loadState.acquisition.episode}
+                    itemId={currentItem.id}
+                    acquisition={currentAcq}
+                    defaultQuery={
+                      currentAcq.queries[0]?.query ??
+                      currentItem.search_queries[0] ??
+                      ""
+                    }
+                    onStaged={refreshAfterAcquiredChange}
+                  />
+                )}
+                <CueStagedMedia
+                  acquisition={currentAcq}
+                  project={loadState.mediaLibrary.project}
+                  itemId={currentItem.id}
+                  legacyAcquiredFiles={acquiredFiles}
+                  onRemove={removeStagedSelection}
+                />
+              </>
             )}
 
             <blockquote className="mt-4 text-xl leading-relaxed text-zinc-100">
@@ -855,7 +1010,7 @@ export function ReviewWorkspace() {
                   queryAcq={q}
                   manifestPath={loadState.manifestPath}
                   itemId={currentItem.id}
-                  onAcquiredUpdated={refreshAcquired}
+                  onAcquiredUpdated={() => void refreshAfterAcquiredChange()}
                   onChange={(updated) => {
                     const queries = [...currentAcq.queries];
                     queries[qi] = updated;
@@ -925,10 +1080,10 @@ export function ReviewWorkspace() {
             </button>
             {loadState.mediaLibrary && (
               <a
-                href={`/acquired/${encodeURIComponent(loadState.mediaLibrary.project)}/${encodeURIComponent(currentItem.id)}`}
+                href={libraryHref}
                 className="rounded-lg border border-emerald-800 px-4 py-2 text-sm text-emerald-300 hover:bg-emerald-950"
               >
-                Open acquired/
+                Select from library
               </a>
             )}
             <form
@@ -1017,11 +1172,18 @@ function ItemDownloadSection({
       const res = await fetch("/api/download", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ manifestPath, itemId, url: trimmed }),
+        body: JSON.stringify({
+          manifestPath,
+          itemId,
+          url: trimmed,
+          queryIndex: 0,
+          searchQuery: acquisition?.queries[0]?.query,
+        }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Download failed");
-      setMessage(`Saved ${data.filename} to acquired/`);
+      const selectedNote = data.selected ? " · staged on cue" : "";
+      setMessage(`Saved ${data.filename} → library${selectedNote}`);
       if (kind === "image") {
         setImageUrl("");
       } else {
@@ -1049,7 +1211,8 @@ function ItemDownloadSection({
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Upload failed");
-      setMessage(`Copied ${data.filename} to acquired/`);
+      const selectedNote = data.acquisitionUpdated ? " · staged on cue" : "";
+      setMessage(`Saved ${data.filename} → library${selectedNote}`);
       await onAcquiredUpdated();
     } catch (e) {
       setMessage(e instanceof Error ? e.message : "Upload failed");
@@ -1067,16 +1230,16 @@ function ItemDownloadSection({
           </h2>
           {mediaLibrary && (
             <p className="mt-1 font-mono text-xs text-zinc-500">
-              public/media/{mediaLibrary.project}/{itemId}/acquired/
+              Downloads → public/media/_library/ · staged refs in acquisition.json
             </p>
           )}
         </div>
         {mediaLibrary && (
           <a
-            href={`/acquired/${encodeURIComponent(mediaLibrary.project)}/${encodeURIComponent(itemId)}`}
+            href={libraryHrefForCue(manifestPath, itemId)}
             className="rounded-lg border border-emerald-800 px-3 py-1.5 text-xs text-emerald-300 hover:bg-emerald-950"
           >
-            Open acquired/
+            Select from library
           </a>
         )}
       </div>
@@ -1127,7 +1290,8 @@ function ItemDownloadSection({
         <div className="rounded-lg border border-zinc-800 bg-zinc-950/50 p-3">
           <p className="text-xs font-medium text-zinc-400">From your computer</p>
           <p className="mt-1 text-xs text-zinc-600">
-            Copies the file into this cue&apos;s acquired/ folder (same as download).
+            Uploads to the repo library and stages a reference on this cue (same as
+            download).
           </p>
           <input
             ref={fileInputRef}
@@ -1156,9 +1320,9 @@ function ItemDownloadSection({
       )}
 
       {acquiredFiles.length > 0 && mediaLibrary && (
-        <div className="mt-4 rounded-lg border border-emerald-900/40 bg-zinc-950/50 p-3">
-          <p className="text-xs font-medium text-emerald-400">
-            Files in acquired/ ({acquiredFiles.length})
+        <div className="mt-4 rounded-lg border border-zinc-800 bg-zinc-950/50 p-3">
+          <p className="text-xs font-medium text-zinc-500">
+            Legacy acquired/ files ({acquiredFiles.length}) — episode 001 copies only
           </p>
           <ul className="mt-2 space-y-1 font-mono text-xs">
             {acquiredFiles.map((file) => (

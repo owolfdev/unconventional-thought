@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "id": "m001",
+  "cue": 1,
+  "t_start": 0,
+  "t_end": 7.8,
+  "duration_sec": 7.8,
+  "spoken": "I think Bon Scott knew he was going to die, not the date, not the hour, but he knew he was coming",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Rhetorical 'jury' — do NOT show a courtroom. Open on AC/DC at cultural peak (late 70s live) or 1980 press moment.",
+  "situation": "AC/DC live concert performance crowd and stage",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1980",
+  "location": "",
+  "search_queries": [
+    "AC/DC live 1979 concert",
+    "AC/DC Highway to Hell tour 1979 stage",
+    "AC/DC audience 1979"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Rhetorical 'jury' — do NOT show a courtroom. Open on AC/DC at cultural peak (late 70s live) or 1980 press moment.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC live 1979 concert",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC Highway to Hell tour 1979 stage",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: AC/DC audience 1979",
+      "status": "needed"
+    }
+  ],
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [
+    "dark-bon.webp"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-06T21:44:49.919Z"
+}

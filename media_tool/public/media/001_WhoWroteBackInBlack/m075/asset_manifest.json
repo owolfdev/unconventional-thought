@@ -29,11 +29,12 @@
     "media_preference": "photo"
   },
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -46,19 +47,11 @@
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.009Z",
-  "effects": [
-    "film_scratches",
-    "film_damage",
-    "film_grain"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "sticker-ef771e60.png",
-    "sticker-f63ac530.png"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.517Z"
 }

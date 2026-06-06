@@ -1,27 +1,21 @@
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import { isYouTubeUrl, listAcquiredFiles, ytDlpAvailable } from "@/lib/download-media";
 import {
-  downloadToAcquired,
-  isYouTubeUrl,
-  listAcquiredFiles,
-  ytDlpAvailable,
-} from "@/lib/download-media";
+  applyLibrarySelectionToCue,
+  ingestContextFromCue,
+} from "@/lib/cue-library-ingest";
+import { LIBRARY_ENGINE } from "@/lib/acquisition-selection";
+import { downloadUrlToLibrary } from "@/lib/media-library";
 import {
   getAcquiredDir,
-  getItemDir,
   projectSlugFromManifest,
-  writeItemToFolder,
 } from "@/lib/media-folders";
 import {
   defaultManifestPath,
   readJsonFile,
   resolveManifestPath,
 } from "@/lib/paths";
-import type {
-  ItemAcquisition,
-  MediaToolManifest,
-} from "@/lib/types";
+import type { MediaToolManifest } from "@/lib/types";
 
 function loadContext(manifestPath: string, itemId: string) {
   const manifestAbs = resolveManifestPath(manifestPath);
@@ -30,8 +24,7 @@ function loadContext(manifestPath: string, itemId: string) {
   if (!item) throw new Error(`Unknown item id: ${itemId}`);
   const slug = projectSlugFromManifest(manifest);
   const acquiredDir = getAcquiredDir(slug, itemId);
-  const itemDir = getItemDir(slug, itemId);
-  return { manifest, manifestPath, item, slug, acquiredDir, itemDir };
+  return { manifest, manifestPath, item, slug, acquiredDir };
 }
 
 export async function GET(request: NextRequest) {
@@ -45,7 +38,12 @@ export async function GET(request: NextRequest) {
     const { acquiredDir } = loadContext(manifestPath, itemId);
     const files = listAcquiredFiles(acquiredDir);
     const ytdlp = await ytDlpAvailable();
-    return NextResponse.json({ files, acquiredDir, ytDlpAvailable: ytdlp });
+    return NextResponse.json({
+      files,
+      acquiredDir,
+      ytDlpAvailable: ytdlp,
+      libraryEnabled: true,
+    });
   } catch (e) {
     const message = e instanceof Error ? e.message : "Unknown error";
     return NextResponse.json({ error: message }, { status: 500 });
@@ -59,6 +57,11 @@ export async function POST(request: NextRequest) {
       itemId: string;
       url: string;
       syncAcquisition?: boolean;
+      title?: string;
+      license?: string;
+      sourceEngine?: string;
+      searchQuery?: string;
+      queryIndex?: number;
     };
 
     if (!body.itemId || !body.url?.trim()) {
@@ -69,10 +72,7 @@ export async function POST(request: NextRequest) {
     }
 
     const manifestPath = body.manifestPath?.trim() || defaultManifestPath();
-    const { item, slug, acquiredDir } = loadContext(
-      manifestPath,
-      body.itemId,
-    );
+    const { manifest, item, slug } = loadContext(manifestPath, body.itemId);
 
     const url = body.url.trim();
     if (!url.startsWith("http://") && !url.startsWith("https://")) {
@@ -89,25 +89,46 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const result = await downloadToAcquired(url, acquiredDir);
-    const files = listAcquiredFiles(acquiredDir);
+    const ingest = await downloadUrlToLibrary(
+      url,
+      ingestContextFromCue(manifest, item, {
+        source_url: url,
+        source_engine: body.sourceEngine ?? "download",
+        license: body.license ?? "verify rights before use",
+        title: body.title,
+        search_queries: body.searchQuery
+          ? [body.searchQuery]
+          : item.search_queries,
+        kind: "archive",
+      }),
+    );
 
+    let acquisitionUpdated = false;
     if (body.syncAcquisition !== false) {
-      const acqPath = path.join(
-        getItemDir(slug, item.id),
-        "acquisition.json",
+      acquisitionUpdated = applyLibrarySelectionToCue(
+        slug,
+        item,
+        manifestPath,
+        ingest,
+        {
+          engineId: body.sourceEngine ?? LIBRARY_ENGINE,
+          query: body.searchQuery ?? body.title ?? url,
+          license: body.license ?? "verify rights before use",
+          title: body.title ?? ingest.filename,
+          queryIndex:
+            typeof body.queryIndex === "number" ? body.queryIndex : 0,
+        },
       );
-      if (fs.existsSync(acqPath)) {
-        const acq = readJsonFile<ItemAcquisition>(acqPath);
-        writeItemToFolder(slug, item, acq, manifestPath);
-      }
     }
 
     return NextResponse.json({
       ok: true,
-      ...result,
-      files,
-      publicUrl: `/media/${slug}/${item.id}/acquired/${result.filename}`,
+      filename: ingest.filename,
+      libraryId: ingest.id,
+      deduplicated: ingest.deduplicated,
+      publicUrl: ingest.publicUrl,
+      acquisitionUpdated,
+      selected: acquisitionUpdated,
     });
   } catch (e) {
     const message = e instanceof Error ? e.message : "Unknown error";

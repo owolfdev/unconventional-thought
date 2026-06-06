@@ -6,8 +6,8 @@
   "t_end": 162.39,
   "duration_sec": 3.32,
   "spoken": "And he tells people privately, not in interviews, not for the press.",
-  "visual_mode": "stock",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -32,26 +32,29 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.995Z",
-  "effects": [
-    "film_scratches",
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "bon_and_angus.jpg",
-    "download-d2eb731ec101.jpg",
-    "giphy-3oFzmdLhz7kkEsocMM.gif"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.514Z"
 }

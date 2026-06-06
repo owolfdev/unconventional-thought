@@ -6,7 +6,7 @@
   "t_end": 240.47,
   "duration_sec": 0.58,
   "spoken": "That's bonds.",
-  "visual_mode": "effect_only",
+  "visual_mode": "text_graphic",
   "expected_media_type": "generated",
   "editorial_intent": "Whitespace: single-word punctuation beat.",
   "situation": "Generated text graphic (title)",
@@ -22,21 +22,19 @@
     "text": "THAT'S BONDS",
     "style": "minimal_white"
   },
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
+      "slot": "generated",
+      "description": "Text graphic: title — THAT'S BONDS",
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.019Z",
   "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": false,
-  "acquired_files": [
-    "giphy-3o6fJ8HKKgkICRwEjS.gif"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.519Z"
 }

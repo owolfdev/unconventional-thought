@@ -1,8 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { searchCommons } from "@/lib/commons-search";
-import { searchGoogleImages } from "@/lib/google-images-search";
+import {
+  GOOGLE_CSE_BLOCKED_HINT,
+  getGoogleCseStatus,
+  googleCseSetupHint,
+  isGoogleCseAccessError,
+  isGoogleCseConfigured,
+  searchGoogleImages,
+} from "@/lib/google-images-search";
 import { searchOpenverse } from "@/lib/openverse-search";
 import { searchYouTube } from "@/lib/youtube-search";
+import { readLibraryIndex, searchLibrary } from "@/lib/media-library";
 import { buildSearchUrl, getEngine } from "@/lib/search-engines";
 import type { SearchResult } from "@/lib/types";
 
@@ -32,6 +40,19 @@ export async function POST(request: NextRequest) {
     let apiNote: string | undefined;
 
     switch (engine.id) {
+      case "library": {
+        results = searchLibrary({ query, limit });
+        gallerySource = "Repo library";
+        const total = readLibraryIndex().asset_count;
+        if (results.length === 0) {
+          apiNote =
+            total === 0
+              ? "Library is empty. New downloads save to _library/. Episode 001 files are still in per-cue acquired/ until migration (Phase 2)."
+              : `No library matches (${total} asset${total === 1 ? "" : "s"} indexed). Try different keywords.`;
+        }
+        break;
+      }
+
       case "commons":
         results = await searchCommons(query, limit);
         gallerySource = "Wikimedia Commons";
@@ -43,18 +64,31 @@ export async function POST(request: NextRequest) {
         break;
 
       case "google_images": {
-        const google = await searchGoogleImages(query, limit);
-        if (google.length > 0) {
-          results = google;
-          gallerySource = "Google Custom Search";
-        } else {
-          results = await searchOpenverse(query, limit);
-          gallerySource = "Openverse";
-          if (process.env.GOOGLE_API_KEY && process.env.GOOGLE_CSE_ID) {
-            apiNote = "Google returned no images; showing Openverse results.";
-          } else {
+        gallerySource = "Google Custom Search";
+        if (!isGoogleCseConfigured()) {
+          apiNote = googleCseSetupHint();
+          break;
+        }
+        try {
+          results = await searchGoogleImages(query, limit);
+          if (results.length === 0) {
             apiNote =
-              "In-app gallery uses Openverse (not Google scrape). For true Google Images, set GOOGLE_API_KEY and GOOGLE_CSE_ID in .env.local.";
+              "Google returned no image URLs for this query. Try different keywords or Open in browser ↗.";
+          }
+        } catch (e) {
+          const msg = e instanceof Error ? e.message : String(e);
+          if (isGoogleCseAccessError(msg)) {
+            results = await searchOpenverse(query, limit);
+            gallerySource =
+              results.length > 0
+                ? "Openverse (Google Images API blocked)"
+                : "Google Images (API blocked)";
+            apiNote = GOOGLE_CSE_BLOCKED_HINT;
+            if (results.length > 0) {
+              apiNote += ` Showing ${results.length} Openverse result${results.length === 1 ? "" : "s"} instead.`;
+            }
+          } else {
+            throw e;
           }
         }
         break;

@@ -1,0 +1,2472 @@
+{
+  "version": 1,
+  "source_manifest": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "episode": "002_DidBonScottKnowHeWasGoingToDie",
+  "created_at": "2026-06-06T10:46:09.767Z",
+  "updated_at": "2026-06-06T21:44:49.858Z",
+  "item_count": 69,
+  "completed_count": 1,
+  "items": {
+    "m000": {
+      "id": "m000",
+      "cue": 0,
+      "source_visual_mode": "text_graphic",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "generated",
+      "status": "in_progress",
+      "notes": "",
+      "effects": [
+        "film_scratches",
+        "slow_push_in"
+      ],
+      "transition": null,
+      "text_graphic": {
+        "type": "transcription",
+        "text": "The Unconventional Thought",
+        "style": "typewriter"
+      },
+      "text_graphic_layer": {
+        "type": "transcription",
+        "text": "",
+        "style": "typewriter"
+      },
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "(text graphic — no archive search)",
+          "engine_id": "google",
+          "engine_url": "https://www.google.com/search?q={query}",
+          "selections": [
+            {
+              "result_id": "library:9398594e9a4d861e",
+              "url": "/media/_library/assets/9398594e9a4d861e/asset.jpg",
+              "thumbnail_url": "/media/_library/assets/9398594e9a4d861e/asset.jpg",
+              "title": "asset.jpg",
+              "source_page": "/media/_library/assets/9398594e9a4d861e/asset.jpg",
+              "license": "verify rights before use",
+              "engine_id": "library",
+              "query": "the thinker",
+              "selected_at": "2026-06-06T21:43:12.537Z"
+            }
+          ]
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T21:44:47.203Z"
+    },
+    "m001": {
+      "id": "m001",
+      "cue": 1,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_scratches",
+        "slow_push_in"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC live 1979 concert",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": [
+            {
+              "result_id": "library:aadb15e60b8c24f1",
+              "url": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+              "thumbnail_url": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+              "title": "dark-bon.webp",
+              "source_page": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+              "license": "verify rights before use",
+              "engine_id": "library",
+              "query": "AC/DC live 1979 concert",
+              "selected_at": "2026-06-06T21:34:28.714Z"
+            }
+          ]
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC Highway to Hell tour 1979 stage",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "AC/DC audience 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-06T20:33:16.425Z",
+      "updated_at": "2026-06-06T21:34:28.714Z"
+    },
+    "m002": {
+      "id": "m002",
+      "cue": 2,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "in_progress",
+      "notes": "",
+      "effects": [
+        "film_damage",
+        "slow_push_in"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "google_images",
+          "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+          "selections": [
+            {
+              "result_id": "library:2f0ea3cc0654a22e",
+              "url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+              "thumbnail_url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+              "title": "bonscott_onstage-1.jpg",
+              "source_page": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+              "license": "migrated from episode 001 acquired/ — verify rights",
+              "engine_id": "library",
+              "query": "bonscott_onstage-1.jpg",
+              "selected_at": "2026-06-06T20:39:24.129Z"
+            }
+          ]
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T20:39:39.702Z"
+    },
+    "m003": {
+      "id": "m003",
+      "cue": 3,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC Highway to Hell tour 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Bon Scott Highway to Hell live 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m004": {
+      "id": "m004",
+      "cue": 4,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC Highway to Hell tour 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Bon Scott Highway to Hell live 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m005": {
+      "id": "m005",
+      "cue": 5,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m006": {
+      "id": "m006",
+      "cue": 6,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m007": {
+      "id": "m007",
+      "cue": 7,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC Highway to Hell tour 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Bon Scott Highway to Hell live 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m008": {
+      "id": "m008",
+      "cue": 8,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m009": {
+      "id": "m009",
+      "cue": 9,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m010": {
+      "id": "m010",
+      "cue": 10,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC Highway to Hell tour 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Bon Scott Highway to Hell live 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m011": {
+      "id": "m011",
+      "cue": 11,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m012": {
+      "id": "m012",
+      "cue": 12,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m013": {
+      "id": "m013",
+      "cue": 13,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m014": {
+      "id": "m014",
+      "cue": 14,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m015": {
+      "id": "m015",
+      "cue": 15,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m016": {
+      "id": "m016",
+      "cue": 16,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m017": {
+      "id": "m017",
+      "cue": 17,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m018": {
+      "id": "m018",
+      "cue": 18,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m019": {
+      "id": "m019",
+      "cue": 19,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m020": {
+      "id": "m020",
+      "cue": 20,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m021": {
+      "id": "m021",
+      "cue": 21,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m022": {
+      "id": "m022",
+      "cue": 22,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m023": {
+      "id": "m023",
+      "cue": 23,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m024": {
+      "id": "m024",
+      "cue": 24,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m025": {
+      "id": "m025",
+      "cue": 25,
+      "source_visual_mode": "artifact",
+      "resolved_visual_mode": "artifact",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "vinyl record spinning turntable 1970s",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "LP record needle drop",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m026": {
+      "id": "m026",
+      "cue": 26,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m027": {
+      "id": "m027",
+      "cue": 27,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m028": {
+      "id": "m028",
+      "cue": 28,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m029": {
+      "id": "m029",
+      "cue": 29,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m030": {
+      "id": "m030",
+      "cue": 30,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m031": {
+      "id": "m031",
+      "cue": 31,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m032": {
+      "id": "m032",
+      "cue": 32,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m033": {
+      "id": "m033",
+      "cue": 33,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m034": {
+      "id": "m034",
+      "cue": 34,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m035": {
+      "id": "m035",
+      "cue": 35,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m036": {
+      "id": "m036",
+      "cue": 36,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m037": {
+      "id": "m037",
+      "cue": 37,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m038": {
+      "id": "m038",
+      "cue": 38,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Bon Scott 1979 photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Bon Scott AC/DC 1980",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m039": {
+      "id": "m039",
+      "cue": 39,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m040": {
+      "id": "m040",
+      "cue": 40,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m041": {
+      "id": "m041",
+      "cue": 41,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m042": {
+      "id": "m042",
+      "cue": 42,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m043": {
+      "id": "m043",
+      "cue": 43,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m044": {
+      "id": "m044",
+      "cue": 44,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m045": {
+      "id": "m045",
+      "cue": 45,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m046": {
+      "id": "m046",
+      "cue": 46,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m047": {
+      "id": "m047",
+      "cue": 47,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m048": {
+      "id": "m048",
+      "cue": 48,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m049": {
+      "id": "m049",
+      "cue": 49,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m050": {
+      "id": "m050",
+      "cue": 50,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1980 studio",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "music magazine 1980 rock",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m051": {
+      "id": "m051",
+      "cue": 51,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m052": {
+      "id": "m052",
+      "cue": 52,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m053": {
+      "id": "m053",
+      "cue": 53,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m054": {
+      "id": "m054",
+      "cue": 54,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m055": {
+      "id": "m055",
+      "cue": 55,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m056": {
+      "id": "m056",
+      "cue": 56,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m057": {
+      "id": "m057",
+      "cue": 57,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m058": {
+      "id": "m058",
+      "cue": 58,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Bon Scott 1979 photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Bon Scott AC/DC 1980",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m059": {
+      "id": "m059",
+      "cue": 59,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m060": {
+      "id": "m060",
+      "cue": 60,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m061": {
+      "id": "m061",
+      "cue": 61,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m062": {
+      "id": "m062",
+      "cue": 62,
+      "source_visual_mode": "artifact",
+      "resolved_visual_mode": "artifact",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "gold record award disc close up",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "platinum album plaque 1980s",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m063": {
+      "id": "m063",
+      "cue": 63,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m064": {
+      "id": "m064",
+      "cue": 64,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Bon Scott 1979 photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Bon Scott AC/DC 1980",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m065": {
+      "id": "m065",
+      "cue": 65,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m066": {
+      "id": "m066",
+      "cue": 66,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m067": {
+      "id": "m067",
+      "cue": 67,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC Highway to Hell tour 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Bon Scott Highway to Hell live 1979",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m068": {
+      "id": "m068",
+      "cue": 68,
+      "source_visual_mode": "effect_only",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Black plate (effect-only tail)",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    }
+  }
+}

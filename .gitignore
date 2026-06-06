@@ -17,6 +17,11 @@ remotion/out/
 media_tool/public/media/**/acquired/*
 !media_tool/public/media/**/acquired/.gitkeep
 
+# Global media library — commit meta + index; ignore binaries
+media_tool/public/media/_library/assets/**/*
+!media_tool/public/media/_library/assets/**/meta.json
+!media_tool/public/media/_library/assets/.gitkeep
+
 # Stock effect clips (re-download with tools/download_effects_library.py)
 media_tool/public/media/_effects/**/*.mp4
 media_tool/public/media/_effects/**/*.webm
@@ -42,5 +47,5 @@ episodes/**/audio/preview/*.mp3
 *.aup3-wal
 *.aup3-shm
 
-# Temp render props
-remotion/out/.props-*.json
+# Temp render props (per-episode output folders)
+remotion/out/**/.props/

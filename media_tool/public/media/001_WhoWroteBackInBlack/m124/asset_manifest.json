@@ -33,11 +33,12 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -55,18 +56,11 @@
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.038Z",
-  "effects": [
-    "film_scratches",
-    "slow_push_in"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "bonscott.jpg",
-    "download-a3a98b09d70b.jpg"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.522Z"
 }

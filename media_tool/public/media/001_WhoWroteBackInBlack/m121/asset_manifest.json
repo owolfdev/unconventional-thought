@@ -6,8 +6,8 @@
   "t_end": 306.39,
   "duration_sec": 2.5,
   "spoken": "No, there's only one explanation that makes sense.",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Thesis restatement — strong Bon Scott live still.",
   "situation": "Bon Scott AC/DC live performance 1979",
   "people": [
@@ -31,24 +31,24 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Thesis restatement — strong Bon Scott live still.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott AC/DC live 1979",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.036Z",
-  "effects": [
-    "film_scratches",
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
-  "acquired_files": [
-    "sticker-7454bd61.png"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.522Z"
 }

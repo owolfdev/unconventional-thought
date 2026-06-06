@@ -2,22 +2,25 @@
   "name": "who-wrote-back-in-black-remotion",
   "private": true,
   "scripts": {
-    "build:timeline": "python3 ../tools/build_remotion_timeline.py --episode 001_WhoWroteBackInBlack --max m140",
+    "episode": "node scripts/episode.mjs",
+    "build:timeline": "node scripts/build-timeline.mjs",
     "dev": "npm run build:timeline && remotion studio",
-    "render:preview": "npm run build:timeline && remotion render EpisodePreview out/preview-m140.mp4",
-    "render:preview:low": "npm run build:timeline && remotion render EpisodePreview out/preview-m140.mp4 --scale=0.5 --concurrency=2",
-    "render:open": "npm run build:timeline && node scripts/render-cues.mjs m000 m001",
-    "render:open:full": "npm run build:timeline && node scripts/render-cues.mjs m000 m001 --full",
-    "render:cue": "npm run build:timeline && node scripts/render-cue.mjs",
-    "render:cues": "npm run build:timeline && node scripts/render-cues.mjs"
+    "render": "node scripts/render-episode.mjs",
+    "render:preview": "node scripts/render-episode.mjs --preview",
+    "render:cue": "node scripts/render-cue.mjs",
+    "render:preview:cue": "node scripts/render-cue.mjs --preview",
+    "render:cues": "node scripts/render-cues.mjs",
+    "render:preview:cues": "node scripts/render-cues.mjs --preview",
+    "render:open": "node scripts/render-cues.mjs --preview m000 m001",
+    "render:open:full": "node scripts/render-cues.mjs m000 m001"
   },
   "dependencies": {
-    "@remotion/cli": "^4.0.286",
-    "@remotion/gif": "^4.0.286",
-    "@remotion/media-utils": "^4.0.286",
+    "@remotion/cli": "4.0.463",
+    "@remotion/gif": "4.0.463",
+    "@remotion/media-utils": "4.0.463",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "remotion": "^4.0.286",
+    "remotion": "4.0.463",
     "zod": "4.3.6"
   },
   "devDependencies": {

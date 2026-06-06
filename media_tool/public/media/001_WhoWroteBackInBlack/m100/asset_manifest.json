@@ -6,7 +6,7 @@
   "t_end": 262.51,
   "duration_sec": 2.1,
   "spoken": "You'd be chasing that your whole career.",
-  "visual_mode": "effect_only",
+  "visual_mode": "text_graphic",
   "expected_media_type": "generated",
   "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
   "situation": "Generated text graphic (transcription)",
@@ -22,24 +22,19 @@
     "text": "You'd be chasing that your whole career.",
     "style": "typewriter"
   },
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "generated",
+      "description": "Text graphic: transcription — You'd be chasing that your whole career.",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.024Z",
-  "effects": [
-    "film_scratches",
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": false,
-  "acquired_files": [
-    "giphy-dIT3fPGfXrfZ6.gif"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.520Z"
 }

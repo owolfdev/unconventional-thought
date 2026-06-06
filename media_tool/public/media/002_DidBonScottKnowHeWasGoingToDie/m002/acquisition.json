@@ -1,0 +1,50 @@
+{
+  "id": "m002",
+  "cue": 2,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "in_progress",
+  "notes": "",
+  "effects": [
+    "film_damage",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC 1979 live concert photograph",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "selections": [
+        {
+          "result_id": "library:2f0ea3cc0654a22e",
+          "url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+          "thumbnail_url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+          "title": "bonscott_onstage-1.jpg",
+          "source_page": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "bonscott_onstage-1.jpg",
+          "selected_at": "2026-06-06T20:39:24.129Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC 1980 press photo band",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-06-06T20:39:39.702Z"
+}

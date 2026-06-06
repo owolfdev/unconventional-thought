@@ -32,11 +32,12 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Bon Scott motorcycle accident period — historical photos of Bon on bike if available.",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -49,17 +50,11 @@
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.994Z",
-  "effects": [
-    "tremble",
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "sticker-1e73279a.png"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.514Z"
 }

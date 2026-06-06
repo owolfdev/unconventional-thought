@@ -1,0 +1,2863 @@
+{
+  "version": 1,
+  "updated_at": "2026-06-06T21:44:49.916Z",
+  "asset_count": 160,
+  "assets": [
+    {
+      "id": "2f0ea3cc0654a22e",
+      "filename": "bonscott_onstage-1.jpg",
+      "original_filename": "bonscott_onstage-1.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+      "public_url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m133/acquired/",
+      "search_text": "bonscott_onstage-1.jpg bonscott_onstage-1.jpg bon scott migrated from 001_whowrotebackinblack/m133/acquired/",
+      "usage_count": 2,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-06T21:44:49.912Z"
+    },
+    {
+      "id": "aadb15e60b8c24f1",
+      "filename": "dark-bon.webp",
+      "original_filename": "download-d6bb2410f40a.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+      "public_url": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+      "tags": [
+        "ac/dc",
+        "bon",
+        "scott"
+      ],
+      "manual_notes": "",
+      "search_text": "dark-bon.webp download-d6bb2410f40a.webp ac/dc bon scott",
+      "usage_count": 2,
+      "archived": false,
+      "created_at": "2026-06-06T10:28:18.268Z",
+      "updated_at": "2026-06-06T21:44:49.905Z"
+    },
+    {
+      "id": "9398594e9a4d861e",
+      "filename": "asset.jpg",
+      "original_filename": "download-5412c6ede6ee.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/9398594e9a4d861e/asset.jpg",
+      "public_url": "/media/_library/assets/9398594e9a4d861e/asset.jpg",
+      "tags": [],
+      "manual_notes": "",
+      "search_text": "asset.jpg download-5412c6ede6ee.jpg",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-06T21:43:12.517Z",
+      "updated_at": "2026-06-06T21:44:49.859Z"
+    },
+    {
+      "id": "1dd39fa1aa727ec4",
+      "filename": "motorcycles-skid.gif",
+      "original_filename": "giphy-lfQZ0idHXyW6A.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/1dd39fa1aa727ec4/motorcycles-skid.gif",
+      "public_url": "/media/_library/assets/1dd39fa1aa727ec4/motorcycles-skid.gif",
+      "tags": [
+        "motor cycle"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m106/acquired/",
+      "search_text": "motorcycles-skid.gif giphy-lfqz0idhxyw6a.gif motor cycle migrated from 001_whowrotebackinblack/m106/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-06T00:39:06.787Z"
+    },
+    {
+      "id": "813c75fb65aa1098",
+      "filename": "thats-bon.gif",
+      "original_filename": "giphy-3o6fJ8HKKgkICRwEjS.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/813c75fb65aa1098/thats-bon.gif",
+      "public_url": "/media/_library/assets/813c75fb65aa1098/thats-bon.gif",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m090/acquired/",
+      "search_text": "thats-bon.gif giphy-3o6fj8hkkgkicrwejs.gif migrated from 001_whowrotebackinblack/m090/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-06T00:38:16.615Z"
+    },
+    {
+      "id": "90e2da4bca52eb33",
+      "filename": "bons-fingerprint.png",
+      "original_filename": "sticker-44863b03.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/90e2da4bca52eb33/bons-fingerprint.png",
+      "public_url": "/media/_library/assets/90e2da4bca52eb33/bons-fingerprint.png",
+      "tags": [
+        "finger print"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m130/acquired/",
+      "search_text": "bons-fingerprint.png sticker-44863b03.png finger print migrated from 001_whowrotebackinblack/m130/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-06T00:38:03.871Z"
+    },
+    {
+      "id": "9c9d392bec2d2158",
+      "filename": "brian-johnson-singing.jpg",
+      "original_filename": "download-0621c2df22a3.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/9c9d392bec2d2158/brian-johnson-singing.jpg",
+      "public_url": "/media/_library/assets/9c9d392bec2d2158/brian-johnson-singing.jpg",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m062/acquired/",
+      "search_text": "brian-johnson-singing.jpg download-0621c2df22a3.jpg brian johnson migrated from 001_whowrotebackinblack/m062/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-06T00:37:57.449Z"
+    },
+    {
+      "id": "fa39a51774bb3241",
+      "filename": "those-songs-have-bond-fingerprint.jpg",
+      "original_filename": "download-f6689233be25.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/fa39a51774bb3241/those-songs-have-bond-fingerprint.jpg",
+      "public_url": "/media/_library/assets/fa39a51774bb3241/those-songs-have-bond-fingerprint.jpg",
+      "tags": [
+        "ac/dc",
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m074/acquired/",
+      "search_text": "those-songs-have-bond-fingerprint.jpg download-f6689233be25.jpg ac/dc bon scott migrated from 001_whowrotebackinblack/m074/acquired/",
+      "usage_count": 2,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-06T00:37:09.702Z"
+    },
+    {
+      "id": "21a8e43dac663fe7",
+      "filename": "if-that-was-brian-johnsons-what-happened-to-that-genius.png",
+      "original_filename": "sticker-8a8de823.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/21a8e43dac663fe7/if-that-was-brian-johnsons-what-happened-to-that-genius.png",
+      "public_url": "/media/_library/assets/21a8e43dac663fe7/if-that-was-brian-johnsons-what-happened-to-that-genius.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m091/acquired/",
+      "search_text": "if-that-was-brian-johnsons-what-happened-to-that-genius.png sticker-8a8de823.png migrated from 001_whowrotebackinblack/m091/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-06T00:24:04.670Z"
+    },
+    {
+      "id": "096c9905c654f7dd",
+      "filename": "cats-eyes.gif",
+      "original_filename": "giphy-iCJOfQcXf32uY.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/096c9905c654f7dd/cats-eyes.gif",
+      "public_url": "/media/_library/assets/096c9905c654f7dd/cats-eyes.gif",
+      "tags": [
+        "cats",
+        "eyes"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m113/acquired/",
+      "search_text": "cats-eyes.gif giphy-icjofqcxf32uy.gif cats eyes migrated from 001_whowrotebackinblack/m113/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-06T00:19:01.467Z"
+    },
+    {
+      "id": "0a0fadebde8fd7ef",
+      "filename": "maybe-brian-johnson-also-had-a-near-death-experience.jpg",
+      "original_filename": "download-6d2660df2d64.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/0a0fadebde8fd7ef/maybe-brian-johnson-also-had-a-near-death-experience.jpg",
+      "public_url": "/media/_library/assets/0a0fadebde8fd7ef/maybe-brian-johnson-also-had-a-near-death-experience.jpg",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m117/acquired/",
+      "search_text": "maybe-brian-johnson-also-had-a-near-death-experience.jpg download-6d2660df2d64.jpg brian johnson migrated from 001_whowrotebackinblack/m117/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "17440123a856d974",
+      "filename": "doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
+      "original_filename": "giphy-3EiNpweH34XGoQcq9Q.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/17440123a856d974/doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
+      "public_url": "/media/_library/assets/17440123a856d974/doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m139/acquired/",
+      "search_text": "doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif giphy-3einpweh34xgoqcq9q.gif ac/dc migrated from 001_whowrotebackinblack/m139/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "1bd2cf386d0af0ce",
+      "filename": "bond-scott-wrote-those-words.jpg",
+      "original_filename": "download-25974df2e986.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/1bd2cf386d0af0ce/bond-scott-wrote-those-words.jpg",
+      "public_url": "/media/_library/assets/1bd2cf386d0af0ce/bond-scott-wrote-those-words.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m122/acquired/",
+      "search_text": "bond-scott-wrote-those-words.jpg download-25974df2e986.jpg bon scott migrated from 001_whowrotebackinblack/m122/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "27a9d6a93ff8b057",
+      "filename": "yes-i-know-brian-johnson-is-incredible.jpg",
+      "original_filename": "download-742cbcd0d3bf.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/27a9d6a93ff8b057/yes-i-know-brian-johnson-is-incredible.jpg",
+      "public_url": "/media/_library/assets/27a9d6a93ff8b057/yes-i-know-brian-johnson-is-incredible.jpg",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m137/acquired/",
+      "search_text": "yes-i-know-brian-johnson-is-incredible.jpg download-742cbcd0d3bf.jpg brian johnson migrated from 001_whowrotebackinblack/m137/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "2ad0c913b3f3befa",
+      "filename": "tells-people-close-to-him-privately.gif",
+      "original_filename": "giphy-QR9TcUo31aGNq.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/2ad0c913b3f3befa/tells-people-close-to-him-privately.gif",
+      "public_url": "/media/_library/assets/2ad0c913b3f3befa/tells-people-close-to-him-privately.gif",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m108/acquired/",
+      "search_text": "tells-people-close-to-him-privately.gif giphy-qr9tcuo31agnq.gif migrated from 001_whowrotebackinblack/m108/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "46109b79997fe216",
+      "filename": "ZzOR9-dzUtU_hd.mp4",
+      "original_filename": "ZzOR9-dzUtU_hd.mp4",
+      "kind": "archive",
+      "media_type": "video",
+      "thumbnail_url": "/media/_library/assets/46109b79997fe216/ZzOR9-dzUtU_hd.mp4",
+      "public_url": "/media/_library/assets/46109b79997fe216/ZzOR9-dzUtU_hd.mp4",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m118/acquired/",
+      "search_text": "zzor9-dzutu_hd.mp4 zzor9-dzutu_hd.mp4 ac/dc migrated from 001_whowrotebackinblack/m118/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "4915d0a62bb7e6c5",
+      "filename": "the-nine-lives-thing.gif",
+      "original_filename": "giphy-uCZ6odj1oqNu7R50Vr.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/4915d0a62bb7e6c5/the-nine-lives-thing.gif",
+      "public_url": "/media/_library/assets/4915d0a62bb7e6c5/the-nine-lives-thing.gif",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m104/acquired/",
+      "search_text": "the-nine-lives-thing.gif giphy-ucz6odj1oqnu7r50vr.gif bon scott migrated from 001_whowrotebackinblack/m104/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "619f4eb75373863c",
+      "filename": "ACDC-Back-in-Black.webp",
+      "original_filename": "ACDC-Back-in-Black.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/619f4eb75373863c/ACDC-Back-in-Black.webp",
+      "public_url": "/media/_library/assets/619f4eb75373863c/ACDC-Back-in-Black.webp",
+      "tags": [
+        "bon scott",
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m129/acquired/",
+      "search_text": "acdc-back-in-black.webp acdc-back-in-black.webp bon scott brian johnson migrated from 001_whowrotebackinblack/m129/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "673973583e79f97e",
+      "filename": "his-actual-voice.jpg",
+      "original_filename": "download-dbf8054b9902.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/673973583e79f97e/his-actual-voice.jpg",
+      "public_url": "/media/_library/assets/673973583e79f97e/his-actual-voice.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m126/acquired/",
+      "search_text": "his-actual-voice.jpg download-dbf8054b9902.jpg bon scott migrated from 001_whowrotebackinblack/m126/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "68fc3d54b08176f3",
+      "filename": "bonscott_onstage.jpg",
+      "original_filename": "bonscott_onstage.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/68fc3d54b08176f3/bonscott_onstage.jpg",
+      "public_url": "/media/_library/assets/68fc3d54b08176f3/bonscott_onstage.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m133/acquired/",
+      "search_text": "bonscott_onstage.jpg bonscott_onstage.jpg bon scott migrated from 001_whowrotebackinblack/m133/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "6944949fe17f59d6",
+      "filename": "graph.mp4",
+      "original_filename": "graph.mp4",
+      "kind": "archive",
+      "media_type": "video",
+      "thumbnail_url": "/media/_library/assets/6944949fe17f59d6/graph.mp4",
+      "public_url": "/media/_library/assets/6944949fe17f59d6/graph.mp4",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m118/acquired/",
+      "search_text": "graph.mp4 graph.mp4 ac/dc migrated from 001_whowrotebackinblack/m118/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "6e04982c5c6f11b1",
+      "filename": "doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
+      "original_filename": "giphy-uN5iwZB2v2dH2.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/6e04982c5c6f11b1/doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
+      "public_url": "/media/_library/assets/6e04982c5c6f11b1/doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m139/acquired/",
+      "search_text": "doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif giphy-un5iwzb2v2dh2.gif ac/dc migrated from 001_whowrotebackinblack/m139/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "8306babea8935de2",
+      "filename": "bonscott-fingerprint.jpg",
+      "original_filename": "bonscott-fingerprint.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/8306babea8935de2/bonscott-fingerprint.jpg",
+      "public_url": "/media/_library/assets/8306babea8935de2/bonscott-fingerprint.jpg",
+      "tags": [
+        "bon scott",
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m130/acquired/",
+      "search_text": "bonscott-fingerprint.jpg bonscott-fingerprint.jpg bon scott brian johnson migrated from 001_whowrotebackinblack/m130/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "955c769468f3a062",
+      "filename": "acdc-1979-billboard-1548.webp",
+      "original_filename": "acdc-1979-billboard-1548.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/955c769468f3a062/acdc-1979-billboard-1548.webp",
+      "public_url": "/media/_library/assets/955c769468f3a062/acdc-1979-billboard-1548.webp",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m119/acquired/",
+      "search_text": "acdc-1979-billboard-1548.webp acdc-1979-billboard-1548.webp bon scott migrated from 001_whowrotebackinblack/m119/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "95bdb099839d9ddf",
+      "filename": "im-just-saying-bond-scott-spent-his-entire-career-writing-himself-into-his-music.jpg",
+      "original_filename": "download-a3a98b09d70b.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/95bdb099839d9ddf/im-just-saying-bond-scott-spent-his-entire-career-writing-himself-into-his-music.jpg",
+      "public_url": "/media/_library/assets/95bdb099839d9ddf/im-just-saying-bond-scott-spent-his-entire-career-writing-himself-into-his-music.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m124/acquired/",
+      "search_text": "im-just-saying-bond-scott-spent-his-entire-career-writing-himself-into-his-music.jpg download-a3a98b09d70b.jpg bon scott migrated from 001_whowrotebackinblack/m124/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "961568fea3dfcaba",
+      "filename": "ZzOR9-dzUtU_trimmed.mp4",
+      "original_filename": "ZzOR9-dzUtU_trimmed.mp4",
+      "kind": "archive",
+      "media_type": "video",
+      "thumbnail_url": "/media/_library/assets/961568fea3dfcaba/ZzOR9-dzUtU_trimmed.mp4",
+      "public_url": "/media/_library/assets/961568fea3dfcaba/ZzOR9-dzUtU_trimmed.mp4",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m118/acquired/",
+      "search_text": "zzor9-dzutu_trimmed.mp4 zzor9-dzutu_trimmed.mp4 ac/dc migrated from 001_whowrotebackinblack/m118/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "9ba58caf613e9a1e",
+      "filename": "ive-got-nine-lives.png",
+      "original_filename": "sticker-d0279063.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/9ba58caf613e9a1e/ive-got-nine-lives.png",
+      "public_url": "/media/_library/assets/9ba58caf613e9a1e/ive-got-nine-lives.png",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m112/acquired/",
+      "search_text": "ive-got-nine-lives.png sticker-d0279063.png bon scott migrated from 001_whowrotebackinblack/m112/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "9f2e3c9f75d17315",
+      "filename": "that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.jpg",
+      "original_filename": "download-4532b0adf6b6.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/9f2e3c9f75d17315/that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.jpg",
+      "public_url": "/media/_library/assets/9f2e3c9f75d17315/that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.jpg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m118/acquired/",
+      "search_text": "that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.jpg download-4532b0adf6b6.jpg ac/dc migrated from 001_whowrotebackinblack/m118/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "aa37fffd70795b5c",
+      "filename": "that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.jpg",
+      "original_filename": "download-50541a29fb53.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/aa37fffd70795b5c/that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.jpg",
+      "public_url": "/media/_library/assets/aa37fffd70795b5c/that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.jpg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m118/acquired/",
+      "search_text": "that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.jpg download-50541a29fb53.jpg ac/dc migrated from 001_whowrotebackinblack/m118/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "afcb87ea5b3498d4",
+      "filename": "look.png",
+      "original_filename": "sticker-f3e552a9.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/afcb87ea5b3498d4/look.png",
+      "public_url": "/media/_library/assets/afcb87ea5b3498d4/look.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m123/acquired/",
+      "search_text": "look.png sticker-f3e552a9.png migrated from 001_whowrotebackinblack/m123/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "b815a83f81c85d8c",
+      "filename": "doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.png",
+      "original_filename": "sticker-7ae98e28.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/b815a83f81c85d8c/doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.png",
+      "public_url": "/media/_library/assets/b815a83f81c85d8c/doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.png",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m139/acquired/",
+      "search_text": "doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.png sticker-7ae98e28.png ac/dc migrated from 001_whowrotebackinblack/m139/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "baab9ac92c5b1ea1",
+      "filename": "yes-ive-heard-the-interviews.gif",
+      "original_filename": "giphy-3o7WIP8qaBp9ifndcI.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/baab9ac92c5b1ea1/yes-ive-heard-the-interviews.gif",
+      "public_url": "/media/_library/assets/baab9ac92c5b1ea1/yes-ive-heard-the-interviews.gif",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m138/acquired/",
+      "search_text": "yes-ive-heard-the-interviews.gif giphy-3o7wip8qabp9ifndci.gif brian johnson migrated from 001_whowrotebackinblack/m138/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "cc0d3233b574a032",
+      "filename": "bonscott.jpg",
+      "original_filename": "bonscott.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/cc0d3233b574a032/bonscott.jpg",
+      "public_url": "/media/_library/assets/cc0d3233b574a032/bonscott.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m124/acquired/",
+      "search_text": "bonscott.jpg bonscott.jpg bon scott migrated from 001_whowrotebackinblack/m124/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "cfbbdb816530ec62",
+      "filename": "that-he-used-up-one-of-his-nine-lives.gif",
+      "original_filename": "giphy-U3hFvh2z3rn6U.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/cfbbdb816530ec62/that-he-used-up-one-of-his-nine-lives.gif",
+      "public_url": "/media/_library/assets/cfbbdb816530ec62/that-he-used-up-one-of-his-nine-lives.gif",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m109/acquired/",
+      "search_text": "that-he-used-up-one-of-his-nine-lives.gif giphy-u3hfvh2z3rn6u.gif bon scott migrated from 001_whowrotebackinblack/m109/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "dd75a8c030905ad3",
+      "filename": "back-in-black.png",
+      "original_filename": "download-93e401596ae4.png",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/dd75a8c030905ad3/back-in-black.png",
+      "public_url": "/media/_library/assets/dd75a8c030905ad3/back-in-black.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m110/acquired/",
+      "search_text": "back-in-black.png download-93e401596ae4.png migrated from 001_whowrotebackinblack/m110/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "ddda0343e765d356",
+      "filename": "detective.jpg",
+      "original_filename": "detective.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/ddda0343e765d356/detective.jpg",
+      "public_url": "/media/_library/assets/ddda0343e765d356/detective.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m132/acquired/",
+      "search_text": "detective.jpg detective.jpg bon scott migrated from 001_whowrotebackinblack/m132/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "e92bf6170ee1262d",
+      "filename": "no-theres-only-one-explanation-that-makes-sense.png",
+      "original_filename": "sticker-7454bd61.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e92bf6170ee1262d/no-theres-only-one-explanation-that-makes-sense.png",
+      "public_url": "/media/_library/assets/e92bf6170ee1262d/no-theres-only-one-explanation-that-makes-sense.png",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m121/acquired/",
+      "search_text": "no-theres-only-one-explanation-that-makes-sense.png sticker-7454bd61.png bon scott migrated from 001_whowrotebackinblack/m121/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "f5566691a3cea93c",
+      "filename": "that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.mp4",
+      "original_filename": "ZzOR9-dzUtU.mp4",
+      "kind": "archive",
+      "media_type": "video",
+      "thumbnail_url": "/media/_library/assets/f5566691a3cea93c/that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.mp4",
+      "public_url": "/media/_library/assets/f5566691a3cea93c/that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.mp4",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m118/acquired/",
+      "search_text": "that-he-never-publicly-mentioned-but-somehow-independently-landed-on-the-exact-s.mp4 zzor9-dzutu.mp4 ac/dc migrated from 001_whowrotebackinblack/m118/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "id": "04dd70e203071d02",
+      "filename": "geordie.jpg",
+      "original_filename": "geordie.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/04dd70e203071d02/geordie.jpg",
+      "public_url": "/media/_library/assets/04dd70e203071d02/geordie.jpg",
+      "tags": [
+        "brian johnson",
+        "geordie"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m027/acquired/",
+      "search_text": "geordie.jpg geordie.jpg brian johnson geordie migrated from 001_whowrotebackinblack/m027/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "0941eb9f5822f6a9",
+      "filename": "its-not-pretty-good-considering.png",
+      "original_filename": "sticker-6a403846.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/0941eb9f5822f6a9/its-not-pretty-good-considering.png",
+      "public_url": "/media/_library/assets/0941eb9f5822f6a9/its-not-pretty-good-considering.png",
+      "tags": [
+        "vintage microphone on stand"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m024/acquired/",
+      "search_text": "its-not-pretty-good-considering.png sticker-6a403846.png vintage microphone on stand migrated from 001_whowrotebackinblack/m024/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "094f27350f2e7c95",
+      "filename": "brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+      "original_filename": "brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/094f27350f2e7c95/brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+      "public_url": "/media/_library/assets/094f27350f2e7c95/brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+      "tags": [
+        "handwritten lyrics legal pad"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m028/acquired/",
+      "search_text": "brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp handwritten lyrics legal pad migrated from 001_whowrotebackinblack/m028/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "0b35e485f1110e2f",
+      "filename": "okay-now-listen-to-the-best-songs-on-back-in-black.mp4",
+      "original_filename": "L_iteMa28yo.mp4",
+      "kind": "archive",
+      "media_type": "video",
+      "thumbnail_url": "/media/_library/assets/0b35e485f1110e2f/okay-now-listen-to-the-best-songs-on-back-in-black.mp4",
+      "public_url": "/media/_library/assets/0b35e485f1110e2f/okay-now-listen-to-the-best-songs-on-back-in-black.mp4",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m073/acquired/",
+      "search_text": "okay-now-listen-to-the-best-songs-on-back-in-black.mp4 l_itema28yo.mp4 ac/dc migrated from 001_whowrotebackinblack/m073/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "1080b4d8ffd5535c",
+      "filename": "then-youve-got-the-wit-thats-always-there.jpg",
+      "original_filename": "download-7f7935ff1588.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/1080b4d8ffd5535c/then-youve-got-the-wit-thats-always-there.jpg",
+      "public_url": "/media/_library/assets/1080b4d8ffd5535c/then-youve-got-the-wit-thats-always-there.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m037/acquired/",
+      "search_text": "then-youve-got-the-wit-thats-always-there.jpg download-7f7935ff1588.jpg bon scott migrated from 001_whowrotebackinblack/m037/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "10c5612520f53927",
+      "filename": "and-he-tells-people-privately-not-in-interviews-not-for-the-press.jpg",
+      "original_filename": "download-d2eb731ec101.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/10c5612520f53927/and-he-tells-people-privately-not-in-interviews-not-for-the-press.jpg",
+      "public_url": "/media/_library/assets/10c5612520f53927/and-he-tells-people-privately-not-in-interviews-not-for-the-press.jpg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m052/acquired/",
+      "search_text": "and-he-tells-people-privately-not-in-interviews-not-for-the-press.jpg download-d2eb731ec101.jpg ac/dc migrated from 001_whowrotebackinblack/m052/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "10c79dc8d9af4f08",
+      "filename": "all-because-of-you-can-you-do-it.mp4",
+      "original_filename": "jk9Xda52Vuw.mp4",
+      "kind": "archive",
+      "media_type": "video",
+      "thumbnail_url": "/media/_library/assets/10c79dc8d9af4f08/all-because-of-you-can-you-do-it.mp4",
+      "public_url": "/media/_library/assets/10c79dc8d9af4f08/all-because-of-you-can-you-do-it.mp4",
+      "tags": [
+        "audio cassette tape"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m063/acquired/",
+      "search_text": "all-because-of-you-can-you-do-it.mp4 jk9xda52vuw.mp4 audio cassette tape migrated from 001_whowrotebackinblack/m063/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "1458b3a2327b8fcd",
+      "filename": "okay.png",
+      "original_filename": "sticker-c79a4f74.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/1458b3a2327b8fcd/okay.png",
+      "public_url": "/media/_library/assets/1458b3a2327b8fcd/okay.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m103/acquired/",
+      "search_text": "okay.png sticker-c79a4f74.png migrated from 001_whowrotebackinblack/m103/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "155465d2c0268556",
+      "filename": "swagger-up-the-wazoo.gif",
+      "original_filename": "giphy-l49JJotpc2n5YTUVG.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/155465d2c0268556/swagger-up-the-wazoo.gif",
+      "public_url": "/media/_library/assets/155465d2c0268556/swagger-up-the-wazoo.gif",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m076/acquired/",
+      "search_text": "swagger-up-the-wazoo.gif giphy-l49jjotpc2n5ytuvg.gif ac/dc migrated from 001_whowrotebackinblack/m076/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "1c2e74d37702f4f3",
+      "filename": "thats-a-guy-describing-his-actual-lifestyle-with-zero-apology-and-a-grin.bin",
+      "original_filename": "download-82a5e302aea3.bin",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/1c2e74d37702f4f3/thats-a-guy-describing-his-actual-lifestyle-with-zero-apology-and-a-grin.bin",
+      "public_url": "/media/_library/assets/1c2e74d37702f4f3/thats-a-guy-describing-his-actual-lifestyle-with-zero-apology-and-a-grin.bin",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m042/acquired/",
+      "search_text": "thats-a-guy-describing-his-actual-lifestyle-with-zero-apology-and-a-grin.bin download-82a5e302aea3.bin bon scott migrated from 001_whowrotebackinblack/m042/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "202f7396c6209149",
+      "filename": "geordie-records.jpg",
+      "original_filename": "geordie-records.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/202f7396c6209149/geordie-records.jpg",
+      "public_url": "/media/_library/assets/202f7396c6209149/geordie-records.jpg",
+      "tags": [
+        "brian johnson",
+        "geordie"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m061/acquired/",
+      "search_text": "geordie-records.jpg geordie-records.jpg brian johnson geordie migrated from 001_whowrotebackinblack/m061/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "26ab6d3b97f4b999",
+      "filename": "and-its-not-just-a-comeback-album.jpg",
+      "original_filename": "download-c274c9181c81.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/26ab6d3b97f4b999/and-its-not-just-a-comeback-album.jpg",
+      "public_url": "/media/_library/assets/26ab6d3b97f4b999/and-its-not-just-a-comeback-album.jpg",
+      "tags": [
+        "electric guitar body close-up"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m023/acquired/",
+      "search_text": "and-its-not-just-a-comeback-album.jpg download-c274c9181c81.jpg electric guitar body close-up migrated from 001_whowrotebackinblack/m023/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "35727d85900ce2bb",
+      "filename": "but-the-narrator-is-generic.png",
+      "original_filename": "sticker-b75fdee5.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/35727d85900ce2bb/but-the-narrator-is-generic.png",
+      "public_url": "/media/_library/assets/35727d85900ce2bb/but-the-narrator-is-generic.png",
+      "tags": [
+        "vintage rock tour t-shirt"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m065/acquired/",
+      "search_text": "but-the-narrator-is-generic.png sticker-b75fdee5.png vintage rock tour t-shirt migrated from 001_whowrotebackinblack/m065/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "3a44b54bee2b591f",
+      "filename": "and-he-tells-people-privately-not-in-interviews-not-for-the-press.gif",
+      "original_filename": "giphy-3oFzmdLhz7kkEsocMM.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/3a44b54bee2b591f/and-he-tells-people-privately-not-in-interviews-not-for-the-press.gif",
+      "public_url": "/media/_library/assets/3a44b54bee2b591f/and-he-tells-people-privately-not-in-interviews-not-for-the-press.gif",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m052/acquired/",
+      "search_text": "and-he-tells-people-privately-not-in-interviews-not-for-the-press.gif giphy-3ofzmdlhz7kkesocmm.gif ac/dc migrated from 001_whowrotebackinblack/m052/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "420996400b79b637",
+      "filename": "but-heres-the-thing-about-bond-scott.jpg",
+      "original_filename": "download-c0e3234a11d1.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/420996400b79b637/but-heres-the-thing-about-bond-scott.jpg",
+      "public_url": "/media/_library/assets/420996400b79b637/but-heres-the-thing-about-bond-scott.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m030/acquired/",
+      "search_text": "but-heres-the-thing-about-bond-scott.jpg download-c0e3234a11d1.jpg bon scott migrated from 001_whowrotebackinblack/m030/acquired/",
+      "usage_count": 2,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "43d77f0f4d86d5ea",
+      "filename": "then-youve-got-the-wit-thats-always-there.webp",
+      "original_filename": "download-fa9958f0091b.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/43d77f0f4d86d5ea/then-youve-got-the-wit-thats-always-there.webp",
+      "public_url": "/media/_library/assets/43d77f0f4d86d5ea/then-youve-got-the-wit-thats-always-there.webp",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m037/acquired/",
+      "search_text": "then-youve-got-the-wit-thats-always-there.webp download-fa9958f0091b.webp bon scott migrated from 001_whowrotebackinblack/m037/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "465704506b5ab05c",
+      "filename": "that-hook.png",
+      "original_filename": "sticker-57d24f37.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/465704506b5ab05c/that-hook.png",
+      "public_url": "/media/_library/assets/465704506b5ab05c/that-hook.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m086/acquired/",
+      "search_text": "that-hook.png sticker-57d24f37.png migrated from 001_whowrotebackinblack/m086/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "478958b3bdfdcc70",
+      "filename": "theres-no-wit-underneath.gif",
+      "original_filename": "giphy-1Zbeweu52ZaQE.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/478958b3bdfdcc70/theres-no-wit-underneath.gif",
+      "public_url": "/media/_library/assets/478958b3bdfdcc70/theres-no-wit-underneath.gif",
+      "tags": [
+        "vintage microphone on stand"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m067/acquired/",
+      "search_text": "theres-no-wit-underneath.gif giphy-1zbeweu52zaqe.gif vintage microphone on stand migrated from 001_whowrotebackinblack/m067/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "4ded8ee924a63cd7",
+      "filename": "but-it-is-not-how-bond-scott-wrote.jpg",
+      "original_filename": "download-8af648b79dce.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/4ded8ee924a63cd7/but-it-is-not-how-bond-scott-wrote.jpg",
+      "public_url": "/media/_library/assets/4ded8ee924a63cd7/but-it-is-not-how-bond-scott-wrote.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m071/acquired/",
+      "search_text": "but-it-is-not-how-bond-scott-wrote.jpg download-8af648b79dce.jpg bon scott migrated from 001_whowrotebackinblack/m071/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "4df094b9972c4bbc",
+      "filename": "highway-to-hell-not-a-vague-rock-statement.jpg",
+      "original_filename": "download-950beebf907b.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/4df094b9972c4bbc/highway-to-hell-not-a-vague-rock-statement.jpg",
+      "public_url": "/media/_library/assets/4df094b9972c4bbc/highway-to-hell-not-a-vague-rock-statement.jpg",
+      "tags": [
+        "ac/dc",
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m040/acquired/",
+      "search_text": "highway-to-hell-not-a-vague-rock-statement.jpg download-950beebf907b.jpg ac/dc bon scott migrated from 001_whowrotebackinblack/m040/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "4e83148e0b25e1d3",
+      "filename": "its-not-pretty-good-considering.png",
+      "original_filename": "sticker-00f5b7b4.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/4e83148e0b25e1d3/its-not-pretty-good-considering.png",
+      "public_url": "/media/_library/assets/4e83148e0b25e1d3/its-not-pretty-good-considering.png",
+      "tags": [
+        "vintage microphone on stand"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m024/acquired/",
+      "search_text": "its-not-pretty-good-considering.png sticker-00f5b7b4.png vintage microphone on stand migrated from 001_whowrotebackinblack/m024/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "4f1c84b5a1a68e38",
+      "filename": "love-the-man-genuinely.gif",
+      "original_filename": "giphy-jWRnA7aBoUOvsiAzJB.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/4f1c84b5a1a68e38/love-the-man-genuinely.gif",
+      "public_url": "/media/_library/assets/4f1c84b5a1a68e38/love-the-man-genuinely.gif",
+      "tags": [
+        "vinyl record on turntable"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m058/acquired/",
+      "search_text": "love-the-man-genuinely.gif giphy-jwrna7abouovsiazjb.gif vinyl record on turntable migrated from 001_whowrotebackinblack/m058/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "4ff8bdb1dd269eac",
+      "filename": "specific-guy-bad-reputation-hes-proud-of-it.jpg",
+      "original_filename": "download-9152897a3ead.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/4ff8bdb1dd269eac/specific-guy-bad-reputation-hes-proud-of-it.jpg",
+      "public_url": "/media/_library/assets/4ff8bdb1dd269eac/specific-guy-bad-reputation-hes-proud-of-it.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m034/acquired/",
+      "search_text": "specific-guy-bad-reputation-hes-proud-of-it.jpg download-9152897a3ead.jpg bon scott migrated from 001_whowrotebackinblack/m034/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "50c6507e94ef2ec7",
+      "filename": "that-swagger.gif",
+      "original_filename": "giphy-3osBL8qjECZKHfObfO.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/50c6507e94ef2ec7/that-swagger.gif",
+      "public_url": "/media/_library/assets/50c6507e94ef2ec7/that-swagger.gif",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m089/acquired/",
+      "search_text": "that-swagger.gif giphy-3osbl8qjeczkhfobfo.gif ac/dc migrated from 001_whowrotebackinblack/m089/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "516e2fd7890a9209",
+      "filename": "he-is-working-two-tracks-at-once-for-the-entire-song-that-is-not-an-accident.gif",
+      "original_filename": "giphy-117P9MlBvxqSBi.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/516e2fd7890a9209/he-is-working-two-tracks-at-once-for-the-entire-song-that-is-not-an-accident.gif",
+      "public_url": "/media/_library/assets/516e2fd7890a9209/he-is-working-two-tracks-at-once-for-the-entire-song-that-is-not-an-accident.gif",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m047/acquired/",
+      "search_text": "he-is-working-two-tracks-at-once-for-the-entire-song-that-is-not-an-accident.gif giphy-117p9mlbvxqsbi.gif ac/dc migrated from 001_whowrotebackinblack/m047/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "53f3d23509394c09",
+      "filename": "bond-scott-dies-february-19-1980-33-years-old.jpg",
+      "original_filename": "download-e73e2449fe6b.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/53f3d23509394c09/bond-scott-dies-february-19-1980-33-years-old.jpg",
+      "public_url": "/media/_library/assets/53f3d23509394c09/bond-scott-dies-february-19-1980-33-years-old.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m020/acquired/",
+      "search_text": "bond-scott-dies-february-19-1980-33-years-old.jpg download-e73e2449fe6b.jpg bon scott migrated from 001_whowrotebackinblack/m020/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "55db4b07d28a7e7f",
+      "filename": "_single_ysmanl.jpeg",
+      "original_filename": "_single_ysmanl.jpeg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/55db4b07d28a7e7f/_single_ysmanl.jpeg",
+      "public_url": "/media/_library/assets/55db4b07d28a7e7f/_single_ysmanl.jpeg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m083/acquired/",
+      "search_text": "_single_ysmanl.jpeg _single_ysmanl.jpeg ac/dc migrated from 001_whowrotebackinblack/m083/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "5771ff5aa07ec028",
+      "filename": "download-872321de6e71-inv.jpg",
+      "original_filename": "download-872321de6e71-inv.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/5771ff5aa07ec028/download-872321de6e71-inv.jpg",
+      "public_url": "/media/_library/assets/5771ff5aa07ec028/download-872321de6e71-inv.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m031/acquired/",
+      "search_text": "download-872321de6e71-inv.jpg download-872321de6e71-inv.jpg bon scott migrated from 001_whowrotebackinblack/m031/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "591d2d18473a84dd",
+      "filename": "just-a-few-years-before-his-death-bond-was-in-a-motorcycle-accident.png",
+      "original_filename": "sticker-1e73279a.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/591d2d18473a84dd/just-a-few-years-before-his-death-bond-was-in-a-motorcycle-accident.png",
+      "public_url": "/media/_library/assets/591d2d18473a84dd/just-a-few-years-before-his-death-bond-was-in-a-motorcycle-accident.png",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m050/acquired/",
+      "search_text": "just-a-few-years-before-his-death-bond-was-in-a-motorcycle-accident.png sticker-1e73279a.png bon scott migrated from 001_whowrotebackinblack/m050/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "5af89a172d9ed0cd",
+      "filename": "they-were-trying-to-sound-like-slayed.jpeg",
+      "original_filename": "download-4eddf94e3387.jpeg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/5af89a172d9ed0cd/they-were-trying-to-sound-like-slayed.jpeg",
+      "public_url": "/media/_library/assets/5af89a172d9ed0cd/they-were-trying-to-sound-like-slayed.jpeg",
+      "tags": [
+        "geordie"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m069/acquired/",
+      "search_text": "they-were-trying-to-sound-like-slayed.jpeg download-4eddf94e3387.jpeg geordie migrated from 001_whowrotebackinblack/m069/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "5bb3fe8890c73da8",
+      "filename": "swaggerbon.jpg",
+      "original_filename": "swaggerbon.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/5bb3fe8890c73da8/swaggerbon.jpg",
+      "public_url": "/media/_library/assets/5bb3fe8890c73da8/swaggerbon.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m030/acquired/",
+      "search_text": "swaggerbon.jpg swaggerbon.jpg bon scott migrated from 001_whowrotebackinblack/m030/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "5c07e1ac64c1fdaf",
+      "filename": "crystal-chandeliers-distinguished-guests-and-balls.gif",
+      "original_filename": "giphy-K20uJQyNnchq0.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
+      "public_url": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
+      "tags": [
+        "crystal chandelier"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m046/acquired/",
+      "search_text": "crystal-chandeliers-distinguished-guests-and-balls.gif giphy-k20ujqynnchq0.gif crystal chandelier migrated from 001_whowrotebackinblack/m046/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "61370245df4f22b2",
+      "filename": "and-the-story-were-supposed-to-accept-is-okay-so-theres-this-guy-brian-johnson.png",
+      "original_filename": "sticker-e2e6ca43.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/61370245df4f22b2/and-the-story-were-supposed-to-accept-is-okay-so-theres-this-guy-brian-johnson.png",
+      "public_url": "/media/_library/assets/61370245df4f22b2/and-the-story-were-supposed-to-accept-is-okay-so-theres-this-guy-brian-johnson.png",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m026/acquired/",
+      "search_text": "and-the-story-were-supposed-to-accept-is-okay-so-theres-this-guy-brian-johnson.png sticker-e2e6ca43.png brian johnson migrated from 001_whowrotebackinblack/m026/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "6467d75980c5b530",
+      "filename": "always-a-fight-a-conquest-a-boast-or-a-badass-woman.jpg",
+      "original_filename": "download-5b7356a8226d.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/6467d75980c5b530/always-a-fight-a-conquest-a-boast-or-a-badass-woman.jpg",
+      "public_url": "/media/_library/assets/6467d75980c5b530/always-a-fight-a-conquest-a-boast-or-a-badass-woman.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m036/acquired/",
+      "search_text": "always-a-fight-a-conquest-a-boast-or-a-badass-woman.jpg download-5b7356a8226d.jpg bon scott migrated from 001_whowrotebackinblack/m036/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "6510a1713cd66954",
+      "filename": "it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg",
+      "original_filename": "download-1c183cc5df51.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/6510a1713cd66954/it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg",
+      "public_url": "/media/_library/assets/6510a1713cd66954/it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m025/acquired/",
+      "search_text": "it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg download-1c183cc5df51.jpg ac/dc migrated from 001_whowrotebackinblack/m025/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "689be181198c48e3",
+      "filename": "ftatr.jpeg",
+      "original_filename": "ftatr.jpeg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/689be181198c48e3/ftatr.jpeg",
+      "public_url": "/media/_library/assets/689be181198c48e3/ftatr.jpeg",
+      "tags": [
+        "ac/dc",
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m093/acquired/",
+      "search_text": "ftatr.jpeg ftatr.jpeg ac/dc brian johnson migrated from 001_whowrotebackinblack/m093/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "6a26c8d6af9184b7",
+      "filename": "wait-nobody-finds-that-a-little-convenience.png",
+      "original_filename": "title-1a1a1ac7.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/6a26c8d6af9184b7/wait-nobody-finds-that-a-little-convenience.png",
+      "public_url": "/media/_library/assets/6a26c8d6af9184b7/wait-nobody-finds-that-a-little-convenience.png",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m017/acquired/",
+      "search_text": "wait-nobody-finds-that-a-little-convenience.png title-1a1a1ac7.png ac/dc migrated from 001_whowrotebackinblack/m017/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "6a5a5c7c1b451da8",
+      "filename": "bj.jpg",
+      "original_filename": "bj.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/6a5a5c7c1b451da8/bj.jpg",
+      "public_url": "/media/_library/assets/6a5a5c7c1b451da8/bj.jpg",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m026/acquired/",
+      "search_text": "bj.jpg bj.jpg brian johnson migrated from 001_whowrotebackinblack/m026/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "6e92fcf3acdb8cee",
+      "filename": "you-shook-me-all-night-long.png",
+      "original_filename": "sticker-deae3012.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/6e92fcf3acdb8cee/you-shook-me-all-night-long.png",
+      "public_url": "/media/_library/assets/6e92fcf3acdb8cee/you-shook-me-all-night-long.png",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m097/acquired/",
+      "search_text": "you-shook-me-all-night-long.png sticker-deae3012.png ac/dc migrated from 001_whowrotebackinblack/m097/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "7a0fdb4b736edd5a",
+      "filename": "big-balls.png",
+      "original_filename": "sticker-943f46f1.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/7a0fdb4b736edd5a/big-balls.png",
+      "public_url": "/media/_library/assets/7a0fdb4b736edd5a/big-balls.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m043/acquired/",
+      "search_text": "big-balls.png sticker-943f46f1.png migrated from 001_whowrotebackinblack/m043/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "7b78e39a1d88734d",
+      "filename": "but-its-also-a-meticulously-constructed-double-entendre.jpg",
+      "original_filename": "download-172c6e39a612.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/7b78e39a1d88734d/but-its-also-a-meticulously-constructed-double-entendre.jpg",
+      "public_url": "/media/_library/assets/7b78e39a1d88734d/but-its-also-a-meticulously-constructed-double-entendre.jpg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m045/acquired/",
+      "search_text": "but-its-also-a-meticulously-constructed-double-entendre.jpg download-172c6e39a612.jpg ac/dc migrated from 001_whowrotebackinblack/m045/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "7c57afe3d05b94ca",
+      "filename": "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
+      "original_filename": "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/7c57afe3d05b94ca/original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
+      "public_url": "/media/_library/assets/7c57afe3d05b94ca/original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m034/acquired/",
+      "search_text": "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp bon scott migrated from 001_whowrotebackinblack/m034/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "7f49817773bfcd72",
+      "filename": "if-that-was-brian-johnsons-what-happened-to-that-genius.png",
+      "original_filename": "sticker-d4c886e9.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/7f49817773bfcd72/if-that-was-brian-johnsons-what-happened-to-that-genius.png",
+      "public_url": "/media/_library/assets/7f49817773bfcd72/if-that-was-brian-johnsons-what-happened-to-that-genius.png",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m091/acquired/",
+      "search_text": "if-that-was-brian-johnsons-what-happened-to-that-genius.png sticker-d4c886e9.png brian johnson migrated from 001_whowrotebackinblack/m091/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "80c03eb344d0e533",
+      "filename": "okay-heres-an-easter-egg.png",
+      "original_filename": "sticker-796652c6.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/80c03eb344d0e533/okay-heres-an-easter-egg.png",
+      "public_url": "/media/_library/assets/80c03eb344d0e533/okay-heres-an-easter-egg.png",
+      "tags": [
+        "guitar amplifier knobs"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m048/acquired/",
+      "search_text": "okay-heres-an-easter-egg.png sticker-796652c6.png guitar amplifier knobs migrated from 001_whowrotebackinblack/m048/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "8d177a2e301995e1",
+      "filename": "funny bon.jpg",
+      "original_filename": "funny bon.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/8d177a2e301995e1/funny%20bon.jpg",
+      "public_url": "/media/_library/assets/8d177a2e301995e1/funny%20bon.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m038/acquired/",
+      "search_text": "funny bon.jpg funny bon.jpg bon scott migrated from 001_whowrotebackinblack/m038/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "93ea4a896d8fe652",
+      "filename": "bon on stage.webp",
+      "original_filename": "bon on stage.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/93ea4a896d8fe652/bon%20on%20stage.webp",
+      "public_url": "/media/_library/assets/93ea4a896d8fe652/bon%20on%20stage.webp",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m036/acquired/",
+      "search_text": "bon on stage.webp bon on stage.webp bon scott migrated from 001_whowrotebackinblack/m036/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "940c34fbe6bae0cc",
+      "filename": "thats-a-confessional.png",
+      "original_filename": "sticker-d168de49.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/940c34fbe6bae0cc/thats-a-confessional.png",
+      "public_url": "/media/_library/assets/940c34fbe6bae0cc/thats-a-confessional.png",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m041/acquired/",
+      "search_text": "thats-a-confessional.png sticker-d168de49.png bon scott migrated from 001_whowrotebackinblack/m041/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "99521922f44fcc34",
+      "filename": "youd-be-chasing-that-your-whole-career.gif",
+      "original_filename": "giphy-dIT3fPGfXrfZ6.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/99521922f44fcc34/youd-be-chasing-that-your-whole-career.gif",
+      "public_url": "/media/_library/assets/99521922f44fcc34/youd-be-chasing-that-your-whole-career.gif",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m100/acquired/",
+      "search_text": "youd-be-chasing-that-your-whole-career.gif giphy-dit3fpgfxrfz6.gif migrated from 001_whowrotebackinblack/m100/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "9a653b5485f68bf5",
+      "filename": "theres-no-wit-underneath.gif",
+      "original_filename": "giphy-h4Z6RfuQycdiM.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/9a653b5485f68bf5/theres-no-wit-underneath.gif",
+      "public_url": "/media/_library/assets/9a653b5485f68bf5/theres-no-wit-underneath.gif",
+      "tags": [
+        "vintage microphone on stand"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m067/acquired/",
+      "search_text": "theres-no-wit-underneath.gif giphy-h4z6rfuqycdim.gif vintage microphone on stand migrated from 001_whowrotebackinblack/m067/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "b00b7fc2d8238b52",
+      "filename": "yes-its-filthy-obviously-like-a-dirty-limbric.png",
+      "original_filename": "sticker-83a85cb8.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/b00b7fc2d8238b52/yes-its-filthy-obviously-like-a-dirty-limbric.png",
+      "public_url": "/media/_library/assets/b00b7fc2d8238b52/yes-its-filthy-obviously-like-a-dirty-limbric.png",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m044/acquired/",
+      "search_text": "yes-its-filthy-obviously-like-a-dirty-limbric.png sticker-83a85cb8.png ac/dc migrated from 001_whowrotebackinblack/m044/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "b029e839c72819a2",
+      "filename": "and-the-story-were-supposed-to-accept-is-okay-so-theres-this-guy-brian-johnson.png",
+      "original_filename": "sticker-51178439.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/b029e839c72819a2/and-the-story-were-supposed-to-accept-is-okay-so-theres-this-guy-brian-johnson.png",
+      "public_url": "/media/_library/assets/b029e839c72819a2/and-the-story-were-supposed-to-accept-is-okay-so-theres-this-guy-brian-johnson.png",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m026/acquired/",
+      "search_text": "and-the-story-were-supposed-to-accept-is-okay-so-theres-this-guy-brian-johnson.png sticker-51178439.png brian johnson migrated from 001_whowrotebackinblack/m026/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "b12605b9584934f4",
+      "filename": "those-songs-are-lyrically-genius.png",
+      "original_filename": "sticker-ef771e60.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/b12605b9584934f4/those-songs-are-lyrically-genius.png",
+      "public_url": "/media/_library/assets/b12605b9584934f4/those-songs-are-lyrically-genius.png",
+      "tags": [
+        "peeling rock concert poster"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m075/acquired/",
+      "search_text": "those-songs-are-lyrically-genius.png sticker-ef771e60.png peeling rock concert poster migrated from 001_whowrotebackinblack/m075/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "b159647d2d4f424b",
+      "filename": "those-songs-are-lyrically-genius.png",
+      "original_filename": "sticker-f63ac530.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/b159647d2d4f424b/those-songs-are-lyrically-genius.png",
+      "public_url": "/media/_library/assets/b159647d2d4f424b/those-songs-are-lyrically-genius.png",
+      "tags": [
+        "peeling rock concert poster"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m075/acquired/",
+      "search_text": "those-songs-are-lyrically-genius.png sticker-f63ac530.png peeling rock concert poster migrated from 001_whowrotebackinblack/m075/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "b2ee04f0cb06f4d0",
+      "filename": "as-a-writer-he-leaves-a-fingerprint.jpg",
+      "original_filename": "download-872321de6e71.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/b2ee04f0cb06f4d0/as-a-writer-he-leaves-a-fingerprint.jpg",
+      "public_url": "/media/_library/assets/b2ee04f0cb06f4d0/as-a-writer-he-leaves-a-fingerprint.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m031/acquired/",
+      "search_text": "as-a-writer-he-leaves-a-fingerprint.jpg download-872321de6e71.jpg bon scott migrated from 001_whowrotebackinblack/m031/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "b8ccbdb02d5fde6a",
+      "filename": "five-months-later-they-release-back-in-black.jpg",
+      "original_filename": "download-398be3dd6abd.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/b8ccbdb02d5fde6a/five-months-later-they-release-back-in-black.jpg",
+      "public_url": "/media/_library/assets/b8ccbdb02d5fde6a/five-months-later-they-release-back-in-black.jpg",
+      "tags": [
+        "vinyl lp record"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m022/acquired/",
+      "search_text": "five-months-later-they-release-back-in-black.jpg download-398be3dd6abd.jpg vinyl lp record migrated from 001_whowrotebackinblack/m022/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "bb3b9c82e3941658",
+      "filename": "what-he-did-walking-into-that-situation-singing-those-songs-with-that-fire.jpg",
+      "original_filename": "download-28ef9a5ab671.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/bb3b9c82e3941658/what-he-did-walking-into-that-situation-singing-those-songs-with-that-fire.jpg",
+      "public_url": "/media/_library/assets/bb3b9c82e3941658/what-he-did-walking-into-that-situation-singing-those-songs-with-that-fire.jpg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m059/acquired/",
+      "search_text": "what-he-did-walking-into-that-situation-singing-those-songs-with-that-fire.jpg download-28ef9a5ab671.jpg ac/dc migrated from 001_whowrotebackinblack/m059/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "bc7f2e58967c2ffa",
+      "filename": "bon_and_angus.jpg",
+      "original_filename": "bon_and_angus.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/bc7f2e58967c2ffa/bon_and_angus.jpg",
+      "public_url": "/media/_library/assets/bc7f2e58967c2ffa/bon_and_angus.jpg",
+      "tags": [
+        "ac/dc",
+        "peeling rock concert poster"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m052/acquired/",
+      "search_text": "bon_and_angus.jpg bon_and_angus.jpg ac/dc peeling rock concert poster migrated from 001_whowrotebackinblack/m052/acquired/",
+      "usage_count": 2,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "bd1748b0e95e182b",
+      "filename": "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900.jpg",
+      "original_filename": "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/bd1748b0e95e182b/Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900.jpg",
+      "public_url": "/media/_library/assets/bd1748b0e95e182b/Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m032/acquired/",
+      "search_text": "bon-scott-acdc-lyrics-handwritten-highway-to-hell-560x900.jpg bon-scott-acdc-lyrics-handwritten-highway-to-hell-560x900.jpg bon scott migrated from 001_whowrotebackinblack/m032/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "c3cced8e1460f43a",
+      "filename": "okay-background.png",
+      "original_filename": "sticker-f78f6bb5.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/c3cced8e1460f43a/okay-background.png",
+      "public_url": "/media/_library/assets/c3cced8e1460f43a/okay-background.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m019/acquired/",
+      "search_text": "okay-background.png sticker-f78f6bb5.png migrated from 001_whowrotebackinblack/m019/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "cc36c530530bde2a",
+      "filename": "it-could-be-anyone.png",
+      "original_filename": "download-36a245fbf4d4.png",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/cc36c530530bde2a/it-could-be-anyone.png",
+      "public_url": "/media/_library/assets/cc36c530530bde2a/it-could-be-anyone.png",
+      "tags": [
+        "electric guitar body close-up"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m066/acquired/",
+      "search_text": "it-could-be-anyone.png download-36a245fbf4d4.png electric guitar body close-up migrated from 001_whowrotebackinblack/m066/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "ce206e7532606a30",
+      "filename": "yes-its-filthy-obviously-like-a-dirty-limbric.png",
+      "original_filename": "sticker-1c8efe41.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/ce206e7532606a30/yes-its-filthy-obviously-like-a-dirty-limbric.png",
+      "public_url": "/media/_library/assets/ce206e7532606a30/yes-its-filthy-obviously-like-a-dirty-limbric.png",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m044/acquired/",
+      "search_text": "yes-its-filthy-obviously-like-a-dirty-limbric.png sticker-1c8efe41.png ac/dc migrated from 001_whowrotebackinblack/m044/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "cf62434c1ec966c1",
+      "filename": "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
+      "original_filename": "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/cf62434c1ec966c1/Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
+      "public_url": "/media/_library/assets/cf62434c1ec966c1/Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m032/acquired/",
+      "search_text": "bon-scott-acdc-lyrics-handwritten-highway-to-hell-560x900-inv.jpg bon-scott-acdc-lyrics-handwritten-highway-to-hell-560x900-inv.jpg bon scott migrated from 001_whowrotebackinblack/m032/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "d0a398c052139a18",
+      "filename": "good-songs-competent-professional-fun-even.png",
+      "original_filename": "sticker-edcba964.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/d0a398c052139a18/good-songs-competent-professional-fun-even.png",
+      "public_url": "/media/_library/assets/d0a398c052139a18/good-songs-competent-professional-fun-even.png",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m064/acquired/",
+      "search_text": "good-songs-competent-professional-fun-even.png sticker-edcba964.png ac/dc migrated from 001_whowrotebackinblack/m064/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "d3463c98df6c20fe",
+      "filename": "theres-no-wink.png",
+      "original_filename": "sticker-11fc5d68.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/d3463c98df6c20fe/theres-no-wink.png",
+      "public_url": "/media/_library/assets/d3463c98df6c20fe/theres-no-wink.png",
+      "tags": [
+        "guitar amplifier knobs"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m068/acquired/",
+      "search_text": "theres-no-wink.png sticker-11fc5d68.png guitar amplifier knobs migrated from 001_whowrotebackinblack/m068/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "d408c69e2da9da35",
+      "filename": "i-used-up-one-of-my-nine-lives-on-that-one.jpg",
+      "original_filename": "download-489057d76828.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/d408c69e2da9da35/i-used-up-one-of-my-nine-lives-on-that-one.jpg",
+      "public_url": "/media/_library/assets/d408c69e2da9da35/i-used-up-one-of-my-nine-lives-on-that-one.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m054/acquired/",
+      "search_text": "i-used-up-one-of-my-nine-lives-on-that-one.jpg download-489057d76828.jpg bon scott migrated from 001_whowrotebackinblack/m054/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "d61ee86344d366d2",
+      "filename": "all-because-of-you-can-you-do-it.png",
+      "original_filename": "sticker-6ab6a77b.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/d61ee86344d366d2/all-because-of-you-can-you-do-it.png",
+      "public_url": "/media/_library/assets/d61ee86344d366d2/all-because-of-you-can-you-do-it.png",
+      "tags": [
+        "audio cassette tape"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m063/acquired/",
+      "search_text": "all-because-of-you-can-you-do-it.png sticker-6ab6a77b.png audio cassette tape migrated from 001_whowrotebackinblack/m063/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "d79f38a87baa6af3",
+      "filename": "man.png",
+      "original_filename": "sticker-2baa9552.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/d79f38a87baa6af3/man.png",
+      "public_url": "/media/_library/assets/d79f38a87baa6af3/man.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m081/acquired/",
+      "search_text": "man.png sticker-2baa9552.png migrated from 001_whowrotebackinblack/m081/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "d8d1ac9843778ff2",
+      "filename": "unless-that-frequency-was-never-on-your-dial-to-begin-with.gif",
+      "original_filename": "giphy-G6pfZYscvgB8OPb2Cv.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/d8d1ac9843778ff2/unless-that-frequency-was-never-on-your-dial-to-begin-with.gif",
+      "public_url": "/media/_library/assets/d8d1ac9843778ff2/unless-that-frequency-was-never-on-your-dial-to-begin-with.gif",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m101/acquired/",
+      "search_text": "unless-that-frequency-was-never-on-your-dial-to-begin-with.gif giphy-g6pfzyscvgb8opb2cv.gif ac/dc migrated from 001_whowrotebackinblack/m101/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "dc04219f2b754661",
+      "filename": "bib-record.jpg",
+      "original_filename": "bib-record.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/dc04219f2b754661/bib-record.jpg",
+      "public_url": "/media/_library/assets/dc04219f2b754661/bib-record.jpg",
+      "tags": [
+        "vinyl lp record"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m022/acquired/",
+      "search_text": "bib-record.jpg bib-record.jpg vinyl lp record migrated from 001_whowrotebackinblack/m022/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "dd126f0459907075",
+      "filename": "okay-background.png",
+      "original_filename": "sticker-abae5780.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/dd126f0459907075/okay-background.png",
+      "public_url": "/media/_library/assets/dd126f0459907075/okay-background.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m019/acquired/",
+      "search_text": "okay-background.png sticker-abae5780.png migrated from 001_whowrotebackinblack/m019/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "e0dbf750d480f528",
+      "filename": "nearly-kills-him.jpg",
+      "original_filename": "download-872ce405e658.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
+      "public_url": "/media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
+      "tags": [
+        "concert ticket stub vintage"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m051/acquired/",
+      "search_text": "nearly-kills-him.jpg download-872ce405e658.jpg concert ticket stub vintage migrated from 001_whowrotebackinblack/m051/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "e29b6eb53267fb4c",
+      "filename": "and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+      "original_filename": "giphy-l49JZLHlZu2ZCVFN6.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+      "public_url": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+      "tags": [
+        "ac/dc",
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m039/acquired/",
+      "search_text": "and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif giphy-l49jzlhlzu2zcvfn6.gif ac/dc bon scott migrated from 001_whowrotebackinblack/m039/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "e2d782f5f9e1b57f",
+      "filename": "but-its-also-a-meticulously-constructed-double-entendre.webp",
+      "original_filename": "download-892c18c69a0b.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e2d782f5f9e1b57f/but-its-also-a-meticulously-constructed-double-entendre.webp",
+      "public_url": "/media/_library/assets/e2d782f5f9e1b57f/but-its-also-a-meticulously-constructed-double-entendre.webp",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m045/acquired/",
+      "search_text": "but-its-also-a-meticulously-constructed-double-entendre.webp download-892c18c69a0b.webp ac/dc migrated from 001_whowrotebackinblack/m045/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "e2e4beedcbf3cae3",
+      "filename": "youve-got-the-narrator.png",
+      "original_filename": "sticker-dcd87224.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e2e4beedcbf3cae3/youve-got-the-narrator.png",
+      "public_url": "/media/_library/assets/e2e4beedcbf3cae3/youve-got-the-narrator.png",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m033/acquired/",
+      "search_text": "youve-got-the-narrator.png sticker-dcd87224.png bon scott migrated from 001_whowrotebackinblack/m033/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "e5b37fdb94b561a0",
+      "filename": "witty-bon.jpg",
+      "original_filename": "witty-bon.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e5b37fdb94b561a0/witty-bon.jpg",
+      "public_url": "/media/_library/assets/e5b37fdb94b561a0/witty-bon.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m042/acquired/",
+      "search_text": "witty-bon.jpg witty-bon.jpg bon scott migrated from 001_whowrotebackinblack/m042/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "e7baa125edfc88e4",
+      "filename": "always-a-fight-a-conquest-a-boast-or-a-badass-woman.jpg",
+      "original_filename": "download-e949b85b93e2.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e7baa125edfc88e4/always-a-fight-a-conquest-a-boast-or-a-badass-woman.jpg",
+      "public_url": "/media/_library/assets/e7baa125edfc88e4/always-a-fight-a-conquest-a-boast-or-a-badass-woman.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m036/acquired/",
+      "search_text": "always-a-fight-a-conquest-a-boast-or-a-badass-woman.jpg download-e949b85b93e2.jpg bon scott migrated from 001_whowrotebackinblack/m036/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "e854a83ed80c61c6",
+      "filename": "youve-got-the-storytelling.jpeg",
+      "original_filename": "download-4003c1f1e508.jpeg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e854a83ed80c61c6/youve-got-the-storytelling.jpeg",
+      "public_url": "/media/_library/assets/e854a83ed80c61c6/youve-got-the-storytelling.jpeg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m035/acquired/",
+      "search_text": "youve-got-the-storytelling.jpeg download-4003c1f1e508.jpeg bon scott migrated from 001_whowrotebackinblack/m035/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "e86f76483704e4b7",
+      "filename": "respect-sincere-uneironic-respect.gif",
+      "original_filename": "giphy-KkH4AdCYrK78IjKtmi.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e86f76483704e4b7/respect-sincere-uneironic-respect.gif",
+      "public_url": "/media/_library/assets/e86f76483704e4b7/respect-sincere-uneironic-respect.gif",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m060/acquired/",
+      "search_text": "respect-sincere-uneironic-respect.gif giphy-kkh4adcyrk78ijktmi.gif ac/dc migrated from 001_whowrotebackinblack/m060/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "ea3b7d03e7ecf787",
+      "filename": "fotw.jpeg",
+      "original_filename": "fotw.jpeg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/ea3b7d03e7ecf787/fotw.jpeg",
+      "public_url": "/media/_library/assets/ea3b7d03e7ecf787/fotw.jpeg",
+      "tags": [
+        "ac/dc",
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m094/acquired/",
+      "search_text": "fotw.jpeg fotw.jpeg ac/dc brian johnson migrated from 001_whowrotebackinblack/m094/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "ed8e308c7338323e",
+      "filename": "highway-to-hell-not-a-vague-rock-statement.jpg",
+      "original_filename": "download-f95d387722a1.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/ed8e308c7338323e/highway-to-hell-not-a-vague-rock-statement.jpg",
+      "public_url": "/media/_library/assets/ed8e308c7338323e/highway-to-hell-not-a-vague-rock-statement.jpg",
+      "tags": [
+        "ac/dc",
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m040/acquired/",
+      "search_text": "highway-to-hell-not-a-vague-rock-statement.jpg download-f95d387722a1.jpg ac/dc bon scott migrated from 001_whowrotebackinblack/m040/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "ee0d4309e4441cc5",
+      "filename": "_single_bib.jpeg",
+      "original_filename": "_single_bib.jpeg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/ee0d4309e4441cc5/_single_bib.jpeg",
+      "public_url": "/media/_library/assets/ee0d4309e4441cc5/_single_bib.jpeg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m077/acquired/",
+      "search_text": "_single_bib.jpeg _single_bib.jpeg ac/dc migrated from 001_whowrotebackinblack/m077/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "f1670f42c5e09922",
+      "filename": "giphy-75ZaxapnyMp2w-2.gif",
+      "original_filename": "giphy-75ZaxapnyMp2w-2.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/f1670f42c5e09922/giphy-75ZaxapnyMp2w-2.gif",
+      "public_url": "/media/_library/assets/f1670f42c5e09922/giphy-75ZaxapnyMp2w-2.gif",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m047/acquired/",
+      "search_text": "giphy-75zaxapnymp2w-2.gif giphy-75zaxapnymp2w-2.gif ac/dc migrated from 001_whowrotebackinblack/m047/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "f182e5dc1070b9d4",
+      "filename": "man.png",
+      "original_filename": "sticker-530a1fc9.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/f182e5dc1070b9d4/man.png",
+      "public_url": "/media/_library/assets/f182e5dc1070b9d4/man.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m081/acquired/",
+      "search_text": "man.png sticker-530a1fc9.png migrated from 001_whowrotebackinblack/m081/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "f235dcda6bfcee66",
+      "filename": "Screenshot 2569-05-23 at 5.24.18_AM.png",
+      "original_filename": "Screenshot 2569-05-23 at 5.24.18_AM.png",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/f235dcda6bfcee66/Screenshot%202569-05-23%20at%205.24.18_AM.png",
+      "public_url": "/media/_library/assets/f235dcda6bfcee66/Screenshot%202569-05-23%20at%205.24.18_AM.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m080/acquired/",
+      "search_text": "screenshot 2569-05-23 at 5.24.18_am.png screenshot 2569-05-23 at 5.24.18_am.png migrated from 001_whowrotebackinblack/m080/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "f26e9dc7336c0f0d",
+      "filename": "right.gif",
+      "original_filename": "giphy-qUB8aayj9DNQI.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/f26e9dc7336c0f0d/right.gif",
+      "public_url": "/media/_library/assets/f26e9dc7336c0f0d/right.gif",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m084/acquired/",
+      "search_text": "right.gif giphy-qub8aayj9dnqi.gif migrated from 001_whowrotebackinblack/m084/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "f2b330b1796be50a",
+      "filename": "great-story-very-convenient.png",
+      "original_filename": "sticker-7b57d8d3.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/f2b330b1796be50a/great-story-very-convenient.png",
+      "public_url": "/media/_library/assets/f2b330b1796be50a/great-story-very-convenient.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m029/acquired/",
+      "search_text": "great-story-very-convenient.png sticker-7b57d8d3.png migrated from 001_whowrotebackinblack/m029/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "f33c12e0dc447de7",
+      "filename": "okay-now-take-brian-johnson.jpg",
+      "original_filename": "download-6fcb3f703f2a.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/f33c12e0dc447de7/okay-now-take-brian-johnson.jpg",
+      "public_url": "/media/_library/assets/f33c12e0dc447de7/okay-now-take-brian-johnson.jpg",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m057/acquired/",
+      "search_text": "okay-now-take-brian-johnson.jpg download-6fcb3f703f2a.jpg brian johnson migrated from 001_whowrotebackinblack/m057/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "f5601164014787ba",
+      "filename": "crystal-chandeliers-distinguished-guests-and-balls.jpg",
+      "original_filename": "download-d2a4359b8fe9.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/f5601164014787ba/crystal-chandeliers-distinguished-guests-and-balls.jpg",
+      "public_url": "/media/_library/assets/f5601164014787ba/crystal-chandeliers-distinguished-guests-and-balls.jpg",
+      "tags": [
+        "crystal chandelier"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m046/acquired/",
+      "search_text": "crystal-chandeliers-distinguished-guests-and-balls.jpg download-d2a4359b8fe9.jpg crystal chandelier migrated from 001_whowrotebackinblack/m046/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "fca7c27324457a0f",
+      "filename": "bon-scott-middle-finger2.jpg",
+      "original_filename": "bon-scott-middle-finger2.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/fca7c27324457a0f/bon-scott-middle-finger2.jpg",
+      "public_url": "/media/_library/assets/fca7c27324457a0f/bon-scott-middle-finger2.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m042/acquired/",
+      "search_text": "bon-scott-middle-finger2.jpg bon-scott-middle-finger2.jpg bon scott migrated from 001_whowrotebackinblack/m042/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "fe5ad9ce963b4d35",
+      "filename": "hells-bells.jpg",
+      "original_filename": "download-c43f565bd9d9.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/fe5ad9ce963b4d35/hells-bells.jpg",
+      "public_url": "/media/_library/assets/fe5ad9ce963b4d35/hells-bells.jpg",
+      "tags": [
+        "ac/dc",
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m078/acquired/",
+      "search_text": "hells-bells.jpg download-c43f565bd9d9.jpg ac/dc brian johnson migrated from 001_whowrotebackinblack/m078/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:28.000Z",
+      "updated_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "id": "010fdce190078de0",
+      "filename": "wait-nobody-finds-that-a-little-convenience.jpg",
+      "original_filename": "download-b5470bd4b2fd.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/010fdce190078de0/wait-nobody-finds-that-a-little-convenience.jpg",
+      "public_url": "/media/_library/assets/010fdce190078de0/wait-nobody-finds-that-a-little-convenience.jpg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m017/acquired/",
+      "search_text": "wait-nobody-finds-that-a-little-convenience.jpg download-b5470bd4b2fd.jpg ac/dc migrated from 001_whowrotebackinblack/m017/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "191046c7e955963e",
+      "filename": "asset.png",
+      "original_filename": "sticker-84c822fe.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/191046c7e955963e/asset.png",
+      "public_url": "/media/_library/assets/191046c7e955963e/asset.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m000/acquired/",
+      "search_text": "asset.png sticker-84c822fe.png migrated from 001_whowrotebackinblack/m000/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "2188dff0cf0d5089",
+      "filename": "here-goes.png",
+      "original_filename": "sticker-596588d0.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/2188dff0cf0d5089/here-goes.png",
+      "public_url": "/media/_library/assets/2188dff0cf0d5089/here-goes.png",
+      "tags": [
+        "reel-to-reel tape machine"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m005/acquired/",
+      "search_text": "here-goes.png sticker-596588d0.png reel-to-reel tape machine migrated from 001_whowrotebackinblack/m005/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "2227bd0a7a4643a0",
+      "filename": "asset.gif",
+      "original_filename": "giphy-3ohhwiLsBJcRdGMM6c.gif",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/2227bd0a7a4643a0/asset.gif",
+      "public_url": "/media/_library/assets/2227bd0a7a4643a0/asset.gif",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m000/acquired/",
+      "search_text": "asset.gif giphy-3ohhwilsbjcrdgmm6c.gif migrated from 001_whowrotebackinblack/m000/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "238e1aaf434c4bf8",
+      "filename": "fine-doesnt-matter-sit-down-hear-me-out.png",
+      "original_filename": "sticker-fa67303a.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/238e1aaf434c4bf8/fine-doesnt-matter-sit-down-hear-me-out.png",
+      "public_url": "/media/_library/assets/238e1aaf434c4bf8/fine-doesnt-matter-sit-down-hear-me-out.png",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m003/acquired/",
+      "search_text": "fine-doesnt-matter-sit-down-hear-me-out.png sticker-fa67303a.png ac/dc migrated from 001_whowrotebackinblack/m003/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "2e4b6a30d76cf7f4",
+      "filename": "five.png",
+      "original_filename": "sticker-b3800530.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/2e4b6a30d76cf7f4/five.png",
+      "public_url": "/media/_library/assets/2e4b6a30d76cf7f4/five.png",
+      "tags": [
+        "audio cassette tape"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m011/acquired/",
+      "search_text": "five.png sticker-b3800530.png audio cassette tape migrated from 001_whowrotebackinblack/m011/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "39c25ce872dd60d8",
+      "filename": "the-man-has-been-dead-for-five-months.jpg",
+      "original_filename": "download-b517fafd5bcf.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
+      "public_url": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m010/acquired/",
+      "search_text": "the-man-has-been-dead-for-five-months.jpg download-b517fafd5bcf.jpg bon scott migrated from 001_whowrotebackinblack/m010/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "3dcb95879f94217a",
+      "filename": "the-man-has-been-dead-for-five-months.jpg",
+      "original_filename": "download-b62db1cd5918.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/3dcb95879f94217a/the-man-has-been-dead-for-five-months.jpg",
+      "public_url": "/media/_library/assets/3dcb95879f94217a/the-man-has-been-dead-for-five-months.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m010/acquired/",
+      "search_text": "the-man-has-been-dead-for-five-months.jpg download-b62db1cd5918.jpg bon scott migrated from 001_whowrotebackinblack/m010/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "48dfd3398fc95955",
+      "filename": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
+      "original_filename": "download-ff200e16c265.php",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
+      "public_url": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m001/acquired/",
+      "search_text": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php download-ff200e16c265.php ac/dc migrated from 001_whowrotebackinblack/m001/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "551f9400a715b36a",
+      "filename": "Pac-Man-589b45ce5f9b5874eef15b58.webp",
+      "original_filename": "Pac-Man-589b45ce5f9b5874eef15b58.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/551f9400a715b36a/Pac-Man-589b45ce5f9b5874eef15b58.webp",
+      "public_url": "/media/_library/assets/551f9400a715b36a/Pac-Man-589b45ce5f9b5874eef15b58.webp",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m009/acquired/",
+      "search_text": "pac-man-589b45ce5f9b5874eef15b58.webp pac-man-589b45ce5f9b5874eef15b58.webp ac/dc migrated from 001_whowrotebackinblack/m009/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "59b56a14f17534b5",
+      "filename": "some-of-you-are-probably-gonna-think-im-crazy-or-just-wrong-on-the-facts.mp4",
+      "original_filename": "sjbLokqe0rA.mp4",
+      "kind": "archive",
+      "media_type": "video",
+      "thumbnail_url": "/media/_library/assets/59b56a14f17534b5/some-of-you-are-probably-gonna-think-im-crazy-or-just-wrong-on-the-facts.mp4",
+      "public_url": "/media/_library/assets/59b56a14f17534b5/some-of-you-are-probably-gonna-think-im-crazy-or-just-wrong-on-the-facts.mp4",
+      "tags": [
+        "vinyl record on turntable"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m002/acquired/",
+      "search_text": "some-of-you-are-probably-gonna-think-im-crazy-or-just-wrong-on-the-facts.mp4 sjblokqe0ra.mp4 vinyl record on turntable migrated from 001_whowrotebackinblack/m002/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "5c324eb314e6b4e2",
+      "filename": "asset.png",
+      "original_filename": "sticker-11845c08.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/5c324eb314e6b4e2/asset.png",
+      "public_url": "/media/_library/assets/5c324eb314e6b4e2/asset.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m000/acquired/",
+      "search_text": "asset.png sticker-11845c08.png migrated from 001_whowrotebackinblack/m000/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "601acf6bbb65cce2",
+      "filename": "bond-scott-wrote-the-lyrics-on-back-in-black.jpg",
+      "original_filename": "download-fe39cc26479e.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/601acf6bbb65cce2/bond-scott-wrote-the-lyrics-on-back-in-black.jpg",
+      "public_url": "/media/_library/assets/601acf6bbb65cce2/bond-scott-wrote-the-lyrics-on-back-in-black.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m006/acquired/",
+      "search_text": "bond-scott-wrote-the-lyrics-on-back-in-black.jpg download-fe39cc26479e.jpg bon scott migrated from 001_whowrotebackinblack/m006/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "6747a0cfec93a9b4",
+      "filename": "bond-scott-wrote-the-lyrics-on-back-in-black.bin",
+      "original_filename": "download-ebdb131c6c3c.bin",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/6747a0cfec93a9b4/bond-scott-wrote-the-lyrics-on-back-in-black.bin",
+      "public_url": "/media/_library/assets/6747a0cfec93a9b4/bond-scott-wrote-the-lyrics-on-back-in-black.bin",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m006/acquired/",
+      "search_text": "bond-scott-wrote-the-lyrics-on-back-in-black.bin download-ebdb131c6c3c.bin bon scott migrated from 001_whowrotebackinblack/m006/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "674b2c3f2044be34",
+      "filename": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.jpg",
+      "original_filename": "download-67e860ae90c8.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/674b2c3f2044be34/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.jpg",
+      "public_url": "/media/_library/assets/674b2c3f2044be34/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.jpg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m001/acquired/",
+      "search_text": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.jpg download-67e860ae90c8.jpg ac/dc migrated from 001_whowrotebackinblack/m001/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "76f77f9627a4d5b3",
+      "filename": "i-think-theres-something-happening-here-that-nobodys-really-talking-about.jpg",
+      "original_filename": "download-4f614b29ecd9.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/76f77f9627a4d5b3/i-think-theres-something-happening-here-that-nobodys-really-talking-about.jpg",
+      "public_url": "/media/_library/assets/76f77f9627a4d5b3/i-think-theres-something-happening-here-that-nobodys-really-talking-about.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m004/acquired/",
+      "search_text": "i-think-theres-something-happening-here-that-nobodys-really-talking-about.jpg download-4f614b29ecd9.jpg bon scott migrated from 001_whowrotebackinblack/m004/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "79f65fe908f24520",
+      "filename": "wait-nobody-finds-that-a-little-convenience.png",
+      "original_filename": "sticker-1a1a1ac7.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/79f65fe908f24520/wait-nobody-finds-that-a-little-convenience.png",
+      "public_url": "/media/_library/assets/79f65fe908f24520/wait-nobody-finds-that-a-little-convenience.png",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m017/acquired/",
+      "search_text": "wait-nobody-finds-that-a-little-convenience.png sticker-1a1a1ac7.png ac/dc migrated from 001_whowrotebackinblack/m017/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "8a773be7cc3e9a99",
+      "filename": "but-sure-new-guy-wrote-it.png",
+      "original_filename": "sticker-1976e747.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/8a773be7cc3e9a99/but-sure-new-guy-wrote-it.png",
+      "public_url": "/media/_library/assets/8a773be7cc3e9a99/but-sure-new-guy-wrote-it.png",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m015/acquired/",
+      "search_text": "but-sure-new-guy-wrote-it.png sticker-1976e747.png brian johnson migrated from 001_whowrotebackinblack/m015/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "8f483fa676d651fe",
+      "filename": "there-i-said-it-yeah-thats-the-whole-thing.jpg",
+      "original_filename": "download-941250669925.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/8f483fa676d651fe/there-i-said-it-yeah-thats-the-whole-thing.jpg",
+      "public_url": "/media/_library/assets/8f483fa676d651fe/there-i-said-it-yeah-thats-the-whole-thing.jpg",
+      "tags": [
+        "ac/dc",
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m007/acquired/",
+      "search_text": "there-i-said-it-yeah-thats-the-whole-thing.jpg download-941250669925.jpg ac/dc bon scott migrated from 001_whowrotebackinblack/m007/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "936b7389ede3eca2",
+      "filename": "asset.png",
+      "original_filename": "sticker-1b31b89c.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/936b7389ede3eca2/asset.png",
+      "public_url": "/media/_library/assets/936b7389ede3eca2/asset.png",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m000/acquired/",
+      "search_text": "asset.png sticker-1b31b89c.png migrated from 001_whowrotebackinblack/m000/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "99dc0a9b06c75605",
+      "filename": "but-sure-new-guy-wrote-it.png",
+      "original_filename": "sticker-996044e6.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/99dc0a9b06c75605/but-sure-new-guy-wrote-it.png",
+      "public_url": "/media/_library/assets/99dc0a9b06c75605/but-sure-new-guy-wrote-it.png",
+      "tags": [
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m015/acquired/",
+      "search_text": "but-sure-new-guy-wrote-it.png sticker-996044e6.png brian johnson migrated from 001_whowrotebackinblack/m015/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "9d5a0ee93e3228a0",
+      "filename": "there-i-said-it-yeah-thats-the-whole-thing.jpg",
+      "original_filename": "download-0ed6b298a1b9.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/9d5a0ee93e3228a0/there-i-said-it-yeah-thats-the-whole-thing.jpg",
+      "public_url": "/media/_library/assets/9d5a0ee93e3228a0/there-i-said-it-yeah-thats-the-whole-thing.jpg",
+      "tags": [
+        "ac/dc",
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m007/acquired/",
+      "search_text": "there-i-said-it-yeah-thats-the-whole-thing.jpg download-0ed6b298a1b9.jpg ac/dc bon scott migrated from 001_whowrotebackinblack/m007/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "9f370fdd31470a04",
+      "filename": "asset.jpg",
+      "original_filename": "download-473d7cc0fac3.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/9f370fdd31470a04/asset.jpg",
+      "public_url": "/media/_library/assets/9f370fdd31470a04/asset.jpg",
+      "tags": [],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m000/acquired/",
+      "search_text": "asset.jpg download-473d7cc0fac3.jpg migrated from 001_whowrotebackinblack/m000/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "bcf7cd3d986807b2",
+      "filename": "wait-nobody-finds-that-a-little-convenience.jpg",
+      "original_filename": "download-61f5c1128d09.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/bcf7cd3d986807b2/wait-nobody-finds-that-a-little-convenience.jpg",
+      "public_url": "/media/_library/assets/bcf7cd3d986807b2/wait-nobody-finds-that-a-little-convenience.jpg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m017/acquired/",
+      "search_text": "wait-nobody-finds-that-a-little-convenience.jpg download-61f5c1128d09.jpg ac/dc migrated from 001_whowrotebackinblack/m017/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "c571e3bc23ff5d5d",
+      "filename": "angus_malcolm.jpg",
+      "original_filename": "angus_malcolm.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/c571e3bc23ff5d5d/angus_malcolm.jpg",
+      "public_url": "/media/_library/assets/c571e3bc23ff5d5d/angus_malcolm.jpg",
+      "tags": [
+        "ac/dc",
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m012/acquired/",
+      "search_text": "angus_malcolm.jpg angus_malcolm.jpg ac/dc brian johnson migrated from 001_whowrotebackinblack/m012/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "c7eefae85ab039c9",
+      "filename": "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+      "original_filename": "download-18ca1121b377.jpeg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+      "public_url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m006/acquired/",
+      "search_text": "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg download-18ca1121b377.jpeg bon scott migrated from 001_whowrotebackinblack/m006/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "cb5d996f1cdae9ce",
+      "filename": "lets-look-at-the-facts-its-1980.png",
+      "original_filename": "sticker-09450726.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
+      "public_url": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m009/acquired/",
+      "search_text": "lets-look-at-the-facts-its-1980.png sticker-09450726.png ac/dc migrated from 001_whowrotebackinblack/m009/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "d83d6b1e6a60a42f",
+      "filename": "bib_gold2-blkbg.jpg",
+      "original_filename": "bib_gold2-blkbg.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/d83d6b1e6a60a42f/bib_gold2-blkbg.jpg",
+      "public_url": "/media/_library/assets/d83d6b1e6a60a42f/bib_gold2-blkbg.jpg",
+      "tags": [
+        "gold / platinum award disc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m014/acquired/",
+      "search_text": "bib_gold2-blkbg.jpg bib_gold2-blkbg.jpg gold / platinum award disc migrated from 001_whowrotebackinblack/m014/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "df8b2805f04ab9ea",
+      "filename": "4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+      "original_filename": "4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/df8b2805f04ab9ea/4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+      "public_url": "/media/_library/assets/df8b2805f04ab9ea/4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+      "tags": [
+        "ac/dc",
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m013/acquired/",
+      "search_text": "4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp 4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp ac/dc brian johnson migrated from 001_whowrotebackinblack/m013/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "e88e0399f103c9f0",
+      "filename": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.webp",
+      "original_filename": "download-6ff1d3774537.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e88e0399f103c9f0/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.webp",
+      "public_url": "/media/_library/assets/e88e0399f103c9f0/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.webp",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m001/acquired/",
+      "search_text": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.webp download-6ff1d3774537.webp ac/dc migrated from 001_whowrotebackinblack/m001/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "ed444cc479e51d06",
+      "filename": "and-his-band-his-grief-stricken-shell-shocked-everybody-expected-them-to-fold-ba.bin",
+      "original_filename": "download-6b0001eaf65d.bin",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/ed444cc479e51d06/and-his-band-his-grief-stricken-shell-shocked-everybody-expected-them-to-fold-ba.bin",
+      "public_url": "/media/_library/assets/ed444cc479e51d06/and-his-band-his-grief-stricken-shell-shocked-everybody-expected-them-to-fold-ba.bin",
+      "tags": [
+        "ac/dc",
+        "brian johnson"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m012/acquired/",
+      "search_text": "and-his-band-his-grief-stricken-shell-shocked-everybody-expected-them-to-fold-ba.bin download-6b0001eaf65d.bin ac/dc brian johnson migrated from 001_whowrotebackinblack/m012/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "id": "f9f39c4301aaab48",
+      "filename": "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
+      "original_filename": "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/f9f39c4301aaab48/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
+      "public_url": "/media/_library/assets/f9f39c4301aaab48/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m001/acquired/",
+      "search_text": "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg ac/dc migrated from 001_whowrotebackinblack/m001/acquired/",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-05T22:11:27.000Z"
+    }
+  ]
+}

@@ -42,24 +42,27 @@ Remotion (ShotClip → MotionMedia) → remotion/out/preview-*.mp4
 
 ## Commands agents commonly run
 
-### Timeline + full preview render
+### Active episode + timeline + render
 
 ```bash
 cd remotion
-npm run build:timeline          # --episode 001_WhoWroteBackInBlack --max m140
-npm run render:preview:low
-npm run render:preview
-```
-
-### Single cue or span
-
-```bash
-cd remotion
+npm run episode              # show active (001, 002, …)
+npm run episode 002          # switch active episode
+npm run build:timeline       # build timeline.json for active episode
+npm run render:preview       # half-res full episode → out/render_<N>/preview/
+npm run render               # full-res full episode → out/render_<N>/
+npm run render:preview:cue -- m022
 npm run render:cue -- m022
-node scripts/render-cues.mjs m026 m027
+npm run render:preview:cues -- m026-m028
+npm run render:cues -- m026 m027
+npm run dev                  # Studio (builds timeline first)
 ```
 
-Always **rebuild timeline** before render when `acquisition.json` or `tools/build_remotion_timeline.py` specials changed.
+**`active-episode.json`** is the current episode. **`build:timeline`** applies it to `src/timeline.json` + public symlinks. Render commands do not rebuild.
+
+Outputs: `out/render_<number>/` (full) and `out/render_<number>/preview/` (half). Props in `render_<number>/.props/`.
+
+See **`remotion/README.md`** for full syntax.
 
 ### media_tool
 

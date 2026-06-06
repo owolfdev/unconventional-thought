@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "id": "m050",
+  "cue": 50,
+  "t_start": 324.52,
+  "t_end": 332.12,
+  "duration_sec": 7.6,
+  "spoken": "alcohol story? Because it's 1980. In 1980, in media narratives, heroin was tied to nightlife",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Year anchor — period news or studio dated 1980.",
+  "situation": "1980 music press or studio session dated 1980",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "",
+  "search_queries": [
+    "AC/DC 1980 studio",
+    "music magazine 1980 rock"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Year anchor — period news or studio dated 1980.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC 1980 studio",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: music magazine 1980 rock",
+      "status": "needed"
+    }
+  ],
+  "effects": [],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-06T21:44:49.941Z"
+}

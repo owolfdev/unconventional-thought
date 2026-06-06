@@ -11,7 +11,7 @@ interface Props {
   manifestPath: string;
   itemId: string;
   onChange: (updated: QueryAcquisition) => void;
-  onAcquiredUpdated?: () => void;
+  onAcquiredUpdated?: () => void | Promise<void>;
 }
 
 export function QueryRow({
@@ -37,22 +37,39 @@ export function QueryRow({
   const [manualTitle, setManualTitle] = useState("");
 
   const selectedIds = new Set(
-    queryAcq.selections.map((s) => s.result_id),
+    queryAcq.selections.map((s) => {
+      if (s.result_id.startsWith("library:")) {
+        return `library-${s.result_id.slice("library:".length)}`;
+      }
+      return s.result_id;
+    }),
   );
 
-  const downloadUrl = async (url: string) => {
+  const downloadUrl = async (url: string, meta?: SearchResult) => {
     setDownloadMsg(null);
     setDownloadingId(url);
     try {
       const res = await fetch("/api/download", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ manifestPath, itemId, url }),
+        body: JSON.stringify({
+          manifestPath,
+          itemId,
+          url,
+          title: meta?.title,
+          license: meta?.license,
+          searchQuery: queryAcq.query,
+          sourceEngine: queryAcq.engine_id,
+          queryIndex,
+        }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Download failed");
-      setDownloadMsg(`Saved ${data.filename} → acquired/`);
-      onAcquiredUpdated?.();
+      const dedup =
+        data.deduplicated === true ? " (already in library)" : "";
+      const stagingNote = data.selected === true ? " · selected for cue" : "";
+      setDownloadMsg(`Saved ${data.filename} → library${dedup}${stagingNote}`);
+      await onAcquiredUpdated?.();
     } catch (e) {
       setDownloadMsg(e instanceof Error ? e.message : "Download failed");
     } finally {
@@ -65,21 +82,71 @@ export function QueryRow({
     setSearchError(null);
     setApiNote(null);
     try {
-      const res = await fetch("/api/search", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          engineId: queryAcq.engine_id,
-          query: queryAcq.query,
-          engineUrl: queryAcq.engine_url,
+      const isLibraryEngine = queryAcq.engine_id === "library";
+
+      if (isLibraryEngine) {
+        const libRes = await fetch(
+          `/api/library/search?q=${encodeURIComponent(queryAcq.query)}&limit=20`,
+        );
+        const libData = await libRes.json();
+        if (!libRes.ok) throw new Error(libData.error ?? "Library search failed");
+        const libraryResults: SearchResult[] = libData.results ?? [];
+        setResults(libraryResults);
+        setSearchUrl(null);
+        setGallerySource("Repo library");
+        if (libraryResults.length === 0) {
+          const total = libData.asset_count ?? 0;
+          setApiNote(
+            total === 0
+              ? "Library is empty. Download from Commons/Openverse to add assets, or run Phase 2 migration for episode 001."
+              : `No matches (${total} asset${total === 1 ? "" : "s"} in library). Try different keywords.`,
+          );
+        }
+        setSearched(true);
+        return;
+      }
+
+      const [libRes, extRes] = await Promise.all([
+        fetch(
+          `/api/library/search?q=${encodeURIComponent(queryAcq.query)}&limit=20`,
+        ),
+        fetch("/api/search", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            engineId: queryAcq.engine_id,
+            query: queryAcq.query,
+            engineUrl: queryAcq.engine_url,
+          }),
         }),
-      });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error ?? "Search failed");
-      setResults(data.results ?? []);
+      ]);
+      const libData = await libRes.json();
+      const data = await extRes.json();
+      if (!extRes.ok) throw new Error(data.error ?? "Search failed");
+
+      const libraryResults: SearchResult[] = libData.results ?? [];
+      const externalResults: SearchResult[] = data.results ?? [];
+      const merged = [...libraryResults, ...externalResults];
+
+      setResults(merged);
       setSearchUrl(data.searchUrl);
-      setGallerySource(data.gallerySource ?? engine.label);
-      setApiNote(data.apiNote ?? null);
+      if (libraryResults.length > 0 && externalResults.length > 0) {
+        setGallerySource(
+          `Library (${libraryResults.length}) · ${data.gallerySource ?? engine.label}`,
+        );
+      } else if (libraryResults.length > 0) {
+        setGallerySource(`Library (${libraryResults.length})`);
+      } else {
+        setGallerySource(data.gallerySource ?? engine.label);
+      }
+      const notes: string[] = [];
+      if (libraryResults.length > 0) {
+        notes.push(`${libraryResults.length} from repo library`);
+      } else if ((libData.asset_count ?? 0) === 0) {
+        notes.push("Repo library empty — new downloads go to _library/");
+      }
+      if (data.apiNote) notes.push(data.apiNote);
+      setApiNote(notes.length > 0 ? notes.join(" · ") : null);
       setSearched(true);
     } catch (e) {
       setSearchError(e instanceof Error ? e.message : "Search failed");
@@ -88,14 +155,48 @@ export function QueryRow({
     }
   };
 
-  const toggleSelection = (result: SearchResult) => {
+  const toggleSelection = async (result: SearchResult) => {
+    const isLibrary = result.id.startsWith("library-");
+    const resultId = isLibrary
+      ? `library:${result.id.slice("library-".length)}`
+      : result.id;
     const exists = selectedIds.has(result.id);
+
+    if (isLibrary) {
+      setDownloadMsg(null);
+      try {
+        const res = await fetch("/api/library/stage", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            manifestPath,
+            itemId,
+            libraryId: result.id.slice("library-".length),
+            queryIndex,
+            searchQuery: queryAcq.query,
+            selected: !exists,
+          }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error ?? "Stage failed");
+        setDownloadMsg(
+          !exists
+            ? "Selected for this cue — see preview above."
+            : "Removed from cue.",
+        );
+        await onAcquiredUpdated?.();
+      } catch (e) {
+        setDownloadMsg(e instanceof Error ? e.message : "Stage failed");
+      }
+      return;
+    }
+
     const selections = exists
-      ? queryAcq.selections.filter((s) => s.result_id !== result.id)
+      ? queryAcq.selections.filter((s) => s.result_id !== resultId)
       : [
           ...queryAcq.selections,
           {
-            result_id: result.id,
+            result_id: resultId,
             url: result.url,
             thumbnail_url: result.thumbnail_url,
             title: result.title,
@@ -196,7 +297,7 @@ export function QueryRow({
         >
           {loading ? "Searching…" : "Search"}
         </button>
-        {searchUrl && (
+        {searchUrl && queryAcq.engine_id !== "library" && (
           <a
             href={searchUrl}
             target="_blank"
@@ -224,15 +325,16 @@ export function QueryRow({
           selectedIds={selectedIds}
           onToggle={toggleSelection}
           engineLabel={gallerySource ?? engine.label}
-          onDownload={(r) => downloadUrl(r.url)}
+          onDownload={(r) => downloadUrl(r.url, r)}
           downloadingId={downloadingId}
         />
       )}
 
       {searched && results.length === 0 && !loading && (
         <p className="mt-4 rounded-lg border border-zinc-800 bg-zinc-950/50 p-4 text-sm text-zinc-500">
-          No images in gallery. Try Commons or Openverse, or use Open in browser
-          + Add URL.
+          {queryAcq.engine_id === "library"
+            ? "No library matches. Download from Commons/Openverse to add assets to _library/, then search again."
+            : "No images in gallery. Try Commons or Openverse, or use Open in browser + Add URL."}
         </p>
       )}
 
@@ -264,7 +366,7 @@ export function QueryRow({
             onClick={() => downloadUrl(manualUrl.trim())}
             className="rounded-lg bg-emerald-800 px-3 py-2 text-sm hover:bg-emerald-700 disabled:opacity-50"
           >
-            Download to acquired/
+            Download to library
           </button>
         </div>
       </div>
@@ -294,7 +396,7 @@ export function QueryRow({
                   onClick={() => downloadUrl(s.url)}
                   className="shrink-0 rounded border border-emerald-800 px-2 py-0.5 text-emerald-400 hover:bg-emerald-950 disabled:opacity-50"
                 >
-                  {downloadingId === s.url ? "…" : "↓ acquired/"}
+                  {downloadingId === s.url ? "…" : "↓ library"}
                 </button>
               </li>
             ))}

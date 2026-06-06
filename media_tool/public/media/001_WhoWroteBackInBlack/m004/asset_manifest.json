@@ -33,11 +33,12 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Hidden story beat — contemporary news coverage of Bon Scott death.",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -55,19 +56,11 @@
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.957Z",
-  "effects": [
-    "slow_zoom_out",
-    "film_scratches",
-    "film_damage",
-    "vignette_soft"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "download-4f614b29ecd9.jpg"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.509Z"
 }

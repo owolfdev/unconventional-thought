@@ -1278,13 +1278,16 @@ def spec_for_cue(cue: dict, prev_id: str) -> dict[str, Any]:
     )
 
 
-def episode_tail_item(last_t_end: float, duration_sec: float = 2.0) -> dict[str, Any]:
-    """Post-roll black silence at tail (cue m140 — not in Whisper/SRT)."""
-    t_start = last_t_end
-    t_end = last_t_end + duration_sec
+def episode_tail_item(last_vo_item: dict[str, Any], duration_sec: float = 2.0) -> dict[str, Any]:
+    """Post-roll black silence after final VO cue (not in Whisper/SRT)."""
+    last_num = int(last_vo_item["id"][1:])
+    tail_num = last_num + 1
+    tail_id = f"m{tail_num:03d}"
+    t_start = float(last_vo_item["t_end"])
+    t_end = t_start + duration_sec
     return {
-        "id": "m140",
-        "cue": 140,
+        "id": tail_id,
+        "cue": tail_num,
         "t_start": t_start,
         "t_end": t_end,
         "duration_sec": duration_sec,
@@ -1293,8 +1296,8 @@ def episode_tail_item(last_t_end: float, duration_sec: float = 2.0) -> dict[str,
         "text_graphic": None,
         "artifact": None,
         "editorial_intent": (
-            "2s black tail after final VO cue — picture hold only; master audio ends "
-            "with m139, no VO shift on m001–m139."
+            f"2s black tail after final VO cue ({last_vo_item['id']}) — picture hold only; "
+            f"master audio ends with {last_vo_item['id']}, no VO shift on m001–{last_vo_item['id']}."
         ),
         "people": [],
         "situation": "Black plate (effect-only tail)",
@@ -1344,8 +1347,36 @@ def episode_title_card_item() -> dict[str, Any]:
     }
 
 
+def resolve_episode_media_paths(episode_dir: Path) -> tuple[Path, str, str]:
+    """Resolve SRT + relative paths from episode.json (or transcript/*.srt)."""
+    cfg: dict[str, Any] = {}
+    ep_json = episode_dir / "episode.json"
+    if ep_json.is_file():
+        cfg = json.loads(ep_json.read_text(encoding="utf-8"))
+
+    transcript_json = cfg.get("transcript_json", "")
+    if transcript_json:
+        srt = episode_dir / str(transcript_json).replace(".json", ".srt")
+    else:
+        srts = sorted((episode_dir / "transcript").glob("*.srt"))
+        if not srts:
+            raise SystemExit(f"No transcript SRT under {episode_dir / 'transcript'}")
+        srt = srts[0]
+
+    if not srt.is_file():
+        raise SystemExit(f"Transcript SRT not found: {srt}")
+
+    audio_rel = cfg.get("audio_master", "")
+    if not audio_rel:
+        raise SystemExit(
+            f"episode.json missing audio_master for {episode_dir.name}"
+        )
+
+    return srt, str(srt.relative_to(episode_dir)), str(audio_rel).replace("\\", "/")
+
+
 def build(episode_dir: Path) -> dict[str, Any]:
-    srt = episode_dir / "transcript" / "who_wrote_back_in_black.srt"
+    srt, source_transcript, source_audio = resolve_episode_media_paths(episode_dir)
     cues = parse_srt(srt)
     items: list[dict[str, Any]] = []
     prev_id = ""
@@ -1358,9 +1389,8 @@ def build(episode_dir: Path) -> dict[str, Any]:
     items = apply_artifact_pass(items)
     items = apply_text_whitespace_pass(items)
     items = [episode_title_card_item(), *items]
-    if items:
-        last_vo_end = float(items[-1]["t_end"])
-        items.append(episode_tail_item(last_vo_end))
+    if len(items) > 1:
+        items.append(episode_tail_item(items[-1]))
     photo_n = sum(1 for i in items if i["visual_mode"] == "historical")
     artifact_n = sum(1 for i in items if i["visual_mode"] == "artifact")
     text_n = sum(1 for i in items if i["visual_mode"] == "text_graphic")
@@ -1369,8 +1399,8 @@ def build(episode_dir: Path) -> dict[str, Any]:
         "version": 3,
         "episode": episode_dir.name,
         "style": "historical_documentary_not_explainer",
-        "source_transcript": "transcript/who_wrote_back_in_black.srt",
-        "source_audio": "audio/master/who_wrote_back_in_black.mp3",
+        "source_transcript": source_transcript,
+        "source_audio": source_audio,
         "cue_count": len(items),
         "historical_count": photo_n,
         "artifact_count": artifact_n,
@@ -1470,9 +1500,11 @@ def main() -> None:
     args = ap.parse_args()
     ep = args.episode_dir.resolve()
     data = build(ep)
-    out_json = ep / "timeline" / "media_search.json"
-    out_csv = ep / "timeline" / "media_search.csv"
-    out_photos = ep / "timeline" / "media_search_photos_only.csv"
+    timeline_dir = ep / "timeline"
+    timeline_dir.mkdir(parents=True, exist_ok=True)
+    out_json = timeline_dir / "media_search.json"
+    out_csv = timeline_dir / "media_search.csv"
+    out_photos = timeline_dir / "media_search_photos_only.csv"
     out_json.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     write_csv(out_csv, data)
     write_photos_only_csv(out_photos, data)

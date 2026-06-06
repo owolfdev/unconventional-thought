@@ -17,6 +17,9 @@ export function selectionFilename(sel: SelectedMedia): string | null {
   if (url.includes("/acquired/")) {
     return decodeURIComponent(url.split("/acquired/").pop()!.split("?")[0]);
   }
+  if (url.includes("/media/_library/assets/")) {
+    return decodeURIComponent(url.split("/").pop()!.split("?")[0] ?? "");
+  }
   return null;
 }
 

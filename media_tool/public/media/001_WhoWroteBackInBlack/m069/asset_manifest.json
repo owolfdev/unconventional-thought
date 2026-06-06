@@ -32,11 +32,12 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Musical influence reference — UK glam era context photo (Geordie/Slade era).",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -49,17 +50,11 @@
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.006Z",
-  "effects": [
-    "tilt_left",
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "download-4eddf94e3387.jpeg"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.516Z"
 }

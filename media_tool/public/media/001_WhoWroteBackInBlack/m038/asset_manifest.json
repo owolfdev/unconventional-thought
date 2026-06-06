@@ -6,8 +6,8 @@
   "t_end": 119.41,
   "duration_sec": 5.02,
   "spoken": "Clever rhymes, double entendres, puns, tongue firmly planted in cheek half the time.",
-  "visual_mode": "text_graphic",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Innuendo/wordplay — playful Bon (wink, grin, tongue-in-cheek pose) or Big Balls-era stage wit; not literal infographic.",
   "situation": "Bon Scott playful innuendo performance 1979",
   "people": [
@@ -30,28 +30,35 @@
     "explainer graphic"
   ],
   "artifact": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "Clever rhymes, double entendres, puns, tongue firmly, planted in cheek, half the time.",
-    "style": "bold font"
-  },
+  "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "Clever rhymes, double entendres, puns, tongue firmly, planted in cheek, half the time.",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Innuendo/wordplay — playful Bon (wink, grin, tongue-in-cheek pose) or Big Balls-era stage wit; not literal infographic.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott wink live performance AC/DC",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott playful stage expression 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott Big Balls live 1979",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.986Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
-  "acquired_files": [
-    "funny bon.jpg"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.513Z"
 }

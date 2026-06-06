@@ -56,6 +56,7 @@ export function ResultGallery({
       <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
         {results.map((r) => {
           const checked = selectedIds.has(r.id);
+          const isLibrary = r.id.startsWith("library-");
           return (
             <li
               key={r.id}
@@ -96,9 +97,14 @@ export function ResultGallery({
                   />
                   Select
                 </label>
+                {isLibrary && !checked && (
+                  <span className="absolute bottom-2 left-2 right-2 rounded bg-black/75 px-1 py-0.5 text-center text-[9px] text-amber-200">
+                    Stage on cue
+                  </span>
+                )}
                 {checked && (
                   <span className="absolute right-2 top-2 rounded bg-amber-600 px-1.5 py-0.5 text-[10px] font-bold uppercase text-white">
-                    Saved
+                    {isLibrary ? "Library" : "Saved"}
                   </span>
                 )}
               </div>
@@ -119,15 +125,20 @@ export function ResultGallery({
                   >
                     Preview
                   </button>
-                  {onDownload && (
+                  {onDownload && !isLibrary && (
                     <button
                       type="button"
                       disabled={downloadingId === r.id}
                       className="text-[10px] text-emerald-400/90 hover:underline disabled:opacity-50"
                       onClick={() => onDownload(r)}
                     >
-                      {downloadingId === r.id ? "Downloading…" : "↓ acquired/"}
+                      {downloadingId === r.id ? "Downloading…" : "↓ library"}
                     </button>
+                  )}
+                  {isLibrary && (
+                    <span className="text-[10px] text-amber-400/80">
+                      Checkbox = select for cue
+                    </span>
                   )}
                 </div>
               </div>
@@ -187,9 +198,11 @@ export function ResultGallery({
                 >
                   {selectedIds.has(preview.id)
                     ? "Deselect"
-                    : "Select for acquisition"}
+                    : preview.id.startsWith("library-")
+                      ? "Stage on cue"
+                      : "Select for acquisition"}
                 </button>
-                {onDownload && (
+                {onDownload && !preview.id.startsWith("library-") && (
                   <button
                     type="button"
                     disabled={downloadingId === preview.id}
@@ -198,7 +211,7 @@ export function ResultGallery({
                   >
                     {downloadingId === preview.id
                       ? "Downloading…"
-                      : "Download to acquired/"}
+                      : "Download to library"}
                   </button>
                 )}
               </div>

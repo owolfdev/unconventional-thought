@@ -6,8 +6,8 @@
   "t_end": 124.99,
   "duration_sec": 5.04,
   "spoken": "And best of all, you've got this swagger that is just pure distilled bottled energy.",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Pure kinetic Bon — jump, hair, sweat, chaos; definitive high-energy AC/DC live still.",
   "situation": "Bon Scott explosive AC/DC live performance energy 1979",
   "people": [
@@ -37,26 +37,34 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Pure kinetic Bon — jump, hair, sweat, chaos; definitive high-energy AC/DC live still.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott jumping live stage 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC Bon Scott live energy photograph 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott AC/DC concert dynamic 1979",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.987Z",
-  "effects": [
-    "film_grain",
-    "film_scratches",
-    "slow_zoom_out",
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
-  "acquired_files": [
-    "giphy-l49JZLHlZu2ZCVFN6.gif"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.513Z"
 }

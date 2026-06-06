@@ -3,18 +3,17 @@ import fs from "fs";
 import path from "path";
 import {
   GIPHY_STICKER_ENGINE,
-  acquiredPublicUrl,
-  selectionForAcquiredFile,
+  selectionForLibraryAsset,
   updateAcquisitionSelection,
 } from "@/lib/acquisition-selection";
+import { ingestContextFromCue } from "@/lib/cue-library-ingest";
 import { withoutStickerSelections } from "@/lib/overlay-media";
-import { listAcquiredFiles, saveUploadToAcquired } from "@/lib/download-media";
 import {
   fetchGiphyGifBytes,
   giphyAcquiredFilename,
 } from "@/lib/giphy";
+import { uploadBufferToLibrary } from "@/lib/media-library";
 import {
-  getAcquiredDir,
   getItemDir,
   projectSlugFromManifest,
   writeItemToFolder,
@@ -32,19 +31,7 @@ function loadContext(manifestPath: string, itemId: string) {
   const item = manifest.items.find((i) => i.id === itemId);
   if (!item) throw new Error(`Unknown item id: ${itemId}`);
   const slug = projectSlugFromManifest(manifest);
-  const acquiredDir = getAcquiredDir(slug, itemId);
-  return { manifest, manifestPath, item, slug, acquiredDir };
-}
-
-function uniqueGiphyFilename(acquiredDir: string, giphyId: string): string {
-  const base = giphyAcquiredFilename(giphyId);
-  if (!fs.existsSync(path.join(acquiredDir, base))) return base;
-  let n = 2;
-  const stem = base.replace(/\.gif$/i, "");
-  while (fs.existsSync(path.join(acquiredDir, `${stem}-${n}.gif`))) {
-    n += 1;
-  }
-  return `${stem}-${n}.gif`;
+  return { manifest, manifestPath, item, slug };
 }
 
 export async function POST(request: NextRequest) {
@@ -71,24 +58,35 @@ export async function POST(request: NextRequest) {
     }
 
     const manifestPath = body.manifestPath?.trim() || defaultManifestPath();
-    const { item, slug, acquiredDir, manifestPath: mp } = loadContext(
+    const { manifest, item, slug, manifestPath: mp } = loadContext(
       manifestPath,
       body.itemId,
     );
 
     const bytes = await fetchGiphyGifBytes(downloadUrl);
-    const filename = uniqueGiphyFilename(acquiredDir, giphyId);
-    const saved = saveUploadToAcquired(acquiredDir, filename, bytes);
-    const files = listAcquiredFiles(acquiredDir);
-
+    const filename = giphyAcquiredFilename(giphyId);
     const label = (body.title ?? giphyId).slice(0, 120);
-    const selection = selectionForAcquiredFile(
-      slug,
-      item.id,
-      saved.filename,
+    const ingest = uploadBufferToLibrary(
+      bytes,
+      filename,
+      ingestContextFromCue(manifest, item, {
+        source_url: downloadUrl,
+        source_engine: GIPHY_STICKER_ENGINE,
+        license: "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+        title: label,
+        kind: "overlay",
+        tags: ["giphy", giphyId],
+      }),
+    );
+
+    const selection = selectionForLibraryAsset(
+      ingest.id,
+      ingest.filename,
+      ingest.publicUrl,
       GIPHY_STICKER_ENGINE,
       `GIPHY: ${label}`,
       "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+      label,
     );
 
     let acquisitionUpdated = false;
@@ -106,9 +104,9 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       ok: true,
       giphyId,
-      filename: saved.filename,
-      files,
-      publicUrl: acquiredPublicUrl(slug, item.id, saved.filename),
+      filename: ingest.filename,
+      libraryId: ingest.id,
+      publicUrl: ingest.publicUrl,
       selection,
       acquisitionUpdated,
     });

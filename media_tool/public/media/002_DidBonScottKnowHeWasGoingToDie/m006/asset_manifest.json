@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "id": "m006",
+  "cue": 6,
+  "t_start": 35.7,
+  "t_end": 41.62,
+  "duration_sec": 5.92,
+  "spoken": "coiled spring, like someone ready to jump into a fight. Pure energy, swimming upstream,",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "status": "needed"
+    }
+  ],
+  "effects": [],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-06T21:44:49.921Z"
+}

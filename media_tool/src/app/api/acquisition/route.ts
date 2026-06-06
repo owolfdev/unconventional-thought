@@ -8,6 +8,11 @@ import {
 } from "@/lib/paths";
 import type { MediaAcquisitionDocument, MediaToolManifest } from "@/lib/types";
 import { countCompleted, mergeAcquisition } from "@/lib/acquisition";
+import { flattenSelections } from "@/lib/selection-media";
+import {
+  ingestContextFromCue,
+} from "@/lib/cue-library-ingest";
+import { syncLibraryUsagesFromSelections } from "@/lib/media-library";
 import { normalizeAcquisitionDocument } from "@/lib/visual-modes";
 import {
   projectSlugFromManifest,
@@ -65,6 +70,15 @@ export async function PUT(request: NextRequest) {
       item_count: manifest.items.length,
       completed_count: countCompleted(body.acquisition),
     });
+
+    for (const item of manifest.items) {
+      const itemAcq = doc.items[item.id];
+      if (!itemAcq) continue;
+      syncLibraryUsagesFromSelections(
+        ingestContextFromCue(manifest, item),
+        flattenSelections(itemAcq),
+      );
+    }
 
     writeJsonFile(acqAbs, doc);
 

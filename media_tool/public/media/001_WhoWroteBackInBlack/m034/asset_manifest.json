@@ -33,11 +33,12 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Outlaw persona — leather, defiant smirk, backstage or street candid; proud troublemaker.",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -55,20 +56,11 @@
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.984Z",
-  "effects": [
-    "film_scratches",
-    "tilt_left",
-    "slow_push_in"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "download-9152897a3ead.jpg",
-    "download-c0e3234a11d1.jpg",
-    "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.512Z"
 }

@@ -1,32 +1,36 @@
 #!/usr/bin/env node
 /**
- * Render a contiguous span of cues from the episode timeline (overlap edits).
+ * Render a contiguous span of cues (EpisodePreview frame range).
  *
- *   node scripts/render-cues.mjs m026 m027
- *   node scripts/render-cues.mjs m026 m027 --full
+ *   npm run render:cues -- m026 m027
+ *   npm run render:cues -- m026-m028
+ *   npm run render:preview:cues -- m001-m002
  */
 import { execSync } from "node:child_process";
-import { mkdirSync, readFileSync } from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import {
+  assertTimelineEpisode,
+  expandCueTokens,
+  parseRenderCliArgs,
+  RENDER_CUES_USAGE,
+  readActiveEpisode,
+  renderPaths,
+  REMOTION_ROOT,
+} from "./episode-config.mjs";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const root = path.join(__dirname, "..");
+const { preview, positional } = parseRenderCliArgs();
 
-const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
-const flags = new Set(process.argv.slice(2).filter((a) => a.startsWith("--")));
-
-if (args.length < 2) {
-  console.error("Usage: node scripts/render-cues.mjs <cueId> <cueId> [...] [--full]");
-  console.error("Example: node scripts/render-cues.mjs m026 m027");
+if (positional.length < 1) {
+  console.error(RENDER_CUES_USAGE);
   process.exit(1);
 }
 
-const timelinePath = path.join(root, "src", "timeline.json");
-const timeline = JSON.parse(readFileSync(timelinePath, "utf8"));
+const active = readActiveEpisode();
+const timeline = assertTimelineEpisode(active);
+const cueIds = expandCueTokens(positional);
 const shots = [];
 
-for (const id of args) {
+for (const id of cueIds) {
   const shot = timeline.shots?.find((s) => s.id === id);
   if (!shot) {
     console.error(`Unknown cue "${id}" in timeline.json`);
@@ -42,14 +46,16 @@ const endFrame =
   Math.max(...shots.map((s) => s.fromFrame + s.durationInFrames)) - 1;
 const durationFrames = endFrame - startFrame + 1;
 
-const scale = flags.has("--full") ? 1 : 0.5;
+const scale = preview ? 0.5 : 1;
 const label = shots.map((s) => s.id).join("-");
-const out = path.join("out", `preview-${label}.mp4`);
-mkdirSync(path.join(root, "out"), { recursive: true });
+const { renderDir, previewDir } = renderPaths(active);
+const out = preview
+  ? path.join(previewDir, `preview-${label}.mp4`)
+  : path.join(renderDir, `${label}.mp4`);
 
 const sec = (durationFrames / timeline.fps).toFixed(2);
 console.log(
-  `Rendering ${label} · frames ${startFrame}–${endFrame} · ${sec}s · scale=${scale}`,
+  `Rendering ${active.number} ${label} · frames ${startFrame}–${endFrame} · ${sec}s · ${preview ? "preview" : "full"} · scale=${scale}`,
 );
 for (const s of shots) {
   console.log(
@@ -68,6 +74,5 @@ const cmd = [
   "--concurrency=2",
 ].join(" ");
 
-execSync(cmd, { stdio: "inherit", cwd: root });
-
+execSync(cmd, { stdio: "inherit", cwd: REMOTION_ROOT });
 console.log(`\nWrote ${out}`);

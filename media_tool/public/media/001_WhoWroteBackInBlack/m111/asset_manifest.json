@@ -22,21 +22,19 @@
     "text": "The title track.",
     "style": "typewriter"
   },
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "generated",
-      "description": "The title track.",
-      "status": "acquired"
+      "description": "Text graphic: transcription — The title track.",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.031Z",
-  "effects": [
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": false,
   "acquired_files": [],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.521Z"
 }

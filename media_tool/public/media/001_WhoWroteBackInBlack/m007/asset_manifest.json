@@ -6,7 +6,7 @@
   "t_end": 27.33,
   "duration_sec": 2.98,
   "spoken": "There, I said it. Yeah, that's the whole thing.",
-  "visual_mode": "stock",
+  "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Back in Black era — press or live, avoid trademark album cover art if possible.",
   "situation": "AC/DC Back in Black release period press photo or live 1980",
@@ -34,11 +34,12 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Back in Black era — press or live, avoid trademark album cover art if possible.",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -51,18 +52,11 @@
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.961Z",
-  "effects": [
-    "film_scratches",
-    "slow_push_in"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "download-0ed6b298a1b9.jpg",
-    "download-941250669925.jpg"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#ffffff"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.509Z"
 }

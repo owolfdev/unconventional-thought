@@ -6,8 +6,8 @@
   "t_end": 53.25,
   "duration_sec": 1.56,
   "spoken": "But sure, new guy wrote it.",
-  "visual_mode": "stock",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Skeptical beat on Brian — portrait or early AC/DC with Brian.",
   "situation": "Brian Johnson portrait early 1980s",
   "people": [
@@ -32,24 +32,29 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Skeptical beat on Brian — portrait or early AC/DC with Brian.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Brian Johnson 1980 portrait",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Brian Johnson AC/DC 1980",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.968Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "sticker-1976e747.png",
-    "sticker-996044e6.png"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.510Z"
 }

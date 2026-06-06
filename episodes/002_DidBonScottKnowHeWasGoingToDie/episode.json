@@ -2,5 +2,7 @@
   "id": "002_DidBonScottKnowHeWasGoingToDie",
   "number": "002",
   "title": "Did Bon Scott Know He Was Going to Die?",
-  "timeline_manifest": "timeline/media_search.json"
+  "timeline_manifest": "timeline/media_search.json",
+  "audio_master": "audio/vo/did_bon_scott_know_he_was_going_to_die 2.mp3",
+  "transcript_json": "transcript/did_bon_scott_know_he_was_going_to_die.json"
 }

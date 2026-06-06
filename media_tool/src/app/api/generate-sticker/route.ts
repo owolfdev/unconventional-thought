@@ -5,15 +5,14 @@ import { createHash } from "crypto";
 import {
   OPENAI_STICKER_ENGINE,
   OPENAI_TITLE_ENGINE,
-  acquiredPublicUrl,
-  selectionForAcquiredFile,
+  selectionForLibraryAsset,
   updateAcquisitionSelection,
 } from "@/lib/acquisition-selection";
+import { ingestContextFromCue } from "@/lib/cue-library-ingest";
 import { withoutStickerSelections } from "@/lib/overlay-media";
-import { listAcquiredFiles, saveUploadToAcquired } from "@/lib/download-media";
 import { generateTransparentPng, type GenerateVariant } from "@/lib/openai-image";
+import { uploadBufferToLibrary } from "@/lib/media-library";
 import {
-  getAcquiredDir,
   getItemDir,
   projectSlugFromManifest,
   writeItemToFolder,
@@ -31,27 +30,16 @@ function loadContext(manifestPath: string, itemId: string) {
   const item = manifest.items.find((i) => i.id === itemId);
   if (!item) throw new Error(`Unknown item id: ${itemId}`);
   const slug = projectSlugFromManifest(manifest);
-  const acquiredDir = getAcquiredDir(slug, itemId);
-  return { manifest, manifestPath, item, slug, acquiredDir };
+  return { manifest, manifestPath, item, slug };
 }
 
-function uniqueGeneratedName(
-  acquiredDir: string,
-  variant: GenerateVariant,
-  prompt: string,
-): string {
+function generatedFilename(variant: GenerateVariant, prompt: string): string {
   const hash = createHash("sha256")
     .update(prompt)
     .digest("hex")
     .slice(0, 8);
   const prefix = variant === "title" ? "title" : "sticker";
-  const base = `${prefix}-${hash}.png`;
-  if (!fs.existsSync(path.join(acquiredDir, base))) return base;
-  let n = 2;
-  while (fs.existsSync(path.join(acquiredDir, `${prefix}-${hash}-${n}.png`))) {
-    n += 1;
-  }
-  return `${prefix}-${hash}-${n}.png`;
+  return `${prefix}-${hash}.png`;
 }
 
 export async function POST(request: NextRequest) {
@@ -75,25 +63,37 @@ export async function POST(request: NextRequest) {
     const variant: GenerateVariant =
       body.variant === "title" ? "title" : "sticker";
     const manifestPath = body.manifestPath?.trim() || defaultManifestPath();
-    const { item, slug, acquiredDir, manifestPath: mp } = loadContext(
+    const { manifest, item, slug, manifestPath: mp } = loadContext(
       manifestPath,
       body.itemId,
     );
 
     const png = await generateTransparentPng(prompt, variant);
-    const filename = uniqueGeneratedName(acquiredDir, variant, prompt);
-    const saved = saveUploadToAcquired(acquiredDir, filename, png);
-    const files = listAcquiredFiles(acquiredDir);
-
+    const filename = generatedFilename(variant, prompt);
     const engineId =
       variant === "title" ? OPENAI_TITLE_ENGINE : OPENAI_STICKER_ENGINE;
-    const selection = selectionForAcquiredFile(
-      slug,
-      item.id,
-      saved.filename,
+
+    const ingest = uploadBufferToLibrary(
+      png,
+      filename,
+      ingestContextFromCue(manifest, item, {
+        source_engine: engineId,
+        license: "OpenAI generated — verify editorial use",
+        title: prompt.slice(0, 120),
+        kind: "overlay",
+        tags: [variant, "openai"],
+        manual_notes: prompt,
+      }),
+    );
+
+    const selection = selectionForLibraryAsset(
+      ingest.id,
+      ingest.filename,
+      ingest.publicUrl,
       engineId,
       `OpenAI ${variant}: ${prompt.slice(0, 120)}`,
       "OpenAI generated — verify editorial use",
+      prompt.slice(0, 120),
     );
 
     let acquisitionUpdated = false;
@@ -112,9 +112,9 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       ok: true,
       variant,
-      filename: saved.filename,
-      files,
-      publicUrl: acquiredPublicUrl(slug, item.id, saved.filename),
+      filename: ingest.filename,
+      libraryId: ingest.id,
+      publicUrl: ingest.publicUrl,
       selection,
       acquisitionUpdated,
     });

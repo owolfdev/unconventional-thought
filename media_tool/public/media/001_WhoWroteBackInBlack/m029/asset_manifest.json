@@ -6,7 +6,7 @@
   "t_end": 93.63,
   "duration_sec": 1.98,
   "spoken": "Great story. Very convenient.",
-  "visual_mode": "effect_only",
+  "visual_mode": "text_graphic",
   "expected_media_type": "generated",
   "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
   "situation": "Generated text graphic (quote)",
@@ -22,24 +22,19 @@
     "text": "Great story. Very convenient.",
     "style": "typewriter"
   },
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "generated",
+      "description": "Text graphic: quote — Great story. Very convenient.",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.981Z",
-  "effects": [
-    "film_scratches",
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": false,
-  "acquired_files": [
-    "sticker-7b57d8d3.png"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.512Z"
 }

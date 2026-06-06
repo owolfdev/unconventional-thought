@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "id": "m004",
+  "cue": 4,
+  "t_start": 23.8,
+  "t_end": 29.5,
+  "duration_sec": 5.7,
+  "spoken": "Listen to Bon's voice on Highway to Hell, especially the title track. It always intrigued me,",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+  "situation": "AC/DC Highway to Hell tour live performance 1979",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1979",
+  "date_to": "1979",
+  "location": "",
+  "search_queries": [
+    "AC/DC Highway to Hell tour 1979",
+    "Bon Scott Highway to Hell live 1979"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC Highway to Hell tour 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott Highway to Hell live 1979",
+      "status": "needed"
+    }
+  ],
+  "effects": [],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-06T21:44:49.920Z"
+}

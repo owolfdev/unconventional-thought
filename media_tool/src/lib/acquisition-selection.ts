@@ -3,9 +3,14 @@ import type { ItemAcquisition, QueryAcquisition, SelectedMedia } from "./types";
 export const OPENAI_STICKER_ENGINE = "openai_sticker";
 export const OPENAI_TITLE_ENGINE = "openai_title";
 export const GIPHY_STICKER_ENGINE = "giphy_sticker";
+export const LIBRARY_ENGINE = "library";
 
 export function localResultId(filename: string): string {
   return `local-acquired:${filename}`;
+}
+
+export function libraryResultId(assetId: string): string {
+  return `library:${assetId}`;
 }
 
 export function acquiredPublicUrl(
@@ -14,6 +19,28 @@ export function acquiredPublicUrl(
   filename: string,
 ): string {
   return `/media/${project}/${itemId}/acquired/${encodeURIComponent(filename)}`;
+}
+
+export function selectionForLibraryAsset(
+  assetId: string,
+  filename: string,
+  publicUrl: string,
+  engineId: string,
+  query: string,
+  license: string,
+  title?: string,
+): SelectedMedia {
+  return {
+    result_id: libraryResultId(assetId),
+    url: publicUrl,
+    thumbnail_url: publicUrl,
+    title: title ?? filename,
+    source_page: publicUrl,
+    license,
+    engine_id: engineId,
+    query,
+    selected_at: new Date().toISOString(),
+  };
 }
 
 function fallbackQuery(): QueryAcquisition {
@@ -56,11 +83,63 @@ export function selectionForAcquiredFile(
   };
 }
 
-/** Add or remove a selection on the first query block. */
+function isOverlaySelection(s: SelectedMedia): boolean {
+  if (
+    s.engine_id === OPENAI_STICKER_ENGINE ||
+    s.engine_id === GIPHY_STICKER_ENGINE ||
+    s.engine_id === OPENAI_TITLE_ENGINE
+  ) {
+    return true;
+  }
+  const name =
+    s.result_id.match(/^local-acquired:(.+)$/)?.[1] ??
+    s.url.split("/").pop()?.split("?")[0] ??
+    "";
+  const lower = name.toLowerCase();
+  return (
+    lower.startsWith("sticker-") ||
+    lower.startsWith("giphy-") ||
+    lower.startsWith("title-")
+  );
+}
+
+/** Set the single plate (background) image; keeps sticker/title overlay selections. */
+export function setCuePlateSelection(
+  acquisition: ItemAcquisition,
+  selection: SelectedMedia,
+  queryIndex = 0,
+): ItemAcquisition {
+  const queries =
+    acquisition.queries.length > 0
+      ? acquisition.queries
+      : [fallbackQuery()];
+  const qi = Math.max(0, Math.min(queryIndex, queries.length - 1));
+
+  const stripped = queries.map((q) => ({
+    ...q,
+    selections: q.selections.filter((s) => isOverlaySelection(s)),
+  }));
+
+  stripped[qi] = {
+    ...stripped[qi],
+    selections: [...stripped[qi].selections, selection],
+  };
+
+  return {
+    ...acquisition,
+    queries: stripped,
+    status:
+      acquisition.status === "pending" ? "in_progress" : acquisition.status,
+    updated_at: new Date().toISOString(),
+  };
+}
+
+/** Add or remove a selection on a query block (default: first). */
 export function updateAcquisitionSelection(
   acquisition: ItemAcquisition,
   selection: SelectedMedia,
   selected: boolean,
+  queryIndex = 0,
 ): ItemAcquisition {
   const queries =
     acquisition.queries.length > 0
@@ -76,9 +155,10 @@ export function updateAcquisitionSelection(
   }));
 
   if (selected) {
-    withoutSelection[0] = {
-      ...withoutSelection[0],
-      selections: [...withoutSelection[0].selections, selection],
+    const qi = Math.max(0, Math.min(queryIndex, withoutSelection.length - 1));
+    withoutSelection[qi] = {
+      ...withoutSelection[qi],
+      selections: [...withoutSelection[qi].selections, selection],
     };
   }
 

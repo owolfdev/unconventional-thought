@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "id": "m038",
+  "cue": 38,
+  "t_start": 249.76,
+  "t_end": 254.64,
+  "duration_sec": 4.88,
+  "spoken": "would an artist like Bond Scott ever have been around heroin. Of course he would.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "Bon Scott historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "Bon Scott 1979 photograph",
+    "Bon Scott AC/DC 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1979 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott AC/DC 1980",
+      "status": "needed"
+    }
+  ],
+  "effects": [],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-06T21:44:49.935Z"
+}

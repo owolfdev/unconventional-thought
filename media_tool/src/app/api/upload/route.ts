@@ -1,22 +1,21 @@
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
 import {
-  listAcquiredFiles,
-  saveUploadToAcquired,
-} from "@/lib/download-media";
+  applyLibrarySelectionToCue,
+  ingestContextFromCue,
+} from "@/lib/cue-library-ingest";
+import { LIBRARY_ENGINE } from "@/lib/acquisition-selection";
+import { listAcquiredFiles } from "@/lib/download-media";
+import { uploadBufferToLibrary } from "@/lib/media-library";
 import {
   getAcquiredDir,
-  getItemDir,
   projectSlugFromManifest,
-  writeItemToFolder,
 } from "@/lib/media-folders";
 import {
   defaultManifestPath,
   readJsonFile,
   resolveManifestPath,
 } from "@/lib/paths";
-import type { ItemAcquisition, MediaToolManifest } from "@/lib/types";
+import type { MediaToolManifest } from "@/lib/types";
 
 function loadContext(manifestPath: string, itemId: string) {
   const manifestAbs = resolveManifestPath(manifestPath);
@@ -46,24 +45,45 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "file required" }, { status: 400 });
     }
 
-    const { item, slug, acquiredDir } = loadContext(manifestPath, itemId);
+    const { manifest, item, slug, acquiredDir } = loadContext(manifestPath, itemId);
     const buffer = Buffer.from(await file.arrayBuffer());
-    const result = saveUploadToAcquired(acquiredDir, file.name, buffer);
-    const files = listAcquiredFiles(acquiredDir);
+    const ingest = uploadBufferToLibrary(
+      buffer,
+      file.name,
+      ingestContextFromCue(manifest, item, {
+        source_engine: "upload",
+        license: "manual upload — verify rights",
+        title: file.name,
+        kind: "archive",
+      }),
+    );
 
+    let acquisitionUpdated = false;
     if (syncAcquisition) {
-      const acqPath = path.join(getItemDir(slug, item.id), "acquisition.json");
-      if (fs.existsSync(acqPath)) {
-        const acq = readJsonFile<ItemAcquisition>(acqPath);
-        writeItemToFolder(slug, item, acq, manifestPath);
-      }
+      acquisitionUpdated = applyLibrarySelectionToCue(
+        slug,
+        item,
+        manifestPath,
+        ingest,
+        {
+          engineId: LIBRARY_ENGINE,
+          query: `Upload: ${file.name}`,
+          license: "manual upload — verify rights",
+          title: ingest.filename,
+        },
+      );
     }
+
+    const files = listAcquiredFiles(acquiredDir);
 
     return NextResponse.json({
       ok: true,
-      ...result,
+      filename: ingest.filename,
+      libraryId: ingest.id,
+      deduplicated: ingest.deduplicated,
+      publicUrl: ingest.publicUrl,
       files,
-      publicUrl: `/media/${slug}/${item.id}/acquired/${result.filename}`,
+      acquisitionUpdated,
     });
   } catch (e) {
     const message = e instanceof Error ? e.message : "Unknown error";

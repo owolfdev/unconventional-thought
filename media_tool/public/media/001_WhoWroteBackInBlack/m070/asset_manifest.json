@@ -6,8 +6,8 @@
   "t_end": 207.01,
   "duration_sec": 2.02,
   "spoken": "Which is a completely valid thing to be.",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
   "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
   "situation": "Inanimate: concert ticket stub vintage",
   "people": [],
@@ -29,21 +29,29 @@
     "media_preference": "photo"
   },
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: vintage concert ticket stub",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: rock concert ticket 1970s",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.007Z",
-  "effects": [
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
+  "background_color": "#000000",
+  "requires_media_files": true,
   "acquired_files": [],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.516Z"
 }

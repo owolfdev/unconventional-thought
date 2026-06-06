@@ -1,0 +1,121 @@
+{
+  "script": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/did_bon_scott_know_he_was_going_to_die.txt",
+  "voice_id": "csaAR0KgCVxunW5lNfTf",
+  "model_id": "eleven_v3",
+  "gap_sec": 0.6,
+  "master_mp3": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/did_bon_scott_know_he_was_going_to_die.mp3",
+  "master_mp4": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/did_bon_scott_know_he_was_going_to_die.mp4",
+  "total_duration_sec": 454.4,
+  "parts": [
+    {
+      "filename": "part-01-i-think-bon-scott-knew-he-was-going-to-die.mp3",
+      "slug": "i-think-bon-scott-knew-he-was-going-to-die",
+      "index": 1,
+      "chars": 384,
+      "start_sec": 0.0,
+      "end_sec": 27.04,
+      "duration_sec": 27.04,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-01-i-think-bon-scott-knew-he-was-going-to-die.mp3"
+    },
+    {
+      "filename": "part-02-listen-to-bon-s-voice-on-highway-to-hell-especia.mp3",
+      "slug": "listen-to-bon-s-voice-on-highway-to-hell-especia",
+      "index": 2,
+      "chars": 1137,
+      "start_sec": 27.64,
+      "end_sec": 88.36,
+      "duration_sec": 60.72,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-02-listen-to-bon-s-voice-on-highway-to-hell-especia.mp3"
+    },
+    {
+      "filename": "part-03-it-reminds-me-of-a-story-a-story-that-was-well-k.mp3",
+      "slug": "it-reminds-me-of-a-story-a-story-that-was-well-k",
+      "index": 3,
+      "chars": 1310,
+      "start_sec": 88.96,
+      "end_sec": 154.0,
+      "duration_sec": 65.04,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-03-it-reminds-me-of-a-story-a-story-that-was-well-k.mp3"
+    },
+    {
+      "filename": "part-04-take-the-27-club.mp3",
+      "slug": "take-the-27-club",
+      "index": 4,
+      "chars": 454,
+      "start_sec": 154.6,
+      "end_sec": 180.68,
+      "duration_sec": 26.08,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-04-take-the-27-club.mp3"
+    },
+    {
+      "filename": "part-05-so-who-is-the-devil.mp3",
+      "slug": "so-who-is-the-devil",
+      "index": 5,
+      "chars": 372,
+      "start_sec": 181.28,
+      "end_sec": 200.8,
+      "duration_sec": 19.52,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-05-so-who-is-the-devil.mp3"
+    },
+    {
+      "filename": "part-06-let-s-stop-pretending-this-would-be-impossible.mp3",
+      "slug": "let-s-stop-pretending-this-would-be-impossible",
+      "index": 6,
+      "chars": 1191,
+      "start_sec": 201.4,
+      "end_sec": 262.68,
+      "duration_sec": 61.28,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-06-let-s-stop-pretending-this-would-be-impossible.mp3"
+    },
+    {
+      "filename": "part-07-now-the-death-itself.mp3",
+      "slug": "now-the-death-itself",
+      "index": 7,
+      "chars": 834,
+      "start_sec": 263.28,
+      "end_sec": 308.8,
+      "duration_sec": 45.52,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-07-now-the-death-itself.mp3"
+    },
+    {
+      "filename": "part-08-so-if-it-was-a-heroin-overdose-why-would-they-ha.mp3",
+      "slug": "so-if-it-was-a-heroin-overdose-why-would-they-ha",
+      "index": 8,
+      "chars": 1815,
+      "start_sec": 309.4,
+      "end_sec": 417.88,
+      "duration_sec": 108.48,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-08-so-if-it-was-a-heroin-overdose-why-would-they-ha.mp3"
+    },
+    {
+      "filename": "part-09-hard-drinking-rock-star-familiar-myth.mp3",
+      "slug": "hard-drinking-rock-star-familiar-myth",
+      "index": 9,
+      "chars": 206,
+      "start_sec": 418.48,
+      "end_sec": 428.4,
+      "duration_sec": 9.92,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-09-hard-drinking-rock-star-familiar-myth.mp3"
+    },
+    {
+      "filename": "part-10-so-did-bon-scott-know-he-was-going-to-die.mp3",
+      "slug": "so-did-bon-scott-know-he-was-going-to-die",
+      "index": 10,
+      "chars": 284,
+      "start_sec": 429.0,
+      "end_sec": 444.92,
+      "duration_sec": 15.92,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-10-so-did-bon-scott-know-he-was-going-to-die.mp3"
+    },
+    {
+      "filename": "part-11-either-way-play-highway-to-hell-tonight-loud.mp3",
+      "slug": "either-way-play-highway-to-hell-tonight-loud",
+      "index": 11,
+      "chars": 112,
+      "start_sec": 445.52,
+      "end_sec": 454.4,
+      "duration_sec": 8.88,
+      "path": "/Volumes/LACIE_WORK/Development/Projects/UnconventionalThought/episodes/002_DidBonScottKnowHeWasGoingToDie/audio/vo/parts/part-11-either-way-play-highway-to-hell-tonight-loud.mp3"
+    }
+  ]
+}

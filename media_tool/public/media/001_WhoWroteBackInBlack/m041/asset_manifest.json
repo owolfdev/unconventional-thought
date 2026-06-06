@@ -6,8 +6,8 @@
   "t_end": 129.31,
   "duration_sec": 0.96,
   "spoken": "That's a confessional.",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Confessional lyric — intimate Bon portrait (bar, backstage, tired truth-teller).",
   "situation": "Bon Scott intimate candid portrait 1970s",
   "people": [
@@ -33,23 +33,34 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Confessional lyric — intimate Bon portrait (bar, backstage, tired truth-teller).",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott bar candid 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott backstage portrait intimate",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott Australia candid photograph",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.988Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
-  "acquired_files": [
-    "sticker-d168de49.png"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.513Z"
 }

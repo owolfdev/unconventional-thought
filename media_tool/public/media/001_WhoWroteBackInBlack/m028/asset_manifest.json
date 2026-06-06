@@ -6,7 +6,7 @@
   "t_end": 91.13,
   "duration_sec": 4.26,
   "spoken": "Goes in for an audition and just writes the lyrics that save the entire band.",
-  "visual_mode": "historical",
+  "visual_mode": "artifact",
   "expected_media_type": "photo",
   "editorial_intent": "Artifact beat: handwritten lyrics legal pad — story-linked inanimate; prefer no faces, tight macro or detail.",
   "situation": "Inanimate: handwritten lyrics legal pad",
@@ -29,11 +29,12 @@
     "media_preference": "photo"
   },
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Artifact beat: handwritten lyrics legal pad — story-linked inanimate; prefer no faces, tight macro or detail.",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -46,17 +47,11 @@
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.980Z",
-  "effects": [
-    "film_scratches",
-    "slow_push_in"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.512Z"
 }

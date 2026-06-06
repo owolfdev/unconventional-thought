@@ -252,6 +252,30 @@ export function ensureProjectFolders(
   };
 }
 
+/** Ensure one cue folder exists with asset_manifest + acquisition.json. */
+export function ensureItemFolder(
+  slug: string,
+  item: MediaToolItem,
+  sourceManifestRel: string,
+): ItemAcquisition {
+  fs.mkdirSync(getItemDir(slug, item.id), { recursive: true });
+  fs.mkdirSync(getAcquiredDir(slug, item.id), { recursive: true });
+
+  const amPath = assetManifestPath(slug, item.id);
+  if (!fs.existsSync(amPath)) {
+    writeJsonFile(amPath, buildAssetManifest(item, sourceManifestRel));
+  }
+
+  const acqPath = itemAcquisitionPath(slug, item.id);
+  if (fs.existsSync(acqPath)) {
+    return readJsonFile<ItemAcquisition>(acqPath);
+  }
+
+  const acq = itemAcquisitionFromManifest(item);
+  writeJsonFile(acqPath, acq);
+  return acq;
+}
+
 export interface FolderStatus {
   project: string;
   projectDir: string;
@@ -340,6 +364,15 @@ export function writeItemToFolder(
     acquisition.background_color,
   );
   manifest.acquired_files = listAcquiredFiles(getAcquiredDir(slug, item.id));
+  const libraryFiles = acquisition.queries
+    .flatMap((q) => q.selections)
+    .filter((s) => s.url.includes("/media/_library/"))
+    .map((s) => s.url.replace(/^.*\/assets\/[^/]+\//, ""));
+  if (libraryFiles.length > 0) {
+    manifest.acquired_files = [
+      ...new Set([...manifest.acquired_files, ...libraryFiles]),
+    ];
+  }
   manifest.requires_media_files = requiresAcquiredMedia(
     acquisition.resolved_visual_mode,
   );

@@ -29,11 +29,12 @@
     "media_preference": "photo"
   },
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Artifact beat: vinyl LP record — story-linked inanimate; prefer no faces, tight macro or detail.",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -46,19 +47,11 @@
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.976Z",
-  "effects": [
-    "slow_spin",
-    "film_scratches",
-    "slow_zoom_out"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "bib-record.jpg",
-    "download-398be3dd6abd.jpg"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.511Z"
 }

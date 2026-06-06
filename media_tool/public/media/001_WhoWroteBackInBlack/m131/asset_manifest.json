@@ -6,8 +6,8 @@
   "t_end": 331.35,
   "duration_sec": 5.46,
   "spoken": "And it is completely absent from everything Brian Johnson wrote before and after.",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Brian discography era — Geordie vs later AC/DC promo shots.",
   "situation": "Brian Johnson Geordie 1970s and AC/DC 1980s promotional photos",
   "people": [
@@ -32,22 +32,29 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Brian discography era — Geordie vs later AC/DC promo shots.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Brian Johnson Geordie",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Brian Johnson AC/DC 1983",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.042Z",
-  "effects": [
-    "film_scratches",
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
+  "background_color": "#000000",
+  "requires_media_files": true,
   "acquired_files": [],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.523Z"
 }

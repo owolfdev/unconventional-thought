@@ -6,8 +6,8 @@
   "t_end": 20.47,
   "duration_sec": 0.6,
   "spoken": "Here goes.",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
   "editorial_intent": "Artifact: tape machine macro — no faces; optional brief text overlay in edit.",
   "situation": "Inanimate: reel-to-reel tape machine",
   "people": [],
@@ -29,24 +29,29 @@
     "media_preference": "photo"
   },
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "make extruded text that looks like a rock video title",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Artifact: tape machine macro — no faces; optional brief text overlay in edit.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: reel to reel tape recorder studio 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: analog multitrack tape machine close up",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.958Z",
-  "effects": [
-    "film_scratches",
-    "tremble"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
-  "acquired_files": [
-    "sticker-596588d0.png"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.509Z"
 }

@@ -33,11 +33,12 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Writer identity — Bon with lyrics/paper if archived; else candid pen-in-hand or studio notes.",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -55,19 +56,11 @@
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.982Z",
-  "effects": [
-    "film_scratches",
-    "tilt_left",
-    "slow_scroll_up"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
-    "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900.jpg"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.512Z"
 }

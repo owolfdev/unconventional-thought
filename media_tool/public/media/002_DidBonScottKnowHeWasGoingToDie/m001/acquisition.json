@@ -1,0 +1,57 @@
+{
+  "id": "m001",
+  "cue": 1,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC live 1979 concert",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:aadb15e60b8c24f1",
+          "url": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+          "thumbnail_url": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+          "title": "dark-bon.webp",
+          "source_page": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "AC/DC live 1979 concert",
+          "selected_at": "2026-06-06T21:34:28.714Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC Highway to Hell tour 1979 stage",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "AC/DC audience 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-06T20:33:16.425Z",
+  "updated_at": "2026-06-06T21:34:28.714Z"
+}

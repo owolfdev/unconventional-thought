@@ -19,27 +19,22 @@
   "artifact": null,
   "text_graphic": {
     "type": "transcription",
-    "text": "Tells people privately.",
+    "text": "Tells people close to him privately.",
     "style": "typewriter"
   },
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "generated",
-      "description": "Tells people privately.",
+      "description": "Text graphic: transcription — Tells people close to him privately.",
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.029Z",
-  "effects": [
-    "film_scratches",
-    "film_grain"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": false,
-  "acquired_files": [
-    "giphy-QR9TcUo31aGNq.gif"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.521Z"
 }

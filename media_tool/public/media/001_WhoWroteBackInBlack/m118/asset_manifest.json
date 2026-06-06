@@ -6,8 +6,8 @@
   "t_end": 298.95,
   "duration_sec": 4.2,
   "spoken": "that he never publicly mentioned, but somehow independently landed on the exact same metaphor",
-  "visual_mode": "text_graphic",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -32,28 +32,29 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "that he never publicly mentioned, but somehow independently landed on the exact same metaphor",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.034Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
-  "acquired_files": [
-    "ZzOR9-dzUtU.mp4",
-    "ZzOR9-dzUtU_hd.mp4",
-    "ZzOR9-dzUtU_trimmed.mp4",
-    "download-4532b0adf6b6.jpg",
-    "download-50541a29fb53.jpg",
-    "graph.mp4"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.522Z"
 }

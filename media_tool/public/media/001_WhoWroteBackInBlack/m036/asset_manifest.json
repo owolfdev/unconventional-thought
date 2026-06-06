@@ -6,8 +6,8 @@
   "t_end": 111.03,
   "duration_sec": 3.56,
   "spoken": "Always a fight, a conquest, a boast, or a badass woman.",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Fight/conquest/women lyric tropes — fierce Bon on stage (snarl, mic thrust, fist) OR era backstage with female fans; documentary tone, period rock tour, not stock glamour.",
   "situation": "Bon Scott aggressive live performance or backstage with fans 1970s",
   "people": [
@@ -32,25 +32,34 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Fight/conquest/women lyric tropes — fierce Bon on stage (snarl, mic thrust, fist) OR era backstage with female fans; documentary tone, period rock tour, not stock glamour.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott aggressive live performance 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott AC/DC stage snarl microphone",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott backstage fans 1970s photograph",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.985Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
-  "acquired_files": [
-    "bon on stage.webp",
-    "download-5b7356a8226d.jpg",
-    "download-e949b85b93e2.jpg"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.513Z"
 }

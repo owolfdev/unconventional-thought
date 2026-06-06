@@ -22,21 +22,19 @@
     "text": "You don't write.",
     "style": "typewriter"
   },
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "generated",
-      "description": "You don't write.",
-      "status": "acquired"
+      "description": "Text graphic: transcription — You don't write.",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.022Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": false,
   "acquired_files": [],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.519Z"
 }

@@ -6,8 +6,8 @@
   "t_end": 227.17,
   "duration_sec": 1.44,
   "spoken": "Let me put my love into you.",
-  "visual_mode": "text_graphic",
-  "expected_media_type": "generated",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
   "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
   "situation": "Inanimate: vinyl record on turntable",
   "people": [],
@@ -28,26 +28,30 @@
     "story_link": "Rock album culture",
     "media_preference": "photo"
   },
-  "text_graphic": {
-    "type": "transcription",
-    "text": "Let me put my love into you.",
-    "style": "serif font"
-  },
+  "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "Let me put my love into you.",
+      "slot": "primary",
+      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: vinyl record spinning turntable 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: LP record needle drop",
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.011Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
+  "background_color": "#000000",
+  "requires_media_files": true,
   "acquired_files": [],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.517Z"
 }

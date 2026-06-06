@@ -6,8 +6,8 @@
   "t_end": 315.31,
   "duration_sec": 0.92,
   "spoken": "His actual life.",
-  "visual_mode": "text_graphic",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
   "situation": "Bon Scott early career Australia 1970s",
   "people": [
@@ -33,21 +33,34 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "His actual life.",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1974 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott Fraternity band 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott AC/DC early",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.038Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
+  "background_color": "#000000",
+  "requires_media_files": true,
   "acquired_files": [],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.523Z"
 }

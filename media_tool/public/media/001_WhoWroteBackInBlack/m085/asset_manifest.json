@@ -6,8 +6,8 @@
   "t_end": 235.57,
   "duration_sec": 2.64,
   "spoken": "It's one of the most perfect rock songs ever written.",
-  "visual_mode": "text_graphic",
-  "expected_media_type": "generated",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -31,26 +31,30 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "one of the most perfect rock songs ever written.",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "one of the most perfect rock songs ever written.",
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "needed"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.016Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": false,
+  "background_color": "#000000",
+  "requires_media_files": true,
   "acquired_files": [],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.518Z"
 }

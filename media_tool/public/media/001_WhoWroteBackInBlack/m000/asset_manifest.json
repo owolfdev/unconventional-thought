@@ -6,10 +6,10 @@
   "t_end": 2,
   "duration_sec": 2,
   "spoken": "",
-  "visual_mode": "stock",
-  "expected_media_type": "photo",
-  "editorial_intent": "Channel id on black + film grain before cold open (m001).",
-  "situation": "Generated text graphic (transcription)",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Channel id on black + film grain before cold open (m001). Edit copy in media_tool m000 acquisition. Pair with SPECIAL_MEDIA_DELAY on m001 so m001 plate does not cover this card.",
+  "situation": "Generated text graphic (title)",
   "people": [],
   "date_from": "",
   "date_to": "",
@@ -22,27 +22,19 @@
     "text": "The Unconventional Thought",
     "style": "typewriter"
   },
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "generated",
-      "description": "The Unconventional Thought",
-      "status": "acquired"
+      "description": "Text graphic: transcription — The Unconventional Thought",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.953Z",
-  "effects": [
-    "vignette_heavy"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": true,
-  "acquired_files": [
-    "download-473d7cc0fac3.jpg",
-    "giphy-3ohhwiLsBJcRdGMM6c.gif",
-    "sticker-11845c08.png",
-    "sticker-1b31b89c.png",
-    "sticker-84c822fe.png"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "requires_media_files": false,
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.508Z"
 }

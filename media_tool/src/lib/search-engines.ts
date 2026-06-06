@@ -10,6 +10,14 @@ export interface SearchEngine {
 
 export const SEARCH_ENGINES: SearchEngine[] = [
   {
+    id: "library",
+    label: "Repo library",
+    urlTemplate: "",
+    supportsGallery: true,
+    galleryHint:
+      "Search assets already in public/media/_library/ (archive photos & video)",
+  },
+  {
     id: "commons",
     label: "Wikimedia Commons",
     urlTemplate: "https://commons.wikimedia.org/w/index.php?search={query}",
@@ -29,7 +37,7 @@ export const SEARCH_ENGINES: SearchEngine[] = [
     urlTemplate: "https://www.google.com/search?tbm=isch&q={query}",
     supportsGallery: true,
     galleryHint:
-      "Gallery via Openverse, or Google API if GOOGLE_API_KEY + GOOGLE_CSE_ID set",
+      "In-app gallery via Custom Search JSON API — unavailable on new GCP projects (403); falls back to Openverse",
   },
   {
     id: "youtube",

@@ -63,6 +63,10 @@ Updates `remotion/src/preview-settings.json` (refresh Remotion Studio after togg
 either button to jump to the previous or next cue that is still incomplete
 (status not `complete` or `text_graphic`).
 
+## Media library
+
+New downloads go to the repo-wide library at `public/media/_library/` (not per-cue `acquired/`). Cue search shows library matches first. See **[docs/LIBRARY.md](docs/LIBRARY.md)**.
+
 ## Folder layout
 
 After **Create media folders**:
@@ -113,8 +117,10 @@ The search rows support:
 
 - **Wikimedia Commons** - in-app gallery.
 - **Openverse** - in-app gallery for CC-licensed images.
-- **Google Images** - uses Google Programmable Search when configured; otherwise
-  falls back to Openverse for in-app results.
+- **Google Images** - in-app gallery returns **direct image URLs** via Google
+  Custom Search API when `GOOGLE_API_KEY` + `GOOGLE_CSE_ID` are set in
+  `.env.local` (see `.env.example`). Without keys, Search shows setup instructions
+  — use Openverse engine for CC images, or Open in browser ↗ + paste URL.
 - **YouTube** - in-app gallery when `YOUTUBE_API_KEY` is configured; otherwise
   use **Open in browser** and paste the chosen video URL into **Video URL**.
 - **Google (web)** - opens in browser; paste a useful URL manually.

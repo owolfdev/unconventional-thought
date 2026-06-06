@@ -180,7 +180,7 @@ export function SelectedMediaPreview({
         className="mb-6 flex min-h-[140px] items-center justify-center rounded-xl border border-dashed border-zinc-700 bg-zinc-950/80 text-sm text-zinc-500"
         style={{ backgroundColor: bg }}
       >
-        No plate media selected — check files in acquired/ or pick search results.
+        No plate media staged — search & download, pick from library, or paste a URL.
         Sticker/GIF layers still preview when selected above.
       </div>
     );

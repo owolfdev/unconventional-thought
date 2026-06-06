@@ -26,12 +26,36 @@ export function flattenSelections(acq: ItemAcquisition): SelectedMedia[] {
   return out;
 }
 
-/** Resolve browser URL for preview (prefers local acquired path). */
+export interface StagedSelection {
+  selection: SelectedMedia;
+  queryIndex: number;
+}
+
+/** All selections staged for this cue (deduped), with query row index. */
+export function flattenStagedSelections(acq: ItemAcquisition): StagedSelection[] {
+  const out: StagedSelection[] = [];
+  const seen = new Set<string>();
+  acq.queries.forEach((q, queryIndex) => {
+    for (const sel of q.selections) {
+      const key = sel.result_id || sel.url;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push({ selection: sel, queryIndex });
+    }
+  });
+  return out;
+}
+
+/** Resolve browser URL for preview (library or legacy acquired path). */
 export function resolveSelectionPreviewUrl(
   selection: SelectedMedia,
   project: string,
   itemId: string,
 ): string {
+  const libraryMatch = selection.result_id.match(/^library:(.+)$/);
+  if (libraryMatch && selection.url.startsWith("/media/_library/")) {
+    return selection.url;
+  }
   const localMatch = selection.result_id.match(/^local-acquired:(.+)$/);
   if (localMatch) {
     return `/media/${project}/${itemId}/acquired/${encodeURIComponent(localMatch[1])}`;
@@ -71,12 +95,13 @@ export function pickPrimarySelection(
   itemId: string,
 ): SelectedMedia | null {
   if (selections.length > 0) {
+    const library = selections.find((s) => s.result_id.startsWith("library:"));
     const local = selections.find(
       (s) =>
         s.result_id.startsWith("local-acquired:") ||
         s.url.includes("/acquired/"),
     );
-    return local ?? selections[0];
+    return library ?? local ?? selections[0];
   }
   if (acquiredFiles.length > 0) {
     return selectionFromAcquiredFile(acquiredFiles[0], project, itemId);

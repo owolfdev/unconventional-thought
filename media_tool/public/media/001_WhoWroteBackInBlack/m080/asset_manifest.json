@@ -22,23 +22,19 @@
     "text": "Have a drink on me.",
     "style": "typewriter"
   },
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "generated",
-      "description": "Have a drink on me.",
+      "description": "Text graphic: transcription — Have a drink on me.",
       "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.012Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": false,
-  "acquired_files": [
-    "Screenshot 2569-05-23 at 5.24.18_AM.png"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.518Z"
 }

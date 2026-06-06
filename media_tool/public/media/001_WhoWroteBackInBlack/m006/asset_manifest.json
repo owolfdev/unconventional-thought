@@ -33,11 +33,12 @@
   ],
   "artifact": null,
   "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
       "description": "Core thesis — Bon Scott portrait or live, era-accurate.",
-      "status": "acquired"
+      "status": "needed"
     },
     {
       "slot": "search_1",
@@ -53,29 +54,13 @@
       "slot": "search_3",
       "description": "Candidate from query: Bon Scott concert 1979",
       "status": "needed"
-    },
-    {
-      "slot": "text_overlay",
-      "description": "Text layer: transcription — Bon Scott wrote the lyrics on Back in Black.",
-      "status": "acquired"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:22.959Z",
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
+  "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [
-    "download-18ca1121b377.jpeg",
-    "download-ebdb131c6c3c.bin",
-    "download-fe39cc26479e.jpg"
-  ],
-  "text_graphic_layer": {
-    "type": "transcription",
-    "text": "Bon Scott wrote the lyrics on Back in Black.",
-    "style": "typewriter"
-  },
-  "background_color": "#000000"
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.509Z"
 }

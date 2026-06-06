@@ -15,11 +15,13 @@ import re
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import unquote
 
 from episode_config import DEFAULT_EPISODE_ID, MEDIA_PUBLIC, episode_paths
 
 REPO = Path(__file__).resolve().parents[1]
 EFFECTS_ROOT = MEDIA_PUBLIC / "_effects"
+LIBRARY_SLUG = "_library"
 
 # Set by configure_episode() before build
 EPISODE: Path
@@ -31,11 +33,12 @@ DEFAULT_AUDIO: Path
 DEFAULT_OUT: Path
 TRANSCRIPT_JSON: Path
 PREVIEW_SETTINGS: Path
+REMOTION_DIR: Path
 
 
 def configure_episode(episode_id: str) -> None:
     global EPISODE, EPISODE_ID, MEDIA_ROOT, REMOTION_PUBLIC, MEDIA_SEARCH
-    global DEFAULT_AUDIO, DEFAULT_OUT, TRANSCRIPT_JSON, PREVIEW_SETTINGS
+    global DEFAULT_AUDIO, DEFAULT_OUT, TRANSCRIPT_JSON, PREVIEW_SETTINGS, REMOTION_DIR
     paths = episode_paths(episode_id)
     EPISODE_ID = episode_id
     EPISODE = paths["episode_dir"]
@@ -46,6 +49,7 @@ def configure_episode(episode_id: str) -> None:
     DEFAULT_OUT = paths["timeline_out"]
     TRANSCRIPT_JSON = paths["transcript_json"]
     PREVIEW_SETTINGS = paths["preview_settings"]
+    REMOTION_DIR = paths["remotion_dir"]
 
 IMAGE_EXT = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 VIDEO_EXT = {".mp4", ".mov", ".webm", ".m4v", ".mkv"}
@@ -235,6 +239,34 @@ def ensure_remotion_public_links() -> None:
         if link.exists() or link.is_symlink():
             link.unlink()
         link.symlink_to(target, target_is_directory=True)
+
+
+def default_preview_settings() -> dict:
+    return {
+        "version": 1,
+        "showCueOverlay": True,
+        "updated_at": datetime.now(timezone.utc)
+        .isoformat()
+        .replace("+00:00", "Z"),
+    }
+
+
+def ensure_remotion_preview_settings() -> None:
+    """Episode preview-settings → remotion/src/preview-settings.json for bundle import."""
+    if not PREVIEW_SETTINGS.is_file():
+        PREVIEW_SETTINGS.parent.mkdir(parents=True, exist_ok=True)
+        PREVIEW_SETTINGS.write_text(
+            json.dumps(default_preview_settings(), indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+    remotion_settings = REMOTION_DIR / "src" / "preview-settings.json"
+    remotion_settings.parent.mkdir(parents=True, exist_ok=True)
+    if remotion_settings.is_symlink() and remotion_settings.resolve() == PREVIEW_SETTINGS.resolve():
+        return
+    if remotion_settings.exists() or remotion_settings.is_symlink():
+        remotion_settings.unlink()
+    remotion_settings.symlink_to(PREVIEW_SETTINGS)
 
 
 def rel_public(path: Path) -> str:
@@ -528,14 +560,61 @@ def is_overlay_selection(sel: dict) -> bool:
     return False
 
 
+def library_path_from_public_url(url: str) -> Path | None:
+    """Resolve /media/_library/assets/<id>/<file> to disk path."""
+    if not url.startswith("/media/"):
+        return None
+    parts = [unquote(part) for part in url.split("/media/", 1)[-1].split("/")]
+    if len(parts) < 4 or parts[0] != LIBRARY_SLUG or parts[1] != "assets":
+        return None
+    path = MEDIA_PUBLIC.joinpath(*parts)
+    return path if path.is_file() else None
+
+
+def library_path_from_asset_id(asset_id: str) -> Path | None:
+    """Resolve library:<id> via asset meta.json or first non-meta file."""
+    asset_dir = MEDIA_PUBLIC / LIBRARY_SLUG / "assets" / asset_id
+    if not asset_dir.is_dir():
+        return None
+    meta_path = asset_dir / "meta.json"
+    if meta_path.is_file():
+        try:
+            doc = json.loads(meta_path.read_text(encoding="utf-8"))
+            name = doc.get("filename") or doc.get("original_filename")
+            if name:
+                path = asset_dir / name
+                if path.is_file():
+                    return path
+        except (json.JSONDecodeError, OSError):
+            pass
+    for candidate in sorted(asset_dir.iterdir()):
+        if candidate.is_file() and candidate.name != "meta.json":
+            return candidate
+    return None
+
+
 def selection_to_path(item_id: str, sel: dict) -> Path | None:
     url = sel.get("url") or ""
-    if "local-acquired:" in sel.get("result_id", ""):
-        name = sel["result_id"].split(":", 1)[-1]
+    result_id = sel.get("result_id", "")
+
+    if result_id.startswith("library:"):
+        path = library_path_from_public_url(url)
+        if path:
+            return path
+        asset_id = result_id.split(":", 1)[-1]
+        path = library_path_from_asset_id(asset_id)
+        if path:
+            return path
+
+    if "local-acquired:" in result_id:
+        name = result_id.split(":", 1)[-1]
         p = MEDIA_ROOT / item_id / "acquired" / name
         if p.is_file():
             return p
     if url.startswith("/media/"):
+        path = library_path_from_public_url(url)
+        if path:
+            return path
         rel = url.split("/media/", 1)[-1]
         parts = rel.split("/")
         if len(parts) >= 4 and parts[2] == "acquired":
@@ -843,6 +922,7 @@ def main() -> int:
 
     max_n = parse_max_id(args.max)
     ensure_remotion_public_links()
+    ensure_remotion_preview_settings()
     data = json.loads(MEDIA_SEARCH.read_text(encoding="utf-8"))
     items = [it for it in data["items"] if parse_max_id(it["id"]) <= max_n]
 

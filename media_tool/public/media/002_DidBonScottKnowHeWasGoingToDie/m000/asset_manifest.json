@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "m000",
+  "cue": 0,
+  "t_start": 0,
+  "t_end": 2,
+  "duration_sec": 2,
+  "spoken": "",
+  "visual_mode": "historical",
+  "expected_media_type": "generated",
+  "editorial_intent": "Channel id on black + film grain before cold open (m001). Edit copy in media_tool m000 acquisition. Pair with SPECIAL_MEDIA_DELAY on m001 so m001 plate does not cover this card.",
+  "situation": "Generated text graphic (title)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "The Unconventional Thought",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": {
+    "type": "transcription",
+    "text": "",
+    "style": "typewriter"
+  },
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "The Unconventional Thought",
+      "status": "selected"
+    }
+  ],
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [
+    "asset.jpg"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-06T21:44:49.918Z"
+}

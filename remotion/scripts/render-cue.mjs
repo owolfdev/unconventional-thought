@@ -1,30 +1,32 @@
 #!/usr/bin/env node
 /**
- * Render a single cue (m001–m035) for fast preview.
+ * Render a single cue (CuePreview composition).
  *
- *   node scripts/render-cue.mjs m022
- *   node scripts/render-cue.mjs m009 --full
+ *   npm run render:cue -- m001
+ *   npm run render:preview:cue -- m001
  */
 import { execSync } from "node:child_process";
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import {
+  assertTimelineEpisode,
+  parseRenderCliArgs,
+  RENDER_CUE_USAGE,
+  readActiveEpisode,
+  renderPaths,
+  REMOTION_ROOT,
+} from "./episode-config.mjs";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const root = path.join(__dirname, "..");
+const { preview, positional } = parseRenderCliArgs();
+const shotId = positional[0];
 
-const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
-const flags = new Set(process.argv.slice(2).filter((a) => a.startsWith("--")));
-
-const shotId = args[0]?.trim();
 if (!shotId) {
-  console.error("Usage: npm run render:cue -- <cueId> [--full]");
-  console.error("Example: npm run render:cue -- m022");
+  console.error(RENDER_CUE_USAGE);
   process.exit(1);
 }
 
-const timelinePath = path.join(root, "src", "timeline.json");
-const timeline = JSON.parse(readFileSync(timelinePath, "utf8"));
+const active = readActiveEpisode();
+const timeline = assertTimelineEpisode(active);
 const shot = timeline.shots?.find((s) => s.id === shotId);
 if (!shot) {
   console.error(`Unknown cue "${shotId}" in timeline.json`);
@@ -34,15 +36,17 @@ if (!shot) {
   process.exit(1);
 }
 
-const scale = flags.has("--full") ? 1 : 0.5;
-const out = path.join("out", `preview-${shotId}.mp4`);
-mkdirSync(path.join(root, "out"), { recursive: true });
-const propsPath = path.join(root, "out", `.props-${shotId}.json`);
+const scale = preview ? 0.5 : 1;
+const { renderDir, previewDir, propsDir } = renderPaths(active);
+const out = preview
+  ? path.join(previewDir, `preview-${shotId}.mp4`)
+  : path.join(renderDir, `${shotId}.mp4`);
+const propsPath = path.join(propsDir, `${shotId}.json`);
 writeFileSync(propsPath, JSON.stringify({ shotId }), "utf8");
 const sec = (shot.durationInFrames / timeline.fps).toFixed(2);
 
 console.log(
-  `Rendering ${shotId} (cue ${shot.cue}) · ${sec}s · ${shot.durationInFrames} frames @ ${timeline.fps}fps · scale=${scale}`,
+  `Rendering ${active.number} ${shotId} (cue ${shot.cue}) · ${sec}s · ${preview ? "preview" : "full"} · scale=${scale}`,
 );
 
 const cmd = [
@@ -56,6 +60,5 @@ const cmd = [
   "--concurrency=2",
 ].join(" ");
 
-execSync(cmd, { stdio: "inherit", cwd: root });
-
+execSync(cmd, { stdio: "inherit", cwd: REMOTION_ROOT });
 console.log(`\nWrote ${out}`);

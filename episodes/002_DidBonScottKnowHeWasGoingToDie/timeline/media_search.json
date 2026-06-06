@@ -1,0 +1,2493 @@
+{
+  "version": 3,
+  "episode": "002_DidBonScottKnowHeWasGoingToDie",
+  "style": "historical_documentary_not_explainer",
+  "source_transcript": "transcript/did_bon_scott_know_he_was_going_to_die.srt",
+  "source_audio": "audio/vo/did_bon_scott_know_he_was_going_to_die 2.mp3",
+  "cue_count": 69,
+  "historical_count": 65,
+  "artifact_count": 2,
+  "text_graphic_count": 1,
+  "notes": "visual_mode: historical (people/era archive), artifact (story-relevant objects — vinyl, cassette, gold disc, shirt, tape machine, etc.), or text_graphic (procedural transcription/quote/title). text_graphic.types: transcription | quote | title | intertitle. Artifacts use search_queries like photos; prefer macro/detail, faces optional. Downstream: text_graphic → voicecut media.kind=call; artifact/photo → image or video.",
+  "items": [
+    {
+      "id": "m000",
+      "cue": 0,
+      "t_start": 0.0,
+      "t_end": 2.0,
+      "duration_sec": 2.0,
+      "spoken": "",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "The Unconventional Thought",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Channel id on black + film grain before cold open (m001). Edit copy in media_tool m000 acquisition. Pair with SPECIAL_MEDIA_DELAY on m001 so m001 plate does not cover this card.",
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m001",
+      "cue": 1,
+      "t_start": 0.0,
+      "t_end": 7.8,
+      "duration_sec": 7.8,
+      "spoken": "I think Bon Scott knew he was going to die, not the date, not the hour, but he knew he was coming",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Rhetorical 'jury' — do NOT show a courtroom. Open on AC/DC at cultural peak (late 70s live) or 1980 press moment.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC live concert performance crowd and stage",
+      "date_from": "1978",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "AC/DC live 1979 concert",
+        "AC/DC Highway to Hell tour 1979 stage",
+        "AC/DC audience 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m002",
+      "cue": 2,
+      "t_start": 7.8,
+      "t_end": 16.18,
+      "duration_sec": 8.38,
+      "spoken": "fast. I think he traded something to get even more badass, more famous than he already was before,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m003",
+      "cue": 3,
+      "t_start": 16.76,
+      "t_end": 22.7,
+      "duration_sec": 5.94,
+      "spoken": "and he knew he was going to cost him everything. That's why he wrote Highway to Hell.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell tour live performance 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "AC/DC Highway to Hell tour 1979",
+        "Bon Scott Highway to Hell live 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m004",
+      "cue": 4,
+      "t_start": 23.8,
+      "t_end": 29.5,
+      "duration_sec": 5.7,
+      "spoken": "Listen to Bon's voice on Highway to Hell, especially the title track. It always intrigued me,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell tour live performance 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "AC/DC Highway to Hell tour 1979",
+        "Bon Scott Highway to Hell live 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m005",
+      "cue": 5,
+      "t_start": 29.5,
+      "t_end": 35.7,
+      "duration_sec": 6.2,
+      "spoken": "it's different. Am I the only one who notices that? In the early ACDC tracks, Bon is like a",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m006",
+      "cue": 6,
+      "t_start": 35.7,
+      "t_end": 41.62,
+      "duration_sec": 5.92,
+      "spoken": "coiled spring, like someone ready to jump into a fight. Pure energy, swimming upstream,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m007",
+      "cue": 7,
+      "t_start": 42.3,
+      "t_end": 48.28,
+      "duration_sec": 5.98,
+      "spoken": "but by Highway to Hell, something shifts. He sounds looser, warmer, floating downstream.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell tour live performance 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "AC/DC Highway to Hell tour 1979",
+        "Bon Scott Highway to Hell live 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m008",
+      "cue": 8,
+      "t_start": 49.12,
+      "t_end": 56.24,
+      "duration_sec": 7.12,
+      "spoken": "It almost sounds inebriated, but it's not alcohol. This is different. People who know about these",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m009",
+      "cue": 9,
+      "t_start": 56.24,
+      "t_end": 62.06,
+      "duration_sec": 5.82,
+      "spoken": "things might pick up on it. It's like a supernatural nonchalance. And what about the lyrics?",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m010",
+      "cue": 10,
+      "t_start": 63.14,
+      "t_end": 71.2,
+      "duration_sec": 8.06,
+      "spoken": "No stop signs, speed limit, haste Satan, paying my dues. I'm on the highway to Hell. That's not",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell tour live performance 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "AC/DC Highway to Hell tour 1979",
+        "Bon Scott Highway to Hell live 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m011",
+      "cue": 11,
+      "t_start": 71.2,
+      "t_end": 77.98,
+      "duration_sec": 6.78,
+      "spoken": "just swagger, that's like acceptance. He's describing a momentum that he's decided not to resist.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m012",
+      "cue": 12,
+      "t_start": 78.86,
+      "t_end": 85.6,
+      "duration_sec": 6.74,
+      "spoken": "It's also hard to argue that it's not his best work. It reminds me of a story, a story that was",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m013",
+      "cue": 13,
+      "t_start": 85.6,
+      "t_end": 90.74,
+      "duration_sec": 5.14,
+      "spoken": "well known by people like Bon. It was known by absolutely anyone in the rock and roll scene in the",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m014",
+      "cue": 14,
+      "t_start": 90.74,
+      "t_end": 99.14,
+      "duration_sec": 8.4,
+      "spoken": "60s and 70s. Picture at this, it's 1931 in Mississippi. It's the dead of night. Nothing but the heat,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m015",
+      "cue": 15,
+      "t_start": 99.42,
+      "t_end": 105.72,
+      "duration_sec": 6.3,
+      "spoken": "insects, and a lonely dirt road intersection. A young musician stands there with a guitar. His name",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m016",
+      "cue": 16,
+      "t_start": 105.72,
+      "t_end": 112.06,
+      "duration_sec": 6.34,
+      "spoken": "is Robert Johnson. He's got a burning hunger to be a great player and for fame. Just then,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m017",
+      "cue": 17,
+      "t_start": 112.06,
+      "t_end": 118.04,
+      "duration_sec": 5.98,
+      "spoken": "a dark figure steps out of the blackness. It takes the guitar, tunes it, plays something",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m018",
+      "cue": 18,
+      "t_start": 118.04,
+      "t_end": 125.8,
+      "duration_sec": 7.76,
+      "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m019",
+      "cue": 19,
+      "t_start": 126.74,
+      "t_end": 133.06,
+      "duration_sec": 6.32,
+      "spoken": "But understand kid, it ain't free. Everybody knows that Robert Johnson sold his soul to the devil",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m020",
+      "cue": 20,
+      "t_start": 133.06,
+      "t_end": 140.32,
+      "duration_sec": 7.26,
+      "spoken": "for immortality. He came back different, transformed. The other musicians were stunned. He now had",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m021",
+      "cue": 21,
+      "t_start": 140.32,
+      "t_end": 147.78,
+      "duration_sec": 7.46,
+      "spoken": "supernatural ability on the guitar in otherworldly voice. The devil also promised him fame. But Johnson",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m022",
+      "cue": 22,
+      "t_start": 147.78,
+      "t_end": 156.08,
+      "duration_sec": 8.3,
+      "spoken": "died early before seeing it happen. He did become a legend just only after death. Take the 27 club,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m023",
+      "cue": 23,
+      "t_start": 156.66,
+      "t_end": 163.2,
+      "duration_sec": 6.54,
+      "spoken": "Jimmy Hendrix, Janice Chaplin, Jim Morrison, Kurt Cobain, and many others. Same equation,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m024",
+      "cue": 24,
+      "t_start": 163.6,
+      "t_end": 169.1,
+      "duration_sec": 5.5,
+      "spoken": "they traded something for greatness, for art. Some might say they sold their souls for fame.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m025",
+      "cue": 25,
+      "t_start": 169.62,
+      "t_end": 171.74,
+      "duration_sec": 2.12,
+      "spoken": "Well, they certainly got their money's worth.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "vinyl record on turntable",
+        "story_link": "Rock album culture",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "people": [],
+      "situation": "Inanimate: vinyl record on turntable",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vinyl record spinning turntable 1970s",
+        "LP record needle drop"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m026",
+      "cue": 26,
+      "t_start": 172.48,
+      "t_end": 178.94,
+      "duration_sec": 6.46,
+      "spoken": "Bond wasn't 27. He was 33 when he died. But the bargain doesn't care about birthdays. It cares",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m027",
+      "cue": 27,
+      "t_start": 178.94,
+      "t_end": 187.26,
+      "duration_sec": 8.32,
+      "spoken": "about cost. And the devil always gets his due. So who is the devil? Well, for many, he's found at",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m028",
+      "cue": 28,
+      "t_start": 187.26,
+      "t_end": 195.3,
+      "duration_sec": 8.04,
+      "spoken": "the tip of a hypodermic needle. Yup, heroin. Legend has it that it can make artists feel invulnerable,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m029",
+      "cue": 29,
+      "t_start": 195.3,
+      "t_end": 202.54,
+      "duration_sec": 7.24,
+      "spoken": "lucid, insulated, and brilliant until it takes everything back with interest. That's the bargain",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m030",
+      "cue": 30,
+      "t_start": 202.54,
+      "t_end": 209.5,
+      "duration_sec": 6.96,
+      "spoken": "in chemical form. Let's stop pretending this would be impossible. If you like music from the 60s",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m031",
+      "cue": 31,
+      "t_start": 209.5,
+      "t_end": 214.7,
+      "duration_sec": 5.2,
+      "spoken": "through the 90s, check your record collection. Most likely a lot of the artists you listened to were",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m032",
+      "cue": 32,
+      "t_start": 214.7,
+      "t_end": 220.88,
+      "duration_sec": 6.18,
+      "spoken": "in the grips of that substance during their most creative periods. Some survived, some paid the price.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m033",
+      "cue": 33,
+      "t_start": 221.42,
+      "t_end": 227.4,
+      "duration_sec": 5.98,
+      "spoken": "Late 70s music culture was saturated with heroin. It wasn't fringe. It wasn't rare.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m034",
+      "cue": 34,
+      "t_start": 227.92,
+      "t_end": 232.92,
+      "duration_sec": 5.0,
+      "spoken": "It moved through elite rooms, working bands, after parties, and studio circles.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m035",
+      "cue": 35,
+      "t_start": 233.58,
+      "t_end": 238.76,
+      "duration_sec": 5.18,
+      "spoken": "Some of the biggest artists in modern music have openly talked about it. John Lennon talked",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m036",
+      "cue": 36,
+      "t_start": 238.76,
+      "t_end": 245.08,
+      "duration_sec": 6.32,
+      "spoken": "about it. Eric Clapton lived it. Lou Reed built songs out of it. Keith Richards survived it.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m037",
+      "cue": 37,
+      "t_start": 245.08,
+      "t_end": 249.76,
+      "duration_sec": 4.68,
+      "spoken": "It's not a fantasy. It's documented rock history. So the question is not",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m038",
+      "cue": 38,
+      "t_start": 249.76,
+      "t_end": 254.64,
+      "duration_sec": 4.88,
+      "spoken": "would an artist like Bond Scott ever have been around heroin. Of course he would.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1979 photograph",
+        "Bon Scott AC/DC 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m039",
+      "cue": 39,
+      "t_start": 255.0,
+      "t_end": 260.24,
+      "duration_sec": 5.24,
+      "spoken": "The real question is whether in that final stretch, he crossed from proximity into experimentation",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m040",
+      "cue": 40,
+      "t_start": 260.82,
+      "t_end": 267.2,
+      "duration_sec": 6.38,
+      "spoken": "or even dependency. Given the era, the access, the circles, the schedule, and the pressure,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m041",
+      "cue": 41,
+      "t_start": 267.74,
+      "t_end": 277.64,
+      "duration_sec": 9.9,
+      "spoken": "hmm, you decide. Now the death itself. February 1980, London, night out, drinking. He was left in a car,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m042",
+      "cue": 42,
+      "t_start": 278.0,
+      "t_end": 284.1,
+      "duration_sec": 6.1,
+      "spoken": "overnight, found unresponsive the next day. Official cause, acute alcohol poisoning.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m043",
+      "cue": 43,
+      "t_start": 285.12,
+      "t_end": 289.58,
+      "duration_sec": 4.46,
+      "spoken": "Here's what bothers people. In a case this culturally and commercially important,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m044",
+      "cue": 44,
+      "t_start": 289.82,
+      "t_end": 294.7,
+      "duration_sec": 4.88,
+      "spoken": "the public facing record feels thinner than the legend around it. He drank too much.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m045",
+      "cue": 45,
+      "t_start": 295.26,
+      "t_end": 300.9,
+      "duration_sec": 5.64,
+      "spoken": "That sentence may be true at one level. It may also be incomplete and less plausible than the",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m046",
+      "cue": 46,
+      "t_start": 300.9,
+      "t_end": 306.56,
+      "duration_sec": 5.66,
+      "spoken": "alternative. Bond was a veteran drinker after all. And why did his friend leave him in a car",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m047",
+      "cue": 47,
+      "t_start": 306.56,
+      "t_end": 311.86,
+      "duration_sec": 5.3,
+      "spoken": "on a winter night? London nights in February are freezing. Why wasn't he checked on until the",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m048",
+      "cue": 48,
+      "t_start": 311.86,
+      "t_end": 317.82,
+      "duration_sec": 5.96,
+      "spoken": "afternoon the next day? It doesn't make sense. It leaves a lot of questions unanswered.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m049",
+      "cue": 49,
+      "t_start": 318.7,
+      "t_end": 324.52,
+      "duration_sec": 5.82,
+      "spoken": "So if it was a heroin overdose, why would they have covered it up? Why would anyone prefer the",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m050",
+      "cue": 50,
+      "t_start": 324.52,
+      "t_end": 332.12,
+      "duration_sec": 7.6,
+      "spoken": "alcohol story? Because it's 1980. In 1980, in media narratives, heroin was tied to nightlife",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Year anchor — period news or studio dated 1980.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "1980 music press or studio session dated 1980",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1980 studio",
+        "music magazine 1980 rock"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m051",
+      "cue": 51,
+      "t_start": 332.12,
+      "t_end": 338.96,
+      "duration_sec": 6.84,
+      "spoken": "subcultures that mainstream rock audiences viewed as alien, like disco, queer, and art scene spaces.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m052",
+      "cue": 52,
+      "t_start": 339.62,
+      "t_end": 345.98,
+      "duration_sec": 6.36,
+      "spoken": "And that stigma made the story commercially explosive. ACDC was trying to further conquer the",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m053",
+      "cue": 53,
+      "t_start": 345.98,
+      "t_end": 351.16,
+      "duration_sec": 5.18,
+      "spoken": "American market. You have to understand their demographic at that moment. Working class,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m054",
+      "cue": 54,
+      "t_start": 351.16,
+      "t_end": 359.88,
+      "duration_sec": 8.72,
+      "spoken": "mainstream, suburban, beer, denim, v8s. That crowd was explicitly anti-disco and suspicious of",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m055",
+      "cue": 55,
+      "t_start": 359.88,
+      "t_end": 366.74,
+      "duration_sec": 6.86,
+      "spoken": "art scene posturing. And in the public imagination of that era, heroin read as downtown junkies,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m056",
+      "cue": 56,
+      "t_start": 367.06,
+      "t_end": 375.48,
+      "duration_sec": 8.42,
+      "spoken": "disco bathrooms, punk squads, self-destruction, and gay. So a heroin narrative around Bond would",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m057",
+      "cue": 57,
+      "t_start": 375.48,
+      "t_end": 382.42,
+      "duration_sec": 6.94,
+      "spoken": "not just be bad press. It would feel like cultural betrayal. ACDC were just about to put out",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m058",
+      "cue": 58,
+      "t_start": 382.42,
+      "t_end": 388.06,
+      "duration_sec": 5.64,
+      "spoken": "back in black. The thought might have been, who's gonna buy a back in black if Bond Scott just",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "Bon Scott historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1979 photograph",
+        "Bon Scott AC/DC 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m059",
+      "cue": 59,
+      "t_start": 388.06,
+      "t_end": 394.9,
+      "duration_sec": 6.84,
+      "spoken": "died like a velvet underground groupie? Look, in 1980, radio gatekeepers were conservative.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m060",
+      "cue": 60,
+      "t_start": 395.54,
+      "t_end": 401.96,
+      "duration_sec": 6.42,
+      "spoken": "Advertisers were risk averse. Program directors would have backed away fast. A heroin story could",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m061",
+      "cue": 61,
+      "t_start": 401.96,
+      "t_end": 408.56,
+      "duration_sec": 6.6,
+      "spoken": "freeze momentum instantly. Just five months after his death, you saw back in black in every record",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m062",
+      "cue": 62,
+      "t_start": 408.56,
+      "t_end": 415.4,
+      "duration_sec": 6.84,
+      "spoken": "store in America. Fifty million copies sold. That's a lot of money. You don't need a secret",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "gold / platinum award disc",
+        "story_link": "Back in Black sales milestone",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Artifact: sales award object — tight on disc/plaque, not band portrait.",
+      "people": [],
+      "situation": "Inanimate: gold / platinum award disc",
+      "date_from": "1980",
+      "date_to": "1982",
+      "location": "",
+      "search_queries": [
+        "gold record award disc close up",
+        "platinum album plaque 1980s"
+      ],
+      "avoid": [
+        "people faces prominent",
+        "stock explainer",
+        "unrelated product"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m063",
+      "cue": 63,
+      "t_start": 415.4,
+      "t_end": 422.92,
+      "duration_sec": 7.52,
+      "spoken": "committee to cover it up. You need self-preservation. You need everyone to choose the least explosive",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m064",
+      "cue": 64,
+      "t_start": 422.92,
+      "t_end": 429.34,
+      "duration_sec": 6.42,
+      "spoken": "explanation. So given all this, did Bond Scott know that he was going to die?",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1979 photograph",
+        "Bon Scott AC/DC 1980"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m065",
+      "cue": 65,
+      "t_start": 429.34,
+      "t_end": 436.54,
+      "duration_sec": 7.2,
+      "spoken": "I think he heard the bill coming due. I think he kept playing. He kept walking. The devil",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m066",
+      "cue": 66,
+      "t_start": 436.54,
+      "t_end": 443.46,
+      "duration_sec": 6.92,
+      "spoken": "hot on his heels, ready to collect. And we consumed it all as entertainment. Either way,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m067",
+      "cue": 67,
+      "t_start": 443.46,
+      "t_end": 448.8,
+      "duration_sec": 5.34,
+      "spoken": "play highway to hell tonight. Loud. Then tell me he didn't know.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell tour live performance 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "AC/DC Highway to Hell tour 1979",
+        "Bon Scott Highway to Hell live 1979"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m068",
+      "cue": 68,
+      "t_start": 448.8,
+      "t_end": 450.8,
+      "duration_sec": 2.0,
+      "spoken": "",
+      "visual_mode": "effect_only",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "2s black tail after final VO cue (m067) — picture hold only; master audio ends with m067, no VO shift on m001–m067.",
+      "people": [],
+      "situation": "Black plate (effect-only tail)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    }
+  ]
+}

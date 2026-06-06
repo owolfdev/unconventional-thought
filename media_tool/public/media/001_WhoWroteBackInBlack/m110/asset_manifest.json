@@ -6,7 +6,7 @@
   "t_end": 281.65,
   "duration_sec": 1.1,
   "spoken": "Back in Black.",
-  "visual_mode": "artifact",
+  "visual_mode": "text_graphic",
   "expected_media_type": "generated",
   "editorial_intent": "Whitespace: show line as kinetic/typewriter transcription over black or grain; avoids repeating the previous historical still.",
   "situation": "Generated text graphic (transcription)",
@@ -22,25 +22,19 @@
     "text": "Back in Black.",
     "style": "typewriter"
   },
+  "text_graphic_layer": null,
   "targets": [
     {
       "slot": "generated",
-      "description": "Back in Black.",
-      "status": "acquired"
+      "description": "Text graphic: transcription — Back in Black.",
+      "status": "needed"
     }
   ],
-  "source_media_search": "001_WhoWroteBackInBlack/timeline/media_search.json",
-  "updated_at": "2026-05-24T20:54:23.030Z",
-  "effects": [
-    "tilt_left",
-    "film_scratches",
-    "slow_zoom_out"
-  ],
+  "effects": [],
   "transition": null,
-  "requires_media_files": true,
-  "acquired_files": [
-    "download-93e401596ae4.png"
-  ],
-  "text_graphic_layer": null,
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "requires_media_files": false,
+  "acquired_files": [],
+  "source_media_search": "episodes/001_WhoWroteBackInBlack/timeline/media_search.json",
+  "updated_at": "2026-06-06T01:34:23.521Z"
 }
