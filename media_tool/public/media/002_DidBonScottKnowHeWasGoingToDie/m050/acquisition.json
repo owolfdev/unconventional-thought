@@ -17,14 +17,14 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1980 studio",
+      "query": "AC/DC 1979 live concert photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 1,
-      "query": "music magazine 1980 rock",
+      "query": "AC/DC 1980 press photo band",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []

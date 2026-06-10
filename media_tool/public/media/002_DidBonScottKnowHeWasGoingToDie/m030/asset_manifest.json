@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m030",
   "cue": 30,
-  "t_start": 202.54,
-  "t_end": 209.5,
-  "duration_sec": 6.96,
-  "spoken": "in chemical form. Let's stop pretending this would be impossible. If you like music from the 60s",
+  "t_start": 187.26,
+  "t_end": 195.3,
+  "duration_sec": 8.04,
+  "spoken": "the tip of a hypodermic needle. Yup, heroin. Legend has it that it can make artists feel invulnerable,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.932Z"
+  "updated_at": "2026-06-10T11:35:30.049Z"
 }

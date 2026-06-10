@@ -1,5 +1,42 @@
 import type { ItemAcquisition, SelectedMedia } from "./types";
 
+/** Format seconds for in-point display (m:ss.s). */
+export function formatVideoTime(sec: number): string {
+  const clamped = Math.max(0, sec);
+  const m = Math.floor(clamped / 60);
+  const s = clamped % 60;
+  return `${m}:${s.toFixed(1).padStart(m > 0 ? 4 : 3, "0")}`;
+}
+
+export function normalizeStartFromSec(value: unknown): number | undefined {
+  if (value == null || value === "") return undefined;
+  const n = typeof value === "number" ? value : Number(value);
+  if (!Number.isFinite(n) || n < 0) return undefined;
+  return Math.round(n * 1000) / 1000;
+}
+
+export function updateSelectionStartFromSec(
+  acq: ItemAcquisition,
+  resultId: string,
+  startFromSec: number | undefined,
+): ItemAcquisition {
+  const normalized = normalizeStartFromSec(startFromSec);
+  return {
+    ...acq,
+    queries: acq.queries.map((q) => ({
+      ...q,
+      selections: q.selections.map((sel) => {
+        if (sel.result_id !== resultId) return sel;
+        if (normalized == null) {
+          const { start_from_sec: _, ...rest } = sel;
+          return rest;
+        }
+        return { ...sel, start_from_sec: normalized };
+      }),
+    })),
+  };
+}
+
 const IMAGE_EXT = /\.(jpe?g|png|gif|webp|avif)$/i;
 const VIDEO_EXT = /\.(mp4|webm|mov|m4v|mkv)$/i;
 

@@ -36,6 +36,10 @@ type Props = {
   mediaFit?: "cover" | "contain" | "fill-height" | "fill-width";
   motionTiltDeg?: number;
   motionScrollSpeed?: number;
+  /** Seconds into source video (trimBefore). */
+  startFromSec?: number;
+  /** How many composition frames to play from the in-point. */
+  playbackDurationInFrames?: number;
 };
 
 /**
@@ -55,9 +59,21 @@ export const MotionMedia: React.FC<Props> = ({
   mediaFit,
   motionTiltDeg,
   motionScrollSpeed,
+  startFromSec = 0,
+  playbackDurationInFrames,
 }) => {
-  const { width: compW, height: compH } = useVideoConfig();
+  const { width: compW, height: compH, fps } = useVideoConfig();
   const motionFrames = Math.max(1, durationInFrames - mediaDelayFrames);
+  const playFrames = Math.max(
+    1,
+    playbackDurationInFrames ?? motionFrames,
+  );
+  const trimBefore =
+    kind === "video" && startFromSec > 0
+      ? Math.round(startFromSec * fps)
+      : undefined;
+  const trimAfter =
+    trimBefore != null ? trimBefore + playFrames : undefined;
   const motionFrame = Math.max(0, frame - mediaDelayFrames);
 
   const fx = getMotionStyle(effects, motionFrame, motionFrames, hints, {
@@ -150,7 +166,15 @@ export const MotionMedia: React.FC<Props> = ({
       ) : kind === "image" ? (
         <Img src={mediaSrc} style={mediaStyle} />
       ) : (
-        <OffthreadVideo src={mediaSrc} style={mediaStyle} muted volume={0} />
+        <OffthreadVideo
+          src={mediaSrc}
+          style={mediaStyle}
+          muted
+          volume={0}
+          trimBefore={trimBefore}
+          trimAfter={trimAfter}
+          pauseWhenBuffering={false}
+        />
       )}
     </AbsoluteFill>
   );

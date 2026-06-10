@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m036",
   "cue": 36,
-  "t_start": 238.76,
-  "t_end": 245.08,
-  "duration_sec": 6.32,
-  "spoken": "about it. Eric Clapton lived it. Lou Reed built songs out of it. Keith Richards survived it.",
+  "t_start": 227.92,
+  "t_end": 232.92,
+  "duration_sec": 5,
+  "spoken": "It moved through elite rooms, working bands, after parties, and studio circles.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.935Z"
+  "updated_at": "2026-06-10T11:35:30.050Z"
 }

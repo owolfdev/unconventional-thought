@@ -10,6 +10,8 @@ export interface TextGraphicSpec {
 export interface PlateFrame {
   src: string;
   mediaKind: "image" | "video";
+  /** Seconds into source video where playback begins. */
+  startFromSec?: number;
 }
 
 export interface VideoOverlay {
@@ -57,6 +59,8 @@ export interface Shot {
   /** Typewriter reveal speed (>1 = faster). */
   textRevealSpeedMult?: number;
   src: string | null;
+  /** Video in-point when using single src (no plateSequence). */
+  startFromSec?: number;
   /** Multiple plate stills/videos shown in equal time slices across the cue. */
   plateSequence?: PlateFrame[];
   /** Transparent PNG sticker (OpenAI / sticker-*.png) or GIPHY GIF. */

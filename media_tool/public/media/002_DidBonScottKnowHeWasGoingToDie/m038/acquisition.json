@@ -17,14 +17,14 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott 1979 photograph",
+      "query": "AC/DC 1979 live concert photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 1,
-      "query": "Bon Scott AC/DC 1980",
+      "query": "AC/DC 1980 press photo band",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []

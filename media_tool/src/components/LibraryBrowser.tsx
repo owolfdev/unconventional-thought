@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type {
   LibraryAssetMeta,
   LibraryIndexEntry,
@@ -17,6 +17,7 @@ import {
 import { searchFieldsToParam } from "@/lib/media-library/search-fields";
 import { canCropLibraryAsset } from "@/lib/media-library/crop-shared";
 import { LibraryImageCropper } from "./LibraryImageCropper";
+import { OpenInFinderButton } from "./OpenInFinderButton";
 
 const KIND_LABELS: Record<LibraryKind, string> = {
   archive: "Archive",
@@ -90,6 +91,7 @@ export function LibraryBrowser() {
 
   const [importOpen, setImportOpen] = useState(false);
   const [importFiles, setImportFiles] = useState<FileList | null>(null);
+  const importFileInputRef = useRef<HTMLInputElement>(null);
   const [importTags, setImportTags] = useState("");
   const [importNotes, setImportNotes] = useState("");
   const [importKind, setImportKind] = useState<LibraryKind>("archive");
@@ -208,6 +210,16 @@ export function LibraryBrowser() {
     }
   };
 
+  const clearImportFiles = useCallback(() => {
+    setImportFiles(null);
+    setImportMessage(null);
+    if (importFileInputRef.current) {
+      importFileInputRef.current.value = "";
+    }
+  }, []);
+
+  const importFileCount = importFiles?.length ?? 0;
+
   const runImport = async () => {
     if (!importFiles || importFiles.length === 0) {
       setImportMessage("Choose one or more files");
@@ -234,7 +246,7 @@ export function LibraryBrowser() {
       const dedup =
         data.deduplicated > 0 ? ` · ${data.deduplicated} deduplicated` : "";
       setImportMessage(`Imported ${data.imported} file(s)${dedup}`);
-      setImportFiles(null);
+      clearImportFiles();
       await loadAssets();
     } catch (e) {
       setImportMessage(e instanceof Error ? e.message : "Import failed");
@@ -367,16 +379,27 @@ export function LibraryBrowser() {
             Upload photos or videos into the library. Same bytes dedupe automatically.
           </p>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
-            <label className="block text-xs text-zinc-400">
-              Files
+            <div className="block text-xs text-zinc-400">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <span>Files</span>
+                {importFileCount > 0 ? (
+                  <span className="text-zinc-500">
+                    {importFileCount} selected
+                  </span>
+                ) : null}
+              </div>
               <input
+                ref={importFileInputRef}
                 type="file"
                 multiple
                 accept="image/*,video/*,.gif,.webp,.mp4,.mov,.webm"
                 className="mt-1 block w-full text-sm text-zinc-300 file:mr-3 file:rounded file:border-0 file:bg-zinc-700 file:px-3 file:py-1.5 file:text-sm"
-                onChange={(e) => setImportFiles(e.target.files)}
+                onChange={(e) => {
+                  setImportFiles(e.target.files);
+                  setImportMessage(null);
+                }}
               />
-            </label>
+            </div>
             <label className="block text-xs text-zinc-400">
               Kind
               <select
@@ -418,6 +441,14 @@ export function LibraryBrowser() {
               className="rounded-lg bg-emerald-700 px-4 py-2 text-sm font-medium hover:bg-emerald-600 disabled:opacity-50"
             >
               {importBusy ? "Importing…" : "Import to library"}
+            </button>
+            <button
+              type="button"
+              disabled={importBusy || importFileCount === 0}
+              onClick={clearImportFiles}
+              className="rounded-lg border border-zinc-600 px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-900 disabled:opacity-50"
+            >
+              Clear files
             </button>
             {importMessage && (
               <p className="text-xs text-emerald-300/90">{importMessage}</p>
@@ -554,8 +585,8 @@ export function LibraryBrowser() {
                           )}
                         </div>
                       </button>
-                      {cueContext && asset.kind === "archive" && (
-                        <div className="border-t border-zinc-800 p-2">
+                      <div className="space-y-2 border-t border-zinc-800 p-2">
+                        {cueContext && asset.kind === "archive" && (
                           <button
                             type="button"
                             disabled={stagingId === asset.id}
@@ -566,8 +597,13 @@ export function LibraryBrowser() {
                               ? "Selecting…"
                               : "Select for this cue"}
                           </button>
-                        </div>
-                      )}
+                        )}
+                        <OpenInFinderButton
+                          libraryId={asset.id}
+                          filename={asset.filename}
+                          className="w-full rounded-lg border border-zinc-700 px-2 py-1.5 text-xs text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200 disabled:opacity-50"
+                        />
+                      </div>
                     </div>
                   </li>
                 );
@@ -630,15 +666,22 @@ export function LibraryBrowser() {
                 )}
               </div>
 
-              {canCropLibraryAsset(detail) && (
-                <button
-                  type="button"
-                  onClick={() => setCropOpen(true)}
-                  className="w-full rounded-lg border border-amber-700/60 bg-amber-950/40 px-3 py-2 text-sm font-medium text-amber-200 hover:bg-amber-950"
-                >
-                  Crop image…
-                </button>
-              )}
+              <div className="flex flex-wrap gap-2">
+                <OpenInFinderButton
+                  libraryId={detail.id}
+                  filename={detail.filename}
+                  className="flex-1 rounded-lg border border-zinc-700 px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-900 disabled:opacity-50"
+                />
+                {canCropLibraryAsset(detail) && (
+                  <button
+                    type="button"
+                    onClick={() => setCropOpen(true)}
+                    className="flex-1 rounded-lg border border-amber-700/60 bg-amber-950/40 px-3 py-2 text-sm font-medium text-amber-200 hover:bg-amber-950"
+                  >
+                    Crop image…
+                  </button>
+                )}
+              </div>
 
               <div>
                 <p className="font-mono text-[10px] text-zinc-500">{detail.id}</p>

@@ -1,8 +1,8 @@
 {
   "id": "m025",
   "cue": 25,
-  "source_visual_mode": "artifact",
-  "resolved_visual_mode": "artifact",
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "pending",
   "notes": "",
@@ -17,14 +17,14 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "vinyl record spinning turntable 1970s",
+      "query": "AC/DC 1979 live concert photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 1,
-      "query": "LP record needle drop",
+      "query": "AC/DC 1980 press photo band",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []

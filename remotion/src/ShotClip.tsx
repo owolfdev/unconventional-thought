@@ -54,6 +54,11 @@ export const ShotClip: React.FC<{
     shot.missingMedia && !showPrimaryTypography;
 
   const plateCount = shot.plateSequence?.length ?? (shot.src ? 1 : 0);
+  const motionFrames = Math.max(1, shot.durationInFrames - delay);
+  const plateSegmentFrames =
+    plateCount > 1
+      ? Math.max(1, Math.floor(motionFrames / plateCount))
+      : motionFrames;
   const plateIndex = activePlateIndex(
     frame,
     shot.durationInFrames,
@@ -61,6 +66,7 @@ export const ShotClip: React.FC<{
     plateCount,
   );
   const activePlate = resolveActivePlate(shot, plateIndex);
+  const plateStartFromSec = activePlate?.startFromSec ?? shot.startFromSec ?? 0;
   const hasMedia = Boolean(activePlate) && !shot.missingMedia;
   const bleedPrevious =
     delay > 0 && frame < delay && hasMedia && !isTypography;
@@ -88,7 +94,7 @@ export const ShotClip: React.FC<{
 
       {!isTypography && activePlate?.mediaKind === "video" && (
         <MotionMedia
-          key={activePlate.src}
+          key={`${activePlate.src}:${plateStartFromSec}`}
           src={activePlate.src}
           kind="video"
           visualMode={shot.visualMode}
@@ -101,6 +107,8 @@ export const ShotClip: React.FC<{
           mediaFit={shot.mediaFit}
           motionTiltDeg={shot.motionTiltDeg}
           motionScrollSpeed={shot.motionScrollSpeed}
+          startFromSec={plateStartFromSec}
+          playbackDurationInFrames={plateSegmentFrames}
         />
       )}
 

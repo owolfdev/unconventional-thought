@@ -3,8 +3,8 @@
   "source_manifest": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
   "episode": "002_DidBonScottKnowHeWasGoingToDie",
   "created_at": "2026-06-06T10:46:09.767Z",
-  "updated_at": "2026-06-06T21:44:49.858Z",
-  "item_count": 69,
+  "updated_at": "2026-06-10T11:35:46.377Z",
+  "item_count": 71,
   "completed_count": 1,
   "items": {
     "m000": {
@@ -171,9 +171,12 @@
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
-      "status": "pending",
+      "status": "in_progress",
       "notes": "",
-      "effects": [],
+      "effects": [
+        "slow_push_in",
+        "film_damage"
+      ],
       "transition": null,
       "text_graphic": null,
       "text_graphic_layer": null,
@@ -187,7 +190,19 @@
           "query": "AC/DC Highway to Hell tour 1979",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": []
+          "selections": [
+            {
+              "result_id": "library:fe58b90977ea9f80",
+              "url": "/media/_library/assets/fe58b90977ea9f80/IMG_5733.WEBP",
+              "thumbnail_url": "/media/_library/assets/fe58b90977ea9f80/IMG_5733.WEBP",
+              "title": "IMG_5733.WEBP",
+              "source_page": "/media/_library/assets/fe58b90977ea9f80/IMG_5733.WEBP",
+              "license": "manual import — verify rights",
+              "engine_id": "library",
+              "query": "AC/DC Highway to Hell tour 1979",
+              "selected_at": "2026-06-10T10:02:11.124Z"
+            }
+          ]
         },
         {
           "query_index": 1,
@@ -198,7 +213,7 @@
         }
       ],
       "completed_at": null,
-      "updated_at": "2026-06-06T10:46:09.767Z"
+      "updated_at": "2026-06-10T10:02:24.767Z"
     },
     "m004": {
       "id": "m004",
@@ -206,9 +221,11 @@
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
-      "status": "pending",
+      "status": "in_progress",
       "notes": "",
-      "effects": [],
+      "effects": [
+        "film_scratches"
+      ],
       "transition": null,
       "text_graphic": null,
       "text_graphic_layer": null,
@@ -219,10 +236,22 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "AC/DC Highway to Hell tour 1979",
-          "engine_id": "commons",
-          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": []
+          "query": "bon scott in studio 1979",
+          "engine_id": "google_images",
+          "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+          "selections": [
+            {
+              "result_id": "library:e7a3faabf54b8bd8",
+              "url": "/media/_library/assets/e7a3faabf54b8bd8/IMG_5732.WEBP",
+              "thumbnail_url": "/media/_library/assets/e7a3faabf54b8bd8/IMG_5732.WEBP",
+              "title": "IMG_5732.WEBP",
+              "source_page": "/media/_library/assets/e7a3faabf54b8bd8/IMG_5732.WEBP",
+              "license": "manual import — verify rights",
+              "engine_id": "library",
+              "query": "AC/DC Highway to Hell tour 1979",
+              "selected_at": "2026-06-10T10:02:53.219Z"
+            }
+          ]
         },
         {
           "query_index": 1,
@@ -233,7 +262,7 @@
         }
       ],
       "completed_at": null,
-      "updated_at": "2026-06-06T10:46:09.767Z"
+      "updated_at": "2026-06-10T10:06:21.782Z"
     },
     "m005": {
       "id": "m005",
@@ -241,9 +270,11 @@
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
-      "status": "pending",
+      "status": "in_progress",
       "notes": "",
-      "effects": [],
+      "effects": [
+        "film_damage"
+      ],
       "transition": null,
       "text_graphic": null,
       "text_graphic_layer": null,
@@ -257,7 +288,19 @@
           "query": "AC/DC 1979 live concert photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": []
+          "selections": [
+            {
+              "result_id": "library:0d61d90cad7217bd",
+              "url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+              "thumbnail_url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+              "title": "thinking-man-png-image-man-thinking.png",
+              "source_page": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+              "license": "manual upload — verify rights",
+              "engine_id": "library",
+              "query": "Upload: thinking-man-png-image-man-thinking.png",
+              "selected_at": "2026-06-10T10:09:41.376Z"
+            }
+          ]
         },
         {
           "query_index": 1,
@@ -268,7 +311,7 @@
         }
       ],
       "completed_at": null,
-      "updated_at": "2026-06-06T10:46:09.767Z"
+      "updated_at": "2026-06-10T10:10:16.018Z"
     },
     "m006": {
       "id": "m006",
@@ -276,9 +319,11 @@
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
-      "status": "pending",
+      "status": "in_progress",
       "notes": "",
-      "effects": [],
+      "effects": [
+        "film_scratches"
+      ],
       "transition": null,
       "text_graphic": null,
       "text_graphic_layer": null,
@@ -292,7 +337,20 @@
           "query": "AC/DC 1979 live concert photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": []
+          "selections": [
+            {
+              "result_id": "library:624d7e8a5d8cbd8b",
+              "url": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
+              "thumbnail_url": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
+              "title": "asset.mp4",
+              "source_page": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
+              "license": "verify rights before use",
+              "engine_id": "library",
+              "query": "AC/DC 1979 live concert photograph",
+              "selected_at": "2026-06-10T10:14:11.926Z",
+              "start_from_sec": 66.14
+            }
+          ]
         },
         {
           "query_index": 1,
@@ -303,7 +361,7 @@
         }
       ],
       "completed_at": null,
-      "updated_at": "2026-06-06T10:46:09.767Z"
+      "updated_at": "2026-06-10T10:24:31.477Z"
     },
     "m007": {
       "id": "m007",
@@ -324,21 +382,21 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "AC/DC Highway to Hell tour 1979",
+          "query": "AC/DC 1979 live concert photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "Bon Scott Highway to Hell live 1979",
+          "query": "AC/DC 1980 press photo band",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         }
       ],
       "completed_at": null,
-      "updated_at": "2026-06-06T10:46:09.767Z"
+      "updated_at": "2026-06-10T11:35:23.936Z"
     },
     "m008": {
       "id": "m008",
@@ -373,7 +431,7 @@
         }
       ],
       "completed_at": null,
-      "updated_at": "2026-06-06T10:46:09.767Z"
+      "updated_at": "2026-06-10T11:35:46.362Z"
     },
     "m009": {
       "id": "m009",
@@ -394,14 +452,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "AC/DC 1979 live concert photograph",
+          "query": "AC/DC Highway to Hell tour 1979",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "AC/DC 1980 press photo band",
+          "query": "Bon Scott Highway to Hell live 1979",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -429,14 +487,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "AC/DC Highway to Hell tour 1979",
+          "query": "AC/DC 1979 live concert photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "Bon Scott Highway to Hell live 1979",
+          "query": "AC/DC 1980 press photo band",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -499,14 +557,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "AC/DC 1979 live concert photograph",
+          "query": "AC/DC Highway to Hell tour 1979",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "AC/DC 1980 press photo band",
+          "query": "Bon Scott Highway to Hell live 1979",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -938,8 +996,8 @@
     "m025": {
       "id": "m025",
       "cue": 25,
-      "source_visual_mode": "artifact",
-      "resolved_visual_mode": "artifact",
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
       "status": "pending",
       "notes": "",
@@ -954,14 +1012,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "vinyl record spinning turntable 1970s",
+          "query": "AC/DC 1979 live concert photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "LP record needle drop",
+          "query": "AC/DC 1980 press photo band",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -1008,8 +1066,8 @@
     "m027": {
       "id": "m027",
       "cue": 27,
-      "source_visual_mode": "historical",
-      "resolved_visual_mode": "historical",
+      "source_visual_mode": "artifact",
+      "resolved_visual_mode": "artifact",
       "resolved_media_type": "photo",
       "status": "pending",
       "notes": "",
@@ -1024,14 +1082,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "AC/DC 1979 live concert photograph",
+          "query": "vinyl record spinning turntable 1970s",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "AC/DC 1980 press photo band",
+          "query": "LP record needle drop",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -1409,14 +1467,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "Bon Scott 1979 photograph",
+          "query": "AC/DC 1979 live concert photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "Bon Scott AC/DC 1980",
+          "query": "AC/DC 1980 press photo band",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -1479,14 +1537,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "AC/DC 1979 live concert photograph",
+          "query": "Bon Scott 1979 photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "AC/DC 1980 press photo band",
+          "query": "Bon Scott AC/DC 1980",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -1829,14 +1887,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "AC/DC 1980 studio",
+          "query": "AC/DC 1979 live concert photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "music magazine 1980 rock",
+          "query": "AC/DC 1980 press photo band",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -1899,14 +1957,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "AC/DC 1979 live concert photograph",
+          "query": "AC/DC 1980 studio",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "AC/DC 1980 press photo band",
+          "query": "music magazine 1980 rock",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -2109,14 +2167,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "Bon Scott 1979 photograph",
+          "query": "AC/DC 1979 live concert photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "Bon Scott AC/DC 1980",
+          "query": "AC/DC 1980 press photo band",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -2179,14 +2237,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "AC/DC 1979 live concert photograph",
+          "query": "Bon Scott 1979 photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "AC/DC 1980 press photo band",
+          "query": "Bon Scott AC/DC 1980",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -2233,8 +2291,8 @@
     "m062": {
       "id": "m062",
       "cue": 62,
-      "source_visual_mode": "artifact",
-      "resolved_visual_mode": "artifact",
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
       "status": "pending",
       "notes": "",
@@ -2249,14 +2307,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "gold record award disc close up",
+          "query": "AC/DC 1979 live concert photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "platinum album plaque 1980s",
+          "query": "AC/DC 1980 press photo band",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -2303,8 +2361,8 @@
     "m064": {
       "id": "m064",
       "cue": 64,
-      "source_visual_mode": "historical",
-      "resolved_visual_mode": "historical",
+      "source_visual_mode": "artifact",
+      "resolved_visual_mode": "artifact",
       "resolved_media_type": "photo",
       "status": "pending",
       "notes": "",
@@ -2319,14 +2377,14 @@
       "queries": [
         {
           "query_index": 0,
-          "query": "Bon Scott 1979 photograph",
+          "query": "gold record award disc close up",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
         },
         {
           "query_index": 1,
-          "query": "Bon Scott AC/DC 1980",
+          "query": "platinum album plaque 1980s",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": []
@@ -2389,6 +2447,41 @@
       "queries": [
         {
           "query_index": 0,
+          "query": "Bon Scott 1979 photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Bon Scott AC/DC 1980",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m067": {
+      "id": "m067",
+      "cue": 67,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
           "query": "AC/DC 1979 live concert photograph",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
@@ -2405,9 +2498,44 @@
       "completed_at": null,
       "updated_at": "2026-06-06T10:46:09.767Z"
     },
-    "m067": {
-      "id": "m067",
-      "cue": 67,
+    "m068": {
+      "id": "m068",
+      "cue": 68,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "pending",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "AC/DC 1979 live concert photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "AC/DC 1980 press photo band",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-06T10:46:09.767Z"
+    },
+    "m069": {
+      "id": "m069",
+      "cue": 69,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -2440,9 +2568,9 @@
       "completed_at": null,
       "updated_at": "2026-06-06T10:46:09.767Z"
     },
-    "m068": {
-      "id": "m068",
-      "cue": 68,
+    "m070": {
+      "id": "m070",
+      "cue": 70,
       "source_visual_mode": "effect_only",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "photo",

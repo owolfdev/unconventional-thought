@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-06-06T21:44:54.632694+00:00",
+  "built_at": "2026-06-10T10:25:27.203329+00:00",
   "episode": "002_DidBonScottKnowHeWasGoingToDie",
   "max_id": "m068",
   "fps": 30,
@@ -155,15 +155,28 @@
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "slow_push_in",
+        "film_damage"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
-      "missingMedia": true
+      "src": "media/_library/assets/fe58b90977ea9f80/IMG_5733.WEBP",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
     },
     {
       "id": "m004",
@@ -182,15 +195,27 @@
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_scratches"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
-      "missingMedia": true
+      "src": "media/_library/assets/e7a3faabf54b8bd8/IMG_5732.WEBP",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 585.776,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
     },
     {
       "id": "m005",
@@ -209,15 +234,27 @@
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_damage"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
-      "missingMedia": true
+      "src": "media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
     },
     {
       "id": "m006",
@@ -236,15 +273,28 @@
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_scratches"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
-      "missingMedia": true
+      "src": "media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
+      "mediaKind": "video",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 502.101,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "startFromSec": 66.14
     },
     {
       "id": "m007",
@@ -1923,7 +1973,7 @@
   ],
   "stats": {
     "shot_count": 69,
-    "missing_media": 65,
+    "missing_media": 61,
     "end_sec": 450.8
   }
 }

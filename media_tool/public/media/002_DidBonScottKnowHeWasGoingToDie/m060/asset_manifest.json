@@ -2,15 +2,19 @@
   "version": 1,
   "id": "m060",
   "cue": 60,
-  "t_start": 395.54,
-  "t_end": 401.96,
-  "duration_sec": 6.42,
-  "spoken": "Advertisers were risk averse. Program directors would have backed away fast. A heroin story could",
+  "t_start": 382.42,
+  "t_end": 388.06,
+  "duration_sec": 5.64,
+  "spoken": "back in black. The thought might have been, who's gonna buy a back in black if Bond Scott just",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "situation": "Bon Scott historical photograph 1978-1981",
   "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
     {
       "name": "AC/DC",
       "role": "band"
@@ -20,8 +24,8 @@
   "date_to": "1981",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Bon Scott 1979 photograph",
+    "Bon Scott AC/DC 1980"
   ],
   "avoid": [
     "courtroom",
@@ -41,12 +45,12 @@
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: Bon Scott 1979 photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Bon Scott AC/DC 1980",
       "status": "needed"
     }
   ],
@@ -56,5 +60,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.946Z"
+  "updated_at": "2026-06-10T11:35:30.055Z"
 }

@@ -2,26 +2,30 @@
   "version": 1,
   "id": "m012",
   "cue": 12,
-  "t_start": 78.86,
-  "t_end": 85.6,
-  "duration_sec": 6.74,
-  "spoken": "It's also hard to argue that it's not his best work. It reminds me of a story, a story that was",
+  "t_start": 63.14,
+  "t_end": 71.2,
+  "duration_sec": 8.06,
+  "spoken": "No stop signs, speed limit, haste Satan, paying my dues. I'm on the highway to Hell. That's not",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+  "situation": "AC/DC Highway to Hell tour live performance 1979",
   "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
     {
       "name": "AC/DC",
       "role": "band"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1979",
+  "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "AC/DC Highway to Hell tour 1979",
+    "Bon Scott Highway to Hell live 1979"
   ],
   "avoid": [
     "courtroom",
@@ -36,17 +40,17 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "description": "Highway to Hell era live — peak Bon Scott stage energy.",
       "status": "needed"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: AC/DC Highway to Hell tour 1979",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Bon Scott Highway to Hell live 1979",
       "status": "needed"
     }
   ],
@@ -56,5 +60,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.924Z"
+  "updated_at": "2026-06-10T11:35:30.044Z"
 }

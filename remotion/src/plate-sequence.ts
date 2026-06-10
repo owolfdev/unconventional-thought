@@ -19,6 +19,7 @@ export function resolveActivePlate(
     plateSequence?: PlateFrame[];
     src: string | null;
     mediaKind: string;
+    startFromSec?: number;
   },
   index: number,
 ): PlateFrame | null {
@@ -27,7 +28,11 @@ export function resolveActivePlate(
     return seq[Math.min(index, seq.length - 1)] ?? null;
   }
   if (shot.src && (shot.mediaKind === "image" || shot.mediaKind === "video")) {
-    return { src: shot.src, mediaKind: shot.mediaKind };
+    return {
+      src: shot.src,
+      mediaKind: shot.mediaKind,
+      startFromSec: shot.startFromSec,
+    };
   }
   return null;
 }

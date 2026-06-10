@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m045",
   "cue": 45,
-  "t_start": 295.26,
-  "t_end": 300.9,
-  "duration_sec": 5.64,
-  "spoken": "That sentence may be true at one level. It may also be incomplete and less plausible than the",
+  "t_start": 285.12,
+  "t_end": 289.58,
+  "duration_sec": 4.46,
+  "spoken": "Here's what bothers people. In a case this culturally and commercially important,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.939Z"
+  "updated_at": "2026-06-10T11:35:30.052Z"
 }

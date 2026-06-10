@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m039",
   "cue": 39,
-  "t_start": 255,
-  "t_end": 260.24,
-  "duration_sec": 5.24,
-  "spoken": "The real question is whether in that final stretch, he crossed from proximity into experimentation",
+  "t_start": 245.08,
+  "t_end": 249.76,
+  "duration_sec": 4.68,
+  "spoken": "It's not a fantasy. It's documented rock history. So the question is not",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.936Z"
+  "updated_at": "2026-06-10T11:35:30.051Z"
 }

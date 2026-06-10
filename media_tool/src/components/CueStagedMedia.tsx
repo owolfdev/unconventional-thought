@@ -2,6 +2,7 @@
 
 import {
   flattenStagedSelections,
+  formatVideoTime,
   mediaKindFromUrl,
   resolveSelectionPreviewUrl,
 } from "@/lib/selection-media";
@@ -83,6 +84,11 @@ export function CueStagedMedia({
                   <p className="line-clamp-2 text-[11px] font-medium text-zinc-200">
                     {selection.title}
                   </p>
+                  {kind === "video" && selection.start_from_sec != null && (
+                    <p className="font-mono text-[10px] text-amber-400/80">
+                      in @ {formatVideoTime(selection.start_from_sec)}
+                    </p>
+                  )}
                   <button
                     type="button"
                     onClick={() => onRemove(queryIndex, selection)}

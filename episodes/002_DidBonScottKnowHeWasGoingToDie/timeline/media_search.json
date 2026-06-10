@@ -4,7 +4,7 @@
   "style": "historical_documentary_not_explainer",
   "source_transcript": "transcript/did_bon_scott_know_he_was_going_to_die.srt",
   "source_audio": "audio/vo/did_bon_scott_know_he_was_going_to_die 2.mp3",
-  "cue_count": 69,
+  "cue_count": 71,
   "historical_count": 65,
   "artifact_count": 2,
   "text_graphic_count": 1,
@@ -13,9 +13,9 @@
     {
       "id": "m000",
       "cue": 0,
-      "t_start": 0.0,
-      "t_end": 2.0,
-      "duration_sec": 2.0,
+      "t_start": 0,
+      "t_end": 2,
+      "duration_sec": 2,
       "spoken": "",
       "visual_mode": "text_graphic",
       "text_graphic": {
@@ -39,7 +39,7 @@
     {
       "id": "m001",
       "cue": 1,
-      "t_start": 0.0,
+      "t_start": 0,
       "t_end": 7.8,
       "duration_sec": 7.8,
       "spoken": "I think Bon Scott knew he was going to die, not the date, not the hour, but he knew he was coming",
@@ -229,9 +229,9 @@
       "id": "m006",
       "cue": 6,
       "t_start": 35.7,
-      "t_end": 41.62,
-      "duration_sec": 5.92,
-      "spoken": "coiled spring, like someone ready to jump into a fight. Pure energy, swimming upstream,",
+      "t_end": 36.78,
+      "duration_sec": 1.08,
+      "spoken": "coiled spring,",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -264,6 +264,78 @@
     {
       "id": "m007",
       "cue": 7,
+      "t_start": 36.78,
+      "t_end": 39.28,
+      "duration_sec": 2.5,
+      "spoken": "like someone ready to jump into a fight.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m008",
+      "cue": 8,
+      "t_start": 39.28,
+      "t_end": 41.62,
+      "duration_sec": 2.34,
+      "spoken": "Pure energy, swimming upstream,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "date_from": "1978",
+      "date_to": "1981",
+      "location": "",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "avoid": [
+        "courtroom",
+        "jury box",
+        "office chair",
+        "cork board",
+        "stock explainer"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "low"
+    },
+    {
+      "id": "m009",
+      "cue": 9,
       "t_start": 42.3,
       "t_end": 48.28,
       "duration_sec": 5.98,
@@ -302,8 +374,8 @@
       "priority": "high"
     },
     {
-      "id": "m008",
-      "cue": 8,
+      "id": "m010",
+      "cue": 10,
       "t_start": 49.12,
       "t_end": 56.24,
       "duration_sec": 7.12,
@@ -338,8 +410,8 @@
       "priority": "low"
     },
     {
-      "id": "m009",
-      "cue": 9,
+      "id": "m011",
+      "cue": 11,
       "t_start": 56.24,
       "t_end": 62.06,
       "duration_sec": 5.82,
@@ -374,8 +446,8 @@
       "priority": "low"
     },
     {
-      "id": "m010",
-      "cue": 10,
+      "id": "m012",
+      "cue": 12,
       "t_start": 63.14,
       "t_end": 71.2,
       "duration_sec": 8.06,
@@ -414,8 +486,8 @@
       "priority": "high"
     },
     {
-      "id": "m011",
-      "cue": 11,
+      "id": "m013",
+      "cue": 13,
       "t_start": 71.2,
       "t_end": 77.98,
       "duration_sec": 6.78,
@@ -450,8 +522,8 @@
       "priority": "low"
     },
     {
-      "id": "m012",
-      "cue": 12,
+      "id": "m014",
+      "cue": 14,
       "t_start": 78.86,
       "t_end": 85.6,
       "duration_sec": 6.74,
@@ -486,8 +558,8 @@
       "priority": "low"
     },
     {
-      "id": "m013",
-      "cue": 13,
+      "id": "m015",
+      "cue": 15,
       "t_start": 85.6,
       "t_end": 90.74,
       "duration_sec": 5.14,
@@ -522,8 +594,8 @@
       "priority": "low"
     },
     {
-      "id": "m014",
-      "cue": 14,
+      "id": "m016",
+      "cue": 16,
       "t_start": 90.74,
       "t_end": 99.14,
       "duration_sec": 8.4,
@@ -558,8 +630,8 @@
       "priority": "low"
     },
     {
-      "id": "m015",
-      "cue": 15,
+      "id": "m017",
+      "cue": 17,
       "t_start": 99.42,
       "t_end": 105.72,
       "duration_sec": 6.3,
@@ -594,8 +666,8 @@
       "priority": "low"
     },
     {
-      "id": "m016",
-      "cue": 16,
+      "id": "m018",
+      "cue": 18,
       "t_start": 105.72,
       "t_end": 112.06,
       "duration_sec": 6.34,
@@ -630,8 +702,8 @@
       "priority": "low"
     },
     {
-      "id": "m017",
-      "cue": 17,
+      "id": "m019",
+      "cue": 19,
       "t_start": 112.06,
       "t_end": 118.04,
       "duration_sec": 5.98,
@@ -666,8 +738,8 @@
       "priority": "low"
     },
     {
-      "id": "m018",
-      "cue": 18,
+      "id": "m020",
+      "cue": 20,
       "t_start": 118.04,
       "t_end": 125.8,
       "duration_sec": 7.76,
@@ -702,8 +774,8 @@
       "priority": "low"
     },
     {
-      "id": "m019",
-      "cue": 19,
+      "id": "m021",
+      "cue": 21,
       "t_start": 126.74,
       "t_end": 133.06,
       "duration_sec": 6.32,
@@ -738,8 +810,8 @@
       "priority": "low"
     },
     {
-      "id": "m020",
-      "cue": 20,
+      "id": "m022",
+      "cue": 22,
       "t_start": 133.06,
       "t_end": 140.32,
       "duration_sec": 7.26,
@@ -774,8 +846,8 @@
       "priority": "low"
     },
     {
-      "id": "m021",
-      "cue": 21,
+      "id": "m023",
+      "cue": 23,
       "t_start": 140.32,
       "t_end": 147.78,
       "duration_sec": 7.46,
@@ -810,8 +882,8 @@
       "priority": "low"
     },
     {
-      "id": "m022",
-      "cue": 22,
+      "id": "m024",
+      "cue": 24,
       "t_start": 147.78,
       "t_end": 156.08,
       "duration_sec": 8.3,
@@ -846,8 +918,8 @@
       "priority": "low"
     },
     {
-      "id": "m023",
-      "cue": 23,
+      "id": "m025",
+      "cue": 25,
       "t_start": 156.66,
       "t_end": 163.2,
       "duration_sec": 6.54,
@@ -882,8 +954,8 @@
       "priority": "low"
     },
     {
-      "id": "m024",
-      "cue": 24,
+      "id": "m026",
+      "cue": 26,
       "t_start": 163.6,
       "t_end": 169.1,
       "duration_sec": 5.5,
@@ -918,8 +990,8 @@
       "priority": "low"
     },
     {
-      "id": "m025",
-      "cue": 25,
+      "id": "m027",
+      "cue": 27,
       "t_start": 169.62,
       "t_end": 171.74,
       "duration_sec": 2.12,
@@ -951,8 +1023,8 @@
       "priority": "low"
     },
     {
-      "id": "m026",
-      "cue": 26,
+      "id": "m028",
+      "cue": 28,
       "t_start": 172.48,
       "t_end": 178.94,
       "duration_sec": 6.46,
@@ -987,8 +1059,8 @@
       "priority": "low"
     },
     {
-      "id": "m027",
-      "cue": 27,
+      "id": "m029",
+      "cue": 29,
       "t_start": 178.94,
       "t_end": 187.26,
       "duration_sec": 8.32,
@@ -1023,8 +1095,8 @@
       "priority": "low"
     },
     {
-      "id": "m028",
-      "cue": 28,
+      "id": "m030",
+      "cue": 30,
       "t_start": 187.26,
       "t_end": 195.3,
       "duration_sec": 8.04,
@@ -1059,8 +1131,8 @@
       "priority": "low"
     },
     {
-      "id": "m029",
-      "cue": 29,
+      "id": "m031",
+      "cue": 31,
       "t_start": 195.3,
       "t_end": 202.54,
       "duration_sec": 7.24,
@@ -1095,8 +1167,8 @@
       "priority": "low"
     },
     {
-      "id": "m030",
-      "cue": 30,
+      "id": "m032",
+      "cue": 32,
       "t_start": 202.54,
       "t_end": 209.5,
       "duration_sec": 6.96,
@@ -1131,8 +1203,8 @@
       "priority": "low"
     },
     {
-      "id": "m031",
-      "cue": 31,
+      "id": "m033",
+      "cue": 33,
       "t_start": 209.5,
       "t_end": 214.7,
       "duration_sec": 5.2,
@@ -1167,8 +1239,8 @@
       "priority": "low"
     },
     {
-      "id": "m032",
-      "cue": 32,
+      "id": "m034",
+      "cue": 34,
       "t_start": 214.7,
       "t_end": 220.88,
       "duration_sec": 6.18,
@@ -1203,8 +1275,8 @@
       "priority": "low"
     },
     {
-      "id": "m033",
-      "cue": 33,
+      "id": "m035",
+      "cue": 35,
       "t_start": 221.42,
       "t_end": 227.4,
       "duration_sec": 5.98,
@@ -1239,11 +1311,11 @@
       "priority": "low"
     },
     {
-      "id": "m034",
-      "cue": 34,
+      "id": "m036",
+      "cue": 36,
       "t_start": 227.92,
       "t_end": 232.92,
-      "duration_sec": 5.0,
+      "duration_sec": 5,
       "spoken": "It moved through elite rooms, working bands, after parties, and studio circles.",
       "visual_mode": "historical",
       "text_graphic": null,
@@ -1275,8 +1347,8 @@
       "priority": "low"
     },
     {
-      "id": "m035",
-      "cue": 35,
+      "id": "m037",
+      "cue": 37,
       "t_start": 233.58,
       "t_end": 238.76,
       "duration_sec": 5.18,
@@ -1311,8 +1383,8 @@
       "priority": "low"
     },
     {
-      "id": "m036",
-      "cue": 36,
+      "id": "m038",
+      "cue": 38,
       "t_start": 238.76,
       "t_end": 245.08,
       "duration_sec": 6.32,
@@ -1347,8 +1419,8 @@
       "priority": "low"
     },
     {
-      "id": "m037",
-      "cue": 37,
+      "id": "m039",
+      "cue": 39,
       "t_start": 245.08,
       "t_end": 249.76,
       "duration_sec": 4.68,
@@ -1383,8 +1455,8 @@
       "priority": "low"
     },
     {
-      "id": "m038",
-      "cue": 38,
+      "id": "m040",
+      "cue": 40,
       "t_start": 249.76,
       "t_end": 254.64,
       "duration_sec": 4.88,
@@ -1419,9 +1491,9 @@
       "priority": "low"
     },
     {
-      "id": "m039",
-      "cue": 39,
-      "t_start": 255.0,
+      "id": "m041",
+      "cue": 41,
+      "t_start": 255,
       "t_end": 260.24,
       "duration_sec": 5.24,
       "spoken": "The real question is whether in that final stretch, he crossed from proximity into experimentation",
@@ -1455,8 +1527,8 @@
       "priority": "low"
     },
     {
-      "id": "m040",
-      "cue": 40,
+      "id": "m042",
+      "cue": 42,
       "t_start": 260.82,
       "t_end": 267.2,
       "duration_sec": 6.38,
@@ -1491,8 +1563,8 @@
       "priority": "low"
     },
     {
-      "id": "m041",
-      "cue": 41,
+      "id": "m043",
+      "cue": 43,
       "t_start": 267.74,
       "t_end": 277.64,
       "duration_sec": 9.9,
@@ -1527,9 +1599,9 @@
       "priority": "low"
     },
     {
-      "id": "m042",
-      "cue": 42,
-      "t_start": 278.0,
+      "id": "m044",
+      "cue": 44,
+      "t_start": 278,
       "t_end": 284.1,
       "duration_sec": 6.1,
       "spoken": "overnight, found unresponsive the next day. Official cause, acute alcohol poisoning.",
@@ -1563,8 +1635,8 @@
       "priority": "low"
     },
     {
-      "id": "m043",
-      "cue": 43,
+      "id": "m045",
+      "cue": 45,
       "t_start": 285.12,
       "t_end": 289.58,
       "duration_sec": 4.46,
@@ -1599,8 +1671,8 @@
       "priority": "low"
     },
     {
-      "id": "m044",
-      "cue": 44,
+      "id": "m046",
+      "cue": 46,
       "t_start": 289.82,
       "t_end": 294.7,
       "duration_sec": 4.88,
@@ -1635,8 +1707,8 @@
       "priority": "low"
     },
     {
-      "id": "m045",
-      "cue": 45,
+      "id": "m047",
+      "cue": 47,
       "t_start": 295.26,
       "t_end": 300.9,
       "duration_sec": 5.64,
@@ -1671,8 +1743,8 @@
       "priority": "low"
     },
     {
-      "id": "m046",
-      "cue": 46,
+      "id": "m048",
+      "cue": 48,
       "t_start": 300.9,
       "t_end": 306.56,
       "duration_sec": 5.66,
@@ -1707,8 +1779,8 @@
       "priority": "low"
     },
     {
-      "id": "m047",
-      "cue": 47,
+      "id": "m049",
+      "cue": 49,
       "t_start": 306.56,
       "t_end": 311.86,
       "duration_sec": 5.3,
@@ -1743,8 +1815,8 @@
       "priority": "low"
     },
     {
-      "id": "m048",
-      "cue": 48,
+      "id": "m050",
+      "cue": 50,
       "t_start": 311.86,
       "t_end": 317.82,
       "duration_sec": 5.96,
@@ -1779,8 +1851,8 @@
       "priority": "low"
     },
     {
-      "id": "m049",
-      "cue": 49,
+      "id": "m051",
+      "cue": 51,
       "t_start": 318.7,
       "t_end": 324.52,
       "duration_sec": 5.82,
@@ -1815,8 +1887,8 @@
       "priority": "low"
     },
     {
-      "id": "m050",
-      "cue": 50,
+      "id": "m052",
+      "cue": 52,
       "t_start": 324.52,
       "t_end": 332.12,
       "duration_sec": 7.6,
@@ -1851,8 +1923,8 @@
       "priority": "medium"
     },
     {
-      "id": "m051",
-      "cue": 51,
+      "id": "m053",
+      "cue": 53,
       "t_start": 332.12,
       "t_end": 338.96,
       "duration_sec": 6.84,
@@ -1887,8 +1959,8 @@
       "priority": "low"
     },
     {
-      "id": "m052",
-      "cue": 52,
+      "id": "m054",
+      "cue": 54,
       "t_start": 339.62,
       "t_end": 345.98,
       "duration_sec": 6.36,
@@ -1923,8 +1995,8 @@
       "priority": "low"
     },
     {
-      "id": "m053",
-      "cue": 53,
+      "id": "m055",
+      "cue": 55,
       "t_start": 345.98,
       "t_end": 351.16,
       "duration_sec": 5.18,
@@ -1959,8 +2031,8 @@
       "priority": "low"
     },
     {
-      "id": "m054",
-      "cue": 54,
+      "id": "m056",
+      "cue": 56,
       "t_start": 351.16,
       "t_end": 359.88,
       "duration_sec": 8.72,
@@ -1995,8 +2067,8 @@
       "priority": "low"
     },
     {
-      "id": "m055",
-      "cue": 55,
+      "id": "m057",
+      "cue": 57,
       "t_start": 359.88,
       "t_end": 366.74,
       "duration_sec": 6.86,
@@ -2031,8 +2103,8 @@
       "priority": "low"
     },
     {
-      "id": "m056",
-      "cue": 56,
+      "id": "m058",
+      "cue": 58,
       "t_start": 367.06,
       "t_end": 375.48,
       "duration_sec": 8.42,
@@ -2067,8 +2139,8 @@
       "priority": "low"
     },
     {
-      "id": "m057",
-      "cue": 57,
+      "id": "m059",
+      "cue": 59,
       "t_start": 375.48,
       "t_end": 382.42,
       "duration_sec": 6.94,
@@ -2103,8 +2175,8 @@
       "priority": "low"
     },
     {
-      "id": "m058",
-      "cue": 58,
+      "id": "m060",
+      "cue": 60,
       "t_start": 382.42,
       "t_end": 388.06,
       "duration_sec": 5.64,
@@ -2143,8 +2215,8 @@
       "priority": "low"
     },
     {
-      "id": "m059",
-      "cue": 59,
+      "id": "m061",
+      "cue": 61,
       "t_start": 388.06,
       "t_end": 394.9,
       "duration_sec": 6.84,
@@ -2179,8 +2251,8 @@
       "priority": "low"
     },
     {
-      "id": "m060",
-      "cue": 60,
+      "id": "m062",
+      "cue": 62,
       "t_start": 395.54,
       "t_end": 401.96,
       "duration_sec": 6.42,
@@ -2215,8 +2287,8 @@
       "priority": "low"
     },
     {
-      "id": "m061",
-      "cue": 61,
+      "id": "m063",
+      "cue": 63,
       "t_start": 401.96,
       "t_end": 408.56,
       "duration_sec": 6.6,
@@ -2251,8 +2323,8 @@
       "priority": "low"
     },
     {
-      "id": "m062",
-      "cue": 62,
+      "id": "m064",
+      "cue": 64,
       "t_start": 408.56,
       "t_end": 415.4,
       "duration_sec": 6.84,
@@ -2284,8 +2356,8 @@
       "priority": "medium"
     },
     {
-      "id": "m063",
-      "cue": 63,
+      "id": "m065",
+      "cue": 65,
       "t_start": 415.4,
       "t_end": 422.92,
       "duration_sec": 7.52,
@@ -2320,8 +2392,8 @@
       "priority": "low"
     },
     {
-      "id": "m064",
-      "cue": 64,
+      "id": "m066",
+      "cue": 66,
       "t_start": 422.92,
       "t_end": 429.34,
       "duration_sec": 6.42,
@@ -2356,8 +2428,8 @@
       "priority": "low"
     },
     {
-      "id": "m065",
-      "cue": 65,
+      "id": "m067",
+      "cue": 67,
       "t_start": 429.34,
       "t_end": 436.54,
       "duration_sec": 7.2,
@@ -2392,8 +2464,8 @@
       "priority": "low"
     },
     {
-      "id": "m066",
-      "cue": 66,
+      "id": "m068",
+      "cue": 68,
       "t_start": 436.54,
       "t_end": 443.46,
       "duration_sec": 6.92,
@@ -2428,8 +2500,8 @@
       "priority": "low"
     },
     {
-      "id": "m067",
-      "cue": 67,
+      "id": "m069",
+      "cue": 69,
       "t_start": 443.46,
       "t_end": 448.8,
       "duration_sec": 5.34,
@@ -2468,11 +2540,11 @@
       "priority": "high"
     },
     {
-      "id": "m068",
-      "cue": 68,
+      "id": "m070",
+      "cue": 70,
       "t_start": 448.8,
       "t_end": 450.8,
-      "duration_sec": 2.0,
+      "duration_sec": 2,
       "spoken": "",
       "visual_mode": "effect_only",
       "text_graphic": null,

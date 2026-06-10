@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m035",
   "cue": 35,
-  "t_start": 233.58,
-  "t_end": 238.76,
-  "duration_sec": 5.18,
-  "spoken": "Some of the biggest artists in modern music have openly talked about it. John Lennon talked",
+  "t_start": 221.42,
+  "t_end": 227.4,
+  "duration_sec": 5.98,
+  "spoken": "Late 70s music culture was saturated with heroin. It wasn't fringe. It wasn't rare.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.934Z"
+  "updated_at": "2026-06-10T11:35:30.050Z"
 }

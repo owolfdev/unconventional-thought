@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m013",
   "cue": 13,
-  "t_start": 85.6,
-  "t_end": 90.74,
-  "duration_sec": 5.14,
-  "spoken": "well known by people like Bon. It was known by absolutely anyone in the rock and roll scene in the",
+  "t_start": 71.2,
+  "t_end": 77.98,
+  "duration_sec": 6.78,
+  "spoken": "just swagger, that's like acceptance. He's describing a momentum that he's decided not to resist.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.924Z"
+  "updated_at": "2026-06-10T11:35:30.044Z"
 }

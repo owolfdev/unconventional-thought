@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m063",
   "cue": 63,
-  "t_start": 415.4,
-  "t_end": 422.92,
-  "duration_sec": 7.52,
-  "spoken": "committee to cover it up. You need self-preservation. You need everyone to choose the least explosive",
+  "t_start": 401.96,
+  "t_end": 408.56,
+  "duration_sec": 6.6,
+  "spoken": "freeze momentum instantly. Just five months after his death, you saw back in black in every record",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.947Z"
+  "updated_at": "2026-06-10T11:35:30.056Z"
 }

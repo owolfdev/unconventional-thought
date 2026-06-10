@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "selected"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,15 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "asset.mp4"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.921Z"
+  "updated_at": "2026-06-10T11:35:30.043Z"
 }

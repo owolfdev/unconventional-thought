@@ -4,9 +4,11 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
+  "status": "in_progress",
   "notes": "",
-  "effects": [],
+  "effects": [
+    "film_damage"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -20,7 +22,19 @@
       "query": "AC/DC 1979 live concert photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:0d61d90cad7217bd",
+          "url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+          "thumbnail_url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+          "title": "thinking-man-png-image-man-thinking.png",
+          "source_page": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+          "license": "manual upload — verify rights",
+          "engine_id": "library",
+          "query": "Upload: thinking-man-png-image-man-thinking.png",
+          "selected_at": "2026-06-10T10:09:41.376Z"
+        }
+      ]
     },
     {
       "query_index": 1,
@@ -31,5 +45,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "updated_at": "2026-06-10T10:10:16.018Z"
 }

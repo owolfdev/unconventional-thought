@@ -4,7 +4,7 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
+  "status": "in_progress",
   "notes": "",
   "effects": [],
   "transition": null,
@@ -17,19 +17,31 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC Highway to Hell tour 1979",
+      "query": "AC/DC 1979 live concert photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:624d7e8a5d8cbd8b",
+          "url": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
+          "thumbnail_url": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
+          "title": "asset.mp4",
+          "source_page": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "AC/DC 1979 live concert photograph",
+          "selected_at": "2026-06-10T11:36:03.044Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott Highway to Hell live 1979",
+      "query": "AC/DC 1980 press photo band",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "updated_at": "2026-06-10T11:36:03.044Z"
 }

@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m057",
   "cue": 57,
-  "t_start": 375.48,
-  "t_end": 382.42,
-  "duration_sec": 6.94,
-  "spoken": "not just be bad press. It would feel like cultural betrayal. ACDC were just about to put out",
+  "t_start": 359.88,
+  "t_end": 366.74,
+  "duration_sec": 6.86,
+  "spoken": "art scene posturing. And in the public imagination of that era, heroin read as downtown junkies,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.944Z"
+  "updated_at": "2026-06-10T11:35:30.054Z"
 }

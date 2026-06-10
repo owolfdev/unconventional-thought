@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m024",
   "cue": 24,
-  "t_start": 163.6,
-  "t_end": 169.1,
-  "duration_sec": 5.5,
-  "spoken": "they traded something for greatness, for art. Some might say they sold their souls for fame.",
+  "t_start": 147.78,
+  "t_end": 156.08,
+  "duration_sec": 8.3,
+  "spoken": "died early before seeing it happen. He did become a legend just only after death. Take the 27 club,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.929Z"
+  "updated_at": "2026-06-10T11:35:30.047Z"
 }

@@ -6,11 +6,13 @@ import {
   selectionFilename,
 } from "@/lib/overlay-media";
 import {
+  formatVideoTime,
   mediaKindFromUrl,
   resolveSelectionPreviewUrl,
   type SelectionMediaKind,
 } from "@/lib/selection-media";
-import type { ItemAcquisition } from "@/lib/types";
+import type { ItemAcquisition, SelectedMedia } from "@/lib/types";
+import { VideoInPointControls } from "./VideoInPointControls";
 import { normalizeBackgroundColor } from "@/lib/background-color";
 import { stickerOverlayLayout } from "@/lib/sticker-overlay-layout";
 import { stickerMaxPercent, type StickerOverlaySize } from "@/lib/sticker-overlay-size";
@@ -27,6 +29,10 @@ interface Props {
   onStickerOverlayEnabledChange?: (enabled: boolean) => void;
   onStickerOverlaySizeChange?: (size: StickerOverlaySize) => void;
   onTitleOverlayEnabledChange?: (enabled: boolean) => void;
+  onPlateStartFromSecChange?: (
+    selection: SelectedMedia,
+    startFromSec: number | undefined,
+  ) => void;
 }
 
 function PreviewAsset({
@@ -34,6 +40,7 @@ function PreviewAsset({
   kind,
   title,
   autoPlayVideo,
+  startFromSec,
   className = "max-h-full max-w-full object-contain",
   style,
 }: {
@@ -41,17 +48,33 @@ function PreviewAsset({
   kind: SelectionMediaKind;
   title: string;
   autoPlayVideo: boolean;
+  startFromSec?: number;
   className?: string;
   style?: React.CSSProperties;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const inSec = startFromSec ?? 0;
 
   useEffect(() => {
     const el = videoRef.current;
-    if (!el || kind !== "video" || !autoPlayVideo) return;
-    el.currentTime = 0;
-    void el.play().catch(() => {});
-  }, [src, kind, autoPlayVideo]);
+    if (!el || kind !== "video") return;
+
+    const seekIn = () => {
+      if (inSec > 0 && el.duration && inSec < el.duration) {
+        el.currentTime = inSec;
+      } else if (inSec > 0) {
+        el.currentTime = inSec;
+      } else {
+        el.currentTime = 0;
+      }
+    };
+
+    el.addEventListener("loadedmetadata", seekIn);
+    seekIn();
+    if (autoPlayVideo) void el.play().catch(() => {});
+
+    return () => el.removeEventListener("loadedmetadata", seekIn);
+  }, [src, kind, autoPlayVideo, inSec]);
 
   if (kind === "video") {
     return (
@@ -112,7 +135,9 @@ export function SelectedMediaPreview({
   onStickerOverlayEnabledChange,
   onStickerOverlaySizeChange,
   onTitleOverlayEnabledChange,
+  onPlateStartFromSecChange,
 }: Props) {
+  const plateVideoRef = useRef<HTMLVideoElement>(null);
   const model = useMemo(
     () => buildCuePreviewModel(acquisition),
     [acquisition],
@@ -174,6 +199,35 @@ export function SelectedMediaPreview({
   const canConfigurePreview =
     model.hasPlate || hasStickerAsset || hasTitleAsset;
 
+  const activePlate = useMemo(
+    () => (plateCount > 0 ? model.platePlaylist[activeIndex] : null),
+    [model.platePlaylist, plateCount, activeIndex],
+  );
+  const plateSrc = useMemo(
+    () =>
+      activePlate
+        ? resolveSelectionPreviewUrl(activePlate, project, itemId)
+        : null,
+    [activePlate, project, itemId],
+  );
+  const plateKind = plateSrc ? mediaKindFromUrl(plateSrc) : "unknown";
+  const plateInSec = activePlate?.start_from_sec ?? 0;
+
+  useEffect(() => {
+    const el = plateVideoRef.current;
+    if (!el || plateKind !== "video" || !plateSrc) return;
+
+    const seekIn = () => {
+      el.currentTime = plateInSec;
+    };
+
+    el.addEventListener("loadedmetadata", seekIn);
+    seekIn();
+    if (plateCount > 1) void el.play().catch(() => {});
+
+    return () => el.removeEventListener("loadedmetadata", seekIn);
+  }, [plateSrc, plateKind, plateInSec, plateCount, activeIndex]);
+
   if (!canConfigurePreview) {
     return (
       <div
@@ -185,13 +239,6 @@ export function SelectedMediaPreview({
       </div>
     );
   }
-
-  const activePlate =
-    plateCount > 0 ? model.platePlaylist[activeIndex] : null;
-  const plateSrc = activePlate
-    ? resolveSelectionPreviewUrl(activePlate, project, itemId)
-    : null;
-  const plateKind = plateSrc ? mediaKindFromUrl(plateSrc) : "unknown";
 
   const stickerSrc =
     model.showSticker && model.sticker
@@ -226,6 +273,9 @@ export function SelectedMediaPreview({
     stickerSelectedButHidden && stickerName ? `(sticker off: ${stickerName})` : "",
     model.showTitle && titleName ? `+ ${titleName}` : "",
     titleSelectedButHidden && titleName ? `(title off: ${titleName})` : "",
+    activePlate?.start_from_sec != null && plateKind === "video"
+      ? `in @ ${formatVideoTime(activePlate.start_from_sec)}`
+      : "",
   ]
     .filter(Boolean)
     .join(" ");
@@ -283,12 +333,25 @@ export function SelectedMediaPreview({
         className="relative flex min-h-[200px] max-h-[min(52vh,520px)] items-center justify-center overflow-hidden p-2 sm:min-h-[240px]"
         style={{ backgroundColor: bg }}
       >
-        {plateSrc ? (
+        {plateSrc && plateKind === "video" ? (
+          <video
+            ref={plateVideoRef}
+            key={plateSrc}
+            src={plateSrc}
+            className="max-h-full max-w-full object-contain"
+            controls={plateCount <= 1}
+            playsInline
+            muted
+            loop={plateCount > 1}
+            preload="metadata"
+            aria-label={activePlate?.title ?? "Plate"}
+          />
+        ) : plateSrc ? (
           <PreviewAsset
             src={plateSrc}
             kind={plateKind}
             title={activePlate?.title ?? "Plate"}
-            autoPlayVideo={plateCount > 1 && plateKind === "video"}
+            autoPlayVideo={false}
           />
         ) : (
           <p className="text-xs text-zinc-600">Blank plate (effect-only)</p>
@@ -325,6 +388,14 @@ export function SelectedMediaPreview({
       <p className="truncate border-t border-zinc-800/80 px-3 py-1.5 font-mono text-[10px] text-zinc-500">
         {statusLine}
       </p>
+
+      {plateKind === "video" && activePlate && onPlateStartFromSecChange && (
+        <VideoInPointControls
+          videoRef={plateVideoRef}
+          startFromSec={activePlate.start_from_sec}
+          onChange={(sec) => onPlateStartFromSecChange(activePlate, sec)}
+        />
+      )}
 
       {plateCount > 1 && (
         <>

@@ -1,8 +1,80 @@
 {
   "version": 1,
-  "updated_at": "2026-06-06T21:44:49.916Z",
-  "asset_count": 160,
+  "updated_at": "2026-06-10T11:35:30.039Z",
+  "asset_count": 177,
   "assets": [
+    {
+      "id": "624d7e8a5d8cbd8b",
+      "filename": "asset.mp4",
+      "original_filename": "cgXhpPQA9aE.mp4",
+      "kind": "archive",
+      "media_type": "video",
+      "thumbnail_url": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
+      "public_url": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "",
+      "search_text": "asset.mp4 cgxhppqa9ae.mp4 ac/dc",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T10:14:11.865Z",
+      "updated_at": "2026-06-10T11:35:30.036Z"
+    },
+    {
+      "id": "0d61d90cad7217bd",
+      "filename": "thinking-man-png-image-man-thinking.png",
+      "original_filename": "thinking-man-png-image-man-thinking.png",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+      "public_url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+      "tags": [
+        "ac/dc"
+      ],
+      "manual_notes": "",
+      "search_text": "thinking-man-png-image-man-thinking.png thinking-man-png-image-man-thinking.png ac/dc",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T10:09:41.317Z",
+      "updated_at": "2026-06-10T11:35:30.031Z"
+    },
+    {
+      "id": "e7a3faabf54b8bd8",
+      "filename": "IMG_5732.WEBP",
+      "original_filename": "IMG_5732.WEBP",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e7a3faabf54b8bd8/IMG_5732.WEBP",
+      "public_url": "/media/_library/assets/e7a3faabf54b8bd8/IMG_5732.WEBP",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5732.webp img_5732.webp bon scott",
+      "usage_count": 2,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.948Z",
+      "updated_at": "2026-06-10T11:35:30.027Z"
+    },
+    {
+      "id": "fe58b90977ea9f80",
+      "filename": "IMG_5733.WEBP",
+      "original_filename": "IMG_5733.WEBP",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/fe58b90977ea9f80/IMG_5733.WEBP",
+      "public_url": "/media/_library/assets/fe58b90977ea9f80/IMG_5733.WEBP",
+      "tags": [
+        "highway to hell"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5733.webp img_5733.webp highway to hell",
+      "usage_count": 2,
+      "archived": false,
+      "created_at": "2026-06-10T09:57:25.775Z",
+      "updated_at": "2026-06-10T11:35:30.012Z"
+    },
     {
       "id": "2f0ea3cc0654a22e",
       "filename": "bonscott_onstage-1.jpg",
@@ -19,7 +91,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-05T22:11:29.000Z",
-      "updated_at": "2026-06-06T21:44:49.912Z"
+      "updated_at": "2026-06-10T11:35:30.006Z"
     },
     {
       "id": "aadb15e60b8c24f1",
@@ -39,7 +111,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-06T10:28:18.268Z",
-      "updated_at": "2026-06-06T21:44:49.905Z"
+      "updated_at": "2026-06-10T11:35:30.000Z"
     },
     {
       "id": "9398594e9a4d861e",
@@ -55,7 +127,259 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-06T21:43:12.517Z",
-      "updated_at": "2026-06-06T21:44:49.859Z"
+      "updated_at": "2026-06-10T11:35:29.994Z"
+    },
+    {
+      "id": "edc2a9f64e4a14d3",
+      "filename": "IMG_5735.JPG",
+      "original_filename": "IMG_5735.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/edc2a9f64e4a14d3/IMG_5735.JPG",
+      "public_url": "/media/_library/assets/edc2a9f64e4a14d3/IMG_5735.JPG",
+      "tags": [
+        "what?"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5735.jpg img_5735.jpg what?",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:58:24.562Z",
+      "updated_at": "2026-06-10T09:58:24.562Z"
+    },
+    {
+      "id": "4f1724dff67e8a84",
+      "filename": "IMG_5734.JPG",
+      "original_filename": "IMG_5734.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/4f1724dff67e8a84/IMG_5734.JPG",
+      "public_url": "/media/_library/assets/4f1724dff67e8a84/IMG_5734.JPG",
+      "tags": [
+        "what?"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5734.jpg img_5734.jpg what?",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:58:24.508Z",
+      "updated_at": "2026-06-10T09:58:24.508Z"
+    },
+    {
+      "id": "7c6da2d685d9b361",
+      "filename": "IMG_5731.WEBP",
+      "original_filename": "IMG_5731.WEBP",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/7c6da2d685d9b361/IMG_5731.WEBP",
+      "public_url": "/media/_library/assets/7c6da2d685d9b361/IMG_5731.WEBP",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5731.webp img_5731.webp bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.944Z",
+      "updated_at": "2026-06-10T09:56:51.944Z"
+    },
+    {
+      "id": "33ae0096940fbcce",
+      "filename": "IMG_5730.JPG",
+      "original_filename": "IMG_5730.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/33ae0096940fbcce/IMG_5730.JPG",
+      "public_url": "/media/_library/assets/33ae0096940fbcce/IMG_5730.JPG",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5730.jpg img_5730.jpg bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.939Z",
+      "updated_at": "2026-06-10T09:56:51.939Z"
+    },
+    {
+      "id": "7577f22a845b8a3c",
+      "filename": "IMG_5729.JPG",
+      "original_filename": "IMG_5729.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/7577f22a845b8a3c/IMG_5729.JPG",
+      "public_url": "/media/_library/assets/7577f22a845b8a3c/IMG_5729.JPG",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5729.jpg img_5729.jpg bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.935Z",
+      "updated_at": "2026-06-10T09:56:51.935Z"
+    },
+    {
+      "id": "e28f5dae6ac993ae",
+      "filename": "IMG_5728.JPG",
+      "original_filename": "IMG_5728.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/e28f5dae6ac993ae/IMG_5728.JPG",
+      "public_url": "/media/_library/assets/e28f5dae6ac993ae/IMG_5728.JPG",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5728.jpg img_5728.jpg bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.930Z",
+      "updated_at": "2026-06-10T09:56:51.930Z"
+    },
+    {
+      "id": "8cf81d04eb4a6d82",
+      "filename": "IMG_5727.JPG",
+      "original_filename": "IMG_5727.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/8cf81d04eb4a6d82/IMG_5727.JPG",
+      "public_url": "/media/_library/assets/8cf81d04eb4a6d82/IMG_5727.JPG",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5727.jpg img_5727.jpg bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.924Z",
+      "updated_at": "2026-06-10T09:56:51.924Z"
+    },
+    {
+      "id": "ac0f2aa437a1d7fc",
+      "filename": "IMG_5725.JPG",
+      "original_filename": "IMG_5725.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/ac0f2aa437a1d7fc/IMG_5725.JPG",
+      "public_url": "/media/_library/assets/ac0f2aa437a1d7fc/IMG_5725.JPG",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5725.jpg img_5725.jpg bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.919Z",
+      "updated_at": "2026-06-10T09:56:51.919Z"
+    },
+    {
+      "id": "76a32e130d9b5b8c",
+      "filename": "IMG_5724.JPG",
+      "original_filename": "IMG_5724.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/76a32e130d9b5b8c/IMG_5724.JPG",
+      "public_url": "/media/_library/assets/76a32e130d9b5b8c/IMG_5724.JPG",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5724.jpg img_5724.jpg bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.914Z",
+      "updated_at": "2026-06-10T09:56:51.914Z"
+    },
+    {
+      "id": "52b9b4537c99d300",
+      "filename": "IMG_5723.JPG",
+      "original_filename": "IMG_5723.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/52b9b4537c99d300/IMG_5723.JPG",
+      "public_url": "/media/_library/assets/52b9b4537c99d300/IMG_5723.JPG",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5723.jpg img_5723.jpg bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.910Z",
+      "updated_at": "2026-06-10T09:56:51.910Z"
+    },
+    {
+      "id": "c7eefae85ab039c9",
+      "filename": "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+      "original_filename": "download-18ca1121b377.jpeg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+      "public_url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m006/acquired/",
+      "search_text": "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg download-18ca1121b377.jpeg bon scott migrated from 001_whowrotebackinblack/m006/acquired/",
+      "usage_count": 2,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:27.000Z",
+      "updated_at": "2026-06-10T09:56:51.905Z"
+    },
+    {
+      "id": "d2f1e2c9af47a957",
+      "filename": "IMG_5721.JPG",
+      "original_filename": "IMG_5721.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/d2f1e2c9af47a957/IMG_5721.JPG",
+      "public_url": "/media/_library/assets/d2f1e2c9af47a957/IMG_5721.JPG",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5721.jpg img_5721.jpg bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.901Z",
+      "updated_at": "2026-06-10T09:56:51.901Z"
+    },
+    {
+      "id": "56b8b5826affa7cd",
+      "filename": "IMG_5720.PNG",
+      "original_filename": "IMG_5720.PNG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/56b8b5826affa7cd/IMG_5720.PNG",
+      "public_url": "/media/_library/assets/56b8b5826affa7cd/IMG_5720.PNG",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5720.png img_5720.png bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.895Z",
+      "updated_at": "2026-06-10T09:56:51.895Z"
+    },
+    {
+      "id": "bc966370768bb5d2",
+      "filename": "IMG_5719.JPG",
+      "original_filename": "IMG_5719.JPG",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/bc966370768bb5d2/IMG_5719.JPG",
+      "public_url": "/media/_library/assets/bc966370768bb5d2/IMG_5719.JPG",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "img_5719.jpg img_5719.jpg bon scott",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-10T09:56:51.850Z",
+      "updated_at": "2026-06-10T09:56:51.850Z"
     },
     {
       "id": "1dd39fa1aa727ec4",
@@ -2726,24 +3050,6 @@
       ],
       "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m012/acquired/",
       "search_text": "angus_malcolm.jpg angus_malcolm.jpg ac/dc brian johnson migrated from 001_whowrotebackinblack/m012/acquired/",
-      "usage_count": 1,
-      "archived": false,
-      "created_at": "2026-06-05T22:11:27.000Z",
-      "updated_at": "2026-06-05T22:11:27.000Z"
-    },
-    {
-      "id": "c7eefae85ab039c9",
-      "filename": "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-      "original_filename": "download-18ca1121b377.jpeg",
-      "kind": "archive",
-      "media_type": "photo",
-      "thumbnail_url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-      "public_url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-      "tags": [
-        "bon scott"
-      ],
-      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m006/acquired/",
-      "search_text": "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg download-18ca1121b377.jpeg bon scott migrated from 001_whowrotebackinblack/m006/acquired/",
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-05T22:11:27.000Z",

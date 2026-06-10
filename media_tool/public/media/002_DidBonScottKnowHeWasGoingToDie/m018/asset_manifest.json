@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m018",
   "cue": 18,
-  "t_start": 118.04,
-  "t_end": 125.8,
-  "duration_sec": 7.76,
-  "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
+  "t_start": 105.72,
+  "t_end": 112.06,
+  "duration_sec": 6.34,
+  "spoken": "is Robert Johnson. He's got a burning hunger to be a great player and for fame. Just then,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.927Z"
+  "updated_at": "2026-06-10T11:35:30.046Z"
 }

@@ -2,26 +2,26 @@
   "version": 1,
   "id": "m066",
   "cue": 66,
-  "t_start": 436.54,
-  "t_end": 443.46,
-  "duration_sec": 6.92,
-  "spoken": "hot on his heels, ready to collect. And we consumed it all as entertainment. Either way,",
+  "t_start": 422.92,
+  "t_end": 429.34,
+  "duration_sec": 6.42,
+  "spoken": "explanation. So given all this, did Bond Scott know that he was going to die?",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "situation": "Bon Scott historical photograph 1978-1981",
   "people": [
     {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "Bon Scott",
+      "role": "vocalist"
     }
   ],
   "date_from": "1978",
   "date_to": "1981",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Bon Scott 1979 photograph",
+    "Bon Scott AC/DC 1980"
   ],
   "avoid": [
     "courtroom",
@@ -41,12 +41,12 @@
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: Bon Scott 1979 photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Bon Scott AC/DC 1980",
       "status": "needed"
     }
   ],
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.948Z"
+  "updated_at": "2026-06-10T11:35:30.056Z"
 }

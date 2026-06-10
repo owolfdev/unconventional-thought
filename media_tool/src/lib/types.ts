@@ -90,6 +90,8 @@ export interface SelectedMedia {
   engine_id: string;
   query: string;
   selected_at: string;
+  /** Video only: seconds into source file where cue playback begins. */
+  start_from_sec?: number;
 }
 
 export interface QueryAcquisition {

@@ -17,14 +17,14 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "AC/DC Highway to Hell tour 1979",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query": "Bon Scott Highway to Hell live 1979",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []

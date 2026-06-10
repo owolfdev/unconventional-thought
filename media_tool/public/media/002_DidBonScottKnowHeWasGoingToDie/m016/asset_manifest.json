@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m016",
   "cue": 16,
-  "t_start": 105.72,
-  "t_end": 112.06,
-  "duration_sec": 6.34,
-  "spoken": "is Robert Johnson. He's got a burning hunger to be a great player and for fame. Just then,",
+  "t_start": 90.74,
+  "t_end": 99.14,
+  "duration_sec": 8.4,
+  "spoken": "60s and 70s. Picture at this, it's 1931 in Mississippi. It's the dead of night. Nothing but the heat,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.926Z"
+  "updated_at": "2026-06-10T11:35:30.045Z"
 }

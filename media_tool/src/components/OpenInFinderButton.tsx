@@ -2,18 +2,20 @@
 
 import { useState, type ReactNode } from "react";
 
-interface Props {
-  project: string;
-  itemId: string;
-  /** When set, reveals this file in Finder; otherwise opens the acquired/ folder. */
+type Props = {
+  /** When set, reveals this file in Finder; otherwise opens the folder. */
   filename?: string;
   className?: string;
   children?: ReactNode;
-}
+} & (
+  | { project: string; itemId: string; libraryId?: never }
+  | { libraryId: string; project?: never; itemId?: never }
+);
 
 export function OpenInFinderButton({
   project,
   itemId,
+  libraryId,
   filename,
   className = "",
   children,
@@ -32,7 +34,9 @@ export function OpenInFinderButton({
       const res = await fetch("/api/reveal", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ project, itemId, filename }),
+        body: JSON.stringify(
+          libraryId ? { libraryId, filename } : { project, itemId, filename },
+        ),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Could not open Finder");

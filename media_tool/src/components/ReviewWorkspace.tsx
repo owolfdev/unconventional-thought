@@ -28,10 +28,14 @@ import { BackgroundColorControl } from "./BackgroundColorControl";
 import { SelectedMediaPreview } from "./SelectedMediaPreview";
 import { GenerateStickerPanel } from "./GenerateStickerPanel";
 import { GiphyStickerPanel } from "./GiphyStickerPanel";
+import { CueSplitPanel } from "./CueSplitPanel";
+import { EpisodePicker } from "./EpisodePicker";
 import { UnsavedChangesDialog } from "./UnsavedChangesDialog";
+import type { EpisodeInfo } from "@/lib/episodes";
 import { normalizeBackgroundColor } from "@/lib/background-color";
 import { findIncompleteItemIndex } from "@/lib/acquisition";
 import { libraryHrefForCue } from "@/lib/library-cue-link";
+import { updateSelectionStartFromSec } from "@/lib/selection-media";
 import {
   cloneSavedItems,
   isItemAcquisitionDirty,
@@ -89,6 +93,11 @@ export function ReviewWorkspace() {
     Record<string, ItemAcquisition>
   >({});
   const [pendingNavIndex, setPendingNavIndex] = useState<number | null>(null);
+  const [pendingEpisodeManifest, setPendingEpisodeManifest] = useState<
+    string | null
+  >(null);
+  const [episodes, setEpisodes] = useState<EpisodeInfo[]>([]);
+  const [episodesLoading, setEpisodesLoading] = useState(true);
   const [showCueOverlay, setShowCueOverlay] = useState(true);
   const [overlayBusy, setOverlayBusy] = useState(false);
   const didInitialLoad = useRef(false);
@@ -128,7 +137,26 @@ export function ReviewWorkspace() {
     setItemIndex(targetIndex >= 0 ? targetIndex : 0);
     setShowCueOverlay(data.remotionPreview?.showCueOverlay !== false);
     localStorage.setItem("mediaSearch.manifestPath", path);
+    const url = new URL(window.location.href);
+    url.searchParams.set("path", path);
+    if (targetItemId) {
+      url.searchParams.set("itemId", targetItemId);
+    } else {
+      url.searchParams.delete("itemId");
+    }
+    window.history.replaceState({}, "", url);
   }, []);
+
+  const commitEpisodeSwitch = useCallback(
+    (manifestPath: string) => {
+      setPendingEpisodeManifest(null);
+      setManifestPathInput(manifestPath);
+      loadManifest(manifestPath).catch((e) =>
+        setError(e instanceof Error ? e.message : "Load failed"),
+      );
+    },
+    [loadManifest],
+  );
 
   const setRemotionCueOverlay = useCallback(
     async (enabled: boolean) => {
@@ -175,6 +203,18 @@ export function ReviewWorkspace() {
     loadManifest(path, itemId).catch((e) =>
       setError(e instanceof Error ? e.message : "Load failed"),
     );
+
+    fetch("/api/episodes")
+      .then((r) => r.json())
+      .then((data) => {
+        if (Array.isArray(data.episodes)) {
+          setEpisodes(data.episodes);
+        }
+      })
+      .catch(() => {
+        setEpisodes([]);
+      })
+      .finally(() => setEpisodesLoading(false));
 
     fetch("/api/config")
       .then((r) => r.json())
@@ -362,6 +402,19 @@ export function ReviewWorkspace() {
     [items.length, itemIndex, isCurrentDirty, navigateToIndex],
   );
 
+  const requestLoadManifest = useCallback(
+    (manifestPath: string) => {
+      const trimmed = manifestPath.trim();
+      if (!trimmed || trimmed === loadState?.manifestPath) return;
+      if (isCurrentDirty) {
+        setPendingEpisodeManifest(trimmed);
+        return;
+      }
+      commitEpisodeSwitch(trimmed);
+    },
+    [loadState?.manifestPath, isCurrentDirty, commitEpisodeSwitch],
+  );
+
   const goNext = useCallback(
     (opts?: { incompleteOnly?: boolean }) => {
       if (opts?.incompleteOnly && loadState) {
@@ -419,7 +472,7 @@ export function ReviewWorkspace() {
   };
 
   const discardCurrentAndNavigate = useCallback(() => {
-    if (!loadState || !currentItem || pendingNavIndex === null) return;
+    if (!loadState || !currentItem) return;
     const saved = savedItems[currentItem.id];
     if (saved) {
       setLoadState({
@@ -435,14 +488,38 @@ export function ReviewWorkspace() {
         },
       });
     }
+    if (pendingEpisodeManifest) {
+      commitEpisodeSwitch(pendingEpisodeManifest);
+      return;
+    }
+    if (pendingNavIndex === null) return;
     navigateToIndex(pendingNavIndex);
-  }, [loadState, currentItem, pendingNavIndex, savedItems, navigateToIndex]);
+  }, [
+    loadState,
+    currentItem,
+    pendingNavIndex,
+    pendingEpisodeManifest,
+    savedItems,
+    navigateToIndex,
+    commitEpisodeSwitch,
+  ]);
 
   const saveAndNavigate = useCallback(async () => {
-    if (pendingNavIndex === null) return;
     const ok = await saveAcquisition();
-    if (ok) navigateToIndex(pendingNavIndex);
-  }, [pendingNavIndex, saveAcquisition, navigateToIndex]);
+    if (!ok) return;
+    if (pendingEpisodeManifest) {
+      commitEpisodeSwitch(pendingEpisodeManifest);
+      return;
+    }
+    if (pendingNavIndex === null) return;
+    navigateToIndex(pendingNavIndex);
+  }, [
+    pendingNavIndex,
+    pendingEpisodeManifest,
+    saveAcquisition,
+    navigateToIndex,
+    commitEpisodeSwitch,
+  ]);
 
   const completeAndNext = useCallback(async () => {
     if (!loadState || !currentItem || !currentAcq) return;
@@ -604,28 +681,48 @@ export function ReviewWorkspace() {
             </button>
           )}
         </div>
-        <form
-          className="mt-4 flex flex-wrap gap-2"
-          onSubmit={(e) => {
-            e.preventDefault();
-            loadManifest(manifestPathInput).catch((err) =>
-              setError(err instanceof Error ? err.message : "Load failed"),
-            );
-          }}
-        >
-          <input
-            className="min-w-[280px] flex-1 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm"
+        <div className="mt-4 flex flex-wrap items-center gap-2">
+          <EpisodePicker
+            episodes={episodes}
             value={manifestPathInput}
-            onChange={(e) => setManifestPathInput(e.target.value)}
-            placeholder="episodes/001_WhoWroteBackInBlack/timeline/media_search.json"
+            loading={episodesLoading}
+            disabled={saving}
+            onChange={requestLoadManifest}
           />
           <button
-            type="submit"
-            className="rounded-lg bg-zinc-700 px-4 py-2 text-sm font-medium hover:bg-zinc-600"
+            type="button"
+            className="rounded-lg bg-zinc-700 px-4 py-2 text-sm font-medium hover:bg-zinc-600 disabled:opacity-50"
+            disabled={saving || manifestPathInput === loadState?.manifestPath}
+            onClick={() => requestLoadManifest(manifestPathInput)}
           >
-            Load
+            Reload
           </button>
-        </form>
+        </div>
+        <details className="mt-2 text-xs text-zinc-500">
+          <summary className="cursor-pointer hover:text-zinc-400">
+            Manifest path
+          </summary>
+          <form
+            className="mt-2 flex flex-wrap gap-2"
+            onSubmit={(e) => {
+              e.preventDefault();
+              requestLoadManifest(manifestPathInput);
+            }}
+          >
+            <input
+              className="min-w-[280px] flex-1 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-zinc-300"
+              value={manifestPathInput}
+              onChange={(e) => setManifestPathInput(e.target.value)}
+              placeholder="episodes/001_WhoWroteBackInBlack/timeline/media_search.json"
+            />
+            <button
+              type="submit"
+              className="rounded-lg border border-zinc-600 px-3 py-2 text-sm hover:bg-zinc-900"
+            >
+              Load path
+            </button>
+          </form>
+        </details>
         {loadState && (
           <p className="mt-2 text-xs text-zinc-500">
             {loadState.manifest.episode} · {items.length} items ·{" "}
@@ -762,55 +859,40 @@ export function ReviewWorkspace() {
               </p>
             </div>
 
-            {showMediaPreview && loadState.mediaLibrary && (
-              <>
-                <SelectedMediaPreview
-                  acquisition={currentAcq}
-                  project={loadState.mediaLibrary.project}
-                  itemId={currentItem.id}
-                  acquiredFiles={acquiredFiles}
-                  durationSec={currentItem.duration_sec}
-                  tStart={currentItem.t_start}
-                  tEnd={currentItem.t_end}
-                  onStickerOverlayEnabledChange={(enabled) =>
-                    updateCurrentAcq({ sticker_overlay_enabled: enabled })
-                  }
-                  onStickerOverlaySizeChange={(size) =>
-                    updateCurrentAcq({ sticker_overlay_size: size })
-                  }
-                  onTitleOverlayEnabledChange={(enabled) =>
-                    updateCurrentAcq({ title_overlay_enabled: enabled })
-                  }
-                />
-                {needsMediaTool && (
-                  <CueLibraryPicker
-                    manifestPath={loadState.manifestPath}
-                    episodeId={loadState.acquisition.episode}
-                    itemId={currentItem.id}
-                    acquisition={currentAcq}
-                    defaultQuery={
-                      currentAcq.queries[0]?.query ??
-                      currentItem.search_queries[0] ??
-                      ""
-                    }
-                    onStaged={refreshAfterAcquiredChange}
-                  />
-                )}
-                <CueStagedMedia
-                  acquisition={currentAcq}
-                  project={loadState.mediaLibrary.project}
-                  itemId={currentItem.id}
-                  legacyAcquiredFiles={acquiredFiles}
-                  onRemove={removeStagedSelection}
-                />
-              </>
-            )}
-
             <blockquote className="mt-4 text-xl leading-relaxed text-zinc-100">
               &ldquo;{currentItem.spoken}&rdquo;
             </blockquote>
 
-            <dl className="mt-4 grid gap-2 text-sm sm:grid-cols-2">
+            <CueSplitPanel
+              manifestPath={loadState.manifestPath}
+              item={currentItem}
+              onSplitComplete={(result) => {
+                const manifest = result.manifest as MediaToolManifest;
+                const acquisition = result.acquisition as MediaAcquisitionDocument;
+                setLoadState((s) =>
+                  s
+                    ? {
+                        ...s,
+                        manifest,
+                        acquisition,
+                        mediaLibrary:
+                          (result.mediaLibrary as MediaLibraryStatus | null) ??
+                          s.mediaLibrary,
+                      }
+                    : s,
+                );
+                setSavedItems(cloneSavedItems(acquisition.items));
+                const nextIndex = manifest.items.findIndex(
+                  (it) => it.id === result.firstId,
+                );
+                if (nextIndex >= 0) setItemIndex(nextIndex);
+                setSaveMessage(
+                  `Split → ${result.firstId} + ${result.secondId}. Rebuild Remotion timeline before render.`,
+                );
+              }}
+            />
+
+            <dl className="mt-4 grid gap-2 border-t border-zinc-800/80 pt-4 text-sm sm:grid-cols-2">
               <Meta label="Editorial" value={currentItem.editorial_intent} />
               <Meta label="Situation" value={currentItem.situation} />
               <Meta
@@ -835,6 +917,60 @@ export function ReviewWorkspace() {
                 />
               )}
             </dl>
+
+            {showMediaPreview && loadState.mediaLibrary && (
+              <div className="mt-6 border-t border-zinc-800/80 pt-6">
+                <SelectedMediaPreview
+                  acquisition={currentAcq}
+                  project={loadState.mediaLibrary.project}
+                  itemId={currentItem.id}
+                  acquiredFiles={acquiredFiles}
+                  durationSec={currentItem.duration_sec}
+                  tStart={currentItem.t_start}
+                  tEnd={currentItem.t_end}
+                  onStickerOverlayEnabledChange={(enabled) =>
+                    updateCurrentAcq({ sticker_overlay_enabled: enabled })
+                  }
+                  onStickerOverlaySizeChange={(size) =>
+                    updateCurrentAcq({ sticker_overlay_size: size })
+                  }
+                  onTitleOverlayEnabledChange={(enabled) =>
+                    updateCurrentAcq({ title_overlay_enabled: enabled })
+                  }
+                  onPlateStartFromSecChange={(selection, startFromSec) => {
+                    if (!currentAcq) return;
+                    updateCurrentAcq(
+                      updateSelectionStartFromSec(
+                        currentAcq,
+                        selection.result_id,
+                        startFromSec,
+                      ),
+                    );
+                  }}
+                />
+                {needsMediaTool && (
+                  <CueLibraryPicker
+                    manifestPath={loadState.manifestPath}
+                    episodeId={loadState.acquisition.episode}
+                    itemId={currentItem.id}
+                    acquisition={currentAcq}
+                    defaultQuery={
+                      currentAcq.queries[0]?.query ??
+                      currentItem.search_queries[0] ??
+                      ""
+                    }
+                    onStaged={refreshAfterAcquiredChange}
+                  />
+                )}
+                <CueStagedMedia
+                  acquisition={currentAcq}
+                  project={loadState.mediaLibrary.project}
+                  itemId={currentItem.id}
+                  legacyAcquiredFiles={acquiredFiles}
+                  onRemove={removeStagedSelection}
+                />
+              </div>
+            )}
           </section>
 
           {/* Overrides */}
@@ -1115,11 +1251,15 @@ export function ReviewWorkspace() {
             )}
           </footer>
 
-          {pendingNavIndex !== null && currentItem && (
+          {(pendingNavIndex !== null || pendingEpisodeManifest !== null) &&
+            currentItem && (
             <UnsavedChangesDialog
               itemId={currentItem.id}
               saving={saving}
-              onCancel={() => setPendingNavIndex(null)}
+              onCancel={() => {
+                setPendingNavIndex(null);
+                setPendingEpisodeManifest(null);
+              }}
               onDiscardAndContinue={discardCurrentAndNavigate}
               onSaveAndContinue={() => void saveAndNavigate()}
             />

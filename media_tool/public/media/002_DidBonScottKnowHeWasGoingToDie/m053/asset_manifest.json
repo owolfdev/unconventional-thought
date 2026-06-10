@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m053",
   "cue": 53,
-  "t_start": 345.98,
-  "t_end": 351.16,
-  "duration_sec": 5.18,
-  "spoken": "American market. You have to understand their demographic at that moment. Working class,",
+  "t_start": 332.12,
+  "t_end": 338.96,
+  "duration_sec": 6.84,
+  "spoken": "subcultures that mainstream rock audiences viewed as alien, like disco, queer, and art scene spaces.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.942Z"
+  "updated_at": "2026-06-10T11:35:30.054Z"
 }

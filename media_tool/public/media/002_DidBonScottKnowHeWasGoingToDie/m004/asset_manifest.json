@@ -41,7 +41,7 @@
     {
       "slot": "primary",
       "description": "Highway to Hell era live — peak Bon Scott stage energy.",
-      "status": "needed"
+      "status": "selected"
     },
     {
       "slot": "search_1",
@@ -54,11 +54,15 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "IMG_5732.WEBP"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.920Z"
+  "updated_at": "2026-06-10T11:35:30.042Z"
 }

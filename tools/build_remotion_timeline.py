@@ -669,9 +669,32 @@ def pick_overlay_file(
     return None
 
 
-def pick_plate_media_files(item_id: str, acq: dict, manifest: dict | None) -> list[Path]:
-    """All non-overlay plate files in acquisition selection order."""
-    paths: list[Path] = []
+def selection_start_from_sec(sel: dict) -> float | None:
+    raw = sel.get("start_from_sec")
+    if raw is None:
+        return None
+    try:
+        sec = float(raw)
+    except (TypeError, ValueError):
+        return None
+    return sec if sec > 0 else None
+
+
+def plate_frame_dict(path: Path, start_from_sec: float | None) -> dict:
+    frame = {
+        "src": rel_public(path.resolve()),
+        "mediaKind": media_kind(path),
+    }
+    if start_from_sec is not None and media_kind(path) == "video":
+        frame["startFromSec"] = start_from_sec
+    return frame
+
+
+def pick_plate_media_entries(
+    item_id: str, acq: dict, manifest: dict | None
+) -> list[dict]:
+    """Non-overlay plate files in acquisition selection order + optional in-points."""
+    entries: list[dict] = []
     seen: set[str] = set()
     for sel in iter_selections(acq):
         if is_overlay_selection(sel):
@@ -685,9 +708,9 @@ def pick_plate_media_files(item_id: str, acq: dict, manifest: dict | None) -> li
         if key in seen:
             continue
         seen.add(key)
-        paths.append(p)
-    if paths:
-        return paths
+        entries.append({"path": p, "start_from_sec": selection_start_from_sec(sel)})
+    if entries:
+        return entries
 
     names: list[str] = []
     if manifest:
@@ -706,24 +729,28 @@ def pick_plate_media_files(item_id: str, acq: dict, manifest: dict | None) -> li
             key = str(p.resolve())
             if key not in seen:
                 seen.add(key)
-                paths.append(p)
-    return paths
+                entries.append({"path": p, "start_from_sec": None})
+    return entries
 
 
-def apply_plate_media_to_shot(shot: dict, plate_paths: list[Path]) -> None:
-    if not plate_paths:
+def pick_plate_media_files(item_id: str, acq: dict, manifest: dict | None) -> list[Path]:
+    return [e["path"] for e in pick_plate_media_entries(item_id, acq, manifest)]
+
+
+def apply_plate_media_to_shot(shot: dict, plate_entries: list[dict]) -> None:
+    if not plate_entries:
         return
-    if len(plate_paths) > 1:
-        shot["plateSequence"] = [
-            {
-                "src": rel_public(p.resolve()),
-                "mediaKind": media_kind(p),
-            }
-            for p in plate_paths
-        ]
-    first = plate_paths[0]
-    shot["src"] = rel_public(first.resolve())
-    shot["mediaKind"] = media_kind(first)
+    frames = [
+        plate_frame_dict(e["path"], e.get("start_from_sec"))
+        for e in plate_entries
+    ]
+    if len(frames) > 1:
+        shot["plateSequence"] = frames
+    first = frames[0]
+    shot["src"] = first["src"]
+    shot["mediaKind"] = first["mediaKind"]
+    if first.get("startFromSec") is not None:
+        shot["startFromSec"] = first["startFromSec"]
     shot["missingMedia"] = False
 
 
@@ -775,8 +802,8 @@ def build_shot(
     from_frame = round(t_start_adj * fps)
     duration_frames = max(1, round((t_end_adj - t_start_adj) * fps))
 
-    plate_paths = pick_plate_media_files(item_id, acq, manifest)
-    media_path = plate_paths[0] if plate_paths else None
+    plate_entries = pick_plate_media_entries(item_id, acq, manifest)
+    media_path = plate_entries[0]["path"] if plate_entries else None
     resolved_type = acq.get("resolved_media_type", "photo")
 
     notes_raw = acq.get("notes")
@@ -844,8 +871,8 @@ def build_shot(
         shot["titleOverlaySrc"] = rel_public(title_path.resolve())
 
     if mode == "effect_only":
-        if plate_paths:
-            apply_plate_media_to_shot(shot, plate_paths)
+        if plate_entries:
+            apply_plate_media_to_shot(shot, plate_entries)
             if notes and notes_show_full_image(notes):
                 shot["mediaFit"] = "contain"
         else:
@@ -882,8 +909,8 @@ def build_shot(
     if notes and notes_show_full_image(notes):
         shot["mediaFit"] = "contain"
 
-    if plate_paths:
-        apply_plate_media_to_shot(shot, plate_paths)
+    if plate_entries:
+        apply_plate_media_to_shot(shot, plate_entries)
     elif sticker_path or title_path:
         shot["mediaKind"] = "none"
         shot["missingMedia"] = False

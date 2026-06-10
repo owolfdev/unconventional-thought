@@ -1,8 +1,8 @@
 {
   "id": "m064",
   "cue": 64,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
   "resolved_media_type": "photo",
   "status": "pending",
   "notes": "",
@@ -17,14 +17,14 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott 1979 photograph",
+      "query": "gold record award disc close up",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 1,
-      "query": "Bon Scott AC/DC 1980",
+      "query": "platinum album plaque 1980s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []

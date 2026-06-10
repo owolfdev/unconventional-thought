@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m059",
   "cue": 59,
-  "t_start": 388.06,
-  "t_end": 394.9,
-  "duration_sec": 6.84,
-  "spoken": "died like a velvet underground groupie? Look, in 1980, radio gatekeepers were conservative.",
+  "t_start": 375.48,
+  "t_end": 382.42,
+  "duration_sec": 6.94,
+  "spoken": "not just be bad press. It would feel like cultural betrayal. ACDC were just about to put out",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -56,5 +56,5 @@
   "requires_media_files": true,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-06T21:44:49.945Z"
+  "updated_at": "2026-06-10T11:35:30.055Z"
 }
