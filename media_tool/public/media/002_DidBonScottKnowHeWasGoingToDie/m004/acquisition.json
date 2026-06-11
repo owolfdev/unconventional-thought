@@ -4,10 +4,10 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "in_progress",
-  "notes": "",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
@@ -19,31 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "bon scott in studio 1979",
-      "engine_id": "google_images",
-      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "query": "Bon Scott Highway to Hell tour 1979 live",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:e7a3faabf54b8bd8",
-          "url": "/media/_library/assets/e7a3faabf54b8bd8/IMG_5732.WEBP",
-          "thumbnail_url": "/media/_library/assets/e7a3faabf54b8bd8/IMG_5732.WEBP",
-          "title": "IMG_5732.WEBP",
-          "source_page": "/media/_library/assets/e7a3faabf54b8bd8/IMG_5732.WEBP",
-          "license": "manual import — verify rights",
-          "engine_id": "library",
-          "query": "AC/DC Highway to Hell tour 1979",
-          "selected_at": "2026-06-10T10:02:53.219Z"
+          "result_id": "library:a2e868fd6f3d4bd9",
+          "url": "/media/_library/assets/a2e868fd6f3d4bd9/in-acdc-logo-style-he-knew.png",
+          "thumbnail_url": "/media/_library/assets/a2e868fd6f3d4bd9/in-acdc-logo-style-he-knew.png",
+          "title": "in AC/DC logo style: HE KNEW",
+          "source_page": "/media/_library/assets/a2e868fd6f3d4bd9/in-acdc-logo-style-he-knew.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: in AC/DC logo style: HE KNEW",
+          "selected_at": "2026-06-11T19:44:12.817Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott Highway to Hell live 1979",
+      "query": "AC/DC recording Highway to Hell 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott microphone 1979 performance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-10T10:06:21.782Z"
+  "completed_at": "2026-06-11T09:39:58.214651Z",
+  "updated_at": "2026-06-11T19:44:45.580Z"
 }

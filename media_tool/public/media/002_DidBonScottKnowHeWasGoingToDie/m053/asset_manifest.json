@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m053",
   "cue": 53,
-  "t_start": 332.12,
-  "t_end": 338.96,
-  "duration_sec": 6.84,
-  "spoken": "subcultures that mainstream rock audiences viewed as alien, like disco, queer, and art scene spaces.",
+  "t_start": 227.92,
+  "t_end": 232.92,
+  "duration_sec": 5,
+  "spoken": "It moved through elite rooms, working bands, after parties, and studio circles.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-1qgBUe1lzpDPUJS5bd.gif",
+    "respect-sincere-uneironic-respect.gif"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.054Z"
+  "updated_at": "2026-06-11T21:10:09.343Z"
 }

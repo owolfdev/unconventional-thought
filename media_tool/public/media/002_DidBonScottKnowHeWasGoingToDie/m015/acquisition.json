@@ -2,11 +2,13 @@
   "id": "m015",
   "cue": 15,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "pending",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "in_progress",
   "notes": "",
-  "effects": [],
+  "effects": [
+    "film_damage"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -17,19 +19,26 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "Bon Scott 1979 live relaxed performance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query": "Bon Scott Highway to Hell tour leaning microphone",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott 1979 stage calm expression",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "updated_at": "2026-06-11T20:17:58.092Z"
 }

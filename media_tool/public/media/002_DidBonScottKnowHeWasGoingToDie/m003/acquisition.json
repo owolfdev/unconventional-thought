@@ -7,8 +7,8 @@
   "status": "in_progress",
   "notes": "",
   "effects": [
-    "slow_push_in",
-    "film_damage"
+    "film_damage",
+    "vignette_soft"
   ],
   "transition": null,
   "text_graphic": null,
@@ -20,31 +20,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC Highway to Hell tour 1979",
+      "query": "crossroads Mississippi blues folklore photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:fe58b90977ea9f80",
-          "url": "/media/_library/assets/fe58b90977ea9f80/IMG_5733.WEBP",
-          "thumbnail_url": "/media/_library/assets/fe58b90977ea9f80/IMG_5733.WEBP",
-          "title": "IMG_5733.WEBP",
-          "source_page": "/media/_library/assets/fe58b90977ea9f80/IMG_5733.WEBP",
-          "license": "manual import — verify rights",
+          "result_id": "library:c7eefae85ab039c9",
+          "url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+          "thumbnail_url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+          "title": "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+          "source_page": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
           "engine_id": "library",
-          "query": "AC/DC Highway to Hell tour 1979",
-          "selected_at": "2026-06-10T10:02:11.124Z"
+          "query": "crossroads Mississippi blues folklore photograph",
+          "selected_at": "2026-06-11T11:41:32.320Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott Highway to Hell live 1979",
+      "query": "Bon Scott AC/DC fame 1979 press",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "rock star spotlight silhouette 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-10T10:02:24.767Z"
+  "updated_at": "2026-06-11T11:41:40.989Z"
 }

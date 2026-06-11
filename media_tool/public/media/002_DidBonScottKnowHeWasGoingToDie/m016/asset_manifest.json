@@ -2,11 +2,11 @@
   "version": 1,
   "id": "m016",
   "cue": 16,
-  "t_start": 90.74,
-  "t_end": 99.14,
-  "duration_sec": 8.4,
-  "spoken": "60s and 70s. Picture at this, it's 1931 in Mississippi. It's the dead of night. Nothing but the heat,",
-  "visual_mode": "historical",
+  "t_start": 49.12,
+  "t_end": 56.24,
+  "duration_sec": 7.12,
+  "spoken": "It almost sounds inebriated, but it's not alcohol. This is different. People who know about these",
+  "visual_mode": "artifact",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-Hrhjdtxtuu3wIrSKrQ.gif",
+    "IMG_5729.JPG"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.045Z"
+  "updated_at": "2026-06-11T21:10:09.334Z"
 }

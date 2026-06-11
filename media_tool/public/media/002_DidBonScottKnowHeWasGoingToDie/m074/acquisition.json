@@ -1,0 +1,56 @@
+{
+  "id": "m074",
+  "cue": 74,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Andy Warhol factory 1970s photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:094f27350f2e7c95",
+          "url": "/media/_library/assets/094f27350f2e7c95/brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+          "thumbnail_url": "/media/_library/assets/094f27350f2e7c95/brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+          "title": "brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+          "source_page": "/media/_library/assets/094f27350f2e7c95/brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "Andy Warhol factory 1970s photograph",
+          "selected_at": "2026-06-11T09:39:58.227677Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Velvet Underground era New York 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "downtown Manhattan 1970s nightlife",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.227681Z",
+  "updated_at": "2026-06-11T09:39:58.227681Z"
+}

@@ -88,6 +88,8 @@ export interface Timeline {
   width: number;
   height: number;
   durationInFrames: number;
+  /** Composition frame when master VO begins (after m000 title preroll). */
+  audioFromFrame?: number;
   audioSrc: string;
   /** Burn-in cue + m### labels (from media_tool toggle / preview-settings.json). */
   showCueOverlay?: boolean;

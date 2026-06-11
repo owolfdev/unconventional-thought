@@ -2,26 +2,30 @@
   "version": 1,
   "id": "m023",
   "cue": 23,
-  "t_start": 140.32,
-  "t_end": 147.78,
-  "duration_sec": 7.46,
-  "spoken": "supernatural ability on the guitar in otherworldly voice. The devil also promised him fame. But Johnson",
+  "t_start": 63.14,
+  "t_end": 71.2,
+  "duration_sec": 8.06,
+  "spoken": "No stop signs, speed limit, haste Satan, paying my dues. I'm on the highway to Hell. That's not",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+  "situation": "AC/DC Highway to Hell tour live performance 1979",
   "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
     {
       "name": "AC/DC",
       "role": "band"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1979",
+  "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "AC/DC Highway to Hell tour 1979",
+    "Bon Scott Highway to Hell live 1979"
   ],
   "avoid": [
     "courtroom",
@@ -31,30 +35,49 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
-  "text_graphic_layer": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "NO STOP SIGNS · PAYING MY DUES · HIGHWAY TO HELL",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": {
+    "type": "transcription",
+    "text": "NO STOP SIGNS · PAYING MY DUES · HIGHWAY TO HELL",
+    "style": "typewriter"
+  },
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "description": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: AC/DC Highway to Hell tour 1979",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Bon Scott Highway to Hell live 1979",
       "status": "needed"
+    },
+    {
+      "slot": "text_overlay",
+      "description": "Text layer: transcription — NO STOP SIGNS · PAYING MY DUES · HIGHWAY TO HELL",
+      "status": "acquired"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "slow_scroll_up"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-c9UTLQN4zBP3aQdP11.gif",
+    "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.047Z"
+  "updated_at": "2026-06-11T21:10:09.336Z"
 }

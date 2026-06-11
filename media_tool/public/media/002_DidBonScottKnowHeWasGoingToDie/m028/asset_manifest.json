@@ -2,59 +2,56 @@
   "version": 1,
   "id": "m028",
   "cue": 28,
-  "t_start": 172.48,
-  "t_end": 178.94,
-  "duration_sec": 6.46,
-  "spoken": "Bond wasn't 27. He was 33 when he died. But the bargain doesn't care about birthdays. It cares",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "t_start": 84.72,
+  "t_end": 85.6,
+  "duration_sec": 0.88,
+  "spoken": "a story that was",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "'His best work' — studio or stage peak 1979; pivot into folklore story.",
+  "situation": "AC/DC Highway to Hell sessions or tour — creative peak 1979",
   "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
     {
       "name": "AC/DC",
       "role": "band"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1979",
+  "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "AC/DC studio 1979 recording session",
+    "Bon Scott 1979 creative peak live",
+    "AC/DC band studio 1979 photograph"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_damage"
+  ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.048Z"
+  "updated_at": "2026-06-11T21:10:09.337Z"
 }

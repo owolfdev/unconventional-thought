@@ -4,32 +4,60 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
-  "notes": "",
-  "effects": [],
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "Jimi Hendrix 1969 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:d408c69e2da9da35",
+          "url": "/media/_library/assets/d408c69e2da9da35/i-used-up-one-of-my-nine-lives-on-that-one.jpg",
+          "thumbnail_url": "/media/_library/assets/d408c69e2da9da35/i-used-up-one-of-my-nine-lives-on-that-one.jpg",
+          "title": "i-used-up-one-of-my-nine-lives-on-that-one.jpg",
+          "source_page": "/media/_library/assets/d408c69e2da9da35/i-used-up-one-of-my-nine-lives-on-that-one.jpg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "Jimi Hendrix 1969 photograph",
+          "selected_at": "2026-06-11T09:39:58.220210Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Janis Joplin 1970 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
-      "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query_index": 2,
+      "query": "Jim Morrison 1971 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 3,
+      "query": "Kurt Cobain 1990s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "completed_at": "2026-06-11T09:39:58.220214Z",
+  "updated_at": "2026-06-11T09:39:58.220214Z"
 }

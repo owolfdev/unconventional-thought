@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m056",
   "cue": 56,
-  "t_start": 351.16,
-  "t_end": 359.88,
-  "duration_sec": 8.72,
-  "spoken": "mainstream, suburban, beer, denim, v8s. That crowd was explicitly anti-disco and suspicious of",
+  "t_start": 245.08,
+  "t_end": 249.76,
+  "duration_sec": 4.68,
+  "spoken": "It's not a fantasy. It's documented rock history. So the question is not",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -31,13 +31,21 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
-  "text_graphic_layer": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "IT'S DOCUMENTED ROCK HISTORY.",
+    "style": "newspaper"
+  },
+  "text_graphic_layer": {
+    "type": "quote",
+    "text": "IT'S DOCUMENTED ROCK HISTORY.",
+    "style": "newspaper"
+  },
   "targets": [
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -48,13 +56,23 @@
       "slot": "search_2",
       "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
+    },
+    {
+      "slot": "text_overlay",
+      "description": "Text layer: quote — IT'S DOCUMENTED ROCK HISTORY.",
+      "status": "acquired"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-MuK3a9CRcnTIk.gif",
+    "it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.054Z"
+  "updated_at": "2026-06-11T21:10:09.344Z"
 }

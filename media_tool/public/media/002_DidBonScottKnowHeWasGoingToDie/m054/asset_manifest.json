@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m054",
   "cue": 54,
-  "t_start": 339.62,
-  "t_end": 345.98,
-  "duration_sec": 6.36,
-  "spoken": "And that stigma made the story commercially explosive. ACDC was trying to further conquer the",
+  "t_start": 233.58,
+  "t_end": 238.76,
+  "duration_sec": 5.18,
+  "spoken": "Some of the biggest artists in modern music have openly talked about it. John Lennon talked",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-Naz61B60A2e6A.gif",
+    "asset.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.054Z"
+  "updated_at": "2026-06-11T21:10:09.343Z"
 }

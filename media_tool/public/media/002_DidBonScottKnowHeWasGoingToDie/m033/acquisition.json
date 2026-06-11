@@ -4,9 +4,13 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
+  "status": "in_progress",
   "notes": "",
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_grain",
+    "vignette_heavy"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -17,19 +21,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "Mississippi crossroads intersection photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:7a4b5310337724f9",
+          "url": "/media/_library/assets/7a4b5310337724f9/genphoto-5bfb4176.jpg",
+          "thumbnail_url": "/media/_library/assets/7a4b5310337724f9/genphoto-5bfb4176.jpg",
+          "title": "1931 dead of night in summer heat in Mississippi, Robert Johnson stands there with a guitar. back lighting mysterious.",
+          "source_page": "/media/_library/assets/7a4b5310337724f9/genphoto-5bfb4176.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: 1931 dead of night in summer heat in Mississippi, Robert Johnson stands there with a guitar. back lighting mysterious.",
+          "selected_at": "2026-06-11T21:07:24.834Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Delta blues rural road intersection",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
-      "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query_index": 2,
+      "query": "lonely dirt road southern USA night",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "updated_at": "2026-06-11T21:08:23.725Z"
 }

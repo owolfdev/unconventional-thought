@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m062",
   "cue": 62,
-  "t_start": 395.54,
-  "t_end": 401.96,
-  "duration_sec": 6.42,
-  "spoken": "Advertisers were risk averse. Program directors would have backed away fast. A heroin story could",
+  "t_start": 285.12,
+  "t_end": 289.58,
+  "duration_sec": 4.46,
+  "spoken": "Here's what bothers people. In a case this culturally and commercially important,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-3b5uEK1rJJ0IEjpoXT.gif",
+    "wait-nobody-finds-that-a-little-convenience.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.056Z"
+  "updated_at": "2026-06-11T21:10:09.345Z"
 }

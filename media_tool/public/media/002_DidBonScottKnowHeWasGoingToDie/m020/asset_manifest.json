@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m020",
   "cue": 20,
-  "t_start": 118.04,
-  "t_end": 125.8,
-  "duration_sec": 7.76,
-  "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
+  "t_start": 56.24,
+  "t_end": 62.06,
+  "duration_sec": 5.82,
+  "spoken": "things might pick up on it. It's like a supernatural nonchalance. And what about the lyrics?",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,15 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_damage"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-VR5vpHql907juPFGTU.gif"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.046Z"
+  "updated_at": "2026-06-11T21:10:09.335Z"
 }

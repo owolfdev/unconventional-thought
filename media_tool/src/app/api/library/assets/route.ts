@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import {
   listLibraryAssets,
   parseSearchFieldsParam,
+  parseLibraryFormatFilter,
   searchFieldsToParam,
 } from "@/lib/media-library";
 import type { LibraryKind } from "@/lib/media-library";
@@ -18,6 +19,7 @@ export async function GET(request: NextRequest) {
       ? (kindsParam.split(",").filter(Boolean) as LibraryKind[])
       : undefined;
     const searchFields = parseSearchFieldsParam(params.get("fields"));
+    const format = parseLibraryFormatFilter(params.get("format"));
 
     const result = listLibraryAssets({
       query: q,
@@ -26,11 +28,13 @@ export async function GET(request: NextRequest) {
       limit: Number.isFinite(limit) ? limit : 48,
       offset: Number.isFinite(offset) ? offset : 0,
       searchFields,
+      format,
     });
 
     return NextResponse.json({
       query: q,
       fields: searchFieldsToParam(searchFields),
+      format,
       ...result,
       limit: Number.isFinite(limit) ? limit : 48,
       offset: Number.isFinite(offset) ? offset : 0,

@@ -637,6 +637,8 @@ def _overlay_basename(sel: dict) -> str:
     url = sel.get("url") or ""
     if "/acquired/" in url:
         return url.rsplit("/", 1)[-1]
+    if "/media/_library/assets/" in url:
+        return unquote(url.rsplit("/", 1)[-1].split("?")[0])
     return ""
 
 
@@ -782,12 +784,24 @@ def read_show_cue_overlay() -> bool:
     return True
 
 
+def compute_preroll_sec(items: list[dict]) -> float:
+    """Silence + title card before VO: duration of m000 when it has no spoken line."""
+    for item in items:
+        if item.get("id") != "m000":
+            continue
+        if (item.get("spoken") or "").strip():
+            return 0.0
+        return max(0.0, float(item["t_end"]) - float(item["t_start"]))
+    return 0.0
+
+
 def build_shot(
     item: dict,
     acq: dict,
     manifest: dict | None,
     fps: int,
     transcript_words: list[dict] | None = None,
+    preroll_sec: float = 0.0,
 ) -> dict:
     item_id = item["id"]
     mode = acq.get("resolved_visual_mode") or item.get("visual_mode", "historical")
@@ -799,7 +813,8 @@ def build_shot(
     t_start_adj = max(0.0, t_start - lead_in_sec)
     t_end_adj = t_end + lead_out_sec
 
-    from_frame = round(t_start_adj * fps)
+    preroll_frames = round(preroll_sec * fps) if item_id != "m000" else 0
+    from_frame = round(t_start_adj * fps) + preroll_frames
     duration_frames = max(1, round((t_end_adj - t_start_adj) * fps))
 
     plate_entries = pick_plate_media_entries(item_id, acq, manifest)
@@ -814,6 +829,9 @@ def build_shot(
     overlays = build_video_overlays(item_id, effects, transition, duration_sec)
 
     media_delay_sec = SPECIAL_MEDIA_DELAY.get(item_id, 0.0)
+    # Title preroll already holds m001 plate until VO; ep001 delay was for pre-preroll audio.
+    if preroll_sec > 0 and item_id == "m001":
+        media_delay_sec = 0.0
     media_scale = SPECIAL_MEDIA_SCALE.get(item_id)
     media_fit = SPECIAL_MEDIA_FIT.get(item_id)
     motion = SPECIAL_MOTION.get(item_id, {})
@@ -954,6 +972,8 @@ def main() -> int:
     items = [it for it in data["items"] if parse_max_id(it["id"]) <= max_n]
 
     transcript_words = load_transcript_words()
+    preroll_sec = compute_preroll_sec(items)
+    audio_from_frame = round(preroll_sec * args.fps)
     shots: list[dict] = []
     missing = 0
     for item in items:
@@ -970,7 +990,9 @@ def main() -> int:
             if man_path.is_file()
             else None
         )
-        shot = build_shot(item, acq, manifest, args.fps, transcript_words)
+        shot = build_shot(
+            item, acq, manifest, args.fps, transcript_words, preroll_sec
+        )
         if shot.get("missingMedia") and shot["visualMode"] not in (
             "text_graphic",
             "effect_only",
@@ -979,7 +1001,7 @@ def main() -> int:
         shots.append(shot)
 
     end_sec = max(float(it["t_end"]) for it in items)
-    duration_frames = round(end_sec * args.fps) + args.fps
+    duration_frames = round((end_sec + preroll_sec) * args.fps) + args.fps
 
     doc = {
         "version": 1,
@@ -990,6 +1012,7 @@ def main() -> int:
         "width": 1920,
         "height": 1080,
         "durationInFrames": duration_frames,
+        "audioFromFrame": audio_from_frame,
         "audioSrc": rel_public(audio_path.resolve()),
         "showCueOverlay": read_show_cue_overlay(),
         "shots": shots,
@@ -1003,8 +1026,9 @@ def main() -> int:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(doc, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {out_path}")
+    preroll_note = f" · preroll {preroll_sec:.2f}s" if preroll_sec > 0 else ""
     print(
-        f"  {len(shots)} shots · ends {end_sec:.2f}s · {duration_frames} frames @ {args.fps}fps"
+        f"  {len(shots)} shots · ends {end_sec:.2f}s · {duration_frames} frames @ {args.fps}fps{preroll_note}"
     )
     print(f"  {missing} shots missing acquired media (will show placeholder)")
     return 0

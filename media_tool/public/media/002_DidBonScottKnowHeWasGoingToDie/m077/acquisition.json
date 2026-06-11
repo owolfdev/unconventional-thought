@@ -1,0 +1,56 @@
+{
+  "id": "m077",
+  "cue": 77,
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Back in Black vinyl record 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:f9f39c4301aaab48",
+          "url": "/media/_library/assets/f9f39c4301aaab48/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
+          "thumbnail_url": "/media/_library/assets/f9f39c4301aaab48/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
+          "title": "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
+          "source_page": "/media/_library/assets/f9f39c4301aaab48/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "Back in Black vinyl record 1980",
+          "selected_at": "2026-06-11T09:39:58.228389Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC Back in Black album sleeve 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "black vinyl LP 1980 Atlantic Records",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.228393Z",
+  "updated_at": "2026-06-11T09:39:58.228393Z"
+}

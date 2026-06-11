@@ -1,35 +1,50 @@
 {
   "id": "m045",
   "cue": 45,
-  "source_visual_mode": "historical",
+  "source_visual_mode": "text_graphic",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
-  "notes": "",
-  "effects": [],
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
-  "text_graphic": null,
-  "text_graphic_layer": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "33.",
+    "style": "minimal_white"
+  },
+  "text_graphic_layer": {
+    "type": "title",
+    "text": "33.",
+    "style": "minimal_white"
+  },
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "(text graphic — no archive search)",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:aadb15e60b8c24f1",
+          "url": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+          "thumbnail_url": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+          "title": "dark-bon.webp",
+          "source_page": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "m028",
+          "selected_at": "2026-06-11T09:39:58.220861Z"
+        }
+      ]
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "completed_at": "2026-06-11T09:39:58.220864Z",
+  "updated_at": "2026-06-11T09:39:58.220864Z"
 }

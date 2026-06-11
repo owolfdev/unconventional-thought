@@ -83,6 +83,20 @@ export function flattenStagedSelections(acq: ItemAcquisition): StagedSelection[]
   return out;
 }
 
+/** Library asset id for the cue's primary plate (excludes sticker/giphy/title layers). */
+export function selectedPlateLibraryId(acq: ItemAcquisition): string | null {
+  const staged = flattenStagedSelections(acq);
+  const plate = staged.find(
+    ({ selection }) =>
+      selection.result_id.startsWith("library:") &&
+      !selection.engine_id.includes("sticker") &&
+      !selection.engine_id.includes("giphy") &&
+      !selection.engine_id.includes("title"),
+  );
+  if (!plate) return null;
+  return plate.selection.result_id.slice("library:".length);
+}
+
 /** Resolve browser URL for preview (library or legacy acquired path). */
 export function resolveSelectionPreviewUrl(
   selection: SelectedMedia,

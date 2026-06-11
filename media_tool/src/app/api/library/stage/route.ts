@@ -17,6 +17,7 @@ export async function POST(request: NextRequest) {
       queryIndex?: number;
       searchQuery?: string;
       selected?: boolean;
+      role?: "plate" | "sticker" | "title";
     };
 
     if (!body.itemId?.trim() || !body.libraryId?.trim()) {
@@ -48,6 +49,7 @@ export async function POST(request: NextRequest) {
           typeof body.queryIndex === "number" ? body.queryIndex : 0,
         query: body.searchQuery,
         selected: body.selected !== false,
+        role: body.role,
       },
     );
 

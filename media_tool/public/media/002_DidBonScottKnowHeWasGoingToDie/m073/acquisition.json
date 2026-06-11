@@ -1,0 +1,56 @@
+{
+  "id": "m073",
+  "cue": 73,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Disco Demolition Night 1979 Comiskey Park",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:35727d85900ce2bb",
+          "url": "/media/_library/assets/35727d85900ce2bb/but-the-narrator-is-generic.png",
+          "thumbnail_url": "/media/_library/assets/35727d85900ce2bb/but-the-narrator-is-generic.png",
+          "title": "but-the-narrator-is-generic.png",
+          "source_page": "/media/_library/assets/35727d85900ce2bb/but-the-narrator-is-generic.png",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "Disco Demolition Night 1979 Comiskey Park",
+          "selected_at": "2026-06-11T09:39:58.227445Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Steve Dahl disco demolition 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "disco records explosion baseball field 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.227449Z",
+  "updated_at": "2026-06-11T09:39:58.227449Z"
+}

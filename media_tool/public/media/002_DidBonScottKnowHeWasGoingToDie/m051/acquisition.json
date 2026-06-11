@@ -4,32 +4,53 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
-  "notes": "",
-  "effects": [],
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "rock musician funeral 1970s newspaper",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:8d177a2e301995e1",
+          "url": "/media/_library/assets/8d177a2e301995e1/funny%20bon.jpg",
+          "thumbnail_url": "/media/_library/assets/8d177a2e301995e1/funny%20bon.jpg",
+          "title": "funny bon.jpg",
+          "source_page": "/media/_library/assets/8d177a2e301995e1/funny%20bon.jpg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "rock musician funeral 1970s newspaper",
+          "selected_at": "2026-06-11T09:39:58.222146Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Eric Clapton 1970s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
-      "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query_index": 2,
+      "query": "Keith Richards 1970s live photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "completed_at": "2026-06-11T09:39:58.222150Z",
+  "updated_at": "2026-06-11T09:39:58.222150Z"
 }

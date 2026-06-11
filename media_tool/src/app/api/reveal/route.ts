@@ -6,6 +6,7 @@ import { promisify } from "util";
 import { getAcquiredDir } from "@/lib/media-folders";
 import { getAssetDir } from "@/lib/media-library/paths";
 import { readAssetMeta } from "@/lib/media-library/ingest";
+import { getRepoRoot } from "@/lib/paths";
 
 const execFileAsync = promisify(execFile);
 
@@ -72,21 +73,38 @@ function resolveInsideLibraryAsset(
   return resolvedTarget;
 }
 
-async function revealPath(absolutePath: string, revealFile: boolean) {
+type RevealAction = "reveal" | "open" | "folder";
+
+async function runPathAction(absolutePath: string, action: RevealAction) {
+  const stat = fs.statSync(absolutePath);
+  const isFile = stat.isFile();
+  const folder = isFile ? path.dirname(absolutePath) : absolutePath;
+
   if (process.platform === "darwin") {
-    const args = revealFile ? ["-R", absolutePath] : [absolutePath];
-    await execFileAsync("open", args);
+    if (action === "open") {
+      await execFileAsync("open", [absolutePath]);
+    } else if (action === "folder") {
+      await execFileAsync("open", [folder]);
+    } else {
+      await execFileAsync("open", isFile ? ["-R", absolutePath] : [absolutePath]);
+    }
     return;
   }
   if (process.platform === "win32") {
-    if (revealFile) {
+    if (action === "open") {
+      await execFileAsync("cmd", ["/c", "start", "", absolutePath]);
+    } else if (action === "folder") {
+      await execFileAsync("explorer", [folder]);
+    } else if (isFile) {
       await execFileAsync("explorer", ["/select,", absolutePath]);
     } else {
       await execFileAsync("explorer", [absolutePath]);
     }
     return;
   }
-  await execFileAsync("xdg-open", [absolutePath]);
+  await execFileAsync("xdg-open", [
+    action === "folder" ? folder : absolutePath,
+  ]);
 }
 
 export async function POST(request: NextRequest) {
@@ -96,12 +114,36 @@ export async function POST(request: NextRequest) {
       itemId?: string;
       libraryId?: string;
       filename?: string;
+      absolutePath?: string;
+      /** reveal = Finder highlight; open = default app; folder = open containing folder */
+      action?: RevealAction;
     };
 
     const filename = body.filename?.trim();
+    const action: RevealAction =
+      body.action === "open" || body.action === "folder" ? body.action : "reveal";
 
     let target: string;
-    if (body.libraryId?.trim()) {
+    if (body.absolutePath?.trim()) {
+      const repoRoot = fs.realpathSync(getRepoRoot());
+      const remotionOut = path.join(repoRoot, "remotion", "out");
+      const resolved = fs.realpathSync(body.absolutePath.trim());
+      if (
+        resolved !== remotionOut &&
+        !resolved.startsWith(`${remotionOut}${path.sep}`)
+      ) {
+        return NextResponse.json(
+          { error: "Path must be under remotion/out" },
+          { status: 400 },
+        );
+      }
+      if (!fs.existsSync(resolved)) {
+        return NextResponse.json({ error: "File not found" }, { status: 404 });
+      }
+      target = resolved;
+      await runPathAction(target, action);
+      return NextResponse.json({ ok: true, path: target, action });
+    } else if (body.libraryId?.trim()) {
       target = resolveInsideLibraryAsset(body.libraryId, filename || undefined);
     } else if (body.project?.trim() && body.itemId?.trim()) {
       const project = path.basename(body.project.trim());
@@ -123,12 +165,17 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    await revealPath(target, Boolean(filename));
+    const effectiveAction: RevealAction = filename
+      ? action
+      : action === "open"
+        ? "folder"
+        : action;
+    await runPathAction(target, effectiveAction);
 
     return NextResponse.json({
       ok: true,
       path: target,
-      revealed: Boolean(filename),
+      action: effectiveAction,
     });
   } catch (e) {
     const message = e instanceof Error ? e.message : "Unknown error";

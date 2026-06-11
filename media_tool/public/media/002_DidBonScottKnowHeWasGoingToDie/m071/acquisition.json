@@ -1,0 +1,56 @@
+{
+  "id": "m071",
+  "cue": 71,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC US tour 1980 crowd",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:955c769468f3a062",
+          "url": "/media/_library/assets/955c769468f3a062/acdc-1979-billboard-1548.webp",
+          "thumbnail_url": "/media/_library/assets/955c769468f3a062/acdc-1979-billboard-1548.webp",
+          "title": "acdc-1979-billboard-1548.webp",
+          "source_page": "/media/_library/assets/955c769468f3a062/acdc-1979-billboard-1548.webp",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "AC/DC US tour 1980 crowd",
+          "selected_at": "2026-06-11T09:39:58.227012Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC American audience 1980 concert",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "rock concert USA 1980 denim crowd",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.227015Z",
+  "updated_at": "2026-06-11T09:39:58.227015Z"
+}

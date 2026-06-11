@@ -2,15 +2,17 @@
   "id": "m005",
   "cue": 5,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "in_progress",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "text_graphic",
   "notes": "",
-  "effects": [
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "it was going to cost him everything.",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
@@ -19,31 +21,26 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "Bon Scott Highway to Hell tour 1979 live",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:0d61d90cad7217bd",
-          "url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
-          "thumbnail_url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
-          "title": "thinking-man-png-image-man-thinking.png",
-          "source_page": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
-          "license": "manual upload — verify rights",
-          "engine_id": "library",
-          "query": "Upload: thinking-man-png-image-man-thinking.png",
-          "selected_at": "2026-06-10T10:09:41.376Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query": "AC/DC recording Highway to Hell 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott microphone 1979 performance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-10T10:10:16.018Z"
+  "updated_at": "2026-06-11T11:39:52.263Z"
 }

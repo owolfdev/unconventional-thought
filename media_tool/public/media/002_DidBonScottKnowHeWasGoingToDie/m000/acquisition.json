@@ -2,13 +2,12 @@
   "id": "m000",
   "cue": 0,
   "source_visual_mode": "text_graphic",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[GIPHY placeholder pass — replace plate/sticker before publish]",
   "effects": [
-    "film_scratches",
-    "slow_push_in"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": {
@@ -23,7 +22,7 @@
   },
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
@@ -33,19 +32,19 @@
       "engine_url": "https://www.google.com/search?q={query}",
       "selections": [
         {
-          "result_id": "library:9398594e9a4d861e",
-          "url": "/media/_library/assets/9398594e9a4d861e/asset.jpg",
-          "thumbnail_url": "/media/_library/assets/9398594e9a4d861e/asset.jpg",
-          "title": "asset.jpg",
-          "source_page": "/media/_library/assets/9398594e9a4d861e/asset.jpg",
-          "license": "verify rights before use",
-          "engine_id": "library",
-          "query": "the thinker",
-          "selected_at": "2026-06-06T21:43:12.537Z"
+          "result_id": "library:2227bd0a7a4643a0",
+          "url": "/media/_library/assets/2227bd0a7a4643a0/asset.gif",
+          "thumbnail_url": "/media/_library/assets/2227bd0a7a4643a0/asset.gif",
+          "title": "Zuhalasz GIF by Zu",
+          "source_page": "/media/_library/assets/2227bd0a7a4643a0/asset.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: Zuhalasz GIF by Zu",
+          "selected_at": "2026-06-11T11:34:29.431Z"
         }
       ]
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-06T21:44:47.203Z"
+  "completed_at": "2026-06-11T11:37:02.811Z",
+  "updated_at": "2026-06-11T11:37:02.811Z"
 }

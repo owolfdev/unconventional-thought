@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m024",
   "cue": 24,
-  "t_start": 147.78,
-  "t_end": 156.08,
-  "duration_sec": 8.3,
-  "spoken": "died early before seeing it happen. He did become a legend just only after death. Take the 27 club,",
+  "t_start": 71.2,
+  "t_end": 77.98,
+  "duration_sec": 6.78,
+  "spoken": "just swagger, that's like acceptance. He's describing a momentum that he's decided not to resist.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-Oj6pkBpFjmy5V1CSOw.gif",
+    "and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.047Z"
+  "updated_at": "2026-06-11T21:10:09.336Z"
 }

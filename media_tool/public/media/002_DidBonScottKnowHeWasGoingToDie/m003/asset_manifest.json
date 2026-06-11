@@ -2,37 +2,34 @@
   "version": 1,
   "id": "m003",
   "cue": 3,
-  "t_start": 16.76,
-  "t_end": 22.7,
-  "duration_sec": 5.94,
-  "spoken": "and he knew he was going to cost him everything. That's why he wrote Highway to Hell.",
+  "t_start": 13.17,
+  "t_end": 16.18,
+  "duration_sec": 3.01,
+  "spoken": "more famous than he already was before,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
-  "situation": "AC/DC Highway to Hell tour live performance 1979",
+  "editorial_intent": "Faustian bargain — fame traded for cost. Crossroads mood without literal devil costume.",
+  "situation": "Robert Johnson crossroads folklore OR Bon at peak fame 1979 — calculated risk",
   "people": [
     {
       "name": "Bon Scott",
       "role": "vocalist"
-    },
-    {
-      "name": "AC/DC",
-      "role": "band"
     }
   ],
   "date_from": "1979",
   "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC Highway to Hell tour 1979",
-    "Bon Scott Highway to Hell live 1979"
+    "crossroads Mississippi blues folklore photograph",
+    "Bon Scott AC/DC fame 1979 press",
+    "rock star spotlight silhouette 1970s"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -40,30 +37,35 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "description": "Faustian bargain — fame traded for cost. Crossroads mood without literal devil costume.",
       "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC Highway to Hell tour 1979",
+      "description": "Candidate from query: crossroads Mississippi blues folklore photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Bon Scott Highway to Hell live 1979",
+      "description": "Candidate from query: Bon Scott AC/DC fame 1979 press",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: rock star spotlight silhouette 1970s",
       "status": "needed"
     }
   ],
   "effects": [
-    "slow_push_in",
-    "film_damage"
+    "film_damage",
+    "vignette_soft"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "IMG_5733.WEBP"
+    "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.042Z"
+  "updated_at": "2026-06-11T21:10:09.330Z"
 }

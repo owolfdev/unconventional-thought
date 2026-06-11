@@ -1,0 +1,56 @@
+{
+  "id": "m085",
+  "cue": 85,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "rock concert crowd cheering 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:48dfd3398fc95955",
+          "url": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
+          "thumbnail_url": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
+          "title": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
+          "source_page": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "rock concert crowd cheering 1979",
+          "selected_at": "2026-06-11T09:39:58.230225Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "concert tickets hands 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "stadium audience rock show 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.230228Z",
+  "updated_at": "2026-06-11T09:39:58.230228Z"
+}

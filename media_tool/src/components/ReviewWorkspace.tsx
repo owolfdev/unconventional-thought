@@ -27,15 +27,17 @@ import {
 import { BackgroundColorControl } from "./BackgroundColorControl";
 import { SelectedMediaPreview } from "./SelectedMediaPreview";
 import { GenerateStickerPanel } from "./GenerateStickerPanel";
+import { GeneratePhotoPanel } from "./GeneratePhotoPanel";
 import { GiphyStickerPanel } from "./GiphyStickerPanel";
 import { CueSplitPanel } from "./CueSplitPanel";
 import { EpisodePicker } from "./EpisodePicker";
+import { RenderLauncher } from "./RenderLauncher";
 import { UnsavedChangesDialog } from "./UnsavedChangesDialog";
 import type { EpisodeInfo } from "@/lib/episodes";
 import { normalizeBackgroundColor } from "@/lib/background-color";
 import { findIncompleteItemIndex } from "@/lib/acquisition";
 import { libraryHrefForCue } from "@/lib/library-cue-link";
-import { updateSelectionStartFromSec } from "@/lib/selection-media";
+import { selectedPlateLibraryId, updateSelectionStartFromSec } from "@/lib/selection-media";
 import {
   cloneSavedItems,
   isItemAcquisitionDirty,
@@ -626,10 +628,23 @@ export function ReviewWorkspace() {
     Boolean(currentAcq) &&
     !isTextGraphic;
 
+  const selectedLibraryId = currentAcq
+    ? selectedPlateLibraryId(currentAcq)
+    : null;
+
   const libraryHref =
     loadState && currentItem
-      ? libraryHrefForCue(loadState.manifestPath, currentItem.id)
+      ? libraryHrefForCue(loadState.manifestPath, currentItem.id, {
+          libraryId: selectedLibraryId,
+        })
       : "/library";
+  const editLibraryHref =
+    loadState && currentItem && selectedLibraryId
+      ? libraryHrefForCue(loadState.manifestPath, currentItem.id, {
+          libraryId: selectedLibraryId,
+          crop: true,
+        })
+      : null;
 
   if (!loadState && !error) {
     return (
@@ -661,25 +676,6 @@ export function ReviewWorkspace() {
           <code className="text-amber-400/90">acquired/</code>
             </p>
           </div>
-          {loadState && (
-            <button
-              type="button"
-              disabled={overlayBusy}
-              onClick={() => void setRemotionCueOverlay(!showCueOverlay)}
-              title="Burn in cue number + media id (m###) on Remotion preview renders"
-              className={`rounded-lg border px-3 py-2 text-sm font-medium transition disabled:opacity-50 ${
-                showCueOverlay
-                  ? "border-amber-600/80 bg-amber-950/80 text-amber-200 hover:bg-amber-900/60"
-                  : "border-zinc-600 bg-zinc-900 text-zinc-400 hover:bg-zinc-800"
-              }`}
-            >
-              {overlayBusy
-                ? "Updating…"
-                : showCueOverlay
-                  ? "Remotion cue labels: ON"
-                  : "Remotion cue labels: OFF"}
-            </button>
-          )}
         </div>
         <div className="mt-4 flex flex-wrap items-center gap-2">
           <EpisodePicker
@@ -735,6 +731,17 @@ export function ReviewWorkspace() {
               Export cues (.md)
             </button>
           </p>
+        )}
+
+        {loadState && (
+          <RenderLauncher
+            manifestPath={loadState.manifestPath}
+            currentCueId={currentItem?.id}
+            maxCueId={items[items.length - 1]?.id}
+            showCueOverlay={showCueOverlay}
+            overlayBusy={overlayBusy}
+            onToggleCueOverlay={setRemotionCueOverlay}
+          />
         )}
 
         {loadState && (
@@ -1215,12 +1222,24 @@ export function ReviewWorkspace() {
               Next →
             </button>
             {loadState.mediaLibrary && (
-              <a
-                href={libraryHref}
-                className="rounded-lg border border-emerald-800 px-4 py-2 text-sm text-emerald-300 hover:bg-emerald-950"
-              >
-                Select from library
-              </a>
+              <>
+                <a
+                  href={libraryHref}
+                  className="rounded-lg border border-emerald-800 px-4 py-2 text-sm text-emerald-300 hover:bg-emerald-950"
+                >
+                  {selectedLibraryId
+                    ? "Edit library image"
+                    : "Select from library"}
+                </a>
+                {editLibraryHref && (
+                  <a
+                    href={editLibraryHref}
+                    className="rounded-lg border border-amber-800/60 px-4 py-2 text-sm text-amber-200 hover:bg-amber-950/40"
+                  >
+                    Crop image…
+                  </a>
+                )}
+              </>
             )}
             <form
               className="flex items-center gap-2"
@@ -1376,10 +1395,16 @@ function ItemDownloadSection({
         </div>
         {mediaLibrary && (
           <a
-            href={libraryHrefForCue(manifestPath, itemId)}
+            href={libraryHrefForCue(manifestPath, itemId, {
+              libraryId: acquisition
+                ? selectedPlateLibraryId(acquisition)
+                : null,
+            })}
             className="rounded-lg border border-emerald-800 px-3 py-1.5 text-xs text-emerald-300 hover:bg-emerald-950"
           >
-            Select from library
+            {acquisition && selectedPlateLibraryId(acquisition)
+              ? "Edit library image"
+              : "Select from library"}
           </a>
         )}
       </div>
@@ -1393,6 +1418,13 @@ function ItemDownloadSection({
           onAcquiredUpdated={onAcquiredUpdated}
           onStickerOverlayEnabledChange={onStickerOverlayEnabledChange}
           onStickerOverlaySizeChange={onStickerOverlaySizeChange}
+        />
+
+        <GeneratePhotoPanel
+          manifestPath={manifestPath}
+          itemId={itemId}
+          spokenHint={spokenHint}
+          onAcquiredUpdated={onAcquiredUpdated}
         />
 
         <GiphyStickerPanel

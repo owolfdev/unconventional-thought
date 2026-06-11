@@ -6,8 +6,8 @@
   "t_end": 2,
   "duration_sec": 2,
   "spoken": "",
-  "visual_mode": "historical",
-  "expected_media_type": "generated",
+  "visual_mode": "effect_only",
+  "expected_media_type": "photo",
   "editorial_intent": "Channel id on black + film grain before cold open (m001). Edit copy in media_tool m000 acquisition. Pair with SPECIAL_MEDIA_DELAY on m001 so m001 plate does not cover this card.",
   "situation": "Generated text graphic (title)",
   "people": [],
@@ -29,21 +29,21 @@
   },
   "targets": [
     {
-      "slot": "generated",
-      "description": "Text graphic: transcription — The Unconventional Thought",
-      "status": "selected"
+      "slot": "black_plate",
+      "description": "[GIPHY placeholder pass — replace plate/sticker before publish]",
+      "status": "acquired"
     }
   ],
   "effects": [
-    "film_scratches",
-    "slow_push_in"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "asset.jpg"
+    "giphy-3oz8xvzCkKpeJ9LWDK.gif",
+    "asset.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.041Z"
+  "updated_at": "2026-06-11T21:10:09.329Z"
 }

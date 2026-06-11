@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m065",
   "cue": 65,
-  "t_start": 415.4,
-  "t_end": 422.92,
-  "duration_sec": 7.52,
-  "spoken": "committee to cover it up. You need self-preservation. You need everyone to choose the least explosive",
+  "t_start": 300.9,
+  "t_end": 306.56,
+  "duration_sec": 5.66,
+  "spoken": "alternative. Bond was a veteran drinker after all. And why did his friend leave him in a car",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-Td1iHZdeXx7TjS5bHB.gif",
+    "nearly-kills-him.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.056Z"
+  "updated_at": "2026-06-11T21:10:09.346Z"
 }

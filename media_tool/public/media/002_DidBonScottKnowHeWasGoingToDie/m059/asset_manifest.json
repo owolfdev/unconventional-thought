@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m059",
   "cue": 59,
-  "t_start": 375.48,
-  "t_end": 382.42,
-  "duration_sec": 6.94,
-  "spoken": "not just be bad press. It would feel like cultural betrayal. ACDC were just about to put out",
+  "t_start": 260.82,
+  "t_end": 267.2,
+  "duration_sec": 6.38,
+  "spoken": "or even dependency. Given the era, the access, the circles, the schedule, and the pressure,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -31,13 +31,21 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
-  "text_graphic_layer": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "YOU DECIDE.",
+    "style": "minimal_white"
+  },
+  "text_graphic_layer": {
+    "type": "quote",
+    "text": "YOU DECIDE.",
+    "style": "minimal_white"
+  },
   "targets": [
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -48,13 +56,23 @@
       "slot": "search_2",
       "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
+    },
+    {
+      "slot": "text_overlay",
+      "description": "Text layer: quote — YOU DECIDE.",
+      "status": "acquired"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-xl3Biy7X0kRlzlQBx4.gif",
+    "thinking-man-png-image-man-thinking.png"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.055Z"
+  "updated_at": "2026-06-11T21:10:09.344Z"
 }

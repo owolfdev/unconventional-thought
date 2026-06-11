@@ -38,7 +38,7 @@
     {
       "slot": "primary",
       "description": "Rhetorical 'jury' — do NOT show a courtroom. Open on AC/DC at cultural peak (late 70s live) or 1980 press moment.",
-      "status": "selected"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -64,8 +64,9 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
+    "giphy-ywlCbZuGQju4V1X5WW.gif",
     "dark-bon.webp"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.041Z"
+  "updated_at": "2026-06-11T21:10:09.330Z"
 }

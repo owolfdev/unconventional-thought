@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "selected"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -58,8 +58,9 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "bonscott_onstage-1.jpg"
+    "giphy-xULW8JVxArl4AE9xWU.gif",
+    "swaggerbon.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.041Z"
+  "updated_at": "2026-06-11T21:10:09.330Z"
 }

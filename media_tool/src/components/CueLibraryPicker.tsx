@@ -1,10 +1,15 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { flattenStagedSelections } from "@/lib/selection-media";
+import { selectedPlateLibraryId } from "@/lib/selection-media";
 import { libraryHrefForCue } from "@/lib/library-cue-link";
 import type { ItemAcquisition } from "@/lib/types";
-import type { LibraryIndexEntry } from "@/lib/media-library";
+import type { LibraryIndexEntry } from "@/lib/media-library/types";
+import {
+  LIBRARY_FORMAT_FILTER_OPTIONS,
+  type LibraryFormatFilter,
+} from "@/lib/media-library/format-filter";
+import { PLATE_LIBRARY_KINDS_PARAM } from "@/lib/media-library/plate-kind";
 
 interface Props {
   manifestPath: string;
@@ -34,26 +39,27 @@ export function CueLibraryPicker({
     }>
   >([]);
   const [query, setQuery] = useState(defaultQuery);
+  const [formatFilter, setFormatFilter] = useState<LibraryFormatFilter>("all");
   const [loadingForCue, setLoadingForCue] = useState(false);
   const [loadingRecent, setLoadingRecent] = useState(false);
   const [searching, setSearching] = useState(false);
   const [stagingId, setStagingId] = useState<string | null>(null);
   const [message, setMessage] = useState<string | null>(null);
 
-  const libraryHref = libraryHrefForCue(manifestPath, itemId);
+  const selectedLibraryId = useMemo(
+    () => selectedPlateLibraryId(acquisition),
+    [acquisition],
+  );
 
-  const selectedLibraryId = useMemo(() => {
-    const staged = flattenStagedSelections(acquisition);
-    const plate = staged.find(
-      ({ selection }) =>
-        selection.result_id.startsWith("library:") &&
-        !selection.engine_id.includes("sticker") &&
-        !selection.engine_id.includes("giphy") &&
-        !selection.engine_id.includes("title"),
-    );
-    if (!plate) return null;
-    return plate.selection.result_id.slice("library:".length);
-  }, [acquisition]);
+  const libraryHref = libraryHrefForCue(manifestPath, itemId, {
+    libraryId: selectedLibraryId,
+  });
+  const editLibraryHref = selectedLibraryId
+    ? libraryHrefForCue(manifestPath, itemId, {
+        libraryId: selectedLibraryId,
+        crop: true,
+      })
+    : null;
 
   const loadForCue = useCallback(async () => {
     setLoadingForCue(true);
@@ -77,7 +83,12 @@ export function CueLibraryPicker({
   const loadRecent = useCallback(async () => {
     setLoadingRecent(true);
     try {
-      const res = await fetch("/api/library/assets?limit=12&kinds=archive");
+      const params = new URLSearchParams({
+        limit: "12",
+        kinds: PLATE_LIBRARY_KINDS_PARAM,
+      });
+      if (formatFilter !== "all") params.set("format", formatFilter);
+      const res = await fetch(`/api/library/assets?${params}`);
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Load failed");
       setRecent(data.assets ?? []);
@@ -86,7 +97,7 @@ export function CueLibraryPicker({
     } finally {
       setLoadingRecent(false);
     }
-  }, []);
+  }, [formatFilter]);
 
   useEffect(() => {
     void loadForCue();
@@ -95,6 +106,8 @@ export function CueLibraryPicker({
 
   useEffect(() => {
     setQuery(defaultQuery);
+    setSearchResults([]);
+    setFormatFilter("all");
   }, [defaultQuery, itemId]);
 
   const runSearch = async () => {
@@ -103,14 +116,22 @@ export function CueLibraryPicker({
     setSearching(true);
     setMessage(null);
     try {
-      const res = await fetch(
-        `/api/library/search?q=${encodeURIComponent(q)}&limit=16`,
-      );
+      const params = new URLSearchParams({
+        q,
+        limit: "16",
+        kinds: PLATE_LIBRARY_KINDS_PARAM,
+      });
+      if (formatFilter !== "all") params.set("format", formatFilter);
+      const res = await fetch(`/api/library/search?${params}`);
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Search failed");
       setSearchResults(data.results ?? []);
       if ((data.results ?? []).length === 0) {
-        setMessage("No library matches — try different keywords.");
+        const typeNote =
+          formatFilter !== "all"
+            ? ` for ${LIBRARY_FORMAT_FILTER_OPTIONS.find((o) => o.value === formatFilter)?.label ?? formatFilter}`
+            : "";
+        setMessage(`No library matches${typeNote} — try different keywords.`);
       }
     } catch (e) {
       setMessage(e instanceof Error ? e.message : "Search failed");
@@ -189,7 +210,7 @@ export function CueLibraryPicker({
           </p>
           <button
             type="button"
-            disabled={stagingId === libraryId || isSelected}
+            disabled={stagingId === libraryId}
             onClick={() => void selectAsset(libraryId)}
             className={`w-full rounded px-2 py-1.5 text-[11px] font-semibold disabled:opacity-50 ${
               isSelected
@@ -203,6 +224,14 @@ export function CueLibraryPicker({
                 ? "Selected ✓"
                 : "Select for this cue"}
           </button>
+          {isSelected && editLibraryHref && (
+            <a
+              href={editLibraryHref}
+              className="block w-full rounded border border-amber-700/50 bg-amber-950/20 px-2 py-1.5 text-center text-[11px] font-medium text-amber-200 hover:bg-amber-950/40"
+            >
+              Edit / crop in library →
+            </a>
+          )}
         </div>
       </li>
     );
@@ -224,7 +253,7 @@ export function CueLibraryPicker({
           href={libraryHref}
           className="rounded-lg bg-amber-800 px-3 py-1 text-xs font-medium text-amber-50 hover:bg-amber-700"
         >
-          Browse full library →
+          {selectedLibraryId ? "Open selected in library →" : "Browse full library →"}
         </a>
       </div>
       <p className="mt-1 text-xs text-zinc-400">
@@ -276,16 +305,38 @@ export function CueLibraryPicker({
           <p className="mt-3 text-xs text-zinc-600">Loading library…</p>
         )}
 
-      <div className="mt-4 flex flex-wrap gap-2">
-        <input
-          className="min-w-[200px] flex-1 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm"
-          placeholder="Search library by filename or tags…"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          onKeyDown={(e) => {
-            if (e.key === "Enter") void runSearch();
-          }}
-        />
+      <div className="mt-4 flex flex-wrap items-end gap-2">
+        <label className="min-w-[200px] flex-1 text-xs text-zinc-400">
+          Search
+          <input
+            className="mt-1 block w-full rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm"
+            placeholder="Filename or tags…"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") void runSearch();
+            }}
+          />
+        </label>
+        <label className="text-xs text-zinc-400">
+          Type
+          <select
+            className="mt-1 block rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm"
+            value={formatFilter}
+            onChange={(e) => {
+              const next = e.target.value as LibraryFormatFilter;
+              setFormatFilter(next);
+              setSearchResults([]);
+              setMessage(null);
+            }}
+          >
+            {LIBRARY_FORMAT_FILTER_OPTIONS.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
+        </label>
         <button
           type="button"
           disabled={searching || !query.trim()}

@@ -116,6 +116,20 @@ export function buildCuePreviewModel(acq: ItemAcquisition): CuePreviewModel {
   };
 }
 
+/** Remove title overlay selections (keep sticker and plate). */
+export function withoutTitleSelections(
+  acq: ItemAcquisition,
+): ItemAcquisition {
+  return {
+    ...acq,
+    queries: acq.queries.map((q) => ({
+      ...q,
+      selections: q.selections.filter((s) => !isTitleOverlaySelection(s)),
+    })),
+    updated_at: new Date().toISOString(),
+  };
+}
+
 /** Remove sticker/GIF overlay selections (keep title and plate). */
 export function withoutStickerSelections(
   acq: ItemAcquisition,

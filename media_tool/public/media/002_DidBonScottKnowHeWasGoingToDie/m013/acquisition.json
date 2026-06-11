@@ -4,9 +4,11 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
-  "notes": "",
-  "effects": [],
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -17,19 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "Bon Scott 1979 live relaxed performance",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:429605848f5df1a6",
+          "url": "/media/_library/assets/429605848f5df1a6/acdc-logo-style-highway-to-hell.png",
+          "thumbnail_url": "/media/_library/assets/429605848f5df1a6/acdc-logo-style-highway-to-hell.png",
+          "title": "AC/DC logo style: HIGHWAY TO HELL",
+          "source_page": "/media/_library/assets/429605848f5df1a6/acdc-logo-style-highway-to-hell.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: AC/DC logo style: HIGHWAY TO HELL",
+          "selected_at": "2026-06-11T20:17:26.797Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott Highway to Hell tour leaning microphone",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
-      "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query_index": 2,
+      "query": "Bon Scott 1979 stage calm expression",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "completed_at": "2026-06-11T09:39:58.216434Z",
+  "updated_at": "2026-06-11T20:17:42.075Z"
 }

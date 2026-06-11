@@ -1,0 +1,56 @@
+{
+  "id": "m076",
+  "cue": 76,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC live 1979 crowd joy energy",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:bc7f2e58967c2ffa",
+          "url": "/media/_library/assets/bc7f2e58967c2ffa/bon_and_angus.jpg",
+          "thumbnail_url": "/media/_library/assets/bc7f2e58967c2ffa/bon_and_angus.jpg",
+          "title": "bon_and_angus.jpg",
+          "source_page": "/media/_library/assets/bc7f2e58967c2ffa/bon_and_angus.jpg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "AC/DC live 1979 crowd joy energy",
+          "selected_at": "2026-06-11T09:39:58.228157Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Angus Young AC/DC 1979 stage energy",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "AC/DC concert audience hands up 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.228161Z",
+  "updated_at": "2026-06-11T09:39:58.228161Z"
+}

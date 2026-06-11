@@ -4,9 +4,11 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
+  "status": "in_progress",
   "notes": "",
-  "effects": [],
+  "effects": [
+    "film_damage"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -17,19 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "Bon Scott backstage 1979 candid calm",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:476e3a0c4247ac95",
+          "url": "/media/_library/assets/476e3a0c4247ac95/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/476e3a0c4247ac95/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/476e3a0c4247ac95/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "Bon Scott backstage 1979 candid calm",
+          "selected_at": "2026-06-11T20:32:05.233Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott 1979 portrait relaxed eyes",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
-      "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query_index": 2,
+      "query": "Bon Scott AC/DC offstage 1979",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "updated_at": "2026-06-11T20:33:01.000Z"
 }

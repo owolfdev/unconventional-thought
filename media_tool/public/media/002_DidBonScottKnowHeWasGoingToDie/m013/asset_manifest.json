@@ -2,26 +2,30 @@
   "version": 1,
   "id": "m013",
   "cue": 13,
-  "t_start": 71.2,
-  "t_end": 77.98,
-  "duration_sec": 6.78,
-  "spoken": "just swagger, that's like acceptance. He's describing a momentum that he's decided not to resist.",
+  "t_start": 42.3,
+  "t_end": 48.28,
+  "duration_sec": 5.98,
+  "spoken": "but by Highway to Hell, something shifts. He sounds looser, warmer, floating downstream.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+  "situation": "AC/DC Highway to Hell tour live performance 1979",
   "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
     {
       "name": "AC/DC",
       "role": "band"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1979",
+  "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "AC/DC Highway to Hell tour 1979",
+    "Bon Scott Highway to Hell live 1979"
   ],
   "avoid": [
     "courtroom",
@@ -36,25 +40,30 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "description": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: AC/DC Highway to Hell tour 1979",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Bon Scott Highway to Hell live 1979",
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-dM2xuxnJCg4H6.gif",
+    "acdc-logo-style-highway-to-hell.png"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.044Z"
+  "updated_at": "2026-06-11T21:10:09.333Z"
 }

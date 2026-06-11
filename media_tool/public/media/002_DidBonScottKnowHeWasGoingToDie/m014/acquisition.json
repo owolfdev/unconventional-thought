@@ -4,9 +4,12 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
+  "status": "in_progress",
   "notes": "",
-  "effects": [],
+  "effects": [
+    "vignette_soft",
+    "film_damage"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -17,19 +20,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "Bon Scott 1979 live relaxed performance",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:6dd1ab5e78e21e39",
+          "url": "/media/_library/assets/6dd1ab5e78e21e39/bon-scott-gif.gif",
+          "thumbnail_url": "/media/_library/assets/6dd1ab5e78e21e39/bon-scott-gif.gif",
+          "title": "bon scott GIF",
+          "source_page": "/media/_library/assets/6dd1ab5e78e21e39/bon-scott-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: bon scott GIF",
+          "selected_at": "2026-06-11T20:05:47.163Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott Highway to Hell tour leaning microphone",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
-      "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query_index": 2,
+      "query": "Bon Scott 1979 stage calm expression",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "updated_at": "2026-06-11T20:06:03.870Z"
 }

@@ -7,7 +7,7 @@
   "status": "in_progress",
   "notes": "",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
@@ -19,32 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "Bon Scott Highway to Hell tour 1979 live",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:624d7e8a5d8cbd8b",
-          "url": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
-          "thumbnail_url": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
-          "title": "asset.mp4",
-          "source_page": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
-          "license": "verify rights before use",
+          "result_id": "library:ed8e308c7338323e",
+          "url": "/media/_library/assets/ed8e308c7338323e/highway-to-hell-not-a-vague-rock-statement.jpg",
+          "thumbnail_url": "/media/_library/assets/ed8e308c7338323e/highway-to-hell-not-a-vague-rock-statement.jpg",
+          "title": "highway-to-hell-not-a-vague-rock-statement.jpg",
+          "source_page": "/media/_library/assets/ed8e308c7338323e/highway-to-hell-not-a-vague-rock-statement.jpg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
           "engine_id": "library",
-          "query": "AC/DC 1979 live concert photograph",
-          "selected_at": "2026-06-10T10:14:11.926Z",
-          "start_from_sec": 66.14
+          "query": "highway-to-hell-not-a-vague-rock-statement.jpg",
+          "selected_at": "2026-06-11T11:38:50.670Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query": "AC/DC recording Highway to Hell 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott microphone 1979 performance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-10T10:24:31.477Z"
+  "updated_at": "2026-06-11T19:55:07.480Z"
 }

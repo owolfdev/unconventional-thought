@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m011",
   "cue": 11,
-  "t_start": 56.24,
-  "t_end": 62.06,
-  "duration_sec": 5.82,
-  "spoken": "things might pick up on it. It's like a supernatural nonchalance. And what about the lyrics?",
+  "t_start": 36.78,
+  "t_end": 39.28,
+  "duration_sec": 2.5,
+  "spoken": "like someone ready to jump into a fight.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,17 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-kqwRo9vLeSjK85181o.gif",
+    "specific-guy-bad-reputation-hes-proud-of-it.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.044Z"
+  "updated_at": "2026-06-11T21:10:09.332Z"
 }

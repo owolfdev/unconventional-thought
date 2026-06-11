@@ -1,0 +1,56 @@
+{
+  "id": "m082",
+  "cue": 82,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "business handshake meeting 1980 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:3a44b54bee2b591f",
+          "url": "/media/_library/assets/3a44b54bee2b591f/and-he-tells-people-privately-not-in-interviews-not-for-the-press.gif",
+          "thumbnail_url": "/media/_library/assets/3a44b54bee2b591f/and-he-tells-people-privately-not-in-interviews-not-for-the-press.gif",
+          "title": "and-he-tells-people-privately-not-in-interviews-not-for-the-press.gif",
+          "source_page": "/media/_library/assets/3a44b54bee2b591f/and-he-tells-people-privately-not-in-interviews-not-for-the-press.gif",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "business handshake meeting 1980 photograph",
+          "selected_at": "2026-06-11T09:39:58.229568Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "record label meeting 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "music industry executives meeting 1980s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.229571Z",
+  "updated_at": "2026-06-11T09:39:58.229571Z"
+}

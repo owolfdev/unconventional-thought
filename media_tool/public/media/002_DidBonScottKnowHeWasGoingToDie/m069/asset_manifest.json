@@ -2,30 +2,26 @@
   "version": 1,
   "id": "m069",
   "cue": 69,
-  "t_start": 443.46,
-  "t_end": 448.8,
-  "duration_sec": 5.34,
-  "spoken": "play highway to hell tonight. Loud. Then tell me he didn't know.",
+  "t_start": 324.52,
+  "t_end": 332.12,
+  "duration_sec": 7.6,
+  "spoken": "alcohol story? Because it's 1980. In 1980, in media narratives, heroin was tied to nightlife",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
-  "situation": "AC/DC Highway to Hell tour live performance 1979",
+  "editorial_intent": "Year anchor — period news or studio dated 1980.",
+  "situation": "1980 music press or studio session dated 1980",
   "people": [
-    {
-      "name": "Bon Scott",
-      "role": "vocalist"
-    },
     {
       "name": "AC/DC",
       "role": "band"
     }
   ],
-  "date_from": "1979",
-  "date_to": "1979",
+  "date_from": "1980",
+  "date_to": "1980",
   "location": "",
   "search_queries": [
-    "AC/DC Highway to Hell tour 1979",
-    "Bon Scott Highway to Hell live 1979"
+    "AC/DC 1980 studio",
+    "music magazine 1980 rock"
   ],
   "avoid": [
     "courtroom",
@@ -40,25 +36,30 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Highway to Hell era live — peak Bon Scott stage energy.",
-      "status": "needed"
+      "description": "Year anchor — period news or studio dated 1980.",
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC Highway to Hell tour 1979",
+      "description": "Candidate from query: AC/DC 1980 studio",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Bon Scott Highway to Hell live 1979",
+      "description": "Candidate from query: music magazine 1980 rock",
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-1kymxb4RCuOwE.gif",
+    "lets-look-at-the-facts-its-1980.png"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.057Z"
+  "updated_at": "2026-06-11T21:10:09.346Z"
 }

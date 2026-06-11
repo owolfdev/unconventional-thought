@@ -4,32 +4,53 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
-  "notes": "",
-  "effects": [],
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC Highway to Hell tour 1979",
+      "query": "Rolling Stone magazine 1980 cover",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:cb5d996f1cdae9ce",
+          "url": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
+          "thumbnail_url": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
+          "title": "lets-look-at-the-facts-its-1980.png",
+          "source_page": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "Rolling Stone magazine 1980 cover",
+          "selected_at": "2026-06-11T09:39:58.226552Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "1980 news broadcast television studio",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
-      "query_index": 1,
-      "query": "Bon Scott Highway to Hell live 1979",
+      "query_index": 2,
+      "query": "music magazine 1980 rock",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "completed_at": "2026-06-11T09:39:58.226556Z",
+  "updated_at": "2026-06-11T09:39:58.226556Z"
 }

@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m010",
   "cue": 10,
-  "t_start": 49.12,
-  "t_end": 56.24,
-  "duration_sec": 7.12,
-  "spoken": "It almost sounds inebriated, but it's not alcohol. This is different. People who know about these",
+  "t_start": 35.7,
+  "t_end": 36.78,
+  "duration_sec": 1.08,
+  "spoken": "coiled spring,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -31,13 +31,21 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
-  "text_graphic_layer": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "COILED SPRING.",
+    "style": "blockbuster"
+  },
+  "text_graphic_layer": {
+    "type": "title",
+    "text": "COILED SPRING.",
+    "style": "blockbuster"
+  },
   "targets": [
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -48,13 +56,23 @@
       "slot": "search_2",
       "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
+    },
+    {
+      "slot": "text_overlay",
+      "description": "Text layer: title — COILED SPRING.",
+      "status": "acquired"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-ObQjKmAQK2cPJ2DImR.gif",
+    "text-graphic-coiled-spring.png"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.043Z"
+  "updated_at": "2026-06-11T21:10:09.332Z"
 }

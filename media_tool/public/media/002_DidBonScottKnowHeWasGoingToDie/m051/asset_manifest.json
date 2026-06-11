@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m051",
   "cue": 51,
-  "t_start": 318.7,
-  "t_end": 324.52,
-  "duration_sec": 5.82,
-  "spoken": "So if it was a heroin overdose, why would they have covered it up? Why would anyone prefer the",
+  "t_start": 214.7,
+  "t_end": 220.88,
+  "duration_sec": 6.18,
+  "spoken": "in the grips of that substance during their most creative periods. Some survived, some paid the price.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-xTeV7JLtojjOKA1aP6.gif",
+    "funny%20bon.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.053Z"
+  "updated_at": "2026-06-11T21:10:09.342Z"
 }

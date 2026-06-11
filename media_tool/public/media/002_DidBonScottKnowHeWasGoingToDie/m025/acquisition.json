@@ -4,7 +4,7 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
+  "status": "in_progress",
   "notes": "",
   "effects": [],
   "transition": null,
@@ -17,19 +17,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "Bon Scott 1979 live arms spread stage",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:283c21fb241aef0a",
+          "url": "/media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
+          "thumbnail_url": "/media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
+          "title": "bon-scott-gif.gif",
+          "source_page": "/media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "library",
+          "query": "bon-scott-gif.gif",
+          "selected_at": "2026-06-11T20:46:52.130Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott Highway to Hell performance acceptance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
-      "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query_index": 2,
+      "query": "highway road night photograph 1970s metaphor",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "updated_at": "2026-06-11T20:46:52.130Z"
 }

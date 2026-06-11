@@ -1,35 +1,50 @@
 {
   "id": "m059",
   "cue": 59,
-  "source_visual_mode": "historical",
+  "source_visual_mode": "text_graphic",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
-  "notes": "",
-  "effects": [],
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
-  "text_graphic": null,
-  "text_graphic_layer": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "YOU DECIDE.",
+    "style": "minimal_white"
+  },
+  "text_graphic_layer": {
+    "type": "quote",
+    "text": "YOU DECIDE.",
+    "style": "minimal_white"
+  },
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "(text graphic — no archive search)",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:0d61d90cad7217bd",
+          "url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+          "thumbnail_url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+          "title": "thinking-man-png-image-man-thinking.png",
+          "source_page": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+          "license": "manual upload — verify rights",
+          "engine_id": "library",
+          "query": "m042",
+          "selected_at": "2026-06-11T09:39:58.224418Z"
+        }
+      ]
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "completed_at": "2026-06-11T09:39:58.224421Z",
+  "updated_at": "2026-06-11T09:39:58.224421Z"
 }

@@ -4,44 +4,53 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "in_progress",
-  "notes": "",
-  "effects": [],
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "Bon Scott singing microphone close up 1979",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
       "selections": [
         {
-          "result_id": "library:624d7e8a5d8cbd8b",
-          "url": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
-          "thumbnail_url": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
-          "title": "asset.mp4",
-          "source_page": "/media/_library/assets/624d7e8a5d8cbd8b/asset.mp4",
-          "license": "verify rights before use",
+          "result_id": "library:673973583e79f97e",
+          "url": "/media/_library/assets/673973583e79f97e/his-actual-voice.jpg",
+          "thumbnail_url": "/media/_library/assets/673973583e79f97e/his-actual-voice.jpg",
+          "title": "his-actual-voice.jpg",
+          "source_page": "/media/_library/assets/673973583e79f97e/his-actual-voice.jpg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
           "engine_id": "library",
-          "query": "AC/DC 1979 live concert photograph",
-          "selected_at": "2026-06-10T11:36:03.044Z"
+          "query": "Bon Scott singing microphone close up 1979",
+          "selected_at": "2026-06-11T09:39:58.215025Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query": "Bon Scott vocal performance Highway to Hell",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "AC/DC studio vocal booth 1979",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-10T11:36:03.044Z"
+  "completed_at": "2026-06-11T19:55:52.051Z",
+  "updated_at": "2026-06-11T19:55:52.051Z"
 }

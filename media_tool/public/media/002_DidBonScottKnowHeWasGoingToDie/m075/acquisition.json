@@ -1,0 +1,56 @@
+{
+  "id": "m075",
+  "cue": 75,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "stadium rock crowd 1980 USA",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:0d61d90cad7217bd",
+          "url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+          "thumbnail_url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+          "title": "thinking-man-png-image-man-thinking.png",
+          "source_page": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+          "license": "manual upload — verify rights",
+          "engine_id": "library",
+          "query": "stadium rock crowd 1980 USA",
+          "selected_at": "2026-06-11T09:39:58.227913Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "New York City street 1970s documentary",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "rock fan denim concert vs city nightlife split",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.227917Z",
+  "updated_at": "2026-06-11T09:39:58.227917Z"
+}

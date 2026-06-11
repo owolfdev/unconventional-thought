@@ -2,26 +2,30 @@
   "version": 1,
   "id": "m007",
   "cue": 7,
-  "t_start": 36.78,
-  "t_end": 41.62,
-  "duration_sec": 4.84,
-  "spoken": "like someone ready to jump into a fight. Pure energy, swimming upstream,",
+  "t_start": 23.8,
+  "t_end": 29.5,
+  "duration_sec": 5.7,
+  "spoken": "Listen to Bon's voice on Highway to Hell, especially the title track. It always intrigued me,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+  "situation": "AC/DC Highway to Hell tour live performance 1979",
   "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
     {
       "name": "AC/DC",
       "role": "band"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1979",
+  "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "AC/DC Highway to Hell tour 1979",
+    "Bon Scott Highway to Hell live 1979"
   ],
   "avoid": [
     "courtroom",
@@ -36,27 +40,30 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "selected"
+      "description": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: AC/DC Highway to Hell tour 1979",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Bon Scott Highway to Hell live 1979",
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "asset.mp4"
+    "giphy-dM2xuxnJCg4H6.gif",
+    "his-actual-voice.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:36:03.044Z"
+  "updated_at": "2026-06-11T21:10:09.331Z"
 }

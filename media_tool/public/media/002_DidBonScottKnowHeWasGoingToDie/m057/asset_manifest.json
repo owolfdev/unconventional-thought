@@ -2,26 +2,26 @@
   "version": 1,
   "id": "m057",
   "cue": 57,
-  "t_start": 359.88,
-  "t_end": 366.74,
-  "duration_sec": 6.86,
-  "spoken": "art scene posturing. And in the public imagination of that era, heroin read as downtown junkies,",
+  "t_start": 249.76,
+  "t_end": 254.64,
+  "duration_sec": 4.88,
+  "spoken": "would an artist like Bond Scott ever have been around heroin. Of course he would.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "situation": "Bon Scott historical photograph 1978-1981",
   "people": [
     {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "Bon Scott",
+      "role": "vocalist"
     }
   ],
   "date_from": "1978",
   "date_to": "1981",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Bon Scott 1979 photograph",
+    "Bon Scott AC/DC 1980"
   ],
   "avoid": [
     "courtroom",
@@ -37,24 +37,29 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: Bon Scott 1979 photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Bon Scott AC/DC 1980",
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-dM2xuxnJCg4H6.gif",
+    "but-heres-the-thing-about-bond-scott.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.054Z"
+  "updated_at": "2026-06-11T21:10:09.344Z"
 }

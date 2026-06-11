@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m039",
   "cue": 39,
-  "t_start": 245.08,
-  "t_end": 249.76,
-  "duration_sec": 4.68,
-  "spoken": "It's not a fantasy. It's documented rock history. So the question is not",
+  "t_start": 133.06,
+  "t_end": 140.32,
+  "duration_sec": 7.26,
+  "spoken": "for immortality. He came back different, transformed. The other musicians were stunned. He now had",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-12uCJ4spmImIw.gif",
+    "download-872321de6e71-inv.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.051Z"
+  "updated_at": "2026-06-11T21:10:09.340Z"
 }

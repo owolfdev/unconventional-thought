@@ -1,0 +1,50 @@
+{
+  "id": "m083",
+  "cue": 83,
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": {
+    "type": "quote",
+    "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
+    "style": "typewriter"
+  },
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "(text graphic — no archive search)",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:c7eefae85ab039c9",
+          "url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+          "thumbnail_url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+          "title": "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+          "source_page": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "m066",
+          "selected_at": "2026-06-11T09:39:58.229798Z"
+        }
+      ]
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.229802Z",
+  "updated_at": "2026-06-11T09:39:58.229802Z"
+}

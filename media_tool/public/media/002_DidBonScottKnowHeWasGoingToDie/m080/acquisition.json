@@ -1,0 +1,56 @@
+{
+  "id": "m080",
+  "cue": 80,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "record store 1980 album display",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:b8ccbdb02d5fde6a",
+          "url": "/media/_library/assets/b8ccbdb02d5fde6a/five-months-later-they-release-back-in-black.jpg",
+          "thumbnail_url": "/media/_library/assets/b8ccbdb02d5fde6a/five-months-later-they-release-back-in-black.jpg",
+          "title": "five-months-later-they-release-back-in-black.jpg",
+          "source_page": "/media/_library/assets/b8ccbdb02d5fde6a/five-months-later-they-release-back-in-black.jpg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "record store 1980 album display",
+          "selected_at": "2026-06-11T09:39:58.229111Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Back in Black record store 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Tower Records 1980 interior",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.229114Z",
+  "updated_at": "2026-06-11T09:39:58.229114Z"
+}

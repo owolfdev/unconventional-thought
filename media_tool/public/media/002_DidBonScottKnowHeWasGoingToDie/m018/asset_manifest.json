@@ -2,51 +2,60 @@
   "version": 1,
   "id": "m018",
   "cue": 18,
-  "t_start": 105.72,
-  "t_end": 112.06,
-  "duration_sec": 6.34,
-  "spoken": "is Robert Johnson. He's got a burning hunger to be a great player and for fame. Just then,",
-  "visual_mode": "historical",
+  "t_start": 53.13,
+  "t_end": 56.24,
+  "duration_sec": 3.11,
+  "spoken": "This is different. People who know about these",
+  "visual_mode": "artifact",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "editorial_intent": "NOT alcohol — reject beer-sloppy cliché. Whisky glass out of focus or empty bar stool; documentary contrast to 'inebriated' voice claim.",
+  "situation": "Inanimate: whisky glass on bar counter",
+  "people": [],
+  "date_from": "1970",
+  "date_to": "1980",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "whisky glass bar counter 1970s photograph",
+    "empty bar stool dim pub 1970s",
+    "beer bottles blurred background documentary"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo",
+    "party celebration",
+    "glamorized drinking",
+    "faces prominent",
+    "glamorized drug use"
   ],
-  "artifact": null,
+  "artifact": {
+    "object": "whisky glass on bar counter",
+    "story_link": "Alcohol myth vs actual vocal quality",
+    "media_preference": "photo"
+  },
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "description": "NOT alcohol — reject beer-sloppy cliché. Whisky glass out of focus or empty bar stool; documentary contrast to 'inebriated' voice claim.",
+      "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: whisky glass bar counter 1970s photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: empty bar stool dim pub 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: beer bottles blurred background documentary",
       "status": "needed"
     }
   ],
@@ -54,7 +63,9 @@
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "text-graphic-different.png"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.046Z"
+  "updated_at": "2026-06-11T21:10:09.334Z"
 }

@@ -73,3 +73,60 @@ export async function generateTransparentPng(
 
   return Buffer.from(b64, "base64");
 }
+
+function buildPhotoPrompt(userPrompt: string): string {
+  const subject = userPrompt.trim();
+  return [
+    "Photorealistic editorial photograph for a documentary video frame.",
+    "Natural lighting, believable detail, no text, no watermark, no logo.",
+    "16:9 friendly composition; avoid extreme fisheye or collage.",
+    subject ? `Subject: ${subject}` : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+}
+
+/** Opaque photoreal still for cue plate (not transparent overlay). */
+export async function generatePhotorealImage(userPrompt: string): Promise<Buffer> {
+  const apiKey = process.env.OPENAI_API_KEY?.trim();
+  if (!apiKey) {
+    throw new Error(
+      "OPENAI_API_KEY is not set. Add it to media_tool/.env.local to generate images.",
+    );
+  }
+
+  const model = process.env.OPENAI_IMAGE_MODEL?.trim() || DEFAULT_MODEL;
+  const prompt = buildPhotoPrompt(userPrompt);
+
+  const res = await fetch("https://api.openai.com/v1/images/generations", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model,
+      prompt,
+      n: 1,
+      size: "1536x1024",
+      quality: "high",
+      output_format: "jpeg",
+    }),
+  });
+
+  const data = (await res.json()) as {
+    error?: { message?: string };
+    data?: Array<{ b64_json?: string }>;
+  };
+
+  if (!res.ok) {
+    throw new Error(data.error?.message ?? `OpenAI image API error: ${res.status}`);
+  }
+
+  const b64 = data.data?.[0]?.b64_json;
+  if (!b64) {
+    throw new Error("OpenAI returned no image data");
+  }
+
+  return Buffer.from(b64, "base64");
+}

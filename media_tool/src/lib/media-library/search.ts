@@ -1,5 +1,6 @@
 import type { SearchResult } from "@/lib/types";
 import { buildSearchHaystack } from "./search-fields";
+import { matchesLibraryFormatFilter, type LibraryFormatFilter } from "./format-filter";
 import { readLibraryIndex } from "./ingest";
 import type { LibraryIndexEntry, LibraryKind, LibrarySearchFields } from "./types";
 import { DEFAULT_LIBRARY_SEARCH_FIELDS } from "./types";
@@ -10,6 +11,7 @@ export interface LibrarySearchOptions {
   kinds?: LibraryKind[];
   includeArchived?: boolean;
   searchFields?: LibrarySearchFields;
+  format?: LibraryFormatFilter;
 }
 
 function scoreMatch(searchText: string, tokens: string[]): number {
@@ -44,11 +46,13 @@ export function searchLibrary(opts: LibrarySearchOptions): SearchResult[] {
   const kinds = opts.kinds ?? ["archive"];
   const includeArchived = opts.includeArchived ?? false;
   const searchFields = opts.searchFields ?? DEFAULT_LIBRARY_SEARCH_FIELDS;
+  const format = opts.format ?? "all";
 
   const index = readLibraryIndex();
   const scored = index.assets
     .filter((a) => !a.archived || includeArchived)
     .filter((a) => kinds.includes(a.kind))
+    .filter((a) => matchesLibraryFormatFilter(a, format))
     .map((a) => ({
       entry: a,
       score: scoreMatch(entryHaystack(a, searchFields), tokens),

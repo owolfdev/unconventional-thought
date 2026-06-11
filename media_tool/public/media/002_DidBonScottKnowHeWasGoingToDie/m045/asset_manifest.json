@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m045",
   "cue": 45,
-  "t_start": 285.12,
-  "t_end": 289.58,
-  "duration_sec": 4.46,
-  "spoken": "Here's what bothers people. In a case this culturally and commercially important,",
+  "t_start": 172.48,
+  "t_end": 178.94,
+  "duration_sec": 6.46,
+  "spoken": "Bond wasn't 27. He was 33 when he died. But the bargain doesn't care about birthdays. It cares",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -31,13 +31,21 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
-  "text_graphic_layer": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "33.",
+    "style": "minimal_white"
+  },
+  "text_graphic_layer": {
+    "type": "title",
+    "text": "33.",
+    "style": "minimal_white"
+  },
   "targets": [
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -48,13 +56,23 @@
       "slot": "search_2",
       "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
+    },
+    {
+      "slot": "text_overlay",
+      "description": "Text layer: title — 33.",
+      "status": "acquired"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-Y0VFEdJxkE2H0qSoA8.gif",
+    "dark-bon.webp"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.052Z"
+  "updated_at": "2026-06-11T21:10:09.341Z"
 }

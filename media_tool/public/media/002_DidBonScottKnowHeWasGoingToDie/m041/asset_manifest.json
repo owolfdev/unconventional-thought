@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m041",
   "cue": 41,
-  "t_start": 255,
-  "t_end": 260.24,
-  "duration_sec": 5.24,
-  "spoken": "The real question is whether in that final stretch, he crossed from proximity into experimentation",
+  "t_start": 147.78,
+  "t_end": 156.08,
+  "duration_sec": 8.3,
+  "spoken": "died early before seeing it happen. He did become a legend just only after death. Take the 27 club,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-dM2xuxnJCg4H6.gif",
+    "bond-scott-dies-february-19-1980-33-years-old.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.051Z"
+  "updated_at": "2026-06-11T21:10:09.340Z"
 }

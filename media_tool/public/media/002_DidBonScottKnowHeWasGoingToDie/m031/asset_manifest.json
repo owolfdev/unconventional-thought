@@ -2,33 +2,31 @@
   "version": 1,
   "id": "m031",
   "cue": 31,
-  "t_start": 195.3,
-  "t_end": 202.54,
-  "duration_sec": 7.24,
-  "spoken": "lucid, insulated, and brilliant until it takes everything back with interest. That's the bargain",
+  "t_start": 92.51,
+  "t_end": 99.14,
+  "duration_sec": 6.63,
+  "spoken": "Picture at this, it's 1931 in Mississippi. It's the dead of night. Nothing but the heat,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
-  "location": "",
+  "editorial_intent": "Crossroads setup — 1931 Mississippi night; heat, isolation, date anchor.",
+  "situation": "Mississippi Delta rural road night 1930s — crossroads atmosphere",
+  "people": [],
+  "date_from": "1930",
+  "date_to": "1935",
+  "location": "Mississippi, USA",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Mississippi Delta dirt road 1930s photograph",
+    "Mississippi crossroads rural night historical",
+    "Delta blues Mississippi countryside 1930s"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo",
+    "modern highway",
+    "suburban"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -36,25 +34,34 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "description": "Crossroads setup — 1931 Mississippi night; heat, isolation, date anchor.",
+      "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: Mississippi Delta dirt road 1930s photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Mississippi crossroads rural night historical",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Delta blues Mississippi countryside 1930s",
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "genphoto-3aac2628.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.049Z"
+  "updated_at": "2026-06-11T21:10:09.338Z"
 }

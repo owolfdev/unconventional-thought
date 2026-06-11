@@ -1,5 +1,6 @@
 import {
   LIBRARY_ENGINE,
+  overlayEngineIdForFilename,
   selectionForLibraryAsset,
   setCuePlateSelection,
   updateAcquisitionSelection,
@@ -12,8 +13,49 @@ import {
 import type { IngestContext, IngestResult } from "@/lib/media-library";
 import { readAssetMeta, usageFromManifestItem } from "@/lib/media-library";
 import { libraryPublicUrl } from "@/lib/media-library/paths";
+import {
+  isStickerFilename,
+  isTitleFilename,
+  withoutStickerSelections,
+  withoutTitleSelections,
+} from "@/lib/overlay-media";
+import { isLibraryPlateKind } from "@/lib/media-library/plate-kind";
 import { readJsonFile } from "@/lib/paths";
 import type { ItemAcquisition, MediaToolItem, MediaToolManifest } from "@/lib/types";
+
+/** How a library asset attaches to a cue. */
+export type LibraryCueRole = "plate" | "sticker" | "title";
+
+function resolveLibraryCueRole(
+  meta: { kind: string; filename: string },
+  role?: LibraryCueRole,
+): LibraryCueRole {
+  if (role) return role;
+  if (isLibraryPlateKind(meta.kind)) return "plate";
+  if (isTitleFilename(meta.filename)) return "title";
+  if (meta.kind === "overlay" || isStickerFilename(meta.filename)) return "sticker";
+  return "plate";
+}
+
+function applyLibrarySelection(
+  acq: ItemAcquisition,
+  selection: ReturnType<typeof selectionForLibraryAsset>,
+  role: LibraryCueRole,
+  queryIndex: number,
+  selected: boolean,
+): ItemAcquisition {
+  if (role === "plate") {
+    return selected
+      ? setCuePlateSelection(acq, selection, queryIndex)
+      : updateAcquisitionSelection(acq, selection, false, queryIndex);
+  }
+  if (role === "sticker") {
+    const base = selected ? withoutStickerSelections(acq) : acq;
+    return updateAcquisitionSelection(base, selection, selected, queryIndex);
+  }
+  const base = selected ? withoutTitleSelections(acq) : acq;
+  return updateAcquisitionSelection(base, selection, selected, queryIndex);
+}
 
 export function ingestContextFromCue(
   manifest: MediaToolManifest,
@@ -80,6 +122,7 @@ export function stageLibraryAssetOnCue(
     title?: string;
     queryIndex?: number;
     selected?: boolean;
+    role?: LibraryCueRole;
   },
 ): ItemAcquisition | null {
   const meta = readAssetMeta(libraryId.trim());
@@ -90,26 +133,32 @@ export function stageLibraryAssetOnCue(
     itemAcquisitionPath(slug, item.id),
   );
 
+  const role = resolveLibraryCueRole(meta, opts.role);
+  const overlayEngine = overlayEngineIdForFilename(meta.filename);
+  const engineId =
+    opts.engineId ??
+    (role === "plate" ? LIBRARY_ENGINE : overlayEngine ?? LIBRARY_ENGINE);
+
   const publicUrl = libraryPublicUrl(meta.id, meta.filename);
   const selection = selectionForLibraryAsset(
     meta.id,
     meta.filename,
     publicUrl,
-    opts.engineId ?? LIBRARY_ENGINE,
+    engineId,
     opts.query ?? meta.filename,
     opts.license ?? meta.license,
     opts.title ?? meta.filename,
   );
 
-  const updated =
-    opts.selected !== false
-      ? setCuePlateSelection(acq, selection, opts.queryIndex ?? 0)
-      : updateAcquisitionSelection(
-          acq,
-          selection,
-          false,
-          opts.queryIndex ?? 0,
-        );
+  const queryIndex = opts.queryIndex ?? 0;
+  const selected = opts.selected !== false;
+  const updated = applyLibrarySelection(
+    acq,
+    selection,
+    role,
+    queryIndex,
+    selected,
+  );
   writeItemToFolder(slug, item, updated, manifestPath);
   return updated;
 }

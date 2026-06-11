@@ -2,6 +2,7 @@ import type { ItemAcquisition, QueryAcquisition, SelectedMedia } from "./types";
 
 export const OPENAI_STICKER_ENGINE = "openai_sticker";
 export const OPENAI_TITLE_ENGINE = "openai_title";
+export const OPENAI_PHOTO_ENGINE = "openai_photo";
 export const GIPHY_STICKER_ENGINE = "giphy_sticker";
 export const LIBRARY_ENGINE = "library";
 
@@ -59,6 +60,12 @@ export function engineIdForAcquiredFilename(filename: string): string {
   if (lower.startsWith("giphy-")) return GIPHY_STICKER_ENGINE;
   if (lower.startsWith("title-")) return OPENAI_TITLE_ENGINE;
   return "local_acquired";
+}
+
+/** Overlay engine for library filenames, or null when not a sticker/title overlay. */
+export function overlayEngineIdForFilename(filename: string): string | null {
+  const engine = engineIdForAcquiredFilename(filename);
+  return engine === "local_acquired" ? null : engine;
 }
 
 export function selectionForAcquiredFile(

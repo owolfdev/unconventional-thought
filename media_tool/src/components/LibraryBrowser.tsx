@@ -16,6 +16,11 @@ import {
 } from "@/lib/media-library/types";
 import { searchFieldsToParam } from "@/lib/media-library/search-fields";
 import { canCropLibraryAsset } from "@/lib/media-library/crop-shared";
+import type { LibraryCueRole } from "@/lib/cue-library-ingest";
+import { isLibraryPlateKind } from "@/lib/media-library/plate-kind";
+import {
+  isTitleFilename,
+} from "@/lib/overlay-media";
 import { LibraryImageCropper } from "./LibraryImageCropper";
 import { OpenInFinderButton } from "./OpenInFinderButton";
 
@@ -27,6 +32,8 @@ const KIND_LABELS: Record<LibraryKind, string> = {
 };
 
 const PAGE_SIZE = 48;
+
+const LIBRARY_ASSET_ID = /^[a-f0-9]{16}$/i;
 
 const SEARCH_FIELD_LABELS: Record<LibrarySearchField, string> = {
   filename: "Filename",
@@ -50,10 +57,28 @@ function kindBadgeClass(kind: LibraryKind): string {
       return "bg-emerald-950 text-emerald-300 border-emerald-800";
     case "overlay":
       return "bg-violet-950 text-violet-300 border-violet-800";
+    case "generated":
+      return "bg-sky-950 text-sky-300 border-sky-800";
     case "effect":
       return "bg-sky-950 text-sky-300 border-sky-800";
     default:
       return "bg-zinc-800 text-zinc-300 border-zinc-700";
+  }
+}
+
+function overlayCueRole(filename: string): LibraryCueRole {
+  if (isTitleFilename(filename)) return "title";
+  return "sticker";
+}
+
+function cueSelectLabel(role: LibraryCueRole): string {
+  switch (role) {
+    case "plate":
+      return "Select as plate";
+    case "title":
+      return "Select as title overlay";
+    default:
+      return "Select as sticker overlay";
   }
 }
 
@@ -63,6 +88,8 @@ export function LibraryBrowser() {
   const cueManifestPath = searchParams.get("path")?.trim() ?? "";
   const cueItemId = searchParams.get("itemId")?.trim() ?? "";
   const returnTo = searchParams.get("returnTo")?.trim() ?? "";
+  const deepLinkAssetId = searchParams.get("assetId")?.trim() ?? "";
+  const deepLinkCrop = searchParams.get("crop") === "1";
   const cueContext = Boolean(cueManifestPath && cueItemId);
 
   const [query, setQuery] = useState("");
@@ -101,6 +128,8 @@ export function LibraryBrowser() {
   const [stageMessage, setStageMessage] = useState<string | null>(null);
   const [cropOpen, setCropOpen] = useState(false);
   const [imageVersion, setImageVersion] = useState(0);
+  const detailAsideRef = useRef<HTMLElement>(null);
+  const deepLinkCropOpenedRef = useRef(false);
 
   useEffect(() => {
     const t = window.setTimeout(() => setDebouncedQuery(query.trim()), 250);
@@ -173,6 +202,26 @@ export function LibraryBrowser() {
       setDetailLoading(false);
     }
   }, []);
+
+  useEffect(() => {
+    if (!deepLinkAssetId || !LIBRARY_ASSET_ID.test(deepLinkAssetId)) return;
+    void loadDetail(deepLinkAssetId);
+  }, [deepLinkAssetId, loadDetail]);
+
+  useEffect(() => {
+    if (
+      !deepLinkCrop ||
+      deepLinkCropOpenedRef.current ||
+      detailLoading ||
+      !detail ||
+      !canCropLibraryAsset(detail)
+    ) {
+      return;
+    }
+    deepLinkCropOpenedRef.current = true;
+    setCropOpen(true);
+    detailAsideRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [deepLinkCrop, detail, detailLoading]);
 
   const saveDetail = async () => {
     if (!selectedId) return;
@@ -256,7 +305,7 @@ export function LibraryBrowser() {
   };
 
   const selectForCue = useCallback(
-    async (libraryId: string) => {
+    async (libraryId: string, role: LibraryCueRole) => {
       if (!cueContext) return;
       setStagingId(libraryId);
       setStageMessage(null);
@@ -270,6 +319,7 @@ export function LibraryBrowser() {
             libraryId,
             queryIndex: 0,
             selected: true,
+            role,
           }),
         });
         const data = await res.json();
@@ -278,7 +328,7 @@ export function LibraryBrowser() {
           router.push(returnTo);
           return;
         }
-        setStageMessage(`Selected for cue ${cueItemId}`);
+        setStageMessage(`${cueSelectLabel(role)} on ${cueItemId}`);
       } catch (e) {
         setStageMessage(e instanceof Error ? e.message : "Select failed");
       } finally {
@@ -324,8 +374,11 @@ export function LibraryBrowser() {
             <span className="font-mono text-amber-100">{cueItemId}</span>
           </p>
           <p className="mt-1 text-xs text-zinc-400">
-            Click <strong className="font-medium text-amber-300">Select for this cue</strong>{" "}
-            on any asset below. You&apos;ll return to the cue preview automatically.
+            <strong className="font-medium text-amber-300">Archive</strong> and{" "}
+            <strong className="font-medium text-amber-300">generated</strong> assets
+            become the cue background (plate).{" "}
+            <strong className="font-medium text-amber-300">Overlay</strong> assets
+            (GIF/sticker/title) layer on top — they do not replace the plate.
           </p>
           {returnTo && (
             <Link
@@ -586,16 +639,33 @@ export function LibraryBrowser() {
                         </div>
                       </button>
                       <div className="space-y-2 border-t border-zinc-800 p-2">
-                        {cueContext && asset.kind === "archive" && (
+                        {cueContext && isLibraryPlateKind(asset.kind) && (
                           <button
                             type="button"
                             disabled={stagingId === asset.id}
-                            onClick={() => void selectForCue(asset.id)}
+                            onClick={() => void selectForCue(asset.id, "plate")}
                             className="w-full rounded-lg bg-amber-700 px-2 py-2 text-xs font-semibold text-white hover:bg-amber-600 disabled:opacity-50"
                           >
                             {stagingId === asset.id
                               ? "Selecting…"
-                              : "Select for this cue"}
+                              : cueSelectLabel("plate")}
+                          </button>
+                        )}
+                        {cueContext && asset.kind === "overlay" && (
+                          <button
+                            type="button"
+                            disabled={stagingId === asset.id}
+                            onClick={() =>
+                              void selectForCue(
+                                asset.id,
+                                overlayCueRole(asset.filename),
+                              )
+                            }
+                            className="w-full rounded-lg bg-violet-800 px-2 py-2 text-xs font-semibold text-white hover:bg-violet-700 disabled:opacity-50"
+                          >
+                            {stagingId === asset.id
+                              ? "Selecting…"
+                              : cueSelectLabel(overlayCueRole(asset.filename))}
                           </button>
                         )}
                         <OpenInFinderButton
@@ -636,7 +706,10 @@ export function LibraryBrowser() {
           )}
         </div>
 
-        <aside className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-4 lg:sticky lg:top-4 lg:self-start">
+        <aside
+          ref={detailAsideRef}
+          className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-4 lg:sticky lg:top-4 lg:self-start"
+        >
           {!selectedId ? (
             <p className="text-sm text-zinc-500">
               {cueContext
@@ -780,16 +853,34 @@ export function LibraryBrowser() {
                 </div>
               )}
 
-              {cueContext && detail.kind === "archive" && (
+              {cueContext && detail && isLibraryPlateKind(detail.kind) && (
                 <button
                   type="button"
                   disabled={stagingId === detail.id}
-                  onClick={() => void selectForCue(detail.id)}
+                  onClick={() => void selectForCue(detail.id, "plate")}
                   className="w-full rounded-lg bg-amber-700 px-4 py-3 text-sm font-semibold text-white hover:bg-amber-600 disabled:opacity-50"
                 >
                   {stagingId === detail.id
                     ? "Selecting…"
-                    : `Select for cue ${cueItemId}`}
+                    : `${cueSelectLabel("plate")} (${cueItemId})`}
+                </button>
+              )}
+
+              {cueContext && detail.kind === "overlay" && (
+                <button
+                  type="button"
+                  disabled={stagingId === detail.id}
+                  onClick={() =>
+                    void selectForCue(
+                      detail.id,
+                      overlayCueRole(detail.filename),
+                    )
+                  }
+                  className="w-full rounded-lg bg-violet-800 px-4 py-3 text-sm font-semibold text-white hover:bg-violet-700 disabled:opacity-50"
+                >
+                  {stagingId === detail.id
+                    ? "Selecting…"
+                    : `${cueSelectLabel(overlayCueRole(detail.filename))} (${cueItemId})`}
                 </button>
               )}
 

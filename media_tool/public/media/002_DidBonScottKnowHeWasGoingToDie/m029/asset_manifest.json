@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m029",
   "cue": 29,
-  "t_start": 178.94,
-  "t_end": 187.26,
-  "duration_sec": 8.32,
-  "spoken": "about cost. And the devil always gets his due. So who is the devil? Well, for many, he's found at",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
+  "t_start": 85.6,
+  "t_end": 90.74,
+  "duration_sec": 5.14,
+  "spoken": "well known by people like Bon. It was known by absolutely anyone in the rock and roll scene in the",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -35,26 +35,22 @@
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
+      "slot": "black_plate",
+      "description": "[Library pass — verify license before publish]",
+      "status": "acquired"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_damage",
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [],
+  "requires_media_files": false,
+  "acquired_files": [
+    "giphy-5aPBK3wqKxB1m.gif",
+    "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.048Z"
+  "updated_at": "2026-06-11T21:10:09.337Z"
 }

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import {
   parseSearchFieldsParam,
+  parseLibraryFormatFilter,
   readLibraryIndex,
   searchFieldsToParam,
   searchLibrary,
@@ -18,6 +19,9 @@ export async function GET(request: NextRequest) {
     const searchFields = parseSearchFieldsParam(
       request.nextUrl.searchParams.get("fields"),
     );
+    const format = parseLibraryFormatFilter(
+      request.nextUrl.searchParams.get("format"),
+    );
 
     if (!q) {
       return NextResponse.json({
@@ -34,12 +38,14 @@ export async function GET(request: NextRequest) {
       limit: Number.isFinite(limit) ? limit : 20,
       kinds,
       searchFields,
+      format,
     });
 
     return NextResponse.json({
       query: q,
       count: results.length,
       fields: searchFieldsToParam(searchFields),
+      format,
       asset_count: readLibraryIndex().asset_count,
       results,
     });

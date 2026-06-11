@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m030",
   "cue": 30,
-  "t_start": 187.26,
-  "t_end": 195.3,
-  "duration_sec": 8.04,
-  "spoken": "the tip of a hypodermic needle. Yup, heroin. Legend has it that it can make artists feel invulnerable,",
+  "t_start": 90.74,
+  "t_end": 99.14,
+  "duration_sec": 8.4,
+  "spoken": "60s and 70s. Picture at this, it's 1931 in Mississippi. It's the dead of night. Nothing but the heat,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-dM2xuxnJCg4H6.gif",
+    "in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.049Z"
+  "updated_at": "2026-06-11T21:10:09.337Z"
 }

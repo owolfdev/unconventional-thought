@@ -6,6 +6,8 @@ export * from "./search";
 export * from "./list";
 export * from "./for-cue";
 export * from "./crop-shared";
+export * from "./plate-kind";
+export * from "./format-filter";
 export * from "./search-fields";
 export * from "./helpers";
 export { usageFromManifestItem } from "./helpers";

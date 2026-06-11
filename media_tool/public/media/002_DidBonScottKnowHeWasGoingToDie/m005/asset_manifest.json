@@ -2,63 +2,58 @@
   "version": 1,
   "id": "m005",
   "cue": 5,
-  "t_start": 29.5,
-  "t_end": 35.7,
-  "duration_sec": 6.2,
-  "spoken": "it's different. Am I the only one who notices that? In the early ACDC tracks, Bon is like a",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "t_start": 17.42,
+  "t_end": 20.27,
+  "duration_sec": 2.85,
+  "spoken": "he was going to cost him everything.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "'That's why he wrote Highway to Hell' — 1979 tour energy or studio session, era-accurate.",
+  "situation": "AC/DC Highway to Hell era — Bon on stage or in studio 1979",
   "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
     {
       "name": "AC/DC",
       "role": "band"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1979",
+  "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Bon Scott Highway to Hell tour 1979 live",
+    "AC/DC recording Highway to Hell 1979",
+    "Bon Scott microphone 1979 performance"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "it was going to cost him everything.",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "slot": "generated",
+      "description": "it was going to cost him everything.",
       "status": "needed"
     }
   ],
-  "effects": [
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [
-    "thinking-man-png-image-man-thinking.png"
-  ],
+  "requires_media_files": false,
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.042Z"
+  "updated_at": "2026-06-11T21:10:09.331Z"
 }

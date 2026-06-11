@@ -2,33 +2,29 @@
   "version": 1,
   "id": "m033",
   "cue": 33,
-  "t_start": 209.5,
-  "t_end": 214.7,
-  "duration_sec": 5.2,
-  "spoken": "through the 90s, check your record collection. Most likely a lot of the artists you listened to were",
+  "t_start": 102.35,
+  "t_end": 105.72,
+  "duration_sec": 3.37,
+  "spoken": "A young musician stands there with a guitar. His name",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
-  "location": "",
+  "editorial_intent": "Lonely intersection — insects, heat, dirt road; young musician waiting.",
+  "situation": "Rural crossroads intersection Mississippi — empty, humid night mood",
+  "people": [],
+  "date_from": "1930",
+  "date_to": "1935",
+  "location": "Mississippi, USA",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Mississippi crossroads intersection photograph",
+    "Delta blues rural road intersection",
+    "lonely dirt road southern USA night"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -36,25 +32,36 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "description": "Lonely intersection — insects, heat, dirt road; young musician waiting.",
+      "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: Mississippi crossroads intersection photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Delta blues rural road intersection",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: lonely dirt road southern USA night",
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_grain",
+    "vignette_heavy"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "genphoto-5bfb4176.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.049Z"
+  "updated_at": "2026-06-11T21:10:09.338Z"
 }

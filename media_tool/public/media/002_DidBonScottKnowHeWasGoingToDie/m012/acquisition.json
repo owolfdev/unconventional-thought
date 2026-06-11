@@ -4,9 +4,11 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
-  "notes": "",
-  "effects": [],
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -17,19 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC Highway to Hell tour 1979",
+      "query": "Bon Scott AC/DC 1977 live crowd energy",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:4f0abc4f789f115f",
+          "url": "/media/_library/assets/4f0abc4f789f115f/bon-scott-gif.gif",
+          "thumbnail_url": "/media/_library/assets/4f0abc4f789f115f/bon-scott-gif.gif",
+          "title": "bon scott GIF",
+          "source_page": "/media/_library/assets/4f0abc4f789f115f/bon-scott-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: bon scott GIF",
+          "selected_at": "2026-06-11T20:02:48.624Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott early tour sweat stage 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
-      "query_index": 1,
-      "query": "Bon Scott Highway to Hell live 1979",
+      "query_index": 2,
+      "query": "AC/DC live 1978 Bon Scott jumping",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "completed_at": "2026-06-11T09:39:58.216208Z",
+  "updated_at": "2026-06-11T20:02:56.741Z"
 }

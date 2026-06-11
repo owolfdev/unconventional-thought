@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m037",
   "cue": 37,
-  "t_start": 233.58,
-  "t_end": 238.76,
-  "duration_sec": 5.18,
-  "spoken": "Some of the biggest artists in modern music have openly talked about it. John Lennon talked",
+  "t_start": 118.04,
+  "t_end": 125.8,
+  "duration_sec": 7.76,
+  "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -37,7 +37,7 @@
     {
       "slot": "primary",
       "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "needed"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -50,11 +50,16 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-zci4bImZZ8FwuuYsSm.gif",
+    "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.050Z"
+  "updated_at": "2026-06-11T21:10:09.339Z"
 }

@@ -4,9 +4,12 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
+  "status": "in_progress",
   "notes": "",
-  "effects": [],
+  "effects": [
+    "slow_spin",
+    "film_scratches"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -17,19 +20,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC 1979 live concert photograph",
+      "query": "Bon Scott singing microphone close up 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:f4dd5ff01e5793b7",
+          "url": "/media/_library/assets/f4dd5ff01e5793b7/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/f4dd5ff01e5793b7/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/f4dd5ff01e5793b7/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "ACDC highway to hell",
+          "selected_at": "2026-06-11T19:57:23.440Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott vocal performance Highway to Hell",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
-      "query_index": 1,
-      "query": "AC/DC 1980 press photo band",
+      "query_index": 2,
+      "query": "AC/DC studio vocal booth 1979",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-10T11:35:46.362Z"
+  "updated_at": "2026-06-11T19:57:39.050Z"
 }

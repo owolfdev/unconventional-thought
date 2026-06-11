@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m004",
   "cue": 4,
-  "t_start": 23.8,
-  "t_end": 29.5,
-  "duration_sec": 5.7,
-  "spoken": "Listen to Bon's voice on Highway to Hell, especially the title track. It always intrigued me,",
+  "t_start": 16.76,
+  "t_end": 17.42,
+  "duration_sec": 0.66,
+  "spoken": "and he knew",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
@@ -41,7 +41,7 @@
     {
       "slot": "primary",
       "description": "Highway to Hell era live — peak Bon Scott stage energy.",
-      "status": "selected"
+      "status": "acquired"
     },
     {
       "slot": "search_1",
@@ -55,14 +55,15 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "IMG_5732.WEBP"
+    "giphy-FHDSFZwBuVDmo.gif",
+    "in-acdc-logo-style-he-knew.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-10T11:35:30.042Z"
+  "updated_at": "2026-06-11T21:10:09.330Z"
 }
