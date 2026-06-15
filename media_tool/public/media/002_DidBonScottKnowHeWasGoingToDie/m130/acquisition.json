@@ -1,0 +1,57 @@
+{
+  "id": "m130",
+  "cue": 130,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "rock concert crowd cheering 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:056be30c7a3270ab",
+          "url": "/media/_library/assets/056be30c7a3270ab/black-friday-shopping-gif.gif",
+          "thumbnail_url": "/media/_library/assets/056be30c7a3270ab/black-friday-shopping-gif.gif",
+          "title": "Black Friday Shopping GIF",
+          "source_page": "/media/_library/assets/056be30c7a3270ab/black-friday-shopping-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: Black Friday Shopping GIF",
+          "selected_at": "2026-06-15T20:25:39.220Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "concert tickets hands 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "stadium audience rock show 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-15T20:24:49.112Z",
+  "updated_at": "2026-06-15T20:25:46.885Z"
+}

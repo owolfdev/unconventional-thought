@@ -4,7 +4,7 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "in_progress",
+  "status": "complete",
   "notes": "",
   "effects": [
     "slow_spin",
@@ -25,15 +25,15 @@
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:f4dd5ff01e5793b7",
-          "url": "/media/_library/assets/f4dd5ff01e5793b7/asset.jpg",
-          "thumbnail_url": "/media/_library/assets/f4dd5ff01e5793b7/asset.jpg",
-          "title": "asset.jpg",
-          "source_page": "/media/_library/assets/f4dd5ff01e5793b7/asset.jpg",
+          "result_id": "library:aac702f0e76dffd6",
+          "url": "/media/_library/assets/aac702f0e76dffd6/asset.png",
+          "thumbnail_url": "/media/_library/assets/aac702f0e76dffd6/asset.png",
+          "title": "asset.png",
+          "source_page": "/media/_library/assets/aac702f0e76dffd6/asset.png",
           "license": "verify rights before use",
           "engine_id": "library",
-          "query": "ACDC highway to hell",
-          "selected_at": "2026-06-11T19:57:23.440Z"
+          "query": "highway to hell single",
+          "selected_at": "2026-06-14T17:37:38.407Z"
         }
       ]
     },
@@ -52,6 +52,6 @@
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-11T19:57:39.050Z"
+  "completed_at": "2026-06-14T17:37:50.339Z",
+  "updated_at": "2026-06-14T17:37:50.339Z"
 }

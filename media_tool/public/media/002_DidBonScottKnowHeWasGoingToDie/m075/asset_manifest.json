@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m075",
   "cue": 75,
-  "t_start": 367.06,
-  "t_end": 375.48,
-  "duration_sec": 8.42,
-  "spoken": "disco bathrooms, punk squads, self-destruction, and gay. So a heroin narrative around Bond would",
+  "t_start": 227.92,
+  "t_end": 232.92,
+  "duration_sec": 5,
+  "spoken": "It moved through elite rooms, working bands, after parties, and studio circles.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -51,15 +51,18 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage",
+    "tremble",
+    "tilt_left"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "thinking-man-png-image-man-thinking.png"
+    "giphy-1qgBUe1lzpDPUJS5bd.gif",
+    "back-stage.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.348Z"
+  "updated_at": "2026-06-15T20:27:49.111Z"
 }

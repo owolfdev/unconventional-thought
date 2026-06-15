@@ -1,56 +1,47 @@
 {
   "id": "m085",
   "cue": 85,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "YOU DECIDE.",
+    "style": "minimal_white"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "rock concert crowd cheering 1979",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
       "selections": [
         {
-          "result_id": "library:48dfd3398fc95955",
-          "url": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
-          "thumbnail_url": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
-          "title": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
-          "source_page": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "rock concert crowd cheering 1979",
-          "selected_at": "2026-06-11T09:39:58.230225Z"
+          "result_id": "library:03dedc4354bdf92b",
+          "url": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
+          "thumbnail_url": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
+          "title": "pressure GIF",
+          "source_page": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: pressure GIF",
+          "selected_at": "2026-06-15T19:27:45.854Z"
         }
       ]
-    },
-    {
-      "query_index": 1,
-      "query": "concert tickets hands 1970s",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "stadium audience rock show 1979",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.230228Z",
-  "updated_at": "2026-06-11T09:39:58.230228Z"
+  "completed_at": "2026-06-13T22:05:51.561Z",
+  "updated_at": "2026-06-15T19:27:45.854Z"
 }

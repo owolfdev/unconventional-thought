@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "m113",
+  "cue": 113,
+  "t_start": 355.87,
+  "t_end": 359.88,
+  "duration_sec": 4.01,
+  "spoken": "That crowd was explicitly",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Anti-disco — Disco Demolition Night Comiskey Park July 1979; cultural war.",
+  "situation": "Disco Demolition Night Comiskey Park July 1979",
+  "people": [],
+  "date_from": "1979",
+  "date_to": "1979",
+  "location": "Chicago, USA",
+  "search_queries": [
+    "Disco Demolition Night 1979 Comiskey Park",
+    "Steve Dahl disco demolition 1979",
+    "disco records explosion baseball field 1979"
+  ],
+  "avoid": [
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": false,
+  "acquired_files": [],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-15T20:27:49.136Z"
+}

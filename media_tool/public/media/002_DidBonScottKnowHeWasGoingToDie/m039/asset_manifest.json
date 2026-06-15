@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m039",
   "cue": 39,
-  "t_start": 133.06,
-  "t_end": 140.32,
-  "duration_sec": 7.26,
-  "spoken": "for immortality. He came back different, transformed. The other musicians were stunned. He now had",
+  "t_start": 105.72,
+  "t_end": 107.92,
+  "duration_sec": 2.2,
+  "spoken": "is Robert Johnson. He's got a",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -57,9 +57,9 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-12uCJ4spmImIw.gif",
-    "download-872321de6e71-inv.jpg"
+    "giphy-dM2xuxnJCg4H6.gif",
+    "asset.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.340Z"
+  "updated_at": "2026-06-15T20:27:49.090Z"
 }

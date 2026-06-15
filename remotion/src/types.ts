@@ -93,6 +93,7 @@ export interface Timeline {
   audioSrc: string;
   /** Burn-in cue + m### labels (from media_tool toggle / preview-settings.json). */
   showCueOverlay?: boolean;
+  showStickerOverlays?: boolean;
   shots: Shot[];
   stats: {
     shot_count: number;

@@ -5,7 +5,7 @@
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
     "film_scratches"
   ],
@@ -13,44 +13,51 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Studio 54 1970s photograph",
+      "query": "Jimi Hendrix 1969 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:5c07e1ac64c1fdaf",
-          "url": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
-          "thumbnail_url": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
-          "title": "crystal-chandeliers-distinguished-guests-and-balls.gif",
-          "source_page": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
-          "license": "migrated from episode 001 acquired/ — verify rights",
+          "result_id": "library:ca1106bcd4e81fba",
+          "url": "/media/_library/assets/ca1106bcd4e81fba/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/ca1106bcd4e81fba/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/ca1106bcd4e81fba/asset.jpg",
+          "license": "verify rights before use",
           "engine_id": "library",
-          "query": "Studio 54 1970s photograph",
-          "selected_at": "2026-06-11T09:39:58.222349Z"
+          "query": "Jimi Hendrix 1969 photograph",
+          "selected_at": "2026-06-12T21:42:19.364Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "1970s music industry party photograph",
+      "query": "Janis Joplin 1970 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "New York nightclub 1970s rock scene",
+      "query": "Jim Morrison 1971 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 3,
+      "query": "Kurt Cobain 1990s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.222353Z",
-  "updated_at": "2026-06-11T09:39:58.222353Z"
+  "completed_at": "2026-06-13T08:18:46.920Z",
+  "updated_at": "2026-06-13T08:18:46.920Z"
 }

@@ -1,56 +1,61 @@
 {
   "id": "m016",
   "cue": 16,
-  "source_visual_mode": "artifact",
-  "resolved_visual_mode": "artifact",
-  "resolved_media_type": "photo",
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_damage",
+    "vignette_soft",
+    "film_scratches",
+    "desaturate_soft",
+    "crt_glow",
+    "slow_zoom_in"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "whisky glass bar counter 1970s photograph",
+      "query": "Bon Scott 1979 live relaxed performance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:7577f22a845b8a3c",
-          "url": "/media/_library/assets/7577f22a845b8a3c/IMG_5729.JPG",
-          "thumbnail_url": "/media/_library/assets/7577f22a845b8a3c/IMG_5729.JPG",
-          "title": "IMG_5729.JPG",
-          "source_page": "/media/_library/assets/7577f22a845b8a3c/IMG_5729.JPG",
-          "license": "manual import — verify rights",
+          "result_id": "library:c167443332ebf7aa",
+          "url": "/media/_library/assets/c167443332ebf7aa/asset.mp4",
+          "thumbnail_url": "/media/_library/assets/c167443332ebf7aa/asset.mp4",
+          "title": "asset.mp4",
+          "source_page": "/media/_library/assets/c167443332ebf7aa/asset.mp4",
+          "license": "verify rights before use",
           "engine_id": "library",
-          "query": "IMG_5729.JPG",
-          "selected_at": "2026-06-11T20:08:41.460Z"
+          "query": "flowing",
+          "selected_at": "2026-06-14T17:44:46.324Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "empty bar stool dim pub 1970s",
+      "query": "Bon Scott Highway to Hell tour leaning microphone",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "beer bottles blurred background documentary",
+      "query": "Bon Scott 1979 stage calm expression",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.216679Z",
-  "updated_at": "2026-06-11T20:08:41.460Z"
+  "completed_at": "2026-06-14T17:45:57.470Z",
+  "updated_at": "2026-06-14T17:45:57.470Z"
 }

@@ -15,6 +15,7 @@ import {
   RENDER_CUES_USAGE,
   readActiveEpisode,
   renderPaths,
+  renderSpanLabel,
   REMOTION_ROOT,
 } from "./episode-config.mjs";
 
@@ -47,7 +48,8 @@ const endFrame =
 const durationFrames = endFrame - startFrame + 1;
 
 const scale = preview ? 0.5 : 1;
-const label = shots.map((s) => s.id).join("-");
+const cueIds = shots.map((s) => s.id);
+const label = renderSpanLabel(cueIds);
 const { renderDir, previewDir } = renderPaths(active);
 const out = preview
   ? path.join(previewDir, `preview-${label}.mp4`)

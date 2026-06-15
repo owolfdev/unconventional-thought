@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m064",
   "cue": 64,
-  "t_start": 295.26,
-  "t_end": 300.9,
-  "duration_sec": 5.64,
-  "spoken": "That sentence may be true at one level. It may also be incomplete and less plausible than the",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
+  "t_start": 195.3,
+  "t_end": 197.66,
+  "duration_sec": 2.36,
+  "spoken": "lucid, insulated, and brilliant",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -35,19 +35,9 @@
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "black_plate",
+      "description": "[Library pass — verify license before publish]",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
@@ -55,11 +45,11 @@
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
     "giphy-dM2xuxnJCg4H6.gif",
-    "great-story-very-convenient.png"
+    "black-and-white-optical-illusion-gif.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.345Z"
+  "updated_at": "2026-06-15T20:27:49.104Z"
 }

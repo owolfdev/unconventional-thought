@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m022",
   "cue": 22,
-  "t_start": 60.81,
-  "t_end": 62.06,
-  "duration_sec": 1.25,
-  "spoken": "And what about the lyrics?",
+  "t_start": 57.8,
+  "t_end": 60.81,
+  "duration_sec": 3.01,
+  "spoken": "It's like a supernatural nonchalance.",
   "visual_mode": "text_graphic",
   "expected_media_type": "generated",
   "editorial_intent": "'Supernatural nonchalance' — Bon backstage or live, eerie calm amid chaos.",
@@ -32,22 +32,27 @@
     "modern stock photo"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "supernatural nonchalance.",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
       "slot": "generated",
-      "description": "And what about the lyrics?",
-      "status": "needed"
+      "description": "supernatural nonchalance.",
+      "status": "acquired"
     }
   ],
   "effects": [
-    "film_damage"
+    "film_damage",
+    "slow_push_in"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": false,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.335Z"
+  "updated_at": "2026-06-15T20:27:49.081Z"
 }

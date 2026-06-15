@@ -1,0 +1,49 @@
+{
+  "id": "m127",
+  "cue": 127,
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches",
+    "film_damage",
+    "tremble",
+    "slow_zoom_in"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "(text graphic — no archive search)",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:39c25ce872dd60d8",
+          "url": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
+          "thumbnail_url": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
+          "title": "the-man-has-been-dead-for-five-months.jpg",
+          "source_page": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "the-man-has-been-dead-for-five-months.jpg",
+          "selected_at": "2026-06-14T15:05:40.345Z"
+        }
+      ]
+    }
+  ],
+  "completed_at": "2026-06-15T20:21:10.266Z",
+  "updated_at": "2026-06-15T20:21:10.266Z"
+}

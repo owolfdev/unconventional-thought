@@ -4,54 +4,42 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "effect_only",
   "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "[Library pass — verify license before publish]",
+  "status": "complete",
+  "notes": "",
   "effects": [
-    "film_damage",
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "1970s rock musicians backstage photograph",
+      "query": "Bon Scott 1979 live arms spread stage",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:48dfd3398fc95955",
-          "url": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
-          "thumbnail_url": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
-          "title": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
-          "source_page": "/media/_library/assets/48dfd3398fc95955/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "1970s rock musicians backstage photograph",
-          "selected_at": "2026-06-11T09:39:58.217844Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "rock and roll backstage 1970s candid",
+      "query": "Bon Scott Highway to Hell performance acceptance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "musicians talking backstage 1970s tour",
+      "query": "highway road night photograph 1970s metaphor",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.217849Z",
-  "updated_at": "2026-06-11T20:51:56.846Z"
+  "completed_at": "2026-06-14T18:00:30.381Z",
+  "updated_at": "2026-06-14T18:00:30.381Z"
 }

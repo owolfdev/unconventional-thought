@@ -1,0 +1,45 @@
+{
+  "id": "m123",
+  "cue": 123,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "1980 car commercial television still",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 1,
+      "query": "advertising agency 1980 meeting",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Chevrolet advertisement 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-15T20:18:32.875Z",
+  "updated_at": "2026-06-15T20:18:32.875Z"
+}

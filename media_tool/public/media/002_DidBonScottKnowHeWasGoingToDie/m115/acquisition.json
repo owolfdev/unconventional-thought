@@ -1,0 +1,54 @@
+{
+  "id": "m115",
+  "cue": 115,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Andy Warhol factory 1970s photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:003ce38ca2b5df44",
+          "url": "/media/_library/assets/003ce38ca2b5df44/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/003ce38ca2b5df44/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/003ce38ca2b5df44/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "down town junkies",
+          "selected_at": "2026-06-15T20:08:31.456Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Velvet Underground era New York 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "downtown Manhattan 1970s nightlife",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-15T20:11:46.537Z",
+  "updated_at": "2026-06-15T20:11:46.537Z"
+}

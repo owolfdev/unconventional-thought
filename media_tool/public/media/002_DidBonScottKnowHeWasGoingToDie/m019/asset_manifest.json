@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m019",
   "cue": 19,
-  "t_start": 54.72,
-  "t_end": 56.24,
-  "duration_sec": 1.52,
-  "spoken": "People who know about these",
+  "t_start": 53.13,
+  "t_end": 54.72,
+  "duration_sec": 1.59,
+  "spoken": "This is different.",
   "visual_mode": "artifact",
   "expected_media_type": "photo",
   "editorial_intent": "NOT alcohol — reject beer-sloppy cliché. Whisky glass out of focus or empty bar stool; documentary contrast to 'inebriated' voice claim.",
@@ -59,13 +59,15 @@
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_damage"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "think-about-it-gif-by-identity.gif"
+    "text-graphic-different.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.335Z"
+  "updated_at": "2026-06-15T20:27:49.080Z"
 }

@@ -2,55 +2,55 @@
   "id": "m055",
   "cue": 55,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "text_graphic",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "and many others. ",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Eric Clapton 1970s photograph",
+      "query": "Jimi Hendrix 1969 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:04dd70e203071d02",
-          "url": "/media/_library/assets/04dd70e203071d02/geordie.jpg",
-          "thumbnail_url": "/media/_library/assets/04dd70e203071d02/geordie.jpg",
-          "title": "geordie.jpg",
-          "source_page": "/media/_library/assets/04dd70e203071d02/geordie.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "Eric Clapton 1970s photograph",
-          "selected_at": "2026-06-11T09:39:58.222969Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "Lou Reed 1970s New York photograph",
+      "query": "Janis Joplin 1970 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Keith Richards 1970s Rolling Stones",
+      "query": "Jim Morrison 1971 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 3,
+      "query": "Kurt Cobain 1990s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.222973Z",
-  "updated_at": "2026-06-11T09:39:58.222973Z"
+  "completed_at": null,
+  "updated_at": "2026-06-13T08:18:57.533Z"
 }

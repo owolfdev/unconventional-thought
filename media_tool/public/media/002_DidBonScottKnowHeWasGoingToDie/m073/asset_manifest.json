@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m073",
   "cue": 73,
-  "t_start": 351.16,
-  "t_end": 359.88,
-  "duration_sec": 8.72,
-  "spoken": "mainstream, suburban, beer, denim, v8s. That crowd was explicitly anti-disco and suspicious of",
+  "t_start": 221.42,
+  "t_end": 225.07,
+  "duration_sec": 3.65,
+  "spoken": "Late 70s music culture was saturated with heroin.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -51,15 +51,16 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "but-the-narrator-is-generic.png"
+    "giphy-3ohjUNLQOqL6RaAgso.gif",
+    "text-graphic-in-1970s-font-the-70s.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.347Z"
+  "updated_at": "2026-06-15T20:27:49.110Z"
 }

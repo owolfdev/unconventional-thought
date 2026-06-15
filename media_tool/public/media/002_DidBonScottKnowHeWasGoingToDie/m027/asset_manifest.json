@@ -2,54 +2,42 @@
   "version": 1,
   "id": "m027",
   "cue": 27,
-  "t_start": 82.19,
-  "t_end": 85.6,
-  "duration_sec": 3.41,
-  "spoken": "It reminds me of a story, a story that was",
-  "visual_mode": "text_graphic",
+  "t_start": 68.08,
+  "t_end": 71.2,
+  "duration_sec": 3.12,
+  "spoken": "I'm on the highway to Hell. That's not",
+  "visual_mode": "effect_only",
   "expected_media_type": "generated",
-  "editorial_intent": "'His best work' — studio or stage peak 1979; pivot into folklore story.",
-  "situation": "AC/DC Highway to Hell sessions or tour — creative peak 1979",
-  "people": [
-    {
-      "name": "Bon Scott",
-      "role": "vocalist"
-    },
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1979",
-  "date_to": "1979",
+  "editorial_intent": "Lyric punch — type the highway lines on grain; VO quotes the song.",
+  "situation": "Generated text graphic (transcription)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
   "location": "",
-  "search_queries": [
-    "AC/DC studio 1979 recording session",
-    "Bon Scott 1979 creative peak live",
-    "AC/DC band studio 1979 photograph"
-  ],
-  "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
-  ],
+  "search_queries": [],
+  "avoid": [],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "NO STOP SIGNS · PAYING MY DUES · HIGHWAY TO HELL",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "It reminds me of a story,",
-      "status": "needed"
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": false,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.337Z"
+  "updated_at": "2026-06-15T20:27:49.084Z"
 }

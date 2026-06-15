@@ -13,44 +13,44 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson blues guitarist photograph",
+      "query": "Mississippi Delta dirt road 1930s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:38d8e4b1a7c1c2d5",
-          "url": "/media/_library/assets/38d8e4b1a7c1c2d5/asset.jpg",
-          "thumbnail_url": "/media/_library/assets/38d8e4b1a7c1c2d5/asset.jpg",
-          "title": "asset.jpg",
-          "source_page": "/media/_library/assets/38d8e4b1a7c1c2d5/asset.jpg",
-          "license": "verify rights before use",
-          "engine_id": "library",
-          "query": "asset.jpg",
-          "selected_at": "2026-06-11T21:09:33.088Z"
+          "result_id": "library:2ba4f9e1430cd536",
+          "url": "/media/_library/assets/2ba4f9e1430cd536/in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png",
+          "thumbnail_url": "/media/_library/assets/2ba4f9e1430cd536/in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png",
+          "title": "in a psychedelic font render the following text graphic: 60s & 70s",
+          "source_page": "/media/_library/assets/2ba4f9e1430cd536/in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: in a psychedelic font render the following text graphic: 60s & 70s",
+          "selected_at": "2026-06-11T20:55:04.079Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Robert Johnson with guitar 1930s",
+      "query": "Mississippi crossroads rural night historical",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Robert Johnson portrait blues musician",
+      "query": "Delta blues Mississippi countryside 1930s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T21:09:41.913Z",
-  "updated_at": "2026-06-11T21:09:41.913Z"
+  "completed_at": "2026-06-13T08:11:42.625Z",
+  "updated_at": "2026-06-13T08:11:42.625Z"
 }

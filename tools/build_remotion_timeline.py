@@ -245,6 +245,7 @@ def default_preview_settings() -> dict:
     return {
         "version": 1,
         "showCueOverlay": True,
+        "showStickerOverlays": True,
         "updated_at": datetime.now(timezone.utc)
         .isoformat()
         .replace("+00:00", "Z"),
@@ -784,6 +785,21 @@ def read_show_cue_overlay() -> bool:
     return True
 
 
+def read_show_sticker_overlays() -> bool:
+    """OpenAI/GIPHY sticker + title PNG overlays (preview-settings.json)."""
+    preview_path = PREVIEW_SETTINGS
+    if preview_path.is_file():
+        try:
+            doc = json.loads(preview_path.read_text(encoding="utf-8"))
+            if doc.get("showStickerOverlays") is False:
+                return False
+            if doc.get("showStickerOverlays") is True:
+                return True
+        except (json.JSONDecodeError, OSError):
+            pass
+    return True
+
+
 def compute_preroll_sec(items: list[dict]) -> float:
     """Silence + title card before VO: duration of m000 when it has no spoken line."""
     for item in items:
@@ -932,6 +948,8 @@ def build_shot(
     elif sticker_path or title_path:
         shot["mediaKind"] = "none"
         shot["missingMedia"] = False
+        if shot.get("stickerSrc") or shot.get("titleOverlaySrc"):
+            shot["textGraphic"] = None
     else:
         shot["missingMedia"] = True
 
@@ -1015,6 +1033,7 @@ def main() -> int:
         "audioFromFrame": audio_from_frame,
         "audioSrc": rel_public(audio_path.resolve()),
         "showCueOverlay": read_show_cue_overlay(),
+        "showStickerOverlays": read_show_sticker_overlays(),
         "shots": shots,
         "stats": {
             "shot_count": len(shots),

@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m076",
   "cue": 76,
-  "t_start": 375.48,
-  "t_end": 382.42,
-  "duration_sec": 6.94,
-  "spoken": "not just be bad press. It would feel like cultural betrayal. ACDC were just about to put out",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
+  "t_start": 233.58,
+  "t_end": 237.68,
+  "duration_sec": 4.1,
+  "spoken": "Some of the biggest artists in modern music have openly talked about it.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -35,31 +35,20 @@
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "black_plate",
+      "description": "[Library pass — verify license before publish]",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "bon_and_angus.jpg"
+    "giphy-Naz61B60A2e6A.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.348Z"
+  "updated_at": "2026-06-15T20:27:49.112Z"
 }

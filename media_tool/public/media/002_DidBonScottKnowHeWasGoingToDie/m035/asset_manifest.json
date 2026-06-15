@@ -2,57 +2,66 @@
   "version": 1,
   "id": "m035",
   "cue": 35,
-  "t_start": 107.92,
-  "t_end": 112.06,
-  "duration_sec": 4.14,
-  "spoken": "burning hunger to be a great player and for fame. Just then,",
-  "visual_mode": "text_graphic",
-  "expected_media_type": "generated",
-  "editorial_intent": "Robert Johnson with guitar — hunger for greatness; ONLY Johnson-era imagery from here.",
-  "situation": "Robert Johnson guitarist portrait or with guitar 1930s",
-  "people": [
-    {
-      "name": "Robert Johnson",
-      "role": "blues musician"
-    }
-  ],
-  "date_from": "1935",
-  "date_to": "1938",
+  "t_start": 92.51,
+  "t_end": 99.14,
+  "duration_sec": 6.63,
+  "spoken": "Picture at this, it's 1931 in Mississippi. It's the dead of night. Nothing but the heat,",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Crossroads setup — 1931 Mississippi night; heat, isolation, date anchor.",
+  "situation": "Mississippi Delta rural road night 1930s — crossroads atmosphere",
+  "people": [],
+  "date_from": "1930",
+  "date_to": "1935",
   "location": "Mississippi, USA",
   "search_queries": [
-    "Robert Johnson blues guitarist photograph",
-    "Robert Johnson with guitar 1930s",
-    "Robert Johnson portrait blues musician"
+    "Mississippi Delta dirt road 1930s photograph",
+    "Mississippi crossroads rural night historical",
+    "Delta blues Mississippi countryside 1930s"
   ],
   "avoid": [
     "stock explainer",
     "corporate presentation",
     "literal album cover art",
     "AI generated faces",
-    "modern stock photo"
+    "modern stock photo",
+    "modern highway",
+    "suburban"
   ],
   "artifact": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "burning hunger to be a great player and for fame.",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "burning hunger to be a great player and for fame.",
+      "slot": "primary",
+      "description": "Crossroads setup — 1931 Mississippi night; heat, isolation, date anchor.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Mississippi Delta dirt road 1930s photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Mississippi crossroads rural night historical",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Delta blues Mississippi countryside 1930s",
       "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": false,
-  "acquired_files": [],
+  "requires_media_files": true,
+  "acquired_files": [
+    "genphoto-3aac2628.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.339Z"
+  "updated_at": "2026-06-15T20:27:49.088Z"
 }

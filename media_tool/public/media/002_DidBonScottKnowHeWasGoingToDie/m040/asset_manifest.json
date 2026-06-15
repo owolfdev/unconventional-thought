@@ -2,64 +2,55 @@
   "version": 1,
   "id": "m040",
   "cue": 40,
-  "t_start": 140.32,
-  "t_end": 147.78,
-  "duration_sec": 7.46,
-  "spoken": "supernatural ability on the guitar in otherworldly voice. The devil also promised him fame. But Johnson",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "t_start": 107.92,
+  "t_end": 110.99,
+  "duration_sec": 3.07,
+  "spoken": "burning hunger to be a great player and for fame.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Robert Johnson with guitar — hunger for greatness; ONLY Johnson-era imagery from here.",
+  "situation": "Robert Johnson guitarist portrait or with guitar 1930s",
   "people": [
     {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "Robert Johnson",
+      "role": "blues musician"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
-  "location": "",
+  "date_from": "1935",
+  "date_to": "1938",
+  "location": "Mississippi, USA",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Robert Johnson blues guitarist photograph",
+    "Robert Johnson with guitar 1930s",
+    "Robert Johnson portrait blues musician"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
-  "transition": null,
+  "transition": "film_burn",
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "his-actual-voice.jpg"
+    "text-graphic-in-acdc-font-burning-hunger.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.340Z"
+  "updated_at": "2026-06-15T20:27:49.091Z"
 }

@@ -141,6 +141,73 @@ export function setCuePlateSelection(
   };
 }
 
+/** Append a plate image; keeps existing plates and overlays. */
+export function addCuePlateSelection(
+  acquisition: ItemAcquisition,
+  selection: SelectedMedia,
+  queryIndex = 0,
+): ItemAcquisition {
+  return updateAcquisitionSelection(acquisition, selection, true, queryIndex);
+}
+
+/** Reorder cue plate images (Remotion plateSequence order). Overlays unchanged. */
+export function reorderPlateSelections(
+  acquisition: ItemAcquisition,
+  orderedResultIds: string[],
+): ItemAcquisition {
+  const plates: SelectedMedia[] = [];
+  const overlaySlots: { queryIndex: number; selection: SelectedMedia }[] = [];
+
+  const queries =
+    acquisition.queries.length > 0
+      ? acquisition.queries
+      : [fallbackQuery()];
+
+  queries.forEach((q, queryIndex) => {
+    for (const sel of q.selections) {
+      if (isOverlaySelection(sel)) {
+        overlaySlots.push({ queryIndex, selection: sel });
+      } else {
+        plates.push(sel);
+      }
+    }
+  });
+
+  if (plates.length < 2) return acquisition;
+
+  const byId = new Map(plates.map((p) => [p.result_id, p]));
+  const reordered: SelectedMedia[] = [];
+  for (const id of orderedResultIds) {
+    const plate = byId.get(id);
+    if (plate) {
+      reordered.push(plate);
+      byId.delete(id);
+    }
+  }
+  for (const plate of byId.values()) {
+    reordered.push(plate);
+  }
+
+  const newQueries = queries.map((q) => ({
+    ...q,
+    selections: [] as SelectedMedia[],
+  }));
+
+  for (const plate of reordered) {
+    newQueries[0].selections.push(plate);
+  }
+  for (const { queryIndex, selection } of overlaySlots) {
+    const qi = Math.min(queryIndex, newQueries.length - 1);
+    newQueries[qi].selections.push(selection);
+  }
+
+  return {
+    ...acquisition,
+    queries: newQueries,
+    updated_at: new Date().toISOString(),
+  };
+}
+
 /** Add or remove a selection on a query block (default: first). */
 export function updateAcquisitionSelection(
   acquisition: ItemAcquisition,

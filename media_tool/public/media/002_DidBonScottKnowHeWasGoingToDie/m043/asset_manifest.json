@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m043",
   "cue": 43,
-  "t_start": 163.6,
-  "t_end": 169.1,
-  "duration_sec": 5.5,
-  "spoken": "they traded something for greatness, for art. Some might say they sold their souls for fame.",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
+  "t_start": 118.04,
+  "t_end": 125.8,
+  "duration_sec": 7.76,
+  "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -31,22 +31,16 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "It plays something impossibly good, then hands the guitar back and says, \"now it's yours\".",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "slot": "generated",
+      "description": "It plays something impossibly good, then hands the guitar back and says, \"now it's yours\".",
       "status": "needed"
     }
   ],
@@ -55,11 +49,10 @@
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "i-think-theres-something-happening-here-that-nobodys-really-talking-about.jpg"
+    "giphy-zci4bImZZ8FwuuYsSm.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.341Z"
+  "updated_at": "2026-06-15T20:27:49.092Z"
 }

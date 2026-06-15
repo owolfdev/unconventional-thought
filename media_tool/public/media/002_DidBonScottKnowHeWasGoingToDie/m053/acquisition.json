@@ -5,52 +5,60 @@
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "rock band backstage 1970s afterparty",
+      "query": "Jimi Hendrix 1969 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:e86f76483704e4b7",
-          "url": "/media/_library/assets/e86f76483704e4b7/respect-sincere-uneironic-respect.gif",
-          "thumbnail_url": "/media/_library/assets/e86f76483704e4b7/respect-sincere-uneironic-respect.gif",
-          "title": "respect-sincere-uneironic-respect.gif",
-          "source_page": "/media/_library/assets/e86f76483704e4b7/respect-sincere-uneironic-respect.gif",
-          "license": "migrated from episode 001 acquired/ — verify rights",
+          "result_id": "library:91d1e32122780dcf",
+          "url": "/media/_library/assets/91d1e32122780dcf/jim-morrison-1969jpg.jpg",
+          "thumbnail_url": "/media/_library/assets/91d1e32122780dcf/jim-morrison-1969jpg.jpg",
+          "title": "jim-morrison-1969jpg.jpg",
+          "source_page": "/media/_library/assets/91d1e32122780dcf/jim-morrison-1969jpg.jpg",
+          "license": "Public domain",
           "engine_id": "library",
-          "query": "rock band backstage 1970s afterparty",
-          "selected_at": "2026-06-11T09:39:58.222550Z"
+          "query": "jim-morrison-1969jpg.jpg",
+          "selected_at": "2026-06-12T21:44:24.703Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "recording studio late night 1970s",
+      "query": "Janis Joplin 1970 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "tour bus backstage 1970s musicians",
+      "query": "Jim Morrison 1971 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 3,
+      "query": "Kurt Cobain 1990s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.222554Z",
-  "updated_at": "2026-06-11T09:39:58.222554Z"
+  "completed_at": "2026-06-13T08:18:48.788Z",
+  "updated_at": "2026-06-13T08:18:48.788Z"
 }

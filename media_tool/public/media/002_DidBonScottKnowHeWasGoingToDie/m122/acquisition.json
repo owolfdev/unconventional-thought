@@ -1,0 +1,56 @@
+{
+  "id": "m122",
+  "cue": 122,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "FM radio station 1980 control room",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:8221c5d008394875",
+          "url": "/media/_library/assets/8221c5d008394875/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/8221c5d008394875/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/8221c5d008394875/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "FM radio station 1980 control room",
+          "selected_at": "2026-06-15T20:17:49.694Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "radio program director office 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "American radio station studio 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-15T20:18:04.487Z",
+  "updated_at": "2026-06-15T20:18:04.487Z"
+}

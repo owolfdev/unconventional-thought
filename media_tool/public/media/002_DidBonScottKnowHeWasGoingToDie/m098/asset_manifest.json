@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "id": "m098",
+  "cue": 98,
+  "t_start": 301.9,
+  "t_end": 304.54,
+  "duration_sec": 2.64,
+  "spoken": "Bond was a veteran drinker after all.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Friend left him in the car — guilt, abandonment; car in cold night.",
+  "situation": "Friend's car winter night — left alone, troubling decision",
+  "people": [],
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "London, UK",
+  "search_queries": [
+    "car parked alley winter night",
+    "sleeping in car winter photograph",
+    "friend leaving car night street"
+  ],
+  "avoid": [
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Friend left him in the car — guilt, abandonment; car in cold night.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: car parked alley winter night",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: sleeping in car winter photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: friend leaving car night street",
+      "status": "needed"
+    }
+  ],
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [
+    "IMG_5729.JPG"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-15T20:27:49.124Z"
+}

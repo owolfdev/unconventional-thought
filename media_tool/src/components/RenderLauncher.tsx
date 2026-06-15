@@ -9,8 +9,10 @@ type Props = {
   currentCueId?: string;
   maxCueId?: string;
   showCueOverlay?: boolean;
+  showStickerOverlays?: boolean;
   overlayBusy?: boolean;
   onToggleCueOverlay?: (enabled: boolean) => void | Promise<void>;
+  onToggleStickerOverlays?: (enabled: boolean) => void | Promise<void>;
 };
 
 function progressPercent(p: RenderProgress | undefined): number | null {
@@ -30,8 +32,10 @@ export function RenderLauncher({
   currentCueId,
   maxCueId,
   showCueOverlay = true,
+  showStickerOverlays = true,
   overlayBusy = false,
   onToggleCueOverlay,
+  onToggleStickerOverlays,
 }: Props) {
   const [from, setFrom] = useState(currentCueId ?? "m001");
   const [to, setTo] = useState(currentCueId ?? "m010");
@@ -197,6 +201,25 @@ export function RenderLauncher({
             }}
           >
             Current cue
+          </button>
+        )}
+        {onToggleStickerOverlays && (
+          <button
+            type="button"
+            disabled={overlayBusy}
+            onClick={() => void onToggleStickerOverlays(!showStickerOverlays)}
+            title="Hide sticker/title overlays on plated cues; sticker-only cues (e.g. m075) still show"
+            className={`rounded-lg border px-3 py-2 text-sm font-medium transition disabled:opacity-50 ${
+              showStickerOverlays
+                ? "border-amber-600/80 bg-amber-950/80 text-amber-200 hover:bg-amber-900/60"
+                : "border-zinc-600 bg-zinc-900 text-zinc-400 hover:bg-zinc-800"
+            }`}
+          >
+            {overlayBusy
+              ? "Updating…"
+              : showStickerOverlays
+                ? "Hand-drawn: ON"
+                : "Hand-drawn: OFF"}
           </button>
         )}
         {onToggleCueOverlay && (

@@ -1,12 +1,14 @@
 {
   "id": "m087",
   "cue": 87,
-  "source_visual_mode": "effect_only",
-  "resolved_visual_mode": "effect_only",
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
+  "status": "complete",
   "notes": "",
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -17,12 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Black plate (effect-only tail)",
+      "query": "London street night 1980 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:8be1f8a0af7e659b",
+          "url": "/media/_library/assets/8be1f8a0af7e659b/500817409_122153642336592501_5034926165230506483_n.jpg",
+          "thumbnail_url": "/media/_library/assets/8be1f8a0af7e659b/500817409_122153642336592501_5034926165230506483_n.jpg",
+          "title": "500817409_122153642336592501_5034926165230506483_n.jpg",
+          "source_page": "/media/_library/assets/8be1f8a0af7e659b/500817409_122153642336592501_5034926165230506483_n.jpg",
+          "license": "manual upload — verify rights",
+          "engine_id": "library",
+          "query": "500817409_122153642336592501_5034926165230506483_n.jpg",
+          "selected_at": "2026-06-13T22:06:26.252Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "London February winter night 1980s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "UK pub exterior night 1980",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-06T10:46:09.767Z"
+  "completed_at": "2026-06-13T22:06:37.411Z",
+  "updated_at": "2026-06-13T22:06:37.411Z"
 }

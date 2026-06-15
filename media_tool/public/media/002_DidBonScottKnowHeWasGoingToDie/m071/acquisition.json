@@ -7,7 +7,10 @@
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "slow_spin",
+    "tremble",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
@@ -19,38 +22,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC US tour 1980 crowd",
+      "query": "rock musician funeral 1970s newspaper",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:955c769468f3a062",
-          "url": "/media/_library/assets/955c769468f3a062/acdc-1979-billboard-1548.webp",
-          "thumbnail_url": "/media/_library/assets/955c769468f3a062/acdc-1979-billboard-1548.webp",
-          "title": "acdc-1979-billboard-1548.webp",
-          "source_page": "/media/_library/assets/955c769468f3a062/acdc-1979-billboard-1548.webp",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "AC/DC US tour 1980 crowd",
-          "selected_at": "2026-06-11T09:39:58.227012Z"
+          "result_id": "library:66f81dd175430b1f",
+          "url": "/media/_library/assets/66f81dd175430b1f/genphoto-164b286b.jpg",
+          "thumbnail_url": "/media/_library/assets/66f81dd175430b1f/genphoto-164b286b.jpg",
+          "title": "psychedelic musician on stage in a blur of motion. high on something. use dark/back lighting to obscure any identity",
+          "source_page": "/media/_library/assets/66f81dd175430b1f/genphoto-164b286b.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: psychedelic musician on stage in a blur of motion. high on something. use dark/back lighting to obscure any identity",
+          "selected_at": "2026-06-12T22:19:30.171Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "AC/DC American audience 1980 concert",
+      "query": "Eric Clapton 1970s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "rock concert USA 1980 denim crowd",
+      "query": "Keith Richards 1970s live photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.227015Z",
-  "updated_at": "2026-06-11T09:39:58.227015Z"
+  "completed_at": "2026-06-13T08:56:56.180Z",
+  "updated_at": "2026-06-13T08:56:56.180Z"
 }

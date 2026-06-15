@@ -2,15 +2,19 @@
   "id": "m043",
   "cue": 43,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "complete",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "text_graphic",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
     "film_scratches"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "It plays something impossibly good, then hands the guitar back and says, \"now it's yours\".",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": false,
@@ -19,38 +23,26 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "rock star spotlight 1970s silhouette",
+      "query": "Robert Johnson playing guitar photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:76f77f9627a4d5b3",
-          "url": "/media/_library/assets/76f77f9627a4d5b3/i-think-theres-something-happening-here-that-nobodys-really-talking-about.jpg",
-          "thumbnail_url": "/media/_library/assets/76f77f9627a4d5b3/i-think-theres-something-happening-here-that-nobodys-really-talking-about.jpg",
-          "title": "i-think-theres-something-happening-here-that-nobodys-really-talking-about.jpg",
-          "source_page": "/media/_library/assets/76f77f9627a4d5b3/i-think-theres-something-happening-here-that-nobodys-really-talking-about.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "rock star spotlight 1970s silhouette",
-          "selected_at": "2026-06-11T09:39:58.220436Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "musician backstage alone 1970s",
+      "query": "blues guitarist hands guitar close up 1930s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "crossroads blues rock mythology photograph",
+      "query": "Robert Johnson performance photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.220440Z",
-  "updated_at": "2026-06-11T09:39:58.220440Z"
+  "completed_at": "2026-06-11T09:39:58.219051Z",
+  "updated_at": "2026-06-12T21:22:01.451Z"
 }

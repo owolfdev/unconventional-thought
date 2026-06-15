@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m078",
   "cue": 78,
-  "t_start": 388.06,
-  "t_end": 394.9,
-  "duration_sec": 6.84,
-  "spoken": "died like a velvet underground groupie? Look, in 1980, radio gatekeepers were conservative.",
+  "t_start": 238.76,
+  "t_end": 245.08,
+  "duration_sec": 6.32,
+  "spoken": "about it. Eric Clapton lived it. Lou Reed built songs out of it. Keith Richards survived it.",
   "visual_mode": "historical",
-  "expected_media_type": "video",
+  "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -51,15 +51,16 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
     "giphy-dM2xuxnJCg4H6.gif",
-    "okay-now-listen-to-the-best-songs-on-back-in-black.mp4"
+    "asset.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.348Z"
+  "updated_at": "2026-06-15T20:27:49.113Z"
 }

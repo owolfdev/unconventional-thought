@@ -17,10 +17,22 @@ function toMediaSrc(relativePath: string): string {
 
 const DEFAULT_STICKER_MAX_PERCENT = 62;
 
+function shotHasPlate(shot: Shot): boolean {
+  return Boolean(shot.src) || (shot.plateSequence?.length ?? 0) > 0;
+}
+
+/** Global hide skips stickers on plated cues; sticker-primary cues (no plate) still show. */
+function shouldShowStickerOverlays(shot: Shot, globalShow: boolean): boolean {
+  if (globalShow) return true;
+  if (shotHasPlate(shot)) return false;
+  return Boolean(shot.stickerSrc || shot.titleOverlaySrc);
+}
+
 export const ShotClip: React.FC<{
   shot: Shot;
   showCueOverlay?: boolean;
-}> = ({ shot, showCueOverlay = false }) => {
+  showStickerOverlays?: boolean;
+}> = ({ shot, showCueOverlay = false, showStickerOverlays = true }) => {
   const frame = useCurrentFrame();
   const { fps, width: frameW, height: frameH } = useVideoConfig();
   const hints = interpretAcquisitionNotes(shot.notes, fps);
@@ -71,6 +83,7 @@ export const ShotClip: React.FC<{
   const bleedPrevious =
     delay > 0 && frame < delay && hasMedia && !isTypography;
   const plateColor = bleedPrevious ? "transparent" : shot.backgroundColor;
+  const showStickers = shouldShowStickerOverlays(shot, showStickerOverlays);
 
   return (
     <AbsoluteFill style={{ backgroundColor: plateColor }}>
@@ -160,7 +173,29 @@ export const ShotClip: React.FC<{
         />
       )}
 
-      {shot.stickerSrc &&
+      {shot.effects.includes("film_grain") &&
+        !shot.overlays?.some((o) => o.src.includes("/scratches/")) && (
+          <AbsoluteFill
+            style={{
+              opacity: 0.1,
+              backgroundImage:
+                "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\")",
+              mixBlendMode: "overlay",
+              pointerEvents: "none",
+            }}
+          />
+        )}
+
+      {shot.overlays?.map((overlay, i) => (
+        <ShotEffectOverlays
+          key={`${shot.id}-fx-${i}`}
+          overlay={overlay}
+          shotDurationInFrames={shot.durationInFrames}
+        />
+      ))}
+
+      {showStickers &&
+        shot.stickerSrc &&
         (shot.stickerHideAfterSec == null ||
           frame < shot.stickerHideAfterSec * fps) &&
         (() => {
@@ -197,7 +232,7 @@ export const ShotClip: React.FC<{
           );
         })()}
 
-      {shot.titleOverlaySrc && (
+      {showStickers && shot.titleOverlaySrc && (
         <AbsoluteFill
           style={{
             pointerEvents: "none",
@@ -216,27 +251,6 @@ export const ShotClip: React.FC<{
           />
         </AbsoluteFill>
       )}
-
-      {shot.effects.includes("film_grain") &&
-        !shot.overlays?.some((o) => o.src.includes("/scratches/")) && (
-          <AbsoluteFill
-            style={{
-              opacity: 0.1,
-              backgroundImage:
-                "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\")",
-              mixBlendMode: "overlay",
-              pointerEvents: "none",
-            }}
-          />
-        )}
-
-      {shot.overlays?.map((overlay, i) => (
-        <ShotEffectOverlays
-          key={`${shot.id}-fx-${i}`}
-          overlay={overlay}
-          shotDurationInFrames={shot.durationInFrames}
-        />
-      ))}
 
       <AbsoluteFill
         style={{

@@ -1,13 +1,13 @@
 {
   "id": "m067",
   "cue": 67,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
@@ -19,38 +19,26 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "wall clock afternoon photograph",
+      "query": "vinyl record collection shelf 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:afcb87ea5b3498d4",
-          "url": "/media/_library/assets/afcb87ea5b3498d4/look.png",
-          "thumbnail_url": "/media/_library/assets/afcb87ea5b3498d4/look.png",
-          "title": "look.png",
-          "source_page": "/media/_library/assets/afcb87ea5b3498d4/look.png",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "wall clock afternoon photograph",
-          "selected_at": "2026-06-11T09:39:58.226106Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "winter afternoon light window",
+      "query": "album collection bedroom 1970s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "alarm clock afternoon bedside",
+      "query": "stack of LPs close up 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.226110Z",
-  "updated_at": "2026-06-11T09:39:58.226110Z"
+  "completed_at": "2026-06-13T08:53:20.036Z",
+  "updated_at": "2026-06-13T08:53:20.036Z"
 }

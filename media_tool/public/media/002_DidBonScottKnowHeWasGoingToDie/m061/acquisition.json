@@ -1,13 +1,13 @@
 {
   "id": "m061",
   "cue": 61,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
   "resolved_media_type": "photo",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
@@ -19,38 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "parked car snow winter night 1980s",
+      "query": "hypodermic needle macro photograph documentary",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:e0dbf750d480f528",
-          "url": "/media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
-          "thumbnail_url": "/media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
-          "title": "nearly-kills-him.jpg",
-          "source_page": "/media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "parked car snow winter night 1980s",
-          "selected_at": "2026-06-11T09:39:58.224842Z"
+          "result_id": "library:fbadbb92edeb5699",
+          "url": "/media/_library/assets/fbadbb92edeb5699/genphoto-1f47c0a6.jpg",
+          "thumbnail_url": "/media/_library/assets/fbadbb92edeb5699/genphoto-1f47c0a6.jpg",
+          "title": "hypodermic needle",
+          "source_page": "/media/_library/assets/fbadbb92edeb5699/genphoto-1f47c0a6.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: hypodermic needle",
+          "selected_at": "2026-06-12T21:55:49.231Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "car interior back seat night photograph",
+      "query": "syringe close up medical still life",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "London winter street parked cars 1980",
+      "query": "needle tip macro black background",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.224846Z",
-  "updated_at": "2026-06-11T09:39:58.224846Z"
+  "completed_at": "2026-06-13T08:24:24.927Z",
+  "updated_at": "2026-06-13T08:24:24.927Z"
 }

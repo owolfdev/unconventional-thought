@@ -2,55 +2,60 @@
   "id": "m040",
   "cue": 40,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
-  "transition": null,
-  "text_graphic": null,
+  "transition": "film_burn",
+  "text_graphic": {
+    "type": "transcription",
+    "text": "burning hunger to be a great player and for fame.",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson blues performance photograph",
+      "query": "Robert Johnson blues guitarist photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:673973583e79f97e",
-          "url": "/media/_library/assets/673973583e79f97e/his-actual-voice.jpg",
-          "thumbnail_url": "/media/_library/assets/673973583e79f97e/his-actual-voice.jpg",
-          "title": "his-actual-voice.jpg",
-          "source_page": "/media/_library/assets/673973583e79f97e/his-actual-voice.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
+          "result_id": "library:9c9fa7a19ffb0a33",
+          "url": "/media/_library/assets/9c9fa7a19ffb0a33/text-graphic-in-acdc-font-burning-hunger.png",
+          "thumbnail_url": "/media/_library/assets/9c9fa7a19ffb0a33/text-graphic-in-acdc-font-burning-hunger.png",
+          "title": "text-graphic-in-acdc-font-burning-hunger.png",
+          "source_page": "/media/_library/assets/9c9fa7a19ffb0a33/text-graphic-in-acdc-font-burning-hunger.png",
+          "license": "OpenAI generated — verify editorial use",
           "engine_id": "library",
-          "query": "Robert Johnson blues performance photograph",
-          "selected_at": "2026-06-11T09:39:58.219737Z"
+          "query": "text-graphic-in-acdc-font-burning-hunger.png",
+          "selected_at": "2026-06-13T08:13:20.693Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Robert Johnson portrait intense",
+      "query": "Robert Johnson with guitar 1930s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "blues singer 1930s Mississippi performance",
+      "query": "Robert Johnson portrait blues musician",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.219740Z",
-  "updated_at": "2026-06-11T09:39:58.219740Z"
+  "completed_at": "2026-06-13T08:13:38.723Z",
+  "updated_at": "2026-06-13T08:13:38.723Z"
 }

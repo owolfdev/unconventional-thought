@@ -7,7 +7,10 @@
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage",
+    "tremble",
+    "tilt_left"
   ],
   "transition": null,
   "text_graphic": null,
@@ -19,38 +22,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "stadium rock crowd 1980 USA",
+      "query": "rock band backstage 1970s afterparty",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:0d61d90cad7217bd",
-          "url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
-          "thumbnail_url": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
-          "title": "thinking-man-png-image-man-thinking.png",
-          "source_page": "/media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+          "result_id": "library:114873f95daad37e",
+          "url": "/media/_library/assets/114873f95daad37e/back-stage.jpg",
+          "thumbnail_url": "/media/_library/assets/114873f95daad37e/back-stage.jpg",
+          "title": "back-stage.jpg",
+          "source_page": "/media/_library/assets/114873f95daad37e/back-stage.jpg",
           "license": "manual upload — verify rights",
           "engine_id": "library",
-          "query": "stadium rock crowd 1980 USA",
-          "selected_at": "2026-06-11T09:39:58.227913Z"
+          "query": "Upload: back-stage.jpg",
+          "selected_at": "2026-06-12T22:35:29.933Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "New York City street 1970s documentary",
+      "query": "recording studio late night 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "rock fan denim concert vs city nightlife split",
+      "query": "tour bus backstage 1970s musicians",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.227917Z",
-  "updated_at": "2026-06-11T09:39:58.227917Z"
+  "completed_at": "2026-06-13T08:58:06.394Z",
+  "updated_at": "2026-06-13T08:58:06.394Z"
 }

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "id": "m106",
+  "cue": 106,
+  "t_start": 335.92,
+  "t_end": 338.96,
+  "duration_sec": 3.04,
+  "spoken": "like disco, queer, and art scene spaces.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Disco, queer, art scene — stigma geography; Studio 54 era, NOT homophobic caricature.",
+  "situation": "Studio 54 disco era 1979 — nightlife mainstream rock feared",
+  "people": [],
+  "date_from": "1978",
+  "date_to": "1980",
+  "location": "New York, USA",
+  "search_queries": [
+    "Studio 54 1979 photograph",
+    "disco nightclub 1979 New York",
+    "1979 disco dance floor photograph"
+  ],
+  "avoid": [
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo",
+    "homophobic caricature",
+    "mocking LGBTQ"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Disco, queer, art scene — stigma geography; Studio 54 era, NOT homophobic caricature.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Studio 54 1979 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: disco nightclub 1979 New York",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: 1979 disco dance floor photograph",
+      "status": "needed"
+    }
+  ],
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [
+    "vcq9hfdbbnzro.gif"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-15T20:27:49.131Z"
+}

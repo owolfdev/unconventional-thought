@@ -1,0 +1,56 @@
+{
+  "id": "m101",
+  "cue": 101,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "wall clock afternoon photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:19eb0ad16c9f110b",
+          "url": "/media/_library/assets/19eb0ad16c9f110b/university-memory-gif.gif",
+          "thumbnail_url": "/media/_library/assets/19eb0ad16c9f110b/university-memory-gif.gif",
+          "title": "university memory GIF",
+          "source_page": "/media/_library/assets/19eb0ad16c9f110b/university-memory-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: university memory GIF",
+          "selected_at": "2026-06-15T19:45:46.211Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "winter afternoon light window",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "alarm clock afternoon bedside",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.226110Z",
+  "updated_at": "2026-06-15T19:46:04.266Z"
+}

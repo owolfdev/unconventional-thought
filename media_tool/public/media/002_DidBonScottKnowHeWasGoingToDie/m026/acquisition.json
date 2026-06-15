@@ -1,56 +1,44 @@
 {
   "id": "m026",
   "cue": 26,
-  "source_visual_mode": "historical",
+  "source_visual_mode": "text_graphic",
   "resolved_visual_mode": "effect_only",
   "resolved_media_type": "generated",
   "status": "in_progress",
-  "notes": "[Library pass — verify license before publish]",
-  "effects": [
-    "film_scratches"
-  ],
+  "notes": "",
+  "effects": [],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC studio 1979 recording session",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
       "selections": [
         {
-          "result_id": "library:819cad3c0cd1366b",
-          "url": "/media/_library/assets/819cad3c0cd1366b/text-graphic-white-text-on-black-outline-best-work.png",
-          "thumbnail_url": "/media/_library/assets/819cad3c0cd1366b/text-graphic-white-text-on-black-outline-best-work.png",
-          "title": "text graphic. white text on black outline: BEST WORK",
-          "source_page": "/media/_library/assets/819cad3c0cd1366b/text-graphic-white-text-on-black-outline-best-work.png",
+          "result_id": "library:c3e9d38af1bc8287",
+          "url": "/media/_library/assets/c3e9d38af1bc8287/in-an-acdc-style-font-write-hey-satan.png",
+          "thumbnail_url": "/media/_library/assets/c3e9d38af1bc8287/in-an-acdc-style-font-write-hey-satan.png",
+          "title": "in an AC/DC style font write: Hey Satan",
+          "source_page": "/media/_library/assets/c3e9d38af1bc8287/in-an-acdc-style-font-write-hey-satan.png",
           "license": "OpenAI generated — verify editorial use",
           "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: text graphic. white text on black outline: BEST WORK",
-          "selected_at": "2026-06-11T20:50:29.048Z"
+          "query": "OpenAI sticker: in an AC/DC style font write: Hey Satan",
+          "selected_at": "2026-06-14T18:10:58.118Z"
         }
       ]
-    },
-    {
-      "query_index": 1,
-      "query": "Bon Scott 1979 creative peak live",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "AC/DC band studio 1979 photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.217586Z",
-  "updated_at": "2026-06-11T20:51:07.573Z"
+  "completed_at": "2026-06-14T17:59:59.504Z",
+  "updated_at": "2026-06-14T18:10:58.118Z"
 }

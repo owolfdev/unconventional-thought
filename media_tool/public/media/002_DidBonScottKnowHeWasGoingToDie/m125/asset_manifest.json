@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "id": "m125",
+  "cue": 125,
+  "t_start": 408.56,
+  "t_end": 415.4,
+  "duration_sec": 6.84,
+  "spoken": "store in America. Fifty million copies sold. That's a lot of money. You don't need a secret",
+  "visual_mode": "artifact",
+  "expected_media_type": "photo",
+  "editorial_intent": "Artifact: sales award object — tight on disc/plaque, not band portrait.",
+  "situation": "Inanimate: gold / platinum award disc",
+  "people": [],
+  "date_from": "1980",
+  "date_to": "1982",
+  "location": "",
+  "search_queries": [
+    "gold record award disc close up",
+    "platinum album plaque 1980s"
+  ],
+  "avoid": [
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
+  ],
+  "artifact": {
+    "object": "gold / platinum award disc",
+    "story_link": "Back in Black sales milestone",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Artifact: sales award object — tight on disc/plaque, not band portrait.",
+      "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: gold record award disc close up",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: platinum album plaque 1980s",
+      "status": "needed"
+    }
+  ],
+  "effects": [
+    "slow_spin",
+    "film_scratches"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [
+    "giphy-dM2xuxnJCg4H6.gif",
+    "bib_gold2-blkbg.jpg"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-15T20:27:49.143Z"
+}

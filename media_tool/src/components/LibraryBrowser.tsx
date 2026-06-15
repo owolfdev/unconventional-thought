@@ -305,7 +305,11 @@ export function LibraryBrowser() {
   };
 
   const selectForCue = useCallback(
-    async (libraryId: string, role: LibraryCueRole) => {
+    async (
+      libraryId: string,
+      role: LibraryCueRole,
+      plateMode: "replace" | "add" = "replace",
+    ) => {
       if (!cueContext) return;
       setStagingId(libraryId);
       setStageMessage(null);
@@ -320,15 +324,20 @@ export function LibraryBrowser() {
             queryIndex: 0,
             selected: true,
             role,
+            ...(role === "plate" ? { plateMode } : {}),
           }),
         });
         const data = await res.json();
         if (!res.ok) throw new Error(data.error ?? "Select failed");
-        if (returnTo) {
+        if (returnTo && !(role === "plate" && plateMode === "add")) {
           router.push(returnTo);
           return;
         }
-        setStageMessage(`${cueSelectLabel(role)} on ${cueItemId}`);
+        setStageMessage(
+          role === "plate" && plateMode === "add"
+            ? `Added to ${cueItemId} plate playlist`
+            : `${cueSelectLabel(role)} on ${cueItemId}`,
+        );
       } catch (e) {
         setStageMessage(e instanceof Error ? e.message : "Select failed");
       } finally {
@@ -376,7 +385,9 @@ export function LibraryBrowser() {
           <p className="mt-1 text-xs text-zinc-400">
             <strong className="font-medium text-amber-300">Archive</strong> and{" "}
             <strong className="font-medium text-amber-300">generated</strong> assets
-            become the cue background (plate).{" "}
+            become the cue background (plate). Use{" "}
+            <strong className="font-medium text-amber-300">Add to cue</strong> to
+            append another plate without removing existing ones.{" "}
             <strong className="font-medium text-amber-300">Overlay</strong> assets
             (GIF/sticker/title) layer on top — they do not replace the plate.
           </p>
@@ -640,16 +651,30 @@ export function LibraryBrowser() {
                       </button>
                       <div className="space-y-2 border-t border-zinc-800 p-2">
                         {cueContext && isLibraryPlateKind(asset.kind) && (
-                          <button
-                            type="button"
-                            disabled={stagingId === asset.id}
-                            onClick={() => void selectForCue(asset.id, "plate")}
-                            className="w-full rounded-lg bg-amber-700 px-2 py-2 text-xs font-semibold text-white hover:bg-amber-600 disabled:opacity-50"
-                          >
-                            {stagingId === asset.id
-                              ? "Selecting…"
-                              : cueSelectLabel("plate")}
-                          </button>
+                          <>
+                            <button
+                              type="button"
+                              disabled={stagingId === asset.id}
+                              onClick={() =>
+                                void selectForCue(asset.id, "plate", "replace")
+                              }
+                              className="w-full rounded-lg bg-amber-700 px-2 py-2 text-xs font-semibold text-white hover:bg-amber-600 disabled:opacity-50"
+                            >
+                              {stagingId === asset.id
+                                ? "Selecting…"
+                                : cueSelectLabel("plate")}
+                            </button>
+                            <button
+                              type="button"
+                              disabled={stagingId === asset.id}
+                              onClick={() =>
+                                void selectForCue(asset.id, "plate", "add")
+                              }
+                              className="w-full rounded-lg border border-zinc-600 bg-zinc-900/60 px-2 py-2 text-xs font-medium text-zinc-200 hover:bg-zinc-800 disabled:opacity-50"
+                            >
+                              Add to cue
+                            </button>
+                          </>
                         )}
                         {cueContext && asset.kind === "overlay" && (
                           <button
@@ -854,16 +879,28 @@ export function LibraryBrowser() {
               )}
 
               {cueContext && detail && isLibraryPlateKind(detail.kind) && (
-                <button
-                  type="button"
-                  disabled={stagingId === detail.id}
-                  onClick={() => void selectForCue(detail.id, "plate")}
-                  className="w-full rounded-lg bg-amber-700 px-4 py-3 text-sm font-semibold text-white hover:bg-amber-600 disabled:opacity-50"
-                >
-                  {stagingId === detail.id
-                    ? "Selecting…"
-                    : `${cueSelectLabel("plate")} (${cueItemId})`}
-                </button>
+                <div className="flex flex-col gap-2">
+                  <button
+                    type="button"
+                    disabled={stagingId === detail.id}
+                    onClick={() =>
+                      void selectForCue(detail.id, "plate", "replace")
+                    }
+                    className="w-full rounded-lg bg-amber-700 px-4 py-3 text-sm font-semibold text-white hover:bg-amber-600 disabled:opacity-50"
+                  >
+                    {stagingId === detail.id
+                      ? "Selecting…"
+                      : `${cueSelectLabel("plate")} (${cueItemId})`}
+                  </button>
+                  <button
+                    type="button"
+                    disabled={stagingId === detail.id}
+                    onClick={() => void selectForCue(detail.id, "plate", "add")}
+                    className="w-full rounded-lg border border-zinc-600 bg-zinc-900/60 px-4 py-2.5 text-sm font-medium text-zinc-200 hover:bg-zinc-800 disabled:opacity-50"
+                  >
+                    Add to cue ({cueItemId})
+                  </button>
+                </div>
               )}
 
               {cueContext && detail.kind === "overlay" && (

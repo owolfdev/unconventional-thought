@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m067",
   "cue": 67,
-  "t_start": 311.86,
-  "t_end": 317.82,
-  "duration_sec": 5.96,
-  "spoken": "afternoon the next day? It doesn't make sense. It leaves a lot of questions unanswered.",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
+  "t_start": 202.54,
+  "t_end": 204.12,
+  "duration_sec": 1.58,
+  "spoken": "in chemical form.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -35,31 +35,20 @@
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "black_plate",
+      "description": "[Library pass — verify license before publish]",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "giphy-NScb6PymHQu9FHT1bH.gif",
-    "look.png"
+    "giphy-I8VJ3IkbBJaXsibfhD.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.346Z"
+  "updated_at": "2026-06-15T20:27:49.107Z"
 }

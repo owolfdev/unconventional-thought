@@ -2,51 +2,46 @@
   "version": 1,
   "id": "m041",
   "cue": 41,
-  "t_start": 147.78,
-  "t_end": 156.08,
-  "duration_sec": 8.3,
-  "spoken": "died early before seeing it happen. He did become a legend just only after death. Take the 27 club,",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "t_start": 110.99,
+  "t_end": 112.06,
+  "duration_sec": 1.07,
+  "spoken": "Just then,",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Robert Johnson with guitar — hunger for greatness; ONLY Johnson-era imagery from here.",
+  "situation": "Robert Johnson guitarist portrait or with guitar 1930s",
   "people": [
     {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "Robert Johnson",
+      "role": "blues musician"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
-  "location": "",
+  "date_from": "1935",
+  "date_to": "1938",
+  "location": "Mississippi, USA",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Robert Johnson blues guitarist photograph",
+    "Robert Johnson with guitar 1930s",
+    "Robert Johnson portrait blues musician"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "Just then",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "slot": "generated",
+      "description": "Just then",
       "status": "needed"
     }
   ],
@@ -55,11 +50,8 @@
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "bond-scott-dies-february-19-1980-33-years-old.jpg"
-  ],
+  "requires_media_files": false,
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.340Z"
+  "updated_at": "2026-06-15T20:27:49.091Z"
 }

@@ -2,11 +2,12 @@
   "id": "m015",
   "cue": 15,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
-  "status": "in_progress",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
   "notes": "",
   "effects": [
+    "vignette_soft",
     "film_damage"
   ],
   "transition": null,
@@ -22,7 +23,19 @@
       "query": "Bon Scott 1979 live relaxed performance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:6dd1ab5e78e21e39",
+          "url": "/media/_library/assets/6dd1ab5e78e21e39/bon-scott-gif.gif",
+          "thumbnail_url": "/media/_library/assets/6dd1ab5e78e21e39/bon-scott-gif.gif",
+          "title": "bon-scott-gif.gif",
+          "source_page": "/media/_library/assets/6dd1ab5e78e21e39/bon-scott-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "library",
+          "query": "Bon Scott 1979 live relaxed performance",
+          "selected_at": "2026-06-14T17:42:03.815Z"
+        }
+      ]
     },
     {
       "query_index": 1,
@@ -39,6 +52,6 @@
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-11T20:17:58.092Z"
+  "completed_at": "2026-06-14T17:42:12.862Z",
+  "updated_at": "2026-06-14T17:42:12.862Z"
 }

@@ -2,33 +2,29 @@
   "version": 1,
   "id": "m057",
   "cue": 57,
-  "t_start": 249.76,
-  "t_end": 254.64,
-  "duration_sec": 4.88,
-  "spoken": "would an artist like Bond Scott ever have been around heroin. Of course he would.",
+  "t_start": 166.4,
+  "t_end": 169.1,
+  "duration_sec": 2.7,
+  "spoken": "Some might say they sold their souls for fame.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "Bon Scott historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "Bon Scott",
-      "role": "vocalist"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "editorial_intent": "Soul for fame equation — same bargain, different eras; crossroads echo.",
+  "situation": "Rock mythology — fame and early death, artistic sacrifice",
+  "people": [],
+  "date_from": "1960",
+  "date_to": "1980",
   "location": "",
   "search_queries": [
-    "Bon Scott 1979 photograph",
-    "Bon Scott AC/DC 1980"
+    "rock star spotlight 1970s silhouette",
+    "musician backstage alone 1970s",
+    "crossroads blues rock mythology photograph"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -36,17 +32,22 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "acquired"
+      "description": "Soul for fame equation — same bargain, different eras; crossroads echo.",
+      "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: Bon Scott 1979 photograph",
+      "description": "Candidate from query: rock star spotlight 1970s silhouette",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Bon Scott AC/DC 1980",
+      "description": "Candidate from query: musician backstage alone 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: crossroads blues rock mythology photograph",
       "status": "needed"
     }
   ],
@@ -57,9 +58,8 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "but-heres-the-thing-about-bond-scott.jpg"
+    "text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.344Z"
+  "updated_at": "2026-06-15T20:27:49.100Z"
 }

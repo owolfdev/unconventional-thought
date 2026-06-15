@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m060",
   "cue": 60,
-  "t_start": 267.74,
-  "t_end": 277.64,
-  "duration_sec": 9.9,
-  "spoken": "hmm, you decide. Now the death itself. February 1980, London, night out, drinking. He was left in a car,",
+  "t_start": 178.94,
+  "t_end": 187.26,
+  "duration_sec": 8.32,
+  "spoken": "about cost. And the devil always gets his due. So who is the devil? Well, for many, he's found at",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -31,7 +31,11 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "intertitle",
+    "text": "SO WHO IS THE DEVIL?",
+    "style": "blockbuster"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
@@ -51,15 +55,17 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage",
+    "shake"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-lDj8QUcXH8kNkOUu4h.gif",
-    "the-man-has-been-dead-for-five-months.jpg"
+    "giphy-3o72EVymX8u70s22mQ.gif",
+    "genphoto-e35a905c.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.345Z"
+  "updated_at": "2026-06-15T20:27:49.102Z"
 }

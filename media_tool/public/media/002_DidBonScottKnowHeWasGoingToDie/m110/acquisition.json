@@ -1,0 +1,57 @@
+{
+  "id": "m110",
+  "cue": 110,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "in_progress",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "American rock concert crowd 1980 denim",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:8d4f85bb6e1fa75f",
+          "url": "/media/_library/assets/8d4f85bb6e1fa75f/heavy-metal-80s-movies-gif-by-retro-fiend.gif",
+          "thumbnail_url": "/media/_library/assets/8d4f85bb6e1fa75f/heavy-metal-80s-movies-gif-by-retro-fiend.gif",
+          "title": "heavy metal 80s movies GIF by RETRO-FIEND",
+          "source_page": "/media/_library/assets/8d4f85bb6e1fa75f/heavy-metal-80s-movies-gif-by-retro-fiend.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: heavy metal 80s movies GIF by RETRO-FIEND",
+          "selected_at": "2026-06-15T19:56:47.463Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "suburban teenagers rock concert 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "pickup truck tailgate beer 1980s photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-06-15T19:56:56.378Z"
+}

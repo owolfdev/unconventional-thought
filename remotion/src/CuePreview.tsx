@@ -1,7 +1,10 @@
 import { AbsoluteFill, Audio, staticFile } from "remotion";
 import { z } from "zod";
 import { ShotClip } from "./ShotClip";
-import { showCueOverlay as previewShowCueOverlay } from "./preview-settings";
+import {
+  showCueOverlay as previewShowCueOverlay,
+  showStickerOverlays as previewShowStickerOverlays,
+} from "./preview-settings";
 import { timeline } from "./timeline-data";
 
 export const cuePreviewSchema = z.object({
@@ -20,6 +23,8 @@ export const CuePreview: React.FC<CuePreviewProps> = ({ shotId }) => {
 
   const showCueOverlay =
     timeline.showCueOverlay !== false && previewShowCueOverlay;
+  const showStickerOverlays =
+    timeline.showStickerOverlays !== false && previewShowStickerOverlays;
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
@@ -27,7 +32,11 @@ export const CuePreview: React.FC<CuePreviewProps> = ({ shotId }) => {
         src={staticFile(timeline.audioSrc)}
         startFrom={Math.round(shot.tStart * timeline.fps)}
       />
-      <ShotClip shot={shot} showCueOverlay={showCueOverlay} />
+      <ShotClip
+        shot={shot}
+        showCueOverlay={showCueOverlay}
+        showStickerOverlays={showStickerOverlays}
+      />
     </AbsoluteFill>
   );
 };

@@ -1,0 +1,56 @@
+{
+  "id": "m090",
+  "cue": 90,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "parked car snow winter night 1980s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:0bca3f03155818f7",
+          "url": "/media/_library/assets/0bca3f03155818f7/genphoto-0ec6ca16.jpg",
+          "thumbnail_url": "/media/_library/assets/0bca3f03155818f7/genphoto-0ec6ca16.jpg",
+          "title": "an official death certificate of bon scott with a big rubber stamp print for cause of death: \n\nacute alcohol poisoning.",
+          "source_page": "/media/_library/assets/0bca3f03155818f7/genphoto-0ec6ca16.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: an official death certificate of bon scott with a big rubber stamp print for cause of death: \n\nacute alcohol poisoning.",
+          "selected_at": "2026-06-13T22:16:52.381Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "car interior back seat night photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "London winter street parked cars 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-13T22:19:52.051Z",
+  "updated_at": "2026-06-13T22:19:52.051Z"
+}

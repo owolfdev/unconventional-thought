@@ -224,6 +224,26 @@ export function expandCueTokens(tokens) {
   return out;
 }
 
+/** macOS filename limit is 255 bytes — avoid listing every cue in long spans. */
+export function renderSpanLabel(cueIds) {
+  if (cueIds.length === 0) return "empty";
+  if (cueIds.length === 1) return cueIds[0];
+
+  const nums = cueIds.map((id) => Number(id.match(/^m(\d{3})$/i)?.[1]));
+  const isContiguous = nums.every(
+    (n, i) => i === 0 || n === nums[i - 1] + 1,
+  );
+
+  if (isContiguous) {
+    return `${cueIds[0]}-${cueIds[cueIds.length - 1]}`;
+  }
+
+  const full = cueIds.join("-");
+  if (full.length <= 180) return full;
+
+  return `${cueIds[0]}-${cueIds[cueIds.length - 1]}-${cueIds.length}cues`;
+}
+
 export function readTimeline() {
   const timelinePath = path.join(REMOTION_ROOT, "src", "timeline.json");
   if (!existsSync(timelinePath)) {

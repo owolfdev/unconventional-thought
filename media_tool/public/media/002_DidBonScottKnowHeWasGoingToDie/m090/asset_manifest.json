@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "id": "m090",
+  "cue": 90,
+  "t_start": 281.03,
+  "t_end": 284.1,
+  "duration_sec": 3.07,
+  "spoken": "Official cause, acute alcohol poisoning.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Left in car, found next day — parked car winter, official alcohol narrative.",
+  "situation": "Parked car winter night London — left overnight tragedy",
+  "people": [],
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "London, UK",
+  "search_queries": [
+    "parked car snow winter night 1980s",
+    "car interior back seat night photograph",
+    "London winter street parked cars 1980"
+  ],
+  "avoid": [
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo",
+    "graphic death scene",
+    "corpse"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Left in car, found next day — parked car winter, official alcohol narrative.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: parked car snow winter night 1980s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: car interior back seat night photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: London winter street parked cars 1980",
+      "status": "needed"
+    }
+  ],
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [
+    "genphoto-0ec6ca16.jpg"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-15T20:27:49.120Z"
+}

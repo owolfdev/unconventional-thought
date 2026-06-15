@@ -19,38 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Studio 54 1979 photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:5c07e1ac64c1fdaf",
-          "url": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
-          "thumbnail_url": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
-          "title": "crystal-chandeliers-distinguished-guests-and-balls.gif",
-          "source_page": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "Studio 54 1979 photograph",
-          "selected_at": "2026-06-11T09:39:58.226777Z"
-        }
-      ]
-    },
-    {
-      "query_index": 1,
-      "query": "disco nightclub 1979 New York",
+      "query": "rock musicians 1970s studio session",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
+      "query_index": 1,
+      "query": "1970s recording studio musicians photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:bf69b66184ae9dd2",
+          "url": "/media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
+          "thumbnail_url": "/media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
+          "title": "Vinyl collection at a record store (Unsplash).jpg",
+          "source_page": "/media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
+          "license": "CC0",
+          "engine_id": "commons",
+          "query": "1970s recording studio musicians photograph",
+          "selected_at": "2026-06-12T22:01:56.930Z"
+        }
+      ]
+    },
+    {
       "query_index": 2,
-      "query": "1979 disco dance floor photograph",
+      "query": "rock band afterparty 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.226780Z",
-  "updated_at": "2026-06-11T09:39:58.226780Z"
+  "completed_at": "2026-06-11T09:39:58.221945Z",
+  "updated_at": "2026-06-12T22:01:56.930Z"
 }

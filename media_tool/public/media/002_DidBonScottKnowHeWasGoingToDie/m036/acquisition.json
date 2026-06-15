@@ -19,38 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson crossroads legend illustration",
+      "query": "Mississippi crossroads intersection photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:ddda0343e765d356",
-          "url": "/media/_library/assets/ddda0343e765d356/detective.jpg",
-          "thumbnail_url": "/media/_library/assets/ddda0343e765d356/detective.jpg",
-          "title": "detective.jpg",
-          "source_page": "/media/_library/assets/ddda0343e765d356/detective.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "Robert Johnson crossroads legend illustration",
-          "selected_at": "2026-06-11T09:39:58.218818Z"
+          "result_id": "library:27e313f4717e1f14",
+          "url": "/media/_library/assets/27e313f4717e1f14/genphoto-c1a81357.jpg",
+          "thumbnail_url": "/media/_library/assets/27e313f4717e1f14/genphoto-c1a81357.jpg",
+          "title": "1931, the dead of night. lonely crossroad in mississippi.",
+          "source_page": "/media/_library/assets/27e313f4717e1f14/genphoto-c1a81357.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: 1931, the dead of night. lonely crossroad in mississippi.",
+          "selected_at": "2026-06-12T21:12:54.369Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "crossroads blues devil folklore art",
+      "query": "Delta blues rural road intersection",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "silhouette figure rural road night",
+      "query": "lonely dirt road southern USA night",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.218822Z",
-  "updated_at": "2026-06-11T09:39:58.218822Z"
+  "completed_at": "2026-06-13T08:14:12.171Z",
+  "updated_at": "2026-06-13T08:14:12.171Z"
 }

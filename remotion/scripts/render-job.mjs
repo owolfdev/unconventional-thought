@@ -20,6 +20,7 @@ import {
   expandCueTokens,
   readTimeline,
   renderPaths,
+  renderSpanLabel,
   resolveEpisodeToken,
   writeActiveEpisode,
 } from "./episode-config.mjs";
@@ -130,7 +131,7 @@ function renderCueSpan(active, fromId, toId, preview, logPath, jobPath) {
   const endFrame =
     Math.max(...shots.map((s) => s.fromFrame + s.durationInFrames)) - 1;
   const scale = preview ? 0.5 : 1;
-  const label = shots.map((s) => s.id).join("-");
+  const label = renderSpanLabel(shots.map((s) => s.id));
   const { renderDir, previewDir } = renderPaths(active);
   const out = preview
     ? path.join(previewDir, `preview-${label}.mp4`)

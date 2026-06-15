@@ -1,9 +1,9 @@
 {
   "id": "m046",
   "cue": 46,
-  "source_visual_mode": "text_graphic",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
@@ -11,15 +11,11 @@
   ],
   "transition": null,
   "text_graphic": {
-    "type": "intertitle",
-    "text": "SO WHO IS THE DEVIL?",
-    "style": "blockbuster"
+    "type": "transcription",
+    "text": "He came back different, transformed. The other musicians were stunned. ",
+    "style": "typewriter"
   },
-  "text_graphic_layer": {
-    "type": "intertitle",
-    "text": "SO WHO IS THE DEVIL?",
-    "style": "blockbuster"
-  },
+  "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
@@ -27,24 +23,26 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "(text graphic — no archive search)",
+      "query": "Robert Johnson blues musician 1937",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:ddda0343e765d356",
-          "url": "/media/_library/assets/ddda0343e765d356/detective.jpg",
-          "thumbnail_url": "/media/_library/assets/ddda0343e765d356/detective.jpg",
-          "title": "detective.jpg",
-          "source_page": "/media/_library/assets/ddda0343e765d356/detective.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "m029",
-          "selected_at": "2026-06-11T09:39:58.221049Z"
-        }
-      ]
+      "selections": []
+    },
+    {
+      "query_index": 1,
+      "query": "Mississippi juke joint musicians 1930s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Robert Johnson contemporaries blues scene",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.221052Z",
-  "updated_at": "2026-06-11T09:39:58.221052Z"
+  "completed_at": "2026-06-13T08:14:57.830Z",
+  "updated_at": "2026-06-13T08:14:57.830Z"
 }

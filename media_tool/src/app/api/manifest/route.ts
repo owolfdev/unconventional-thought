@@ -68,6 +68,7 @@ export async function GET(request: NextRequest) {
       mediaLibrary: folderStatus,
       remotionPreview: {
         showCueOverlay: remotionPreview.showCueOverlay,
+        showStickerOverlays: remotionPreview.showStickerOverlays,
       },
     });
   } catch (e) {

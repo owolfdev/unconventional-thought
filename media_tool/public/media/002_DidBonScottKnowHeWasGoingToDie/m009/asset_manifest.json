@@ -51,15 +51,15 @@
     }
   ],
   "effects": [
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
     "giphy-26BRELi797t0PAGPK.gif",
-    "bon-scott-gif.gif"
+    "magnify-rick-moranis-gif.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.332Z"
+  "updated_at": "2026-06-15T20:27:49.073Z"
 }

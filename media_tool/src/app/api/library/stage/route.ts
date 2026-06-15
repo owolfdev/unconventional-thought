@@ -18,6 +18,7 @@ export async function POST(request: NextRequest) {
       searchQuery?: string;
       selected?: boolean;
       role?: "plate" | "sticker" | "title";
+      plateMode?: "replace" | "add";
     };
 
     if (!body.itemId?.trim() || !body.libraryId?.trim()) {
@@ -50,6 +51,7 @@ export async function POST(request: NextRequest) {
         query: body.searchQuery,
         selected: body.selected !== false,
         role: body.role,
+        plateMode: body.plateMode,
       },
     );
 

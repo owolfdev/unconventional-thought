@@ -64,8 +64,8 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "asset.jpg"
+    "asset.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.331Z"
+  "updated_at": "2026-06-15T20:27:49.072Z"
 }

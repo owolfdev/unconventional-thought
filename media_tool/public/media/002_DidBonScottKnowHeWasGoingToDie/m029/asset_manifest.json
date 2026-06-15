@@ -2,33 +2,34 @@
   "version": 1,
   "id": "m029",
   "cue": 29,
-  "t_start": 85.6,
-  "t_end": 90.74,
-  "duration_sec": 5.14,
-  "spoken": "well known by people like Bon. It was known by absolutely anyone in the rock and roll scene in the",
+  "t_start": 74.39,
+  "t_end": 77.98,
+  "duration_sec": 3.59,
+  "spoken": "He's describing a momentum that he's decided not to resist.",
   "visual_mode": "effect_only",
   "expected_media_type": "generated",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "editorial_intent": "Acceptance / momentum — Bon not resisting; highway forward motion metaphor.",
+  "situation": "Bon Scott 1979 live — arms open, surrender to the performance",
   "people": [
     {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "Bon Scott",
+      "role": "vocalist"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1979",
+  "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Bon Scott 1979 live arms spread stage",
+    "Bon Scott Highway to Hell performance acceptance",
+    "highway road night photograph 1970s metaphor"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -36,21 +37,18 @@
   "targets": [
     {
       "slot": "black_plate",
-      "description": "[Library pass — verify license before publish]",
+      "description": "Effect-only: no media file; effects on #000000",
       "status": "acquired"
     }
   ],
   "effects": [
-    "film_damage",
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": false,
-  "acquired_files": [
-    "giphy-5aPBK3wqKxB1m.gif",
-    "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php"
-  ],
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.337Z"
+  "updated_at": "2026-06-15T20:27:49.085Z"
 }

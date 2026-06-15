@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m015",
   "cue": 15,
-  "t_start": 47.22,
-  "t_end": 48.28,
-  "duration_sec": 1.06,
-  "spoken": "floating downstream.",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
+  "t_start": 44.72,
+  "t_end": 47.22,
+  "duration_sec": 2.5,
+  "spoken": "He sounds looser, warmer,",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
   "editorial_intent": "Highway to Hell shift — looser, warmer, leaning back. 1979 Bon relaxed on stage.",
   "situation": "Bon Scott 1979 live relaxed leaning back microphone — downstream calm",
   "people": [
@@ -36,18 +36,36 @@
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Highway to Hell shift — looser, warmer, leaning back. 1979 Bon relaxed on stage.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1979 live relaxed performance",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott Highway to Hell tour leaning microphone",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Bon Scott 1979 stage calm expression",
+      "status": "needed"
     }
   ],
   "effects": [
+    "vignette_soft",
     "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": false,
-  "acquired_files": [],
+  "requires_media_files": true,
+  "acquired_files": [
+    "bon-scott-gif.gif"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.333Z"
+  "updated_at": "2026-06-15T20:27:49.077Z"
 }

@@ -2,43 +2,55 @@
   "id": "m028",
   "cue": 28,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC studio 1979 recording session",
+      "query": "Bon Scott 1979 live arms spread stage",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:e29b6eb53267fb4c",
+          "url": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+          "thumbnail_url": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+          "title": "and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+          "source_page": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "Bon Scott 1979 live arms spread stage",
+          "selected_at": "2026-06-11T09:39:58.217360Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott 1979 creative peak live",
+      "query": "Bon Scott Highway to Hell performance acceptance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "AC/DC band studio 1979 photograph",
+      "query": "highway road night photograph 1970s metaphor",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-11T20:51:31.504Z"
+  "completed_at": "2026-06-14T18:00:05.547Z",
+  "updated_at": "2026-06-14T18:00:05.547Z"
 }

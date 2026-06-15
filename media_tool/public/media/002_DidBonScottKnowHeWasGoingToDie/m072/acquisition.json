@@ -5,7 +5,7 @@
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
     "film_scratches"
   ],
@@ -13,44 +13,44 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "American rock concert crowd 1980 denim",
+      "query": "rock musician funeral 1970s newspaper",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:674b2c3f2044be34",
-          "url": "/media/_library/assets/674b2c3f2044be34/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.jpg",
-          "thumbnail_url": "/media/_library/assets/674b2c3f2044be34/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.jpg",
-          "title": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.jpg",
-          "source_page": "/media/_library/assets/674b2c3f2044be34/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
+          "result_id": "library:c5b4d7f1f85ba1d7",
+          "url": "/media/_library/assets/c5b4d7f1f85ba1d7/genphoto-8084dfc7.jpg",
+          "thumbnail_url": "/media/_library/assets/c5b4d7f1f85ba1d7/genphoto-8084dfc7.jpg",
+          "title": "genphoto-8084dfc7.jpg",
+          "source_page": "/media/_library/assets/c5b4d7f1f85ba1d7/genphoto-8084dfc7.jpg",
+          "license": "OpenAI generated — verify editorial use",
           "engine_id": "library",
-          "query": "American rock concert crowd 1980 denim",
-          "selected_at": "2026-06-11T09:39:58.227219Z"
+          "query": "rock musician funeral 1970s newspaper",
+          "selected_at": "2026-06-12T22:10:46.818Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "suburban teenagers rock concert 1980",
+      "query": "Eric Clapton 1970s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "pickup truck tailgate beer 1980s photograph",
+      "query": "Keith Richards 1970s live photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.227222Z",
-  "updated_at": "2026-06-11T09:39:58.227222Z"
+  "completed_at": "2026-06-13T08:57:05.743Z",
+  "updated_at": "2026-06-13T08:57:05.743Z"
 }

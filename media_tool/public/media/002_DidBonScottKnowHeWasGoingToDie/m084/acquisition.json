@@ -1,16 +1,20 @@
 {
   "id": "m084",
   "cue": 84,
-  "source_visual_mode": "historical",
+  "source_visual_mode": "text_graphic",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "complete",
+  "status": "in_progress",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "YOU DECIDE.",
+    "style": "minimal_white"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": false,
@@ -19,38 +23,24 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott 1979 live intense performance",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "bon scott",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
       "selections": [
         {
-          "result_id": "library:2f0ea3cc0654a22e",
-          "url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
-          "thumbnail_url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
-          "title": "bonscott_onstage-1.jpg",
-          "source_page": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
+          "result_id": "library:22da30cd994e0132",
+          "url": "/media/_library/assets/22da30cd994e0132/bon%20.jpg",
+          "thumbnail_url": "/media/_library/assets/22da30cd994e0132/bon%20.jpg",
+          "title": "bon .jpg",
+          "source_page": "/media/_library/assets/22da30cd994e0132/bon%20.jpg",
+          "license": "manual upload — verify rights",
           "engine_id": "library",
-          "query": "Bon Scott 1979 live intense performance",
-          "selected_at": "2026-06-11T09:39:58.230014Z"
+          "query": "Upload: bon .jpg",
+          "selected_at": "2026-06-13T20:19:19.751Z"
         }
       ]
-    },
-    {
-      "query_index": 1,
-      "query": "Bon Scott Highway to Hell tour running stage",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "Bon Scott 1979 microphone forward motion",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.230018Z",
-  "updated_at": "2026-06-11T09:39:58.230018Z"
+  "completed_at": "2026-06-11T09:39:58.224421Z",
+  "updated_at": "2026-06-13T20:19:19.751Z"
 }

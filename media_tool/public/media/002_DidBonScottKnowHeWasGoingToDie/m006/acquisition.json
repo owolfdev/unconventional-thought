@@ -7,7 +7,9 @@
   "status": "in_progress",
   "notes": "",
   "effects": [
-    "film_damage"
+    "film_damage",
+    "slow_push_in",
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
@@ -24,15 +26,15 @@
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:ed8e308c7338323e",
-          "url": "/media/_library/assets/ed8e308c7338323e/highway-to-hell-not-a-vague-rock-statement.jpg",
-          "thumbnail_url": "/media/_library/assets/ed8e308c7338323e/highway-to-hell-not-a-vague-rock-statement.jpg",
-          "title": "highway-to-hell-not-a-vague-rock-statement.jpg",
-          "source_page": "/media/_library/assets/ed8e308c7338323e/highway-to-hell-not-a-vague-rock-statement.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
+          "result_id": "library:b33ae1d013b2a107",
+          "url": "/media/_library/assets/b33ae1d013b2a107/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/b33ae1d013b2a107/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/b33ae1d013b2a107/asset.jpg",
+          "license": "verify rights before use",
           "engine_id": "library",
-          "query": "highway-to-hell-not-a-vague-rock-statement.jpg",
-          "selected_at": "2026-06-11T11:38:50.670Z"
+          "query": "Bon Scott Highway to Hell tour 1979 live",
+          "selected_at": "2026-06-14T17:35:24.522Z"
         }
       ]
     },
@@ -52,5 +54,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-11T19:55:07.480Z"
+  "updated_at": "2026-06-14T17:35:24.523Z"
 }

@@ -2,55 +2,46 @@
   "id": "m037",
   "cue": 37,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_grain",
+    "vignette_heavy",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson playing guitar photograph",
+      "query": "Mississippi crossroads intersection photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:cf62434c1ec966c1",
-          "url": "/media/_library/assets/cf62434c1ec966c1/Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
-          "thumbnail_url": "/media/_library/assets/cf62434c1ec966c1/Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
-          "title": "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
-          "source_page": "/media/_library/assets/cf62434c1ec966c1/Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "Robert Johnson playing guitar photograph",
-          "selected_at": "2026-06-11T09:39:58.219047Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "blues guitarist hands guitar close up 1930s",
+      "query": "Delta blues rural road intersection",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Robert Johnson performance photograph",
+      "query": "lonely dirt road southern USA night",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.219051Z",
-  "updated_at": "2026-06-11T09:39:58.219051Z"
+  "completed_at": "2026-06-13T08:11:53.239Z",
+  "updated_at": "2026-06-13T08:11:53.239Z"
 }

@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m034",
   "cue": 34,
-  "t_start": 105.72,
-  "t_end": 112.06,
-  "duration_sec": 6.34,
-  "spoken": "is Robert Johnson. He's got a burning hunger to be a great player and for fame. Just then,",
+  "t_start": 90.74,
+  "t_end": 92.51,
+  "duration_sec": 1.77,
+  "spoken": "60s and 70s.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -58,8 +58,8 @@
   "requires_media_files": true,
   "acquired_files": [
     "giphy-dM2xuxnJCg4H6.gif",
-    "asset.jpg"
+    "in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.338Z"
+  "updated_at": "2026-06-15T20:27:49.087Z"
 }

@@ -2,55 +2,43 @@
   "id": "m032",
   "cue": 32,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Mississippi crossroads intersection photograph",
+      "query": "AC/DC studio 1979 recording session",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:111fb33af09ad6ca",
-          "url": "/media/_library/assets/111fb33af09ad6ca/genphoto-3aac2628.jpg",
-          "thumbnail_url": "/media/_library/assets/111fb33af09ad6ca/genphoto-3aac2628.jpg",
-          "title": "genphoto-3aac2628.jpg",
-          "source_page": "/media/_library/assets/111fb33af09ad6ca/genphoto-3aac2628.jpg",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "library",
-          "query": "genphoto-3aac2628.jpg",
-          "selected_at": "2026-06-11T21:03:37.732Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "Delta blues rural road intersection",
+      "query": "Bon Scott 1979 creative peak live",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "lonely dirt road southern USA night",
+      "query": "AC/DC band studio 1979 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.218356Z",
-  "updated_at": "2026-06-11T21:03:37.733Z"
+  "completed_at": "2026-06-13T08:09:01.238Z",
+  "updated_at": "2026-06-13T08:09:01.238Z"
 }

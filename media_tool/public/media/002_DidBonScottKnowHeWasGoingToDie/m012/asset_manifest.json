@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m012",
   "cue": 12,
-  "t_start": 39.28,
-  "t_end": 41.62,
-  "duration_sec": 2.34,
-  "spoken": "Pure energy, swimming upstream,",
+  "t_start": 36.78,
+  "t_end": 39.28,
+  "duration_sec": 2.5,
+  "spoken": "like someone ready to jump into a fight.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -51,15 +51,17 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "slow_push_in",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "bon-scott-gif.gif"
+    "giphy-kqwRo9vLeSjK85181o.gif",
+    "asset.webp"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.332Z"
+  "updated_at": "2026-06-15T20:27:49.075Z"
 }

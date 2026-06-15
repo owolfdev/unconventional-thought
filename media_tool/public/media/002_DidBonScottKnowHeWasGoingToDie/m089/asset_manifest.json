@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "id": "m089",
+  "cue": 89,
+  "t_start": 278,
+  "t_end": 281.03,
+  "duration_sec": 3.03,
+  "spoken": "overnight, found unresponsive the next day.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "the next day.",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "the next day.",
+      "status": "acquired"
+    }
+  ],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": false,
+  "acquired_files": [
+    "giphy-dM2xuxnJCg4H6.gif",
+    "genphoto-dc257c83.jpg"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-15T20:27:49.119Z"
+}

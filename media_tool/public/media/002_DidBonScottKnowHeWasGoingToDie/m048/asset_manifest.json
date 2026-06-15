@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m048",
   "cue": 48,
-  "t_start": 195.3,
-  "t_end": 202.54,
-  "duration_sec": 7.24,
-  "spoken": "lucid, insulated, and brilliant until it takes everything back with interest. That's the bargain",
+  "t_start": 140.32,
+  "t_end": 147.78,
+  "duration_sec": 7.46,
+  "spoken": "supernatural ability on the guitar in otherworldly voice. The devil also promised him fame. But Johnson",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -58,8 +58,8 @@
   "requires_media_files": true,
   "acquired_files": [
     "giphy-dM2xuxnJCg4H6.gif",
-    "crystal-chandeliers-distinguished-guests-and-balls.jpg"
+    "1930s-font-supernatural.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.342Z"
+  "updated_at": "2026-06-15T20:27:49.095Z"
 }

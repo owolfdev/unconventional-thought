@@ -1,56 +1,47 @@
 {
   "id": "m079",
   "cue": 79,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "complete",
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "in_progress",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "IT'S DOCUMENTED ROCK HISTORY.",
+    "style": "newspaper"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "1980 car commercial television still",
+      "query": "(text graphic — no archive search)",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:d3463c98df6c20fe",
-          "url": "/media/_library/assets/d3463c98df6c20fe/theres-no-wink.png",
-          "thumbnail_url": "/media/_library/assets/d3463c98df6c20fe/theres-no-wink.png",
-          "title": "theres-no-wink.png",
-          "source_page": "/media/_library/assets/d3463c98df6c20fe/theres-no-wink.png",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "1980 car commercial television still",
-          "selected_at": "2026-06-11T09:39:58.228882Z"
+          "result_id": "library:6e13a6e0e2001e9c",
+          "url": "/media/_library/assets/6e13a6e0e2001e9c/rock-n-roll-history.png",
+          "thumbnail_url": "/media/_library/assets/6e13a6e0e2001e9c/rock-n-roll-history.png",
+          "title": "rock n roll history",
+          "source_page": "/media/_library/assets/6e13a6e0e2001e9c/rock-n-roll-history.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: rock n roll history",
+          "selected_at": "2026-06-13T09:01:07.471Z"
         }
       ]
-    },
-    {
-      "query_index": 1,
-      "query": "advertising agency 1980 meeting",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "Chevrolet advertisement 1980",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.228885Z",
-  "updated_at": "2026-06-11T09:39:58.228885Z"
+  "completed_at": "2026-06-13T09:01:56.603Z",
+  "updated_at": "2026-06-13T20:38:42.086Z"
 }

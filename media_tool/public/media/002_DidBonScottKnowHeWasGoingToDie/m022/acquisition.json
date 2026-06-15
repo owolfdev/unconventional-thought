@@ -4,13 +4,18 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "text_graphic",
   "resolved_media_type": "generated",
-  "status": "text_graphic",
+  "status": "complete",
   "notes": "",
   "effects": [
-    "film_damage"
+    "film_damage",
+    "slow_push_in"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "supernatural nonchalance.",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
@@ -39,6 +44,6 @@
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-11T20:34:25.456Z"
+  "completed_at": "2026-06-14T17:50:20.053Z",
+  "updated_at": "2026-06-14T17:50:20.053Z"
 }

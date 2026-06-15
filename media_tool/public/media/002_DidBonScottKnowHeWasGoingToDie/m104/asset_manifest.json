@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "id": "m104",
+  "cue": 104,
+  "t_start": 328.02,
+  "t_end": 332.12,
+  "duration_sec": 4.1,
+  "spoken": "1980, in media narratives, heroin was tied to nightlife",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "1980 media narratives — heroin tied to 'alien' subcultures; year stamp.",
+  "situation": "1980 American media culture — news magazine, rock press",
+  "people": [],
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "",
+  "search_queries": [
+    "Rolling Stone magazine 1980 cover",
+    "1980 news broadcast television studio",
+    "music magazine 1980 rock"
+  ],
+  "avoid": [
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "1980 media narratives — heroin tied to 'alien' subcultures; year stamp.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Rolling Stone magazine 1980 cover",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: 1980 news broadcast television studio",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: music magazine 1980 rock",
+      "status": "needed"
+    }
+  ],
+  "effects": [],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [
+    "asset.jpg"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-15T20:27:49.129Z"
+}

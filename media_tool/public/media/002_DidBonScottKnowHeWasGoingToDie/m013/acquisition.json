@@ -19,38 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott 1979 live relaxed performance",
+      "query": "Bon Scott AC/DC 1977 live crowd energy",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:429605848f5df1a6",
-          "url": "/media/_library/assets/429605848f5df1a6/acdc-logo-style-highway-to-hell.png",
-          "thumbnail_url": "/media/_library/assets/429605848f5df1a6/acdc-logo-style-highway-to-hell.png",
-          "title": "AC/DC logo style: HIGHWAY TO HELL",
-          "source_page": "/media/_library/assets/429605848f5df1a6/acdc-logo-style-highway-to-hell.png",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: AC/DC logo style: HIGHWAY TO HELL",
-          "selected_at": "2026-06-11T20:17:26.797Z"
+          "result_id": "library:4f0abc4f789f115f",
+          "url": "/media/_library/assets/4f0abc4f789f115f/bon-scott-gif.gif",
+          "thumbnail_url": "/media/_library/assets/4f0abc4f789f115f/bon-scott-gif.gif",
+          "title": "bon scott GIF",
+          "source_page": "/media/_library/assets/4f0abc4f789f115f/bon-scott-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: bon scott GIF",
+          "selected_at": "2026-06-11T20:02:48.624Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott Highway to Hell tour leaning microphone",
+      "query": "Bon Scott early tour sweat stage 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Bon Scott 1979 stage calm expression",
+      "query": "AC/DC live 1978 Bon Scott jumping",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.216434Z",
-  "updated_at": "2026-06-11T20:17:42.075Z"
+  "completed_at": "2026-06-14T17:40:49.825Z",
+  "updated_at": "2026-06-14T17:40:49.825Z"
 }

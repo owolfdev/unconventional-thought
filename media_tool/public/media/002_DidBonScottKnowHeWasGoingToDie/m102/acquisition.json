@@ -1,0 +1,56 @@
+{
+  "id": "m102",
+  "cue": 102,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "FM radio station studio 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:6dfb35670232e14e",
+          "url": "/media/_library/assets/6dfb35670232e14e/silence-sh-gif.gif",
+          "thumbnail_url": "/media/_library/assets/6dfb35670232e14e/silence-sh-gif.gif",
+          "title": "Silence Sh GIF",
+          "source_page": "/media/_library/assets/6dfb35670232e14e/silence-sh-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: Silence Sh GIF",
+          "selected_at": "2026-06-15T19:47:35.629Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "newspaper editor office 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "1980 music industry executive photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-15T19:47:58.338Z",
+  "updated_at": "2026-06-15T19:47:58.338Z"
+}

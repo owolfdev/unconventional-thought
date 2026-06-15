@@ -2,55 +2,43 @@
   "id": "m065",
   "cue": 65,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "car parked alley winter night",
+      "query": "1970s rock culture documentary photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:e0dbf750d480f528",
-          "url": "/media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
-          "thumbnail_url": "/media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
-          "title": "nearly-kills-him.jpg",
-          "source_page": "/media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "car parked alley winter night",
-          "selected_at": "2026-06-11T09:39:58.225680Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "sleeping in car winter photograph",
+      "query": "New York music scene 1970s backstage",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "friend leaving car night street",
+      "query": "London rock scene 1970s nightlife",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.225683Z",
-  "updated_at": "2026-06-11T09:39:58.225683Z"
+  "completed_at": "2026-06-13T08:47:34.189Z",
+  "updated_at": "2026-06-13T08:47:34.189Z"
 }

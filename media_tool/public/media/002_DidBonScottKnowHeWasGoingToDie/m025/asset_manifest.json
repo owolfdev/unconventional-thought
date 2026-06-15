@@ -2,67 +2,42 @@
   "version": 1,
   "id": "m025",
   "cue": 25,
-  "t_start": 74.39,
-  "t_end": 77.98,
-  "duration_sec": 3.59,
-  "spoken": "He's describing a momentum that he's decided not to resist.",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Acceptance / momentum — Bon not resisting; highway forward motion metaphor.",
-  "situation": "Bon Scott 1979 live — arms open, surrender to the performance",
-  "people": [
-    {
-      "name": "Bon Scott",
-      "role": "vocalist"
-    }
-  ],
-  "date_from": "1979",
-  "date_to": "1979",
+  "t_start": 64.27,
+  "t_end": 71.2,
+  "duration_sec": 6.93,
+  "spoken": "speed limit, haste Satan, paying my dues. I'm on the highway to Hell. That's not",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Lyric punch — type the highway lines on grain; VO quotes the song.",
+  "situation": "Generated text graphic (transcription)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
   "location": "",
-  "search_queries": [
-    "Bon Scott 1979 live arms spread stage",
-    "Bon Scott Highway to Hell performance acceptance",
-    "highway road night photograph 1970s metaphor"
-  ],
-  "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
-  ],
+  "search_queries": [],
+  "avoid": [],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "speed limit",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Acceptance / momentum — Bon not resisting; highway forward motion metaphor.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: Bon Scott 1979 live arms spread stage",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: Bon Scott Highway to Hell performance acceptance",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: highway road night photograph 1970s metaphor",
-      "status": "needed"
+      "slot": "generated",
+      "description": "speed limit",
+      "status": "acquired"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [
-    "bon-scott-gif.gif"
-  ],
+  "requires_media_files": false,
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.336Z"
+  "updated_at": "2026-06-15T20:27:49.083Z"
 }

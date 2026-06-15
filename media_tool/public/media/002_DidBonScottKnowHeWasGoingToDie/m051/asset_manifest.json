@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m051",
   "cue": 51,
-  "t_start": 214.7,
-  "t_end": 220.88,
-  "duration_sec": 6.18,
-  "spoken": "in the grips of that substance during their most creative periods. Some survived, some paid the price.",
+  "t_start": 156.66,
+  "t_end": 157.49,
+  "duration_sec": 0.83,
+  "spoken": "Jimmy Hendrix,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -51,15 +51,16 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-xTeV7JLtojjOKA1aP6.gif",
-    "funny%20bon.jpg"
+    "giphy-y1tVEitC59QTmPGTPx.gif",
+    "asset.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.342Z"
+  "updated_at": "2026-06-15T20:27:49.097Z"
 }

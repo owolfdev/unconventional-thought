@@ -19,38 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "1970s rock culture documentary photograph",
+      "query": "Robert Johnson blues performance photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:f5601164014787ba",
-          "url": "/media/_library/assets/f5601164014787ba/crystal-chandeliers-distinguished-guests-and-balls.jpg",
-          "thumbnail_url": "/media/_library/assets/f5601164014787ba/crystal-chandeliers-distinguished-guests-and-balls.jpg",
-          "title": "crystal-chandeliers-distinguished-guests-and-balls.jpg",
-          "source_page": "/media/_library/assets/f5601164014787ba/crystal-chandeliers-distinguished-guests-and-balls.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
+          "result_id": "library:fc5fa65147b5b3de",
+          "url": "/media/_library/assets/fc5fa65147b5b3de/1930s-font-supernatural.png",
+          "thumbnail_url": "/media/_library/assets/fc5fa65147b5b3de/1930s-font-supernatural.png",
+          "title": "1930s-font-supernatural.png",
+          "source_page": "/media/_library/assets/fc5fa65147b5b3de/1930s-font-supernatural.png",
+          "license": "OpenAI generated — verify editorial use",
           "engine_id": "library",
-          "query": "1970s rock culture documentary photograph",
-          "selected_at": "2026-06-11T09:39:58.221463Z"
+          "query": "Robert Johnson blues performance photograph",
+          "selected_at": "2026-06-12T21:31:53.056Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "New York music scene 1970s backstage",
+      "query": "Robert Johnson portrait intense",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "London rock scene 1970s nightlife",
+      "query": "blues singer 1930s Mississippi performance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.221467Z",
-  "updated_at": "2026-06-11T09:39:58.221467Z"
+  "completed_at": "2026-06-13T08:18:21.767Z",
+  "updated_at": "2026-06-13T08:18:21.767Z"
 }

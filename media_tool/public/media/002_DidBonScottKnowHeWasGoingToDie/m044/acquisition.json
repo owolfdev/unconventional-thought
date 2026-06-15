@@ -1,16 +1,20 @@
 {
   "id": "m044",
   "cue": 44,
-  "source_visual_mode": "artifact",
-  "resolved_visual_mode": "artifact",
-  "resolved_media_type": "photo",
-  "status": "complete",
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "text_graphic",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
     "film_scratches"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": false,
@@ -19,38 +23,24 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "gold record award disc close up",
+      "query": "(text graphic — no archive search)",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:d83d6b1e6a60a42f",
-          "url": "/media/_library/assets/d83d6b1e6a60a42f/bib_gold2-blkbg.jpg",
-          "thumbnail_url": "/media/_library/assets/d83d6b1e6a60a42f/bib_gold2-blkbg.jpg",
-          "title": "bib_gold2-blkbg.jpg",
-          "source_page": "/media/_library/assets/d83d6b1e6a60a42f/bib_gold2-blkbg.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "gold record award disc close up",
-          "selected_at": "2026-06-11T09:39:58.220644Z"
+          "result_id": "library:443a904987dcfc04",
+          "url": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
+          "thumbnail_url": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
+          "title": "1931, the dead of night. lonely crossroad in mississippi. A satanic contract is proffered to a young robert johnson. jus",
+          "source_page": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: 1931, the dead of night. lonely crossroad in mississippi. A satanic contract is proffered to a young robert johnson. jus",
+          "selected_at": "2026-06-12T21:24:24.632Z"
         }
       ]
-    },
-    {
-      "query_index": 1,
-      "query": "RIAA gold album plaque 1970s",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "platinum record award wall 1980s",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.220648Z",
-  "updated_at": "2026-06-11T09:39:58.220648Z"
+  "completed_at": "2026-06-11T09:39:58.219278Z",
+  "updated_at": "2026-06-12T21:25:39.007Z"
 }

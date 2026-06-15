@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m070",
   "cue": 70,
-  "t_start": 332.12,
-  "t_end": 338.96,
-  "duration_sec": 6.84,
-  "spoken": "subcultures that mainstream rock audiences viewed as alien, like disco, queer, and art scene spaces.",
+  "t_start": 209.5,
+  "t_end": 214.7,
+  "duration_sec": 5.2,
+  "spoken": "through the 90s, check your record collection. Most likely a lot of the artists you listened to were",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -57,9 +57,9 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-1fPogKALBII0OFpxHj.gif",
-    "crystal-chandeliers-distinguished-guests-and-balls.gif"
+    "giphy-dM2xuxnJCg4H6.gif",
+    "vinyl-collection-at-a-record-store-unsplashjpg.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.347Z"
+  "updated_at": "2026-06-15T20:27:49.109Z"
 }

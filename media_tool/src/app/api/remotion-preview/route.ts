@@ -2,9 +2,10 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 import {
+  patchRemotionPreviewSettings,
   readRemotionPreviewSettings,
   remotionPreviewSettingsPath,
-  writeRemotionPreviewSettings,
+  type RemotionPreviewPatch,
   type ProjectIndexWithPreview,
 } from "@/lib/remotion-preview";
 import { getProjectDir, projectSlugFromManifest } from "@/lib/media-folders";
@@ -26,13 +27,15 @@ function loadManifest(manifestPath: string): MediaToolManifest {
 
 function syncProjectIndex(
   manifest: MediaToolManifest,
-  showCueOverlay: boolean,
+  patch: RemotionPreviewPatch,
 ): void {
   const projectDir = getProjectDir(projectSlugFromManifest(manifest));
   const indexPath = path.join(projectDir, "project.json");
   if (!fs.existsSync(indexPath)) return;
   const index = readJsonFile<ProjectIndexWithPreview>(indexPath);
-  index.remotion_show_cue_overlay = showCueOverlay;
+  if (typeof patch.showCueOverlay === "boolean") {
+    index.remotion_show_cue_overlay = patch.showCueOverlay;
+  }
   index.updated_at = new Date().toISOString();
   writeJsonFile(indexPath, index);
 }
@@ -46,6 +49,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({
       manifestPath,
       showCueOverlay: settings.showCueOverlay,
+      showStickerOverlays: settings.showStickerOverlays,
       settingsPath: remotionPreviewSettingsPath(manifest, manifestPath),
     });
   } catch (e) {
@@ -59,24 +63,33 @@ export async function PUT(request: NextRequest) {
     const body = (await request.json()) as {
       manifestPath?: string;
       showCueOverlay?: boolean;
+      showStickerOverlays?: boolean;
     };
     const manifestPath = body.manifestPath?.trim() ?? defaultManifestPath();
-    if (typeof body.showCueOverlay !== "boolean") {
+    const patch: RemotionPreviewPatch = {};
+    if (typeof body.showCueOverlay === "boolean") {
+      patch.showCueOverlay = body.showCueOverlay;
+    }
+    if (typeof body.showStickerOverlays === "boolean") {
+      patch.showStickerOverlays = body.showStickerOverlays;
+    }
+    if (Object.keys(patch).length === 0) {
       return NextResponse.json(
-        { error: "showCueOverlay boolean required" },
+        { error: "showCueOverlay and/or showStickerOverlays boolean required" },
         { status: 400 },
       );
     }
     const manifest = loadManifest(manifestPath);
-    const settings = writeRemotionPreviewSettings(
+    const settings = patchRemotionPreviewSettings(
       manifest,
-      body.showCueOverlay,
+      patch,
       manifestPath,
     );
-    syncProjectIndex(manifest, body.showCueOverlay);
+    syncProjectIndex(manifest, patch);
     return NextResponse.json({
       ok: true,
       showCueOverlay: settings.showCueOverlay,
+      showStickerOverlays: settings.showStickerOverlays,
       settingsPath: remotionPreviewSettingsPath(manifest, manifestPath),
     });
   } catch (e) {

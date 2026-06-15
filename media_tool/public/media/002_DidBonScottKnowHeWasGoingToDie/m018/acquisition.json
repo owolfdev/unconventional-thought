@@ -2,9 +2,9 @@
   "id": "m018",
   "cue": 18,
   "source_visual_mode": "artifact",
-  "resolved_visual_mode": "artifact",
-  "resolved_media_type": "photo",
-  "status": "in_progress",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "text_graphic",
   "notes": "",
   "effects": [],
   "transition": null,
@@ -20,19 +20,7 @@
       "query": "whisky glass bar counter 1970s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:9406d55bde3b4d1e",
-          "url": "/media/_library/assets/9406d55bde3b4d1e/text-graphic-different.png",
-          "thumbnail_url": "/media/_library/assets/9406d55bde3b4d1e/text-graphic-different.png",
-          "title": "text graphic: Different",
-          "source_page": "/media/_library/assets/9406d55bde3b4d1e/text-graphic-different.png",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: text graphic: Different",
-          "selected_at": "2026-06-11T20:28:46.821Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
@@ -50,5 +38,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-11T20:28:46.822Z"
+  "updated_at": "2026-06-11T20:18:17.651Z"
 }

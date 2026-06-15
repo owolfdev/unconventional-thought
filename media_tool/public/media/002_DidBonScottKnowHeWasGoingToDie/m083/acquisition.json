@@ -1,50 +1,54 @@
 {
   "id": "m083",
   "cue": 83,
-  "source_visual_mode": "text_graphic",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
-  "effects": [
-    "film_scratches"
-  ],
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "in_progress",
+  "notes": "",
+  "effects": [],
   "transition": null,
-  "text_graphic": {
-    "type": "quote",
-    "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
-    "style": "typewriter"
-  },
-  "text_graphic_layer": {
-    "type": "quote",
-    "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
+  "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "(text graphic — no archive search)",
+      "query": "Bon Scott 1979 candid portrait",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:c7eefae85ab039c9",
-          "url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-          "thumbnail_url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-          "title": "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-          "source_page": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "m066",
-          "selected_at": "2026-06-11T09:39:58.229798Z"
+          "result_id": "library:97447d4131aa20c2",
+          "url": "/media/_library/assets/97447d4131aa20c2/70s-style-font-experimentation.png",
+          "thumbnail_url": "/media/_library/assets/97447d4131aa20c2/70s-style-font-experimentation.png",
+          "title": "70s style font: Experimentation",
+          "source_page": "/media/_library/assets/97447d4131aa20c2/70s-style-font-experimentation.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: 70s style font: Experimentation",
+          "selected_at": "2026-06-13T21:50:19.003Z"
         }
       ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott February 1980 era photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott London 1979 tired",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.229802Z",
-  "updated_at": "2026-06-11T09:39:58.229802Z"
+  "completed_at": null,
+  "updated_at": "2026-06-13T22:01:49.636Z"
 }

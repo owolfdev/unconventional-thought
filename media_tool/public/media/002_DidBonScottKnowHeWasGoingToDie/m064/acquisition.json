@@ -2,8 +2,8 @@
   "id": "m064",
   "cue": 64,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
@@ -13,44 +13,44 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "coroner report document photograph",
+      "query": "1970s rock culture documentary photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:f2b330b1796be50a",
-          "url": "/media/_library/assets/f2b330b1796be50a/great-story-very-convenient.png",
-          "thumbnail_url": "/media/_library/assets/f2b330b1796be50a/great-story-very-convenient.png",
-          "title": "great-story-very-convenient.png",
-          "source_page": "/media/_library/assets/f2b330b1796be50a/great-story-very-convenient.png",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "coroner report document photograph",
-          "selected_at": "2026-06-11T09:39:58.225477Z"
+          "result_id": "library:8c7992e7a9dae805",
+          "url": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
+          "thumbnail_url": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
+          "title": "black and white optical illusion GIF",
+          "source_page": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: black and white optical illusion GIF",
+          "selected_at": "2026-06-13T08:46:49.369Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "redacted government document",
+      "query": "New York music scene 1970s backstage",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "manila folder classified stamp",
+      "query": "London rock scene 1970s nightlife",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.225481Z",
-  "updated_at": "2026-06-11T09:39:58.225481Z"
+  "completed_at": "2026-06-13T08:47:13.819Z",
+  "updated_at": "2026-06-13T08:47:13.819Z"
 }

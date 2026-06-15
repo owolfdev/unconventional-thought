@@ -1,0 +1,56 @@
+{
+  "id": "m106",
+  "cue": 106,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Studio 54 1979 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:08cda80875af3d05",
+          "url": "/media/_library/assets/08cda80875af3d05/vcq9hfdbbnzro.gif",
+          "thumbnail_url": "/media/_library/assets/08cda80875af3d05/vcq9hfdbbnzro.gif",
+          "title": "vCq9hFdBBnzrO",
+          "source_page": "/media/_library/assets/08cda80875af3d05/vcq9hfdbbnzro.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: vCq9hFdBBnzrO",
+          "selected_at": "2026-06-15T19:52:31.192Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "disco nightclub 1979 New York",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "1979 disco dance floor photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-15T19:52:53.172Z",
+  "updated_at": "2026-06-15T19:52:53.172Z"
+}

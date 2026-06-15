@@ -12,6 +12,8 @@ import { projectSlugFromManifest } from "./media-folders";
 export interface RemotionPreviewSettings {
   version: 1;
   showCueOverlay: boolean;
+  /** OpenAI/GIPHY sticker + title PNG overlays on plates. */
+  showStickerOverlays: boolean;
   updated_at: string;
 }
 
@@ -28,6 +30,7 @@ export interface ProjectIndexWithPreview {
 const DEFAULT_SETTINGS: RemotionPreviewSettings = {
   version: 1,
   showCueOverlay: true,
+  showStickerOverlays: true,
   updated_at: new Date().toISOString(),
 };
 
@@ -59,19 +62,25 @@ export function readRemotionPreviewSettings(
       ...DEFAULT_SETTINGS,
       ...doc,
       showCueOverlay: doc.showCueOverlay !== false,
+      showStickerOverlays: doc.showStickerOverlays !== false,
     };
   }
   return { ...DEFAULT_SETTINGS };
 }
 
-export function writeRemotionPreviewSettings(
+export type RemotionPreviewPatch = Partial<
+  Pick<RemotionPreviewSettings, "showCueOverlay" | "showStickerOverlays">
+>;
+
+export function patchRemotionPreviewSettings(
   manifest: MediaToolManifest,
-  showCueOverlay: boolean,
+  patch: RemotionPreviewPatch,
   manifestPath?: string,
 ): RemotionPreviewSettings {
+  const current = readRemotionPreviewSettings(manifest, manifestPath);
   const settings: RemotionPreviewSettings = {
-    version: 1,
-    showCueOverlay,
+    ...current,
+    ...patch,
     updated_at: new Date().toISOString(),
   };
   writeJsonFile(
@@ -79,4 +88,17 @@ export function writeRemotionPreviewSettings(
     settings,
   );
   return settings;
+}
+
+/** @deprecated use patchRemotionPreviewSettings */
+export function writeRemotionPreviewSettings(
+  manifest: MediaToolManifest,
+  showCueOverlay: boolean,
+  manifestPath?: string,
+): RemotionPreviewSettings {
+  return patchRemotionPreviewSettings(
+    manifest,
+    { showCueOverlay },
+    manifestPath,
+  );
 }

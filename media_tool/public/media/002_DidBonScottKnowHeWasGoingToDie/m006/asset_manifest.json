@@ -61,14 +61,16 @@
     }
   ],
   "effects": [
-    "film_damage"
+    "film_damage",
+    "slow_push_in",
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "highway-to-hell-not-a-vague-rock-statement.jpg"
+    "asset.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.331Z"
+  "updated_at": "2026-06-15T20:27:49.071Z"
 }

@@ -1,56 +1,58 @@
 {
   "id": "m047",
   "cue": 47,
-  "source_visual_mode": "artifact",
-  "resolved_visual_mode": "artifact",
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage",
+    "slow_zoom_out"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "hypodermic needle macro photograph documentary",
+      "query": "Robert Johnson blues musician 1937",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:0941eb9f5822f6a9",
-          "url": "/media/_library/assets/0941eb9f5822f6a9/its-not-pretty-good-considering.png",
-          "thumbnail_url": "/media/_library/assets/0941eb9f5822f6a9/its-not-pretty-good-considering.png",
-          "title": "its-not-pretty-good-considering.png",
-          "source_page": "/media/_library/assets/0941eb9f5822f6a9/its-not-pretty-good-considering.png",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "hypodermic needle macro photograph documentary",
-          "selected_at": "2026-06-11T09:39:58.221243Z"
+          "result_id": "library:a4e2d87376e09b91",
+          "url": "/media/_library/assets/a4e2d87376e09b91/genphoto-7ce7764d.jpg",
+          "thumbnail_url": "/media/_library/assets/a4e2d87376e09b91/genphoto-7ce7764d.jpg",
+          "title": "it's 1931 in mississippi. setting a music venue where robert johnson would have played. fellow musicians are stunned at ",
+          "source_page": "/media/_library/assets/a4e2d87376e09b91/genphoto-7ce7764d.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: it's 1931 in mississippi. setting a music venue where robert johnson would have played. fellow musicians are stunned at ",
+          "selected_at": "2026-06-13T08:17:28.987Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "syringe close up medical still life",
+      "query": "Mississippi juke joint musicians 1930s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "needle tip macro black background",
+      "query": "Robert Johnson contemporaries blues scene",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.221246Z",
-  "updated_at": "2026-06-11T09:39:58.221246Z"
+  "completed_at": "2026-06-13T08:18:03.160Z",
+  "updated_at": "2026-06-13T08:18:03.160Z"
 }

@@ -2,77 +2,57 @@
   "version": 1,
   "id": "m010",
   "cue": 10,
-  "t_start": 35.7,
-  "t_end": 36.78,
-  "duration_sec": 1.08,
-  "spoken": "coiled spring,",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "t_start": 32.78,
+  "t_end": 35.7,
+  "duration_sec": 2.92,
+  "spoken": "In the early ACDC tracks, Bon is like a",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Early AC/DC — coiled, aggressive Bon before the shift. High Voltage / TNT era electricity.",
+  "situation": "Early Bon Scott AC/DC — snarl, fight-ready, pre-1979 intensity",
   "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
     {
       "name": "AC/DC",
       "role": "band"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1975",
+  "date_to": "1978",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Bon Scott AC/DC early 1970s live aggressive",
+    "Bon Scott High Voltage tour live photograph",
+    "Bon Scott 1976 1977 stage snarl"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
-  "text_graphic": {
-    "type": "title",
-    "text": "COILED SPRING.",
-    "style": "blockbuster"
-  },
-  "text_graphic_layer": {
-    "type": "title",
-    "text": "COILED SPRING.",
-    "style": "blockbuster"
-  },
+  "text_graphic": null,
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
-    },
-    {
-      "slot": "text_overlay",
-      "description": "Text layer: title — COILED SPRING.",
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
       "status": "acquired"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [
-    "giphy-ObQjKmAQK2cPJ2DImR.gif",
-    "text-graphic-coiled-spring.png"
-  ],
+  "requires_media_files": false,
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.332Z"
+  "updated_at": "2026-06-15T20:27:49.074Z"
 }

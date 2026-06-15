@@ -1,0 +1,56 @@
+{
+  "id": "m105",
+  "cue": 105,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Studio 54 1979 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:6d74d60939a20771",
+          "url": "/media/_library/assets/6d74d60939a20771/heavy-metal-80s-gif-by-retro-fiend.gif",
+          "thumbnail_url": "/media/_library/assets/6d74d60939a20771/heavy-metal-80s-gif-by-retro-fiend.gif",
+          "title": "heavy metal 80s GIF by RETRO-FIEND",
+          "source_page": "/media/_library/assets/6d74d60939a20771/heavy-metal-80s-gif-by-retro-fiend.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: heavy metal 80s GIF by RETRO-FIEND",
+          "selected_at": "2026-06-15T19:51:14.727Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "disco nightclub 1979 New York",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "1979 disco dance floor photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.226780Z",
+  "updated_at": "2026-06-15T19:51:26.595Z"
+}

@@ -4,8 +4,8 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "in_progress",
-  "notes": "",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
     "film_damage"
   ],
@@ -13,7 +13,7 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
@@ -24,15 +24,15 @@
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:476e3a0c4247ac95",
-          "url": "/media/_library/assets/476e3a0c4247ac95/asset.jpg",
-          "thumbnail_url": "/media/_library/assets/476e3a0c4247ac95/asset.jpg",
-          "title": "asset.jpg",
-          "source_page": "/media/_library/assets/476e3a0c4247ac95/asset.jpg",
-          "license": "verify rights before use",
+          "result_id": "library:e055493666442638",
+          "url": "/media/_library/assets/e055493666442638/think-about-it-gif-by-identity.gif",
+          "thumbnail_url": "/media/_library/assets/e055493666442638/think-about-it-gif-by-identity.gif",
+          "title": "think-about-it-gif-by-identity.gif",
+          "source_page": "/media/_library/assets/e055493666442638/think-about-it-gif-by-identity.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
           "engine_id": "library",
-          "query": "Bon Scott backstage 1979 candid calm",
-          "selected_at": "2026-06-11T20:32:05.233Z"
+          "query": "think-about-it-gif-by-identity.gif",
+          "selected_at": "2026-06-12T20:40:22.819Z"
         }
       ]
     },
@@ -51,6 +51,6 @@
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-11T20:33:01.000Z"
+  "completed_at": "2026-06-11T09:39:58.216916Z",
+  "updated_at": "2026-06-12T20:40:22.819Z"
 }

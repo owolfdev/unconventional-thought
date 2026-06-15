@@ -2,15 +2,20 @@
   "id": "m086",
   "cue": 86,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "video",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "desaturate_soft"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "you decide.",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": false,
@@ -19,38 +24,26 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott Highway to Hell live 1979",
+      "query": "London street night 1980 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:961568fea3dfcaba",
-          "url": "/media/_library/assets/961568fea3dfcaba/ZzOR9-dzUtU_trimmed.mp4",
-          "thumbnail_url": "/media/_library/assets/961568fea3dfcaba/ZzOR9-dzUtU_trimmed.mp4",
-          "title": "ZzOR9-dzUtU_trimmed.mp4",
-          "source_page": "/media/_library/assets/961568fea3dfcaba/ZzOR9-dzUtU_trimmed.mp4",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "Bon Scott Highway to Hell live 1979",
-          "selected_at": "2026-06-11T09:39:58.230449Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "Bon Scott AC/DC 1979 tour finale energy",
+      "query": "London February winter night 1980s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Bon Scott singing highway to hell live",
+      "query": "UK pub exterior night 1980",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.230453Z",
-  "updated_at": "2026-06-11T09:39:58.230453Z"
+  "completed_at": "2026-06-13T22:06:02.227Z",
+  "updated_at": "2026-06-15T19:26:59.209Z"
 }

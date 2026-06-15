@@ -2,11 +2,11 @@
   "version": 1,
   "id": "m049",
   "cue": 49,
-  "t_start": 202.54,
-  "t_end": 209.5,
-  "duration_sec": 6.96,
-  "spoken": "in chemical form. Let's stop pretending this would be impossible. If you like music from the 60s",
-  "visual_mode": "artifact",
+  "t_start": 147.78,
+  "t_end": 154.15,
+  "duration_sec": 6.37,
+  "spoken": "died early before seeing it happen. He did become a legend just only after death.",
+  "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
@@ -51,15 +51,16 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "slow_push_in"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-I8VJ3IkbBJaXsibfhD.gif",
-    "bib-record.jpg"
+    "giphy-dM2xuxnJCg4H6.gif",
+    "asset.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.342Z"
+  "updated_at": "2026-06-15T20:27:49.096Z"
 }

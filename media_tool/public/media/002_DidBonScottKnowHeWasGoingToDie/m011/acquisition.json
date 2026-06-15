@@ -1,57 +1,47 @@
 {
   "id": "m011",
   "cue": 11,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "complete",
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "in_progress",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
     "film_scratches",
-    "slow_push_in"
+    "film_damage"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "COILED SPRING.",
+    "style": "blockbuster"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott AC/DC live aggressive 1977",
+      "query": "(text graphic — no archive search)",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:4ff8bdb1dd269eac",
-          "url": "/media/_library/assets/4ff8bdb1dd269eac/specific-guy-bad-reputation-hes-proud-of-it.jpg",
-          "thumbnail_url": "/media/_library/assets/4ff8bdb1dd269eac/specific-guy-bad-reputation-hes-proud-of-it.jpg",
-          "title": "specific-guy-bad-reputation-hes-proud-of-it.jpg",
-          "source_page": "/media/_library/assets/4ff8bdb1dd269eac/specific-guy-bad-reputation-hes-proud-of-it.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "Bon Scott AC/DC live aggressive 1977",
-          "selected_at": "2026-06-11T09:39:58.215969Z"
+          "result_id": "library:198a9216264e595b",
+          "url": "/media/_library/assets/198a9216264e595b/text-graphic-coiled-spring.png",
+          "thumbnail_url": "/media/_library/assets/198a9216264e595b/text-graphic-coiled-spring.png",
+          "title": "Text graphic: Coiled Spring",
+          "source_page": "/media/_library/assets/198a9216264e595b/text-graphic-coiled-spring.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: Text graphic: Coiled Spring",
+          "selected_at": "2026-06-11T20:12:01.943Z"
         }
       ]
-    },
-    {
-      "query_index": 1,
-      "query": "Bon Scott stage fight energy 1970s",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "Bon Scott early tour snarl microphone",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.215974Z",
-  "updated_at": "2026-06-11T20:01:00.373Z"
+  "completed_at": "2026-06-11T11:51:45.023Z",
+  "updated_at": "2026-06-14T17:39:25.483Z"
 }

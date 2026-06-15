@@ -2,64 +2,59 @@
   "version": 1,
   "id": "m016",
   "cue": 16,
-  "t_start": 49.12,
-  "t_end": 56.24,
-  "duration_sec": 7.12,
-  "spoken": "It almost sounds inebriated, but it's not alcohol. This is different. People who know about these",
-  "visual_mode": "artifact",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "t_start": 47.22,
+  "t_end": 48.28,
+  "duration_sec": 1.06,
+  "spoken": "floating downstream.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Highway to Hell shift — looser, warmer, leaning back. 1979 Bon relaxed on stage.",
+  "situation": "Bon Scott 1979 live relaxed leaning back microphone — downstream calm",
   "people": [
     {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "Bon Scott",
+      "role": "vocalist"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1979",
+  "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Bon Scott 1979 live relaxed performance",
+    "Bon Scott Highway to Hell tour leaning microphone",
+    "Bon Scott 1979 stage calm expression"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_damage",
+    "vignette_soft",
+    "film_scratches",
+    "desaturate_soft",
+    "crt_glow",
+    "slow_zoom_in"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "giphy-Hrhjdtxtuu3wIrSKrQ.gif",
-    "IMG_5729.JPG"
+    "asset.mp4"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.334Z"
+  "updated_at": "2026-06-15T20:27:49.078Z"
 }

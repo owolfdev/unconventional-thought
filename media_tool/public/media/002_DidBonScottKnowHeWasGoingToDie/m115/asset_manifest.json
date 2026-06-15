@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "id": "m115",
+  "cue": 115,
+  "t_start": 362.32,
+  "t_end": 366.74,
+  "duration_sec": 4.42,
+  "spoken": "imagination of that era, heroin read as downtown junkies,",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Heroin reads as downtown / art scene — Velvet Underground, Warhol factory echo.",
+  "situation": "New York downtown art scene 1970s — Lou Reed era, bohemian",
+  "people": [
+    {
+      "name": "Lou Reed",
+      "role": "musician"
+    }
+  ],
+  "date_from": "1970",
+  "date_to": "1980",
+  "location": "New York, USA",
+  "search_queries": [
+    "Andy Warhol factory 1970s photograph",
+    "Velvet Underground era New York 1970s",
+    "downtown Manhattan 1970s nightlife"
+  ],
+  "avoid": [
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Heroin reads as downtown / art scene — Velvet Underground, Warhol factory echo.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Andy Warhol factory 1970s photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Velvet Underground era New York 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: downtown Manhattan 1970s nightlife",
+      "status": "needed"
+    }
+  ],
+  "effects": [],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [
+    "asset.jpg"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-15T20:27:49.137Z"
+}

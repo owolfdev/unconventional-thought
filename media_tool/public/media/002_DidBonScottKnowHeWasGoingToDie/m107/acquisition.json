@@ -1,0 +1,57 @@
+{
+  "id": "m107",
+  "cue": 107,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "AC/DC US tour 1980 crowd",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:ddbd21b9ac1f4628",
+          "url": "/media/_library/assets/ddbd21b9ac1f4628/explode-blow-up-gif-by-motortrend.gif",
+          "thumbnail_url": "/media/_library/assets/ddbd21b9ac1f4628/explode-blow-up-gif-by-motortrend.gif",
+          "title": "Explode Blow Up GIF by MotorTrend",
+          "source_page": "/media/_library/assets/ddbd21b9ac1f4628/explode-blow-up-gif-by-motortrend.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: Explode Blow Up GIF by MotorTrend",
+          "selected_at": "2026-06-15T19:54:55.439Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "AC/DC American audience 1980 concert",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "rock concert USA 1980 denim crowd",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.227015Z",
+  "updated_at": "2026-06-15T19:55:10.472Z"
+}

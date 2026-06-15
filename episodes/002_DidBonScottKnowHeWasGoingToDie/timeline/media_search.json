@@ -4,7 +4,7 @@
   "style": "historical_documentary_not_explainer",
   "source_transcript": "transcript/did_bon_scott_know_he_was_going_to_die.srt",
   "source_audio": "audio/vo/did_bon_scott_know_he_was_going_to_die 2.mp3",
-  "cue_count": 88,
+  "cue_count": 133,
   "historical_count": 55,
   "artifact_count": 6,
   "text_graphic_count": 8,
@@ -351,9 +351,9 @@
       "id": "m009",
       "cue": 9,
       "t_start": 29.5,
-      "t_end": 35.7,
-      "duration_sec": 6.2,
-      "spoken": "it's different. Am I the only one who notices that? In the early ACDC tracks, Bon is like a",
+      "t_end": 32.78,
+      "duration_sec": 3.28,
+      "spoken": "it's different. Am I the only one who notices that?",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -391,6 +391,47 @@
     {
       "id": "m010",
       "cue": 10,
+      "t_start": 32.78,
+      "t_end": 35.7,
+      "duration_sec": 2.92,
+      "spoken": "In the early ACDC tracks, Bon is like a",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Early AC/DC — coiled, aggressive Bon before the shift. High Voltage / TNT era electricity.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "Early Bon Scott AC/DC — snarl, fight-ready, pre-1979 intensity",
+      "date_from": "1975",
+      "date_to": "1978",
+      "location": "",
+      "search_queries": [
+        "Bon Scott AC/DC early 1970s live aggressive",
+        "Bon Scott High Voltage tour live photograph",
+        "Bon Scott 1976 1977 stage snarl"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m011",
+      "cue": 11,
       "t_start": 35.7,
       "t_end": 36.78,
       "duration_sec": 1.08,
@@ -415,8 +456,8 @@
       "priority": "medium"
     },
     {
-      "id": "m011",
-      "cue": 11,
+      "id": "m012",
+      "cue": 12,
       "t_start": 36.78,
       "t_end": 39.28,
       "duration_sec": 2.5,
@@ -452,8 +493,8 @@
       "priority": "high"
     },
     {
-      "id": "m012",
-      "cue": 12,
+      "id": "m013",
+      "cue": 13,
       "t_start": 39.28,
       "t_end": 41.62,
       "duration_sec": 2.34,
@@ -489,8 +530,8 @@
       "priority": "high"
     },
     {
-      "id": "m013",
-      "cue": 13,
+      "id": "m014",
+      "cue": 14,
       "t_start": 42.3,
       "t_end": 44.72,
       "duration_sec": 2.42,
@@ -526,8 +567,8 @@
       "priority": "high"
     },
     {
-      "id": "m014",
-      "cue": 14,
+      "id": "m015",
+      "cue": 15,
       "t_start": 44.72,
       "t_end": 47.22,
       "duration_sec": 2.5,
@@ -563,8 +604,8 @@
       "priority": "high"
     },
     {
-      "id": "m015",
-      "cue": 15,
+      "id": "m016",
+      "cue": 16,
       "t_start": 47.22,
       "t_end": 48.28,
       "duration_sec": 1.06,
@@ -600,8 +641,8 @@
       "priority": "high"
     },
     {
-      "id": "m016",
-      "cue": 16,
+      "id": "m017",
+      "cue": 17,
       "t_start": 49.12,
       "t_end": 51.45,
       "duration_sec": 2.33,
@@ -640,8 +681,8 @@
       "priority": "high"
     },
     {
-      "id": "m017",
-      "cue": 17,
+      "id": "m018",
+      "cue": 18,
       "t_start": 51.45,
       "t_end": 53.13,
       "duration_sec": 1.68,
@@ -680,8 +721,8 @@
       "priority": "high"
     },
     {
-      "id": "m018",
-      "cue": 18,
+      "id": "m019",
+      "cue": 19,
       "t_start": 53.13,
       "t_end": 54.72,
       "duration_sec": 1.59,
@@ -720,8 +761,8 @@
       "priority": "high"
     },
     {
-      "id": "m019",
-      "cue": 19,
+      "id": "m020",
+      "cue": 20,
       "t_start": 54.72,
       "t_end": 56.24,
       "duration_sec": 1.52,
@@ -760,8 +801,8 @@
       "priority": "high"
     },
     {
-      "id": "m020",
-      "cue": 20,
+      "id": "m021",
+      "cue": 21,
       "t_start": 56.24,
       "t_end": 57.8,
       "duration_sec": 1.56,
@@ -797,8 +838,8 @@
       "priority": "high"
     },
     {
-      "id": "m021",
-      "cue": 21,
+      "id": "m022",
+      "cue": 22,
       "t_start": 57.8,
       "t_end": 60.81,
       "duration_sec": 3.01,
@@ -834,8 +875,8 @@
       "priority": "high"
     },
     {
-      "id": "m022",
-      "cue": 22,
+      "id": "m023",
+      "cue": 23,
       "t_start": 60.81,
       "t_end": 62.06,
       "duration_sec": 1.25,
@@ -871,12 +912,12 @@
       "priority": "high"
     },
     {
-      "id": "m023",
-      "cue": 23,
+      "id": "m024",
+      "cue": 24,
       "t_start": 63.14,
-      "t_end": 71.2,
-      "duration_sec": 8.06,
-      "spoken": "No stop signs, speed limit, haste Satan, paying my dues. I'm on the highway to Hell. That's not",
+      "t_end": 64.27,
+      "duration_sec": 1.13,
+      "spoken": "No stop signs,",
       "visual_mode": "text_graphic",
       "text_graphic": {
         "type": "transcription",
@@ -897,8 +938,86 @@
       "priority": "high"
     },
     {
-      "id": "m024",
-      "cue": 24,
+      "id": "m025",
+      "cue": 25,
+      "t_start": 64.27,
+      "t_end": 65.41,
+      "duration_sec": 1.14,
+      "spoken": "speed limit,",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "NO STOP SIGNS · PAYING MY DUES · HIGHWAY TO HELL",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Lyric punch — type the highway lines on grain; VO quotes the song.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m026",
+      "cue": 26,
+      "t_start": 65.41,
+      "t_end": 68.08,
+      "duration_sec": 2.67,
+      "spoken": "haste Satan, paying my dues.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "NO STOP SIGNS · PAYING MY DUES · HIGHWAY TO HELL",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Lyric punch — type the highway lines on grain; VO quotes the song.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m027",
+      "cue": 27,
+      "t_start": 68.08,
+      "t_end": 71.2,
+      "duration_sec": 3.12,
+      "spoken": "I'm on the highway to Hell. That's not",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "transcription",
+        "text": "NO STOP SIGNS · PAYING MY DUES · HIGHWAY TO HELL",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Lyric punch — type the highway lines on grain; VO quotes the song.",
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m028",
+      "cue": 28,
       "t_start": 71.2,
       "t_end": 74.39,
       "duration_sec": 3.19,
@@ -934,8 +1053,8 @@
       "priority": "high"
     },
     {
-      "id": "m025",
-      "cue": 25,
+      "id": "m029",
+      "cue": 29,
       "t_start": 74.39,
       "t_end": 77.98,
       "duration_sec": 3.59,
@@ -971,8 +1090,8 @@
       "priority": "high"
     },
     {
-      "id": "m026",
-      "cue": 26,
+      "id": "m030",
+      "cue": 30,
       "t_start": 78.86,
       "t_end": 82.19,
       "duration_sec": 3.33,
@@ -1012,8 +1131,8 @@
       "priority": "high"
     },
     {
-      "id": "m027",
-      "cue": 27,
+      "id": "m031",
+      "cue": 31,
       "t_start": 82.19,
       "t_end": 84.72,
       "duration_sec": 2.53,
@@ -1053,8 +1172,8 @@
       "priority": "high"
     },
     {
-      "id": "m028",
-      "cue": 28,
+      "id": "m032",
+      "cue": 32,
       "t_start": 84.72,
       "t_end": 85.6,
       "duration_sec": 0.88,
@@ -1094,8 +1213,8 @@
       "priority": "high"
     },
     {
-      "id": "m029",
-      "cue": 29,
+      "id": "m033",
+      "cue": 33,
       "t_start": 85.6,
       "t_end": 90.74,
       "duration_sec": 5.14,
@@ -1126,8 +1245,8 @@
       "priority": "medium"
     },
     {
-      "id": "m030",
-      "cue": 30,
+      "id": "m034",
+      "cue": 34,
       "t_start": 90.74,
       "t_end": 92.51,
       "duration_sec": 1.77,
@@ -1160,8 +1279,8 @@
       "priority": "high"
     },
     {
-      "id": "m031",
-      "cue": 31,
+      "id": "m035",
+      "cue": 35,
       "t_start": 92.51,
       "t_end": 99.14,
       "duration_sec": 6.63,
@@ -1194,8 +1313,8 @@
       "priority": "high"
     },
     {
-      "id": "m032",
-      "cue": 32,
+      "id": "m036",
+      "cue": 36,
       "t_start": 99.42,
       "t_end": 102.35,
       "duration_sec": 2.93,
@@ -1226,12 +1345,12 @@
       "priority": "high"
     },
     {
-      "id": "m033",
-      "cue": 33,
+      "id": "m037",
+      "cue": 37,
       "t_start": 102.35,
-      "t_end": 105.72,
-      "duration_sec": 3.37,
-      "spoken": "A young musician stands there with a guitar. His name",
+      "t_end": 105.14,
+      "duration_sec": 2.79,
+      "spoken": "A young musician stands there with a guitar.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1258,8 +1377,40 @@
       "priority": "high"
     },
     {
-      "id": "m034",
-      "cue": 34,
+      "id": "m038",
+      "cue": 38,
+      "t_start": 105.14,
+      "t_end": 105.72,
+      "duration_sec": 0.58,
+      "spoken": "His name",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Lonely intersection — insects, heat, dirt road; young musician waiting.",
+      "people": [],
+      "situation": "Rural crossroads intersection Mississippi — empty, humid night mood",
+      "date_from": "1930",
+      "date_to": "1935",
+      "location": "Mississippi, USA",
+      "search_queries": [
+        "Mississippi crossroads intersection photograph",
+        "Delta blues rural road intersection",
+        "lonely dirt road southern USA night"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m039",
+      "cue": 39,
       "t_start": 105.72,
       "t_end": 107.92,
       "duration_sec": 2.2,
@@ -1295,12 +1446,12 @@
       "priority": "high"
     },
     {
-      "id": "m035",
-      "cue": 35,
+      "id": "m040",
+      "cue": 40,
       "t_start": 107.92,
-      "t_end": 112.06,
-      "duration_sec": 4.14,
-      "spoken": "burning hunger to be a great player and for fame. Just then,",
+      "t_end": 110.99,
+      "duration_sec": 3.07,
+      "spoken": "burning hunger to be a great player and for fame.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1332,8 +1483,45 @@
       "priority": "high"
     },
     {
-      "id": "m036",
-      "cue": 36,
+      "id": "m041",
+      "cue": 41,
+      "t_start": 110.99,
+      "t_end": 112.06,
+      "duration_sec": 1.07,
+      "spoken": "Just then,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Robert Johnson with guitar — hunger for greatness; ONLY Johnson-era imagery from here.",
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson guitarist portrait or with guitar 1930s",
+      "date_from": "1935",
+      "date_to": "1938",
+      "location": "Mississippi, USA",
+      "search_queries": [
+        "Robert Johnson blues guitarist photograph",
+        "Robert Johnson with guitar 1930s",
+        "Robert Johnson portrait blues musician"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m042",
+      "cue": 42,
       "t_start": 112.06,
       "t_end": 118.04,
       "duration_sec": 5.98,
@@ -1366,8 +1554,8 @@
       "priority": "medium"
     },
     {
-      "id": "m037",
-      "cue": 37,
+      "id": "m043",
+      "cue": 43,
       "t_start": 118.04,
       "t_end": 125.8,
       "duration_sec": 7.76,
@@ -1403,12 +1591,12 @@
       "priority": "high"
     },
     {
-      "id": "m038",
-      "cue": 38,
+      "id": "m044",
+      "cue": 44,
       "t_start": 126.74,
-      "t_end": 133.06,
-      "duration_sec": 6.32,
-      "spoken": "But understand kid, it ain't free. Everybody knows that Robert Johnson sold his soul to the devil",
+      "t_end": 129.33,
+      "duration_sec": 2.59,
+      "spoken": "But understand kid, it ain't free.",
       "visual_mode": "text_graphic",
       "text_graphic": {
         "type": "quote",
@@ -1429,12 +1617,38 @@
       "priority": "high"
     },
     {
-      "id": "m039",
-      "cue": 39,
+      "id": "m045",
+      "cue": 45,
+      "t_start": 129.33,
+      "t_end": 133.06,
+      "duration_sec": 3.73,
+      "spoken": "Everybody knows that Robert Johnson sold his soul to the devil",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "'It ain't free' — contract/bargain beat; intertitle on grain.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m046",
+      "cue": 46,
       "t_start": 133.06,
-      "t_end": 140.32,
-      "duration_sec": 7.26,
-      "spoken": "for immortality. He came back different, transformed. The other musicians were stunned. He now had",
+      "t_end": 137.32,
+      "duration_sec": 4.26,
+      "spoken": "for immortality. He came back different, transformed.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1466,8 +1680,45 @@
       "priority": "high"
     },
     {
-      "id": "m040",
-      "cue": 40,
+      "id": "m047",
+      "cue": 47,
+      "t_start": 137.32,
+      "t_end": 140.32,
+      "duration_sec": 3,
+      "spoken": "The other musicians were stunned. He now had",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Johnson returns transformed — other musicians stunned; delta blues scene.",
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson 1930s — post-legend transformation, peers watching",
+      "date_from": "1936",
+      "date_to": "1938",
+      "location": "",
+      "search_queries": [
+        "Robert Johnson blues musician 1937",
+        "Mississippi juke joint musicians 1930s",
+        "Robert Johnson contemporaries blues scene"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m048",
+      "cue": 48,
       "t_start": 140.32,
       "t_end": 147.78,
       "duration_sec": 7.46,
@@ -1503,12 +1754,12 @@
       "priority": "high"
     },
     {
-      "id": "m041",
-      "cue": 41,
+      "id": "m049",
+      "cue": 49,
       "t_start": 147.78,
-      "t_end": 156.08,
-      "duration_sec": 8.3,
-      "spoken": "died early before seeing it happen. He did become a legend just only after death. Take the 27 club,",
+      "t_end": 154.15,
+      "duration_sec": 6.37,
+      "spoken": "died early before seeing it happen. He did become a legend just only after death.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1540,12 +1791,49 @@
       "priority": "high"
     },
     {
-      "id": "m042",
-      "cue": 42,
+      "id": "m050",
+      "cue": 50,
+      "t_start": 154.15,
+      "t_end": 156.08,
+      "duration_sec": 1.93,
+      "spoken": "Take the 27 club,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Johnson died young — legend only after death; grave or memorial.",
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson grave or death memorial — died before fame",
+      "date_from": "1938",
+      "date_to": "1938",
+      "location": "",
+      "search_queries": [
+        "Robert Johnson grave Mississippi",
+        "Robert Johnson death memorial blues",
+        "Robert Johnson 1938 obituary newspaper"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m051",
+      "cue": 51,
       "t_start": 156.66,
-      "t_end": 163.2,
-      "duration_sec": 6.54,
-      "spoken": "Jimmy Hendrix, Janice Chaplin, Jim Morrison, Kurt Cobain, and many others. Same equation,",
+      "t_end": 157.49,
+      "duration_sec": 0.83,
+      "spoken": "Jimmy Hendrix,",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1575,12 +1863,152 @@
       "priority": "high"
     },
     {
-      "id": "m043",
-      "cue": 43,
+      "id": "m052",
+      "cue": 52,
+      "t_start": 157.49,
+      "t_end": 158.62,
+      "duration_sec": 1.13,
+      "spoken": "Janice Chaplin,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+      "people": [],
+      "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
+      "date_from": "1969",
+      "date_to": "1994",
+      "location": "",
+      "search_queries": [
+        "Jimi Hendrix 1969 photograph",
+        "Janis Joplin 1970 photograph",
+        "Jim Morrison 1971 photograph",
+        "Kurt Cobain 1990s photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "wrong artist mislabeled",
+        "tribute collage poster"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m053",
+      "cue": 53,
+      "t_start": 158.62,
+      "t_end": 159.71,
+      "duration_sec": 1.09,
+      "spoken": "Jim Morrison,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+      "people": [],
+      "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
+      "date_from": "1969",
+      "date_to": "1994",
+      "location": "",
+      "search_queries": [
+        "Jimi Hendrix 1969 photograph",
+        "Janis Joplin 1970 photograph",
+        "Jim Morrison 1971 photograph",
+        "Kurt Cobain 1990s photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "wrong artist mislabeled",
+        "tribute collage poster"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m054",
+      "cue": 54,
+      "t_start": 159.71,
+      "t_end": 160.75,
+      "duration_sec": 1.04,
+      "spoken": "Kurt Cobain,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+      "people": [],
+      "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
+      "date_from": "1969",
+      "date_to": "1994",
+      "location": "",
+      "search_queries": [
+        "Jimi Hendrix 1969 photograph",
+        "Janis Joplin 1970 photograph",
+        "Jim Morrison 1971 photograph",
+        "Kurt Cobain 1990s photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "wrong artist mislabeled",
+        "tribute collage poster"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m055",
+      "cue": 55,
+      "t_start": 160.75,
+      "t_end": 163.2,
+      "duration_sec": 2.45,
+      "spoken": "and many others. Same equation,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+      "people": [],
+      "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
+      "date_from": "1969",
+      "date_to": "1994",
+      "location": "",
+      "search_queries": [
+        "Jimi Hendrix 1969 photograph",
+        "Janis Joplin 1970 photograph",
+        "Jim Morrison 1971 photograph",
+        "Kurt Cobain 1990s photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "wrong artist mislabeled",
+        "tribute collage poster"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m056",
+      "cue": 56,
       "t_start": 163.6,
-      "t_end": 169.1,
-      "duration_sec": 5.5,
-      "spoken": "they traded something for greatness, for art. Some might say they sold their souls for fame.",
+      "t_end": 166.4,
+      "duration_sec": 2.8,
+      "spoken": "they traded something for greatness, for art.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1607,8 +2035,40 @@
       "priority": "medium"
     },
     {
-      "id": "m044",
-      "cue": 44,
+      "id": "m057",
+      "cue": 57,
+      "t_start": 166.4,
+      "t_end": 169.1,
+      "duration_sec": 2.7,
+      "spoken": "Some might say they sold their souls for fame.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Soul for fame equation — same bargain, different eras; crossroads echo.",
+      "people": [],
+      "situation": "Rock mythology — fame and early death, artistic sacrifice",
+      "date_from": "1960",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "rock star spotlight 1970s silhouette",
+        "musician backstage alone 1970s",
+        "crossroads blues rock mythology photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m058",
+      "cue": 58,
       "t_start": 169.62,
       "t_end": 171.74,
       "duration_sec": 2.12,
@@ -1645,8 +2105,8 @@
       "priority": "high"
     },
     {
-      "id": "m045",
-      "cue": 45,
+      "id": "m059",
+      "cue": 59,
       "t_start": 172.48,
       "t_end": 178.94,
       "duration_sec": 6.46,
@@ -1671,8 +2131,8 @@
       "priority": "high"
     },
     {
-      "id": "m046",
-      "cue": 46,
+      "id": "m060",
+      "cue": 60,
       "t_start": 178.94,
       "t_end": 187.26,
       "duration_sec": 8.32,
@@ -1697,12 +2157,12 @@
       "priority": "high"
     },
     {
-      "id": "m047",
-      "cue": 47,
+      "id": "m061",
+      "cue": 61,
       "t_start": 187.26,
-      "t_end": 195.3,
-      "duration_sec": 8.04,
-      "spoken": "the tip of a hypodermic needle. Yup, heroin. Legend has it that it can make artists feel invulnerable,",
+      "t_end": 189.26,
+      "duration_sec": 2,
+      "spoken": "the tip of a hypodermic needle.",
       "visual_mode": "artifact",
       "text_graphic": null,
       "artifact": {
@@ -1738,12 +2198,94 @@
       "priority": "high"
     },
     {
-      "id": "m048",
-      "cue": 48,
+      "id": "m062",
+      "cue": 62,
+      "t_start": 189.26,
+      "t_end": 191.49,
+      "duration_sec": 2.23,
+      "spoken": "Yup, heroin.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "hypodermic needle macro",
+        "story_link": "Heroin as the modern devil bargain",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "'Tip of a hypodermic needle' — macro, clinical, NOT glamorized.",
+      "people": [],
+      "situation": "Inanimate: hypodermic needle macro",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "hypodermic needle macro photograph documentary",
+        "syringe close up medical still life",
+        "needle tip macro black background"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "injection in arm",
+        "glamorized drug use",
+        "blood",
+        "faces prominent",
+        "glamorized drug use"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m063",
+      "cue": 63,
+      "t_start": 191.49,
+      "t_end": 195.3,
+      "duration_sec": 3.81,
+      "spoken": "Legend has it that it can make artists feel invulnerable,",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "hypodermic needle macro",
+        "story_link": "Heroin as the modern devil bargain",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "'Tip of a hypodermic needle' — macro, clinical, NOT glamorized.",
+      "people": [],
+      "situation": "Inanimate: hypodermic needle macro",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "hypodermic needle macro photograph documentary",
+        "syringe close up medical still life",
+        "needle tip macro black background"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "injection in arm",
+        "glamorized drug use",
+        "blood",
+        "faces prominent",
+        "glamorized drug use"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m064",
+      "cue": 64,
       "t_start": 195.3,
-      "t_end": 202.54,
-      "duration_sec": 7.24,
-      "spoken": "lucid, insulated, and brilliant until it takes everything back with interest. That's the bargain",
+      "t_end": 197.66,
+      "duration_sec": 2.36,
+      "spoken": "lucid, insulated, and brilliant",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1772,12 +2314,80 @@
       "priority": "medium"
     },
     {
-      "id": "m049",
-      "cue": 49,
+      "id": "m065",
+      "cue": 65,
+      "t_start": 197.66,
+      "t_end": 201.47,
+      "duration_sec": 3.81,
+      "spoken": "until it takes everything back with interest.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Heroin bargain — lucid then ruin; 70s rock documentary tone, not exploitation.",
+      "people": [],
+      "situation": "1970s rock culture heroin documentary context — era photography",
+      "date_from": "1970",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "1970s rock culture documentary photograph",
+        "New York music scene 1970s backstage",
+        "London rock scene 1970s nightlife"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "graphic drug use",
+        "needle in vein"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m066",
+      "cue": 66,
+      "t_start": 201.47,
+      "t_end": 202.54,
+      "duration_sec": 1.07,
+      "spoken": "That's the bargain",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Heroin bargain — lucid then ruin; 70s rock documentary tone, not exploitation.",
+      "people": [],
+      "situation": "1970s rock culture heroin documentary context — era photography",
+      "date_from": "1970",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "1970s rock culture documentary photograph",
+        "New York music scene 1970s backstage",
+        "London rock scene 1970s nightlife"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "graphic drug use",
+        "needle in vein"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m067",
+      "cue": 67,
       "t_start": 202.54,
-      "t_end": 209.5,
-      "duration_sec": 6.96,
-      "spoken": "in chemical form. Let's stop pretending this would be impossible. If you like music from the 60s",
+      "t_end": 204.12,
+      "duration_sec": 1.58,
+      "spoken": "in chemical form.",
       "visual_mode": "artifact",
       "text_graphic": null,
       "artifact": {
@@ -1810,8 +2420,84 @@
       "priority": "high"
     },
     {
-      "id": "m050",
-      "cue": 50,
+      "id": "m068",
+      "cue": 68,
+      "t_start": 204.12,
+      "t_end": 207.29,
+      "duration_sec": 3.17,
+      "spoken": "Let's stop pretending this would be impossible.",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "record collection vinyl stack",
+        "story_link": "Heroin in rock history — your record collection",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "'Bargain in chemical form' — spoon, kit, or record-collection metaphor.",
+      "people": [],
+      "situation": "Inanimate: record collection vinyl stack",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vinyl record collection shelf 1970s",
+        "album collection bedroom 1970s photograph",
+        "stack of LPs close up 1970s"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "faces prominent",
+        "glamorized drug use"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m069",
+      "cue": 69,
+      "t_start": 207.29,
+      "t_end": 209.5,
+      "duration_sec": 2.21,
+      "spoken": "If you like music from the 60s",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "record collection vinyl stack",
+        "story_link": "Heroin in rock history — your record collection",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "'Bargain in chemical form' — spoon, kit, or record-collection metaphor.",
+      "people": [],
+      "situation": "Inanimate: record collection vinyl stack",
+      "date_from": "1975",
+      "date_to": "1985",
+      "location": "",
+      "search_queries": [
+        "vinyl record collection shelf 1970s",
+        "album collection bedroom 1970s photograph",
+        "stack of LPs close up 1970s"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "faces prominent",
+        "glamorized drug use"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m070",
+      "cue": 70,
       "t_start": 209.5,
       "t_end": 214.7,
       "duration_sec": 5.2,
@@ -1842,12 +2528,12 @@
       "priority": "medium"
     },
     {
-      "id": "m051",
-      "cue": 51,
+      "id": "m071",
+      "cue": 71,
       "t_start": 214.7,
-      "t_end": 220.88,
-      "duration_sec": 6.18,
-      "spoken": "in the grips of that substance during their most creative periods. Some survived, some paid the price.",
+      "t_end": 218.33,
+      "duration_sec": 3.63,
+      "spoken": "in the grips of that substance during their most creative periods.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1874,12 +2560,44 @@
       "priority": "high"
     },
     {
-      "id": "m052",
-      "cue": 52,
+      "id": "m072",
+      "cue": 72,
+      "t_start": 218.33,
+      "t_end": 220.88,
+      "duration_sec": 2.55,
+      "spoken": "Some survived, some paid the price.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Some survived, some paid — contrast portraits; documentary sobriety.",
+      "people": [],
+      "situation": "Rock survivors vs casualties — era press, funerals, comebacks",
+      "date_from": "1970",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "rock musician funeral 1970s newspaper",
+        "Eric Clapton 1970s photograph",
+        "Keith Richards 1970s live photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m073",
+      "cue": 73,
       "t_start": 221.42,
-      "t_end": 227.4,
-      "duration_sec": 5.98,
-      "spoken": "Late 70s music culture was saturated with heroin. It wasn't fringe. It wasn't rare.",
+      "t_end": 225.07,
+      "duration_sec": 3.65,
+      "spoken": "Late 70s music culture was saturated with heroin.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1906,8 +2624,40 @@
       "priority": "high"
     },
     {
-      "id": "m053",
-      "cue": 53,
+      "id": "m074",
+      "cue": 74,
+      "t_start": 225.07,
+      "t_end": 227.4,
+      "duration_sec": 2.33,
+      "spoken": "It wasn't fringe. It wasn't rare.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Late 70s heroin saturation — elite rooms, not fringe.",
+      "people": [],
+      "situation": "1970s music industry party studio — heroin era context",
+      "date_from": "1977",
+      "date_to": "1979",
+      "location": "New York / Los Angeles",
+      "search_queries": [
+        "Studio 54 1970s photograph",
+        "1970s music industry party photograph",
+        "New York nightclub 1970s rock scene"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m075",
+      "cue": 75,
       "t_start": 227.92,
       "t_end": 232.92,
       "duration_sec": 5,
@@ -1938,12 +2688,12 @@
       "priority": "high"
     },
     {
-      "id": "m054",
-      "cue": 54,
+      "id": "m076",
+      "cue": 76,
       "t_start": 233.58,
-      "t_end": 238.76,
-      "duration_sec": 5.18,
-      "spoken": "Some of the biggest artists in modern music have openly talked about it. John Lennon talked",
+      "t_end": 237.68,
+      "duration_sec": 4.1,
+      "spoken": "Some of the biggest artists in modern music have openly talked about it.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1975,8 +2725,45 @@
       "priority": "high"
     },
     {
-      "id": "m055",
-      "cue": 55,
+      "id": "m077",
+      "cue": 77,
+      "t_start": 237.68,
+      "t_end": 238.76,
+      "duration_sec": 1.08,
+      "spoken": "John Lennon talked",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "John Lennon spoke about it — Lennon era press, not Bon.",
+      "people": [
+        {
+          "name": "John Lennon",
+          "role": "musician"
+        }
+      ],
+      "situation": "John Lennon 1970s press photograph",
+      "date_from": "1970",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "John Lennon 1970s photograph interview",
+        "John Lennon New York 1970s",
+        "John Lennon studio 1970s"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m078",
+      "cue": 78,
       "t_start": 238.76,
       "t_end": 245.08,
       "duration_sec": 6.32,
@@ -2020,8 +2807,8 @@
       "priority": "high"
     },
     {
-      "id": "m056",
-      "cue": 56,
+      "id": "m079",
+      "cue": 79,
       "t_start": 245.08,
       "t_end": 249.76,
       "duration_sec": 4.68,
@@ -2046,12 +2833,12 @@
       "priority": "high"
     },
     {
-      "id": "m057",
-      "cue": 57,
+      "id": "m080",
+      "cue": 80,
       "t_start": 249.76,
-      "t_end": 254.64,
-      "duration_sec": 4.88,
-      "spoken": "would an artist like Bond Scott ever have been around heroin. Of course he would.",
+      "t_end": 253.4,
+      "duration_sec": 3.64,
+      "spoken": "would an artist like Bond Scott ever have been around heroin.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2083,12 +2870,49 @@
       "priority": "high"
     },
     {
-      "id": "m058",
-      "cue": 58,
+      "id": "m081",
+      "cue": 81,
+      "t_start": 253.4,
+      "t_end": 254.64,
+      "duration_sec": 1.24,
+      "spoken": "Of course he would.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Would Bon be *around* heroin? — London 1979 nightlife, his circles, not accusation graphic.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott London 1979 — clubs, tour life, proximity not proof",
+      "date_from": "1979",
+      "date_to": "1980",
+      "location": "London, UK",
+      "search_queries": [
+        "Bon Scott London 1979 photograph",
+        "Bon Scott AC/DC 1979 offstage nightlife",
+        "London music scene 1979 rock"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m082",
+      "cue": 82,
       "t_start": 255,
-      "t_end": 260.24,
-      "duration_sec": 5.24,
-      "spoken": "The real question is whether in that final stretch, he crossed from proximity into experimentation",
+      "t_end": 257.9,
+      "duration_sec": 2.9,
+      "spoken": "The real question is whether in that final stretch,",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2120,12 +2944,49 @@
       "priority": "high"
     },
     {
-      "id": "m059",
-      "cue": 59,
+      "id": "m083",
+      "cue": 83,
+      "t_start": 257.9,
+      "t_end": 260.24,
+      "duration_sec": 2.34,
+      "spoken": "he crossed from proximity into experimentation",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Final stretch — experimentation vs dependency; intimate Bon 1979, ambiguous.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott 1979 late period — tired, private, final months mood",
+      "date_from": "1979",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "Bon Scott 1979 candid portrait",
+        "Bon Scott February 1980 era photograph",
+        "Bon Scott London 1979 tired"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m084",
+      "cue": 84,
       "t_start": 260.82,
-      "t_end": 267.2,
-      "duration_sec": 6.38,
-      "spoken": "or even dependency. Given the era, the access, the circles, the schedule, and the pressure,",
+      "t_end": 262.5,
+      "duration_sec": 1.68,
+      "spoken": "or even dependency.",
       "visual_mode": "text_graphic",
       "text_graphic": {
         "type": "quote",
@@ -2146,12 +3007,38 @@
       "priority": "medium"
     },
     {
-      "id": "m060",
-      "cue": 60,
+      "id": "m085",
+      "cue": 85,
+      "t_start": 262.5,
+      "t_end": 267.2,
+      "duration_sec": 4.7,
+      "spoken": "Given the era, the access, the circles, the schedule, and the pressure,",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "YOU DECIDE.",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "'Hmm, you decide' — hand verdict to viewer; whitespace beat.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m086",
+      "cue": 86,
       "t_start": 267.74,
-      "t_end": 277.64,
-      "duration_sec": 9.9,
-      "spoken": "hmm, you decide. Now the death itself. February 1980, London, night out, drinking. He was left in a car,",
+      "t_end": 270.05,
+      "duration_sec": 2.31,
+      "spoken": "hmm, you decide.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2183,12 +3070,86 @@
       "priority": "high"
     },
     {
-      "id": "m061",
-      "cue": 61,
+      "id": "m087",
+      "cue": 87,
+      "t_start": 270.05,
+      "t_end": 276.43,
+      "duration_sec": 6.38,
+      "spoken": "Now the death itself. February 1980, London, night out, drinking.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Death night — February 1980 London, night out; cold urban night mood.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "London February 1980 night street — cold, wet, urban",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "London, UK",
+      "search_queries": [
+        "London street night 1980 photograph",
+        "London February winter night 1980s",
+        "UK pub exterior night 1980"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m088",
+      "cue": 88,
+      "t_start": 276.43,
+      "t_end": 277.64,
+      "duration_sec": 1.21,
+      "spoken": "He was left in a car,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Death night — February 1980 London, night out; cold urban night mood.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "London February 1980 night street — cold, wet, urban",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "London, UK",
+      "search_queries": [
+        "London street night 1980 photograph",
+        "London February winter night 1980s",
+        "UK pub exterior night 1980"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m089",
+      "cue": 89,
       "t_start": 278,
-      "t_end": 284.1,
-      "duration_sec": 6.1,
-      "spoken": "overnight, found unresponsive the next day. Official cause, acute alcohol poisoning.",
+      "t_end": 281.03,
+      "duration_sec": 3.03,
+      "spoken": "overnight, found unresponsive the next day.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2217,12 +3178,46 @@
       "priority": "high"
     },
     {
-      "id": "m062",
-      "cue": 62,
+      "id": "m090",
+      "cue": 90,
+      "t_start": 281.03,
+      "t_end": 284.1,
+      "duration_sec": 3.07,
+      "spoken": "Official cause, acute alcohol poisoning.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Left in car, found next day — parked car winter, official alcohol narrative.",
+      "people": [],
+      "situation": "Parked car winter night London — left overnight tragedy",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "London, UK",
+      "search_queries": [
+        "parked car snow winter night 1980s",
+        "car interior back seat night photograph",
+        "London winter street parked cars 1980"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "graphic death scene",
+        "corpse"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m091",
+      "cue": 91,
       "t_start": 285.12,
-      "t_end": 289.58,
-      "duration_sec": 4.46,
-      "spoken": "Here's what bothers people. In a case this culturally and commercially important,",
+      "t_end": 286.76,
+      "duration_sec": 1.64,
+      "spoken": "Here's what bothers people.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2254,12 +3249,49 @@
       "priority": "high"
     },
     {
-      "id": "m063",
-      "cue": 63,
+      "id": "m092",
+      "cue": 92,
+      "t_start": 286.76,
+      "t_end": 289.58,
+      "duration_sec": 2.82,
+      "spoken": "In a case this culturally and commercially important,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Thin public record — newspaper headline, inquest, missing details.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott death newspaper headline February 1980",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "Bon Scott death newspaper 1980 headline",
+        "Bon Scott obituary 1980 newspaper",
+        "AC/DC Bon Scott death news 1980"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m093",
+      "cue": 93,
       "t_start": 289.82,
-      "t_end": 294.7,
-      "duration_sec": 4.88,
-      "spoken": "the public facing record feels thinner than the legend around it. He drank too much.",
+      "t_end": 293.41,
+      "duration_sec": 3.59,
+      "spoken": "the public facing record feels thinner than the legend around it.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2291,12 +3323,49 @@
       "priority": "high"
     },
     {
-      "id": "m064",
-      "cue": 64,
+      "id": "m094",
+      "cue": 94,
+      "t_start": 293.41,
+      "t_end": 294.7,
+      "duration_sec": 1.29,
+      "spoken": "He drank too much.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "'He drank too much' — bar culture yes, but skeptical undertone; veteran drinker.",
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott drinking pub 1970s — known drinker, not moralizing",
+      "date_from": "1975",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "Bon Scott drinking beer pub 1970s",
+        "Bon Scott bar candid 1970s",
+        "rock musician pub 1970s documentary"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m095",
+      "cue": 95,
       "t_start": 295.26,
-      "t_end": 300.9,
-      "duration_sec": 5.64,
-      "spoken": "That sentence may be true at one level. It may also be incomplete and less plausible than the",
+      "t_end": 297.64,
+      "duration_sec": 2.38,
+      "spoken": "That sentence may be true at one level.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2324,12 +3393,45 @@
       "priority": "medium"
     },
     {
-      "id": "m065",
-      "cue": 65,
+      "id": "m096",
+      "cue": 96,
+      "t_start": 297.64,
+      "t_end": 300.9,
+      "duration_sec": 3.26,
+      "spoken": "It may also be incomplete and less plausible than the",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Incomplete vs plausible alternative — coroner file, redacted document mood.",
+      "people": [],
+      "situation": "Official records incomplete — coroner document or redacted file aesthetic",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [
+        "coroner report document photograph",
+        "redacted government document",
+        "manila folder classified stamp"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "fake specific Bon document if fabricated"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m097",
+      "cue": 97,
       "t_start": 300.9,
-      "t_end": 306.56,
-      "duration_sec": 5.66,
-      "spoken": "alternative. Bond was a veteran drinker after all. And why did his friend leave him in a car",
+      "t_end": 301.9,
+      "duration_sec": 1,
+      "spoken": "alternative.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2356,8 +3458,72 @@
       "priority": "medium"
     },
     {
-      "id": "m066",
-      "cue": 66,
+      "id": "m098",
+      "cue": 98,
+      "t_start": 301.9,
+      "t_end": 304.54,
+      "duration_sec": 2.64,
+      "spoken": "Bond was a veteran drinker after all.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Friend left him in the car — guilt, abandonment; car in cold night.",
+      "people": [],
+      "situation": "Friend's car winter night — left alone, troubling decision",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "London, UK",
+      "search_queries": [
+        "car parked alley winter night",
+        "sleeping in car winter photograph",
+        "friend leaving car night street"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m099",
+      "cue": 99,
+      "t_start": 304.54,
+      "t_end": 306.56,
+      "duration_sec": 2.02,
+      "spoken": "And why did his friend leave him in a car",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Friend left him in the car — guilt, abandonment; car in cold night.",
+      "people": [],
+      "situation": "Friend's car winter night — left alone, troubling decision",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "London, UK",
+      "search_queries": [
+        "car parked alley winter night",
+        "sleeping in car winter photograph",
+        "friend leaving car night street"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m100",
+      "cue": 100,
       "t_start": 306.56,
       "t_end": 311.86,
       "duration_sec": 5.3,
@@ -2388,8 +3554,8 @@
       "priority": "high"
     },
     {
-      "id": "m067",
-      "cue": 67,
+      "id": "m101",
+      "cue": 101,
       "t_start": 311.86,
       "t_end": 317.82,
       "duration_sec": 5.96,
@@ -2420,8 +3586,8 @@
       "priority": "medium"
     },
     {
-      "id": "m068",
-      "cue": 68,
+      "id": "m102",
+      "cue": 102,
       "t_start": 318.7,
       "t_end": 324.52,
       "duration_sec": 5.82,
@@ -2452,12 +3618,12 @@
       "priority": "high"
     },
     {
-      "id": "m069",
-      "cue": 69,
+      "id": "m103",
+      "cue": 103,
       "t_start": 324.52,
-      "t_end": 332.12,
-      "duration_sec": 7.6,
-      "spoken": "alcohol story? Because it's 1980. In 1980, in media narratives, heroin was tied to nightlife",
+      "t_end": 328.02,
+      "duration_sec": 3.5,
+      "spoken": "alcohol story? Because it's 1980. In",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2484,12 +3650,44 @@
       "priority": "high"
     },
     {
-      "id": "m070",
-      "cue": 70,
+      "id": "m104",
+      "cue": 104,
+      "t_start": 328.02,
+      "t_end": 332.12,
+      "duration_sec": 4.1,
+      "spoken": "1980, in media narratives, heroin was tied to nightlife",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "1980 media narratives — heroin tied to 'alien' subcultures; year stamp.",
+      "people": [],
+      "situation": "1980 American media culture — news magazine, rock press",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "Rolling Stone magazine 1980 cover",
+        "1980 news broadcast television studio",
+        "music magazine 1980 rock"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m105",
+      "cue": 105,
       "t_start": 332.12,
-      "t_end": 338.96,
-      "duration_sec": 6.84,
-      "spoken": "subcultures that mainstream rock audiences viewed as alien, like disco, queer, and art scene spaces.",
+      "t_end": 335.92,
+      "duration_sec": 3.8,
+      "spoken": "subcultures that mainstream rock audiences viewed as alien,",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2518,12 +3716,46 @@
       "priority": "high"
     },
     {
-      "id": "m071",
-      "cue": 71,
+      "id": "m106",
+      "cue": 106,
+      "t_start": 335.92,
+      "t_end": 338.96,
+      "duration_sec": 3.04,
+      "spoken": "like disco, queer, and art scene spaces.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Disco, queer, art scene — stigma geography; Studio 54 era, NOT homophobic caricature.",
+      "people": [],
+      "situation": "Studio 54 disco era 1979 — nightlife mainstream rock feared",
+      "date_from": "1978",
+      "date_to": "1980",
+      "location": "New York, USA",
+      "search_queries": [
+        "Studio 54 1979 photograph",
+        "disco nightclub 1979 New York",
+        "1979 disco dance floor photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "homophobic caricature",
+        "mocking LGBTQ"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m107",
+      "cue": 107,
       "t_start": 339.62,
-      "t_end": 345.98,
-      "duration_sec": 6.36,
-      "spoken": "And that stigma made the story commercially explosive. ACDC was trying to further conquer the",
+      "t_end": 343.2,
+      "duration_sec": 3.58,
+      "spoken": "And that stigma made the story commercially explosive.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2555,12 +3787,49 @@
       "priority": "high"
     },
     {
-      "id": "m072",
-      "cue": 72,
+      "id": "m108",
+      "cue": 108,
+      "t_start": 343.2,
+      "t_end": 345.98,
+      "duration_sec": 2.78,
+      "spoken": "ACDC was trying to further conquer the",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "AC/DC conquering America — US tour crowd, denim, heartland 1980.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC American tour 1980 crowd — mainstream rock audience",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "USA",
+      "search_queries": [
+        "AC/DC US tour 1980 crowd",
+        "AC/DC American audience 1980 concert",
+        "rock concert USA 1980 denim crowd"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m109",
+      "cue": 109,
       "t_start": 345.98,
-      "t_end": 351.16,
-      "duration_sec": 5.18,
-      "spoken": "American market. You have to understand their demographic at that moment. Working class,",
+      "t_end": 347.08,
+      "duration_sec": 1.1,
+      "spoken": "American market.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2587,12 +3856,44 @@
       "priority": "high"
     },
     {
-      "id": "m073",
-      "cue": 73,
+      "id": "m110",
+      "cue": 110,
+      "t_start": 347.08,
+      "t_end": 351.16,
+      "duration_sec": 4.08,
+      "spoken": "You have to understand their demographic at that moment. Working class,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Demographic — working class, suburban, beer, denim; heartland not coastal elite.",
+      "people": [],
+      "situation": "American working class rock fans 1980 — beer, denim, trucks",
+      "date_from": "1979",
+      "date_to": "1981",
+      "location": "USA",
+      "search_queries": [
+        "American rock concert crowd 1980 denim",
+        "suburban teenagers rock concert 1980",
+        "pickup truck tailgate beer 1980s photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m111",
+      "cue": 111,
       "t_start": 351.16,
-      "t_end": 359.88,
-      "duration_sec": 8.72,
-      "spoken": "mainstream, suburban, beer, denim, v8s. That crowd was explicitly anti-disco and suspicious of",
+      "t_end": 353.49,
+      "duration_sec": 2.33,
+      "spoken": "mainstream, suburban,",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2619,12 +3920,76 @@
       "priority": "high"
     },
     {
-      "id": "m074",
-      "cue": 74,
+      "id": "m112",
+      "cue": 112,
+      "t_start": 353.49,
+      "t_end": 355.87,
+      "duration_sec": 2.38,
+      "spoken": "beer, denim, v8s.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Anti-disco — Disco Demolition Night Comiskey Park July 1979; cultural war.",
+      "people": [],
+      "situation": "Disco Demolition Night Comiskey Park July 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "Chicago, USA",
+      "search_queries": [
+        "Disco Demolition Night 1979 Comiskey Park",
+        "Steve Dahl disco demolition 1979",
+        "disco records explosion baseball field 1979"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m113",
+      "cue": 113,
+      "t_start": 355.87,
+      "t_end": 359.88,
+      "duration_sec": 4.01,
+      "spoken": "That crowd was explicitly",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Anti-disco — Disco Demolition Night Comiskey Park July 1979; cultural war.",
+      "people": [],
+      "situation": "Disco Demolition Night Comiskey Park July 1979",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "Chicago, USA",
+      "search_queries": [
+        "Disco Demolition Night 1979 Comiskey Park",
+        "Steve Dahl disco demolition 1979",
+        "disco records explosion baseball field 1979"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m114",
+      "cue": 114,
       "t_start": 359.88,
-      "t_end": 366.74,
-      "duration_sec": 6.86,
-      "spoken": "art scene posturing. And in the public imagination of that era, heroin read as downtown junkies,",
+      "t_end": 362.32,
+      "duration_sec": 2.44,
+      "spoken": "art scene posturing. And in the public",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2656,8 +4021,45 @@
       "priority": "high"
     },
     {
-      "id": "m075",
-      "cue": 75,
+      "id": "m115",
+      "cue": 115,
+      "t_start": 362.32,
+      "t_end": 366.74,
+      "duration_sec": 4.42,
+      "spoken": "imagination of that era, heroin read as downtown junkies,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Heroin reads as downtown / art scene — Velvet Underground, Warhol factory echo.",
+      "people": [
+        {
+          "name": "Lou Reed",
+          "role": "musician"
+        }
+      ],
+      "situation": "New York downtown art scene 1970s — Lou Reed era, bohemian",
+      "date_from": "1970",
+      "date_to": "1980",
+      "location": "New York, USA",
+      "search_queries": [
+        "Andy Warhol factory 1970s photograph",
+        "Velvet Underground era New York 1970s",
+        "downtown Manhattan 1970s nightlife"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m116",
+      "cue": 116,
       "t_start": 367.06,
       "t_end": 375.48,
       "duration_sec": 8.42,
@@ -2690,12 +4092,12 @@
       "priority": "high"
     },
     {
-      "id": "m076",
-      "cue": 76,
+      "id": "m117",
+      "cue": 117,
       "t_start": 375.48,
-      "t_end": 382.42,
-      "duration_sec": 6.94,
-      "spoken": "not just be bad press. It would feel like cultural betrayal. ACDC were just about to put out",
+      "t_end": 380.21,
+      "duration_sec": 4.73,
+      "spoken": "not just be bad press. It would feel like cultural betrayal.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2727,12 +4129,49 @@
       "priority": "high"
     },
     {
-      "id": "m077",
-      "cue": 77,
+      "id": "m118",
+      "cue": 118,
+      "t_start": 380.21,
+      "t_end": 382.42,
+      "duration_sec": 2.21,
+      "spoken": "ACDC were just about to put out",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Heroin story = betrayal of AC/DC brand — band as working-class joy machine.",
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC live joy 1979 — emphatically present, turned up to eleven",
+      "date_from": "1979",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "AC/DC live 1979 crowd joy energy",
+        "Angus Young AC/DC 1979 stage energy",
+        "AC/DC concert audience hands up 1979"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m119",
+      "cue": 119,
       "t_start": 382.42,
-      "t_end": 388.06,
-      "duration_sec": 5.64,
-      "spoken": "back in black. The thought might have been, who's gonna buy a back in black if Bond Scott just",
+      "t_end": 385.24,
+      "duration_sec": 2.82,
+      "spoken": "back in black. The thought might have been,",
       "visual_mode": "artifact",
       "text_graphic": null,
       "artifact": {
@@ -2766,12 +4205,51 @@
       "priority": "high"
     },
     {
-      "id": "m078",
-      "cue": 78,
+      "id": "m120",
+      "cue": 120,
+      "t_start": 385.24,
+      "t_end": 388.06,
+      "duration_sec": 2.82,
+      "spoken": "who's gonna buy a back in black if Bond Scott just",
+      "visual_mode": "artifact",
+      "text_graphic": null,
+      "artifact": {
+        "object": "Back in Black vinyl record sleeve",
+        "story_link": "Album about to ship — commercial stakes",
+        "media_preference": "photo"
+      },
+      "editorial_intent": "Back in Black coming — LP object, avoid trademark cover if possible; sleeve or vinyl edge.",
+      "people": [],
+      "situation": "Inanimate: Back in Black vinyl record sleeve",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "Back in Black vinyl record 1980",
+        "AC/DC Back in Black album sleeve 1980",
+        "black vinyl LP 1980 Atlantic Records"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "Brian Johnson prominent cover portrait",
+        "faces prominent",
+        "glamorized drug use"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m121",
+      "cue": 121,
       "t_start": 388.06,
-      "t_end": 394.9,
-      "duration_sec": 6.84,
-      "spoken": "died like a velvet underground groupie? Look, in 1980, radio gatekeepers were conservative.",
+      "t_end": 390.58,
+      "duration_sec": 2.52,
+      "spoken": "died like a velvet underground groupie?",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2798,8 +4276,40 @@
       "priority": "high"
     },
     {
-      "id": "m079",
-      "cue": 79,
+      "id": "m122",
+      "cue": 122,
+      "t_start": 390.58,
+      "t_end": 394.9,
+      "duration_sec": 4.32,
+      "spoken": "Look, in 1980, radio gatekeepers were conservative.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Radio gatekeepers 1980 — conservative program directors, advertisers.",
+      "people": [],
+      "situation": "FM radio station program director 1980 office",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "USA",
+      "search_queries": [
+        "FM radio station 1980 control room",
+        "radio program director office 1980",
+        "American radio station studio 1980"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m123",
+      "cue": 123,
       "t_start": 395.54,
       "t_end": 401.96,
       "duration_sec": 6.42,
@@ -2831,8 +4341,8 @@
       "priority": "medium"
     },
     {
-      "id": "m080",
-      "cue": 80,
+      "id": "m124",
+      "cue": 124,
       "t_start": 401.96,
       "t_end": 408.56,
       "duration_sec": 6.6,
@@ -2868,8 +4378,8 @@
       "priority": "high"
     },
     {
-      "id": "m081",
-      "cue": 81,
+      "id": "m125",
+      "cue": 125,
       "t_start": 408.56,
       "t_end": 415.4,
       "duration_sec": 6.84,
@@ -2906,8 +4416,8 @@
       "priority": "high"
     },
     {
-      "id": "m082",
-      "cue": 82,
+      "id": "m126",
+      "cue": 126,
       "t_start": 415.4,
       "t_end": 422.92,
       "duration_sec": 7.52,
@@ -2939,8 +4449,8 @@
       "priority": "medium"
     },
     {
-      "id": "m083",
-      "cue": 83,
+      "id": "m127",
+      "cue": 127,
       "t_start": 422.92,
       "t_end": 429.34,
       "duration_sec": 6.42,
@@ -2965,8 +4475,8 @@
       "priority": "high"
     },
     {
-      "id": "m084",
-      "cue": 84,
+      "id": "m128",
+      "cue": 128,
       "t_start": 429.34,
       "t_end": 436.54,
       "duration_sec": 7.2,
@@ -3002,12 +4512,12 @@
       "priority": "high"
     },
     {
-      "id": "m085",
-      "cue": 85,
+      "id": "m129",
+      "cue": 129,
       "t_start": 436.54,
-      "t_end": 443.46,
-      "duration_sec": 6.92,
-      "spoken": "hot on his heels, ready to collect. And we consumed it all as entertainment. Either way,",
+      "t_end": 439.22,
+      "duration_sec": 2.68,
+      "spoken": "hot on his heels, ready to collect.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -3034,8 +4544,40 @@
       "priority": "medium"
     },
     {
-      "id": "m086",
-      "cue": 86,
+      "id": "m130",
+      "cue": 130,
+      "t_start": 439.22,
+      "t_end": 443.46,
+      "duration_sec": 4.24,
+      "spoken": "And we consumed it all as entertainment. Either way,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "'We consumed it as entertainment' — crowd, tickets, spectacle complicit.",
+      "people": [],
+      "situation": "Rock concert audience 1979 — consumption, cheering, complicity",
+      "date_from": "1979",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "rock concert crowd cheering 1979",
+        "concert tickets hands 1970s",
+        "stadium audience rock show 1979"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m131",
+      "cue": 131,
       "t_start": 443.46,
       "t_end": 448.8,
       "duration_sec": 5.34,
@@ -3071,8 +4613,8 @@
       "priority": "high"
     },
     {
-      "id": "m087",
-      "cue": 87,
+      "id": "m132",
+      "cue": 132,
       "t_start": 448.8,
       "t_end": 450.8,
       "duration_sec": 2,

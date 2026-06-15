@@ -20,20 +20,20 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "crossroads Mississippi blues folklore photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "bon scott singing",
+      "engine_id": "youtube",
+      "engine_url": "https://www.youtube.com/results?search_query={query}",
       "selections": [
         {
-          "result_id": "library:c7eefae85ab039c9",
-          "url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-          "thumbnail_url": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-          "title": "bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-          "source_page": "/media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+          "result_id": "library:e29b6eb53267fb4c",
+          "url": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+          "thumbnail_url": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+          "title": "and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+          "source_page": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
           "license": "migrated from episode 001 acquired/ — verify rights",
           "engine_id": "library",
-          "query": "crossroads Mississippi blues folklore photograph",
-          "selected_at": "2026-06-11T11:41:32.320Z"
+          "query": "and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+          "selected_at": "2026-06-14T17:31:33.249Z"
         }
       ]
     },
@@ -53,5 +53,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-11T11:41:40.989Z"
+  "updated_at": "2026-06-14T17:31:41.605Z"
 }

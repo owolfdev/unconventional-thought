@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "id": "m116",
+  "cue": 116,
+  "t_start": 367.06,
+  "t_end": 375.48,
+  "duration_sec": 8.42,
+  "spoken": "disco bathrooms, punk squads, self-destruction, and gay. So a heroin narrative around Bond would",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
+  "search_queries": [
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
+  "artifact": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "disco bathrooms, punk squads, self-destruction, and gay",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "generated",
+      "description": "disco bathrooms, punk squads, self-destruction, and gay",
+      "status": "needed"
+    }
+  ],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": false,
+  "acquired_files": [
+    "giphy-dM2xuxnJCg4H6.gif",
+    "thinking-man-png-image-man-thinking.png"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-15T20:27:49.138Z"
+}

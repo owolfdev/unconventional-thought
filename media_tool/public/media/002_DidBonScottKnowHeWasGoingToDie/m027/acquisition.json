@@ -1,14 +1,21 @@
 {
   "id": "m027",
   "cue": 27,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "text_graphic",
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
   "resolved_media_type": "generated",
-  "status": "text_graphic",
+  "status": "complete",
   "notes": "",
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
@@ -17,26 +24,12 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC studio 1979 recording session",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 1,
-      "query": "Bon Scott 1979 creative peak live",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "AC/DC band studio 1979 photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-11T20:48:26.246Z"
+  "completed_at": "2026-06-14T18:00:01.297Z",
+  "updated_at": "2026-06-14T18:00:01.297Z"
 }

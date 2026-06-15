@@ -7,7 +7,7 @@
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
@@ -24,15 +24,15 @@
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:283c21fb241aef0a",
-          "url": "/media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
-          "thumbnail_url": "/media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
-          "title": "bon scott GIF",
-          "source_page": "/media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
+          "result_id": "library:74fcfb3aa43b4289",
+          "url": "/media/_library/assets/74fcfb3aa43b4289/magnify-rick-moranis-gif.gif",
+          "thumbnail_url": "/media/_library/assets/74fcfb3aa43b4289/magnify-rick-moranis-gif.gif",
+          "title": "Magnify Rick Moranis GIF",
+          "source_page": "/media/_library/assets/74fcfb3aa43b4289/magnify-rick-moranis-gif.gif",
           "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
           "engine_id": "giphy_sticker",
-          "query": "GIPHY: bon scott GIF",
-          "selected_at": "2026-06-11T19:58:50.398Z"
+          "query": "GIPHY: Magnify Rick Moranis GIF",
+          "selected_at": "2026-06-14T17:38:49.157Z"
         }
       ]
     },
@@ -52,5 +52,5 @@
     }
   ],
   "completed_at": "2026-06-11T11:51:42.812Z",
-  "updated_at": "2026-06-11T19:58:59.262Z"
+  "updated_at": "2026-06-14T17:38:56.592Z"
 }

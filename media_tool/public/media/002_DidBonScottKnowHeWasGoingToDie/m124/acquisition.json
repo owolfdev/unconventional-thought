@@ -1,0 +1,57 @@
+{
+  "id": "m124",
+  "cue": 124,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "record store 1980 album display",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:0b35e485f1110e2f",
+          "url": "/media/_library/assets/0b35e485f1110e2f/okay-now-listen-to-the-best-songs-on-back-in-black.mp4",
+          "thumbnail_url": "/media/_library/assets/0b35e485f1110e2f/okay-now-listen-to-the-best-songs-on-back-in-black.mp4",
+          "title": "okay-now-listen-to-the-best-songs-on-back-in-black.mp4",
+          "source_page": "/media/_library/assets/0b35e485f1110e2f/okay-now-listen-to-the-best-songs-on-back-in-black.mp4",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "okay-now-listen-to-the-best-songs-on-back-in-black.mp4",
+          "selected_at": "2026-06-15T20:19:02.727Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Back in Black record store 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Tower Records 1980 interior",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-15T20:19:15.144Z",
+  "updated_at": "2026-06-15T20:19:15.144Z"
+}

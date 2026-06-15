@@ -1,0 +1,56 @@
+{
+  "id": "m109",
+  "cue": 109,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "American rock concert crowd 1980 denim",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:c0f1de7b09e285a4",
+          "url": "/media/_library/assets/c0f1de7b09e285a4/american-wrestling-gif.gif",
+          "thumbnail_url": "/media/_library/assets/c0f1de7b09e285a4/american-wrestling-gif.gif",
+          "title": "American Wrestling GIF",
+          "source_page": "/media/_library/assets/c0f1de7b09e285a4/american-wrestling-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: American Wrestling GIF",
+          "selected_at": "2026-06-15T19:55:50.303Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "suburban teenagers rock concert 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "pickup truck tailgate beer 1980s photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-15T19:56:20.870Z",
+  "updated_at": "2026-06-15T19:56:20.870Z"
+}

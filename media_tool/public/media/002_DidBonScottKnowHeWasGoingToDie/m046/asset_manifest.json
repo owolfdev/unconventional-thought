@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m046",
   "cue": 46,
-  "t_start": 178.94,
-  "t_end": 187.26,
-  "duration_sec": 8.32,
-  "spoken": "about cost. And the devil always gets his due. So who is the devil? Well, for many, he's found at",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
+  "t_start": 133.06,
+  "t_end": 137.32,
+  "duration_sec": 4.26,
+  "spoken": "for immortality. He came back different, transformed.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -32,34 +32,15 @@
   ],
   "artifact": null,
   "text_graphic": {
-    "type": "intertitle",
-    "text": "SO WHO IS THE DEVIL?",
-    "style": "blockbuster"
+    "type": "transcription",
+    "text": "He came back different, transformed. The other musicians were stunned. ",
+    "style": "typewriter"
   },
-  "text_graphic_layer": {
-    "type": "intertitle",
-    "text": "SO WHO IS THE DEVIL?",
-    "style": "blockbuster"
-  },
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
-    },
-    {
-      "slot": "text_overlay",
-      "description": "Text layer: intertitle — SO WHO IS THE DEVIL?",
+      "slot": "generated",
+      "description": "He came back different, transformed. The other musicians were stunned. ",
       "status": "acquired"
     }
   ],
@@ -68,11 +49,10 @@
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "giphy-3o72EVymX8u70s22mQ.gif",
-    "detective.jpg"
+    "giphy-12uCJ4spmImIw.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.341Z"
+  "updated_at": "2026-06-15T20:27:49.094Z"
 }

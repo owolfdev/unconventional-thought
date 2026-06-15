@@ -5,7 +5,7 @@
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
     "film_scratches"
   ],
@@ -13,44 +13,44 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott London 1979 photograph",
+      "query": "rock star spotlight 1970s silhouette",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:420996400b79b637",
-          "url": "/media/_library/assets/420996400b79b637/but-heres-the-thing-about-bond-scott.jpg",
-          "thumbnail_url": "/media/_library/assets/420996400b79b637/but-heres-the-thing-about-bond-scott.jpg",
-          "title": "but-heres-the-thing-about-bond-scott.jpg",
-          "source_page": "/media/_library/assets/420996400b79b637/but-heres-the-thing-about-bond-scott.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "Bon Scott London 1979 photograph",
-          "selected_at": "2026-06-11T09:39:58.223965Z"
+          "result_id": "library:578ade59254d3f4d",
+          "url": "/media/_library/assets/578ade59254d3f4d/text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png",
+          "thumbnail_url": "/media/_library/assets/578ade59254d3f4d/text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png",
+          "title": "text graphic for AC/DC font: \nThey Sold Their Souls For Rock N Roll",
+          "source_page": "/media/_library/assets/578ade59254d3f4d/text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: text graphic for AC/DC font: \nThey Sold Their Souls For Rock N Roll",
+          "selected_at": "2026-06-12T21:50:19.073Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott AC/DC 1979 offstage nightlife",
+      "query": "musician backstage alone 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "London music scene 1979 rock",
+      "query": "crossroads blues rock mythology photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.223969Z",
-  "updated_at": "2026-06-11T09:39:58.223969Z"
+  "completed_at": "2026-06-13T08:19:49.372Z",
+  "updated_at": "2026-06-13T08:19:49.372Z"
 }

@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m084",
   "cue": 84,
-  "t_start": 429.34,
-  "t_end": 436.54,
-  "duration_sec": 7.2,
-  "spoken": "I think he heard the bill coming due. I think he kept playing. He kept walking. The devil",
+  "t_start": 260.82,
+  "t_end": 262.5,
+  "duration_sec": 1.68,
+  "spoken": "or even dependency.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -31,7 +31,11 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "YOU DECIDE.",
+    "style": "minimal_white"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
@@ -51,15 +55,15 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-CUbiYQbsKSGAM.gif",
-    "bonscott_onstage-1.jpg"
+    "giphy-xl3Biy7X0kRlzlQBx4.gif",
+    "bon%20.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.351Z"
+  "updated_at": "2026-06-15T20:27:49.116Z"
 }

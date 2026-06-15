@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { selectedPlateLibraryId } from "@/lib/selection-media";
+import { buildCuePreviewModel } from "@/lib/overlay-media";
 import { libraryHrefForCue } from "@/lib/library-cue-link";
 import type { ItemAcquisition } from "@/lib/types";
 import type { LibraryIndexEntry } from "@/lib/media-library/types";
@@ -50,6 +51,15 @@ export function CueLibraryPicker({
     () => selectedPlateLibraryId(acquisition),
     [acquisition],
   );
+
+  const plateLibraryIds = useMemo(() => {
+    const ids = new Set<string>();
+    for (const sel of buildCuePreviewModel(acquisition).platePlaylist) {
+      const m = sel.result_id.match(/^library:(.+)$/);
+      if (m) ids.add(m[1]);
+    }
+    return ids;
+  }, [acquisition]);
 
   const libraryHref = libraryHrefForCue(manifestPath, itemId, {
     libraryId: selectedLibraryId,
@@ -141,7 +151,10 @@ export function CueLibraryPicker({
     }
   };
 
-  const selectAsset = async (libraryId: string) => {
+  const selectAsset = async (
+    libraryId: string,
+    plateMode: "replace" | "add" = "replace",
+  ) => {
     setStagingId(libraryId);
     setMessage(null);
     try {
@@ -155,11 +168,17 @@ export function CueLibraryPicker({
           queryIndex: 0,
           searchQuery: query.trim() || defaultQuery,
           selected: true,
+          role: "plate",
+          plateMode,
         }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Select failed");
-      setMessage("Selected — see preview above.");
+      setMessage(
+        plateMode === "add"
+          ? "Added to cue plate playlist — see preview above."
+          : "Selected as cue plate — see preview above.",
+      );
       await onStaged();
       await loadForCue();
     } catch (e) {
@@ -178,14 +197,15 @@ export function CueLibraryPicker({
     },
     libraryId: string,
   ) => {
-    const isSelected = selectedLibraryId === libraryId;
+    const isOnCue = plateLibraryIds.has(libraryId);
+    const isPrimary = selectedLibraryId === libraryId;
     const thumb = asset.thumbnail_url || asset.url || "";
     const title = asset.title || asset.filename || libraryId;
     return (
       <li
         key={libraryId}
         className={`overflow-hidden rounded-lg border bg-black/40 ${
-          isSelected
+          isOnCue
             ? "border-amber-500 ring-2 ring-amber-500/40"
             : "border-zinc-700"
         }`}
@@ -198,9 +218,9 @@ export function CueLibraryPicker({
             className="h-full w-full object-cover"
             loading="lazy"
           />
-          {isSelected && (
+          {isOnCue && (
             <span className="absolute left-1.5 top-1.5 rounded bg-amber-600 px-1.5 py-0.5 text-[9px] font-bold uppercase text-white">
-              Selected
+              {isPrimary && plateLibraryIds.size === 1 ? "Selected" : "On cue"}
             </span>
           )}
         </div>
@@ -208,23 +228,33 @@ export function CueLibraryPicker({
           <p className="line-clamp-2 text-[11px] font-medium text-zinc-200">
             {title}
           </p>
-          <button
-            type="button"
-            disabled={stagingId === libraryId}
-            onClick={() => void selectAsset(libraryId)}
-            className={`w-full rounded px-2 py-1.5 text-[11px] font-semibold disabled:opacity-50 ${
-              isSelected
-                ? "border border-amber-700/50 bg-amber-950/40 text-amber-300"
-                : "bg-amber-700 text-white hover:bg-amber-600"
-            }`}
-          >
-            {stagingId === libraryId
-              ? "…"
-              : isSelected
-                ? "Selected ✓"
-                : "Select for this cue"}
-          </button>
-          {isSelected && editLibraryHref && (
+          <div className="flex flex-col gap-1.5">
+            <button
+              type="button"
+              disabled={stagingId === libraryId}
+              onClick={() => void selectAsset(libraryId, "replace")}
+              className={`w-full rounded px-2 py-1.5 text-[11px] font-semibold disabled:opacity-50 ${
+                isPrimary
+                  ? "border border-amber-700/50 bg-amber-950/40 text-amber-300"
+                  : "bg-amber-700 text-white hover:bg-amber-600"
+              }`}
+            >
+              {stagingId === libraryId
+                ? "…"
+                : isPrimary
+                  ? "Plate ✓"
+                  : "Select as plate"}
+            </button>
+            <button
+              type="button"
+              disabled={stagingId === libraryId || isOnCue}
+              onClick={() => void selectAsset(libraryId, "add")}
+              className="w-full rounded border border-zinc-600 bg-zinc-900/60 px-2 py-1.5 text-[11px] font-medium text-zinc-200 hover:bg-zinc-800 disabled:opacity-50"
+            >
+              {isOnCue ? "Already on cue" : "Add to cue"}
+            </button>
+          </div>
+          {isOnCue && editLibraryHref && (
             <a
               href={editLibraryHref}
               className="block w-full rounded border border-amber-700/50 bg-amber-950/20 px-2 py-1.5 text-center text-[11px] font-medium text-amber-200 hover:bg-amber-950/40"
@@ -257,8 +287,9 @@ export function CueLibraryPicker({
         </a>
       </div>
       <p className="mt-1 text-xs text-zinc-400">
-        Click <strong className="text-amber-300">Select for this cue</strong>{" "}
-        on any thumbnail. That image becomes the cue preview above.
+        <strong className="text-amber-300">Select as plate</strong> replaces the
+        background. <strong className="text-amber-300">Add to cue</strong> appends
+        another image to the plate playlist (multi-image cues).
       </p>
 
       {forCue.length > 0 && (

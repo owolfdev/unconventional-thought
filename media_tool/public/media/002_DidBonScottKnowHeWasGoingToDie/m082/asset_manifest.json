@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m082",
   "cue": 82,
-  "t_start": 415.4,
-  "t_end": 422.92,
-  "duration_sec": 7.52,
-  "spoken": "committee to cover it up. You need self-preservation. You need everyone to choose the least explosive",
+  "t_start": 255,
+  "t_end": 257.9,
+  "duration_sec": 2.9,
+  "spoken": "The real question is whether in that final stretch,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -51,15 +51,16 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-xqWscFVVGtd6G0Iucb.gif",
-    "and-he-tells-people-privately-not-in-interviews-not-for-the-press.gif"
+    "giphy-mIGKlmkNVn8sNITLgS.gif",
+    "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.350Z"
+  "updated_at": "2026-06-15T20:27:49.115Z"
 }

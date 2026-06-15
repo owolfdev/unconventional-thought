@@ -1,6 +1,9 @@
 import { AbsoluteFill, Audio, Sequence, staticFile } from "remotion";
 import { ShotClip } from "./ShotClip";
-import { showCueOverlay as previewShowCueOverlay } from "./preview-settings";
+import {
+  showCueOverlay as previewShowCueOverlay,
+  showStickerOverlays as previewShowStickerOverlays,
+} from "./preview-settings";
 import { timeline } from "./timeline-data";
 
 export const EpisodePreview: React.FC = () => {
@@ -8,6 +11,8 @@ export const EpisodePreview: React.FC = () => {
   const audioFromFrame = timeline.audioFromFrame ?? 0;
   const showCueOverlay =
     timeline.showCueOverlay !== false && previewShowCueOverlay;
+  const showStickerOverlays =
+    timeline.showStickerOverlays !== false && previewShowStickerOverlays;
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
@@ -25,7 +30,11 @@ export const EpisodePreview: React.FC = () => {
           durationInFrames={shot.durationInFrames}
           name={shot.id}
         >
-          <ShotClip shot={shot} showCueOverlay={showCueOverlay} />
+          <ShotClip
+            shot={shot}
+            showCueOverlay={showCueOverlay}
+            showStickerOverlays={showStickerOverlays}
+          />
         </Sequence>
       ))}
     </AbsoluteFill>

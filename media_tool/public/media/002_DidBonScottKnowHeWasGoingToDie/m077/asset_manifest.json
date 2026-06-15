@@ -2,37 +2,34 @@
   "version": 1,
   "id": "m077",
   "cue": 77,
-  "t_start": 382.42,
-  "t_end": 388.06,
-  "duration_sec": 5.64,
-  "spoken": "back in black. The thought might have been, who's gonna buy a back in black if Bond Scott just",
-  "visual_mode": "artifact",
+  "t_start": 237.68,
+  "t_end": 238.76,
+  "duration_sec": 1.08,
+  "spoken": "John Lennon talked",
+  "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "Bon Scott historical photograph 1978-1981",
+  "editorial_intent": "John Lennon spoke about it — Lennon era press, not Bon.",
+  "situation": "John Lennon 1970s press photograph",
   "people": [
     {
-      "name": "Bon Scott",
-      "role": "vocalist"
-    },
-    {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "John Lennon",
+      "role": "musician"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1970",
+  "date_to": "1980",
   "location": "",
   "search_queries": [
-    "Bon Scott 1979 photograph",
-    "Bon Scott AC/DC 1980"
+    "John Lennon 1970s photograph interview",
+    "John Lennon New York 1970s",
+    "John Lennon studio 1970s"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -40,17 +37,22 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "acquired"
+      "description": "John Lennon spoke about it — Lennon era press, not Bon.",
+      "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: Bon Scott 1979 photograph",
+      "description": "Candidate from query: John Lennon 1970s photograph interview",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Bon Scott AC/DC 1980",
+      "description": "Candidate from query: John Lennon New York 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: John Lennon studio 1970s",
       "status": "needed"
     }
   ],
@@ -61,9 +63,8 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-3ohrywH9Y5PLsrAzWo.gif",
-    "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg"
+    "asset.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.348Z"
+  "updated_at": "2026-06-15T20:27:49.112Z"
 }

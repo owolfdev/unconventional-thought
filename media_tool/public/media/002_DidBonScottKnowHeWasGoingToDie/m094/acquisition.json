@@ -1,0 +1,44 @@
+{
+  "id": "m094",
+  "cue": 94,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "text_graphic",
+  "notes": "",
+  "effects": [
+    "vignette_soft"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott drinking beer pub 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott bar candid 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "rock musician pub 1970s documentary",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-13T09:17:10.092Z",
+  "updated_at": "2026-06-13T20:26:09.842Z"
+}

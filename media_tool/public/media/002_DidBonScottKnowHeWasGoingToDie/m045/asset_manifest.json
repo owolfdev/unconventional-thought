@@ -2,77 +2,46 @@
   "version": 1,
   "id": "m045",
   "cue": 45,
-  "t_start": 172.48,
-  "t_end": 178.94,
-  "duration_sec": 6.46,
-  "spoken": "Bond wasn't 27. He was 33 when he died. But the bargain doesn't care about birthdays. It cares",
+  "t_start": 129.33,
+  "t_end": 133.06,
+  "duration_sec": 3.73,
+  "spoken": "Everybody knows that Robert Johnson sold his soul to the devil",
   "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "expected_media_type": "generated",
+  "editorial_intent": "'It ain't free' — contract/bargain beat; intertitle on grain.",
+  "situation": "Generated text graphic (quote)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
   "location": "",
-  "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
-  ],
-  "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
-  ],
+  "search_queries": [],
+  "avoid": [],
   "artifact": null,
   "text_graphic": {
-    "type": "title",
-    "text": "33.",
-    "style": "minimal_white"
+    "type": "quote",
+    "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
+    "style": "typewriter"
   },
-  "text_graphic_layer": {
-    "type": "title",
-    "text": "33.",
-    "style": "minimal_white"
-  },
+  "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
-    },
-    {
-      "slot": "text_overlay",
-      "description": "Text layer: title — 33.",
-      "status": "acquired"
+      "slot": "generated",
+      "description": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
+      "status": "selected"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_damage",
+    "film_scratches",
+    "vignette_soft",
+    "film_grain"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-Y0VFEdJxkE2H0qSoA8.gif",
-    "dark-bon.webp"
+    "genphoto-c3bbca95.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.341Z"
+  "updated_at": "2026-06-15T20:27:49.094Z"
 }

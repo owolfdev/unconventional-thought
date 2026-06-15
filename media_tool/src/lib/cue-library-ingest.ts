@@ -1,4 +1,5 @@
 import {
+  addCuePlateSelection,
   LIBRARY_ENGINE,
   overlayEngineIdForFilename,
   selectionForLibraryAsset,
@@ -26,6 +27,9 @@ import type { ItemAcquisition, MediaToolItem, MediaToolManifest } from "@/lib/ty
 /** How a library asset attaches to a cue. */
 export type LibraryCueRole = "plate" | "sticker" | "title";
 
+/** Replace all plates, or append to the cue plate playlist. */
+export type PlateSelectionMode = "replace" | "add";
+
 function resolveLibraryCueRole(
   meta: { kind: string; filename: string },
   role?: LibraryCueRole,
@@ -43,11 +47,15 @@ function applyLibrarySelection(
   role: LibraryCueRole,
   queryIndex: number,
   selected: boolean,
+  plateMode: PlateSelectionMode = "replace",
 ): ItemAcquisition {
   if (role === "plate") {
-    return selected
-      ? setCuePlateSelection(acq, selection, queryIndex)
-      : updateAcquisitionSelection(acq, selection, false, queryIndex);
+    if (!selected) {
+      return updateAcquisitionSelection(acq, selection, false, queryIndex);
+    }
+    return plateMode === "add"
+      ? addCuePlateSelection(acq, selection, queryIndex)
+      : setCuePlateSelection(acq, selection, queryIndex);
   }
   if (role === "sticker") {
     const base = selected ? withoutStickerSelections(acq) : acq;
@@ -123,6 +131,7 @@ export function stageLibraryAssetOnCue(
     queryIndex?: number;
     selected?: boolean;
     role?: LibraryCueRole;
+    plateMode?: PlateSelectionMode;
   },
 ): ItemAcquisition | null {
   const meta = readAssetMeta(libraryId.trim());
@@ -158,6 +167,7 @@ export function stageLibraryAssetOnCue(
     role,
     queryIndex,
     selected,
+    opts.plateMode ?? "replace",
   );
   writeItemToFolder(slug, item, updated, manifestPath);
   return updated;

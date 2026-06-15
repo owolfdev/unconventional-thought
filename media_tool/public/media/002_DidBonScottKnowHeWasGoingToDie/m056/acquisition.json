@@ -1,25 +1,17 @@
 {
   "id": "m056",
   "cue": 56,
-  "source_visual_mode": "text_graphic",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "quote",
-    "text": "IT'S DOCUMENTED ROCK HISTORY.",
-    "style": "newspaper"
-  },
-  "text_graphic_layer": {
-    "type": "quote",
-    "text": "IT'S DOCUMENTED ROCK HISTORY.",
-    "style": "newspaper"
-  },
+  "text_graphic": null,
+  "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
@@ -27,24 +19,26 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "(text graphic — no archive search)",
+      "query": "rock star spotlight 1970s silhouette",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:6510a1713cd66954",
-          "url": "/media/_library/assets/6510a1713cd66954/it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg",
-          "thumbnail_url": "/media/_library/assets/6510a1713cd66954/it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg",
-          "title": "it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg",
-          "source_page": "/media/_library/assets/6510a1713cd66954/it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "m039",
-          "selected_at": "2026-06-11T09:39:58.223741Z"
-        }
-      ]
+      "selections": []
+    },
+    {
+      "query_index": 1,
+      "query": "musician backstage alone 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "crossroads blues rock mythology photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.223746Z",
-  "updated_at": "2026-06-11T09:39:58.223746Z"
+  "completed_at": "2026-06-13T08:19:45.179Z",
+  "updated_at": "2026-06-13T08:19:45.179Z"
 }

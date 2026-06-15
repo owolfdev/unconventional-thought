@@ -2,64 +2,62 @@
   "version": 1,
   "id": "m058",
   "cue": 58,
-  "t_start": 255,
-  "t_end": 260.24,
-  "duration_sec": 5.24,
-  "spoken": "The real question is whether in that final stretch, he crossed from proximity into experimentation",
-  "visual_mode": "historical",
+  "t_start": 169.62,
+  "t_end": 171.74,
+  "duration_sec": 2.12,
+  "spoken": "Well, they certainly got their money's worth.",
+  "visual_mode": "artifact",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+  "situation": "Inanimate: vinyl record on turntable",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "vinyl record spinning turntable 1970s",
+    "LP record needle drop"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "people faces prominent",
+    "stock explainer",
+    "unrelated product"
   ],
-  "artifact": null,
+  "artifact": {
+    "object": "vinyl record on turntable",
+    "story_link": "Rock album culture",
+    "media_preference": "photo"
+  },
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
       "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: vinyl record spinning turntable 1970s",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: LP record needle drop",
       "status": "needed"
     }
   ],
   "effects": [
+    "film_damage",
     "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-mIGKlmkNVn8sNITLgS.gif",
-    "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp"
+    "giphy-KzhS227Iawx7pnGAkU.gif",
+    "bib_gold2-blkbg.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.344Z"
+  "updated_at": "2026-06-15T20:27:49.100Z"
 }

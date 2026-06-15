@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m030",
   "cue": 30,
-  "t_start": 90.74,
-  "t_end": 99.14,
-  "duration_sec": 8.4,
-  "spoken": "60s and 70s. Picture at this, it's 1931 in Mississippi. It's the dead of night. Nothing but the heat,",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
+  "t_start": 78.86,
+  "t_end": 82.19,
+  "duration_sec": 3.33,
+  "spoken": "It's also hard to argue that it's not his best work.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -35,31 +35,22 @@
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "black_plate",
+      "description": "[Library pass — verify license before publish]",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png"
+    "giphy-l1EthN2gcyvoSxM8U.gif",
+    "asset.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.337Z"
+  "updated_at": "2026-06-15T20:27:49.085Z"
 }

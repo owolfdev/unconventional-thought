@@ -2,11 +2,11 @@
   "version": 1,
   "id": "m061",
   "cue": 61,
-  "t_start": 278,
-  "t_end": 284.1,
-  "duration_sec": 6.1,
-  "spoken": "overnight, found unresponsive the next day. Official cause, acute alcohol poisoning.",
-  "visual_mode": "historical",
+  "t_start": 187.26,
+  "t_end": 189.26,
+  "duration_sec": 2,
+  "spoken": "the tip of a hypodermic needle.",
+  "visual_mode": "artifact",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
@@ -51,15 +51,15 @@
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
     "giphy-dM2xuxnJCg4H6.gif",
-    "nearly-kills-him.jpg"
+    "genphoto-1f47c0a6.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.345Z"
+  "updated_at": "2026-06-15T20:27:49.102Z"
 }

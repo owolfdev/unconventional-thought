@@ -6,12 +6,14 @@
   "resolved_media_type": "photo",
   "status": "in_progress",
   "notes": "",
-  "effects": [],
+  "effects": [
+    "film_damage"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
@@ -22,15 +24,15 @@
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:e055493666442638",
-          "url": "/media/_library/assets/e055493666442638/think-about-it-gif-by-identity.gif",
-          "thumbnail_url": "/media/_library/assets/e055493666442638/think-about-it-gif-by-identity.gif",
-          "title": "Think About It GIF by Identity",
-          "source_page": "/media/_library/assets/e055493666442638/think-about-it-gif-by-identity.gif",
-          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-          "engine_id": "giphy_sticker",
-          "query": "GIPHY: Think About It GIF by Identity",
-          "selected_at": "2026-06-11T20:29:29.379Z"
+          "result_id": "library:9406d55bde3b4d1e",
+          "url": "/media/_library/assets/9406d55bde3b4d1e/text-graphic-different.png",
+          "thumbnail_url": "/media/_library/assets/9406d55bde3b4d1e/text-graphic-different.png",
+          "title": "text graphic: Different",
+          "source_page": "/media/_library/assets/9406d55bde3b4d1e/text-graphic-different.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: text graphic: Different",
+          "selected_at": "2026-06-11T20:28:46.821Z"
         }
       ]
     },
@@ -50,5 +52,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-11T20:29:29.380Z"
+  "updated_at": "2026-06-12T20:39:29.282Z"
 }

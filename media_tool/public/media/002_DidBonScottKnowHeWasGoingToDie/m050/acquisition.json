@@ -5,52 +5,52 @@
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "rock musicians 1970s studio session",
+      "query": "Robert Johnson grave Mississippi",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:fa39a51774bb3241",
-          "url": "/media/_library/assets/fa39a51774bb3241/those-songs-have-bond-fingerprint.jpg",
-          "thumbnail_url": "/media/_library/assets/fa39a51774bb3241/those-songs-have-bond-fingerprint.jpg",
-          "title": "those-songs-have-bond-fingerprint.jpg",
-          "source_page": "/media/_library/assets/fa39a51774bb3241/those-songs-have-bond-fingerprint.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "rock musicians 1970s studio session",
-          "selected_at": "2026-06-11T09:39:58.221941Z"
+          "result_id": "library:e9184764dce87c0a",
+          "url": "/media/_library/assets/e9184764dce87c0a/90s-font-27-club.png",
+          "thumbnail_url": "/media/_library/assets/e9184764dce87c0a/90s-font-27-club.png",
+          "title": "90s font: 27 Club",
+          "source_page": "/media/_library/assets/e9184764dce87c0a/90s-font-27-club.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: 90s font: 27 Club",
+          "selected_at": "2026-06-12T21:35:18.211Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "1970s recording studio musicians photograph",
+      "query": "Robert Johnson death memorial blues",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "rock band afterparty 1970s",
+      "query": "Robert Johnson 1938 obituary newspaper",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.221945Z",
-  "updated_at": "2026-06-11T09:39:58.221945Z"
+  "completed_at": "2026-06-13T08:18:41.377Z",
+  "updated_at": "2026-06-13T08:18:41.377Z"
 }

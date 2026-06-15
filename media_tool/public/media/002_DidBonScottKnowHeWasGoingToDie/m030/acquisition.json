@@ -2,12 +2,13 @@
   "id": "m030",
   "cue": 30,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "complete",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "in_progress",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
@@ -19,38 +20,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Mississippi Delta dirt road 1930s photograph",
+      "query": "AC/DC studio 1979 recording session",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:2ba4f9e1430cd536",
-          "url": "/media/_library/assets/2ba4f9e1430cd536/in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png",
-          "thumbnail_url": "/media/_library/assets/2ba4f9e1430cd536/in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png",
-          "title": "in a psychedelic font render the following text graphic: 60s & 70s",
-          "source_page": "/media/_library/assets/2ba4f9e1430cd536/in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: in a psychedelic font render the following text graphic: 60s & 70s",
-          "selected_at": "2026-06-11T20:55:04.079Z"
+          "result_id": "library:6babf13dda7a42c0",
+          "url": "/media/_library/assets/6babf13dda7a42c0/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/6babf13dda7a42c0/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/6babf13dda7a42c0/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "highway to hell platinum record",
+          "selected_at": "2026-06-14T18:02:53.626Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Mississippi crossroads rural night historical",
+      "query": "Bon Scott 1979 creative peak live",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Delta blues Mississippi countryside 1930s",
+      "query": "AC/DC band studio 1979 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.218080Z",
-  "updated_at": "2026-06-11T20:55:16.402Z"
+  "completed_at": "2026-06-11T09:39:58.217586Z",
+  "updated_at": "2026-06-14T18:03:02.599Z"
 }

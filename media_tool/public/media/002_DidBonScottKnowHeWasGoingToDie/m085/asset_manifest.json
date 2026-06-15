@@ -2,64 +2,44 @@
   "version": 1,
   "id": "m085",
   "cue": 85,
-  "t_start": 436.54,
-  "t_end": 443.46,
-  "duration_sec": 6.92,
-  "spoken": "hot on his heels, ready to collect. And we consumed it all as entertainment. Either way,",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "t_start": 262.5,
+  "t_end": 267.2,
+  "duration_sec": 4.7,
+  "spoken": "Given the era, the access, the circles, the schedule, and the pressure,",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "'Hmm, you decide' — hand verdict to viewer; whitespace beat.",
+  "situation": "Generated text graphic (quote)",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
   "location": "",
-  "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
-  ],
-  "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
-  ],
+  "search_queries": [],
+  "avoid": [],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "YOU DECIDE.",
+    "style": "minimal_white"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.php"
+    "pressure-gif.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.351Z"
+  "updated_at": "2026-06-15T20:27:49.117Z"
 }

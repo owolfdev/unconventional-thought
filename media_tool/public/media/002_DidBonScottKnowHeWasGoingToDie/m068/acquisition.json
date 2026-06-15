@@ -1,56 +1,44 @@
 {
   "id": "m068",
   "cue": 68,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "FM radio station studio 1980",
+      "query": "vinyl record collection shelf 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:17440123a856d974",
-          "url": "/media/_library/assets/17440123a856d974/doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
-          "thumbnail_url": "/media/_library/assets/17440123a856d974/doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
-          "title": "doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
-          "source_page": "/media/_library/assets/17440123a856d974/doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "FM radio station studio 1980",
-          "selected_at": "2026-06-11T09:39:58.226326Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "newspaper editor office 1980",
+      "query": "album collection bedroom 1970s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "1980 music industry executive photograph",
+      "query": "stack of LPs close up 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.226330Z",
-  "updated_at": "2026-06-11T09:39:58.226330Z"
+  "completed_at": "2026-06-13T08:55:46.905Z",
+  "updated_at": "2026-06-13T08:55:46.905Z"
 }

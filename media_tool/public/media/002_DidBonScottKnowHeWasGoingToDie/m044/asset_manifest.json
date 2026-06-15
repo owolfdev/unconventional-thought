@@ -2,48 +2,45 @@
   "version": 1,
   "id": "m044",
   "cue": 44,
-  "t_start": 169.62,
-  "t_end": 171.74,
-  "duration_sec": 2.12,
-  "spoken": "Well, they certainly got their money's worth.",
-  "visual_mode": "artifact",
-  "expected_media_type": "photo",
-  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
-  "situation": "Inanimate: vinyl record on turntable",
-  "people": [],
-  "date_from": "1975",
-  "date_to": "1985",
+  "t_start": 126.74,
+  "t_end": 129.33,
+  "duration_sec": 2.59,
+  "spoken": "But understand kid, it ain't free.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
   "search_queries": [
-    "vinyl record spinning turntable 1970s",
-    "LP record needle drop"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "people faces prominent",
-    "stock explainer",
-    "unrelated product"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
-  "artifact": {
-    "object": "vinyl record on turntable",
-    "story_link": "Rock album culture",
-    "media_preference": "photo"
+  "artifact": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
+    "style": "typewriter"
   },
-  "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
-      "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: vinyl record spinning turntable 1970s",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: LP record needle drop",
+      "slot": "generated",
+      "description": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
       "status": "needed"
     }
   ],
@@ -52,11 +49,11 @@
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "giphy-KzhS227Iawx7pnGAkU.gif",
-    "bib_gold2-blkbg.jpg"
+    "giphy-StFrWoMq05gzAHLW1F.gif",
+    "genphoto-c3bbca95.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.341Z"
+  "updated_at": "2026-06-15T20:27:49.093Z"
 }

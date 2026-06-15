@@ -2,20 +2,15 @@
   "id": "m035",
   "cue": 35,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "text_graphic",
-  "resolved_media_type": "generated",
-  "status": "text_graphic",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
   "notes": "",
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "burning hunger to be a great player and for fame.",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
@@ -24,26 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson blues guitarist photograph",
+      "query": "Mississippi Delta dirt road 1930s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:111fb33af09ad6ca",
+          "url": "/media/_library/assets/111fb33af09ad6ca/genphoto-3aac2628.jpg",
+          "thumbnail_url": "/media/_library/assets/111fb33af09ad6ca/genphoto-3aac2628.jpg",
+          "title": "1931 in Mississippi. It's the dead of night. Nothing but the heat, insects, and a lonely dirt road intersection.",
+          "source_page": "/media/_library/assets/111fb33af09ad6ca/genphoto-3aac2628.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: 1931 in Mississippi. It's the dead of night. Nothing but the heat, insects, and a lonely dirt road intersection.",
+          "selected_at": "2026-06-11T21:00:12.409Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "Robert Johnson with guitar 1930s",
+      "query": "Mississippi crossroads rural night historical",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Robert Johnson portrait blues musician",
+      "query": "Delta blues Mississippi countryside 1930s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-11T21:10:07.658Z"
+  "completed_at": "2026-06-13T08:11:48.340Z",
+  "updated_at": "2026-06-13T08:11:48.340Z"
 }

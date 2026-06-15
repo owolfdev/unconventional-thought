@@ -2,16 +2,16 @@
   "id": "m017",
   "cue": 17,
   "source_visual_mode": "artifact",
-  "resolved_visual_mode": "text_graphic",
-  "resolved_media_type": "generated",
-  "status": "text_graphic",
-  "notes": "",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
@@ -20,7 +20,19 @@
       "query": "whisky glass bar counter 1970s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:f218d43cd86501a3",
+          "url": "/media/_library/assets/f218d43cd86501a3/asset.mp4",
+          "thumbnail_url": "/media/_library/assets/f218d43cd86501a3/asset.mp4",
+          "title": "asset.mp4",
+          "source_page": "/media/_library/assets/f218d43cd86501a3/asset.mp4",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "whisky pour",
+          "selected_at": "2026-06-14T17:20:56.587Z"
+        }
+      ]
     },
     {
       "query_index": 1,
@@ -37,6 +49,6 @@
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-11T20:18:17.651Z"
+  "completed_at": "2026-06-11T09:39:58.216679Z",
+  "updated_at": "2026-06-14T17:47:16.745Z"
 }

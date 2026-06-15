@@ -1,34 +1,25 @@
 {
   "id": "m023",
   "cue": 23,
-  "source_visual_mode": "text_graphic",
+  "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches",
-    "slow_scroll_up"
+    "film_scratches"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "NO STOP SIGNS · PAYING MY DUES · HIGHWAY TO HELL",
-    "style": "typewriter"
-  },
-  "text_graphic_layer": {
-    "type": "transcription",
-    "text": "NO STOP SIGNS · PAYING MY DUES · HIGHWAY TO HELL",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
+  "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "(text graphic — no archive search)",
+      "query": "Bon Scott backstage 1979 candid calm",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
@@ -40,12 +31,26 @@
           "source_page": "/media/_library/assets/bd1748b0e95e182b/Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900.jpg",
           "license": "migrated from episode 001 acquired/ — verify rights",
           "engine_id": "library",
-          "query": "m012",
-          "selected_at": "2026-06-11T09:39:58.217143Z"
+          "query": "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900.jpg",
+          "selected_at": "2026-06-14T17:54:53.721Z"
         }
       ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott 1979 portrait relaxed eyes",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott AC/DC offstage 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.217146Z",
-  "updated_at": "2026-06-11T20:34:40.555Z"
+  "completed_at": "2026-06-14T17:50:49.726Z",
+  "updated_at": "2026-06-14T17:57:04.499Z"
 }

@@ -7,50 +7,52 @@
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "slow_push_in",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott AC/DC 1977 live crowd energy",
+      "query": "Bon Scott AC/DC live aggressive 1977",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:4f0abc4f789f115f",
-          "url": "/media/_library/assets/4f0abc4f789f115f/bon-scott-gif.gif",
-          "thumbnail_url": "/media/_library/assets/4f0abc4f789f115f/bon-scott-gif.gif",
-          "title": "bon scott GIF",
-          "source_page": "/media/_library/assets/4f0abc4f789f115f/bon-scott-gif.gif",
-          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-          "engine_id": "giphy_sticker",
-          "query": "GIPHY: bon scott GIF",
-          "selected_at": "2026-06-11T20:02:48.624Z"
+          "result_id": "library:8bf1b3df0a944cea",
+          "url": "/media/_library/assets/8bf1b3df0a944cea/asset.webp",
+          "thumbnail_url": "/media/_library/assets/8bf1b3df0a944cea/asset.webp",
+          "title": "asset.webp",
+          "source_page": "/media/_library/assets/8bf1b3df0a944cea/asset.webp",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "Bon Scott AC/DC live aggressive 1977",
+          "selected_at": "2026-06-14T17:40:23.411Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott early tour sweat stage 1970s",
+      "query": "Bon Scott stage fight energy 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "AC/DC live 1978 Bon Scott jumping",
+      "query": "Bon Scott early tour snarl microphone",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.216208Z",
-  "updated_at": "2026-06-11T20:02:56.741Z"
+  "completed_at": "2026-06-14T17:40:36.446Z",
+  "updated_at": "2026-06-14T17:40:36.446Z"
 }

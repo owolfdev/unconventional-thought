@@ -2,66 +2,54 @@
   "version": 1,
   "id": "m031",
   "cue": 31,
-  "t_start": 92.51,
-  "t_end": 99.14,
-  "duration_sec": 6.63,
-  "spoken": "Picture at this, it's 1931 in Mississippi. It's the dead of night. Nothing but the heat,",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Crossroads setup — 1931 Mississippi night; heat, isolation, date anchor.",
-  "situation": "Mississippi Delta rural road night 1930s — crossroads atmosphere",
-  "people": [],
-  "date_from": "1930",
-  "date_to": "1935",
-  "location": "Mississippi, USA",
+  "t_start": 82.19,
+  "t_end": 84.72,
+  "duration_sec": 2.53,
+  "spoken": "It reminds me of a story,",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "'His best work' — studio or stage peak 1979; pivot into folklore story.",
+  "situation": "AC/DC Highway to Hell sessions or tour — creative peak 1979",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1979",
+  "date_to": "1979",
+  "location": "",
   "search_queries": [
-    "Mississippi Delta dirt road 1930s photograph",
-    "Mississippi crossroads rural night historical",
-    "Delta blues Mississippi countryside 1930s"
+    "AC/DC studio 1979 recording session",
+    "Bon Scott 1979 creative peak live",
+    "AC/DC band studio 1979 photograph"
   ],
   "avoid": [
     "stock explainer",
     "corporate presentation",
     "literal album cover art",
     "AI generated faces",
-    "modern stock photo",
-    "modern highway",
-    "suburban"
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Crossroads setup — 1931 Mississippi night; heat, isolation, date anchor.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: Mississippi Delta dirt road 1930s photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: Mississippi crossroads rural night historical",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: Delta blues Mississippi countryside 1930s",
-      "status": "needed"
+      "slot": "generated",
+      "description": "It reminds me of a story,",
+      "status": "acquired"
     }
   ],
-  "effects": [
-    "film_scratches"
-  ],
+  "effects": [],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [
-    "genphoto-3aac2628.jpg"
-  ],
+  "requires_media_files": false,
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.338Z"
+  "updated_at": "2026-06-15T20:27:49.086Z"
 }

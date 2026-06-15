@@ -1,0 +1,61 @@
+{
+  "id": "m089",
+  "cue": 89,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "the next day.",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "parked car snow winter night 1980s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:759055daddde4b2d",
+          "url": "/media/_library/assets/759055daddde4b2d/genphoto-dc257c83.jpg",
+          "thumbnail_url": "/media/_library/assets/759055daddde4b2d/genphoto-dc257c83.jpg",
+          "title": "london parked car snow winter night 1980s",
+          "source_page": "/media/_library/assets/759055daddde4b2d/genphoto-dc257c83.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: london parked car snow winter night 1980s",
+          "selected_at": "2026-06-13T20:05:09.767Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "car interior back seat night photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "London winter street parked cars 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-13T22:14:36.030Z",
+  "updated_at": "2026-06-15T19:29:01.046Z"
+}

@@ -37,7 +37,11 @@ import type { EpisodeInfo } from "@/lib/episodes";
 import { normalizeBackgroundColor } from "@/lib/background-color";
 import { findIncompleteItemIndex } from "@/lib/acquisition";
 import { libraryHrefForCue } from "@/lib/library-cue-link";
-import { selectedPlateLibraryId, updateSelectionStartFromSec } from "@/lib/selection-media";
+import { reorderPlateSelections } from "@/lib/acquisition-selection";
+import {
+  selectedPlateLibraryId,
+  updateSelectionStartFromSec,
+} from "@/lib/selection-media";
 import {
   cloneSavedItems,
   isItemAcquisitionDirty,
@@ -101,6 +105,7 @@ export function ReviewWorkspace() {
   const [episodes, setEpisodes] = useState<EpisodeInfo[]>([]);
   const [episodesLoading, setEpisodesLoading] = useState(true);
   const [showCueOverlay, setShowCueOverlay] = useState(true);
+  const [showStickerOverlays, setShowStickerOverlays] = useState(true);
   const [overlayBusy, setOverlayBusy] = useState(false);
   const didInitialLoad = useRef(false);
 
@@ -138,6 +143,9 @@ export function ReviewWorkspace() {
     setPendingNavIndex(null);
     setItemIndex(targetIndex >= 0 ? targetIndex : 0);
     setShowCueOverlay(data.remotionPreview?.showCueOverlay !== false);
+    setShowStickerOverlays(
+      data.remotionPreview?.showStickerOverlays !== false,
+    );
     localStorage.setItem("mediaSearch.manifestPath", path);
     const url = new URL(window.location.href);
     url.searchParams.set("path", path);
@@ -160,29 +168,52 @@ export function ReviewWorkspace() {
     [loadManifest],
   );
 
-  const setRemotionCueOverlay = useCallback(
-    async (enabled: boolean) => {
+  const patchRemotionPreview = useCallback(
+    async (patch: {
+      showCueOverlay?: boolean;
+      showStickerOverlays?: boolean;
+    }) => {
       if (!loadState) return;
       setOverlayBusy(true);
-      setShowCueOverlay(enabled);
+      const prevCue = showCueOverlay;
+      const prevStickers = showStickerOverlays;
+      if (typeof patch.showCueOverlay === "boolean") {
+        setShowCueOverlay(patch.showCueOverlay);
+      }
+      if (typeof patch.showStickerOverlays === "boolean") {
+        setShowStickerOverlays(patch.showStickerOverlays);
+      }
       try {
         const res = await fetch("/api/remotion-preview", {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             manifestPath: loadState.manifestPath,
-            showCueOverlay: enabled,
+            ...patch,
           }),
         });
         const data = await res.json();
         if (!res.ok) throw new Error(data.error ?? "Failed to update overlay");
-        setSaveMessage(
-          enabled
-            ? "Remotion preview: cue labels on (refresh Studio if open)"
-            : "Remotion preview: cue labels off (refresh Studio if open)",
-        );
+        if (typeof patch.showCueOverlay === "boolean") {
+          setSaveMessage(
+            patch.showCueOverlay
+              ? "Remotion preview: cue labels on (refresh Studio if open)"
+              : "Remotion preview: cue labels off (refresh Studio if open)",
+          );
+        } else if (typeof patch.showStickerOverlays === "boolean") {
+          setSaveMessage(
+            patch.showStickerOverlays
+              ? "Remotion preview: hand-drawn overlays on (refresh Studio if open)"
+              : "Remotion preview: hand-drawn overlays off (refresh Studio if open)",
+          );
+        }
       } catch (e) {
-        setShowCueOverlay(!enabled);
+        if (typeof patch.showCueOverlay === "boolean") {
+          setShowCueOverlay(prevCue);
+        }
+        if (typeof patch.showStickerOverlays === "boolean") {
+          setShowStickerOverlays(prevStickers);
+        }
         setSaveMessage(
           e instanceof Error ? e.message : "Overlay setting failed",
         );
@@ -190,7 +221,21 @@ export function ReviewWorkspace() {
         setOverlayBusy(false);
       }
     },
-    [loadState],
+    [loadState, showCueOverlay, showStickerOverlays],
+  );
+
+  const setRemotionCueOverlay = useCallback(
+    async (enabled: boolean) => {
+      await patchRemotionPreview({ showCueOverlay: enabled });
+    },
+    [patchRemotionPreview],
+  );
+
+  const setRemotionStickerOverlays = useCallback(
+    async (enabled: boolean) => {
+      await patchRemotionPreview({ showStickerOverlays: enabled });
+    },
+    [patchRemotionPreview],
   );
 
   useEffect(() => {
@@ -347,6 +392,14 @@ export function ReviewWorkspace() {
           : q,
       );
       updateCurrentAcq({ queries });
+    },
+    [currentAcq, updateCurrentAcq],
+  );
+
+  const reorderStagedPlates = useCallback(
+    (orderedResultIds: string[]) => {
+      if (!currentAcq) return;
+      updateCurrentAcq(reorderPlateSelections(currentAcq, orderedResultIds));
     },
     [currentAcq, updateCurrentAcq],
   );
@@ -739,8 +792,10 @@ export function ReviewWorkspace() {
             currentCueId={currentItem?.id}
             maxCueId={items[items.length - 1]?.id}
             showCueOverlay={showCueOverlay}
+            showStickerOverlays={showStickerOverlays}
             overlayBusy={overlayBusy}
             onToggleCueOverlay={setRemotionCueOverlay}
+            onToggleStickerOverlays={setRemotionStickerOverlays}
           />
         )}
 
@@ -975,6 +1030,7 @@ export function ReviewWorkspace() {
                   itemId={currentItem.id}
                   legacyAcquiredFiles={acquiredFiles}
                   onRemove={removeStagedSelection}
+                  onReorderPlates={reorderStagedPlates}
                 />
               </div>
             )}

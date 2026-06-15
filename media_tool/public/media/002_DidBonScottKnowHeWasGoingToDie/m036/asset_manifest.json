@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m036",
   "cue": 36,
-  "t_start": 112.06,
-  "t_end": 118.04,
-  "duration_sec": 5.98,
-  "spoken": "a dark figure steps out of the blackness. It takes the guitar, tunes it, plays something",
+  "t_start": 99.42,
+  "t_end": 102.35,
+  "duration_sec": 2.93,
+  "spoken": "insects, and a lonely dirt road intersection.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -57,9 +57,9 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-117gK0K7OZ8UcE.gif",
-    "detective.jpg"
+    "giphy-26BRLWJBOMqy5xhOo.gif",
+    "genphoto-c1a81357.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.339Z"
+  "updated_at": "2026-06-15T20:27:49.089Z"
 }

@@ -1,14 +1,21 @@
 {
   "id": "m025",
   "cue": 25,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "in_progress",
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "complete",
   "notes": "",
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "speed limit",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
@@ -17,38 +24,12 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott 1979 live arms spread stage",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:283c21fb241aef0a",
-          "url": "/media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
-          "thumbnail_url": "/media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
-          "title": "bon-scott-gif.gif",
-          "source_page": "/media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
-          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-          "engine_id": "library",
-          "query": "bon-scott-gif.gif",
-          "selected_at": "2026-06-11T20:46:52.130Z"
-        }
-      ]
-    },
-    {
-      "query_index": 1,
-      "query": "Bon Scott Highway to Hell performance acceptance",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "highway road night photograph 1970s metaphor",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-11T20:46:52.130Z"
+  "completed_at": "2026-06-14T18:08:42.209Z",
+  "updated_at": "2026-06-14T18:08:42.209Z"
 }

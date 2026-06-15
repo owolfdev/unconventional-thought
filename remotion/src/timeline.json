@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "built_at": "2026-06-11T21:10:25.983110+00:00",
+  "built_at": "2026-06-15T20:45:14.899940+00:00",
   "episode": "002_DidBonScottKnowHeWasGoingToDie",
-  "max_id": "m087",
+  "max_id": "m132",
   "fps": 30,
   "width": 1920,
   "height": 1080,
@@ -10,6 +10,7 @@
   "audioFromFrame": 60,
   "audioSrc": "audio/vo/did_bon_scott_know_he_was_going_to_die 2.mp3",
   "showCueOverlay": true,
+  "showStickerOverlays": false,
   "shots": [
     {
       "id": "m000",
@@ -160,7 +161,7 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
+      "src": "media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
       "overlays": [
@@ -266,12 +267,14 @@
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
-        "film_damage"
+        "film_damage",
+        "slow_push_in",
+        "film_scratches"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/ed8e308c7338323e/highway-to-hell-not-a-vague-rock-statement.jpg",
+      "src": "media/_library/assets/b33ae1d013b2a107/asset.jpg",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
       "overlays": [
@@ -280,6 +283,15 @@
           "startFromSec": 0.0,
           "blendMode": "plus-lighter",
           "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 504.066,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -350,7 +362,7 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/f4dd5ff01e5793b7/asset.jpg",
+      "src": "media/_library/assets/aac702f0e76dffd6/asset.png",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
@@ -370,20 +382,62 @@
       "id": "m009",
       "cue": 9,
       "fromFrame": 927,
-      "durationInFrames": 252,
+      "durationInFrames": 164,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 29.5,
-      "tEnd": 35.7,
-      "spoken": "it's different. Am I the only one who notices that? In the early ACDC tracks, Bon is like a",
+      "tEnd": 32.78,
+      "spoken": "it's different. Am I the only one who notices that?",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 82.214,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/74fcfb3aa43b4289/magnify-rick-moranis-gif.gif",
+      "stickerMaxPercent": 62
+    },
+    {
+      "id": "m010",
+      "cue": 10,
+      "fromFrame": 1043,
+      "durationInFrames": 88,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 32.78,
+      "tEnd": 35.7,
+      "spoken": "In the early ACDC tracks, Bon is like a",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
         "film_damage"
       ],
       "transition": null,
@@ -391,8 +445,17 @@
       "textGraphicLayer": null,
       "src": null,
       "mediaKind": "none",
-      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
       "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 190.403,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
         {
           "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
           "startFromSec": 0.0,
@@ -403,13 +466,11 @@
           "loop": true
         }
       ],
-      "missingMedia": false,
-      "stickerSrc": "media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
-      "stickerMaxPercent": 62
+      "missingMedia": false
     },
     {
-      "id": "m010",
-      "cue": 10,
+      "id": "m011",
+      "cue": 11,
       "fromFrame": 1131,
       "durationInFrames": 32,
       "mediaDelayFrames": 0,
@@ -421,32 +482,34 @@
       "tEnd": 36.78,
       "spoken": "coiled spring,",
       "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
-      "textGraphic": {
-        "type": "title",
-        "text": "COILED SPRING.",
-        "style": "blockbuster"
-      },
-      "textGraphicLayer": {
-        "type": "title",
-        "text": "COILED SPRING.",
-        "style": "blockbuster"
-      },
+      "textGraphic": null,
+      "textGraphicLayer": null,
       "src": null,
       "mediaKind": "none",
-      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 190.59,
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -457,8 +520,8 @@
       "stickerMaxPercent": 62
     },
     {
-      "id": "m011",
-      "cue": 11,
+      "id": "m012",
+      "cue": 12,
       "fromFrame": 1163,
       "durationInFrames": 75,
       "mediaDelayFrames": 0,
@@ -475,20 +538,30 @@
       "backgroundColor": "#000000",
       "effects": [
         "film_scratches",
-        "slow_push_in"
+        "slow_push_in",
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/4ff8bdb1dd269eac/specific-guy-bad-reputation-hes-proud-of-it.jpg",
+      "src": "media/_library/assets/8bf1b3df0a944cea/asset.webp",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 75.198,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -497,8 +570,8 @@
       "missingMedia": false
     },
     {
-      "id": "m012",
-      "cue": 12,
+      "id": "m013",
+      "cue": 13,
       "fromFrame": 1238,
       "durationInFrames": 70,
       "mediaDelayFrames": 0,
@@ -521,11 +594,11 @@
       "textGraphicLayer": null,
       "src": null,
       "mediaKind": "none",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 75.273,
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1450.54,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -538,8 +611,8 @@
       "stickerMaxPercent": 62
     },
     {
-      "id": "m013",
-      "cue": 13,
+      "id": "m014",
+      "cue": 14,
       "fromFrame": 1329,
       "durationInFrames": 73,
       "mediaDelayFrames": 0,
@@ -560,13 +633,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
-      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "src": "media/_library/assets/9e056c1847eaad18/genphoto-eb88c42a.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 1450.475,
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -579,8 +652,8 @@
       "stickerMaxPercent": 62
     },
     {
-      "id": "m014",
-      "cue": 14,
+      "id": "m015",
+      "cue": 15,
       "fromFrame": 1402,
       "durationInFrames": 75,
       "mediaDelayFrames": 0,
@@ -602,49 +675,8 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
-      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
-          "startFromSec": 0.0,
-          "blendMode": "plus-lighter",
-          "opacity": 0.58,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false,
-      "stickerSrc": "media/_library/assets/6dd1ab5e78e21e39/bon-scott-gif.gif",
-      "stickerMaxPercent": 62
-    },
-    {
-      "id": "m015",
-      "cue": 15,
-      "fromFrame": 1477,
-      "durationInFrames": 32,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 47.22,
-      "tEnd": 48.28,
-      "spoken": "floating downstream.",
-      "notes": null,
-      "visualMode": "effect_only",
-      "mediaType": "generated",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_damage"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
+      "src": "media/_library/assets/6dd1ab5e78e21e39/bon-scott-gif.gif",
+      "mediaKind": "image",
       "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
       "overlays": [
         {
@@ -662,8 +694,70 @@
     {
       "id": "m016",
       "cue": 16,
-      "fromFrame": 1504,
-      "durationInFrames": 100,
+      "fromFrame": 1447,
+      "durationInFrames": 62,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 47.22,
+      "tEnd": 48.28,
+      "spoken": "floating downstream.",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage",
+        "vignette_soft",
+        "film_scratches",
+        "desaturate_soft",
+        "crt_glow",
+        "slow_zoom_in"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/c167443332ebf7aa/asset.mp4",
+      "mediaKind": "video",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 19.006,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/overlays/ZedIJjbnWqw.f248.webm",
+          "startFromSec": 19.714,
+          "blendMode": "plus-lighter",
+          "opacity": 0.55,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m017",
+      "cue": 17,
+      "fromFrame": 1534,
+      "durationInFrames": 70,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
@@ -676,31 +770,19 @@
       "visualMode": "artifact",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
+      "effects": [],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/7577f22a845b8a3c/IMG_5729.JPG",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 18.924,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
+      "src": "media/_library/assets/f218d43cd86501a3/asset.mp4",
+      "mediaKind": "video",
+      "overlaySrc": null,
+      "overlays": [],
       "missingMedia": false
     },
     {
-      "id": "m017",
-      "cue": 17,
+      "id": "m018",
+      "cue": 18,
       "fromFrame": 1604,
       "durationInFrames": 50,
       "mediaDelayFrames": 0,
@@ -730,8 +812,8 @@
       "missingMedia": false
     },
     {
-      "id": "m018",
-      "cue": 18,
+      "id": "m019",
+      "cue": 19,
       "fromFrame": 1654,
       "durationInFrames": 48,
       "mediaDelayFrames": 0,
@@ -746,21 +828,31 @@
       "visualMode": "artifact",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_damage"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
       "src": null,
       "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
-      "missingMedia": false,
-      "stickerSrc": "media/_library/assets/9406d55bde3b4d1e/text-graphic-different.png",
-      "stickerMaxPercent": 62
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
     },
     {
-      "id": "m019",
-      "cue": 19,
+      "id": "m020",
+      "cue": 20,
       "fromFrame": 1702,
       "durationInFrames": 46,
       "mediaDelayFrames": 0,
@@ -779,17 +871,15 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
+      "src": "media/_library/assets/e055493666442638/think-about-it-gif-by-identity.gif",
+      "mediaKind": "image",
       "overlaySrc": null,
       "overlays": [],
-      "missingMedia": false,
-      "stickerSrc": "media/_library/assets/e055493666442638/think-about-it-gif-by-identity.gif",
-      "stickerMaxPercent": 62
+      "missingMedia": false
     },
     {
-      "id": "m020",
-      "cue": 20,
+      "id": "m021",
+      "cue": 21,
       "fromFrame": 1747,
       "durationInFrames": 47,
       "mediaDelayFrames": 0,
@@ -810,46 +900,7 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
-      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
-          "startFromSec": 0.0,
-          "blendMode": "plus-lighter",
-          "opacity": 0.58,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m021",
-      "cue": 21,
-      "fromFrame": 1794,
-      "durationInFrames": 90,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 57.8,
-      "tEnd": 60.81,
-      "spoken": "It's like a supernatural nonchalance.",
-      "notes": null,
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_damage"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/476e3a0c4247ac95/asset.jpg",
+      "src": "media/_library/assets/e055493666442638/think-about-it-gif-by-identity.gif",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
       "overlays": [
@@ -868,27 +919,28 @@
     {
       "id": "m022",
       "cue": 22,
-      "fromFrame": 1824,
-      "durationInFrames": 128,
+      "fromFrame": 1734,
+      "durationInFrames": 180,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
-      "tStart": 60.81,
-      "tEnd": 62.06,
-      "spoken": "And what about the lyrics?",
+      "tStart": 57.8,
+      "tEnd": 60.81,
+      "spoken": "It's like a supernatural nonchalance.",
       "notes": null,
       "visualMode": "text_graphic",
       "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_damage"
+        "film_damage",
+        "slow_push_in"
       ],
       "transition": null,
       "textGraphic": {
         "type": "transcription",
-        "text": "And what about the lyrics?",
+        "text": "supernatural nonchalance.",
         "style": "typewriter"
       },
       "textGraphicLayer": null,
@@ -911,42 +963,33 @@
     {
       "id": "m023",
       "cue": 23,
-      "fromFrame": 1954,
-      "durationInFrames": 242,
+      "fromFrame": 1884,
+      "durationInFrames": 38,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
-      "tStart": 63.14,
-      "tEnd": 71.2,
-      "spoken": "No stop signs, speed limit, haste Satan, paying my dues. I'm on the highway to Hell. That's not",
-      "notes": "[Library pass \u2014 verify license before publish]",
+      "tStart": 60.81,
+      "tEnd": 62.06,
+      "spoken": "And what about the lyrics?",
+      "notes": null,
       "visualMode": "historical",
-      "mediaType": "photo",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches",
-        "slow_scroll_up"
+        "film_scratches"
       ],
       "transition": null,
-      "textGraphic": {
-        "type": "transcription",
-        "text": "NO STOP SIGNS \u00b7 PAYING MY DUES \u00b7 HIGHWAY TO HELL",
-        "style": "typewriter"
-      },
-      "textGraphicLayer": {
-        "type": "transcription",
-        "text": "NO STOP SIGNS \u00b7 PAYING MY DUES \u00b7 HIGHWAY TO HELL",
-        "style": "typewriter"
-      },
+      "textGraphic": null,
+      "textGraphicLayer": null,
       "src": "media/_library/assets/bd1748b0e95e182b/Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900.jpg",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
       "overlays": [
         {
           "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 47.426,
+          "startFromSec": 49.356,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -959,6 +1002,193 @@
     {
       "id": "m024",
       "cue": 24,
+      "fromFrame": 1954,
+      "durationInFrames": 34,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 63.14,
+      "tEnd": 64.27,
+      "spoken": "No stop signs,",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage",
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 142.399,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/4b4c71951b118e6c/70s-font-no-stop-signs.png",
+      "stickerMaxPercent": 90
+    },
+    {
+      "id": "m025",
+      "cue": 25,
+      "fromFrame": 1988,
+      "durationInFrames": 34,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 64.27,
+      "tEnd": 65.41,
+      "spoken": "speed limit,",
+      "notes": null,
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "speed limit",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "generated",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 29.83,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m026",
+      "cue": 26,
+      "fromFrame": 2022,
+      "durationInFrames": 140,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 65.41,
+      "tEnd": 68.08,
+      "spoken": "haste Satan, paying my dues.",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": null,
+      "overlays": [],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/c3e9d38af1bc8287/in-an-acdc-style-font-write-hey-satan.png",
+      "stickerMaxPercent": 90,
+      "stickerHideAfterSec": 2.0
+    },
+    {
+      "id": "m027",
+      "cue": 27,
+      "fromFrame": 2102,
+      "durationInFrames": 94,
+      "mediaDelayFrames": 60,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 68.08,
+      "tEnd": 71.2,
+      "spoken": "I'm on the highway to Hell. That's not",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 499.037,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m028",
+      "cue": 28,
       "fromFrame": 2196,
       "durationInFrames": 96,
       "mediaDelayFrames": 0,
@@ -985,7 +1215,7 @@
       "overlays": [
         {
           "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 140.436,
+          "startFromSec": 49.926,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -996,8 +1226,8 @@
       "missingMedia": false
     },
     {
-      "id": "m025",
-      "cue": 25,
+      "id": "m029",
+      "cue": 29,
       "fromFrame": 2292,
       "durationInFrames": 108,
       "mediaDelayFrames": 0,
@@ -1009,24 +1239,46 @@
       "tEnd": 77.98,
       "spoken": "He's describing a momentum that he's decided not to resist.",
       "notes": null,
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/283c21fb241aef0a/bon-scott-gif.gif",
-      "mediaKind": "image",
-      "overlaySrc": null,
-      "overlays": [],
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
       "missingMedia": false
     },
     {
-      "id": "m026",
-      "cue": 26,
+      "id": "m030",
+      "cue": 30,
       "fromFrame": 2426,
-      "durationInFrames": 160,
+      "durationInFrames": 100,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
@@ -1040,37 +1292,46 @@
       "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "src": "media/_library/assets/6babf13dda7a42c0/asset.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 50.814,
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
         }
       ],
       "missingMedia": false,
-      "stickerSrc": "media/_library/assets/819cad3c0cd1366b/text-graphic-white-text-on-black-outline-best-work.png",
-      "stickerMaxPercent": 62,
-      "stickerHideAfterSec": 2.0
+      "stickerSrc": "media/002_DidBonScottKnowHeWasGoingToDie/m030/acquired/giphy-l1EthN2gcyvoSxM8U.gif",
+      "stickerMaxPercent": 62
     },
     {
-      "id": "m027",
-      "cue": 27,
+      "id": "m031",
+      "cue": 31,
       "fromFrame": 2526,
       "durationInFrames": 76,
-      "mediaDelayFrames": 60,
-      "mediaScale": 1.0,
+      "mediaDelayFrames": 0,
+      "mediaScale": 0.75,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
@@ -1096,15 +1357,15 @@
       "missingMedia": false
     },
     {
-      "id": "m028",
-      "cue": 28,
+      "id": "m032",
+      "cue": 32,
       "fromFrame": 2602,
       "durationInFrames": 26,
       "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
+      "mediaScale": 1.12,
+      "mediaFit": "fill-width",
+      "motionTiltDeg": -5.5,
+      "motionScrollSpeed": 0.48,
       "tStart": 84.72,
       "tEnd": 85.6,
       "spoken": "a story that was",
@@ -1135,8 +1396,8 @@
       "missingMedia": false
     },
     {
-      "id": "m029",
-      "cue": 29,
+      "id": "m033",
+      "cue": 33,
       "fromFrame": 2628,
       "durationInFrames": 154,
       "mediaDelayFrames": 0,
@@ -1181,11 +1442,13 @@
           "loop": true
         }
       ],
-      "missingMedia": false
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/8a00cc5398f47588/fairy-tale-book-gif-by-magic-the-gathering.gif",
+      "stickerMaxPercent": 62
     },
     {
-      "id": "m030",
-      "cue": 30,
+      "id": "m034",
+      "cue": 34,
       "fromFrame": 2782,
       "durationInFrames": 53,
       "mediaDelayFrames": 0,
@@ -1225,12 +1488,12 @@
       "stickerMaxPercent": 62
     },
     {
-      "id": "m031",
-      "cue": 31,
+      "id": "m035",
+      "cue": 35,
       "fromFrame": 2835,
-      "durationInFrames": 199,
+      "durationInFrames": 259,
       "mediaDelayFrames": 0,
-      "mediaScale": 0.75,
+      "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
@@ -1249,11 +1512,11 @@
       "textGraphicLayer": null,
       "src": "media/_library/assets/111fb33af09ad6ca/genphoto-3aac2628.jpg",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-          "startFromSec": 341.964,
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1489.953,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -1264,15 +1527,15 @@
       "missingMedia": false
     },
     {
-      "id": "m032",
-      "cue": 32,
-      "fromFrame": 3043,
-      "durationInFrames": 88,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.12,
-      "mediaFit": "fill-width",
-      "motionTiltDeg": -5.5,
-      "motionScrollSpeed": 0.48,
+      "id": "m036",
+      "cue": 36,
+      "fromFrame": 3028,
+      "durationInFrames": 103,
+      "mediaDelayFrames": 30,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
       "tStart": 99.42,
       "tEnd": 102.35,
       "spoken": "insects, and a lonely dirt road intersection.",
@@ -1286,13 +1549,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/111fb33af09ad6ca/genphoto-3aac2628.jpg",
+      "src": "media/_library/assets/27e313f4717e1f14/genphoto-c1a81357.jpg",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 30.002,
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 139.412,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -1303,39 +1566,49 @@
       "missingMedia": false
     },
     {
-      "id": "m033",
-      "cue": 33,
+      "id": "m037",
+      "cue": 37,
       "fromFrame": 3130,
-      "durationInFrames": 101,
+      "durationInFrames": 84,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 102.35,
-      "tEnd": 105.72,
-      "spoken": "A young musician stands there with a guitar. His name",
+      "tEnd": 105.14,
+      "spoken": "A young musician stands there with a guitar.",
       "notes": null,
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
         "film_scratches",
         "film_grain",
-        "vignette_heavy"
+        "vignette_heavy",
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/7a4b5310337724f9/genphoto-5bfb4176.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 277.867,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -1344,8 +1617,39 @@
       "missingMedia": false
     },
     {
-      "id": "m034",
-      "cue": 34,
+      "id": "m038",
+      "cue": 38,
+      "fromFrame": 3214,
+      "durationInFrames": 17,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 105.14,
+      "tEnd": 105.72,
+      "spoken": "His name",
+      "notes": null,
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "His name",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "generated",
+      "overlaySrc": null,
+      "overlays": [],
+      "missingMedia": false
+    },
+    {
+      "id": "m039",
+      "cue": 39,
       "fromFrame": 3232,
       "durationInFrames": 66,
       "mediaDelayFrames": 0,
@@ -1368,6 +1672,236 @@
       "textGraphicLayer": null,
       "src": "media/_library/assets/38d8e4b1a7c1c2d5/asset.jpg",
       "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 795.685,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m040",
+      "cue": 40,
+      "fromFrame": 3298,
+      "durationInFrames": 92,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 107.92,
+      "tEnd": 110.99,
+      "spoken": "burning hunger to be a great player and for fame.",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": "film_burn",
+      "textGraphic": {
+        "type": "transcription",
+        "text": "burning hunger to be a great player and for fame.",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/9c9fa7a19ffb0a33/text-graphic-in-acdc-font-burning-hunger.png",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 188.692,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/burns/o8xwVwbTaNg.f248.webm",
+          "startFromSec": 15.636,
+          "blendMode": "plus-lighter",
+          "opacity": 0.88,
+          "placement": "out",
+          "windowSec": 1.0744999999999976,
+          "loop": false
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m041",
+      "cue": 41,
+      "fromFrame": 3390,
+      "durationInFrames": 32,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 110.99,
+      "tEnd": 112.06,
+      "spoken": "Just then,",
+      "notes": null,
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "Just then",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "generated",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1564.9,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m042",
+      "cue": 42,
+      "fromFrame": 3422,
+      "durationInFrames": 179,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 112.06,
+      "tEnd": 118.04,
+      "spoken": "a dark figure steps out of the blackness. It takes the guitar, tunes it, plays something",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/5abe374f91e45bd2/genphoto-95b3e197.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 571.761,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m043",
+      "cue": 43,
+      "fromFrame": 3601,
+      "durationInFrames": 233,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 118.04,
+      "tEnd": 125.8,
+      "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "It plays something impossibly good, then hands the guitar back and says, \"now it's yours\".",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "generated",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 216.058,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m044",
+      "cue": 44,
+      "fromFrame": 3862,
+      "durationInFrames": 78,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 126.74,
+      "tEnd": 129.33,
+      "spoken": "But understand kid, it ain't free.",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "quote",
+        "text": "BUT UNDERSTAND, KID \u2014 IT AIN'T FREE.",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "generated",
       "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
         {
@@ -1383,30 +1917,84 @@
       "missingMedia": false
     },
     {
-      "id": "m035",
-      "cue": 35,
-      "fromFrame": 3298,
-      "durationInFrames": 184,
+      "id": "m045",
+      "cue": 45,
+      "fromFrame": 3940,
+      "durationInFrames": 112,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
-      "tStart": 107.92,
-      "tEnd": 112.06,
-      "spoken": "burning hunger to be a great player and for fame. Just then,",
+      "tStart": 129.33,
+      "tEnd": 133.06,
+      "spoken": "Everybody knows that Robert Johnson sold his soul to the devil",
       "notes": null,
+      "visualMode": "historical",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage",
+        "film_scratches",
+        "vignette_soft",
+        "film_grain"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "quote",
+        "text": "BUT UNDERSTAND, KID \u2014 IT AIN'T FREE.",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 140.565,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m046",
+      "cue": 46,
+      "fromFrame": 4052,
+      "durationInFrames": 128,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 133.06,
+      "tEnd": 137.32,
+      "spoken": "for immortality. He came back different, transformed.",
+      "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "text_graphic",
       "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches",
-        "film_damage"
+        "film_scratches"
       ],
       "transition": null,
       "textGraphic": {
         "type": "transcription",
-        "text": "burning hunger to be a great player and for fame.",
+        "text": "He came back different, transformed. The other musicians were stunned.",
         "style": "typewriter"
       },
       "textGraphicLayer": null,
@@ -1416,7 +2004,48 @@
       "overlays": [
         {
           "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 1492.031,
+          "startFromSec": 1090.293,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m047",
+      "cue": 47,
+      "fromFrame": 4180,
+      "durationInFrames": 90,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 137.32,
+      "tEnd": 140.32,
+      "spoken": "The other musicians were stunned. He now had",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage",
+        "slow_zoom_out"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/a4e2d87376e09b91/genphoto-7ce7764d.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 906.442,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -1436,172 +2065,8 @@
       "missingMedia": false
     },
     {
-      "id": "m036",
-      "cue": 36,
-      "fromFrame": 3407,
-      "durationInFrames": 194,
-      "mediaDelayFrames": 30,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 112.06,
-      "tEnd": 118.04,
-      "spoken": "a dark figure steps out of the blackness. It takes the guitar, tunes it, plays something",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/ddda0343e765d356/detective.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-          "startFromSec": 138.962,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m037",
-      "cue": 37,
-      "fromFrame": 3601,
-      "durationInFrames": 233,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 118.04,
-      "tEnd": 125.8,
-      "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/cf62434c1ec966c1/Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-          "startFromSec": 276.349,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m038",
-      "cue": 38,
-      "fromFrame": 3862,
-      "durationInFrames": 190,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 126.74,
-      "tEnd": 133.06,
-      "spoken": "But understand kid, it ain't free. Everybody knows that Robert Johnson sold his soul to the devil",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": {
-        "type": "quote",
-        "text": "BUT UNDERSTAND, KID \u2014 IT AIN'T FREE.",
-        "style": "typewriter"
-      },
-      "textGraphicLayer": {
-        "type": "quote",
-        "text": "BUT UNDERSTAND, KID \u2014 IT AIN'T FREE.",
-        "style": "typewriter"
-      },
-      "src": "media/_library/assets/2188dff0cf0d5089/here-goes.png",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 160.189,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m039",
-      "cue": 39,
-      "fromFrame": 4052,
-      "durationInFrames": 218,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 133.06,
-      "tEnd": 140.32,
-      "spoken": "for immortality. He came back different, transformed. The other musicians were stunned. He now had",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/5771ff5aa07ec028/download-872321de6e71-inv.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-          "startFromSec": 791.156,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m040",
-      "cue": 40,
+      "id": "m048",
+      "cue": 48,
       "fromFrame": 4270,
       "durationInFrames": 224,
       "mediaDelayFrames": 0,
@@ -1622,335 +2087,7 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/673973583e79f97e/his-actual-voice.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-          "startFromSec": 187.798,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m041",
-      "cue": 41,
-      "fromFrame": 4493,
-      "durationInFrames": 249,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 147.78,
-      "tEnd": 156.08,
-      "spoken": "died early before seeing it happen. He did become a legend just only after death. Take the 27 club,",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/53f3d23509394c09/bond-scott-dies-february-19-1980-33-years-old.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 1558.58,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m042",
-      "cue": 42,
-      "fromFrame": 4760,
-      "durationInFrames": 196,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 156.66,
-      "tEnd": 163.2,
-      "spoken": "Jimmy Hendrix, Janice Chaplin, Jim Morrison, Kurt Cobain, and many others. Same equation,",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/d408c69e2da9da35/i-used-up-one-of-my-nine-lives-on-that-one.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 571.584,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m043",
-      "cue": 43,
-      "fromFrame": 4968,
-      "durationInFrames": 165,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 163.6,
-      "tEnd": 169.1,
-      "spoken": "they traded something for greatness, for art. Some might say they sold their souls for fame.",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/76f77f9627a4d5b3/i-think-theres-something-happening-here-that-nobodys-really-talking-about.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 216.391,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m044",
-      "cue": 44,
-      "fromFrame": 5149,
-      "durationInFrames": 64,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 169.62,
-      "tEnd": 171.74,
-      "spoken": "Well, they certainly got their money's worth.",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "artifact",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/d83d6b1e6a60a42f/bib_gold2-blkbg.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m045",
-      "cue": 45,
-      "fromFrame": 5234,
-      "durationInFrames": 194,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 172.48,
-      "tEnd": 178.94,
-      "spoken": "Bond wasn't 27. He was 33 when he died. But the bargain doesn't care about birthdays. It cares",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": {
-        "type": "title",
-        "text": "33.",
-        "style": "minimal_white"
-      },
-      "textGraphicLayer": {
-        "type": "title",
-        "text": "33.",
-        "style": "minimal_white"
-      },
-      "src": "media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 137.951,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m046",
-      "cue": 46,
-      "fromFrame": 5428,
-      "durationInFrames": 250,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 178.94,
-      "tEnd": 187.26,
-      "spoken": "about cost. And the devil always gets his due. So who is the devil? Well, for many, he's found at",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": {
-        "type": "intertitle",
-        "text": "SO WHO IS THE DEVIL?",
-        "style": "blockbuster"
-      },
-      "textGraphicLayer": {
-        "type": "intertitle",
-        "text": "SO WHO IS THE DEVIL?",
-        "style": "blockbuster"
-      },
-      "src": "media/_library/assets/ddda0343e765d356/detective.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 1087.823,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m047",
-      "cue": 47,
-      "fromFrame": 5678,
-      "durationInFrames": 241,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 187.26,
-      "tEnd": 195.3,
-      "spoken": "the tip of a hypodermic needle. Yup, heroin. Legend has it that it can make artists feel invulnerable,",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "artifact",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/0941eb9f5822f6a9/its-not-pretty-good-considering.png",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 903.899,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m048",
-      "cue": 48,
-      "fromFrame": 5919,
-      "durationInFrames": 217,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 195.3,
-      "tEnd": 202.54,
-      "spoken": "lucid, insulated, and brilliant until it takes everything back with interest. That's the bargain",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/f5601164014787ba/crystal-chandeliers-distinguished-guests-and-balls.jpg",
+      "src": "media/_library/assets/fc5fa65147b5b3de/1930s-font-supernatural.png",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
@@ -1969,33 +2106,34 @@
     {
       "id": "m049",
       "cue": 49,
-      "fromFrame": 6136,
-      "durationInFrames": 209,
+      "fromFrame": 4493,
+      "durationInFrames": 191,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
-      "tStart": 202.54,
-      "tEnd": 209.5,
-      "spoken": "in chemical form. Let's stop pretending this would be impossible. If you like music from the 60s",
+      "tStart": 147.78,
+      "tEnd": 154.15,
+      "spoken": "died early before seeing it happen. He did become a legend just only after death.",
       "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "artifact",
+      "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "slow_push_in"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/dc04219f2b754661/bib-record.jpg",
+      "src": "media/_library/assets/2df273db285237b1/asset.jpg",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
       "overlays": [
         {
           "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 30.666,
+          "startFromSec": 30.757,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2008,6 +2146,871 @@
     {
       "id": "m050",
       "cue": 50,
+      "fromFrame": 4684,
+      "durationInFrames": 58,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 154.15,
+      "tEnd": 156.08,
+      "spoken": "Take the 27 club,",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/e9184764dce87c0a/90s-font-27-club.png",
+      "stickerMaxPercent": 62,
+      "stickerEffects": [
+        "shake"
+      ]
+    },
+    {
+      "id": "m051",
+      "cue": 51,
+      "fromFrame": 4760,
+      "durationInFrames": 25,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 156.66,
+      "tEnd": 157.49,
+      "spoken": "Jimmy Hendrix,",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/ad534260a1f4831c/asset.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.169,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m052",
+      "cue": 52,
+      "fromFrame": 4785,
+      "durationInFrames": 34,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 157.49,
+      "tEnd": 158.62,
+      "spoken": "Janice Chaplin,",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/ca1106bcd4e81fba/asset.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 940.668,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m053",
+      "cue": 53,
+      "fromFrame": 4819,
+      "durationInFrames": 33,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 158.62,
+      "tEnd": 159.71,
+      "spoken": "Jim Morrison,",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/91d1e32122780dcf/jim-morrison-1969jpg.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 98.65,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m054",
+      "cue": 54,
+      "fromFrame": 4851,
+      "durationInFrames": 31,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 159.71,
+      "tEnd": 160.75,
+      "spoken": "Kurt Cobain,",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/5e72bb5c1adbda89/asset.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m055",
+      "cue": 55,
+      "fromFrame": 4852,
+      "durationInFrames": 103,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 160.75,
+      "tEnd": 163.2,
+      "spoken": "and many others. Same equation,",
+      "notes": null,
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "and many others.",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "generated",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1289.548,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "textRevealSpeedMult": 3.0
+    },
+    {
+      "id": "m056",
+      "cue": 56,
+      "fromFrame": 4968,
+      "durationInFrames": 84,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 163.6,
+      "tEnd": 166.4,
+      "spoken": "they traded something for greatness, for art.",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m057",
+      "cue": 57,
+      "fromFrame": 5052,
+      "durationInFrames": 81,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 166.4,
+      "tEnd": 169.1,
+      "spoken": "Some might say they sold their souls for fame.",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 87.326,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/578ade59254d3f4d/text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png",
+      "stickerMaxPercent": 62
+    },
+    {
+      "id": "m058",
+      "cue": 58,
+      "fromFrame": 5149,
+      "durationInFrames": 64,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 169.62,
+      "tEnd": 171.74,
+      "spoken": "Well, they certainly got their money's worth.",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "artifact",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage",
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/d83d6b1e6a60a42f/bib_gold2-blkbg.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 1014.554,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m059",
+      "cue": 59,
+      "fromFrame": 5234,
+      "durationInFrames": 194,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 172.48,
+      "tEnd": 178.94,
+      "spoken": "Bond wasn't 27. He was 33 when he died. But the bargain doesn't care about birthdays. It cares",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "title",
+        "text": "33.",
+        "style": "minimal_white"
+      },
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m060",
+      "cue": 60,
+      "fromFrame": 5428,
+      "durationInFrames": 250,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 178.94,
+      "tEnd": 187.26,
+      "spoken": "about cost. And the devil always gets his due. So who is the devil? Well, for many, he's found at",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage",
+        "shake"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "intertitle",
+        "text": "SO WHO IS THE DEVIL?",
+        "style": "blockbuster"
+      },
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/8b27777b6270009a/genphoto-e35a905c.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 26.76,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m061",
+      "cue": 61,
+      "fromFrame": 5678,
+      "durationInFrames": 60,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 187.26,
+      "tEnd": 189.26,
+      "spoken": "the tip of a hypodermic needle.",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "artifact",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/fbadbb92edeb5699/genphoto-1f47c0a6.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m062",
+      "cue": 62,
+      "fromFrame": 5738,
+      "durationInFrames": 67,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 189.26,
+      "tEnd": 191.49,
+      "spoken": "Yup, heroin.",
+      "notes": null,
+      "visualMode": "artifact",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/2e6dfa7c9c23809c/scratchy-font-heroin.png",
+      "stickerMaxPercent": 62
+    },
+    {
+      "id": "m063",
+      "cue": 63,
+      "fromFrame": 5805,
+      "durationInFrames": 114,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 191.49,
+      "tEnd": 195.3,
+      "spoken": "Legend has it that it can make artists feel invulnerable,",
+      "notes": null,
+      "visualMode": "artifact",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": true
+    },
+    {
+      "id": "m064",
+      "cue": 64,
+      "fromFrame": 5919,
+      "durationInFrames": 71,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 195.3,
+      "tEnd": 197.66,
+      "spoken": "lucid, insulated, and brilliant",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 54.974,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
+      "stickerMaxPercent": 62
+    },
+    {
+      "id": "m065",
+      "cue": 65,
+      "fromFrame": 5990,
+      "durationInFrames": 114,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 197.66,
+      "tEnd": 201.47,
+      "spoken": "until it takes everything back with interest.",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m066",
+      "cue": 66,
+      "fromFrame": 6104,
+      "durationInFrames": 32,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 201.47,
+      "tEnd": 202.54,
+      "spoken": "That's the bargain",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m067",
+      "cue": 67,
+      "fromFrame": 6136,
+      "durationInFrames": 77,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 202.54,
+      "tEnd": 204.12,
+      "spoken": "in chemical form.",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m068",
+      "cue": 68,
+      "fromFrame": 6184,
+      "durationInFrames": 95,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 204.12,
+      "tEnd": 207.29,
+      "spoken": "Let's stop pretending this would be impossible.",
+      "notes": null,
+      "visualMode": "artifact",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": true
+    },
+    {
+      "id": "m069",
+      "cue": 69,
+      "fromFrame": 6279,
+      "durationInFrames": 66,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 207.29,
+      "tEnd": 209.5,
+      "spoken": "If you like music from the 60s",
+      "notes": null,
+      "visualMode": "artifact",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 103.251,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m070",
+      "cue": 70,
       "fromFrame": 6345,
       "durationInFrames": 156,
       "mediaDelayFrames": 0,
@@ -2028,13 +3031,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/fa39a51774bb3241/those-songs-have-bond-fingerprint.jpg",
+      "src": "media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 32.993,
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 1184.301,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2045,19 +3048,70 @@
       "missingMedia": false
     },
     {
-      "id": "m051",
-      "cue": 51,
+      "id": "m071",
+      "cue": 71,
       "fromFrame": 6501,
-      "durationInFrames": 185,
+      "durationInFrames": 109,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 214.7,
-      "tEnd": 220.88,
-      "spoken": "in the grips of that substance during their most creative periods. Some survived, some paid the price.",
+      "tEnd": 218.33,
+      "spoken": "in the grips of that substance during their most creative periods.",
       "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "slow_spin",
+        "tremble",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/66f81dd175430b1f/genphoto-164b286b.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 51.965,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m072",
+      "cue": 72,
+      "fromFrame": 6610,
+      "durationInFrames": 76,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 218.33,
+      "tEnd": 220.88,
+      "spoken": "Some survived, some paid the price.",
+      "notes": null,
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
@@ -2067,13 +3121,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/8d177a2e301995e1/funny bon.jpg",
+      "src": "media/_library/assets/c5b4d7f1f85ba1d7/genphoto-8084dfc7.jpg",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 497.259,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2084,47 +3138,110 @@
       "missingMedia": false
     },
     {
-      "id": "m052",
-      "cue": 52,
+      "id": "m073",
+      "cue": 73,
       "fromFrame": 6703,
-      "durationInFrames": 179,
+      "durationInFrames": 110,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 221.42,
-      "tEnd": 227.4,
-      "spoken": "Late 70s music culture was saturated with heroin. It wasn't fringe. It wasn't rare.",
+      "tEnd": 225.07,
+      "spoken": "Late 70s music culture was saturated with heroin.",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 937.456,
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 122.781,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
           "windowSec": null,
           "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
         }
       ],
-      "missingMedia": false
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/0947003d4af2538e/text-graphic-in-1970s-font-the-70s.png",
+      "stickerMaxPercent": 62
     },
     {
-      "id": "m053",
-      "cue": 53,
+      "id": "m074",
+      "cue": 74,
+      "fromFrame": 6812,
+      "durationInFrames": 70,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 225.07,
+      "tEnd": 227.4,
+      "spoken": "It wasn't fringe. It wasn't rare.",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 229.389,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/254c2b6a7327911b/im-not-no-way-gif.gif",
+      "stickerMaxPercent": 62
+    },
+    {
+      "id": "m075",
+      "cue": 75,
       "fromFrame": 6898,
       "durationInFrames": 150,
       "mediaDelayFrames": 0,
@@ -2140,20 +3257,32 @@
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage",
+        "tremble",
+        "tilt_left"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/e86f76483704e4b7/respect-sincere-uneironic-respect.gif",
+      "src": "media/_library/assets/114873f95daad37e/back-stage.jpg",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 96.156,
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -2162,19 +3291,58 @@
       "missingMedia": false
     },
     {
-      "id": "m054",
-      "cue": 54,
+      "id": "m076",
+      "cue": 76,
       "fromFrame": 7067,
-      "durationInFrames": 155,
+      "durationInFrames": 123,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 233.58,
-      "tEnd": 238.76,
-      "spoken": "Some of the biggest artists in modern music have openly talked about it. John Lennon talked",
+      "tEnd": 237.68,
+      "spoken": "Some of the biggest artists in modern music have openly talked about it.",
       "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m077",
+      "cue": 77,
+      "fromFrame": 7190,
+      "durationInFrames": 32,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 237.68,
+      "tEnd": 238.76,
+      "spoken": "John Lennon talked",
+      "notes": null,
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
@@ -2184,7 +3352,7 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/9398594e9a4d861e/asset.jpg",
+      "src": "media/_library/assets/6a48240fbb8a846c/asset.jpg",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
@@ -2201,10 +3369,10 @@
       "missingMedia": false
     },
     {
-      "id": "m055",
-      "cue": 55,
-      "fromFrame": 7193,
-      "durationInFrames": 220,
+      "id": "m078",
+      "cue": 78,
+      "fromFrame": 7223,
+      "durationInFrames": 190,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
@@ -2218,30 +3386,54 @@
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/04dd70e203071d02/geordie.jpg",
+      "src": "media/_library/assets/3e8624e30d528f35/asset.jpg",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 1286.762,
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 748.626,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
           "windowSec": null,
           "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
         }
       ],
-      "missingMedia": false
+      "missingMedia": false,
+      "plateSequence": [
+        {
+          "src": "media/_library/assets/3e8624e30d528f35/asset.jpg",
+          "mediaKind": "image"
+        },
+        {
+          "src": "media/_library/assets/bc835195b7810b28/asset.jpg",
+          "mediaKind": "image"
+        },
+        {
+          "src": "media/_library/assets/c9dc225a4dbcb00a/asset.jpg",
+          "mediaKind": "image"
+        }
+      ]
     },
     {
-      "id": "m056",
-      "cue": 56,
+      "id": "m079",
+      "cue": 79,
       "fromFrame": 7412,
       "durationInFrames": 140,
       "mediaDelayFrames": 0,
@@ -2253,52 +3445,56 @@
       "tEnd": 249.76,
       "spoken": "It's not a fantasy. It's documented rock history. So the question is not",
       "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
-      "textGraphic": {
-        "type": "quote",
-        "text": "IT'S DOCUMENTED ROCK HISTORY.",
-        "style": "newspaper"
-      },
-      "textGraphicLayer": {
-        "type": "quote",
-        "text": "IT'S DOCUMENTED ROCK HISTORY.",
-        "style": "newspaper"
-      },
-      "src": "media/_library/assets/6510a1713cd66954/it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 31.708,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
           "windowSec": null,
           "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
         }
       ],
-      "missingMedia": false
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/6e13a6e0e2001e9c/rock-n-roll-history.png",
+      "stickerMaxPercent": 90
     },
     {
-      "id": "m057",
-      "cue": 57,
+      "id": "m080",
+      "cue": 80,
       "fromFrame": 7553,
-      "durationInFrames": 146,
+      "durationInFrames": 109,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 249.76,
-      "tEnd": 254.64,
-      "spoken": "would an artist like Bond Scott ever have been around heroin. Of course he would.",
+      "tEnd": 253.4,
+      "spoken": "would an artist like Bond Scott ever have been around heroin.",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
@@ -2309,13 +3505,68 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/420996400b79b637/but-heres-the-thing-about-bond-scott.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 86.099,
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 388.582,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/c7b223a0d10268b8/bon-scott-gif.gif",
+      "stickerMaxPercent": 62
+    },
+    {
+      "id": "m081",
+      "cue": 81,
+      "fromFrame": 7662,
+      "durationInFrames": 37,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 253.4,
+      "tEnd": 254.64,
+      "spoken": "Of course he would.",
+      "notes": null,
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage",
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "Of course he would.",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "generated",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2326,37 +3577,47 @@
       "missingMedia": false
     },
     {
-      "id": "m058",
-      "cue": 58,
+      "id": "m082",
+      "cue": 82,
       "fromFrame": 7710,
-      "durationInFrames": 157,
+      "durationInFrames": 87,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 255.0,
-      "tEnd": 260.24,
-      "spoken": "The real question is whether in that final stretch, he crossed from proximity into experimentation",
+      "tEnd": 257.9,
+      "spoken": "The real question is whether in that final stretch,",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
       "src": "media/_library/assets/7c57afe3d05b94ca/original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 1012.321,
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 17.95,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -2365,24 +3626,53 @@
       "missingMedia": false
     },
     {
-      "id": "m059",
-      "cue": 59,
-      "fromFrame": 7885,
-      "durationInFrames": 191,
+      "id": "m083",
+      "cue": 83,
+      "fromFrame": 7797,
+      "durationInFrames": 70,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 257.9,
+      "tEnd": 260.24,
+      "spoken": "he crossed from proximity into experimentation",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": null,
+      "overlays": [],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/97447d4131aa20c2/70s-style-font-experimentation.png",
+      "stickerMaxPercent": 90
+    },
+    {
+      "id": "m084",
+      "cue": 84,
+      "fromFrame": 7855,
+      "durationInFrames": 110,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 260.82,
-      "tEnd": 267.2,
-      "spoken": "or even dependency. Given the era, the access, the circles, the schedule, and the pressure,",
+      "tEnd": 262.5,
+      "spoken": "or even dependency.",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": {
@@ -2390,20 +3680,16 @@
         "text": "YOU DECIDE.",
         "style": "minimal_white"
       },
-      "textGraphicLayer": {
-        "type": "quote",
-        "text": "YOU DECIDE.",
-        "style": "minimal_white"
-      },
-      "src": "media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/22da30cd994e0132/bon .jpg",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 173.367,
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
           "blendMode": "plus-lighter",
-          "opacity": 0.72,
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -2412,35 +3698,91 @@
       "missingMedia": false
     },
     {
-      "id": "m060",
-      "cue": 60,
+      "id": "m085",
+      "cue": 85,
+      "fromFrame": 7935,
+      "durationInFrames": 141,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 262.5,
+      "tEnd": 267.2,
+      "spoken": "Given the era, the access, the circles, the schedule, and the pressure,",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
+      "stickerMaxPercent": 90
+    },
+    {
+      "id": "m086",
+      "cue": 86,
       "fromFrame": 8092,
-      "durationInFrames": 297,
+      "durationInFrames": 69,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 267.74,
-      "tEnd": 277.64,
-      "spoken": "hmm, you decide. Now the death itself. February 1980, London, night out, drinking. He was left in a car,",
+      "tEnd": 270.05,
+      "spoken": "hmm, you decide.",
       "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "desaturate_soft"
       ],
       "transition": null,
-      "textGraphic": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "you decide.",
+        "style": "typewriter"
+      },
       "textGraphicLayer": null,
-      "src": "media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "src": null,
+      "mediaKind": "generated",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 26.741,
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2451,19 +3793,19 @@
       "missingMedia": false
     },
     {
-      "id": "m061",
-      "cue": 61,
-      "fromFrame": 8400,
-      "durationInFrames": 183,
+      "id": "m087",
+      "cue": 87,
+      "fromFrame": 8162,
+      "durationInFrames": 191,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
-      "tStart": 278.0,
-      "tEnd": 284.1,
-      "spoken": "overnight, found unresponsive the next day. Official cause, acute alcohol poisoning.",
-      "notes": "[Library pass \u2014 verify license before publish]",
+      "tStart": 270.05,
+      "tEnd": 276.43,
+      "spoken": "Now the death itself. February 1980, London, night out, drinking.",
+      "notes": null,
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
@@ -2473,46 +3815,7 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 268.187,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m062",
-      "cue": 62,
-      "fromFrame": 8614,
-      "durationInFrames": 134,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 285.12,
-      "tEnd": 289.58,
-      "spoken": "Here's what bothers people. In a case this culturally and commercially important,",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/010fdce190078de0/wait-nobody-finds-that-a-little-convenience.jpg",
+      "src": "media/_library/assets/8be1f8a0af7e659b/500817409_122153642336592501_5034926165230506483_n.jpg",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
@@ -2529,19 +3832,121 @@
       "missingMedia": false
     },
     {
-      "id": "m063",
-      "cue": 63,
-      "fromFrame": 8755,
-      "durationInFrames": 146,
+      "id": "m088",
+      "cue": 88,
+      "fromFrame": 8353,
+      "durationInFrames": 36,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
-      "tStart": 289.82,
-      "tEnd": 294.7,
-      "spoken": "the public facing record feels thinner than the legend around it. He drank too much.",
+      "tStart": 276.43,
+      "tEnd": 277.64,
+      "spoken": "He was left in a car,",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/759055daddde4b2d/genphoto-dc257c83.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 844.645,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m089",
+      "cue": 89,
+      "fromFrame": 8370,
+      "durationInFrames": 121,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 278.0,
+      "tEnd": 281.03,
+      "spoken": "overnight, found unresponsive the next day.",
       "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "the next day.",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "generated",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 64.365,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m090",
+      "cue": 90,
+      "fromFrame": 8491,
+      "durationInFrames": 92,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 281.03,
+      "tEnd": 284.1,
+      "spoken": "Official cause, acute alcohol poisoning.",
+      "notes": null,
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
@@ -2551,13 +3956,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/8d177a2e301995e1/funny bon.jpg",
+      "src": "media/_library/assets/0bca3f03155818f7/genphoto-0ec6ca16.jpg",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 132.833,
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 783.018,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2568,18 +3973,203 @@
       "missingMedia": false
     },
     {
-      "id": "m064",
-      "cue": 64,
+      "id": "m091",
+      "cue": 91,
+      "fromFrame": 8614,
+      "durationInFrames": 49,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 285.12,
+      "tEnd": 286.76,
+      "spoken": "Here's what bothers people.",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage",
+        "shake",
+        "desaturate_soft"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/4f1724dff67e8a84/IMG_5734.JPG",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m092",
+      "cue": 92,
+      "fromFrame": 8663,
+      "durationInFrames": 85,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 286.76,
+      "tEnd": 289.58,
+      "spoken": "In a case this culturally and commercially important,",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_damage",
+        "film_scratches",
+        "tilt_left",
+        "shake"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 526.514,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m093",
+      "cue": 93,
+      "fromFrame": 8755,
+      "durationInFrames": 108,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": "contain",
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 289.82,
+      "tEnd": 293.41,
+      "spoken": "the public facing record feels thinner than the legend around it.",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "tilt_left",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/e0dfcca454491ede/asset.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1238.932,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m094",
+      "cue": 94,
+      "fromFrame": 8862,
+      "durationInFrames": 39,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": "contain",
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 293.41,
+      "tEnd": 294.7,
+      "spoken": "He drank too much.",
+      "notes": null,
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "vignette_soft"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "He drank too much.",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "generated",
+      "overlaySrc": null,
+      "overlays": [],
+      "missingMedia": false
+    },
+    {
+      "id": "m095",
+      "cue": 95,
       "fromFrame": 8918,
-      "durationInFrames": 169,
+      "durationInFrames": 71,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 295.26,
-      "tEnd": 300.9,
-      "spoken": "That sentence may be true at one level. It may also be incomplete and less plausible than the",
+      "tEnd": 297.64,
+      "spoken": "That sentence may be true at one level.",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
@@ -2590,13 +4180,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/f2b330b1796be50a/great-story-very-convenient.png",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 53.903,
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 545.124,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2604,24 +4194,67 @@
           "loop": true
         }
       ],
-      "missingMedia": false
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/7138c8eaa3d4b22a/michael-richards-yes-gif.gif",
+      "stickerMaxPercent": 62
     },
     {
-      "id": "m065",
-      "cue": 65,
+      "id": "m096",
+      "cue": 96,
+      "fromFrame": 8989,
+      "durationInFrames": 98,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 297.64,
+      "tEnd": 300.9,
+      "spoken": "It may also be incomplete and less plausible than the",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1186.781,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/aa9e50775f98f3f8/in-an-acdc-font-write-its-incomplete.png",
+      "stickerMaxPercent": 90
+    },
+    {
+      "id": "m097",
+      "cue": 97,
       "fromFrame": 9087,
-      "durationInFrames": 170,
+      "durationInFrames": 30,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 300.9,
-      "tEnd": 306.56,
-      "spoken": "alternative. Bond was a veteran drinker after all. And why did his friend leave him in a car",
+      "tEnd": 301.9,
+      "spoken": "alternative.",
       "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
         "film_scratches"
@@ -2629,13 +4262,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 984.409,
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 121.238,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2646,8 +4279,76 @@
       "missingMedia": false
     },
     {
-      "id": "m066",
-      "cue": 66,
+      "id": "m098",
+      "cue": 98,
+      "fromFrame": 9117,
+      "durationInFrames": 79,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 301.9,
+      "tEnd": 304.54,
+      "spoken": "Bond was a veteran drinker after all.",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/7577f22a845b8a3c/IMG_5729.JPG",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 178.985,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m099",
+      "cue": 99,
+      "fromFrame": 9196,
+      "durationInFrames": 61,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 304.54,
+      "tEnd": 306.56,
+      "spoken": "And why did his friend leave him in a car",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": null,
+      "overlays": [],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/034a26d98b0a1eb7/in-70s-font-why.png",
+      "stickerMaxPercent": 90
+    },
+    {
+      "id": "m100",
+      "cue": 100,
       "fromFrame": 9257,
       "durationInFrames": 159,
       "mediaDelayFrames": 0,
@@ -2659,8 +4360,8 @@
       "tEnd": 311.86,
       "spoken": "on a winter night? London nights in February are freezing. Why wasn't he checked on until the",
       "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
         "film_scratches"
@@ -2668,7 +4369,7 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/e0dbf750d480f528/nearly-kills-him.jpg",
+      "src": "media/_library/assets/12c325faba92ff7e/black-and-white-snow-gif.gif",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
@@ -2685,10 +4386,10 @@
       "missingMedia": false
     },
     {
-      "id": "m067",
-      "cue": 67,
+      "id": "m101",
+      "cue": 101,
       "fromFrame": 9416,
-      "durationInFrames": 209,
+      "durationInFrames": 179,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
@@ -2707,13 +4408,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/afcb87ea5b3498d4/look.png",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-          "startFromSec": 175.863,
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2721,11 +4422,13 @@
           "loop": true
         }
       ],
-      "missingMedia": false
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/19eb0ad16c9f110b/university-memory-gif.gif",
+      "stickerMaxPercent": 90
     },
     {
-      "id": "m068",
-      "cue": 68,
+      "id": "m102",
+      "cue": 102,
       "fromFrame": 9621,
       "durationInFrames": 175,
       "mediaDelayFrames": 0,
@@ -2746,13 +4449,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/17440123a856d974/doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 963.895,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2760,21 +4463,23 @@
           "loop": true
         }
       ],
-      "missingMedia": false
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/6dfb35670232e14e/silence-sh-gif.gif",
+      "stickerMaxPercent": 90
     },
     {
-      "id": "m069",
-      "cue": 69,
+      "id": "m103",
+      "cue": 103,
       "fromFrame": 9796,
-      "durationInFrames": 228,
+      "durationInFrames": 105,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 324.52,
-      "tEnd": 332.12,
-      "spoken": "alcohol story? Because it's 1980. In 1980, in media narratives, heroin was tied to nightlife",
+      "tEnd": 328.02,
+      "spoken": "alcohol story? Because it's 1980. In",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
@@ -2787,11 +4492,11 @@
       "textGraphicLayer": null,
       "src": "media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 99.606,
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 42.142,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2802,18 +4507,45 @@
       "missingMedia": false
     },
     {
-      "id": "m070",
-      "cue": 70,
+      "id": "m104",
+      "cue": 104,
+      "fromFrame": 9901,
+      "durationInFrames": 123,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 328.02,
+      "tEnd": 332.12,
+      "spoken": "1980, in media narratives, heroin was tied to nightlife",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/468343728f2a87c1/asset.jpg",
+      "mediaKind": "image",
+      "overlaySrc": null,
+      "overlays": [],
+      "missingMedia": false
+    },
+    {
+      "id": "m105",
+      "cue": 105,
       "fromFrame": 10024,
-      "durationInFrames": 205,
+      "durationInFrames": 114,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 332.12,
-      "tEnd": 338.96,
-      "spoken": "subcultures that mainstream rock audiences viewed as alien, like disco, queer, and art scene spaces.",
+      "tEnd": 335.92,
+      "spoken": "subcultures that mainstream rock audiences viewed as alien,",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
@@ -2824,13 +4556,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
-      "mediaKind": "image",
+      "src": null,
+      "mediaKind": "none",
       "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
       "overlays": [
         {
           "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 1182.927,
+          "startFromSec": 1251.851,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2838,40 +4570,144 @@
           "loop": true
         }
       ],
-      "missingMedia": false
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/6d74d60939a20771/heavy-metal-80s-gif-by-retro-fiend.gif",
+      "stickerMaxPercent": 90
     },
     {
-      "id": "m071",
-      "cue": 71,
+      "id": "m106",
+      "cue": 106,
+      "fromFrame": 10138,
+      "durationInFrames": 91,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 335.92,
+      "tEnd": 338.96,
+      "spoken": "like disco, queer, and art scene spaces.",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 27.222,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/08cda80875af3d05/vcq9hfdbbnzro.gif",
+      "stickerMaxPercent": 90
+    },
+    {
+      "id": "m107",
+      "cue": 107,
       "fromFrame": 10249,
-      "durationInFrames": 191,
+      "durationInFrames": 107,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 339.62,
-      "tEnd": 345.98,
-      "spoken": "And that stigma made the story commercially explosive. ACDC was trying to further conquer the",
+      "tEnd": 343.2,
+      "spoken": "And that stigma made the story commercially explosive.",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 17.827,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/ddbd21b9ac1f4628/explode-blow-up-gif-by-motortrend.gif",
+      "stickerMaxPercent": 90
+    },
+    {
+      "id": "m108",
+      "cue": 108,
+      "fromFrame": 10356,
+      "durationInFrames": 83,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 343.2,
+      "tEnd": 345.98,
+      "spoken": "ACDC was trying to further conquer the",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
       "src": "media/_library/assets/955c769468f3a062/acdc-1979-billboard-1548.webp",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 51.125,
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1520.381,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -2880,18 +4716,18 @@
       "missingMedia": false
     },
     {
-      "id": "m072",
-      "cue": 72,
+      "id": "m109",
+      "cue": 109,
       "fromFrame": 10439,
-      "durationInFrames": 155,
+      "durationInFrames": 33,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 345.98,
-      "tEnd": 351.16,
-      "spoken": "American market. You have to understand their demographic at that moment. Working class,",
+      "tEnd": 347.08,
+      "spoken": "American market.",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
@@ -2902,13 +4738,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/674b2c3f2044be34/ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.jpg",
-      "mediaKind": "image",
+      "src": null,
+      "mediaKind": "none",
       "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
       "overlays": [
         {
           "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 496.346,
+          "startFromSec": 842.198,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2916,38 +4752,95 @@
           "loop": true
         }
       ],
-      "missingMedia": false
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/c0f1de7b09e285a4/american-wrestling-gif.gif",
+      "stickerMaxPercent": 90
     },
     {
-      "id": "m073",
-      "cue": 73,
+      "id": "m110",
+      "cue": 110,
+      "fromFrame": 10472,
+      "durationInFrames": 122,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 347.08,
+      "tEnd": 351.16,
+      "spoken": "You have to understand their demographic at that moment. Working class,",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1241.957,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/8d4f85bb6e1fa75f/heavy-metal-80s-movies-gif-by-retro-fiend.gif",
+      "stickerMaxPercent": 90
+    },
+    {
+      "id": "m111",
+      "cue": 111,
       "fromFrame": 10595,
-      "durationInFrames": 262,
+      "durationInFrames": 70,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 351.16,
-      "tEnd": 359.88,
-      "spoken": "mainstream, suburban, beer, denim, v8s. That crowd was explicitly anti-disco and suspicious of",
+      "tEnd": 353.49,
+      "spoken": "mainstream, suburban,",
       "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
         "film_scratches"
       ],
       "transition": null,
-      "textGraphic": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "mainstream, suburban",
+        "style": "bold"
+      },
       "textGraphicLayer": null,
-      "src": "media/_library/assets/35727d85900ce2bb/but-the-narrator-is-generic.png",
-      "mediaKind": "image",
+      "src": null,
+      "mediaKind": "generated",
       "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
       "overlays": [
         {
           "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 118.591,
+          "startFromSec": 96.022,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -2958,37 +4851,149 @@
       "missingMedia": false
     },
     {
-      "id": "m074",
-      "cue": 74,
+      "id": "m112",
+      "cue": 112,
+      "fromFrame": 10665,
+      "durationInFrames": 71,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 353.49,
+      "tEnd": 355.87,
+      "spoken": "beer, denim, v8s.",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/8aa3e128b71e4729/genphoto-9d4ef105.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 573.769,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m113",
+      "cue": 113,
+      "fromFrame": 10736,
+      "durationInFrames": 120,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 355.87,
+      "tEnd": 359.88,
+      "spoken": "That crowd was explicitly",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 616.61,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m114",
+      "cue": 114,
       "fromFrame": 10856,
-      "durationInFrames": 206,
+      "durationInFrames": 73,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 359.88,
-      "tEnd": 366.74,
-      "spoken": "art scene posturing. And in the public imagination of that era, heroin read as downtown junkies,",
+      "tEnd": 362.32,
+      "spoken": "art scene posturing. And in the public",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
-      "mediaType": "photo",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
-      "textGraphic": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "art scene",
+        "style": "typewriter"
+      },
       "textGraphicLayer": null,
-      "src": "media/_library/assets/094f27350f2e7c95/brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+      "src": "media/_library/assets/e8fa5d224be1833e/bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 228.681,
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 24.035,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -2997,8 +5002,35 @@
       "missingMedia": false
     },
     {
-      "id": "m075",
-      "cue": 75,
+      "id": "m115",
+      "cue": 115,
+      "fromFrame": 10930,
+      "durationInFrames": 133,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 362.32,
+      "tEnd": 366.74,
+      "spoken": "imagination of that era, heroin read as downtown junkies,",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/003ce38ca2b5df44/asset.jpg",
+      "mediaKind": "image",
+      "overlaySrc": null,
+      "overlays": [],
+      "missingMedia": false
+    },
+    {
+      "id": "m116",
+      "cue": 116,
       "fromFrame": 11072,
       "durationInFrames": 253,
       "mediaDelayFrames": 0,
@@ -3010,24 +5042,38 @@
       "tEnd": 375.48,
       "spoken": "disco bathrooms, punk squads, self-destruction, and gay. So a heroin narrative around Bond would",
       "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "text_graphic",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
-      "textGraphic": null,
+      "textGraphic": {
+        "type": "transcription",
+        "text": "disco bathrooms, punk squads, self-destruction, and gay",
+        "style": "typewriter"
+      },
       "textGraphicLayer": null,
-      "src": "media/_library/assets/0d61d90cad7217bd/thinking-man-png-image-man-thinking.png",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "src": null,
+      "mediaKind": "generated",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 78.061,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -3036,18 +5082,18 @@
       "missingMedia": false
     },
     {
-      "id": "m076",
-      "cue": 76,
+      "id": "m117",
+      "cue": 117,
       "fromFrame": 11324,
-      "durationInFrames": 208,
+      "durationInFrames": 142,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 375.48,
-      "tEnd": 382.42,
-      "spoken": "not just be bad press. It would feel like cultural betrayal. ACDC were just about to put out",
+      "tEnd": 380.21,
+      "spoken": "not just be bad press. It would feel like cultural betrayal.",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "photo",
@@ -3060,11 +5106,11 @@
       "textGraphicLayer": null,
       "src": "media/_library/assets/bc7f2e58967c2ffa/bon_and_angus.jpg",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 452.817,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -3075,18 +5121,67 @@
       "missingMedia": false
     },
     {
-      "id": "m077",
-      "cue": 77,
+      "id": "m118",
+      "cue": 118,
+      "fromFrame": 11466,
+      "durationInFrames": 66,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 380.21,
+      "tEnd": 382.42,
+      "spoken": "ACDC were just about to put out",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 274.657,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m119",
+      "cue": 119,
       "fromFrame": 11533,
-      "durationInFrames": 169,
+      "durationInFrames": 85,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 382.42,
-      "tEnd": 388.06,
-      "spoken": "back in black. The thought might have been, who's gonna buy a back in black if Bond Scott just",
+      "tEnd": 385.24,
+      "spoken": "back in black. The thought might have been,",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "artifact",
       "mediaType": "photo",
@@ -3099,11 +5194,11 @@
       "textGraphicLayer": null,
       "src": "media/_library/assets/f9f39c4301aaab48/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 247.816,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -3114,21 +5209,119 @@
       "missingMedia": false
     },
     {
-      "id": "m078",
-      "cue": 78,
+      "id": "m120",
+      "cue": 120,
+      "fromFrame": 11617,
+      "durationInFrames": 85,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 385.24,
+      "tEnd": 388.06,
+      "spoken": "who's gonna buy a back in black if Bond Scott just",
+      "notes": null,
+      "visualMode": "effect_only",
+      "mediaType": "generated",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/fbae57ba1193a747/asset.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 43.663,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m121",
+      "cue": 121,
       "fromFrame": 11702,
-      "durationInFrames": 205,
+      "durationInFrames": 76,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
       "mediaFit": null,
       "motionTiltDeg": null,
       "motionScrollSpeed": null,
       "tStart": 388.06,
-      "tEnd": 394.9,
-      "spoken": "died like a velvet underground groupie? Look, in 1980, radio gatekeepers were conservative.",
+      "tEnd": 390.58,
+      "spoken": "died like a velvet underground groupie?",
       "notes": "[Library pass \u2014 verify license before publish]",
       "visualMode": "historical",
       "mediaType": "video",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/fbae57ba1193a747/asset.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 125.386,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m122",
+      "cue": 122,
+      "fromFrame": 11777,
+      "durationInFrames": 130,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 390.58,
+      "tEnd": 394.9,
+      "spoken": "Look, in 1980, radio gatekeepers were conservative.",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
         "film_scratches"
@@ -3136,13 +5329,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/0b35e485f1110e2f/okay-now-listen-to-the-best-songs-on-back-in-black.mp4",
-      "mediaKind": "video",
-      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "src": "media/_library/assets/8221c5d008394875/asset.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
-          "startFromSec": 748.186,
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 72.126,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -3153,8 +5346,8 @@
       "missingMedia": false
     },
     {
-      "id": "m079",
-      "cue": 79,
+      "id": "m123",
+      "cue": 123,
       "fromFrame": 11926,
       "durationInFrames": 193,
       "mediaDelayFrames": 0,
@@ -3166,24 +5359,34 @@
       "tEnd": 401.96,
       "spoken": "Advertisers were risk averse. Program directors would have backed away fast. A heroin story could",
       "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/d3463c98df6c20fe/theres-no-wink.png",
-      "mediaKind": "image",
+      "src": null,
+      "mediaKind": "none",
       "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
       "overlays": [
         {
           "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 31.681,
+          "startFromSec": 619.443,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -3192,8 +5395,8 @@
       "missingMedia": false
     },
     {
-      "id": "m080",
-      "cue": 80,
+      "id": "m124",
+      "cue": 124,
       "fromFrame": 12119,
       "durationInFrames": 198,
       "mediaDelayFrames": 0,
@@ -3209,20 +5412,30 @@
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/b8ccbdb02d5fde6a/five-months-later-they-release-back-in-black.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "src": "media/_library/assets/0b35e485f1110e2f/okay-now-listen-to-the-best-songs-on-back-in-black.mp4",
+      "mediaKind": "video",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
       "overlays": [
         {
-          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 387.951,
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 771.958,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -3231,8 +5444,8 @@
       "missingMedia": false
     },
     {
-      "id": "m081",
-      "cue": 81,
+      "id": "m125",
+      "cue": 125,
       "fromFrame": 12317,
       "durationInFrames": 205,
       "mediaDelayFrames": 0,
@@ -3248,6 +5461,7 @@
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
+        "slow_spin",
         "film_scratches"
       ],
       "transition": null,
@@ -3270,8 +5484,8 @@
       "missingMedia": false
     },
     {
-      "id": "m082",
-      "cue": 82,
+      "id": "m126",
+      "cue": 126,
       "fromFrame": 12522,
       "durationInFrames": 226,
       "mediaDelayFrames": 0,
@@ -3283,136 +5497,12 @@
       "tEnd": 422.92,
       "spoken": "committee to cover it up. You need self-preservation. You need everyone to choose the least explosive",
       "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/3a44b54bee2b591f/and-he-tells-people-privately-not-in-interviews-not-for-the-press.gif",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
-          "startFromSec": 17.682,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m083",
-      "cue": 83,
-      "fromFrame": 12748,
-      "durationInFrames": 193,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 422.92,
-      "tEnd": 429.34,
-      "spoken": "explanation. So given all this, did Bond Scott know that he was going to die?",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": {
-        "type": "quote",
-        "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
-        "style": "typewriter"
-      },
-      "textGraphicLayer": {
-        "type": "quote",
-        "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
-        "style": "typewriter"
-      },
-      "src": "media/_library/assets/c7eefae85ab039c9/bond-scott-wrote-the-lyrics-on-back-in-black.jpeg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
-          "startFromSec": 38.242,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m084",
-      "cue": 84,
-      "fromFrame": 12910,
-      "durationInFrames": 276,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 429.34,
-      "tEnd": 436.54,
-      "spoken": "I think he heard the bill coming due. I think he kept playing. He kept walking. The devil",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
-      "id": "m085",
-      "cue": 85,
-      "fromFrame": 13156,
-      "durationInFrames": 208,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 436.54,
-      "tEnd": 443.46,
-      "spoken": "hot on his heels, ready to collect. And we consumed it all as entertainment. Either way,",
-      "notes": "[Library pass \u2014 verify license before publish]",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "textGraphic": null,
@@ -3429,13 +5519,230 @@
           "placement": "full",
           "windowSec": null,
           "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/7206a855e6688cd6/in-acdc-font-money.png",
+      "stickerMaxPercent": 90
+    },
+    {
+      "id": "m127",
+      "cue": 127,
+      "fromFrame": 12748,
+      "durationInFrames": 193,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 422.92,
+      "tEnd": 429.34,
+      "spoken": "explanation. So given all this, did Bond Scott know that he was going to die?",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage",
+        "tremble",
+        "slow_zoom_in"
+      ],
+      "transition": null,
+      "textGraphic": {
+        "type": "quote",
+        "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
+        "style": "typewriter"
+      },
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1359.009,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
         }
       ],
       "missingMedia": false
     },
     {
-      "id": "m086",
-      "cue": 86,
+      "id": "m128",
+      "cue": 128,
+      "fromFrame": 12940,
+      "durationInFrames": 216,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 429.34,
+      "tEnd": 436.54,
+      "spoken": "I think he heard the bill coming due. I think he kept playing. He kept walking. The devil",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage",
+        "slow_push_in"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+          "startFromSec": 10.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m129",
+      "cue": 129,
+      "fromFrame": 13156,
+      "durationInFrames": 80,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 436.54,
+      "tEnd": 439.22,
+      "spoken": "hot on his heels, ready to collect.",
+      "notes": "[Library pass \u2014 verify license before publish]",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage",
+        "shake"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/d86f16ffc38bdf33/genphoto-6d05d0cf.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1263.717,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m130",
+      "cue": 130,
+      "fromFrame": 13237,
+      "durationInFrames": 127,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 439.22,
+      "tEnd": 443.46,
+      "spoken": "And we consumed it all as entertainment. Either way,",
+      "notes": null,
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": null,
+      "mediaKind": "none",
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 555.97,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false,
+      "stickerSrc": "media/_library/assets/056be30c7a3270ab/black-friday-shopping-gif.gif",
+      "stickerMaxPercent": 90
+    },
+    {
+      "id": "m131",
+      "cue": 131,
       "fromFrame": 13364,
       "durationInFrames": 160,
       "mediaDelayFrames": 0,
@@ -3456,13 +5763,13 @@
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": "media/_library/assets/961568fea3dfcaba/ZzOR9-dzUtU_trimmed.mp4",
-      "mediaKind": "video",
-      "overlaySrc": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
+      "src": "media/_library/assets/b8ccbdb02d5fde6a/five-months-later-they-release-back-in-black.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/scratches/RG6-qo3qt8A.f248.webm",
-          "startFromSec": 10.0,
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 116.128,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -3473,8 +5780,8 @@
       "missingMedia": false
     },
     {
-      "id": "m087",
-      "cue": 87,
+      "id": "m132",
+      "cue": 132,
       "fromFrame": 13524,
       "durationInFrames": 60,
       "mediaDelayFrames": 0,
@@ -3489,20 +5796,42 @@
       "visualMode": "effect_only",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
       "src": null,
       "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 1043.568,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
       "missingMedia": false
     }
   ],
   "stats": {
-    "shot_count": 88,
-    "missing_media": 0,
+    "shot_count": 133,
+    "missing_media": 2,
     "end_sec": 450.8
   }
 }

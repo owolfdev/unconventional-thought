@@ -2,34 +2,33 @@
   "version": 1,
   "id": "m021",
   "cue": 21,
-  "t_start": 57.8,
-  "t_end": 62.06,
-  "duration_sec": 4.26,
-  "spoken": "It's like a supernatural nonchalance. And what about the lyrics?",
+  "t_start": 56.24,
+  "t_end": 57.8,
+  "duration_sec": 1.56,
+  "spoken": "things might pick up on it.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "'Supernatural nonchalance' — Bon backstage or live, eerie calm amid chaos.",
-  "situation": "Bon Scott backstage calm 1979 — detached, knowing expression",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
   "people": [
     {
-      "name": "Bon Scott",
-      "role": "vocalist"
+      "name": "AC/DC",
+      "role": "band"
     }
   ],
-  "date_from": "1979",
-  "date_to": "1979",
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
   "search_queries": [
-    "Bon Scott backstage 1979 candid calm",
-    "Bon Scott 1979 portrait relaxed eyes",
-    "Bon Scott AC/DC offstage 1979"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -37,22 +36,17 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "'Supernatural nonchalance' — Bon backstage or live, eerie calm amid chaos.",
-      "status": "selected"
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: Bon Scott backstage 1979 candid calm",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Bon Scott 1979 portrait relaxed eyes",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: Bon Scott AC/DC offstage 1979",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
     }
   ],
@@ -63,8 +57,9 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "asset.jpg"
+    "giphy-VR5vpHql907juPFGTU.gif",
+    "think-about-it-gif-by-identity.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.335Z"
+  "updated_at": "2026-06-15T20:27:49.081Z"
 }

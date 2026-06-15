@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m042",
   "cue": 42,
-  "t_start": 156.66,
-  "t_end": 163.2,
-  "duration_sec": 6.54,
-  "spoken": "Jimmy Hendrix, Janice Chaplin, Jim Morrison, Kurt Cobain, and many others. Same equation,",
+  "t_start": 112.06,
+  "t_end": 118.04,
+  "duration_sec": 5.98,
+  "spoken": "a dark figure steps out of the blackness. It takes the guitar, tunes it, plays something",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -57,9 +57,10 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-y1tVEitC59QTmPGTPx.gif",
-    "i-used-up-one-of-my-nine-lives-on-that-one.jpg"
+    "giphy-117gK0K7OZ8UcE.gif",
+    "1931-the-dead-of-night-lonely-crossroad-in-mississippi-a-dark-figure-steps-out-o.png",
+    "genphoto-95b3e197.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.340Z"
+  "updated_at": "2026-06-15T20:27:49.092Z"
 }

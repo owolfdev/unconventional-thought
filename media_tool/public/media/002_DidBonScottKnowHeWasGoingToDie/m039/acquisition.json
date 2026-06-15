@@ -19,38 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson blues musician 1937",
+      "query": "Robert Johnson blues guitarist photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:5771ff5aa07ec028",
-          "url": "/media/_library/assets/5771ff5aa07ec028/download-872321de6e71-inv.jpg",
-          "thumbnail_url": "/media/_library/assets/5771ff5aa07ec028/download-872321de6e71-inv.jpg",
-          "title": "download-872321de6e71-inv.jpg",
-          "source_page": "/media/_library/assets/5771ff5aa07ec028/download-872321de6e71-inv.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
+          "result_id": "library:38d8e4b1a7c1c2d5",
+          "url": "/media/_library/assets/38d8e4b1a7c1c2d5/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/38d8e4b1a7c1c2d5/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/38d8e4b1a7c1c2d5/asset.jpg",
+          "license": "verify rights before use",
           "engine_id": "library",
-          "query": "Robert Johnson blues musician 1937",
-          "selected_at": "2026-06-11T09:39:58.219501Z"
+          "query": "asset.jpg",
+          "selected_at": "2026-06-11T21:09:33.088Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Mississippi juke joint musicians 1930s",
+      "query": "Robert Johnson with guitar 1930s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Robert Johnson contemporaries blues scene",
+      "query": "Robert Johnson portrait blues musician",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.219505Z",
-  "updated_at": "2026-06-11T09:39:58.219505Z"
+  "completed_at": "2026-06-13T08:12:00.708Z",
+  "updated_at": "2026-06-13T08:12:00.708Z"
 }

@@ -2,34 +2,37 @@
   "version": 1,
   "id": "m014",
   "cue": 14,
-  "t_start": 44.72,
-  "t_end": 48.28,
-  "duration_sec": 3.56,
-  "spoken": "He sounds looser, warmer, floating downstream.",
+  "t_start": 42.3,
+  "t_end": 44.72,
+  "duration_sec": 2.42,
+  "spoken": "but by Highway to Hell, something shifts.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Highway to Hell shift — looser, warmer, leaning back. 1979 Bon relaxed on stage.",
-  "situation": "Bon Scott 1979 live relaxed leaning back microphone — downstream calm",
+  "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+  "situation": "AC/DC Highway to Hell tour live performance 1979",
   "people": [
     {
       "name": "Bon Scott",
       "role": "vocalist"
+    },
+    {
+      "name": "AC/DC",
+      "role": "band"
     }
   ],
   "date_from": "1979",
   "date_to": "1979",
   "location": "",
   "search_queries": [
-    "Bon Scott 1979 live relaxed performance",
-    "Bon Scott Highway to Hell tour leaning microphone",
-    "Bon Scott 1979 stage calm expression"
+    "AC/DC Highway to Hell tour 1979",
+    "Bon Scott Highway to Hell live 1979"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -37,35 +40,31 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Highway to Hell shift — looser, warmer, leaning back. 1979 Bon relaxed on stage.",
-      "status": "selected"
+      "description": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: Bon Scott 1979 live relaxed performance",
+      "description": "Candidate from query: AC/DC Highway to Hell tour 1979",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Bon Scott Highway to Hell tour leaning microphone",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: Bon Scott 1979 stage calm expression",
+      "description": "Candidate from query: Bon Scott Highway to Hell live 1979",
       "status": "needed"
     }
   ],
   "effects": [
-    "vignette_soft",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "bon-scott-gif.gif"
+    "giphy-dM2xuxnJCg4H6.gif",
+    "acdc-logo-style-highway-to-hell.png",
+    "genphoto-eb88c42a.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-11T21:10:09.333Z"
+  "updated_at": "2026-06-15T20:27:49.076Z"
 }
