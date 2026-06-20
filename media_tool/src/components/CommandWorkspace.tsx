@@ -338,18 +338,17 @@ export function CommandWorkspace() {
       if (!mode) {
         pushLine(
           setResponseLines,
-          `Unknown visual mode: ${rawMode}\nTry @help modes`,
+          `Unknown visual mode: ${rawMode}\nTry @help mode`,
           "error",
         );
         return;
       }
 
-      if (currentAcq.resolved_visual_mode === mode) {
+      const updated = applyVisualModeChange(currentAcq, mode, currentItem);
+      if (updated === currentAcq) {
         pushLine(setResponseLines, `Already ${mode}.`, "warn");
         return;
       }
-
-      const updated = applyVisualModeChange(currentAcq, mode);
 
       const acquisition = {
         ...loadState.acquisition,
@@ -790,7 +789,7 @@ export function CommandWorkspace() {
       case "status":
         pushLine(
           setResponseLines,
-          formatStatus(currentItem, currentAcq, itemIndex, items.length, isDirty),
+          formatStatus(currentItem, currentAcq, items.length, isDirty),
         );
         break;
       case "navigate": {
@@ -955,7 +954,6 @@ export function CommandWorkspace() {
           <CueStatsPanel
             item={currentItem}
             acq={currentAcq}
-            itemIndex={itemIndex}
             total={items.length}
             dirty={isDirty}
           />

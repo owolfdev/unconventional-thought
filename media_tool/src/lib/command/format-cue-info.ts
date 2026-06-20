@@ -3,7 +3,7 @@ import type {
   MediaToolItem,
   SelectedMedia,
 } from "@/lib/types";
-import { formatCueLabel } from "@/lib/cue-id";
+import { formatCueLabel, formatCuePositionLabel } from "@/lib/cue-id";
 import { VISUAL_MODE_LABELS, normalizeVisualMode } from "@/lib/visual-modes";
 import {
   getActiveStickerSelection,
@@ -85,14 +85,14 @@ export function formatEffects(acq: ItemAcquisition): string {
 export function formatStatus(
   item: MediaToolItem,
   acq: ItemAcquisition,
-  index: number,
   total: number,
   dirty: boolean,
 ): string {
+  const mode = normalizeVisualMode(acq.resolved_visual_mode);
   return [
-    `${formatCueLabel(item.id)} · ${index + 1}/${total}`,
+    `${formatCueLabel(item.id)} · ${formatCuePositionLabel(item, total)}`,
+    `mode: ${VISUAL_MODE_LABELS[mode]} · ${mode}`,
     `status: ${acq.status}`,
-    `visual: ${normalizeVisualMode(acq.resolved_visual_mode)}`,
     `media type: ${acq.resolved_media_type}`,
     dirty ? "unsaved changes" : "saved",
   ].join("\n");

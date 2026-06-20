@@ -6,8 +6,8 @@
   "t_end": 11,
   "duration_sec": 5,
   "spoken": "Search the library or Google for test images.",
-  "visual_mode": "stock",
-  "expected_media_type": "photo",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
   "editorial_intent": "Exercise @search library and @search google.",
   "situation": "Stock search test",
   "people": [],
@@ -24,9 +24,9 @@
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Exercise @search library and @search google.",
-      "status": "selected"
+      "slot": "black_plate",
+      "description": "Sandbox — safe to experiment.",
+      "status": "acquired"
     }
   ],
   "effects": [
@@ -34,10 +34,10 @@
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
     "asset.gif"
   ],
   "source_media_search": "episodes/000_Sandbox/timeline/media_search.json",
-  "updated_at": "2026-06-20T19:45:33.207Z"
+  "updated_at": "2026-06-20T20:19:46.231Z"
 }

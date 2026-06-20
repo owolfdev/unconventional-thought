@@ -1,10 +1,14 @@
-import type { ItemAcquisition } from "@/lib/types";
+import type { ItemAcquisition, TextGraphic } from "@/lib/types";
 import {
   VISUAL_MODES,
   VISUAL_MODE_LABELS,
   normalizeVisualMode,
   type VisualMode,
 } from "@/lib/visual-modes";
+
+type ManifestModeDefaults = {
+  text_graphic?: TextGraphic | null;
+};
 
 const MODE_ALIASES: Record<string, VisualMode> = {
   historical: "historical",
@@ -33,29 +37,47 @@ export function resolveVisualModeArg(raw: string): VisualMode | null {
 export function applyVisualModeChange(
   acq: ItemAcquisition,
   mode: VisualMode,
+  manifestItem?: ManifestModeDefaults,
 ): ItemAcquisition {
   const current = normalizeVisualMode(acq.resolved_visual_mode);
-  if (current === mode) return acq;
+  const text_graphic =
+    mode === "text_graphic"
+      ? acq.text_graphic ?? manifestItem?.text_graphic ?? null
+      : null;
+  const text_graphic_layer =
+    mode === "text_graphic" || mode === "effect_only"
+      ? null
+      : acq.text_graphic_layer;
+  const status =
+    mode === "text_graphic"
+      ? "text_graphic"
+      : mode === "effect_only"
+        ? "in_progress"
+        : acq.status === "text_graphic"
+          ? "in_progress"
+          : acq.status;
+  const resolved_media_type =
+    mode === "text_graphic" || mode === "effect_only"
+      ? "generated"
+      : acq.resolved_media_type;
+
+  if (
+    current === mode &&
+    acq.text_graphic === text_graphic &&
+    acq.text_graphic_layer === text_graphic_layer &&
+    acq.status === status &&
+    acq.resolved_media_type === resolved_media_type
+  ) {
+    return acq;
+  }
 
   return {
     ...acq,
     resolved_visual_mode: mode,
-    text_graphic_layer:
-      mode === "text_graphic" || mode === "effect_only"
-        ? null
-        : acq.text_graphic_layer,
-    status:
-      mode === "text_graphic"
-        ? "text_graphic"
-        : mode === "effect_only"
-          ? "in_progress"
-          : acq.status === "text_graphic"
-            ? "in_progress"
-            : acq.status,
-    resolved_media_type:
-      mode === "text_graphic" || mode === "effect_only"
-        ? "generated"
-        : acq.resolved_media_type,
+    text_graphic,
+    text_graphic_layer,
+    status,
+    resolved_media_type,
     updated_at: new Date().toISOString(),
   };
 }
@@ -76,6 +98,8 @@ export function formatModesHelp(): string {
     "Change (saved immediately):",
     "  @mode effect_only",
     "  @mode historical",
+    "",
+    "Resolved mode drives Remotion render. Leaving text_graphic clears full-cue typography.",
   ].join("\n");
 }
 

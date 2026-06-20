@@ -7,7 +7,7 @@ export { normalizeCueId, formatCueLabel };
 const CUE_REF = String.raw`(m?\d+)`;
 
 const HELP_TEXT = `Directives (@ prefix):
-  @help @help effects  @info @layers @effects @status
+  @help @help effects @help mode  @info @layers @effects @status
   @effect add|remove <id>
   @mode  @mode <historical|stock|artifact|text_graphic|effect_only>
   @cue 22  @22  @next  @prev  @next incomplete
@@ -66,10 +66,10 @@ export function parseDirectiveInput(raw: string): ParsedDirective {
   const line = text.split("\n")[0]?.trim() ?? text;
   const lower = line.toLowerCase();
 
-  if (lower === "@help effects" || lower === "@help effect") {
+  if (/^@help\s+effects?\s*$/i.test(line)) {
     return { kind: "helpTopic", topic: "effects" };
   }
-  if (lower === "@help modes" || lower === "@help mode") {
+  if (/^@help\s+modes?\s*$/i.test(line)) {
     return { kind: "helpTopic", topic: "modes" };
   }
   if (lower === "@help") return { kind: "help" };

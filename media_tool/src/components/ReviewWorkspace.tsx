@@ -16,6 +16,7 @@ import {
   VISUAL_MODE_LABELS,
   VISUAL_MODES,
 } from "@/lib/visual-modes";
+import { applyVisualModeChange } from "@/lib/command/mode-commands";
 import { CueLibraryPicker } from "./CueLibraryPicker";
 import { CueStagedMedia } from "./CueStagedMedia";
 import { EffectsPanel } from "./EffectsPanel";
@@ -1049,25 +1050,9 @@ export function ReviewWorkspace() {
                   value={normalizeVisualMode(currentAcq.resolved_visual_mode)}
                   onChange={(e) => {
                     const mode = e.target.value as VisualMode;
-                    updateCurrentAcq({
-                      resolved_visual_mode: mode,
-                      text_graphic_layer:
-                        mode === "text_graphic" || mode === "effect_only"
-                          ? null
-                          : currentAcq.text_graphic_layer,
-                      status:
-                        mode === "text_graphic"
-                          ? "text_graphic"
-                          : mode === "effect_only"
-                            ? "in_progress"
-                            : currentAcq.status === "text_graphic"
-                              ? "in_progress"
-                              : currentAcq.status,
-                      resolved_media_type:
-                        mode === "text_graphic" || mode === "effect_only"
-                          ? "generated"
-                          : currentAcq.resolved_media_type,
-                    });
+                    updateCurrentAcq(
+                      applyVisualModeChange(currentAcq, mode, currentItem),
+                    );
                   }}
                 >
                   {VISUAL_MODES.map((mode) => (

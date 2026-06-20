@@ -2,8 +2,8 @@
   "id": "m002",
   "cue": 2,
   "source_visual_mode": "stock",
-  "resolved_visual_mode": "stock",
-  "resolved_media_type": "photo",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "in_progress",
   "notes": "Sandbox — safe to experiment.",
   "effects": [
@@ -45,5 +45,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-20T19:45:32.896Z"
+  "updated_at": "2026-06-20T19:56:41.465Z"
 }

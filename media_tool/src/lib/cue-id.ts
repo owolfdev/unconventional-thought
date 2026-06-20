@@ -18,3 +18,14 @@ export function formatCueLabel(id: string): string {
   if (!m) return id;
   return String(Number.parseInt(m[1], 10));
 }
+
+/** Episode title-card slot before VO (m000 / cue 0). */
+export function isPrerollCue(item: { cue: number }): boolean {
+  return item.cue === 0;
+}
+
+/** Header position: `preroll` for cue 0, else `{cue}/{total}` (e.g. `1/9`). */
+export function formatCuePositionLabel(item: { cue: number }, total: number): string {
+  if (isPrerollCue(item)) return "preroll";
+  return `${item.cue}/${total}`;
+}

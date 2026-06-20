@@ -917,11 +917,8 @@ def build_shot(
                 shot["mediaFit"] = "contain"
         else:
             shot["mediaKind"] = "none"
-        if not shot["textGraphic"] and acq.get("text_graphic"):
-            shot["textGraphic"] = acq["text_graphic"]
-        # Sticker/title PNG replaces generated typography on effect-only cues.
-        if shot.get("stickerSrc") or shot.get("titleOverlaySrc"):
-            shot["textGraphic"] = None
+        # Typography is text_graphic mode only — resolved_visual_mode controls render.
+        shot["textGraphic"] = None
         return shot
 
     if mode == "text_graphic":

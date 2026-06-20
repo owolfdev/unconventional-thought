@@ -1,13 +1,12 @@
 "use client";
 
 import type { ItemAcquisition, MediaToolItem } from "@/lib/types";
-import { formatCueLabel } from "@/lib/cue-id";
+import { formatCueLabel, formatCuePositionLabel } from "@/lib/cue-id";
 import { VISUAL_MODE_LABELS, normalizeVisualMode } from "@/lib/visual-modes";
 
 interface Props {
   item: MediaToolItem;
   acq: ItemAcquisition;
-  itemIndex: number;
   total: number;
   dirty: boolean;
 }
@@ -15,7 +14,6 @@ interface Props {
 export function CueStatsPanel({
   item,
   acq,
-  itemIndex,
   total,
   dirty,
 }: Props) {
@@ -27,7 +25,7 @@ export function CueStatsPanel({
       <div className="flex items-center justify-between gap-2 font-mono text-xs">
         <span className="text-amber-200/90">{formatCueLabel(item.id)}</span>
         <span className="text-zinc-500">
-          {itemIndex + 1}/{total}
+          {formatCuePositionLabel(item, total)}
           {dirty ? " · unsaved" : ""}
         </span>
       </div>

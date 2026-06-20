@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-20T19:45:33.204Z",
+  "updated_at": "2026-06-20T20:19:46.229Z",
   "asset_count": 338,
   "assets": [
     {
@@ -19,7 +19,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-16T12:06:28.369Z",
-      "updated_at": "2026-06-20T19:45:33.197Z"
+      "updated_at": "2026-06-20T20:19:46.220Z"
     },
     {
       "id": "2f0ea3cc0654a22e",
@@ -37,7 +37,7 @@
       "usage_count": 5,
       "archived": false,
       "created_at": "2026-06-05T22:11:29.000Z",
-      "updated_at": "2026-06-20T19:45:33.188Z"
+      "updated_at": "2026-06-20T20:19:46.210Z"
     },
     {
       "id": "4df094b9972c4bbc",

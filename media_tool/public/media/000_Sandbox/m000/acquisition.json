@@ -2,11 +2,14 @@
   "id": "m000",
   "cue": 0,
   "source_visual_mode": "text_graphic",
-  "resolved_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
   "resolved_media_type": "generated",
-  "status": "text_graphic",
+  "status": "in_progress",
   "notes": "Sandbox — safe to experiment.",
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
   "transition": null,
   "text_graphic": {
     "type": "title",
@@ -40,5 +43,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-20T19:17:02.028Z"
+  "updated_at": "2026-06-20T20:19:46.096Z"
 }

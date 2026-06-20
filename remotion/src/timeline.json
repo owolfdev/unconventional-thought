@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-06-20T19:49:51.863034+00:00",
+  "built_at": "2026-06-20T20:19:52.213430+00:00",
   "episode": "000_Sandbox",
   "max_id": "m008",
   "fps": 30,
@@ -24,21 +24,39 @@
       "tEnd": 2.0,
       "spoken": "",
       "notes": "Sandbox \u2014 safe to experiment.",
-      "visualMode": "text_graphic",
+      "visualMode": "effect_only",
       "mediaType": "generated",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
       "transition": null,
-      "textGraphic": {
-        "type": "title",
-        "text": "Sandbox 000",
-        "style": "typewriter"
-      },
+      "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "generated",
-      "overlaySrc": null,
-      "overlays": [],
+      "src": "media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 968.123,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
       "missingMedia": false
     },
     {
@@ -94,8 +112,8 @@
       "tEnd": 11.0,
       "spoken": "Search the library or Google for test images.",
       "notes": "Sandbox \u2014 safe to experiment.",
-      "visualMode": "stock",
-      "mediaType": "photo",
+      "visualMode": "effect_only",
+      "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
         "film_damage"
