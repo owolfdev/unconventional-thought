@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "f9f39c4301aaab48",
+  "filename": "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
+  "original_filename": "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m001/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m001",
+      "spoken": "Ladies and gentlemen of the jury, I'm gonna make a slightly controversial case here about the most beloved AC DC album in history.",
+      "search_queries": [
+        "AC/DC live 1979 concert",
+        "AC/DC Highway to Hell tour 1979 stage",
+        "AC/DC audience 1979"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC live concert performance crowd and stage",
+      "editorial_intent": "Rhetorical 'jury' — do NOT show a courtroom. Open on AC/DC at cultural peak (late 70s live) or 1980 press moment.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m132",
+      "spoken": "back in black. The thought might have been,",
+      "search_queries": [
+        "Back in Black vinyl record 1980",
+        "AC/DC Back in Black album sleeve 1980",
+        "black vinyl LP 1980 Atlantic Records"
+      ],
+      "people": [],
+      "situation": "Inanimate: Back in Black vinyl record sleeve",
+      "editorial_intent": "Back in Black coming — LP object, avoid trademark cover if possible; sleeve or vinyl edge.",
+      "attached_at": "2026-06-20T06:35:08.572Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-20T06:35:08.572Z",
+  "search_text": "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg ac/dc migrated from 001_whowrotebackinblack/m001/acquired/"
+}

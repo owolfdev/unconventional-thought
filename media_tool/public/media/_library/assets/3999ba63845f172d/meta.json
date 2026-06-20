@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "3999ba63845f172d",
+  "filename": "best-work.png",
+  "original_filename": "sticker-3e2596d8.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai",
+    "bon scott",
+    "ac/dc"
+  ],
+  "manual_notes": "BEST WORK",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m030",
+      "spoken": "It's also hard to argue that it's not his best work.",
+      "search_queries": [
+        "AC/DC studio 1979 recording session",
+        "Bon Scott 1979 creative peak live",
+        "AC/DC band studio 1979 photograph"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell sessions or tour — creative peak 1979",
+      "editorial_intent": "'His best work' — studio or stage peak 1979; pivot into folklore story.",
+      "attached_at": "2026-06-11T20:49:35.559Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-11T20:49:35.559Z",
+  "updated_at": "2026-06-11T20:49:35.559Z",
+  "search_text": "best-work.png sticker-3e2596d8.png sticker openai bon scott ac/dc best work"
+}

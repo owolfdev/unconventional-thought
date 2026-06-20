@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "546ee6ff44257012",
+  "filename": "acdc-font-hey-satan.png",
+  "original_filename": "sticker-e12cf49f.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai"
+  ],
+  "manual_notes": "AC/DC font: Hey Satan",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m026",
+      "spoken": "haste Satan, paying my dues.",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (transcription)",
+      "editorial_intent": "Lyric punch — type the highway lines on grain; VO quotes the song.",
+      "attached_at": "2026-06-14T18:10:57.256Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-14T18:09:46.923Z",
+  "updated_at": "2026-06-14T18:10:57.256Z",
+  "search_text": "acdc-font-hey-satan.png sticker-e12cf49f.png sticker openai ac/dc font: hey satan"
+}

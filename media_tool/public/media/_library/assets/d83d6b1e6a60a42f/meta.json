@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "d83d6b1e6a60a42f",
+  "filename": "bib_gold2-blkbg.jpg",
+  "original_filename": "bib_gold2-blkbg.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "gold / platinum award disc"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m014/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m014",
+      "spoken": "50 million copies.",
+      "search_queries": [
+        "gold record award disc close up",
+        "platinum album plaque 1980s"
+      ],
+      "people": [],
+      "situation": "Inanimate: gold / platinum award disc",
+      "editorial_intent": "Artifact: sales award object — tight on disc/plaque, not band portrait.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m067",
+      "spoken": "Well, they certainly got their money's worth.",
+      "search_queries": [
+        "gold record award disc close up",
+        "RIAA gold album plaque 1970s",
+        "platinum record award wall 1980s"
+      ],
+      "people": [],
+      "situation": "Inanimate: gold record award plaque",
+      "editorial_intent": "Dark wit — 'got their money's worth' — gold/platinum, not another face.",
+      "attached_at": "2026-06-16T12:52:16.277Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m140",
+      "spoken": "store in America. Fifty million copies sold. That's a lot of money. You don't need a secret",
+      "search_queries": [
+        "platinum record award 50 million",
+        "gold record wall multiple awards",
+        "RIAA diamond album award"
+      ],
+      "people": [],
+      "situation": "Inanimate: platinum album award multiple gold records",
+      "editorial_intent": "Fifty million copies — gold/platinum wall, money on the line.",
+      "attached_at": "2026-06-20T06:35:08.609Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-20T06:35:08.609Z",
+  "search_text": "bib_gold2-blkbg.jpg bib_gold2-blkbg.jpg gold / platinum award disc migrated from 001_whowrotebackinblack/m014/acquired/"
+}

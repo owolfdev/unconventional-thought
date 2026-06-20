@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "3664a60b57b4e086",
+  "filename": "punk-rock-vintage-gif.gif",
+  "original_filename": "giphy-hMbx9IYIeWNzO.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media1.giphy.com/media/v1.Y2lkPWExMTZkNmYyb2xueHYzcnZjdXNuM2F6Y2RoeXczeTFneTZhNmV6cjc3MmFybTM5YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hMbx9IYIeWNzO/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "hMbx9IYIeWNzO"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m118",
+      "spoken": "subcultures that mainstream rock audiences viewed as alien,",
+      "search_queries": [
+        "Studio 54 1979 photograph",
+        "disco nightclub 1979 New York",
+        "1979 disco dance floor photograph"
+      ],
+      "people": [],
+      "situation": "Studio 54 disco era 1979 — nightlife mainstream rock feared",
+      "editorial_intent": "Disco, queer, art scene — stigma geography; Studio 54 era, NOT homophobic caricature.",
+      "attached_at": "2026-06-20T06:35:08.481Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T19:49:44.706Z",
+  "updated_at": "2026-06-20T06:35:08.481Z",
+  "search_text": "punk-rock-vintage-gif.gif giphy-hmbx9iyiewnzo.gif giphy hmbx9iyiewnzo"
+}

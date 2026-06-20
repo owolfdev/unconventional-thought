@@ -3,6 +3,7 @@ import { randomUUID } from "crypto";
 import fs from "fs";
 import path from "path";
 import type { MediaToolManifest } from "./types";
+import { normalizeCueId as normalizeCueIdInput } from "./cue-id";
 import { getRepoRoot, resolveManifestPath } from "./paths";
 import {
   latestProgressFromLog,
@@ -38,11 +39,11 @@ export interface RenderJob {
 const CUE_ID_RE = /^m\d{3}$/i;
 
 export function normalizeCueId(raw: string): string {
-  const trimmed = raw.trim().toLowerCase();
-  if (!CUE_ID_RE.test(trimmed)) {
-    throw new Error(`Invalid cue id: ${raw} (expected m###)`);
+  const normalized = normalizeCueIdInput(raw);
+  if (!CUE_ID_RE.test(normalized)) {
+    throw new Error(`Invalid cue id: ${raw} (expected digits or m###)`);
   }
-  return trimmed;
+  return normalized;
 }
 
 export function parseCueNumber(id: string): number {

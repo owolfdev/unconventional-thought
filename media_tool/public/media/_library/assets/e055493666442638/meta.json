@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "id": "e055493666442638",
+  "filename": "think-about-it-gif-by-identity.gif",
+  "original_filename": "giphy-d3mlE7uhX8KFgEmY.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media4.giphy.com/media/v1.Y2lkPWExMTZkNmYyeTQ1YWs4M2lwODhmMmZ3amNqbHY5ZmJwbDl2Z3d3aWNyNHd5aXA2bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/d3mlE7uhX8KFgEmY/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "d3mlE7uhX8KFgEmY"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m020",
+      "spoken": "People who know about these",
+      "search_queries": [
+        "whisky glass bar counter 1970s photograph",
+        "empty bar stool dim pub 1970s",
+        "beer bottles blurred background documentary"
+      ],
+      "people": [],
+      "situation": "Inanimate: whisky glass on bar counter",
+      "editorial_intent": "NOT alcohol — reject beer-sloppy cliché. Whisky glass out of focus or empty bar stool; documentary contrast to 'inebriated' voice claim.",
+      "attached_at": "2026-06-20T06:35:07.855Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m021",
+      "spoken": "things might pick up on it.",
+      "search_queries": [
+        "Bon Scott backstage 1979 candid calm",
+        "Bon Scott 1979 portrait relaxed eyes",
+        "Bon Scott AC/DC offstage 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott backstage calm 1979 — detached, knowing expression",
+      "editorial_intent": "'Supernatural nonchalance' — Bon backstage or live, eerie calm amid chaos.",
+      "attached_at": "2026-06-20T06:35:07.863Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-11T20:29:29.359Z",
+  "updated_at": "2026-06-20T06:35:07.863Z",
+  "search_text": "think-about-it-gif-by-identity.gif giphy-d3mle7uhx8kfgemy.gif giphy d3mle7uhx8kfgemy"
+}

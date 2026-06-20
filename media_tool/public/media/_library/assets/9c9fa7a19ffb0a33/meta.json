@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "9c9fa7a19ffb0a33",
+  "filename": "text-graphic-in-acdc-font-burning-hunger.png",
+  "original_filename": "sticker-81c9f49a.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai",
+    "robert johnson"
+  ],
+  "manual_notes": "text graphic in AC/DC font: BURNING HUNGER",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m040",
+      "spoken": "burning hunger to be a great player and for fame.",
+      "search_queries": [
+        "Robert Johnson blues guitarist photograph",
+        "Robert Johnson with guitar 1930s",
+        "Robert Johnson portrait blues musician"
+      ],
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson guitarist portrait or with guitar 1930s",
+      "editorial_intent": "Robert Johnson with guitar — hunger for greatness; ONLY Johnson-era imagery from here.",
+      "attached_at": "2026-06-20T06:35:07.955Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T21:19:59.312Z",
+  "updated_at": "2026-06-20T06:35:07.955Z",
+  "search_text": "text-graphic-in-acdc-font-burning-hunger.png sticker-81c9f49a.png sticker openai robert johnson text graphic in ac/dc font: burning hunger"
+}

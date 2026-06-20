@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "74fcfb3aa43b4289",
+  "filename": "magnify-rick-moranis-gif.gif",
+  "original_filename": "giphy-JUh0yTz4h931K.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media1.giphy.com/media/v1.Y2lkPWExMTZkNmYyYmJvdWZlZmgwZzA1Y290ZWh4bzRwNmkwMzQwZjdmbWtieGt0a2hqZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JUh0yTz4h931K/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "JUh0yTz4h931K",
+    "bon scott",
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m009",
+      "spoken": "it's different. Am I the only one who notices that?",
+      "search_queries": [
+        "Bon Scott AC/DC early 1970s live aggressive",
+        "Bon Scott High Voltage tour live photograph",
+        "Bon Scott 1976 1977 stage snarl"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "Early Bon Scott AC/DC — snarl, fight-ready, pre-1979 intensity",
+      "editorial_intent": "Early AC/DC — coiled, aggressive Bon before the shift. High Voltage / TNT era electricity.",
+      "attached_at": "2026-06-20T06:35:07.783Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-14T17:38:49.105Z",
+  "updated_at": "2026-06-20T06:35:07.783Z",
+  "search_text": "magnify-rick-moranis-gif.gif giphy-juh0ytz4h931k.gif giphy juh0ytz4h931k bon scott ac/dc"
+}

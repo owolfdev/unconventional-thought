@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "83995c303a8f8378",
+  "filename": "genphoto-208be390.jpg",
+  "original_filename": "genphoto-208be390.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "the word disco with a cancel circle slash",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m126",
+      "spoken": "That crowd was explicitly",
+      "search_queries": [
+        "Disco Demolition Night 1979 Comiskey Park",
+        "Steve Dahl disco demolition 1979",
+        "disco records explosion baseball field 1979"
+      ],
+      "people": [],
+      "situation": "Disco Demolition Night Comiskey Park July 1979",
+      "editorial_intent": "Anti-disco — Disco Demolition Night Comiskey Park July 1979; cultural war.",
+      "attached_at": "2026-06-20T06:35:08.534Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T19:58:43.442Z",
+  "updated_at": "2026-06-20T06:35:08.534Z",
+  "search_text": "genphoto-208be390.jpg genphoto-208be390.jpg openai photo generated the word disco with a cancel circle slash"
+}

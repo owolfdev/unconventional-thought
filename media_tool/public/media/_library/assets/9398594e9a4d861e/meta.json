@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "9398594e9a4d861e",
+  "filename": "asset.jpg",
+  "original_filename": "download-5412c6ede6ee.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://news.artnet.com/app/news-upload/2025/05/GettyImages-1201842276-1024x519.jpg",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m000",
+      "spoken": "",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "editorial_intent": "Channel id on black + film grain before cold open (m001). Edit copy in media_tool m000 acquisition. Pair with SPECIAL_MEDIA_DELAY on m001 so m001 plate does not cover this card.",
+      "attached_at": "2026-06-10T11:35:29.994Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m087",
+      "spoken": "Some of the biggest artists in modern music have openly talked about it. John Lennon talked",
+      "search_queries": [
+        "John Lennon 1970s photograph interview",
+        "John Lennon New York 1970s",
+        "John Lennon studio 1970s"
+      ],
+      "people": [
+        {
+          "name": "John Lennon",
+          "role": "musician"
+        }
+      ],
+      "situation": "John Lennon 1970s press photograph",
+      "editorial_intent": "John Lennon spoke about it — Lennon era press, not Bon.",
+      "attached_at": "2026-06-12T22:35:48.919Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-06T21:43:12.517Z",
+  "updated_at": "2026-06-12T22:35:48.919Z",
+  "search_text": "asset.jpg download-5412c6ede6ee.jpg"
+}

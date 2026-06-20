@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "9c9d392bec2d2158",
+  "filename": "brian-johnson-singing.jpg",
+  "original_filename": "download-0621c2df22a3.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "brian johnson"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m062/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m062",
+      "spoken": "Go listen to what Brian Johnson sounded like when he was not filling Bond's shoes.",
+      "search_queries": [
+        "Brian Johnson Geordie 1976",
+        "Brian Johnson AC/DC 1980 live"
+      ],
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson Geordie then AC/DC comparison period",
+      "editorial_intent": "Contrast Brian pre-AC/DC vs in AC/DC.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-06T00:37:57.449Z",
+  "search_text": "brian-johnson-singing.jpg download-0621c2df22a3.jpg brian johnson migrated from 001_whowrotebackinblack/m062/acquired/"
+}

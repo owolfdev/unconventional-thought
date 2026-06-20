@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "id": "cf62434c1ec966c1",
+  "filename": "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
+  "original_filename": "Bon-Scott-ACDC-lyrics-handwritten-Highway-to-Hell-560x900-inv.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m032/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m032",
+      "spoken": "Every single thing he ever wrote has that same fingerprint.",
+      "search_queries": [
+        "Bon Scott handwritten lyrics",
+        "Bon Scott writing song lyrics 1970s",
+        "Bon Scott AC/DC studio 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott songwriting lyrics or notebook 1970s",
+      "editorial_intent": "Writer identity — Bon with lyrics/paper if archived; else candid pen-in-hand or studio notes.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m044",
+      "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
+      "search_queries": [
+        "Robert Johnson playing guitar photograph",
+        "blues guitarist hands guitar close up 1930s",
+        "Robert Johnson performance photograph"
+      ],
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson playing guitar — supernatural skill folklore moment",
+      "editorial_intent": "Impossibly good guitar — Johnson transformed; hands on guitar close-up.",
+      "attached_at": "2026-06-12T21:21:00.692Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-12T21:21:00.692Z",
+  "search_text": "bon-scott-acdc-lyrics-handwritten-highway-to-hell-560x900-inv.jpg bon-scott-acdc-lyrics-handwritten-highway-to-hell-560x900-inv.jpg bon scott migrated from 001_whowrotebackinblack/m032/acquired/"
+}

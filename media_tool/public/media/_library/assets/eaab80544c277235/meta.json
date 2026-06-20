@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "eaab80544c277235",
+  "filename": "make-it-rain-money-gif.gif",
+  "original_filename": "giphy-2u11zpzwyMTy8.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media1.giphy.com/media/v1.Y2lkPWExMTZkNmYybmVwcHQ3b3hxNnM2Zm03czB1Y25lOWt5enFkaHk2Njczdjg3ZmxueSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2u11zpzwyMTy8/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "2u11zpzwyMTy8"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m141",
+      "spoken": "committee to cover it up. You need self-preservation. You need everyone to choose the least explosive",
+      "search_queries": [
+        "business handshake meeting 1980 photograph",
+        "record label meeting 1980",
+        "music industry executives meeting 1980s"
+      ],
+      "people": [],
+      "situation": "Business meeting handshake — informal alignment, not smoke-filled room",
+      "editorial_intent": "No conspiracy committee — self-preservation, everyone choosing easy story.",
+      "attached_at": "2026-06-20T06:35:08.617Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T20:17:02.133Z",
+  "updated_at": "2026-06-20T06:35:08.617Z",
+  "search_text": "make-it-rain-money-gif.gif giphy-2u11zpzwymty8.gif giphy 2u11zpzwymty8"
+}

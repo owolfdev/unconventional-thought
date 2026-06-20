@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "6747a0cfec93a9b4",
+  "filename": "bond-scott-wrote-the-lyrics-on-back-in-black.bin",
+  "original_filename": "download-ebdb131c6c3c.bin",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m006/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m006",
+      "spoken": "Bond Scott wrote the lyrics on Back in Black.",
+      "search_queries": [
+        "Bon Scott AC/DC live 1979",
+        "Bon Scott microphone on stage 1978",
+        "Bon Scott concert 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott performing live with microphone 1978-1979",
+      "editorial_intent": "Core thesis — Bon Scott portrait or live, era-accurate.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-05T22:11:27.000Z",
+  "search_text": "bond-scott-wrote-the-lyrics-on-back-in-black.bin download-ebdb131c6c3c.bin bon scott migrated from 001_whowrotebackinblack/m006/acquired/"
+}

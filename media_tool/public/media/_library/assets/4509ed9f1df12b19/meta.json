@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "4509ed9f1df12b19",
+  "filename": "genphoto-6d9c4a8a.jpg",
+  "original_filename": "genphoto-6d9c4a8a.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "heroin moved through elite rooms, working bands, after parties, and studio circles. black and white photo of backstage party. peoples eyes are blocked with the classic black bars to hide identity",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m085",
+      "spoken": "It moved through elite rooms, working bands,",
+      "search_queries": [
+        "rock band backstage 1970s afterparty",
+        "recording studio late night 1970s",
+        "tour bus backstage 1970s musicians"
+      ],
+      "people": [],
+      "situation": "Rock band backstage afterparty 1970s — industry access",
+      "editorial_intent": "After parties and studio circles — heroin moved through working bands.",
+      "attached_at": "2026-06-16T13:27:44.828Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T22:28:10.718Z",
+  "updated_at": "2026-06-16T13:27:44.828Z",
+  "search_text": "genphoto-6d9c4a8a.jpg genphoto-6d9c4a8a.jpg openai photo generated heroin moved through elite rooms, working bands, after parties, and studio circles. black and white photo of backstage party. peoples eyes are blocked with the classic black bars to hide identity"
+}

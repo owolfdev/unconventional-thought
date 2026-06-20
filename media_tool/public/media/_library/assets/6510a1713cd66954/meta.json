@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "6510a1713cd66954",
+  "filename": "it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg",
+  "original_filename": "download-1c183cc5df51.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m025/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m025",
+      "spoken": "It is one of the most perfectly constructed rock records ever made.",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m091",
+      "spoken": "It's not a fantasy. It's documented rock history. So the question is not",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "Documented history — not fantasy; stamp the argument.",
+      "attached_at": "2026-06-13T20:36:27.161Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-13T20:36:27.161Z",
+  "search_text": "it-is-one-of-the-most-perfectly-constructed-rock-records-ever-made.jpg download-1c183cc5df51.jpg ac/dc migrated from 001_whowrotebackinblack/m025/acquired/"
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "a2931b52d2a9f592",
+  "filename": "asset.jpg",
+  "original_filename": "download-3e34d03c82e4.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://scontent.fbkk22-3.fna.fbcdn.net/v/t39.30808-6/516888852_10227052850218994_6605102297642554541_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x675&ctp=s1024x675&_nc_cat=103&ccb=1-7&_nc_sid=536f4a&_nc_ohc=Q48f3jurTOYQ7kNvwGz9MXu&_nc_oc=AdqM2mTrY7l9lXZhDaN9FDKKWb6C5tV5lwgVYZgu55-o9G7iZcXd25tLMTQY4vz4Ja0WCoFnRVdhVAhBLzXxja_y&_nc_zt=23&_nc_ht=scontent.fbkk22-3.fna&_nc_gid=Zp_Bha1CVZ0n4hJqn82W4w&_nc_ss=7b2a8&oh=00_Af-m1OI4Mgrqsa04K55QyvOxWOjCGkoDipIBTJ7UgcxJ1A&oe=6A347B7A",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m139",
+      "spoken": "freeze momentum instantly. Just five months after his death, you saw back in black in every record",
+      "search_queries": [
+        "record store 1980 album display",
+        "Back in Black record store 1980",
+        "Tower Records 1980 interior"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "Back in Black record store display 1980 America",
+      "editorial_intent": "Five months later — Back in Black everywhere; Brian era begins.",
+      "attached_at": "2026-06-15T20:18:33.583Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-14T15:09:21.897Z",
+  "updated_at": "2026-06-15T20:18:33.583Z",
+  "search_text": "asset.jpg download-3e34d03c82e4.jpg ac/dc"
+}

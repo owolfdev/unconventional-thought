@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "476e3a0c4247ac95",
+  "filename": "asset.jpg",
+  "original_filename": "download-c3aa9cd783b6.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://pbs.twimg.com/media/EaA9x44X0AAvE7q.jpg",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m022",
+      "spoken": "It's like a supernatural nonchalance.",
+      "search_queries": [
+        "Bon Scott backstage 1979 candid calm",
+        "Bon Scott 1979 portrait relaxed eyes",
+        "Bon Scott AC/DC offstage 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott backstage calm 1979 — detached, knowing expression",
+      "editorial_intent": "'Supernatural nonchalance' — Bon backstage or live, eerie calm amid chaos.",
+      "attached_at": "2026-06-14T17:47:43.887Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-11T20:32:05.162Z",
+  "updated_at": "2026-06-14T17:47:43.887Z",
+  "search_text": "asset.jpg download-c3aa9cd783b6.jpg bon scott"
+}

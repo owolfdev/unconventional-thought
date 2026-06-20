@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "c7b223a0d10268b8",
+  "filename": "bon-scott-gif.gif",
+  "original_filename": "giphy-l3mZjPpUfXlsMyNkQ.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media1.giphy.com/media/v1.Y2lkPWExMTZkNmYyam5waXJsNDVmeXBjcmE5NHZvZjQwcW02OGVoZDkxMDdwdTIzbnN6NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l3mZjPpUfXlsMyNkQ/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "l3mZjPpUfXlsMyNkQ",
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m092",
+      "spoken": "would an artist like Bond Scott ever have been around heroin.",
+      "search_queries": [
+        "Bon Scott London 1979 photograph",
+        "Bon Scott AC/DC 1979 offstage nightlife",
+        "London music scene 1979 rock"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott London 1979 — clubs, tour life, proximity not proof",
+      "editorial_intent": "Would Bon be *around* heroin? — London 1979 nightlife, his circles, not accusation graphic.",
+      "attached_at": "2026-06-20T06:35:08.303Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m142",
+      "spoken": "explanation. So given all this, did Bond Scott know that he was going to die?",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "Thesis return — question on grain over Bon plate or black.",
+      "attached_at": "2026-06-16T11:58:11.256Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m143",
+      "spoken": "did Bond Scott know that he was going to die?",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "Thesis return — question on grain over Bon plate or black.",
+      "attached_at": "2026-06-20T06:35:08.624Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T09:02:37.626Z",
+  "updated_at": "2026-06-20T06:35:08.624Z",
+  "search_text": "bon-scott-gif.gif giphy-l3mzjppufxlsmynkq.gif giphy l3mzjppufxlsmynkq bon scott"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "8221c5d008394875",
+  "filename": "asset.jpg",
+  "original_filename": "download-afac9db84ba1.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLEe7RmWn7lGtOO-cv9nftNY4ku07NvCISBLhos3OpDrQHDfjWb6B-RtI&s=10",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m135",
+      "spoken": "Look, in 1980, radio gatekeepers were conservative.",
+      "search_queries": [
+        "FM radio station 1980 control room",
+        "radio program director office 1980",
+        "American radio station studio 1980"
+      ],
+      "people": [],
+      "situation": "FM radio station program director 1980 office",
+      "editorial_intent": "Radio gatekeepers 1980 — conservative program directors, advertisers.",
+      "attached_at": "2026-06-20T06:35:08.587Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-15T20:17:49.621Z",
+  "updated_at": "2026-06-20T06:35:08.587Z",
+  "search_text": "asset.jpg download-afac9db84ba1.jpg"
+}

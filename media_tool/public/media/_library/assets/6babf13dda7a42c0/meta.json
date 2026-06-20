@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "6babf13dda7a42c0",
+  "filename": "asset.jpg",
+  "original_filename": "download-6f7a5d15f403.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://rockandrollglobe.com/wp-content/uploads/2019/07/highway-to-hell-cover.jpg",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "bon scott",
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m030",
+      "spoken": "It's also hard to argue that it's not his best work.",
+      "search_queries": [
+        "AC/DC studio 1979 recording session",
+        "Bon Scott 1979 creative peak live",
+        "AC/DC band studio 1979 photograph"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell sessions or tour — creative peak 1979",
+      "editorial_intent": "'His best work' — studio or stage peak 1979; pivot into folklore story.",
+      "attached_at": "2026-06-16T13:40:36.161Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-14T18:02:53.557Z",
+  "updated_at": "2026-06-16T13:40:36.161Z",
+  "search_text": "asset.jpg download-6f7a5d15f403.jpg bon scott ac/dc"
+}

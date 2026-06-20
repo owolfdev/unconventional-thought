@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "04cd1ca947ba4e38",
+  "filename": "glow-independence-day-gif-by-xponentialdesign.gif",
+  "original_filename": "giphy-U56UKYAO8ToW8ycuDe.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media3.giphy.com/media/v1.Y2lkPWExMTZkNmYycW0xaXBqMWVqMWRtYjNicWlrN29tb21kM2I1b2E5MXl2NDYxejJxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/U56UKYAO8ToW8ycuDe/giphy-downsized-medium.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "U56UKYAO8ToW8ycuDe",
+    "bon scott",
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m030",
+      "spoken": "It's also hard to argue that it's not his best work.",
+      "search_queries": [
+        "AC/DC studio 1979 recording session",
+        "Bon Scott 1979 creative peak live",
+        "AC/DC band studio 1979 photograph"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell sessions or tour — creative peak 1979",
+      "editorial_intent": "'His best work' — studio or stage peak 1979; pivot into folklore story.",
+      "attached_at": "2026-06-13T08:04:33.327Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T08:04:33.327Z",
+  "updated_at": "2026-06-13T08:04:33.327Z",
+  "search_text": "glow-independence-day-gif-by-xponentialdesign.gif giphy-u56ukyao8tow8ycude.gif giphy u56ukyao8tow8ycude bon scott ac/dc"
+}

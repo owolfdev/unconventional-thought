@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "d5ddc55d8c47a3f9",
+  "filename": "asset.gif",
+  "original_filename": "download-16f8a903a977.gif",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPMyfzCX6E7sVuh9grKVyk1wZosO1s-Uk1elbqfoZS3sdHA9RcxJaPGsPMhBemZrdDyhJ2z-nNxdGzXyQo27UbzRYqP3hiMcb3Vh2Ocm0-vi2t0q5lgzHMUb-AgtWIFAZTtcYcBA/s280/tumblr_nj5lhwV97T1td38hbo1_250.gif",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m028",
+      "spoken": "just swagger, that's like acceptance.",
+      "search_queries": [
+        "Bon Scott 1979 live arms spread stage",
+        "Bon Scott Highway to Hell performance acceptance",
+        "highway road night photograph 1970s metaphor"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott 1979 live — arms open, surrender to the performance",
+      "editorial_intent": "Acceptance / momentum — Bon not resisting; highway forward motion metaphor.",
+      "attached_at": "2026-06-20T06:35:07.894Z"
+    },
+    {
+      "episode_id": "000_Sandbox",
+      "cue_id": "m000",
+      "spoken": "",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated title",
+      "editorial_intent": "Title card — test text graphic / effect stack.",
+      "attached_at": "2026-06-20T19:28:18.757Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T12:06:28.369Z",
+  "updated_at": "2026-06-20T19:28:18.758Z",
+  "search_text": "asset.gif download-16f8a903a977.gif bon scott"
+}

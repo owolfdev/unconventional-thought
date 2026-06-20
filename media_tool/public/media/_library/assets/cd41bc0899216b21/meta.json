@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "cd41bc0899216b21",
+  "filename": "black-metal-font-invulnerable.png",
+  "original_filename": "sticker-e34c1cb0.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai"
+  ],
+  "manual_notes": "black metal font: invulnerable",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m073",
+      "spoken": "Legend has it that it can make artists feel invulnerable,",
+      "search_queries": [
+        "hypodermic needle macro photograph documentary",
+        "syringe close up medical still life",
+        "needle tip macro black background"
+      ],
+      "people": [],
+      "situation": "Inanimate: hypodermic needle macro",
+      "editorial_intent": "'Tip of a hypodermic needle' — macro, clinical, NOT glamorized.",
+      "attached_at": "2026-06-20T06:35:08.187Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T19:25:48.300Z",
+  "updated_at": "2026-06-20T06:35:08.187Z",
+  "search_text": "black-metal-font-invulnerable.png sticker-e34c1cb0.png sticker openai black metal font: invulnerable"
+}

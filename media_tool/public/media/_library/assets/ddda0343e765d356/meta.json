@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "ddda0343e765d356",
+  "filename": "detective.jpg",
+  "original_filename": "detective.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m132/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m132",
+      "spoken": "A fingerprint puts someone at the scene.",
+      "search_queries": [
+        "Bon Scott AC/DC live 1979 full stage"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott live on stage definitive photograph 1979",
+      "editorial_intent": "Closing metaphor — return to definitive Bon live image, NOT forensic stock.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m042",
+      "spoken": "a dark figure steps out of the blackness. It takes the guitar, tunes it, plays something",
+      "search_queries": [
+        "Robert Johnson crossroads legend illustration",
+        "crossroads blues devil folklore art",
+        "silhouette figure rural road night"
+      ],
+      "people": [],
+      "situation": "Crossroads devil folklore — silhouette at rural intersection, blues myth",
+      "editorial_intent": "Dark figure at crossroads — folklore illustration or high-contrast silhouette; tasteful, not horror B-movie.",
+      "attached_at": "2026-06-12T21:07:38.712Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m069",
+      "spoken": "about cost. And the devil always gets his due. So who is the devil? Well, for many, he's found at",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (intertitle)",
+      "editorial_intent": "Section turn — devil reveal setup.",
+      "attached_at": "2026-06-12T21:51:10.968Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-12T21:51:10.968Z",
+  "search_text": "detective.jpg detective.jpg bon scott migrated from 001_whowrotebackinblack/m132/acquired/"
+}

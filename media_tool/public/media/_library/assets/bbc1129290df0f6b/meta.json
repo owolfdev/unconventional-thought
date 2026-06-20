@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "bbc1129290df0f6b",
+  "filename": "streaming-rabbit-hole-gif-by-feliks-tomasz-konczakowski.gif",
+  "original_filename": "giphy-uWXDBmVYdByWreOuRs.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media2.giphy.com/media/v1.Y2lkPWExMTZkNmYyajNrZHpodnFydzE0c3hlbGp0ZTNrdjNidDZyNG5vanQ5MHlidG04NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/uWXDBmVYdByWreOuRs/giphy-downsized-medium.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "uWXDBmVYdByWreOuRs"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m075",
+      "spoken": "until it takes everything back with interest.",
+      "search_queries": [
+        "1970s rock culture documentary photograph",
+        "New York music scene 1970s backstage",
+        "London rock scene 1970s nightlife"
+      ],
+      "people": [],
+      "situation": "1970s rock culture heroin documentary context — era photography",
+      "editorial_intent": "Heroin bargain — lucid then ruin; 70s rock documentary tone, not exploitation.",
+      "attached_at": "2026-06-16T19:28:47.607Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T13:05:29.015Z",
+  "updated_at": "2026-06-16T19:28:47.607Z",
+  "search_text": "streaming-rabbit-hole-gif-by-feliks-tomasz-konczakowski.gif giphy-uwxdbmvydbywreours.gif giphy uwxdbmvydbywreours"
+}

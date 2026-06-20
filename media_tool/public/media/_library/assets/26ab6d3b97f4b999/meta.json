@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "id": "26ab6d3b97f4b999",
+  "filename": "and-its-not-just-a-comeback-album.jpg",
+  "original_filename": "download-c274c9181c81.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "electric guitar body close-up"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m023/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m023",
+      "spoken": "And it's not just a comeback album.",
+      "search_queries": [
+        "electric guitar body close up sunburst",
+        "Gibson SG guitar detail"
+      ],
+      "people": [],
+      "situation": "Inanimate: electric guitar body close-up",
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m039",
+      "spoken": "is Robert Johnson. He's got a burning hunger to be a great player and for fame. Just then,",
+      "search_queries": [
+        "Robert Johnson blues guitarist photograph",
+        "Robert Johnson with guitar 1930s",
+        "Robert Johnson portrait blues musician"
+      ],
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson guitarist portrait or with guitar 1930s",
+      "editorial_intent": "Robert Johnson with guitar — hunger for greatness; ONLY Johnson-era imagery from here.",
+      "attached_at": "2026-06-11T21:08:26.419Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-11T21:08:26.419Z",
+  "search_text": "and-its-not-just-a-comeback-album.jpg download-c274c9181c81.jpg electric guitar body close-up migrated from 001_whowrotebackinblack/m023/acquired/"
+}

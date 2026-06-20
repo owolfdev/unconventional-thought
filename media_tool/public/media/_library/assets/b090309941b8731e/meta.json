@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "b090309941b8731e",
+  "filename": "greys-stoppretending-gif-by-abc-network.gif",
+  "original_filename": "giphy-ekMFkjMlAL2FQF1ecq.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media1.giphy.com/media/v1.Y2lkPWExMTZkNmYyZnRvdGluejN1N2VjN2EwbjJsMjBsdXRscGtpY2ZpOXJ6am85YmNjdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ekMFkjMlAL2FQF1ecq/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "ekMFkjMlAL2FQF1ecq"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m078",
+      "spoken": "Let's stop pretending this would be impossible.",
+      "search_queries": [
+        "vinyl record collection shelf 1970s",
+        "album collection bedroom 1970s photograph",
+        "stack of LPs close up 1970s"
+      ],
+      "people": [],
+      "situation": "Inanimate: record collection vinyl stack",
+      "editorial_intent": "'Bargain in chemical form' — spoon, kit, or record-collection metaphor.",
+      "attached_at": "2026-06-13T08:54:05.493Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T08:54:05.493Z",
+  "updated_at": "2026-06-13T08:54:05.493Z",
+  "search_text": "greys-stoppretending-gif-by-abc-network.gif giphy-ekmfkjmlal2fqf1ecq.gif giphy ekmfkjmlal2fqf1ecq"
+}

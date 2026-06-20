@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "id": "094f27350f2e7c95",
+  "filename": "brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+  "original_filename": "brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "handwritten lyrics legal pad"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m028/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m028",
+      "spoken": "Goes in for an audition and just writes the lyrics that save the entire band.",
+      "search_queries": [
+        "handwritten lyrics paper legal pad",
+        "songwriting notebook pencil"
+      ],
+      "people": [],
+      "situation": "Inanimate: handwritten lyrics legal pad",
+      "editorial_intent": "Artifact beat: handwritten lyrics legal pad — story-linked inanimate; prefer no faces, tight macro or detail.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m127",
+      "spoken": "art scene posturing. And in the public imagination of that era, heroin read as downtown junkies,",
+      "search_queries": [
+        "Andy Warhol factory 1970s photograph",
+        "Velvet Underground era New York 1970s",
+        "downtown Manhattan 1970s nightlife"
+      ],
+      "people": [
+        {
+          "name": "Lou Reed",
+          "role": "musician"
+        }
+      ],
+      "situation": "New York downtown art scene 1970s — Lou Reed era, bohemian",
+      "editorial_intent": "Heroin reads as downtown / art scene — Velvet Underground, Warhol factory echo.",
+      "attached_at": "2026-06-15T20:02:07.805Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-15T20:02:07.805Z",
+  "search_text": "brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp brian-johnson-angus-young-malcolm-young-of-ac-dc-v0-ukh25lszucxd1.webp handwritten lyrics legal pad migrated from 001_whowrotebackinblack/m028/acquired/"
+}

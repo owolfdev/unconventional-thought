@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "id": "c5b4d7f1f85ba1d7",
+  "filename": "genphoto-8084dfc7.jpg",
+  "original_filename": "genphoto-8084dfc7.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "graveyard at night. gravestones of members of the 27 club.",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m081",
+      "spoken": "in the grips of that substance during their most creative periods.",
+      "search_queries": [
+        "rock musician funeral 1970s newspaper",
+        "Eric Clapton 1970s photograph",
+        "Keith Richards 1970s live photograph"
+      ],
+      "people": [],
+      "situation": "Rock survivors vs casualties — era press, funerals, comebacks",
+      "editorial_intent": "Some survived, some paid — contrast portraits; documentary sobriety.",
+      "attached_at": "2026-06-12T22:10:53.834Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m082",
+      "spoken": "Some survived, some paid the price.",
+      "search_queries": [
+        "rock musician funeral 1970s newspaper",
+        "Eric Clapton 1970s photograph",
+        "Keith Richards 1970s live photograph"
+      ],
+      "people": [],
+      "situation": "Rock survivors vs casualties — era press, funerals, comebacks",
+      "editorial_intent": "Some survived, some paid — contrast portraits; documentary sobriety.",
+      "attached_at": "2026-06-20T06:35:08.228Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T22:04:07.881Z",
+  "updated_at": "2026-06-20T06:35:08.228Z",
+  "search_text": "genphoto-8084dfc7.jpg genphoto-8084dfc7.jpg openai photo generated graveyard at night. gravestones of members of the 27 club."
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "bf64c16e5169e3b0",
+  "filename": "black-friday-shopping-gif.gif",
+  "original_filename": "giphy-DZgUVLxzMoAwg.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media0.giphy.com/media/v1.Y2lkPWExMTZkNmYyZmZtNzl5OWpoZ2JldHZmZHg5ejEwam90dnk4aTVsZzMxYWEzbTUxdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/DZgUVLxzMoAwg/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "DZgUVLxzMoAwg"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m146",
+      "spoken": "And we consumed it all as entertainment. Either way,",
+      "search_queries": [
+        "rock concert crowd cheering 1979",
+        "concert tickets hands 1970s",
+        "stadium audience rock show 1979"
+      ],
+      "people": [],
+      "situation": "Rock concert audience 1979 — consumption, cheering, complicity",
+      "editorial_intent": "'We consumed it as entertainment' — crowd, tickets, spectacle complicit.",
+      "attached_at": "2026-06-15T20:25:33.927Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-15T20:24:35.078Z",
+  "updated_at": "2026-06-15T20:25:33.927Z",
+  "search_text": "black-friday-shopping-gif.gif giphy-dzguvlxzmoawg.gif giphy dzguvlxzmoawg"
+}

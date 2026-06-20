@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "8fcacf2ae53714b0",
+  "filename": "in-an-acdc-font-now-its-yours.png",
+  "original_filename": "sticker-053832dc.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai",
+    "robert johnson"
+  ],
+  "manual_notes": "in an AC/DC font: Now It's Yours",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m046",
+      "spoken": "and says, now it's yours.",
+      "search_queries": [
+        "Robert Johnson playing guitar photograph",
+        "blues guitarist hands guitar close up 1930s",
+        "Robert Johnson performance photograph"
+      ],
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson playing guitar — supernatural skill folklore moment",
+      "editorial_intent": "Impossibly good guitar — Johnson transformed; hands on guitar close-up.",
+      "attached_at": "2026-06-20T06:35:07.979Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T12:24:56.390Z",
+  "updated_at": "2026-06-20T06:35:07.979Z",
+  "search_text": "in-an-acdc-font-now-its-yours.png sticker-053832dc.png sticker openai robert johnson in an ac/dc font: now it's yours"
+}

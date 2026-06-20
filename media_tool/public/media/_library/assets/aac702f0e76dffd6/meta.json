@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "aac702f0e76dffd6",
+  "filename": "asset.png",
+  "original_filename": "download-ddbca601f9ed.png",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Highway_to_Hell_by_ACDC_US_single_side-A.png/500px-Highway_to_Hell_by_ACDC_US_single_side-A.png",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m008",
+      "spoken": "especially the title track. It always intrigued me,",
+      "search_queries": [
+        "Bon Scott singing microphone close up 1979",
+        "Bon Scott vocal performance Highway to Hell",
+        "AC/DC studio vocal booth 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott singing into microphone close-up 1979",
+      "editorial_intent": "'Listen to Bon's voice' — tight on mic, mouth, cord — invitation to *hear*, not watch crowd.",
+      "attached_at": "2026-06-20T06:35:07.776Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-14T17:37:38.348Z",
+  "updated_at": "2026-06-20T06:35:07.776Z",
+  "search_text": "asset.png download-ddbca601f9ed.png bon scott"
+}

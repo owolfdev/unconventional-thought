@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "id": "7c57afe3d05b94ca",
+  "filename": "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
+  "original_filename": "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m034/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m034",
+      "spoken": "Specific guy, bad reputation. He's proud of it.",
+      "search_queries": [
+        "Bon Scott leather jacket photograph 1970s",
+        "Bon Scott defiant backstage 1979",
+        "Bon Scott bad reputation press photo"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott rebellious image photograph 1970s",
+      "editorial_intent": "Outlaw persona — leather, defiant smirk, backstage or street candid; proud troublemaker.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m094",
+      "spoken": "The real question is whether in that final stretch,",
+      "search_queries": [
+        "Bon Scott 1979 candid portrait",
+        "Bon Scott February 1980 era photograph",
+        "Bon Scott London 1979 tired"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott 1979 late period — tired, private, final months mood",
+      "editorial_intent": "Final stretch — experimentation vs dependency; intimate Bon 1979, ambiguous.",
+      "attached_at": "2026-06-20T06:35:08.319Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-20T06:35:08.319Z",
+  "search_text": "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp bon scott migrated from 001_whowrotebackinblack/m034/acquired/"
+}

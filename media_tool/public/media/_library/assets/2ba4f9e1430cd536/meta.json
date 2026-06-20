@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "2ba4f9e1430cd536",
+  "filename": "in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png",
+  "original_filename": "sticker-9c99dc21.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai"
+  ],
+  "manual_notes": "in a psychedelic font render the following text graphic: 60s & 70s",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m034",
+      "spoken": "60s and 70s.",
+      "search_queries": [
+        "Mississippi Delta dirt road 1930s photograph",
+        "Mississippi crossroads rural night historical",
+        "Delta blues Mississippi countryside 1930s"
+      ],
+      "people": [],
+      "situation": "Mississippi Delta rural road night 1930s — crossroads atmosphere",
+      "editorial_intent": "Crossroads setup — 1931 Mississippi night; heat, isolation, date anchor.",
+      "attached_at": "2026-06-20T06:35:07.921Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-11T20:55:04.021Z",
+  "updated_at": "2026-06-20T06:35:07.921Z",
+  "search_text": "in-a-psychedelic-font-render-the-following-text-graphic-60s-70s.png sticker-9c99dc21.png sticker openai in a psychedelic font render the following text graphic: 60s & 70s"
+}

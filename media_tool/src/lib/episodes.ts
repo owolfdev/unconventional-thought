@@ -1,15 +1,10 @@
 import fs from "fs";
 import path from "path";
 import { getRepoRoot, resolveManifestPath } from "./paths";
+import type { EpisodeInfo } from "./episodes-shared";
 
-export interface EpisodeInfo {
-  episodeId: string;
-  number: string;
-  title: string;
-  manifestPath: string;
-  hasManifest: boolean;
-  cueCount: number | null;
-}
+export type { EpisodeInfo } from "./episodes-shared";
+export { episodeLabel } from "./episodes-shared";
 
 function readEpisodeJson(episodeDir: string): Record<string, string> {
   const cfgPath = path.join(episodeDir, "episode.json");
@@ -64,11 +59,4 @@ export function listEpisodes(): EpisodeInfo[] {
         cueCount,
       };
     });
-}
-
-export function episodeLabel(ep: EpisodeInfo): string {
-  const cues =
-    ep.cueCount != null ? ` · ${ep.cueCount} cues` : "";
-  const missing = ep.hasManifest ? "" : " (no manifest)";
-  return `${ep.number} — ${ep.title}${cues}${missing}`;
 }

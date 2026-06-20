@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "0947003d4af2538e",
+  "filename": "text-graphic-in-1970s-font-the-70s.png",
+  "original_filename": "sticker-fe9cf8c9.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai"
+  ],
+  "manual_notes": "text graphic in 1970s font: The 70s",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m083",
+      "spoken": "Late 70s music culture was saturated with heroin.",
+      "search_queries": [
+        "Studio 54 1970s photograph",
+        "1970s music industry party photograph",
+        "New York nightclub 1970s rock scene"
+      ],
+      "people": [],
+      "situation": "1970s music industry party studio — heroin era context",
+      "editorial_intent": "Late 70s heroin saturation — elite rooms, not fringe.",
+      "attached_at": "2026-06-20T06:35:08.236Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T22:22:25.945Z",
+  "updated_at": "2026-06-20T06:35:08.236Z",
+  "search_text": "text-graphic-in-1970s-font-the-70s.png sticker-fe9cf8c9.png sticker openai text graphic in 1970s font: the 70s"
+}

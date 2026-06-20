@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "84527b314de1824b",
+  "filename": "1931-the-dead-of-night-lonely-crossroad-in-mississippi-a-dark-figure-steps-out-o.png",
+  "original_filename": "sticker-53e87f8e.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai"
+  ],
+  "manual_notes": "1931, the dead of night. lonely crossroad in mississippi. a dark figure steps out of the blackness.",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m042",
+      "spoken": "a dark figure steps out of the blackness.",
+      "search_queries": [
+        "Robert Johnson crossroads legend illustration",
+        "crossroads blues devil folklore art",
+        "silhouette figure rural road night"
+      ],
+      "people": [],
+      "situation": "Crossroads devil folklore — silhouette at rural intersection, blues myth",
+      "editorial_intent": "Dark figure at crossroads — folklore illustration or high-contrast silhouette; tasteful, not horror B-movie.",
+      "attached_at": "2026-06-20T06:35:07.962Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T21:09:22.095Z",
+  "updated_at": "2026-06-20T06:35:07.962Z",
+  "search_text": "1931-the-dead-of-night-lonely-crossroad-in-mississippi-a-dark-figure-steps-out-o.png sticker-53e87f8e.png sticker openai 1931, the dead of night. lonely crossroad in mississippi. a dark figure steps out of the blackness."
+}

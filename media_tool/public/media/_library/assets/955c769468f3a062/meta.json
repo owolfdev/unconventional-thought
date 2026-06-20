@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "id": "955c769468f3a062",
+  "filename": "acdc-1979-billboard-1548.webp",
+  "original_filename": "acdc-1979-billboard-1548.webp",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m119/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m119",
+      "spoken": "that Bond Scott used privately with his friends.",
+      "search_queries": [
+        "Bon Scott 1979 photograph",
+        "Bon Scott AC/DC 1980"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m120",
+      "spoken": "And that stigma made the story commercially explosive. ACDC was trying to further conquer the",
+      "search_queries": [
+        "AC/DC US tour 1980 crowd",
+        "AC/DC American audience 1980 concert",
+        "rock concert USA 1980 denim crowd"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC American tour 1980 crowd — mainstream rock audience",
+      "editorial_intent": "AC/DC conquering America — US tour crowd, denim, heartland 1980.",
+      "attached_at": "2026-06-15T19:52:53.777Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m121",
+      "spoken": "ACDC was trying to further conquer the",
+      "search_queries": [
+        "AC/DC US tour 1980 crowd",
+        "AC/DC American audience 1980 concert",
+        "rock concert USA 1980 denim crowd"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC American tour 1980 crowd — mainstream rock audience",
+      "editorial_intent": "AC/DC conquering America — US tour crowd, denim, heartland 1980.",
+      "attached_at": "2026-06-20T06:35:08.504Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-20T06:35:08.504Z",
+  "search_text": "acdc-1979-billboard-1548.webp acdc-1979-billboard-1548.webp bon scott migrated from 001_whowrotebackinblack/m119/acquired/"
+}

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "id": "e7a3faabf54b8bd8",
+  "filename": "IMG_5732.WEBP",
+  "original_filename": "IMG_5732.WEBP",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "bulk-import",
+  "license": "manual import — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "_library",
+      "cue_id": "_bulk_import",
+      "spoken": "",
+      "search_queries": [],
+      "people": [],
+      "situation": "",
+      "editorial_intent": "",
+      "attached_at": "2026-06-10T09:56:51.948Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m007",
+      "spoken": "Listen to Bon's voice on Highway to Hell, especially the title track. It always intrigued me,",
+      "search_queries": [
+        "AC/DC Highway to Hell tour 1979",
+        "Bon Scott Highway to Hell live 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell tour live performance 1979",
+      "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "attached_at": "2026-06-10T11:35:30.027Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-10T09:56:51.948Z",
+  "updated_at": "2026-06-10T11:35:30.027Z",
+  "search_text": "img_5732.webp img_5732.webp bon scott"
+}

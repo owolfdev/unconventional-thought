@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "19eb0ad16c9f110b",
+  "filename": "university-memory-gif.gif",
+  "original_filename": "giphy-BqmMllWNawKs0.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media1.giphy.com/media/v1.Y2lkPWExMTZkNmYya2RtNXBqejRrczFrNm53YjIyYWhjaXY1bWY3aHUxMHNuZGZ0bTUzciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BqmMllWNawKs0/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "BqmMllWNawKs0"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m114",
+      "spoken": "afternoon the next day? It doesn't make sense. It leaves a lot of questions unanswered.",
+      "search_queries": [
+        "wall clock afternoon photograph",
+        "winter afternoon light window",
+        "alarm clock afternoon bedside"
+      ],
+      "people": [],
+      "situation": "Afternoon light — time passed, delayed discovery",
+      "editorial_intent": "Not checked until afternoon — clock, late sun, delay that makes no sense.",
+      "attached_at": "2026-06-20T06:35:08.451Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-15T19:45:46.194Z",
+  "updated_at": "2026-06-20T06:35:08.451Z",
+  "search_text": "university-memory-gif.gif giphy-bqmmllwnawks0.gif giphy bqmmllwnawks0"
+}

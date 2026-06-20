@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "03dedc4354bdf92b",
+  "filename": "pressure-gif.gif",
+  "original_filename": "giphy-CU20QSKW13x9m.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media2.giphy.com/media/v1.Y2lkPWExMTZkNmYyNjFraXlzNzdrdjlkY2Rpa2Zyanl5Z3k1ZW56bjFnbHg0Z2p2cG04OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/CU20QSKW13x9m/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "CU20QSKW13x9m"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m097",
+      "spoken": "Given the era, the access, the circles, the schedule, and the pressure,",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "'Hmm, you decide' — hand verdict to viewer; whitespace beat.",
+      "attached_at": "2026-06-16T19:37:00.675Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m098",
+      "spoken": "the schedule, and the pressure,",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "'Hmm, you decide' — hand verdict to viewer; whitespace beat.",
+      "attached_at": "2026-06-20T06:35:08.344Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-15T19:27:45.833Z",
+  "updated_at": "2026-06-20T06:35:08.344Z",
+  "search_text": "pressure-gif.gif giphy-cu20qskw13x9m.gif giphy cu20qskw13x9m"
+}

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "id": "961568fea3dfcaba",
+  "filename": "ZzOR9-dzUtU_trimmed.mp4",
+  "original_filename": "ZzOR9-dzUtU_trimmed.mp4",
+  "kind": "archive",
+  "media_type": "video",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m118/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m118",
+      "spoken": "that he never publicly mentioned, but somehow independently landed on the exact same metaphor",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m147",
+      "spoken": "play highway to hell tonight. Loud. Then tell me he didn't know.",
+      "search_queries": [
+        "Bon Scott Highway to Hell live 1979",
+        "Bon Scott AC/DC 1979 tour finale energy",
+        "Bon Scott singing highway to hell live"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott Highway to Hell live 1979 — final statement, mic forward",
+      "editorial_intent": "Closing command — play it loud; definitive Highway to Hell tour Bon, full energy.",
+      "attached_at": "2026-06-13T22:19:52.666Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-13T22:19:52.666Z",
+  "search_text": "zzor9-dzutu_trimmed.mp4 zzor9-dzutu_trimmed.mp4 ac/dc migrated from 001_whowrotebackinblack/m118/acquired/"
+}

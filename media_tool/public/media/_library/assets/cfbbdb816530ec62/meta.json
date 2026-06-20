@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "cfbbdb816530ec62",
+  "filename": "that-he-used-up-one-of-his-nine-lives.gif",
+  "original_filename": "giphy-U3hFvh2z3rn6U.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m109/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m109",
+      "spoken": "That he used up one of his Nine Lives.",
+      "search_queries": [
+        "Bon Scott 1978 photograph",
+        "Bon Scott AC/DC portrait"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott portrait late 1970s",
+      "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-05T22:11:29.000Z",
+  "search_text": "that-he-used-up-one-of-his-nine-lives.gif giphy-u3hfvh2z3rn6u.gif bon scott migrated from 001_whowrotebackinblack/m109/acquired/"
+}

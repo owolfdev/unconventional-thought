@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "7138c8eaa3d4b22a",
+  "filename": "michael-richards-yes-gif.gif",
+  "original_filename": "giphy-ap6wcjRyi8HoA.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media2.giphy.com/media/v1.Y2lkPWExMTZkNmYyMm1sb3lodmd3ZGZodDJrMzNneXVvZTB4eWxoODhpdGh5ODNpbXZ5NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ap6wcjRyi8HoA/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "ap6wcjRyi8HoA"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m108",
+      "spoken": "That sentence may be true at one level.",
+      "search_queries": [
+        "coroner report document photograph",
+        "redacted government document",
+        "manila folder classified stamp"
+      ],
+      "people": [],
+      "situation": "Official records incomplete — coroner document or redacted file aesthetic",
+      "editorial_intent": "Incomplete vs plausible alternative — coroner file, redacted document mood.",
+      "attached_at": "2026-06-20T06:35:08.413Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T09:22:27.638Z",
+  "updated_at": "2026-06-20T06:35:08.413Z",
+  "search_text": "michael-richards-yes-gif.gif giphy-ap6wcjryi8hoa.gif giphy ap6wcjryi8hoa"
+}

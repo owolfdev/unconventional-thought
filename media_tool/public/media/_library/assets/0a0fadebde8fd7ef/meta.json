@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "0a0fadebde8fd7ef",
+  "filename": "maybe-brian-johnson-also-had-a-near-death-experience.jpg",
+  "original_filename": "download-6d2660df2d64.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "brian johnson"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m117/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m117",
+      "spoken": "Maybe Brian Johnson also had a near-death experience",
+      "search_queries": [
+        "Brian Johnson 1979 photograph",
+        "Brian Johnson AC/DC 1980"
+      ],
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-05T22:11:29.000Z",
+  "search_text": "maybe-brian-johnson-also-had-a-near-death-experience.jpg download-6d2660df2d64.jpg brian johnson migrated from 001_whowrotebackinblack/m117/acquired/"
+}

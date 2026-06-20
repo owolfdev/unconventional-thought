@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "id": "ed8e308c7338323e",
+  "filename": "highway-to-hell-not-a-vague-rock-statement.jpg",
+  "original_filename": "download-f95d387722a1.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc",
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m040/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m040",
+      "spoken": "Highway to hell, not a vague rock statement.",
+      "search_queries": [
+        "AC/DC Highway to Hell tour 1979",
+        "Bon Scott Highway to Hell live 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell tour live performance 1979",
+      "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m030",
+      "spoken": "It's also hard to argue that it's not his best work.",
+      "search_queries": [
+        "AC/DC studio 1979 recording session",
+        "Bon Scott 1979 creative peak live",
+        "AC/DC band studio 1979 photograph"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell sessions or tour — creative peak 1979",
+      "editorial_intent": "'His best work' — studio or stage peak 1979; pivot into folklore story.",
+      "attached_at": "2026-06-11T20:50:32.375Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m006",
+      "spoken": "That's why he wrote Highway to Hell.",
+      "search_queries": [
+        "Bon Scott Highway to Hell tour 1979 live",
+        "AC/DC recording Highway to Hell 1979",
+        "Bon Scott microphone 1979 performance"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell era — Bon on stage or in studio 1979",
+      "editorial_intent": "'That's why he wrote Highway to Hell' — 1979 tour energy or studio session, era-accurate.",
+      "attached_at": "2026-06-14T17:31:46.204Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-14T17:31:46.204Z",
+  "search_text": "highway-to-hell-not-a-vague-rock-statement.jpg download-f95d387722a1.jpg ac/dc bon scott migrated from 001_whowrotebackinblack/m040/acquired/"
+}

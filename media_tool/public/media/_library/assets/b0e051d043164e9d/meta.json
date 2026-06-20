@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "b0e051d043164e9d",
+  "filename": "bon-scott-gif.gif",
+  "original_filename": "giphy-ywlCbZuGQju4V1X5WW.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media0.giphy.com/media/v1.Y2lkPWExMTZkNmYyejJ6dmN5bWhzZXdvY2ViaTJocDV4ZXRsdTVhcW9uN3dweGtmNDhpaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ywlCbZuGQju4V1X5WW/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "ywlCbZuGQju4V1X5WW",
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m028",
+      "spoken": "just swagger, that's like acceptance.",
+      "search_queries": [
+        "Bon Scott 1979 live arms spread stage",
+        "Bon Scott Highway to Hell performance acceptance",
+        "highway road night photograph 1970s metaphor"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott 1979 live — arms open, surrender to the performance",
+      "editorial_intent": "Acceptance / momentum — Bon not resisting; highway forward motion metaphor.",
+      "attached_at": "2026-06-16T12:03:21.267Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T12:03:21.267Z",
+  "updated_at": "2026-06-16T12:03:21.267Z",
+  "search_text": "bon-scott-gif.gif giphy-ywlcbzugqju4v1x5ww.gif giphy ywlcbzugqju4v1x5ww bon scott"
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "50c6507e94ef2ec7",
+  "filename": "that-swagger.gif",
+  "original_filename": "giphy-3osBL8qjECZKHfObfO.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m089/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m089",
+      "spoken": "That swagger.",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "that-swagger.gif giphy-3osbl8qjeczkhfobfo.gif ac/dc migrated from 001_whowrotebackinblack/m089/acquired/"
+}

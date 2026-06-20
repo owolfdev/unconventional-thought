@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "8bf1b3df0a944cea",
+  "filename": "asset.webp",
+  "original_filename": "download-f577e1ad350a.webp",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://cdn.mos.cms.futurecdn.net/Nc5YLziiJ2pDjNGZbeoEug-1200-80.jpg.webp",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m012",
+      "spoken": "like someone ready to jump into a fight.",
+      "search_queries": [
+        "Bon Scott AC/DC live aggressive 1977",
+        "Bon Scott stage fight energy 1970s",
+        "Bon Scott early tour snarl microphone"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott aggressive early live performance leap or snarl",
+      "editorial_intent": "Fight-ready early Bon — about to jump into a brawl; kinetic live still.",
+      "attached_at": "2026-06-20T06:35:07.800Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-14T17:40:23.352Z",
+  "updated_at": "2026-06-20T06:35:07.800Z",
+  "search_text": "asset.webp download-f577e1ad350a.webp bon scott"
+}

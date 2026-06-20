@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "f172186e9febe425",
+  "filename": "asset.bin",
+  "original_filename": "download-6a7c0dd796b1.bin",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://www.facebook.com/photo/?fbid=122153642330592501&set=gm.29653800784265827&idorvanity=176062052466424",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m100",
+      "spoken": "Now the death itself. February 1980, London, night out, drinking.",
+      "search_queries": [
+        "bon scott night out"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "London February 1980 night street — cold, wet, urban",
+      "editorial_intent": "Death night — February 1980 London, night out; cold urban night mood.",
+      "attached_at": "2026-06-13T20:13:12.724Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T20:13:12.724Z",
+  "updated_at": "2026-06-13T20:13:12.724Z",
+  "search_text": "asset.bin download-6a7c0dd796b1.bin bon scott"
+}

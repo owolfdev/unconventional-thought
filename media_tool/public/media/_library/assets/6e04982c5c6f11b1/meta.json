@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "6e04982c5c6f11b1",
+  "filename": "doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif",
+  "original_filename": "giphy-uN5iwZB2v2dH2.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m139/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m139",
+      "spoken": "Doesn't explain the fingerprint or lack thereof in subsequent records.",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-05T22:11:29.000Z",
+  "search_text": "doesnt-explain-the-fingerprint-or-lack-thereof-in-subsequent-records.gif giphy-un5iwzb2v2dh2.gif ac/dc migrated from 001_whowrotebackinblack/m139/acquired/"
+}

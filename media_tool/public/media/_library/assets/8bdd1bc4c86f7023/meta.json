@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "id": "8bdd1bc4c86f7023",
+  "filename": "genphoto-c0482d68.jpg",
+  "original_filename": "genphoto-c0482d68.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated",
+    "bon scott"
+  ],
+  "manual_notes": "Renault 5 parked on a South London street on a cold night in February 1980. a man, obscured in darkness, sleeps in the back seat.",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m101",
+      "spoken": "He was left in a car,",
+      "search_queries": [
+        "London street night 1980 photograph",
+        "London February winter night 1980s",
+        "UK pub exterior night 1980"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "London February 1980 night street — cold, wet, urban",
+      "editorial_intent": "Death night — February 1980 London, night out; cold urban night mood.",
+      "attached_at": "2026-06-13T22:12:26.429Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T22:12:26.429Z",
+  "updated_at": "2026-06-13T22:12:26.429Z",
+  "search_text": "genphoto-c0482d68.jpg genphoto-c0482d68.jpg openai photo generated bon scott renault 5 parked on a south london street on a cold night in february 1980. a man, obscured in darkness, sleeps in the back seat."
+}

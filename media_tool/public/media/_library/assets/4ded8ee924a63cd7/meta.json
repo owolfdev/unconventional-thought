@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "4ded8ee924a63cd7",
+  "filename": "but-it-is-not-how-bond-scott-wrote.jpg",
+  "original_filename": "download-8af648b79dce.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m071/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m071",
+      "spoken": "But it is not how Bond Scott wrote.",
+      "search_queries": [
+        "Bon Scott 1979 photograph",
+        "Bon Scott AC/DC 1980"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "but-it-is-not-how-bond-scott-wrote.jpg download-8af648b79dce.jpg bon scott migrated from 001_whowrotebackinblack/m071/acquired/"
+}

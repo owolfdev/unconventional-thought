@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "624d7e8a5d8cbd8b",
+  "filename": "asset.mp4",
+  "original_filename": "cgXhpPQA9aE.mp4",
+  "kind": "archive",
+  "media_type": "video",
+  "source_url": "https://www.youtube.com/watch?v=cgXhpPQA9aE&list=PLRT8dxtbcbSctYPgKSAAhW9FAErHVe_Ru",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m011",
+      "spoken": "coiled spring,",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-10T11:35:30.036Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-10T10:14:11.865Z",
+  "updated_at": "2026-06-10T11:35:30.036Z",
+  "search_text": "asset.mp4 cgxhppqa9ae.mp4 ac/dc"
+}

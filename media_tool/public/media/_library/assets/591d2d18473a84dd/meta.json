@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "591d2d18473a84dd",
+  "filename": "just-a-few-years-before-his-death-bond-was-in-a-motorcycle-accident.png",
+  "original_filename": "sticker-1e73279a.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m050/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m050",
+      "spoken": "Just a few years before his death, Bond was in a motorcycle accident.",
+      "search_queries": [
+        "Bon Scott motorcycle",
+        "Bon Scott motorbike 1970s"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott motorcycle 1970s",
+      "editorial_intent": "Bon Scott motorcycle accident period — historical photos of Bon on bike if available.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "just-a-few-years-before-his-death-bond-was-in-a-motorcycle-accident.png sticker-1e73279a.png bon scott migrated from 001_whowrotebackinblack/m050/acquired/"
+}

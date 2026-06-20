@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "id": "443a904987dcfc04",
+  "filename": "genphoto-c3bbca95.jpg",
+  "original_filename": "genphoto-c3bbca95.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "1931, the dead of night. lonely crossroad in mississippi. A satanic contract is proffered to a young robert johnson. just hands holding and signing the contract.",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m047",
+      "spoken": "But understand kid, it ain't free.",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "'It ain't free' — contract/bargain beat; intertitle on grain.",
+      "attached_at": "2026-06-16T12:26:32.152Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m049",
+      "spoken": "Everybody knows that Robert Johnson sold his soul to the devil",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "'It ain't free' — contract/bargain beat; intertitle on grain.",
+      "attached_at": "2026-06-20T06:35:07.988Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T21:24:24.562Z",
+  "updated_at": "2026-06-20T06:35:07.988Z",
+  "search_text": "genphoto-c3bbca95.jpg genphoto-c3bbca95.jpg openai photo generated 1931, the dead of night. lonely crossroad in mississippi. a satanic contract is proffered to a young robert johnson. just hands holding and signing the contract."
+}

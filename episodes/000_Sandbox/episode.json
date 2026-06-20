@@ -1,0 +1,7 @@
+{
+  "id": "000_Sandbox",
+  "number": "000",
+  "title": "Sandbox (media_tool test)",
+  "timeline_manifest": "timeline/media_search.json",
+  "transcript_json": "transcript/sandbox.json"
+}

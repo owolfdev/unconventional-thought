@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "aadb15e60b8c24f1",
+  "filename": "dark-bon.webp",
+  "original_filename": "download-d6bb2410f40a.webp",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://cdn.mos.cms.futurecdn.net/gokSFuVGC9xeM83DyKBY6e-970-80.jpg.webp",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "ac/dc",
+    "bon",
+    "scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m001",
+      "spoken": "I think Bon Scott knew he was going to die, not the date, not the hour, but he knew he was coming",
+      "search_queries": [
+        "Bon Scott portrait 1979 photograph",
+        "Bon Scott AC/DC live close up microphone 1979",
+        "Bon Scott backstage 1979 candid"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott close portrait or mid-performance 1979 — knowing, tired eyes",
+      "editorial_intent": "Cold-open thesis — Bon portrait or live close-up with weight; man who sensed the end coming. NOT courtroom, NOT crowd wide shot.",
+      "attached_at": "2026-06-20T06:35:07.724Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m000",
+      "spoken": "",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "editorial_intent": "Channel id on black + film grain before cold open (m001). Edit copy in media_tool m000 acquisition. Pair with SPECIAL_MEDIA_DELAY on m001 so m001 plate does not cover this card.",
+      "attached_at": "2026-06-06T21:34:30.666Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m068",
+      "spoken": "Bond wasn't 27. He was 33 when he died. But the bargain doesn't care about birthdays. It cares",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "editorial_intent": "Bon wasn't 27 — numeric punch; breaks club mythology.",
+      "attached_at": "2026-06-20T06:35:08.147Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-06T10:28:18.268Z",
+  "updated_at": "2026-06-20T06:35:08.147Z",
+  "search_text": "dark-bon.webp download-d6bb2410f40a.webp ac/dc bon scott"
+}

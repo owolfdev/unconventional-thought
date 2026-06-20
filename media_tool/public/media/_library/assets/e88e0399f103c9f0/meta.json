@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "e88e0399f103c9f0",
+  "filename": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.webp",
+  "original_filename": "download-6ff1d3774537.webp",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m001/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m001",
+      "spoken": "Ladies and gentlemen of the jury, I'm gonna make a slightly controversial case here about the most beloved AC DC album in history.",
+      "search_queries": [
+        "AC/DC live 1979 concert",
+        "AC/DC Highway to Hell tour 1979 stage",
+        "AC/DC audience 1979"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC live concert performance crowd and stage",
+      "editorial_intent": "Rhetorical 'jury' — do NOT show a courtroom. Open on AC/DC at cultural peak (late 70s live) or 1980 press moment.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-05T22:11:27.000Z",
+  "search_text": "ladies-and-gentlemen-of-the-jury-im-gonna-make-a-slightly-controversial-case-her.webp download-6ff1d3774537.webp ac/dc migrated from 001_whowrotebackinblack/m001/acquired/"
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "254c2b6a7327911b",
+  "filename": "im-not-no-way-gif.gif",
+  "original_filename": "giphy-wYyTHMm50f4Dm.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media2.giphy.com/media/v1.Y2lkPWExMTZkNmYyYzByemNlYTljeGIyNmZ2NXo3Mm5mZWFrbXBlZWF1Z2FobmhhNGt6ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/wYyTHMm50f4Dm/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "wYyTHMm50f4Dm"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m084",
+      "spoken": "It wasn't fringe. It wasn't rare.",
+      "search_queries": [
+        "Studio 54 1970s photograph",
+        "1970s music industry party photograph",
+        "New York nightclub 1970s rock scene"
+      ],
+      "people": [],
+      "situation": "1970s music industry party studio — heroin era context",
+      "editorial_intent": "Late 70s heroin saturation — elite rooms, not fringe.",
+      "attached_at": "2026-06-20T06:35:08.244Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T08:57:38.811Z",
+  "updated_at": "2026-06-20T06:35:08.244Z",
+  "search_text": "im-not-no-way-gif.gif giphy-wyythmm50f4dm.gif giphy wyythmm50f4dm"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "bebd436b46a9dba6",
+  "filename": "asset.jpg",
+  "original_filename": "download-318f820f85e6.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSpI8nCSIs2a9wIQwaKenr-iCu4t2zKSRe6cRR8lZ0i4freMf9Sufyahg&s=10",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m085",
+      "spoken": "It moved through elite rooms, working bands,",
+      "search_queries": [
+        "rock band backstage 1970s afterparty",
+        "recording studio late night 1970s",
+        "tour bus backstage 1970s musicians"
+      ],
+      "people": [],
+      "situation": "Rock band backstage afterparty 1970s — industry access",
+      "editorial_intent": "After parties and studio circles — heroin moved through working bands.",
+      "attached_at": "2026-06-20T06:35:08.253Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T13:25:34.781Z",
+  "updated_at": "2026-06-20T06:35:08.253Z",
+  "search_text": "asset.jpg download-318f820f85e6.jpg"
+}

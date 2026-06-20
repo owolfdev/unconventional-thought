@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "id": "2f0ea3cc0654a22e",
+  "filename": "bonscott_onstage-1.jpg",
+  "original_filename": "bonscott_onstage-1.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m133/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m133",
+      "spoken": "Bond Scott was at the scene.",
+      "search_queries": [
+        "Bon Scott AC/DC live 1979 full stage"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott live on stage definitive photograph 1979",
+      "editorial_intent": "Closing metaphor — return to definitive Bon live image, NOT forensic stock.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m002",
+      "spoken": "fast. I think he traded something to get even more badass, more famous than he already was before,",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-10T11:35:30.006Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m009",
+      "spoken": "it's different. Am I the only one who notices that? In the early ACDC tracks, Bon is like a",
+      "search_queries": [
+        "Bon Scott AC/DC early 1970s live aggressive",
+        "Bon Scott High Voltage tour live photograph",
+        "Bon Scott 1976 1977 stage snarl"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "Early Bon Scott AC/DC — snarl, fight-ready, pre-1979 intensity",
+      "editorial_intent": "Early AC/DC — coiled, aggressive Bon before the shift. High Voltage / TNT era electricity.",
+      "attached_at": "2026-06-11T19:57:47.140Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m144",
+      "spoken": "I think he heard the bill coming due. I think he kept playing. He kept walking. The devil",
+      "search_queries": [
+        "Bon Scott 1979 live intense performance",
+        "Bon Scott Highway to Hell tour running stage",
+        "Bon Scott 1979 microphone forward motion"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott 1979 live — still performing, fate closing in",
+      "editorial_intent": "'Bill coming due' — Bon still playing, devil at heels; 1979 live momentum.",
+      "attached_at": "2026-06-20T06:35:08.632Z"
+    },
+    {
+      "episode_id": "000_Sandbox",
+      "cue_id": "m001",
+      "spoken": "Welcome to the sandbox episode.",
+      "search_queries": [
+        "test documentary b-roll",
+        "sandbox placeholder photo"
+      ],
+      "people": [],
+      "situation": "Generic documentary b-roll test",
+      "editorial_intent": "Opening beat — any test photo from library.",
+      "attached_at": "2026-06-20T19:28:18.771Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-20T19:28:18.771Z",
+  "search_text": "bonscott_onstage-1.jpg bonscott_onstage-1.jpg bon scott migrated from 001_whowrotebackinblack/m133/acquired/"
+}

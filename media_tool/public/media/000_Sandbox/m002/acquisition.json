@@ -1,0 +1,35 @@
+{
+  "id": "m002",
+  "cue": 2,
+  "source_visual_mode": "stock",
+  "resolved_visual_mode": "stock",
+  "resolved_media_type": "photo",
+  "status": "pending",
+  "notes": "Sandbox — safe to experiment.",
+  "effects": [],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "city skyline stock",
+      "engine_id": "openverse",
+      "engine_url": "https://openverse.org/search?q={query}",
+      "selections": []
+    },
+    {
+      "query_index": 1,
+      "query": "abstract texture background",
+      "engine_id": "openverse",
+      "engine_url": "https://openverse.org/search?q={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-06-20T06:37:30.932056Z"
+}

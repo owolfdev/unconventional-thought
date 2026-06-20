@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "bf69b66184ae9dd2",
+  "filename": "vinyl-collection-at-a-record-store-unsplashjpg.jpg",
+  "original_filename": "download-82c2635d4ebe.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Vinyl_collection_at_a_record_store_%28Unsplash%29.jpg",
+  "source_engine": "commons",
+  "license": "CC0",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m080",
+      "spoken": "through the 90s, check your record collection. Most likely a lot of the artists you listened to were",
+      "search_queries": [
+        "rock musicians 1970s studio session",
+        "1970s recording studio musicians photograph",
+        "rock band afterparty 1970s"
+      ],
+      "people": [],
+      "situation": "Rock musicians 1970s studio and afterparty culture",
+      "editorial_intent": "'60s–'90s artists in the grip' — named-era montage; studio circles, not needles.",
+      "attached_at": "2026-06-20T06:35:08.212Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m079",
+      "spoken": "If you like music from the 60s",
+      "search_queries": [
+        "vinyl record collection shelf 1970s",
+        "album collection bedroom 1970s photograph",
+        "stack of LPs close up 1970s"
+      ],
+      "people": [],
+      "situation": "Inanimate: record collection vinyl stack",
+      "editorial_intent": "'Bargain in chemical form' — spoon, kit, or record-collection metaphor.",
+      "attached_at": "2026-06-20T06:35:08.204Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T22:01:53.409Z",
+  "updated_at": "2026-06-20T06:35:08.212Z",
+  "search_text": "vinyl-collection-at-a-record-store-unsplashjpg.jpg download-82c2635d4ebe.jpg"
+}

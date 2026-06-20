@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "id": "283c21fb241aef0a",
+  "filename": "bon-scott-gif.gif",
+  "original_filename": "giphy-3o752nqe6C3s9VetRS.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media1.giphy.com/media/v1.Y2lkPWExMTZkNmYyNGRxbGlzejQyaGFtY2s3bmY1M2IwdjdhcXVhZGJiODNwdndsaXFlaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o752nqe6C3s9VetRS/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "3o752nqe6C3s9VetRS",
+    "bon scott",
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m009",
+      "spoken": "it's different. Am I the only one who notices that? In the early ACDC tracks, Bon is like a",
+      "search_queries": [
+        "Bon Scott AC/DC early 1970s live aggressive",
+        "Bon Scott High Voltage tour live photograph",
+        "Bon Scott 1976 1977 stage snarl"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "Early Bon Scott AC/DC — snarl, fight-ready, pre-1979 intensity",
+      "editorial_intent": "Early AC/DC — coiled, aggressive Bon before the shift. High Voltage / TNT era electricity.",
+      "attached_at": "2026-06-14T17:37:50.438Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m029",
+      "spoken": "He's describing a momentum that he's decided not to resist.",
+      "search_queries": [
+        "Bon Scott 1979 live arms spread stage",
+        "Bon Scott Highway to Hell performance acceptance",
+        "highway road night photograph 1970s metaphor"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott 1979 live — arms open, surrender to the performance",
+      "editorial_intent": "Acceptance / momentum — Bon not resisting; highway forward motion metaphor.",
+      "attached_at": "2026-06-14T18:00:05.736Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-11T19:58:50.345Z",
+  "updated_at": "2026-06-14T18:00:05.736Z",
+  "search_text": "bon-scott-gif.gif giphy-3o752nqe6c3s9vetrs.gif giphy 3o752nqe6c3s9vetrs bon scott ac/dc"
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "m005",
+  "cue": 5,
+  "t_start": 21,
+  "t_end": 25,
+  "duration_sec": 4,
+  "spoken": "Merge me with the next cue please.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Merge test — first half (@cue merge 5 6).",
+  "situation": "Merge pair A",
+  "people": [],
+  "date_from": "",
+  "date_to": "",
+  "location": "",
+  "search_queries": [
+    "merge test photo a"
+  ],
+  "avoid": [],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Merge test — first half (@cue merge 5 6).",
+      "status": "needed"
+    }
+  ],
+  "effects": [],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [],
+  "source_media_search": "episodes/000_Sandbox/timeline/media_search.json",
+  "updated_at": "2026-06-20T19:28:18.781Z"
+}

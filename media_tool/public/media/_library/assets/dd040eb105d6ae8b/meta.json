@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "dd040eb105d6ae8b",
+  "filename": "coiled-spring.png",
+  "original_filename": "sticker-8faae60b.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai"
+  ],
+  "manual_notes": "Coiled Spring",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m011",
+      "spoken": "coiled spring,",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "editorial_intent": "Punctuation beat — kinetic type on grain; 'coiled spring' metaphor, not another portrait.",
+      "attached_at": "2026-06-11T20:11:22.393Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-11T20:11:22.393Z",
+  "updated_at": "2026-06-11T20:11:22.393Z",
+  "search_text": "coiled-spring.png sticker-8faae60b.png sticker openai coiled spring"
+}

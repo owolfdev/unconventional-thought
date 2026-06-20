@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "55db4b07d28a7e7f",
+  "filename": "_single_ysmanl.jpeg",
+  "original_filename": "_single_ysmanl.jpeg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m083/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m083",
+      "spoken": "You shook me all night long.",
+      "search_queries": [
+        "AC/DC live 1979 audience",
+        "AC/DC concert 1981"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC live concert 1979 or 1981 crowd and stage",
+      "editorial_intent": "Iconic song — AC/DC live energy (Bon era archive or early Brian era).",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "_single_ysmanl.jpeg _single_ysmanl.jpeg ac/dc migrated from 001_whowrotebackinblack/m083/acquired/"
+}

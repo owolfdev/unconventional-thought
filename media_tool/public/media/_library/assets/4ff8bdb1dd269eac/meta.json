@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "id": "4ff8bdb1dd269eac",
+  "filename": "specific-guy-bad-reputation-hes-proud-of-it.jpg",
+  "original_filename": "download-9152897a3ead.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m034/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m034",
+      "spoken": "Specific guy, bad reputation. He's proud of it.",
+      "search_queries": [
+        "Bon Scott leather jacket photograph 1970s",
+        "Bon Scott defiant backstage 1979",
+        "Bon Scott bad reputation press photo"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott rebellious image photograph 1970s",
+      "editorial_intent": "Outlaw persona — leather, defiant smirk, backstage or street candid; proud troublemaker.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m012",
+      "spoken": "like someone ready to jump into a fight.",
+      "search_queries": [
+        "Bon Scott AC/DC live aggressive 1977",
+        "Bon Scott stage fight energy 1970s",
+        "Bon Scott early tour snarl microphone"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott aggressive early live performance leap or snarl",
+      "editorial_intent": "Fight-ready early Bon — about to jump into a brawl; kinetic live still.",
+      "attached_at": "2026-06-14T17:39:27.327Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-14T17:39:27.327Z",
+  "search_text": "specific-guy-bad-reputation-hes-proud-of-it.jpg download-9152897a3ead.jpg bon scott migrated from 001_whowrotebackinblack/m034/acquired/"
+}

@@ -1,8 +1,44 @@
 {
   "version": 1,
-  "updated_at": "2026-06-16T21:57:58.999Z",
+  "updated_at": "2026-06-20T19:28:18.779Z",
   "asset_count": 338,
   "assets": [
+    {
+      "id": "2f0ea3cc0654a22e",
+      "filename": "bonscott_onstage-1.jpg",
+      "original_filename": "bonscott_onstage-1.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+      "public_url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m133/acquired/",
+      "search_text": "bonscott_onstage-1.jpg bonscott_onstage-1.jpg bon scott migrated from 001_whowrotebackinblack/m133/acquired/",
+      "usage_count": 5,
+      "archived": false,
+      "created_at": "2026-06-05T22:11:29.000Z",
+      "updated_at": "2026-06-20T19:28:18.771Z"
+    },
+    {
+      "id": "d5ddc55d8c47a3f9",
+      "filename": "asset.gif",
+      "original_filename": "download-16f8a903a977.gif",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+      "public_url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "asset.gif download-16f8a903a977.gif bon scott",
+      "usage_count": 2,
+      "archived": false,
+      "created_at": "2026-06-16T12:06:28.369Z",
+      "updated_at": "2026-06-20T19:28:18.758Z"
+    },
     {
       "id": "4df094b9972c4bbc",
       "filename": "highway-to-hell-not-a-vague-rock-statement.jpg",
@@ -20,7 +56,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-05T22:11:28.000Z",
-      "updated_at": "2026-06-16T21:57:58.993Z"
+      "updated_at": "2026-06-20T06:35:08.655Z"
     },
     {
       "id": "056be30c7a3270ab",
@@ -40,7 +76,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-15T20:25:24.324Z",
-      "updated_at": "2026-06-16T21:57:58.984Z"
+      "updated_at": "2026-06-20T06:35:08.647Z"
     },
     {
       "id": "d86f16ffc38bdf33",
@@ -60,25 +96,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T20:23:13.310Z",
-      "updated_at": "2026-06-16T21:57:58.977Z"
-    },
-    {
-      "id": "2f0ea3cc0654a22e",
-      "filename": "bonscott_onstage-1.jpg",
-      "original_filename": "bonscott_onstage-1.jpg",
-      "kind": "archive",
-      "media_type": "photo",
-      "thumbnail_url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
-      "public_url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
-      "tags": [
-        "bon scott"
-      ],
-      "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m133/acquired/",
-      "search_text": "bonscott_onstage-1.jpg bonscott_onstage-1.jpg bon scott migrated from 001_whowrotebackinblack/m133/acquired/",
-      "usage_count": 4,
-      "archived": false,
-      "created_at": "2026-06-05T22:11:29.000Z",
-      "updated_at": "2026-06-16T21:57:58.970Z"
+      "updated_at": "2026-06-20T06:35:08.639Z"
     },
     {
       "id": "c7b223a0d10268b8",
@@ -98,7 +116,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-13T09:02:37.626Z",
-      "updated_at": "2026-06-16T21:57:58.962Z"
+      "updated_at": "2026-06-20T06:35:08.624Z"
     },
     {
       "id": "eaab80544c277235",
@@ -117,7 +135,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T20:17:02.133Z",
-      "updated_at": "2026-06-16T21:57:58.954Z"
+      "updated_at": "2026-06-20T06:35:08.617Z"
     },
     {
       "id": "d83d6b1e6a60a42f",
@@ -135,7 +153,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-05T22:11:27.000Z",
-      "updated_at": "2026-06-16T21:57:58.947Z"
+      "updated_at": "2026-06-20T06:35:08.609Z"
     },
     {
       "id": "0b35e485f1110e2f",
@@ -153,7 +171,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-05T22:11:28.000Z",
-      "updated_at": "2026-06-16T21:57:58.939Z"
+      "updated_at": "2026-06-20T06:35:08.602Z"
     },
     {
       "id": "faf528d80de64c7f",
@@ -172,7 +190,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T20:08:18.761Z",
-      "updated_at": "2026-06-16T21:57:58.932Z"
+      "updated_at": "2026-06-20T06:35:08.594Z"
     },
     {
       "id": "8221c5d008394875",
@@ -188,7 +206,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T20:17:49.621Z",
-      "updated_at": "2026-06-16T21:57:58.924Z"
+      "updated_at": "2026-06-20T06:35:08.587Z"
     },
     {
       "id": "fbae57ba1193a747",
@@ -204,7 +222,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-15T20:15:36.827Z",
-      "updated_at": "2026-06-16T21:57:58.917Z"
+      "updated_at": "2026-06-20T06:35:08.580Z"
     },
     {
       "id": "f9f39c4301aaab48",
@@ -222,7 +240,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-05T22:11:27.000Z",
-      "updated_at": "2026-06-16T21:57:58.909Z"
+      "updated_at": "2026-06-20T06:35:08.572Z"
     },
     {
       "id": "bc7f2e58967c2ffa",
@@ -241,7 +259,7 @@
       "usage_count": 4,
       "archived": false,
       "created_at": "2026-06-05T22:11:28.000Z",
-      "updated_at": "2026-06-16T21:57:58.901Z"
+      "updated_at": "2026-06-20T06:35:08.564Z"
     },
     {
       "id": "0d61d90cad7217bd",
@@ -259,7 +277,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-10T10:09:41.317Z",
-      "updated_at": "2026-06-16T21:57:58.893Z"
+      "updated_at": "2026-06-20T06:35:08.557Z"
     },
     {
       "id": "003ce38ca2b5df44",
@@ -277,7 +295,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T20:08:31.394Z",
-      "updated_at": "2026-06-16T21:57:58.885Z"
+      "updated_at": "2026-06-20T06:35:08.549Z"
     },
     {
       "id": "e8fa5d224be1833e",
@@ -295,7 +313,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T20:10:48.742Z",
-      "updated_at": "2026-06-16T21:57:58.877Z"
+      "updated_at": "2026-06-20T06:35:08.542Z"
     },
     {
       "id": "6486bf57de551835",
@@ -314,7 +332,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T19:58:38.008Z",
-      "updated_at": "2026-06-16T21:57:58.869Z"
+      "updated_at": "2026-06-20T06:35:08.534Z"
     },
     {
       "id": "83995c303a8f8378",
@@ -334,7 +352,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T19:58:43.442Z",
-      "updated_at": "2026-06-16T21:57:58.869Z"
+      "updated_at": "2026-06-20T06:35:08.534Z"
     },
     {
       "id": "8aa3e128b71e4729",
@@ -354,7 +372,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T20:01:31.066Z",
-      "updated_at": "2026-06-16T21:57:58.861Z"
+      "updated_at": "2026-06-20T06:35:08.527Z"
     },
     {
       "id": "8d4f85bb6e1fa75f",
@@ -373,7 +391,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T19:56:47.437Z",
-      "updated_at": "2026-06-16T21:57:58.854Z"
+      "updated_at": "2026-06-20T06:35:08.519Z"
     },
     {
       "id": "c0f1de7b09e285a4",
@@ -392,7 +410,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T19:55:50.272Z",
-      "updated_at": "2026-06-16T21:57:58.846Z"
+      "updated_at": "2026-06-20T06:35:08.512Z"
     },
     {
       "id": "955c769468f3a062",
@@ -410,7 +428,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-05T22:11:29.000Z",
-      "updated_at": "2026-06-16T21:57:58.839Z"
+      "updated_at": "2026-06-20T06:35:08.504Z"
     },
     {
       "id": "ddbd21b9ac1f4628",
@@ -430,7 +448,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T19:54:55.426Z",
-      "updated_at": "2026-06-16T21:57:58.831Z"
+      "updated_at": "2026-06-20T06:35:08.497Z"
     },
     {
       "id": "08cda80875af3d05",
@@ -449,7 +467,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T19:52:31.171Z",
-      "updated_at": "2026-06-16T21:57:58.824Z"
+      "updated_at": "2026-06-20T06:35:08.488Z"
     },
     {
       "id": "3664a60b57b4e086",
@@ -468,7 +486,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T19:49:44.706Z",
-      "updated_at": "2026-06-16T21:57:58.816Z"
+      "updated_at": "2026-06-20T06:35:08.481Z"
     },
     {
       "id": "b50ff4631474b716",
@@ -487,7 +505,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T19:52:49.101Z",
-      "updated_at": "2026-06-16T21:57:58.809Z"
+      "updated_at": "2026-06-20T06:35:08.474Z"
     },
     {
       "id": "f744012ad76f10ce",
@@ -506,7 +524,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T19:47:14.275Z",
-      "updated_at": "2026-06-16T21:57:58.801Z"
+      "updated_at": "2026-06-20T06:35:08.466Z"
     },
     {
       "id": "6dfb35670232e14e",
@@ -525,7 +543,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T19:47:35.608Z",
-      "updated_at": "2026-06-16T21:57:58.794Z"
+      "updated_at": "2026-06-20T06:35:08.458Z"
     },
     {
       "id": "19eb0ad16c9f110b",
@@ -544,7 +562,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T19:45:46.194Z",
-      "updated_at": "2026-06-16T21:57:58.786Z"
+      "updated_at": "2026-06-20T06:35:08.451Z"
     },
     {
       "id": "12c325faba92ff7e",
@@ -563,7 +581,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-15T19:38:58.834Z",
-      "updated_at": "2026-06-16T21:57:58.779Z"
+      "updated_at": "2026-06-20T06:35:08.443Z"
     },
     {
       "id": "034a26d98b0a1eb7",
@@ -582,7 +600,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T19:44:02.238Z",
-      "updated_at": "2026-06-16T21:57:58.771Z"
+      "updated_at": "2026-06-20T06:35:08.436Z"
     },
     {
       "id": "7577f22a845b8a3c",
@@ -600,7 +618,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-10T09:56:51.935Z",
-      "updated_at": "2026-06-16T21:57:58.763Z"
+      "updated_at": "2026-06-20T06:35:08.428Z"
     },
     {
       "id": "aa9e50775f98f3f8",
@@ -619,7 +637,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-15T19:36:47.772Z",
-      "updated_at": "2026-06-16T21:57:58.756Z"
+      "updated_at": "2026-06-20T06:35:08.421Z"
     },
     {
       "id": "7138c8eaa3d4b22a",
@@ -638,7 +656,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T09:22:27.638Z",
-      "updated_at": "2026-06-16T21:57:58.748Z"
+      "updated_at": "2026-06-20T06:35:08.413Z"
     },
     {
       "id": "e0dfcca454491ede",
@@ -656,7 +674,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T09:15:13.353Z",
-      "updated_at": "2026-06-16T21:57:58.741Z"
+      "updated_at": "2026-06-20T06:35:08.406Z"
     },
     {
       "id": "4f1724dff67e8a84",
@@ -674,7 +692,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-10T09:58:24.508Z",
-      "updated_at": "2026-06-16T21:57:58.733Z"
+      "updated_at": "2026-06-20T06:35:08.398Z"
     },
     {
       "id": "0bca3f03155818f7",
@@ -694,7 +712,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T22:16:52.224Z",
-      "updated_at": "2026-06-16T21:57:58.726Z"
+      "updated_at": "2026-06-20T06:35:08.390Z"
     },
     {
       "id": "759055daddde4b2d",
@@ -714,7 +732,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-13T20:05:09.694Z",
-      "updated_at": "2026-06-16T21:57:58.718Z"
+      "updated_at": "2026-06-20T06:35:08.382Z"
     },
     {
       "id": "8be1f8a0af7e659b",
@@ -732,7 +750,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T20:13:45.606Z",
-      "updated_at": "2026-06-16T21:57:58.701Z"
+      "updated_at": "2026-06-20T06:35:08.353Z"
     },
     {
       "id": "03dedc4354bdf92b",
@@ -751,7 +769,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-15T19:27:45.833Z",
-      "updated_at": "2026-06-16T21:57:58.694Z"
+      "updated_at": "2026-06-20T06:35:08.344Z"
     },
     {
       "id": "22da30cd994e0132",
@@ -767,7 +785,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T20:19:19.687Z",
-      "updated_at": "2026-06-16T21:57:58.687Z"
+      "updated_at": "2026-06-20T06:35:08.336Z"
     },
     {
       "id": "97447d4131aa20c2",
@@ -787,7 +805,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T21:50:18.924Z",
-      "updated_at": "2026-06-16T21:57:58.679Z"
+      "updated_at": "2026-06-20T06:35:08.328Z"
     },
     {
       "id": "7c57afe3d05b94ca",
@@ -805,7 +823,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-05T22:11:28.000Z",
-      "updated_at": "2026-06-16T21:57:58.671Z"
+      "updated_at": "2026-06-20T06:35:08.319Z"
     },
     {
       "id": "813c75fb65aa1098",
@@ -825,7 +843,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-05T22:11:28.000Z",
-      "updated_at": "2026-06-16T21:57:58.664Z"
+      "updated_at": "2026-06-20T06:35:08.311Z"
     },
     {
       "id": "6e13a6e0e2001e9c",
@@ -844,7 +862,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T09:01:07.460Z",
-      "updated_at": "2026-06-16T21:57:58.648Z"
+      "updated_at": "2026-06-20T06:35:08.295Z"
     },
     {
       "id": "3e8624e30d528f35",
@@ -864,7 +882,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T22:39:47.946Z",
-      "updated_at": "2026-06-16T21:57:58.641Z"
+      "updated_at": "2026-06-20T06:35:08.286Z"
     },
     {
       "id": "bc835195b7810b28",
@@ -884,7 +902,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T22:40:45.154Z",
-      "updated_at": "2026-06-16T21:57:58.641Z"
+      "updated_at": "2026-06-20T06:35:08.286Z"
     },
     {
       "id": "c9dc225a4dbcb00a",
@@ -904,7 +922,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T22:45:08.051Z",
-      "updated_at": "2026-06-16T21:57:58.641Z"
+      "updated_at": "2026-06-20T06:35:08.286Z"
     },
     {
       "id": "6a48240fbb8a846c",
@@ -922,7 +940,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-12T22:37:44.011Z",
-      "updated_at": "2026-06-16T21:57:58.633Z"
+      "updated_at": "2026-06-20T06:35:08.278Z"
     },
     {
       "id": "25c33416b466d0f4",
@@ -938,7 +956,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T13:32:01.379Z",
-      "updated_at": "2026-06-16T21:57:58.618Z"
+      "updated_at": "2026-06-20T06:35:08.262Z"
     },
     {
       "id": "294ef0e17dfc566c",
@@ -954,7 +972,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T13:23:57.996Z",
-      "updated_at": "2026-06-16T21:57:58.617Z"
+      "updated_at": "2026-06-20T06:35:08.261Z"
     },
     {
       "id": "5303d73886869530",
@@ -970,7 +988,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T13:36:16.150Z",
-      "updated_at": "2026-06-16T21:57:58.610Z"
+      "updated_at": "2026-06-20T06:35:08.253Z"
     },
     {
       "id": "bebd436b46a9dba6",
@@ -986,7 +1004,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T13:25:34.781Z",
-      "updated_at": "2026-06-16T21:57:58.610Z"
+      "updated_at": "2026-06-20T06:35:08.253Z"
     },
     {
       "id": "d0db06db03c607f1",
@@ -1002,7 +1020,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T13:39:38.784Z",
-      "updated_at": "2026-06-16T21:57:58.610Z"
+      "updated_at": "2026-06-20T06:35:08.253Z"
     },
     {
       "id": "254c2b6a7327911b",
@@ -1021,7 +1039,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T08:57:38.811Z",
-      "updated_at": "2026-06-16T21:57:58.603Z"
+      "updated_at": "2026-06-20T06:35:08.244Z"
     },
     {
       "id": "0947003d4af2538e",
@@ -1040,7 +1058,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T22:22:25.945Z",
-      "updated_at": "2026-06-16T21:57:58.594Z"
+      "updated_at": "2026-06-20T06:35:08.236Z"
     },
     {
       "id": "5c07e1ac64c1fdaf",
@@ -1058,7 +1076,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-05T22:11:28.000Z",
-      "updated_at": "2026-06-16T21:57:58.594Z"
+      "updated_at": "2026-06-20T06:35:08.236Z"
     },
     {
       "id": "c5b4d7f1f85ba1d7",
@@ -1078,7 +1096,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-12T22:04:07.881Z",
-      "updated_at": "2026-06-16T21:57:58.587Z"
+      "updated_at": "2026-06-20T06:35:08.228Z"
     },
     {
       "id": "66f81dd175430b1f",
@@ -1098,7 +1116,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T22:19:30.082Z",
-      "updated_at": "2026-06-16T21:57:58.580Z"
+      "updated_at": "2026-06-20T06:35:08.220Z"
     },
     {
       "id": "bf69b66184ae9dd2",
@@ -1114,7 +1132,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-12T22:01:53.409Z",
-      "updated_at": "2026-06-16T21:57:58.572Z"
+      "updated_at": "2026-06-20T06:35:08.212Z"
     },
     {
       "id": "8c7992e7a9dae805",
@@ -1133,7 +1151,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T08:46:49.358Z",
-      "updated_at": "2026-06-16T21:57:58.557Z"
+      "updated_at": "2026-06-20T06:35:08.196Z"
     },
     {
       "id": "cd41bc0899216b21",
@@ -1152,7 +1170,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T19:25:48.300Z",
-      "updated_at": "2026-06-16T21:57:58.549Z"
+      "updated_at": "2026-06-20T06:35:08.187Z"
     },
     {
       "id": "2e6dfa7c9c23809c",
@@ -1171,7 +1189,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T08:45:23.580Z",
-      "updated_at": "2026-06-16T21:57:58.542Z"
+      "updated_at": "2026-06-20T06:35:08.178Z"
     },
     {
       "id": "6dfa972032021589",
@@ -1191,7 +1209,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T12:55:52.423Z",
-      "updated_at": "2026-06-16T21:57:58.534Z"
+      "updated_at": "2026-06-20T06:35:08.171Z"
     },
     {
       "id": "9897312106740db3",
@@ -1210,7 +1228,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T12:55:28.860Z",
-      "updated_at": "2026-06-16T21:57:58.534Z"
+      "updated_at": "2026-06-20T06:35:08.171Z"
     },
     {
       "id": "8b27777b6270009a",
@@ -1230,7 +1248,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-12T21:53:07.470Z",
-      "updated_at": "2026-06-16T21:57:58.526Z"
+      "updated_at": "2026-06-20T06:35:08.163Z"
     },
     {
       "id": "aadb15e60b8c24f1",
@@ -1250,7 +1268,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-06T10:28:18.268Z",
-      "updated_at": "2026-06-16T21:57:58.511Z"
+      "updated_at": "2026-06-20T06:35:08.147Z"
     },
     {
       "id": "1139177e1e3669d5",
@@ -1269,7 +1287,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T12:52:49.008Z",
-      "updated_at": "2026-06-16T21:57:58.502Z"
+      "updated_at": "2026-06-20T06:35:08.140Z"
     },
     {
       "id": "578ade59254d3f4d",
@@ -1288,7 +1306,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:50:19.051Z",
-      "updated_at": "2026-06-16T21:57:58.494Z"
+      "updated_at": "2026-06-20T06:35:08.132Z"
     },
     {
       "id": "5e72bb5c1adbda89",
@@ -1304,7 +1322,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-12T21:46:36.973Z",
-      "updated_at": "2026-06-16T21:57:58.486Z"
+      "updated_at": "2026-06-20T06:35:08.121Z"
     },
     {
       "id": "91d1e32122780dcf",
@@ -1320,7 +1338,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:43:26.083Z",
-      "updated_at": "2026-06-16T21:57:58.470Z"
+      "updated_at": "2026-06-20T06:35:08.069Z"
     },
     {
       "id": "ca1106bcd4e81fba",
@@ -1336,7 +1354,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:42:19.294Z",
-      "updated_at": "2026-06-16T21:57:58.462Z"
+      "updated_at": "2026-06-20T06:35:08.052Z"
     },
     {
       "id": "ad534260a1f4831c",
@@ -1352,7 +1370,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:40:43.956Z",
-      "updated_at": "2026-06-16T21:57:58.455Z"
+      "updated_at": "2026-06-20T06:35:08.043Z"
     },
     {
       "id": "e9184764dce87c0a",
@@ -1372,7 +1390,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:35:18.190Z",
-      "updated_at": "2026-06-16T21:57:58.447Z"
+      "updated_at": "2026-06-20T06:35:08.036Z"
     },
     {
       "id": "2df273db285237b1",
@@ -1390,7 +1408,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:33:56.515Z",
-      "updated_at": "2026-06-16T21:57:58.438Z"
+      "updated_at": "2026-06-20T06:35:08.028Z"
     },
     {
       "id": "ea7e3c821ff4bbbb",
@@ -1410,7 +1428,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-16T12:41:41.542Z",
-      "updated_at": "2026-06-16T21:57:58.430Z"
+      "updated_at": "2026-06-20T06:35:08.020Z"
     },
     {
       "id": "fc5fa65147b5b3de",
@@ -1430,7 +1448,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:31:21.888Z",
-      "updated_at": "2026-06-16T21:57:58.422Z"
+      "updated_at": "2026-06-20T06:35:08.011Z"
     },
     {
       "id": "a4e2d87376e09b91",
@@ -1451,7 +1469,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T08:17:28.970Z",
-      "updated_at": "2026-06-16T21:57:58.414Z"
+      "updated_at": "2026-06-20T06:35:08.004Z"
     },
     {
       "id": "96fd0ea34c1775a3",
@@ -1471,7 +1489,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T12:30:06.183Z",
-      "updated_at": "2026-06-16T21:57:58.406Z"
+      "updated_at": "2026-06-20T06:35:07.996Z"
     },
     {
       "id": "443a904987dcfc04",
@@ -1491,7 +1509,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-12T21:24:24.562Z",
-      "updated_at": "2026-06-16T21:57:58.398Z"
+      "updated_at": "2026-06-20T06:35:07.988Z"
     },
     {
       "id": "8fcacf2ae53714b0",
@@ -1511,7 +1529,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T12:24:56.390Z",
-      "updated_at": "2026-06-16T21:57:58.389Z"
+      "updated_at": "2026-06-20T06:35:07.979Z"
     },
     {
       "id": "e208d4fc81cce8f4",
@@ -1531,7 +1549,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-16T12:20:17.068Z",
-      "updated_at": "2026-06-16T21:57:58.381Z"
+      "updated_at": "2026-06-20T06:35:07.970Z"
     },
     {
       "id": "5abe374f91e45bd2",
@@ -1551,7 +1569,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:10:55.357Z",
-      "updated_at": "2026-06-16T21:57:58.370Z"
+      "updated_at": "2026-06-20T06:35:07.962Z"
     },
     {
       "id": "84527b314de1824b",
@@ -1570,7 +1588,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:09:22.095Z",
-      "updated_at": "2026-06-16T21:57:58.370Z"
+      "updated_at": "2026-06-20T06:35:07.962Z"
     },
     {
       "id": "9c9fa7a19ffb0a33",
@@ -1590,7 +1608,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:19:59.312Z",
-      "updated_at": "2026-06-16T21:57:58.355Z"
+      "updated_at": "2026-06-20T06:35:07.955Z"
     },
     {
       "id": "38d8e4b1a7c1c2d5",
@@ -1608,7 +1626,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-11T21:08:35.562Z",
-      "updated_at": "2026-06-16T21:57:58.346Z"
+      "updated_at": "2026-06-20T06:35:07.946Z"
     },
     {
       "id": "27e313f4717e1f14",
@@ -1628,7 +1646,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-12T21:12:54.291Z",
-      "updated_at": "2026-06-16T21:57:58.337Z"
+      "updated_at": "2026-06-20T06:35:07.938Z"
     },
     {
       "id": "111fb33af09ad6ca",
@@ -1648,7 +1666,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-11T21:00:12.383Z",
-      "updated_at": "2026-06-16T21:57:58.329Z"
+      "updated_at": "2026-06-20T06:35:07.930Z"
     },
     {
       "id": "2ba4f9e1430cd536",
@@ -1667,7 +1685,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-11T20:55:04.021Z",
-      "updated_at": "2026-06-16T21:57:58.321Z"
+      "updated_at": "2026-06-20T06:35:07.921Z"
     },
     {
       "id": "8a00cc5398f47588",
@@ -1686,7 +1704,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-13T08:10:53.141Z",
-      "updated_at": "2026-06-16T21:57:58.313Z"
+      "updated_at": "2026-06-20T06:35:07.910Z"
     },
     {
       "id": "64de483cac40cd2b",
@@ -1705,25 +1723,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-16T19:09:22.412Z",
-      "updated_at": "2026-06-16T21:57:58.306Z"
-    },
-    {
-      "id": "d5ddc55d8c47a3f9",
-      "filename": "asset.gif",
-      "original_filename": "download-16f8a903a977.gif",
-      "kind": "archive",
-      "media_type": "photo",
-      "thumbnail_url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
-      "public_url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
-      "tags": [
-        "bon scott"
-      ],
-      "manual_notes": "",
-      "search_text": "asset.gif download-16f8a903a977.gif bon scott",
-      "usage_count": 1,
-      "archived": false,
-      "created_at": "2026-06-16T12:06:28.369Z",
-      "updated_at": "2026-06-16T21:57:58.298Z"
+      "updated_at": "2026-06-20T06:35:07.902Z"
     },
     {
       "id": "c3e9d38af1bc8287",
@@ -1742,7 +1742,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-14T18:10:58.096Z",
-      "updated_at": "2026-06-16T21:57:58.290Z"
+      "updated_at": "2026-06-20T06:35:07.886Z"
     },
     {
       "id": "4b4c71951b118e6c",
@@ -1761,7 +1761,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-14T18:07:51.504Z",
-      "updated_at": "2026-06-16T21:57:58.283Z"
+      "updated_at": "2026-06-20T06:35:07.878Z"
     },
     {
       "id": "bd1748b0e95e182b",
@@ -1779,7 +1779,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-05T22:11:28.000Z",
-      "updated_at": "2026-06-16T21:57:58.275Z"
+      "updated_at": "2026-06-20T06:35:07.870Z"
     },
     {
       "id": "e055493666442638",
@@ -1798,7 +1798,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-11T20:29:29.359Z",
-      "updated_at": "2026-06-16T21:57:58.267Z"
+      "updated_at": "2026-06-20T06:35:07.863Z"
     },
     {
       "id": "9406d55bde3b4d1e",
@@ -1817,7 +1817,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-11T20:28:46.739Z",
-      "updated_at": "2026-06-16T21:57:58.251Z"
+      "updated_at": "2026-06-20T06:35:07.847Z"
     },
     {
       "id": "f218d43cd86501a3",
@@ -1833,7 +1833,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-14T17:20:56.524Z",
-      "updated_at": "2026-06-16T21:57:58.244Z"
+      "updated_at": "2026-06-20T06:35:07.839Z"
     },
     {
       "id": "c167443332ebf7aa",
@@ -1851,7 +1851,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-14T17:44:46.268Z",
-      "updated_at": "2026-06-16T21:57:58.236Z"
+      "updated_at": "2026-06-20T06:35:07.832Z"
     },
     {
       "id": "6dd1ab5e78e21e39",
@@ -1871,7 +1871,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-11T20:05:47.145Z",
-      "updated_at": "2026-06-16T21:57:58.228Z"
+      "updated_at": "2026-06-20T06:35:07.825Z"
     },
     {
       "id": "429605848f5df1a6",
@@ -1891,7 +1891,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-11T20:17:26.779Z",
-      "updated_at": "2026-06-16T21:57:58.220Z"
+      "updated_at": "2026-06-20T06:35:07.816Z"
     },
     {
       "id": "9e056c1847eaad18",
@@ -1913,7 +1913,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-14T17:33:57.806Z",
-      "updated_at": "2026-06-16T21:57:58.220Z"
+      "updated_at": "2026-06-20T06:35:07.816Z"
     },
     {
       "id": "4f0abc4f789f115f",
@@ -1933,7 +1933,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-11T20:02:48.604Z",
-      "updated_at": "2026-06-16T21:57:58.213Z"
+      "updated_at": "2026-06-20T06:35:07.808Z"
     },
     {
       "id": "8bf1b3df0a944cea",
@@ -1951,7 +1951,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-14T17:40:23.352Z",
-      "updated_at": "2026-06-16T21:57:58.203Z"
+      "updated_at": "2026-06-20T06:35:07.800Z"
     },
     {
       "id": "198a9216264e595b",
@@ -1970,7 +1970,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-11T20:12:01.925Z",
-      "updated_at": "2026-06-16T21:57:58.195Z"
+      "updated_at": "2026-06-20T06:35:07.792Z"
     },
     {
       "id": "74fcfb3aa43b4289",
@@ -1991,7 +1991,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-14T17:38:49.105Z",
-      "updated_at": "2026-06-16T21:57:58.187Z"
+      "updated_at": "2026-06-20T06:35:07.783Z"
     },
     {
       "id": "aac702f0e76dffd6",
@@ -2009,7 +2009,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-14T17:37:38.348Z",
-      "updated_at": "2026-06-16T21:57:58.179Z"
+      "updated_at": "2026-06-20T06:35:07.776Z"
     },
     {
       "id": "673973583e79f97e",
@@ -2027,7 +2027,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-05T22:11:29.000Z",
-      "updated_at": "2026-06-16T21:57:58.170Z"
+      "updated_at": "2026-06-20T06:35:07.768Z"
     },
     {
       "id": "b33ae1d013b2a107",
@@ -2046,7 +2046,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-14T17:35:24.492Z",
-      "updated_at": "2026-06-16T21:57:58.162Z"
+      "updated_at": "2026-06-20T06:35:07.760Z"
     },
     {
       "id": "a2e868fd6f3d4bd9",
@@ -2067,7 +2067,7 @@
       "usage_count": 1,
       "archived": false,
       "created_at": "2026-06-11T19:44:12.767Z",
-      "updated_at": "2026-06-16T21:57:58.154Z"
+      "updated_at": "2026-06-20T06:35:07.750Z"
     },
     {
       "id": "e29b6eb53267fb4c",
@@ -2086,7 +2086,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-05T22:11:28.000Z",
-      "updated_at": "2026-06-16T21:57:58.145Z"
+      "updated_at": "2026-06-20T06:35:07.742Z"
     },
     {
       "id": "5bb3fe8890c73da8",
@@ -2104,7 +2104,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-05T22:11:28.000Z",
-      "updated_at": "2026-06-16T21:57:58.137Z"
+      "updated_at": "2026-06-20T06:35:07.734Z"
     },
     {
       "id": "2227bd0a7a4643a0",
@@ -2123,7 +2123,7 @@
       "usage_count": 2,
       "archived": false,
       "created_at": "2026-06-05T22:11:27.000Z",
-      "updated_at": "2026-06-16T21:57:58.061Z"
+      "updated_at": "2026-06-20T06:35:07.657Z"
     },
     {
       "id": "5ad6e312720ff278",

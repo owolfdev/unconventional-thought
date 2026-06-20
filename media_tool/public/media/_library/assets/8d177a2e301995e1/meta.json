@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "id": "8d177a2e301995e1",
+  "filename": "funny bon.jpg",
+  "original_filename": "funny bon.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m038/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m038",
+      "spoken": "Clever rhymes, double entendres, puns, tongue firmly planted in cheek half the time.",
+      "search_queries": [
+        "Bon Scott wink live performance AC/DC",
+        "Bon Scott playful stage expression 1979",
+        "Bon Scott Big Balls live 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott playful innuendo performance 1979",
+      "editorial_intent": "Innuendo/wordplay — playful Bon (wink, grin, tongue-in-cheek pose) or Big Balls-era stage wit; not literal infographic.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m081",
+      "spoken": "in the grips of that substance during their most creative periods. Some survived, some paid the price.",
+      "search_queries": [
+        "rock musician funeral 1970s newspaper",
+        "Eric Clapton 1970s photograph",
+        "Keith Richards 1970s live photograph"
+      ],
+      "people": [],
+      "situation": "Rock survivors vs casualties — era press, funerals, comebacks",
+      "editorial_intent": "Some survived, some paid — contrast portraits; documentary sobriety.",
+      "attached_at": "2026-06-12T22:02:04.014Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m106",
+      "spoken": "the public facing record feels thinner than the legend around it. He drank too much.",
+      "search_queries": [
+        "Bon Scott drinking beer pub 1970s",
+        "Bon Scott bar candid 1970s",
+        "rock musician pub 1970s documentary"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott drinking pub 1970s — known drinker, not moralizing",
+      "editorial_intent": "'He drank too much' — bar culture yes, but skeptical undertone; veteran drinker.",
+      "attached_at": "2026-06-13T09:12:26.665Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-13T09:12:26.665Z",
+  "search_text": "funny bon.jpg funny bon.jpg bon scott migrated from 001_whowrotebackinblack/m038/acquired/"
+}

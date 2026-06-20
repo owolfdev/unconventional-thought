@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "id": "420996400b79b637",
+  "filename": "but-heres-the-thing-about-bond-scott.jpg",
+  "original_filename": "download-c0e3234a11d1.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m030/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m030",
+      "spoken": "But here's the thing about Bond Scott.",
+      "search_queries": [
+        "Bon Scott portrait 1970s",
+        "Bon Scott AC/DC 1978 photograph"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott candid photograph 1970s",
+      "editorial_intent": "Bon as author — candid or performance showing character.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m034",
+      "spoken": "Specific guy, bad reputation. He's proud of it.",
+      "search_queries": [
+        "Bon Scott leather jacket photograph 1970s",
+        "Bon Scott defiant backstage 1979",
+        "Bon Scott bad reputation press photo"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott rebellious image photograph 1970s",
+      "editorial_intent": "Outlaw persona — leather, defiant smirk, backstage or street candid; proud troublemaker.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m092",
+      "spoken": "would an artist like Bond Scott ever have been around heroin. Of course he would.",
+      "search_queries": [
+        "Bon Scott London 1979 photograph",
+        "Bon Scott AC/DC 1979 offstage nightlife",
+        "London music scene 1979 rock"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott London 1979 — clubs, tour life, proximity not proof",
+      "editorial_intent": "Would Bon be *around* heroin? — London 1979 nightlife, his circles, not accusation graphic.",
+      "attached_at": "2026-06-13T09:01:57.165Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m004",
+      "spoken": "and he knew",
+      "search_queries": [
+        "Bon Scott Highway to Hell tour 1979 live",
+        "AC/DC recording Highway to Hell 1979",
+        "Bon Scott microphone 1979 performance"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell era — Bon on stage or in studio 1979",
+      "editorial_intent": "'That's why he wrote Highway to Hell' — 1979 tour energy or studio session, era-accurate.",
+      "attached_at": "2026-06-11T19:40:46.299Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-13T09:01:57.165Z",
+  "search_text": "but-heres-the-thing-about-bond-scott.jpg download-c0e3234a11d1.jpg bon scott migrated from 001_whowrotebackinblack/m030/acquired/"
+}

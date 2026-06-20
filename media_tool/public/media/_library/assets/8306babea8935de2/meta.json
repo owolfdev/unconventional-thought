@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "id": "8306babea8935de2",
+  "filename": "bonscott-fingerprint.jpg",
+  "original_filename": "bonscott-fingerprint.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott",
+    "brian johnson"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m130/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m130",
+      "spoken": "Bond's fingerprint.",
+      "search_queries": [
+        "Bon Scott 1979 live",
+        "Brian Johnson 1980 AC/DC"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott and Brian Johnson AC/DC vocalists comparison photos",
+      "editorial_intent": "Visual compare — Bon-era vs Brian-era (two-up or sequential).",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m004",
+      "spoken": "and he knew",
+      "search_queries": [
+        "Bon Scott Highway to Hell tour 1979 live",
+        "AC/DC recording Highway to Hell 1979",
+        "Bon Scott microphone 1979 performance"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell era — Bon on stage or in studio 1979",
+      "editorial_intent": "'That's why he wrote Highway to Hell' — 1979 tour energy or studio session, era-accurate.",
+      "attached_at": "2026-06-11T11:52:21.339Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-11T11:52:21.340Z",
+  "search_text": "bonscott-fingerprint.jpg bonscott-fingerprint.jpg bon scott brian johnson migrated from 001_whowrotebackinblack/m130/acquired/"
+}

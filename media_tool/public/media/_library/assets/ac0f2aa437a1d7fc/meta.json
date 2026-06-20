@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ac0f2aa437a1d7fc",
+  "filename": "IMG_5725.JPG",
+  "original_filename": "IMG_5725.JPG",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "bulk-import",
+  "license": "manual import — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "_library",
+      "cue_id": "_bulk_import",
+      "spoken": "",
+      "search_queries": [],
+      "people": [],
+      "situation": "",
+      "editorial_intent": "",
+      "attached_at": "2026-06-10T09:56:51.919Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-10T09:56:51.919Z",
+  "updated_at": "2026-06-10T09:56:51.919Z",
+  "search_text": "img_5725.jpg img_5725.jpg bon scott"
+}

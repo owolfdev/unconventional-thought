@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "5af89a172d9ed0cd",
+  "filename": "they-were-trying-to-sound-like-slayed.jpeg",
+  "original_filename": "download-4eddf94e3387.jpeg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "geordie"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m069/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m069",
+      "spoken": "They were trying to sound like slayed.",
+      "search_queries": [
+        "Geordie band UK 1975",
+        "Slade band 1973 live"
+      ],
+      "people": [
+        {
+          "name": "Geordie",
+          "role": "band"
+        }
+      ],
+      "situation": "UK rock band glam era 1970s promotional",
+      "editorial_intent": "Musical influence reference — UK glam era context photo (Geordie/Slade era).",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "they-were-trying-to-sound-like-slayed.jpeg download-4eddf94e3387.jpeg geordie migrated from 001_whowrotebackinblack/m069/acquired/"
+}

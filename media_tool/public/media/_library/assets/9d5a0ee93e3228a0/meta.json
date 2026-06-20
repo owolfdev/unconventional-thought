@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "9d5a0ee93e3228a0",
+  "filename": "there-i-said-it-yeah-thats-the-whole-thing.jpg",
+  "original_filename": "download-0ed6b298a1b9.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc",
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m007/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m007",
+      "spoken": "There, I said it. Yeah, that's the whole thing.",
+      "search_queries": [
+        "AC/DC Back in Black 1980 press photo",
+        "AC/DC 1980 promotional photograph"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        },
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "AC/DC Back in Black release period press photo or live 1980",
+      "editorial_intent": "Back in Black era — press or live, avoid trademark album cover art if possible.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-05T22:11:27.000Z",
+  "search_text": "there-i-said-it-yeah-thats-the-whole-thing.jpg download-0ed6b298a1b9.jpg ac/dc bon scott migrated from 001_whowrotebackinblack/m007/acquired/"
+}

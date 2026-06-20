@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "fe5ad9ce963b4d35",
+  "filename": "hells-bells.jpg",
+  "original_filename": "download-c43f565bd9d9.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc",
+    "brian johnson"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m078/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m078",
+      "spoken": "Hell's bells.",
+      "search_queries": [
+        "AC/DC Hells Bells live 1981",
+        "AC/DC live 1980 stage bells"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "AC/DC performing Hells Bells live early 1980s",
+      "editorial_intent": "Song title — live performance moment same era.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "hells-bells.jpg download-c43f565bd9d9.jpg ac/dc brian johnson migrated from 001_whowrotebackinblack/m078/acquired/"
+}

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "ddbd21b9ac1f4628",
+  "filename": "explode-blow-up-gif-by-motortrend.gif",
+  "original_filename": "giphy-9Y0k4htpk8MmbzSKrd.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media1.giphy.com/media/v1.Y2lkPWExMTZkNmYyeDc5NzBrZ2pvMWJuM2o2cDQwYWl0bHZvMWlib2F4enhyanJhcnViayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/9Y0k4htpk8MmbzSKrd/giphy-downsized-medium.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "9Y0k4htpk8MmbzSKrd",
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m120",
+      "spoken": "And that stigma made the story commercially explosive.",
+      "search_queries": [
+        "AC/DC US tour 1980 crowd",
+        "AC/DC American audience 1980 concert",
+        "rock concert USA 1980 denim crowd"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC American tour 1980 crowd — mainstream rock audience",
+      "editorial_intent": "AC/DC conquering America — US tour crowd, denim, heartland 1980.",
+      "attached_at": "2026-06-20T06:35:08.497Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-15T19:54:55.426Z",
+  "updated_at": "2026-06-20T06:35:08.497Z",
+  "search_text": "explode-blow-up-gif-by-motortrend.gif giphy-9y0k4htpk8mmbzskrd.gif giphy 9y0k4htpk8mmbzskrd ac/dc"
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "4f0c65391d264487",
+  "filename": "dance-celebrate-gif-by-nounish.gif",
+  "original_filename": "giphy-tlawNnswcTAmGjKRHQ.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media2.giphy.com/media/v1.Y2lkPWExMTZkNmYyZjV2dDZ6bWttOGV5eGEzcTd0MTY4bGoyYnM4emR4dXkwb2R0cGJ4OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/tlawNnswcTAmGjKRHQ/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "tlawNnswcTAmGjKRHQ"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m119",
+      "spoken": "like disco, queer, and art scene spaces.",
+      "search_queries": [
+        "Studio 54 1979 photograph",
+        "disco nightclub 1979 New York",
+        "1979 disco dance floor photograph"
+      ],
+      "people": [],
+      "situation": "Studio 54 disco era 1979 — nightlife mainstream rock feared",
+      "editorial_intent": "Disco, queer, art scene — stigma geography; Studio 54 era, NOT homophobic caricature.",
+      "attached_at": "2026-06-15T19:52:18.020Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-15T19:51:53.982Z",
+  "updated_at": "2026-06-15T19:52:18.020Z",
+  "search_text": "dance-celebrate-gif-by-nounish.gif giphy-tlawnnswctamgjkrhq.gif giphy tlawnnswctamgjkrhq"
+}

@@ -1,4 +1,5 @@
-/** IDs aligned with voicecut `effects` / `transition` (see tools/voicecut_schema.json). */
+/** IDs aligned with voicecut `effects` / `transition` (see tools/voicecut_schema.json).
+ *  Add new ids here — @help effects and @effect add pick them up automatically. */
 export const EFFECT_IDS = [
   "film_grain",
   "film_scratches",

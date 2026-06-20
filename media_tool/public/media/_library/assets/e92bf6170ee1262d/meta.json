@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "e92bf6170ee1262d",
+  "filename": "no-theres-only-one-explanation-that-makes-sense.png",
+  "original_filename": "sticker-7454bd61.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m121/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m121",
+      "spoken": "No, there's only one explanation that makes sense.",
+      "search_queries": [
+        "Bon Scott AC/DC live 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott AC/DC live performance 1979",
+      "editorial_intent": "Thesis restatement — strong Bon Scott live still.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-05T22:11:29.000Z",
+  "search_text": "no-theres-only-one-explanation-that-makes-sense.png sticker-7454bd61.png bon scott migrated from 001_whowrotebackinblack/m121/acquired/"
+}

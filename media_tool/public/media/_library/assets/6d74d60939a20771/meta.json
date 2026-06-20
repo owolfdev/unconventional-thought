@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "6d74d60939a20771",
+  "filename": "heavy-metal-80s-gif-by-retro-fiend.gif",
+  "original_filename": "giphy-EM9PbxnOYGrFS.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media2.giphy.com/media/v1.Y2lkPWExMTZkNmYyM2ZwcG94M2JiNmh6OWR1MnU0dDNtOTdtb2VjM2dibjM1NXNqNHJrMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EM9PbxnOYGrFS/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "EM9PbxnOYGrFS"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m118",
+      "spoken": "subcultures that mainstream rock audiences viewed as alien,",
+      "search_queries": [
+        "Studio 54 1979 photograph",
+        "disco nightclub 1979 New York",
+        "1979 disco dance floor photograph"
+      ],
+      "people": [],
+      "situation": "Studio 54 disco era 1979 — nightlife mainstream rock feared",
+      "editorial_intent": "Disco, queer, art scene — stigma geography; Studio 54 era, NOT homophobic caricature.",
+      "attached_at": "2026-06-16T19:49:18.565Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-15T19:51:14.713Z",
+  "updated_at": "2026-06-16T19:49:18.565Z",
+  "search_text": "heavy-metal-80s-gif-by-retro-fiend.gif giphy-em9pbxnoygrfs.gif giphy em9pbxnoygrfs"
+}

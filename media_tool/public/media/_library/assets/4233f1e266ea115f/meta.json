@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "4233f1e266ea115f",
+  "filename": "genphoto-34e3a905.jpg",
+  "original_filename": "genphoto-34e3a905.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "psychedelic musician on stage in a blur of motion. high on something",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m081",
+      "spoken": "in the grips of that substance during their most creative periods.",
+      "search_queries": [
+        "rock musician funeral 1970s newspaper",
+        "Eric Clapton 1970s photograph",
+        "Keith Richards 1970s live photograph"
+      ],
+      "people": [],
+      "situation": "Rock survivors vs casualties — era press, funerals, comebacks",
+      "editorial_intent": "Some survived, some paid — contrast portraits; documentary sobriety.",
+      "attached_at": "2026-06-12T22:12:45.247Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T22:12:45.247Z",
+  "updated_at": "2026-06-12T22:12:45.247Z",
+  "search_text": "genphoto-34e3a905.jpg genphoto-34e3a905.jpg openai photo generated psychedelic musician on stage in a blur of motion. high on something"
+}

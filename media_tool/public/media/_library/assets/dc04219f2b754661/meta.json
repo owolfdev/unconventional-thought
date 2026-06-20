@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "dc04219f2b754661",
+  "filename": "bib-record.jpg",
+  "original_filename": "bib-record.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "vinyl lp record"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m022/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m022",
+      "spoken": "Five months later, they release Back in Black.",
+      "search_queries": [
+        "Back in Black vinyl 1980",
+        "rock album LP sleeve Atlantic"
+      ],
+      "people": [],
+      "situation": "Inanimate: vinyl LP record",
+      "editorial_intent": "Artifact beat: vinyl LP record — story-linked inanimate; prefer no faces, tight macro or detail.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m077",
+      "spoken": "in chemical form.",
+      "search_queries": [
+        "vinyl record collection shelf 1970s",
+        "album collection bedroom 1970s photograph",
+        "stack of LPs close up 1970s"
+      ],
+      "people": [],
+      "situation": "Inanimate: record collection vinyl stack",
+      "editorial_intent": "'Bargain in chemical form' — spoon, kit, or record-collection metaphor.",
+      "attached_at": "2026-06-12T21:57:43.280Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-12T21:57:43.280Z",
+  "search_text": "bib-record.jpg bib-record.jpg vinyl lp record migrated from 001_whowrotebackinblack/m022/acquired/"
+}

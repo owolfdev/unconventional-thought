@@ -3,7 +3,7 @@
   "source_manifest": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
   "episode": "002_DidBonScottKnowHeWasGoingToDie",
   "created_at": "2026-06-06T10:46:09.767Z",
-  "updated_at": "2026-06-16T21:57:58.060Z",
+  "updated_at": "2026-06-20T06:35:07.657Z",
   "item_count": 149,
   "completed_count": 129,
   "items": {
@@ -148,8 +148,8 @@
               "source_page": "/media/_library/assets/5bb3fe8890c73da8/swaggerbon.jpg",
               "license": "migrated from episode 001 acquired/ — verify rights",
               "engine_id": "library",
-              "query": "crossroads Mississippi blues folklore photograph",
-              "selected_at": "2026-06-11T09:39:58.214373Z"
+              "query": "bon scott",
+              "selected_at": "2026-06-20T06:33:54.538Z"
             }
           ]
         },
@@ -169,7 +169,7 @@
         }
       ],
       "completed_at": "2026-06-11T09:39:58.214380Z",
-      "updated_at": "2026-06-11T09:39:58.214380Z"
+      "updated_at": "2026-06-20T06:33:54.538Z"
     },
     "m003": {
       "id": "m003",

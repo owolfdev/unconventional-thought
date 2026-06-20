@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "2e4b6a30d76cf7f4",
+  "filename": "five.png",
+  "original_filename": "sticker-b3800530.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "audio cassette tape"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m011/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m011",
+      "spoken": "Five.",
+      "search_queries": [
+        "cassette tape vintage 1980",
+        "audio cassette close up"
+      ],
+      "people": [],
+      "situation": "Inanimate: audio cassette tape",
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-05T22:11:27.000Z",
+  "search_text": "five.png sticker-b3800530.png audio cassette tape migrated from 001_whowrotebackinblack/m011/acquired/"
+}

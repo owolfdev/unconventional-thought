@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "df8b2805f04ab9ea",
+  "filename": "4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+  "original_filename": "4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc",
+    "brian johnson"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m013/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m013",
+      "spoken": "goes into the studio with a brand new singer, and records the second best-selling album in the history of recorded music.",
+      "search_queries": [
+        "AC/DC Brian Johnson studio 1980",
+        "AC/DC Compass Point Studios Brian Johnson 1980",
+        "Brian Johnson AC/DC recording 1980"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "AC/DC with Brian Johnson recording Back in Black 1980",
+      "editorial_intent": "Band after Bon — Brian Johnson era begins; group in studio 1980.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-05T22:11:27.000Z",
+  "search_text": "4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp 4-19-1980-brian-johnson-joins-ac-dc-at-compass-point-v0-nvapfnxw4cvc1.webp ac/dc brian johnson migrated from 001_whowrotebackinblack/m013/acquired/"
+}

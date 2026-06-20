@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "id": "e29b6eb53267fb4c",
+  "filename": "and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
+  "original_filename": "giphy-l49JZLHlZu2ZCVFN6.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc",
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m039/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m039",
+      "spoken": "And best of all, you've got this swagger that is just pure distilled bottled energy.",
+      "search_queries": [
+        "Bon Scott jumping live stage 1979",
+        "AC/DC Bon Scott live energy photograph 1979",
+        "Bon Scott AC/DC concert dynamic 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "Bon Scott explosive AC/DC live performance energy 1979",
+      "editorial_intent": "Pure kinetic Bon — jump, hair, sweat, chaos; definitive high-energy AC/DC live still.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m028",
+      "spoken": "just swagger, that's like acceptance.",
+      "search_queries": [
+        "Bon Scott 1979 live arms spread stage",
+        "Bon Scott Highway to Hell performance acceptance",
+        "highway road night photograph 1970s metaphor"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott 1979 live — arms open, surrender to the performance",
+      "editorial_intent": "Acceptance / momentum — Bon not resisting; highway forward motion metaphor.",
+      "attached_at": "2026-06-16T12:00:07.184Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m003",
+      "spoken": "more famous than he already was before,",
+      "search_queries": [
+        "crossroads Mississippi blues folklore photograph",
+        "Bon Scott AC/DC fame 1979 press",
+        "rock star spotlight silhouette 1970s"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Robert Johnson crossroads folklore OR Bon at peak fame 1979 — calculated risk",
+      "editorial_intent": "Faustian bargain — fame traded for cost. Crossroads mood without literal devil costume.",
+      "attached_at": "2026-06-20T06:35:07.742Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-20T06:35:07.742Z",
+  "search_text": "and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif giphy-l49jzlhlzu2zcvfn6.gif ac/dc bon scott migrated from 001_whowrotebackinblack/m039/acquired/"
+}

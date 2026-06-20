@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "b2b135e5e780a613",
+  "filename": "cocoon-the-relationtrip-gif-by-the-orchard-films.gif",
+  "original_filename": "giphy-3ohc13C8lM9WmqTr1K.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media3.giphy.com/media/v1.Y2lkPWExMTZkNmYyaHVrcHNzYnV3NHFzeDRkbTRpNWM3cXU4MzNsYWF6MG1menRjZ21rbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ohc13C8lM9WmqTr1K/giphy-downsized-medium.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "3ohc13C8lM9WmqTr1K"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m073",
+      "spoken": "Legend has it that it can make artists feel invulnerable,",
+      "search_queries": [
+        "hypodermic needle macro photograph documentary",
+        "syringe close up medical still life",
+        "needle tip macro black background"
+      ],
+      "people": [],
+      "situation": "Inanimate: hypodermic needle macro",
+      "editorial_intent": "'Tip of a hypodermic needle' — macro, clinical, NOT glamorized.",
+      "attached_at": "2026-06-16T19:20:59.063Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T13:01:45.445Z",
+  "updated_at": "2026-06-16T19:20:59.063Z",
+  "search_text": "cocoon-the-relationtrip-gif-by-the-orchard-films.gif giphy-3ohc13c8lm9wmqtr1k.gif giphy 3ohc13c8lm9wmqtr1k"
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "id": "8b27777b6270009a",
+  "filename": "genphoto-e35a905c.jpg",
+  "original_filename": "genphoto-e35a905c.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "Satan, smiling, dark, night time, back lit.",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m069",
+      "spoken": "about cost. And the devil always gets his due.",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (intertitle)",
+      "editorial_intent": "Section turn — devil reveal setup.",
+      "attached_at": "2026-06-20T06:35:08.155Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m070",
+      "spoken": "So who is the devil? Well, for many, he's found at",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (intertitle)",
+      "editorial_intent": "Section turn — devil reveal setup.",
+      "attached_at": "2026-06-20T06:35:08.163Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T21:53:07.470Z",
+  "updated_at": "2026-06-20T06:35:08.163Z",
+  "search_text": "genphoto-e35a905c.jpg genphoto-e35a905c.jpg openai photo generated satan, smiling, dark, night time, back lit."
+}

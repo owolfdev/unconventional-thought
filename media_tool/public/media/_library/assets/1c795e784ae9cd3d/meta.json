@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "1c795e784ae9cd3d",
+  "filename": "rock-n-roll-font-rock-history.png",
+  "original_filename": "sticker-eeb9a517.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai"
+  ],
+  "manual_notes": "rock n roll font: Rock History",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m091",
+      "spoken": "It's not a fantasy. It's documented rock history. So the question is not",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "Documented history — not fantasy; stamp the argument.",
+      "attached_at": "2026-06-13T08:59:58.703Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T08:59:58.703Z",
+  "updated_at": "2026-06-13T08:59:58.703Z",
+  "search_text": "rock-n-roll-font-rock-history.png sticker-eeb9a517.png sticker openai rock n roll font: rock history"
+}

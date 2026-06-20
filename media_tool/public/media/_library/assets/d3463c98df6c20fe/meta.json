@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "d3463c98df6c20fe",
+  "filename": "theres-no-wink.png",
+  "original_filename": "sticker-11fc5d68.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "guitar amplifier knobs"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m068/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m068",
+      "spoken": "There's no wink.",
+      "search_queries": [
+        "guitar amplifier knobs close up",
+        "Marshall amplifier vintage"
+      ],
+      "people": [],
+      "situation": "Inanimate: guitar amplifier knobs",
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m136",
+      "spoken": "Advertisers were risk averse. Program directors would have backed away fast. A heroin story could",
+      "search_queries": [
+        "1980 car commercial television still",
+        "advertising agency 1980 meeting",
+        "Chevrolet advertisement 1980"
+      ],
+      "people": [],
+      "situation": "1980 television commercial production — advertiser friendly",
+      "editorial_intent": "Advertisers risk-averse — Chevrolet commercial era, brand safety.",
+      "attached_at": "2026-06-14T15:09:30.558Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-14T15:09:30.558Z",
+  "search_text": "theres-no-wink.png sticker-11fc5d68.png guitar amplifier knobs migrated from 001_whowrotebackinblack/m068/acquired/"
+}

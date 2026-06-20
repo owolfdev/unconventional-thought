@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "id": "5bb3fe8890c73da8",
+  "filename": "swaggerbon.jpg",
+  "original_filename": "swaggerbon.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m030/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m030",
+      "spoken": "But here's the thing about Bond Scott.",
+      "search_queries": [
+        "Bon Scott portrait 1970s",
+        "Bon Scott AC/DC 1978 photograph"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott candid photograph 1970s",
+      "editorial_intent": "Bon as author — candid or performance showing character.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m002",
+      "spoken": "fast. I think he traded something to get even more badass,",
+      "search_queries": [
+        "crossroads Mississippi blues folklore photograph",
+        "Bon Scott AC/DC fame 1979 press",
+        "rock star spotlight silhouette 1970s"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Robert Johnson crossroads folklore OR Bon at peak fame 1979 — calculated risk",
+      "editorial_intent": "Faustian bargain — fame traded for cost. Crossroads mood without literal devil costume.",
+      "attached_at": "2026-06-20T06:35:07.734Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-20T06:35:07.734Z",
+  "search_text": "swaggerbon.jpg swaggerbon.jpg bon scott migrated from 001_whowrotebackinblack/m030/acquired/"
+}

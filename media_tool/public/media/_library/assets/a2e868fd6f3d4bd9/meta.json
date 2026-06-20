@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "a2e868fd6f3d4bd9",
+  "filename": "in-acdc-logo-style-he-knew.png",
+  "original_filename": "sticker-f96d61fe.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai",
+    "bon scott",
+    "ac/dc"
+  ],
+  "manual_notes": "in AC/DC logo style: HE KNEW",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m004",
+      "spoken": "and he knew",
+      "search_queries": [
+        "Bon Scott Highway to Hell tour 1979 live",
+        "AC/DC recording Highway to Hell 1979",
+        "Bon Scott microphone 1979 performance"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell era — Bon on stage or in studio 1979",
+      "editorial_intent": "'That's why he wrote Highway to Hell' — 1979 tour energy or studio session, era-accurate.",
+      "attached_at": "2026-06-20T06:35:07.750Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-11T19:44:12.767Z",
+  "updated_at": "2026-06-20T06:35:07.750Z",
+  "search_text": "in-acdc-logo-style-he-knew.png sticker-f96d61fe.png sticker openai bon scott ac/dc in ac/dc logo style: he knew"
+}

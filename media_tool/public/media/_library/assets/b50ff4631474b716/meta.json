@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "b50ff4631474b716",
+  "filename": "rave-gif.gif",
+  "original_filename": "giphy-tjpOYwb6PklO0.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media3.giphy.com/media/v1.Y2lkPWExMTZkNmYyeGQ1dmFtbmhpeW4wem5tMGU0dWdncG9jeTNvMDJ3bjdoMTQwNXE4ayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/tjpOYwb6PklO0/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "tjpOYwb6PklO0"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m117",
+      "spoken": "1980, in media narratives, heroin was tied to nightlife",
+      "search_queries": [
+        "Rolling Stone magazine 1980 cover",
+        "1980 news broadcast television studio",
+        "music magazine 1980 rock"
+      ],
+      "people": [],
+      "situation": "1980 American media culture — news magazine, rock press",
+      "editorial_intent": "1980 media narratives — heroin tied to 'alien' subcultures; year stamp.",
+      "attached_at": "2026-06-20T06:35:08.473Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T19:52:49.101Z",
+  "updated_at": "2026-06-20T06:35:08.474Z",
+  "search_text": "rave-gif.gif giphy-tjpoywb6pklo0.gif giphy tjpoywb6pklo0"
+}

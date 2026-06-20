@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "id": "fa39a51774bb3241",
+  "filename": "those-songs-have-bond-fingerprint.jpg",
+  "original_filename": "download-f6689233be25.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc",
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m074/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m074",
+      "spoken": "Those songs have Bond's fingerprint.",
+      "search_queries": [
+        "Bon Scott 1979 live",
+        "Brian Johnson 1980 AC/DC"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott and Brian Johnson AC/DC vocalists comparison photos",
+      "editorial_intent": "Visual compare — Bon-era vs Brian-era (two-up or sequential).",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m128",
+      "spoken": "And he deserves to have his last words credited to him.",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m080",
+      "spoken": "through the 90s, check your record collection. Most likely a lot of the artists you listened to were",
+      "search_queries": [
+        "rock musicians 1970s studio session",
+        "1970s recording studio musicians photograph",
+        "rock band afterparty 1970s"
+      ],
+      "people": [],
+      "situation": "Rock musicians 1970s studio and afterparty culture",
+      "editorial_intent": "'60s–'90s artists in the grip' — named-era montage; studio circles, not needles.",
+      "attached_at": "2026-06-12T21:58:19.394Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-12T21:58:19.394Z",
+  "search_text": "those-songs-have-bond-fingerprint.jpg download-f6689233be25.jpg ac/dc bon scott migrated from 001_whowrotebackinblack/m074/acquired/"
+}

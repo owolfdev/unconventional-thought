@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "d86f16ffc38bdf33",
+  "filename": "genphoto-6d05d0cf.jpg",
+  "original_filename": "genphoto-6d05d0cf.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "devil running on the highway to hell",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m145",
+      "spoken": "hot on his heels, ready to collect.",
+      "search_queries": [
+        "rock concert crowd cheering 1979",
+        "concert tickets hands 1970s",
+        "stadium audience rock show 1979"
+      ],
+      "people": [],
+      "situation": "Rock concert audience 1979 — consumption, cheering, complicity",
+      "editorial_intent": "'We consumed it as entertainment' — crowd, tickets, spectacle complicit.",
+      "attached_at": "2026-06-20T06:35:08.639Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-15T20:23:13.310Z",
+  "updated_at": "2026-06-20T06:35:08.639Z",
+  "search_text": "genphoto-6d05d0cf.jpg genphoto-6d05d0cf.jpg openai photo generated devil running on the highway to hell"
+}

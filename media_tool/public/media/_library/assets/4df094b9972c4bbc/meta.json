@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "id": "4df094b9972c4bbc",
+  "filename": "highway-to-hell-not-a-vague-rock-statement.jpg",
+  "original_filename": "download-950beebf907b.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc",
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m040/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m040",
+      "spoken": "Highway to hell, not a vague rock statement.",
+      "search_queries": [
+        "AC/DC Highway to Hell tour 1979",
+        "Bon Scott Highway to Hell live 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell tour live performance 1979",
+      "editorial_intent": "Highway to Hell era live — peak Bon Scott stage energy.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m147",
+      "spoken": "play highway to hell tonight. Loud. Then tell me he didn't know.",
+      "search_queries": [
+        "Bon Scott Highway to Hell live 1979",
+        "Bon Scott AC/DC 1979 tour finale energy",
+        "Bon Scott singing highway to hell live"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott Highway to Hell live 1979 — final statement, mic forward",
+      "editorial_intent": "Closing command — play it loud; definitive Highway to Hell tour Bon, full energy.",
+      "attached_at": "2026-06-20T06:35:08.655Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-20T06:35:08.655Z",
+  "search_text": "highway-to-hell-not-a-vague-rock-statement.jpg download-950beebf907b.jpg ac/dc bon scott migrated from 001_whowrotebackinblack/m040/acquired/"
+}

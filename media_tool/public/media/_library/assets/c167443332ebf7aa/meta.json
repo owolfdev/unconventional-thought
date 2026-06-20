@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "c167443332ebf7aa",
+  "filename": "asset.mp4",
+  "original_filename": "ilVzs00YWaQ.mp4",
+  "kind": "archive",
+  "media_type": "video",
+  "source_url": "https://www.youtube.com/shorts/ilVzs00YWaQ",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m016",
+      "spoken": "floating downstream.",
+      "search_queries": [
+        "Bon Scott 1979 live relaxed performance",
+        "Bon Scott Highway to Hell tour leaning microphone",
+        "Bon Scott 1979 stage calm expression"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott 1979 live relaxed leaning back microphone — downstream calm",
+      "editorial_intent": "Highway to Hell shift — looser, warmer, leaning back. 1979 Bon relaxed on stage.",
+      "attached_at": "2026-06-20T06:35:07.832Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-14T17:44:46.268Z",
+  "updated_at": "2026-06-20T06:35:07.832Z",
+  "search_text": "asset.mp4 ilvzs00ywaq.mp4 bon scott"
+}

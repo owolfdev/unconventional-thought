@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "baab9ac92c5b1ea1",
+  "filename": "yes-ive-heard-the-interviews.gif",
+  "original_filename": "giphy-3o7WIP8qaBp9ifndcI.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "brian johnson"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m138/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m138",
+      "spoken": "Yes, I've heard the interviews.",
+      "search_queries": [
+        "Brian Johnson interview 1980s",
+        "Brian Johnson AC/DC live"
+      ],
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson interview or live 1980s",
+      "editorial_intent": "Acknowledgment — Brian interview or live still.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-05T22:11:29.000Z",
+  "search_text": "yes-ive-heard-the-interviews.gif giphy-3o7wip8qabp9ifndci.gif brian johnson migrated from 001_whowrotebackinblack/m138/acquired/"
+}

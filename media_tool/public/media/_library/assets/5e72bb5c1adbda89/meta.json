@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "5e72bb5c1adbda89",
+  "filename": "asset.jpg",
+  "original_filename": "download-a31a6b5346f1.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-27293-rectangle.jpg?w=624&h=422&crop=1",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m062",
+      "spoken": "Kurt Cobain,",
+      "search_queries": [
+        "Jimi Hendrix 1969 photograph",
+        "Janis Joplin 1970 photograph",
+        "Jim Morrison 1971 photograph",
+        "Kurt Cobain 1990s photograph"
+      ],
+      "people": [],
+      "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
+      "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+      "attached_at": "2026-06-20T06:35:08.112Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m063",
+      "spoken": "and many others.",
+      "search_queries": [
+        "Jimi Hendrix 1969 photograph",
+        "Janis Joplin 1970 photograph",
+        "Jim Morrison 1971 photograph",
+        "Kurt Cobain 1990s photograph"
+      ],
+      "people": [],
+      "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
+      "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+      "attached_at": "2026-06-20T06:35:08.121Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T21:46:36.973Z",
+  "updated_at": "2026-06-20T06:35:08.121Z",
+  "search_text": "asset.jpg download-a31a6b5346f1.jpg"
+}

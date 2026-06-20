@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "id": "53f3d23509394c09",
+  "filename": "bond-scott-dies-february-19-1980-33-years-old.jpg",
+  "original_filename": "download-e73e2449fe6b.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m020/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m020",
+      "spoken": "Bond Scott dies February 19, 1980. 33 years old.",
+      "search_queries": [
+        "Bon Scott funeral February 1980",
+        "Bon Scott memorial Fremantle 1980",
+        "Bon Scott death 1980 Australia"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist",
+          "date_died": "1980-02-19"
+        }
+      ],
+      "situation": "Bon Scott funeral or public memorial February 1980 Australia",
+      "editorial_intent": "Bon Scott death — memorial, funeral, or documented public mourning.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m057",
+      "spoken": "died early before seeing it happen. He did become a legend just only after death. Take the 27 club,",
+      "search_queries": [
+        "Robert Johnson grave Mississippi",
+        "Robert Johnson death memorial blues",
+        "Robert Johnson 1938 obituary newspaper"
+      ],
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson grave or death memorial — died before fame",
+      "editorial_intent": "Johnson died young — legend only after death; grave or memorial.",
+      "attached_at": "2026-06-12T21:32:04.861Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-12T21:32:04.861Z",
+  "search_text": "bond-scott-dies-february-19-1980-33-years-old.jpg download-e73e2449fe6b.jpg bon scott migrated from 001_whowrotebackinblack/m020/acquired/"
+}

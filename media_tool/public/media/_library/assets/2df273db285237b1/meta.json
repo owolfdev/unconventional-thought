@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "2df273db285237b1",
+  "filename": "asset.jpg",
+  "original_filename": "download-8be5bce66a0e.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://magnoliatribune.com/wp-content/uploads/2023/07/johnson_wide-6982949a5e6d936d40d1c45f19251d60c37e7a45.jpg",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "robert johnson"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m057",
+      "spoken": "died early before seeing it happen. He did become a legend just only after death.",
+      "search_queries": [
+        "Robert Johnson grave Mississippi",
+        "Robert Johnson death memorial blues",
+        "Robert Johnson 1938 obituary newspaper"
+      ],
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson grave or death memorial — died before fame",
+      "editorial_intent": "Johnson died young — legend only after death; grave or memorial.",
+      "attached_at": "2026-06-20T06:35:08.028Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T21:33:56.515Z",
+  "updated_at": "2026-06-20T06:35:08.028Z",
+  "search_text": "asset.jpg download-8be5bce66a0e.jpg robert johnson"
+}

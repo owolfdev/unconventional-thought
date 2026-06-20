@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "id": "b8ccbdb02d5fde6a",
+  "filename": "five-months-later-they-release-back-in-black.jpg",
+  "original_filename": "download-398be3dd6abd.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "vinyl lp record"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m022/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m022",
+      "spoken": "Five months later, they release Back in Black.",
+      "search_queries": [
+        "Back in Black vinyl 1980",
+        "rock album LP sleeve Atlantic"
+      ],
+      "people": [],
+      "situation": "Inanimate: vinyl LP record",
+      "editorial_intent": "Artifact beat: vinyl LP record — story-linked inanimate; prefer no faces, tight macro or detail.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m139",
+      "spoken": "freeze momentum instantly. Just five months after his death, you saw back in black in every record",
+      "search_queries": [
+        "record store 1980 album display",
+        "Back in Black record store 1980",
+        "Tower Records 1980 interior"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "Back in Black record store display 1980 America",
+      "editorial_intent": "Five months later — Back in Black everywhere; Brian era begins.",
+      "attached_at": "2026-06-14T15:06:41.008Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m147",
+      "spoken": "play highway to hell tonight. Loud. Then tell me he didn't know.",
+      "search_queries": [
+        "Bon Scott Highway to Hell live 1979",
+        "Bon Scott AC/DC 1979 tour finale energy",
+        "Bon Scott singing highway to hell live"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott Highway to Hell live 1979 — final statement, mic forward",
+      "editorial_intent": "Closing command — play it loud; definitive Highway to Hell tour Bon, full energy.",
+      "attached_at": "2026-06-15T20:27:49.039Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-15T20:27:49.039Z",
+  "search_text": "five-months-later-they-release-back-in-black.jpg download-398be3dd6abd.jpg vinyl lp record migrated from 001_whowrotebackinblack/m022/acquired/"
+}

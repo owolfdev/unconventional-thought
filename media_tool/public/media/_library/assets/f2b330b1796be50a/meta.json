@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "id": "f2b330b1796be50a",
+  "filename": "great-story-very-convenient.png",
+  "original_filename": "sticker-7b57d8d3.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m029/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m029",
+      "spoken": "Great story. Very convenient.",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "Whitespace: quote on film grain/black — breaks redundancy; no new archive photo needed.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m108",
+      "spoken": "That sentence may be true at one level.",
+      "search_queries": [
+        "coroner report document photograph",
+        "redacted government document",
+        "manila folder classified stamp"
+      ],
+      "people": [],
+      "situation": "Official records incomplete — coroner document or redacted file aesthetic",
+      "editorial_intent": "Incomplete vs plausible alternative — coroner file, redacted document mood.",
+      "attached_at": "2026-06-13T09:22:44.631Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-13T09:22:44.631Z",
+  "search_text": "great-story-very-convenient.png sticker-7b57d8d3.png migrated from 001_whowrotebackinblack/m029/acquired/"
+}

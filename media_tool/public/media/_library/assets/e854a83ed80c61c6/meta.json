@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "e854a83ed80c61c6",
+  "filename": "youve-got-the-storytelling.jpeg",
+  "original_filename": "download-4003c1f1e508.jpeg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m035/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m035",
+      "spoken": "You've got the storytelling.",
+      "search_queries": [
+        "Bon Scott AC/DC live stage gesture 1979",
+        "Bon Scott animated performance photograph",
+        "Bon Scott backstage talking 1970s"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott expressive storytelling gesture live 1979",
+      "editorial_intent": "Narrative songs — Bon animated on stage (gesture, point) or backstage mid-anecdote.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "youve-got-the-storytelling.jpeg download-4003c1f1e508.jpeg bon scott migrated from 001_whowrotebackinblack/m035/acquired/"
+}

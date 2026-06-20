@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "5c324eb314e6b4e2",
+  "filename": "asset.png",
+  "original_filename": "sticker-11845c08.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m000/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m000",
+      "spoken": "",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "editorial_intent": "Channel id on black + film grain before cold open (m001). Edit copy in media_tool m000 acquisition. Pair with SPECIAL_MEDIA_DELAY on m001 so m001 plate does not cover this card.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-05T22:11:27.000Z",
+  "search_text": "asset.png sticker-11845c08.png migrated from 001_whowrotebackinblack/m000/acquired/"
+}

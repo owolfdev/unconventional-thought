@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "644c241472c522ad",
+  "filename": "asset.jpg",
+  "original_filename": "download-00ff4c2c19da.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://t4.ftcdn.net/jpg/02/35/30/51/360_F_235305174_T8gkY63ykycPfu63TqRdaDWb5hwYWQyp.jpg",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m067",
+      "spoken": "Well, they certainly got their money's worth.",
+      "search_queries": [
+        "gold record award disc close up"
+      ],
+      "people": [],
+      "situation": "Inanimate: gold record award plaque",
+      "editorial_intent": "Dark wit — 'got their money's worth' — gold/platinum, not another face.",
+      "attached_at": "2026-06-13T08:21:36.702Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T08:21:36.702Z",
+  "updated_at": "2026-06-13T08:21:36.702Z",
+  "search_text": "asset.jpg download-00ff4c2c19da.jpg"
+}

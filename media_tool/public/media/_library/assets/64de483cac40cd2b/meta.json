@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "64de483cac40cd2b",
+  "filename": "highwaytohell.jpg",
+  "original_filename": "highwaytohell.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "upload",
+  "license": "manual upload — verify rights",
+  "tags": [
+    "bon scott",
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m030",
+      "spoken": "It's also hard to argue that it's not his best work.",
+      "search_queries": [
+        "AC/DC studio 1979 recording session",
+        "Bon Scott 1979 creative peak live",
+        "AC/DC band studio 1979 photograph"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell sessions or tour — creative peak 1979",
+      "editorial_intent": "'His best work' — studio or stage peak 1979; pivot into folklore story.",
+      "attached_at": "2026-06-20T06:35:07.902Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T19:09:22.412Z",
+  "updated_at": "2026-06-20T06:35:07.902Z",
+  "search_text": "highwaytohell.jpg highwaytohell.jpg bon scott ac/dc"
+}

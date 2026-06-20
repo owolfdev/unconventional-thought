@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "8a00cc5398f47588",
+  "filename": "fairy-tale-book-gif-by-magic-the-gathering.gif",
+  "original_filename": "giphy-XGbU8CyGpRdgh5wY4f.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media2.giphy.com/media/v1.Y2lkPWExMTZkNmYyODA4OTZ2YmUyZmRyYnM1bHE4M21jeHR1eW45cjkyaGk2Z29teTB4ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XGbU8CyGpRdgh5wY4f/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "XGbU8CyGpRdgh5wY4f"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m033",
+      "spoken": "well known by people like Bon. It was known by absolutely anyone in the rock and roll scene in the",
+      "search_queries": [
+        "1970s rock musicians backstage photograph",
+        "rock and roll backstage 1970s candid",
+        "musicians talking backstage 1970s tour"
+      ],
+      "people": [],
+      "situation": "1970s rock musicians backstage talking — scene folklore, not AC/DC literal",
+      "editorial_intent": "Rock scene folklore — musicians trading stories backstage; myth everyone knew.",
+      "attached_at": "2026-06-20T06:35:07.910Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T08:10:53.141Z",
+  "updated_at": "2026-06-20T06:35:07.910Z",
+  "search_text": "fairy-tale-book-gif-by-magic-the-gathering.gif giphy-xgbu8cygprdgh5wy4f.gif giphy xgbu8cygprdgh5wy4f"
+}

@@ -1,0 +1,27 @@
+1
+00:00:02,000 --> 00:00:06,000
+Welcome to the sandbox episode.
+
+2
+00:00:06,000 --> 00:00:11,000
+Search the library or Google for test images.
+
+3
+00:00:11,000 --> 00:00:15,000
+Add a GIF sticker here if you like.
+
+4
+00:00:15,000 --> 00:00:21,000
+Here is the first line for split testing and more words follow.
+
+5
+00:00:21,000 --> 00:00:25,000
+Merge me with the next cue please.
+
+6
+00:00:25,000 --> 00:00:29,000
+I am cue six for merge testing.
+
+7
+00:00:29,000 --> 00:00:31,000
+Sandbox quote card.

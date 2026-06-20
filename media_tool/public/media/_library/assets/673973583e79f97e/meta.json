@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "id": "673973583e79f97e",
+  "filename": "his-actual-voice.jpg",
+  "original_filename": "download-dbf8054b9902.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m126/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m126",
+      "spoken": "His actual voice.",
+      "search_queries": [
+        "Bon Scott 1974 photograph",
+        "Bon Scott Fraternity band 1970s",
+        "Bon Scott AC/DC early"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott early career Australia 1970s",
+      "editorial_intent": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m007",
+      "spoken": "Listen to Bon's voice on Highway to Hell,",
+      "search_queries": [
+        "Bon Scott singing microphone close up 1979",
+        "Bon Scott vocal performance Highway to Hell",
+        "AC/DC studio vocal booth 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott singing into microphone close-up 1979",
+      "editorial_intent": "'Listen to Bon's voice' — tight on mic, mouth, cord — invitation to *hear*, not watch crowd.",
+      "attached_at": "2026-06-20T06:35:07.768Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m054",
+      "spoken": "supernatural ability on the guitar in otherworldly voice. The devil also promised him fame. But Johnson",
+      "search_queries": [
+        "Robert Johnson blues performance photograph",
+        "Robert Johnson portrait intense",
+        "blues singer 1930s Mississippi performance"
+      ],
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson singing or performing — intense, legendary presence",
+      "editorial_intent": "Supernatural voice & fame promised — Johnson performing, otherworldly intensity.",
+      "attached_at": "2026-06-12T21:30:09.057Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-20T06:35:07.768Z",
+  "search_text": "his-actual-voice.jpg download-dbf8054b9902.jpg bon scott migrated from 001_whowrotebackinblack/m126/acquired/"
+}

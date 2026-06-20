@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "619f4eb75373863c",
+  "filename": "ACDC-Back-in-Black.webp",
+  "original_filename": "ACDC-Back-in-Black.webp",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott",
+    "brian johnson"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m129/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m129",
+      "spoken": "The fingerprint is on back in Black.",
+      "search_queries": [
+        "Bon Scott 1979 live",
+        "Brian Johnson 1980 AC/DC"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott and Brian Johnson AC/DC vocalists comparison photos",
+      "editorial_intent": "Visual compare — Bon-era vs Brian-era (two-up or sequential).",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-05T22:11:29.000Z",
+  "search_text": "acdc-back-in-black.webp acdc-back-in-black.webp bon scott brian johnson migrated from 001_whowrotebackinblack/m129/acquired/"
+}

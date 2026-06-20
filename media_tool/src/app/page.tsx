@@ -1,5 +1,5 @@
-import { ReviewWorkspace } from "@/components/ReviewWorkspace";
+import HomeClient from "./HomeClient";
 
 export default function Home() {
-  return <ReviewWorkspace />;
+  return <HomeClient />;
 }

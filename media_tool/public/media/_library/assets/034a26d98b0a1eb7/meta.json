@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "034a26d98b0a1eb7",
+  "filename": "in-70s-font-why.png",
+  "original_filename": "sticker-37e5e468.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai"
+  ],
+  "manual_notes": "in 70s font: Why?",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m112",
+      "spoken": "And why did his friend leave him in a car",
+      "search_queries": [
+        "car parked alley winter night",
+        "sleeping in car winter photograph",
+        "friend leaving car night street"
+      ],
+      "people": [],
+      "situation": "Friend's car winter night — left alone, troubling decision",
+      "editorial_intent": "Friend left him in the car — guilt, abandonment; car in cold night.",
+      "attached_at": "2026-06-20T06:35:08.436Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-15T19:44:02.238Z",
+  "updated_at": "2026-06-20T06:35:08.436Z",
+  "search_text": "in-70s-font-why.png sticker-37e5e468.png sticker openai in 70s font: why?"
+}

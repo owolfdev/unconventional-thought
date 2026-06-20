@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "f26e9dc7336c0f0d",
+  "filename": "right.gif",
+  "original_filename": "giphy-qUB8aayj9DNQI.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m084/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m084",
+      "spoken": "Right?",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "editorial_intent": "Whitespace: single-word punctuation beat.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "right.gif giphy-qub8aayj9dnqi.gif migrated from 001_whowrotebackinblack/m084/acquired/"
+}

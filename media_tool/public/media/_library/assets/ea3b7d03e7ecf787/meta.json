@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "ea3b7d03e7ecf787",
+  "filename": "fotw.jpeg",
+  "original_filename": "fotw.jpeg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc",
+    "brian johnson"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m094/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m094",
+      "spoken": "Fly on the wall?",
+      "search_queries": [
+        "AC/DC For Those About to Rock 1981",
+        "AC/DC Fly on the Wall 1985",
+        "Brian Johnson 1980s live"
+      ],
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC For Those About to Rock era 1981 or Fly on the Wall 1985",
+      "editorial_intent": "Later Brian era albums — period-accurate promo or live.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "fotw.jpeg fotw.jpeg ac/dc brian johnson migrated from 001_whowrotebackinblack/m094/acquired/"
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "b2ee04f0cb06f4d0",
+  "filename": "as-a-writer-he-leaves-a-fingerprint.jpg",
+  "original_filename": "download-872321de6e71.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m031/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m031",
+      "spoken": "As a writer, he leaves a fingerprint.",
+      "search_queries": [
+        "Bon Scott portrait 1970s",
+        "Bon Scott AC/DC 1978 photograph"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott candid photograph 1970s",
+      "editorial_intent": "Bon as author — candid or performance showing character.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "as-a-writer-he-leaves-a-fingerprint.jpg download-872321de6e71.jpg bon scott migrated from 001_whowrotebackinblack/m031/acquired/"
+}

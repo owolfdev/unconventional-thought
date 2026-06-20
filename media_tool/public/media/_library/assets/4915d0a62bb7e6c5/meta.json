@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "4915d0a62bb7e6c5",
+  "filename": "the-nine-lives-thing.gif",
+  "original_filename": "giphy-uCZ6odj1oqNu7R50Vr.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m104/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m104",
+      "spoken": "The Nine Lives thing.",
+      "search_queries": [
+        "Bon Scott 1978 photograph",
+        "Bon Scott AC/DC portrait"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott portrait late 1970s",
+      "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-05T22:11:29.000Z",
+  "search_text": "the-nine-lives-thing.gif giphy-ucz6odj1oqnu7r50vr.gif bon scott migrated from 001_whowrotebackinblack/m104/acquired/"
+}

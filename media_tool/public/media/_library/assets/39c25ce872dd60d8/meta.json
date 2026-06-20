@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "id": "39c25ce872dd60d8",
+  "filename": "the-man-has-been-dead-for-five-months.jpg",
+  "original_filename": "download-b517fafd5bcf.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m010/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m010",
+      "spoken": "The man has been dead for five months.",
+      "search_queries": [
+        "Bon Scott funeral February 1980",
+        "Bon Scott memorial Fremantle 1980",
+        "Bon Scott death 1980 Australia"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist",
+          "date_died": "1980-02-19"
+        }
+      ],
+      "situation": "Bon Scott funeral or public memorial February 1980 Australia",
+      "editorial_intent": "Bon Scott death — memorial, funeral, or documented public mourning.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m099",
+      "spoken": "hmm, you decide. Now the death itself. February 1980, London, night out, drinking. He was left in a car,",
+      "search_queries": [
+        "London street night 1980 photograph",
+        "London February winter night 1980s",
+        "UK pub exterior night 1980"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "London February 1980 night street — cold, wet, urban",
+      "editorial_intent": "Death night — February 1980 London, night out; cold urban night mood.",
+      "attached_at": "2026-06-13T20:05:49.467Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m142",
+      "spoken": "explanation. So given all this, did Bond Scott know that he was going to die?",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "Thesis return — question on grain over Bon plate or black.",
+      "attached_at": "2026-06-16T11:55:29.395Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-16T11:55:29.396Z",
+  "search_text": "the-man-has-been-dead-for-five-months.jpg download-b517fafd5bcf.jpg bon scott migrated from 001_whowrotebackinblack/m010/acquired/"
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "f33c12e0dc447de7",
+  "filename": "okay-now-take-brian-johnson.jpg",
+  "original_filename": "download-6fcb3f703f2a.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "brian johnson"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m057/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m057",
+      "spoken": "Okay, now take Brian Johnson.",
+      "search_queries": [
+        "Brian Johnson AC/DC live 1981",
+        "Brian Johnson on stage Back in Black tour"
+      ],
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Brian Johnson singing live AC/DC 1981",
+      "editorial_intent": "Respect beat — Brian performing with AC/DC, early 80s.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "okay-now-take-brian-johnson.jpg download-6fcb3f703f2a.jpg brian johnson migrated from 001_whowrotebackinblack/m057/acquired/"
+}

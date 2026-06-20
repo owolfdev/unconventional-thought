@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "id": "e208d4fc81cce8f4",
+  "filename": "genphoto-8a606183.jpg",
+  "original_filename": "genphoto-8a606183.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "1931, the dead of night. lonely crossroad in mississippi.  closeup of the hand of a dark (satanic) character reaching for a guitar from the hands of Robert Johnson. only hands and the guitar are visible.",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m042",
+      "spoken": "a dark figure steps out of the blackness.",
+      "search_queries": [
+        "Robert Johnson crossroads legend illustration",
+        "crossroads blues devil folklore art",
+        "silhouette figure rural road night"
+      ],
+      "people": [],
+      "situation": "Crossroads devil folklore — silhouette at rural intersection, blues myth",
+      "editorial_intent": "Dark figure at crossroads — folklore illustration or high-contrast silhouette; tasteful, not horror B-movie.",
+      "attached_at": "2026-06-16T12:21:15.526Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m043",
+      "spoken": "It takes the guitar, tunes it, plays something",
+      "search_queries": [
+        "Robert Johnson crossroads legend illustration",
+        "crossroads blues devil folklore art",
+        "silhouette figure rural road night"
+      ],
+      "people": [],
+      "situation": "Crossroads devil folklore — silhouette at rural intersection, blues myth",
+      "editorial_intent": "Dark figure at crossroads — folklore illustration or high-contrast silhouette; tasteful, not horror B-movie.",
+      "attached_at": "2026-06-20T06:35:07.970Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T12:20:17.068Z",
+  "updated_at": "2026-06-20T06:35:07.970Z",
+  "search_text": "genphoto-8a606183.jpg genphoto-8a606183.jpg openai photo generated 1931, the dead of night. lonely crossroad in mississippi.  closeup of the hand of a dark (satanic) character reaching for a guitar from the hands of robert johnson. only hands and the guitar are visible."
+}

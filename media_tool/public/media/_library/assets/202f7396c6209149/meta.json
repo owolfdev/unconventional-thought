@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "202f7396c6209149",
+  "filename": "geordie-records.jpg",
+  "original_filename": "geordie-records.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "brian johnson",
+    "geordie"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m061/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m061",
+      "spoken": "But go listen to Jordy.",
+      "search_queries": [
+        "Geordie band 1975",
+        "Brian Johnson Geordie"
+      ],
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        },
+        {
+          "name": "Geordie",
+          "role": "band"
+        }
+      ],
+      "situation": "Geordie band promotional photo 1970s",
+      "editorial_intent": "Geordie era comparison.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "geordie-records.jpg geordie-records.jpg brian johnson geordie migrated from 001_whowrotebackinblack/m061/acquired/"
+}

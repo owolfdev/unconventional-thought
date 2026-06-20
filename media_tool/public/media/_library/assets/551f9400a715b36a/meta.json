@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "551f9400a715b36a",
+  "filename": "Pac-Man-589b45ce5f9b5874eef15b58.webp",
+  "original_filename": "Pac-Man-589b45ce5f9b5874eef15b58.webp",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m009/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m009",
+      "spoken": "Let's look at the facts. It's 1980.",
+      "search_queries": [
+        "AC/DC 1980 studio",
+        "music magazine 1980 rock"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "1980 music press or studio session dated 1980",
+      "editorial_intent": "Year anchor — period news or studio dated 1980.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-05T22:11:27.000Z",
+  "search_text": "pac-man-589b45ce5f9b5874eef15b58.webp pac-man-589b45ce5f9b5874eef15b58.webp ac/dc migrated from 001_whowrotebackinblack/m009/acquired/"
+}

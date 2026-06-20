@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "id": "e5b37fdb94b561a0",
+  "filename": "witty-bon.jpg",
+  "original_filename": "witty-bon.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m042/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m042",
+      "spoken": "That's a guy describing his actual lifestyle with zero apology and a grin.",
+      "search_queries": [
+        "Bon Scott 1974 photograph",
+        "Bon Scott Fraternity band 1970s",
+        "Bon Scott AC/DC early"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott early career Australia 1970s",
+      "editorial_intent": "Biographical montage — Bon Scott life in Australia / early AC/DC.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m021",
+      "spoken": "things might pick up on it. It's like a supernatural nonchalance. And what about the lyrics?",
+      "search_queries": [
+        "Bon Scott backstage 1979 candid calm",
+        "Bon Scott 1979 portrait relaxed eyes",
+        "Bon Scott AC/DC offstage 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott backstage calm 1979 — detached, knowing expression",
+      "editorial_intent": "'Supernatural nonchalance' — Bon backstage or live, eerie calm amid chaos.",
+      "attached_at": "2026-06-11T20:29:48.136Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-11T20:29:48.136Z",
+  "search_text": "witty-bon.jpg witty-bon.jpg bon scott migrated from 001_whowrotebackinblack/m042/acquired/"
+}

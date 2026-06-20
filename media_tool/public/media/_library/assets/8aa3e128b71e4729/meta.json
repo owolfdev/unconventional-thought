@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "8aa3e128b71e4729",
+  "filename": "genphoto-9d4ef105.jpg",
+  "original_filename": "genphoto-9d4ef105.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "beer, denim, v8s.",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m125",
+      "spoken": "beer, denim, v8s.",
+      "search_queries": [
+        "Disco Demolition Night 1979 Comiskey Park",
+        "Steve Dahl disco demolition 1979",
+        "disco records explosion baseball field 1979"
+      ],
+      "people": [],
+      "situation": "Disco Demolition Night Comiskey Park July 1979",
+      "editorial_intent": "Anti-disco — Disco Demolition Night Comiskey Park July 1979; cultural war.",
+      "attached_at": "2026-06-20T06:35:08.527Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-15T20:01:31.066Z",
+  "updated_at": "2026-06-20T06:35:08.527Z",
+  "search_text": "genphoto-9d4ef105.jpg genphoto-9d4ef105.jpg openai photo generated beer, denim, v8s."
+}

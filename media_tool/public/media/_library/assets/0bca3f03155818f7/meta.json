@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "0bca3f03155818f7",
+  "filename": "genphoto-0ec6ca16.jpg",
+  "original_filename": "genphoto-0ec6ca16.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "an official death certificate of bon scott with a big rubber stamp print for cause of death: \n\nacute alcohol poisoning.",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m103",
+      "spoken": "Official cause, acute alcohol poisoning.",
+      "search_queries": [
+        "parked car snow winter night 1980s",
+        "car interior back seat night photograph",
+        "London winter street parked cars 1980"
+      ],
+      "people": [],
+      "situation": "Parked car winter night London — left overnight tragedy",
+      "editorial_intent": "Left in car, found next day — parked car winter, official alcohol narrative.",
+      "attached_at": "2026-06-20T06:35:08.390Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T22:16:52.224Z",
+  "updated_at": "2026-06-20T06:35:08.390Z",
+  "search_text": "genphoto-0ec6ca16.jpg genphoto-0ec6ca16.jpg openai photo generated an official death certificate of bon scott with a big rubber stamp print for cause of death: \n\nacute alcohol poisoning."
+}

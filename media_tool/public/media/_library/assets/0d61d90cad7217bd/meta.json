@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "id": "0d61d90cad7217bd",
+  "filename": "thinking-man-png-image-man-thinking.png",
+  "original_filename": "thinking-man-png-image-man-thinking.png",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "upload",
+  "license": "manual upload — verify rights",
+  "tags": [
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m009",
+      "spoken": "it's different. Am I the only one who notices that? In the early ACDC tracks, Bon is like a",
+      "search_queries": [
+        "AC/DC 1979 live concert photograph",
+        "AC/DC 1980 press photo band"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC historical photograph 1978-1981",
+      "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "attached_at": "2026-06-10T11:35:30.031Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m096",
+      "spoken": "or even dependency. Given the era, the access, the circles, the schedule, and the pressure,",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "'Hmm, you decide' — hand verdict to viewer; whitespace beat.",
+      "attached_at": "2026-06-13T09:05:03.659Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m129",
+      "spoken": "disco bathrooms, punk squads, self-destruction, and gay. So a heroin narrative around Bond would",
+      "search_queries": [
+        "stadium rock crowd 1980 USA",
+        "New York City street 1970s documentary",
+        "rock fan denim concert vs city nightlife split"
+      ],
+      "people": [],
+      "situation": "Contrast — stadium rock crowd vs downtown 1970s street",
+      "editorial_intent": "Cultural betrayal fear — AC/DC heartland fan vs downtown junkie stereotype (documentary, not mockery).",
+      "attached_at": "2026-06-20T06:35:08.557Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-10T10:09:41.317Z",
+  "updated_at": "2026-06-20T06:35:08.557Z",
+  "search_text": "thinking-man-png-image-man-thinking.png thinking-man-png-image-man-thinking.png ac/dc"
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "ed444cc479e51d06",
+  "filename": "and-his-band-his-grief-stricken-shell-shocked-everybody-expected-them-to-fold-ba.bin",
+  "original_filename": "download-6b0001eaf65d.bin",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "ac/dc",
+    "brian johnson"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m012/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m012",
+      "spoken": "And his band, his grief-stricken shell-shocked, everybody expected them to fold band,",
+      "search_queries": [
+        "AC/DC Brian Johnson studio 1980",
+        "AC/DC Compass Point Studios Brian Johnson 1980",
+        "Brian Johnson AC/DC recording 1980"
+      ],
+      "people": [
+        {
+          "name": "AC/DC",
+          "role": "band"
+        },
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "AC/DC with Brian Johnson recording Back in Black 1980",
+      "editorial_intent": "Band after Bon — Brian Johnson era begins; group in studio 1980.",
+      "attached_at": "2026-06-05T22:11:27.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:27.000Z",
+  "updated_at": "2026-06-05T22:11:27.000Z",
+  "search_text": "and-his-band-his-grief-stricken-shell-shocked-everybody-expected-them-to-fold-ba.bin download-6b0001eaf65d.bin ac/dc brian johnson migrated from 001_whowrotebackinblack/m012/acquired/"
+}

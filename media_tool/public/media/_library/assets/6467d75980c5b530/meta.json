@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "id": "6467d75980c5b530",
+  "filename": "always-a-fight-a-conquest-a-boast-or-a-badass-woman.jpg",
+  "original_filename": "download-5b7356a8226d.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m036/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m036",
+      "spoken": "Always a fight, a conquest, a boast, or a badass woman.",
+      "search_queries": [
+        "Bon Scott aggressive live performance 1979",
+        "Bon Scott AC/DC stage snarl microphone",
+        "Bon Scott backstage fans 1970s photograph",
+        "Bon Scott groupies backstage AC/DC 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott aggressive live performance or backstage with fans 1970s",
+      "editorial_intent": "Fight/conquest/women lyric tropes — fierce Bon on stage (snarl, mic thrust, fist) OR era backstage with female fans; documentary tone, period rock tour, not stock glamour.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m013",
+      "spoken": "Pure energy, swimming upstream,",
+      "search_queries": [
+        "Bon Scott AC/DC 1977 live crowd energy",
+        "Bon Scott early tour sweat stage 1970s",
+        "AC/DC live 1978 Bon Scott jumping"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott early AC/DC live — chaotic energy, crowd surf, raw power",
+      "editorial_intent": "'Swimming upstream' — early era sweat, chaos, uphill fight; peak physical Bon.",
+      "attached_at": "2026-06-11T20:02:50.893Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-11T20:02:50.893Z",
+  "search_text": "always-a-fight-a-conquest-a-boast-or-a-badass-woman.jpg download-5b7356a8226d.jpg bon scott migrated from 001_whowrotebackinblack/m036/acquired/"
+}

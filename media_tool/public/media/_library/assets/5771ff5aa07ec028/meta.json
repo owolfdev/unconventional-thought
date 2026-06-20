@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "id": "5771ff5aa07ec028",
+  "filename": "download-872321de6e71-inv.jpg",
+  "original_filename": "download-872321de6e71-inv.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m031/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m031",
+      "spoken": "As a writer, he leaves a fingerprint.",
+      "search_queries": [
+        "Bon Scott portrait 1970s",
+        "Bon Scott AC/DC 1978 photograph"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott candid photograph 1970s",
+      "editorial_intent": "Bon as author — candid or performance showing character.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m050",
+      "spoken": "for immortality. He came back different, transformed. The other musicians were stunned. He now had",
+      "search_queries": [
+        "Robert Johnson blues musician 1937",
+        "Mississippi juke joint musicians 1930s",
+        "Robert Johnson contemporaries blues scene"
+      ],
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson 1930s — post-legend transformation, peers watching",
+      "editorial_intent": "Johnson returns transformed — other musicians stunned; delta blues scene.",
+      "attached_at": "2026-06-12T21:26:12.886Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-12T21:26:12.886Z",
+  "search_text": "download-872321de6e71-inv.jpg download-872321de6e71-inv.jpg bon scott migrated from 001_whowrotebackinblack/m031/acquired/"
+}

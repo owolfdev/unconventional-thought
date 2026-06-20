@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "3343211cf6c47a8e",
+  "filename": "asset.jpg",
+  "original_filename": "download-9c2029746d49.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://cdn.mos.cms.futurecdn.net/tZs9JDWYTfjhkZGKZEABMC.jpg",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m107",
+      "spoken": "He drank too much.",
+      "search_queries": [
+        "Bon Scott drinking beer pub 1970s",
+        "Bon Scott bar candid 1970s",
+        "rock musician pub 1970s documentary"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott drinking pub 1970s — known drinker, not moralizing",
+      "editorial_intent": "'He drank too much' — bar culture yes, but skeptical undertone; veteran drinker.",
+      "attached_at": "2026-06-13T20:25:39.410Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T09:16:49.595Z",
+  "updated_at": "2026-06-13T20:25:39.410Z",
+  "search_text": "asset.jpg download-9c2029746d49.jpg bon scott"
+}

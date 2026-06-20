@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "9ba58caf613e9a1e",
+  "filename": "ive-got-nine-lives.png",
+  "original_filename": "sticker-d0279063.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m112/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m112",
+      "spoken": "I've got Nine Lives.",
+      "search_queries": [
+        "Bon Scott 1978 photograph",
+        "Bon Scott AC/DC portrait"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott portrait late 1970s",
+      "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-05T22:11:29.000Z",
+  "search_text": "ive-got-nine-lives.png sticker-d0279063.png bon scott migrated from 001_whowrotebackinblack/m112/acquired/"
+}

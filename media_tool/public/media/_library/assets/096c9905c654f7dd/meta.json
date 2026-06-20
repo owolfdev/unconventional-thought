@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "096c9905c654f7dd",
+  "filename": "cats-eyes.gif",
+  "original_filename": "giphy-iCJOfQcXf32uY.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "cats",
+    "eyes"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m113/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m113",
+      "spoken": "Cat's Eyes.",
+      "search_queries": [
+        "Bon Scott 1978 photograph",
+        "Bon Scott AC/DC portrait"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott portrait late 1970s",
+      "editorial_intent": "Lyric / private metaphor — Bon portrait; optional handwritten lyrics archive.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-06T00:19:01.467Z",
+  "search_text": "cats-eyes.gif giphy-icjofqcxf32uy.gif cats eyes migrated from 001_whowrotebackinblack/m113/acquired/"
+}

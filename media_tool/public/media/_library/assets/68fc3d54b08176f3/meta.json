@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "68fc3d54b08176f3",
+  "filename": "bonscott_onstage.jpg",
+  "original_filename": "bonscott_onstage.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m133/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m133",
+      "spoken": "Bond Scott was at the scene.",
+      "search_queries": [
+        "Bon Scott AC/DC live 1979 full stage"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott live on stage definitive photograph 1979",
+      "editorial_intent": "Closing metaphor — return to definitive Bon live image, NOT forensic stock.",
+      "attached_at": "2026-06-05T22:11:29.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m011",
+      "spoken": "coiled spring,",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated text graphic (title)",
+      "editorial_intent": "Punctuation beat — kinetic type on grain; 'coiled spring' metaphor, not another portrait.",
+      "attached_at": "2026-06-11T19:59:07.334Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:29.000Z",
+  "updated_at": "2026-06-11T19:59:07.334Z",
+  "search_text": "bonscott_onstage.jpg bonscott_onstage.jpg bon scott migrated from 001_whowrotebackinblack/m133/acquired/"
+}

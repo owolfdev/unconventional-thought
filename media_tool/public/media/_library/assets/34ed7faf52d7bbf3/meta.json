@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "34ed7faf52d7bbf3",
+  "filename": "stencil-font-heroin.png",
+  "original_filename": "sticker-ffd9981e.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai"
+  ],
+  "manual_notes": "stencil font: Heroin",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m072",
+      "spoken": "Yup, heroin.",
+      "search_queries": [
+        "hypodermic needle macro photograph documentary",
+        "syringe close up medical still life",
+        "needle tip macro black background"
+      ],
+      "people": [],
+      "situation": "Inanimate: hypodermic needle macro",
+      "editorial_intent": "'Tip of a hypodermic needle' — macro, clinical, NOT glamorized.",
+      "attached_at": "2026-06-13T08:39:41.801Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T08:39:41.801Z",
+  "updated_at": "2026-06-13T08:39:41.801Z",
+  "search_text": "stencil-font-heroin.png sticker-ffd9981e.png sticker openai stencil font: heroin"
+}

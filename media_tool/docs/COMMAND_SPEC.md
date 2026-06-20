@@ -133,6 +133,7 @@ Case-insensitive cue ids (`m8` → `m008`). Unknown directive → error in respo
 @prev                  Previous cue
 @next incomplete       Next cue where status ∉ {complete, text_graphic}
 @episode 002           Switch episode manifest
+@episodes              List episodes (@episode N to load)
 ```
 
 After **`@cue merge`**, always land on the **surviving cue** (first id).
@@ -142,9 +143,14 @@ After **`@cue merge`**, always land on the **surviving cue** (first id).
 ```
 @info                  Cue metadata: spoken, timing, editorial, dates, people, status
 @layers                Selected plates + overlays (numbered)
-@effects               Effect stack + transition
+@effects               Show stack on current cue
+@effect add <id>       Add effect (saved immediately)
+@effect remove <id>    Remove effect
+@help effects          Full effect id catalog (@help effect alias)
 @status                Acquisition status + visual mode + dirty flag
+@episodes              List episodes (load with @episode N)
 @help                  Directive list + NL examples
+@help effects          Effect id catalog + @effect usage (@help effect alias)
 ```
 
 ### Search (one engine per invocation)
@@ -349,5 +355,10 @@ Shared browser singleton in `src/lib/scrape/browser.ts`. Timeout 30s. Max 20 res
 ## Open items (post–phase 1)
 
 - Keyboard gallery highlight (`↑/↓`, `Enter` = add) — optional
-- `@render preview m022` — wire to existing render launcher
+When render completes, response area shows preview path; video plays in the **render** panel under cue preview.
+
+```
+@render 8              Single cue (preview ½ res)
+@render 1 2            Cues 1–2 as one mp4
+```
 - Scraper selector maintenance when Google/YouTube DOM changes

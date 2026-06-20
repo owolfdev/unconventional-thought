@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "5281efed842689bf",
+  "filename": "loop-burn-gif-by-psyklon.gif",
+  "original_filename": "giphy-3o85xJY1FaLzqeoBGw.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media1.giphy.com/media/v1.Y2lkPWExMTZkNmYyOTlha3luMjczeXlmdjVpanlwOWhmaHppZTc2ZDFmcDFjdGV1YnBmayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o85xJY1FaLzqeoBGw/giphy-downsized-medium.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "3o85xJY1FaLzqeoBGw",
+    "robert johnson"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m040",
+      "spoken": "burning hunger to be a great player and for fame.",
+      "search_queries": [
+        "Robert Johnson blues guitarist photograph",
+        "Robert Johnson with guitar 1930s",
+        "Robert Johnson portrait blues musician"
+      ],
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson guitarist portrait or with guitar 1930s",
+      "editorial_intent": "Robert Johnson with guitar — hunger for greatness; ONLY Johnson-era imagery from here.",
+      "attached_at": "2026-06-12T21:13:44.894Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T21:06:19.907Z",
+  "updated_at": "2026-06-12T21:13:44.894Z",
+  "search_text": "loop-burn-gif-by-psyklon.gif giphy-3o85xjy1falzqeobgw.gif giphy 3o85xjy1falzqeobgw robert johnson"
+}

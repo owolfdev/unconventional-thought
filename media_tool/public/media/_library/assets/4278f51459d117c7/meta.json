@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "4278f51459d117c7",
+  "filename": "happy-new-year-smiling-gif.gif",
+  "original_filename": "giphy-QMkPpxPDYY0fu.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media0.giphy.com/media/v1.Y2lkPWExMTZkNmYycW0xaXBqMWVqMWRtYjNicWlrN29tb21kM2I1b2E5MXl2NDYxejJxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QMkPpxPDYY0fu/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "QMkPpxPDYY0fu",
+    "bon scott",
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m030",
+      "spoken": "It's also hard to argue that it's not his best work.",
+      "search_queries": [
+        "AC/DC studio 1979 recording session",
+        "Bon Scott 1979 creative peak live",
+        "AC/DC band studio 1979 photograph"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell sessions or tour — creative peak 1979",
+      "editorial_intent": "'His best work' — studio or stage peak 1979; pivot into folklore story.",
+      "attached_at": "2026-06-14T18:00:30.567Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T08:08:35.095Z",
+  "updated_at": "2026-06-14T18:00:30.567Z",
+  "search_text": "happy-new-year-smiling-gif.gif giphy-qmkppxpdyy0fu.gif giphy qmkppxpdyy0fu bon scott ac/dc"
+}

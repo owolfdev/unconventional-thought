@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "fc3a05ebab101b15",
+  "filename": "genphoto-53e87f8e.jpg",
+  "original_filename": "genphoto-53e87f8e.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "1931, the dead of night. lonely crossroad in mississippi. a dark figure steps out of the blackness.",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m042",
+      "spoken": "a dark figure steps out of the blackness. It takes the guitar, tunes it, plays something",
+      "search_queries": [
+        "Robert Johnson crossroads legend illustration",
+        "crossroads blues devil folklore art",
+        "silhouette figure rural road night"
+      ],
+      "people": [],
+      "situation": "Crossroads devil folklore — silhouette at rural intersection, blues myth",
+      "editorial_intent": "Dark figure at crossroads — folklore illustration or high-contrast silhouette; tasteful, not horror B-movie.",
+      "attached_at": "2026-06-12T21:09:51.381Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T21:09:51.381Z",
+  "updated_at": "2026-06-12T21:09:51.381Z",
+  "search_text": "genphoto-53e87f8e.jpg genphoto-53e87f8e.jpg openai photo generated 1931, the dead of night. lonely crossroad in mississippi. a dark figure steps out of the blackness."
+}

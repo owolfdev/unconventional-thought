@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "id": "04dd70e203071d02",
+  "filename": "geordie.jpg",
+  "original_filename": "geordie.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "brian johnson",
+    "geordie"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m027/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m027",
+      "spoken": "Lovely fella. Been knocking around in a band called Geordie.",
+      "search_queries": [
+        "Geordie band 1975",
+        "Brian Johnson Geordie"
+      ],
+      "people": [
+        {
+          "name": "Brian Johnson",
+          "role": "vocalist"
+        },
+        {
+          "name": "Geordie",
+          "role": "band"
+        }
+      ],
+      "situation": "Geordie band promotional photo 1970s",
+      "editorial_intent": "Geordie era comparison.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m090",
+      "spoken": "about it. Eric Clapton lived it. Lou Reed built songs out of it. Keith Richards survived it.",
+      "search_queries": [
+        "Eric Clapton 1970s photograph",
+        "Lou Reed 1970s New York photograph",
+        "Keith Richards 1970s Rolling Stones"
+      ],
+      "people": [
+        {
+          "name": "Eric Clapton",
+          "role": "musician"
+        },
+        {
+          "name": "Lou Reed",
+          "role": "musician"
+        },
+        {
+          "name": "Keith Richards",
+          "role": "musician"
+        }
+      ],
+      "situation": "Eric Clapton, Lou Reed, Keith Richards — 1970s era photographs",
+      "editorial_intent": "Clapton, Reed, Richards — documented rock heroin history; correct artist each.",
+      "attached_at": "2026-06-12T22:38:32.777Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-12T22:38:32.777Z",
+  "search_text": "geordie.jpg geordie.jpg brian johnson geordie migrated from 001_whowrotebackinblack/m027/acquired/"
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "bc5f21b1d09fb6c1",
+  "filename": "acdc-font-they-sold-their-souls-for-rock-n-roll.png",
+  "original_filename": "sticker-ef6faa74.png",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_sticker",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "sticker",
+    "openai"
+  ],
+  "manual_notes": "AC/DC font: They Sold Their Souls For Rock N Roll",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m066",
+      "spoken": "Some might say they sold their souls for fame.",
+      "search_queries": [
+        "rock star spotlight 1970s silhouette",
+        "musician backstage alone 1970s",
+        "crossroads blues rock mythology photograph"
+      ],
+      "people": [],
+      "situation": "Rock mythology — fame and early death, artistic sacrifice",
+      "editorial_intent": "Soul for fame equation — same bargain, different eras; crossroads echo.",
+      "attached_at": "2026-06-12T21:49:21.359Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T21:49:21.359Z",
+  "updated_at": "2026-06-12T21:49:21.359Z",
+  "search_text": "acdc-font-they-sold-their-souls-for-rock-n-roll.png sticker-ef6faa74.png sticker openai ac/dc font: they sold their souls for rock n roll"
+}

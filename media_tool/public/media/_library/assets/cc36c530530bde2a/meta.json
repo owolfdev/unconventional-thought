@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "cc36c530530bde2a",
+  "filename": "it-could-be-anyone.png",
+  "original_filename": "download-36a245fbf4d4.png",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "electric guitar body close-up"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m066/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m066",
+      "spoken": "It could be anyone.",
+      "search_queries": [
+        "electric guitar body close up sunburst",
+        "Gibson SG guitar detail"
+      ],
+      "people": [],
+      "situation": "Inanimate: electric guitar body close-up",
+      "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-05T22:11:28.000Z",
+  "search_text": "it-could-be-anyone.png download-36a245fbf4d4.png electric guitar body close-up migrated from 001_whowrotebackinblack/m066/acquired/"
+}

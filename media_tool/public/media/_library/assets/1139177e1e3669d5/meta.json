@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "1139177e1e3669d5",
+  "filename": "black-and-white-concert-gif.gif",
+  "original_filename": "giphy-kWZMl5xCnfOSI.gif",
+  "kind": "overlay",
+  "media_type": "photo",
+  "source_url": "https://media4.giphy.com/media/v1.Y2lkPWExMTZkNmYyemsxNmNoYThycXZiYXdnemUzOXRtaWxwNzFwcXhoaDhxbHJvMTlvYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kWZMl5xCnfOSI/giphy.gif",
+  "source_engine": "giphy_sticker",
+  "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+  "tags": [
+    "giphy",
+    "kWZMl5xCnfOSI"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m067",
+      "spoken": "Well, they certainly got their money's worth.",
+      "search_queries": [
+        "gold record award disc close up",
+        "RIAA gold album plaque 1970s",
+        "platinum record award wall 1980s"
+      ],
+      "people": [],
+      "situation": "Inanimate: gold record award plaque",
+      "editorial_intent": "Dark wit — 'got their money's worth' — gold/platinum, not another face.",
+      "attached_at": "2026-06-20T06:35:08.140Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-16T12:52:49.008Z",
+  "updated_at": "2026-06-20T06:35:08.140Z",
+  "search_text": "black-and-white-concert-gif.gif giphy-kwzml5xcnfosi.gif giphy kwzml5xcnfosi"
+}

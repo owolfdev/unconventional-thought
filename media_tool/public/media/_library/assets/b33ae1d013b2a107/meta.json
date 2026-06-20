@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "b33ae1d013b2a107",
+  "filename": "asset.jpg",
+  "original_filename": "download-c57039f0923f.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://townsquare.media/site/295/files/2014/08/atlantic1.jpg?w=980&q=75",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "bon scott",
+    "ac/dc"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m006",
+      "spoken": "That's why he wrote Highway to Hell.",
+      "search_queries": [
+        "Bon Scott Highway to Hell tour 1979 live",
+        "AC/DC recording Highway to Hell 1979",
+        "Bon Scott microphone 1979 performance"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        },
+        {
+          "name": "AC/DC",
+          "role": "band"
+        }
+      ],
+      "situation": "AC/DC Highway to Hell era — Bon on stage or in studio 1979",
+      "editorial_intent": "'That's why he wrote Highway to Hell' — 1979 tour energy or studio session, era-accurate.",
+      "attached_at": "2026-06-20T06:35:07.760Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-14T17:35:24.492Z",
+  "updated_at": "2026-06-20T06:35:07.760Z",
+  "search_text": "asset.jpg download-c57039f0923f.jpg bon scott ac/dc"
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "7a4b5310337724f9",
+  "filename": "genphoto-5bfb4176.jpg",
+  "original_filename": "genphoto-5bfb4176.jpg",
+  "kind": "generated",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "openai_photo",
+  "license": "OpenAI generated — verify editorial use",
+  "tags": [
+    "openai",
+    "photo",
+    "generated"
+  ],
+  "manual_notes": "1931 dead of night in summer heat in Mississippi, Robert Johnson stands there with a guitar. back lighting mysterious.",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m037",
+      "spoken": "A young musician stands there with a guitar. His name",
+      "search_queries": [
+        "Mississippi crossroads intersection photograph",
+        "Delta blues rural road intersection",
+        "lonely dirt road southern USA night"
+      ],
+      "people": [],
+      "situation": "Rural crossroads intersection Mississippi — empty, humid night mood",
+      "editorial_intent": "Lonely intersection — insects, heat, dirt road; young musician waiting.",
+      "attached_at": "2026-06-12T21:04:11.895Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-11T21:07:24.814Z",
+  "updated_at": "2026-06-12T21:04:11.895Z",
+  "search_text": "genphoto-5bfb4176.jpg genphoto-5bfb4176.jpg openai photo generated 1931 dead of night in summer heat in mississippi, robert johnson stands there with a guitar. back lighting mysterious."
+}

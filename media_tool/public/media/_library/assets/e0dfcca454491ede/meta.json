@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "e0dfcca454491ede",
+  "filename": "asset.jpg",
+  "original_filename": "download-531aff9d1734.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://pbs.twimg.com/media/HBgtFG3XgAA6r9G.jpg",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m106",
+      "spoken": "the public facing record feels thinner than the legend around it.",
+      "search_queries": [
+        "Bon Scott drinking beer pub 1970s",
+        "Bon Scott bar candid 1970s",
+        "rock musician pub 1970s documentary"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott drinking pub 1970s — known drinker, not moralizing",
+      "editorial_intent": "'He drank too much' — bar culture yes, but skeptical undertone; veteran drinker.",
+      "attached_at": "2026-06-20T06:35:08.406Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T09:15:13.353Z",
+  "updated_at": "2026-06-20T06:35:08.406Z",
+  "search_text": "asset.jpg download-531aff9d1734.jpg bon scott"
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "c9dc225a4dbcb00a",
+  "filename": "asset.jpg",
+  "original_filename": "download-de46bf66db5e.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-182464-57509994.jpg?w=1581&h=1054&crop=1",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [
+    "eric clapton",
+    "lou reed",
+    "keith richards"
+  ],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m090",
+      "spoken": "about it. Eric Clapton lived it. Lou Reed built songs out of it. Keith Richards survived it.",
+      "search_queries": [
+        "Eric Clapton 1970s photograph",
+        "Lou Reed 1970s New York photograph",
+        "Keith Richards 1970s Rolling Stones"
+      ],
+      "people": [
+        {
+          "name": "Eric Clapton",
+          "role": "musician"
+        },
+        {
+          "name": "Lou Reed",
+          "role": "musician"
+        },
+        {
+          "name": "Keith Richards",
+          "role": "musician"
+        }
+      ],
+      "situation": "Eric Clapton, Lou Reed, Keith Richards — 1970s era photographs",
+      "editorial_intent": "Clapton, Reed, Richards — documented rock heroin history; correct artist each.",
+      "attached_at": "2026-06-20T06:35:08.286Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-12T22:45:08.051Z",
+  "updated_at": "2026-06-20T06:35:08.286Z",
+  "search_text": "asset.jpg download-de46bf66db5e.jpg eric clapton lou reed keith richards"
+}

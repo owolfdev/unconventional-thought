@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "id": "93ea4a896d8fe652",
+  "filename": "bon on stage.webp",
+  "original_filename": "bon on stage.webp",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": null,
+  "source_engine": "ep001_migration",
+  "license": "migrated from episode 001 acquired/ — verify rights",
+  "tags": [
+    "bon scott"
+  ],
+  "manual_notes": "Migrated from 001_WhoWroteBackInBlack/m036/acquired/",
+  "usages": [
+    {
+      "episode_id": "001_WhoWroteBackInBlack",
+      "cue_id": "m036",
+      "spoken": "Always a fight, a conquest, a boast, or a badass woman.",
+      "search_queries": [
+        "Bon Scott aggressive live performance 1979",
+        "Bon Scott AC/DC stage snarl microphone",
+        "Bon Scott backstage fans 1970s photograph",
+        "Bon Scott groupies backstage AC/DC 1979"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott aggressive live performance or backstage with fans 1970s",
+      "editorial_intent": "Fight/conquest/women lyric tropes — fierce Bon on stage (snarl, mic thrust, fist) OR era backstage with female fans; documentary tone, period rock tour, not stock glamour.",
+      "attached_at": "2026-06-05T22:11:28.000Z"
+    },
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m014",
+      "spoken": "but by Highway to Hell, something shifts. He sounds looser, warmer, floating downstream.",
+      "search_queries": [
+        "Bon Scott 1979 live relaxed performance",
+        "Bon Scott Highway to Hell tour leaning microphone",
+        "Bon Scott 1979 stage calm expression"
+      ],
+      "people": [
+        {
+          "name": "Bon Scott",
+          "role": "vocalist"
+        }
+      ],
+      "situation": "Bon Scott 1979 live relaxed leaning back microphone — downstream calm",
+      "editorial_intent": "Highway to Hell shift — looser, warmer, leaning back. 1979 Bon relaxed on stage.",
+      "attached_at": "2026-06-11T20:03:01.178Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-05T22:11:28.000Z",
+  "updated_at": "2026-06-11T20:03:01.178Z",
+  "search_text": "bon on stage.webp bon on stage.webp bon scott migrated from 001_whowrotebackinblack/m036/acquired/"
+}

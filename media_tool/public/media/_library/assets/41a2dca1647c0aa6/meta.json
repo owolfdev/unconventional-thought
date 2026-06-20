@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "41a2dca1647c0aa6",
+  "filename": "asset.bin",
+  "original_filename": "download-a69deda00054.bin",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://www.google.com/search?q=bon+scott&udm=2#sv=CAMSVhoyKhBlLU1nRk9tYzB3MmlKcWlNMg5NZ0ZPbWMwdzJpSnFpTToOZVkzTVljSmVEcTU0SE0gBCocCgZtb3NhaWMSEGUtTWdGT21jMHcyaUpxaU0YADABGAcgu7PkvghKCBABGAEgASgB",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m096",
+      "spoken": "or even dependency.",
+      "search_queries": [
+        "bon scott"
+      ],
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "editorial_intent": "'Hmm, you decide' — hand verdict to viewer; whitespace beat.",
+      "attached_at": "2026-06-13T20:18:47.290Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-13T20:18:47.290Z",
+  "updated_at": "2026-06-13T20:18:47.290Z",
+  "search_text": "asset.bin download-a69deda00054.bin"
+}

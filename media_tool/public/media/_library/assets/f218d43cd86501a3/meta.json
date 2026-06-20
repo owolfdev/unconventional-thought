@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "f218d43cd86501a3",
+  "filename": "asset.mp4",
+  "original_filename": "bpHvBuaPoH8.mp4",
+  "kind": "archive",
+  "media_type": "video",
+  "source_url": "https://www.youtube.com/shorts/bpHvBuaPoH8",
+  "source_engine": "download",
+  "license": "verify rights before use",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "002_DidBonScottKnowHeWasGoingToDie",
+      "cue_id": "m017",
+      "spoken": "It almost sounds inebriated,",
+      "search_queries": [
+        "whisky glass bar counter 1970s photograph",
+        "empty bar stool dim pub 1970s",
+        "beer bottles blurred background documentary"
+      ],
+      "people": [],
+      "situation": "Inanimate: whisky glass on bar counter",
+      "editorial_intent": "NOT alcohol — reject beer-sloppy cliché. Whisky glass out of focus or empty bar stool; documentary contrast to 'inebriated' voice claim.",
+      "attached_at": "2026-06-20T06:35:07.839Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-14T17:20:56.524Z",
+  "updated_at": "2026-06-20T06:35:07.839Z",
+  "search_text": "asset.mp4 bphvbuapoh8.mp4"
+}
