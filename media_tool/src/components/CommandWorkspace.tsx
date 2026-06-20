@@ -14,12 +14,16 @@ import { handleAdd } from "@/lib/command/handlers";
 import { loadGallerySize, type GallerySize } from "@/lib/command/gallery-size";
 import { pushResponseLine } from "@/lib/command/response";
 import type { GalleryState, PlayRequest, ResponseLine } from "@/lib/command/types";
+import { updateSelectionStartFromSec } from "@/lib/selection-media";
 import type { RenderJob } from "@/lib/render-launcher";
 import type {
   ItemAcquisition,
   MediaToolItem,
 } from "@/lib/types";
-import { SelectedMediaPreview } from "./SelectedMediaPreview";
+import {
+  SelectedMediaPreview,
+  type SelectedMediaPreviewHandle,
+} from "./SelectedMediaPreview";
 import { CommandFooter } from "./command/CommandFooter";
 import { CommandRenderPanel } from "./command/CommandRenderPanel";
 import { CueStatsPanel } from "./command/CueStatsPanel";
@@ -48,10 +52,13 @@ export function CommandWorkspace() {
   const [renderJob, setRenderJob] = useState<RenderJob | null>(null);
   const [playRequest, setPlayRequest] = useState<PlayRequest | null>(null);
   const playSeqRef = useRef(0);
+  const previewRef = useRef<SelectedMediaPreviewHandle>(null);
   const didInitialLoad = useRef(false);
 
   const items = loadState?.manifest.items ?? [];
   const currentItem = items[itemIndex];
+  const currentItemRef = useRef(currentItem);
+  currentItemRef.current = currentItem;
   const currentAcq = currentItem
     ? loadState?.acquisition.items[currentItem.id]
     : undefined;
@@ -185,6 +192,29 @@ export function CommandWorkspace() {
     [items.length],
   );
 
+  const updateCurrentAcq = useCallback(
+    (updater: (acq: ItemAcquisition) => ItemAcquisition) => {
+      const itemId = currentItemRef.current?.id;
+      if (!itemId) return;
+      setLoadState((s) => {
+        if (!s) return s;
+        const prev = s.acquisition.items[itemId];
+        if (!prev) return s;
+        return {
+          ...s,
+          acquisition: {
+            ...s.acquisition,
+            items: {
+              ...s.acquisition.items,
+              [itemId]: updater(prev),
+            },
+          },
+        };
+      });
+    },
+    [],
+  );
+
   const commandState: CommandState = useMemo(
     () => ({
       loadState,
@@ -231,8 +261,12 @@ export function CommandWorkspace() {
         playSeqRef.current += 1;
         return playSeqRef.current;
       },
+      updateCurrentAcq,
+      getActivePlate: () => previewRef.current?.getActivePlate() ?? null,
+      getActivePlateVideoTime: () =>
+        previewRef.current?.getActivePlateVideoTime() ?? null,
     }),
-    [navigateToIndex, loadManifest, refreshAfterAcquiredChange],
+    [navigateToIndex, loadManifest, refreshAfterAcquiredChange, updateCurrentAcq],
   );
 
   const commandContext: CommandContext = useMemo(
@@ -322,6 +356,7 @@ export function CommandWorkspace() {
           {loadState.mediaLibrary && (
             <div className="min-h-0 flex-1 overflow-y-auto px-3 py-2">
               <SelectedMediaPreview
+                ref={previewRef}
                 acquisition={currentAcq}
                 project={loadState.mediaLibrary.project}
                 itemId={currentItem.id}
@@ -329,6 +364,16 @@ export function CommandWorkspace() {
                 durationSec={currentItem.duration_sec}
                 tStart={currentItem.t_start}
                 tEnd={currentItem.t_end}
+                allowVideoScrub
+                onPlateStartFromSecChange={(selection, startFromSec) => {
+                  updateCurrentAcq((acq) =>
+                    updateSelectionStartFromSec(
+                      acq,
+                      selection.result_id,
+                      startFromSec,
+                    ),
+                  );
+                }}
               />
             </div>
           )}

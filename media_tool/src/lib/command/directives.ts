@@ -16,6 +16,7 @@ const HELP_TEXT = `Directives (@ prefix):
   @add <n>  @preview <n>
   @gallery [tiny|small|medium|large]
   @save  @clear  @complete
+  @inpoint [sec|m:ss|playhead|clear]
   @render <cue>  @render <from> <to>
   @play  @play loop  @play loop 5
   @cue split: … @end
@@ -90,7 +91,10 @@ export function parseDirectiveInput(raw: string): ParsedDirective {
   }
   if (lower === "@episodes") return { kind: "episodes" };
 
-  let m = line.match(new RegExp(`^@(?:cue\\s+)?${CUE_REF}\\s*$`, "i"));
+  let m = line.match(/^@inpoint(?:\s+(\S+))?\s*$/i);
+  if (m) return { kind: "inpoint", arg: m[1] };
+
+  m = line.match(new RegExp(`^@(?:cue\\s+)?${CUE_REF}\\s*$`, "i"));
   if (m) {
     return {
       kind: "navigate",

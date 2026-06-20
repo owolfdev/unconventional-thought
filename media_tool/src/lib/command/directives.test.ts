@@ -59,6 +59,22 @@ describe("parseDirectiveInput", () => {
     });
   });
 
+  it("parses inpoint", () => {
+    expect(parseDirectiveInput("@inpoint")).toEqual({ kind: "inpoint" });
+    expect(parseDirectiveInput("@inpoint 45")).toEqual({
+      kind: "inpoint",
+      arg: "45",
+    });
+    expect(parseDirectiveInput("@inpoint playhead")).toEqual({
+      kind: "inpoint",
+      arg: "playhead",
+    });
+    expect(parseDirectiveInput("@inpoint 1:23.4")).toEqual({
+      kind: "inpoint",
+      arg: "1:23.4",
+    });
+  });
+
   it("returns unknown for bad directives and NL", () => {
     expect(parseDirectiveInput("@nope")).toEqual({
       kind: "unknown",

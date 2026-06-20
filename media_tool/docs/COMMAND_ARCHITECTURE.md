@@ -117,7 +117,24 @@ cd media_tool
 npm test
 ```
 
-Covers directive parsing, cue id normalization, render range parsing. Add tests when changing parser or cue-id rules.
+Covers directive parsing, cue id normalization, render range parsing, and scrape result parsers (`src/lib/scrape/parse.test.ts`). Add tests when changing parser or cue-id rules.
+
+---
+
+## Search (phase 3)
+
+Command UI `@search google` / `@search video` call Puppeteer scrapers — no Google CSE or YouTube API keys:
+
+| Route | Engine |
+|-------|--------|
+| `POST /api/scrape/google-images` | Google Images (`tbm=isch`) |
+| `POST /api/scrape/youtube` | YouTube results page |
+
+Shared browser: `src/lib/scrape/browser.ts` (one headless Chrome per dev process, tab per request, 1.5s throttle between scrapes).
+
+Uses `puppeteer-extra` + stealth plugin. Chrome resolution order: `SCRAPE_CHROME_PATH` env → system Google Chrome → bundled Chromium (`npm run puppeteer:install`).
+
+**Google CAPTCHA:** Google may block automated image search from some networks. If `GOOGLE_API_KEY` + `GOOGLE_CSE_ID` are set **and** your GCP project still has Custom Search JSON API access, results may fall back to the API; new Google Cloud projects typically get **403** on that API — use `@search library` instead.
 
 ---
 

@@ -13,6 +13,8 @@ export interface GalleryState {
   results: SearchResult[];
   /** Present when source === "gif" — needed for import API. */
   giphyHits?: GiphyStickerHit[];
+  /** Optional scrape/API note (empty results, layout issues). */
+  apiNote?: string;
 }
 
 export type ResponseLine = {
@@ -51,6 +53,7 @@ export type ParsedDirective =
   | { kind: "gallery"; size?: GallerySize }
   | { kind: "save" }
   | { kind: "clear" }
+  | { kind: "inpoint"; arg?: string }
   | { kind: "complete" }
   | { kind: "split"; lines: string[] }
   | { kind: "merge"; firstId: string; secondId: string }

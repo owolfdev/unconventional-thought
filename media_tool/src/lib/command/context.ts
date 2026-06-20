@@ -5,6 +5,7 @@ import type {
   MediaAcquisitionDocument,
   MediaToolItem,
   MediaToolManifest,
+  SelectedMedia,
 } from "@/lib/types";
 import type { MediaLibraryStatus } from "@/lib/types";
 import type { GallerySize } from "./gallery-size";
@@ -50,6 +51,11 @@ export interface CommandActions {
   loadManifest: (path: string, targetItemId?: string) => Promise<void>;
   refreshAfterAcquiredChange: () => Promise<void>;
   bumpPlaySeq: () => number;
+  updateCurrentAcq: (
+    updater: (acq: ItemAcquisition) => ItemAcquisition,
+  ) => void;
+  getActivePlate: () => SelectedMedia | null;
+  getActivePlateVideoTime: () => number | null;
 }
 
 export interface CommandContext {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState, forwardRef } from "react";
 import {
   buildCuePreviewModel,
   selectionFilename,
@@ -26,6 +26,8 @@ interface Props {
   durationSec: number;
   tStart?: number;
   tEnd?: number;
+  /** Always show native video controls (for @inpoint playhead in command UI). */
+  allowVideoScrub?: boolean;
   onStickerOverlayEnabledChange?: (enabled: boolean) => void;
   onStickerOverlaySizeChange?: (size: StickerOverlaySize) => void;
   onTitleOverlayEnabledChange?: (enabled: boolean) => void;
@@ -34,6 +36,11 @@ interface Props {
     startFromSec: number | undefined,
   ) => void;
 }
+
+export type SelectedMediaPreviewHandle = {
+  getActivePlate: () => SelectedMedia | null;
+  getActivePlateVideoTime: () => number | null;
+};
 
 function PreviewAsset({
   src,
@@ -124,7 +131,9 @@ function OverlayToggle({
   );
 }
 
-export function SelectedMediaPreview({
+export const SelectedMediaPreview = forwardRef<SelectedMediaPreviewHandle, Props>(
+function SelectedMediaPreview(
+  {
   acquisition,
   project,
   itemId,
@@ -132,11 +141,14 @@ export function SelectedMediaPreview({
   durationSec,
   tStart,
   tEnd,
+  allowVideoScrub = false,
   onStickerOverlayEnabledChange,
   onStickerOverlaySizeChange,
   onTitleOverlayEnabledChange,
   onPlateStartFromSecChange,
-}: Props) {
+}: Props,
+  ref,
+) {
   const plateVideoRef = useRef<HTMLVideoElement>(null);
   const model = useMemo(
     () => buildCuePreviewModel(acquisition),
@@ -203,6 +215,7 @@ export function SelectedMediaPreview({
     () => (plateCount > 0 ? model.platePlaylist[activeIndex] : null),
     [model.platePlaylist, plateCount, activeIndex],
   );
+
   const plateSrc = useMemo(
     () =>
       activePlate
@@ -211,6 +224,21 @@ export function SelectedMediaPreview({
     [activePlate, project, itemId],
   );
   const plateKind = plateSrc ? mediaKindFromUrl(plateSrc) : "unknown";
+
+  useImperativeHandle(
+    ref,
+    () => ({
+      getActivePlate: () => activePlate,
+      getActivePlateVideoTime: () => {
+        const el = plateVideoRef.current;
+        if (!el || plateKind !== "video") return null;
+        const t = el.currentTime;
+        return Number.isFinite(t) ? t : null;
+      },
+    }),
+    [activePlate, plateKind],
+  );
+
   const plateInSec = activePlate?.start_from_sec ?? 0;
 
   useEffect(() => {
@@ -339,7 +367,7 @@ export function SelectedMediaPreview({
             key={plateSrc}
             src={plateSrc}
             className="max-h-full max-w-full object-contain"
-            controls={plateCount <= 1}
+            controls={allowVideoScrub || plateCount <= 1}
             playsInline
             muted
             loop={plateCount > 1}
@@ -446,4 +474,6 @@ export function SelectedMediaPreview({
       )}
     </div>
   );
-}
+});
+
+SelectedMediaPreview.displayName = "SelectedMediaPreview";

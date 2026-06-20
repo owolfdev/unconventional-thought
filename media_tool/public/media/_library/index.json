@@ -1,24 +1,8 @@
 {
   "version": 1,
-  "updated_at": "2026-06-20T20:40:11.175Z",
-  "asset_count": 339,
+  "updated_at": "2026-06-20T21:19:54.373Z",
+  "asset_count": 340,
   "assets": [
-    {
-      "id": "75afac2a2985b09e",
-      "filename": "steampunk-guitar.jpg",
-      "original_filename": "download-c04bfce48559.jpg",
-      "kind": "archive",
-      "media_type": "photo",
-      "thumbnail_url": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
-      "public_url": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
-      "tags": [],
-      "manual_notes": "",
-      "search_text": "steampunk-guitar.jpg download-c04bfce48559.jpg",
-      "usage_count": 1,
-      "archived": false,
-      "created_at": "2026-06-20T20:40:11.163Z",
-      "updated_at": "2026-06-20T20:40:11.163Z"
-    },
     {
       "id": "d5ddc55d8c47a3f9",
       "filename": "asset.gif",
@@ -35,7 +19,7 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-16T12:06:28.369Z",
-      "updated_at": "2026-06-20T20:19:46.220Z"
+      "updated_at": "2026-06-20T21:19:54.364Z"
     },
     {
       "id": "2f0ea3cc0654a22e",
@@ -53,7 +37,39 @@
       "usage_count": 5,
       "archived": false,
       "created_at": "2026-06-05T22:11:29.000Z",
-      "updated_at": "2026-06-20T20:19:46.210Z"
+      "updated_at": "2026-06-20T21:19:54.352Z"
+    },
+    {
+      "id": "f1ea7d8e2a29b310",
+      "filename": "acdc-jailbreak-1976-official-music-video.mp4",
+      "original_filename": "g8xScxmekQk.mp4",
+      "kind": "archive",
+      "media_type": "video",
+      "thumbnail_url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
+      "public_url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
+      "tags": [],
+      "manual_notes": "",
+      "search_text": "acdc-jailbreak-1976-official-music-video.mp4 g8xscxmekqk.mp4",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-20T21:03:46.171Z",
+      "updated_at": "2026-06-20T21:19:54.277Z"
+    },
+    {
+      "id": "75afac2a2985b09e",
+      "filename": "steampunk-guitar.jpg",
+      "original_filename": "download-c04bfce48559.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
+      "public_url": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
+      "tags": [],
+      "manual_notes": "",
+      "search_text": "steampunk-guitar.jpg download-c04bfce48559.jpg",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-20T20:40:11.163Z",
+      "updated_at": "2026-06-20T20:40:11.163Z"
     },
     {
       "id": "4df094b9972c4bbc",

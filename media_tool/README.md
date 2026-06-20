@@ -25,6 +25,8 @@ original form UI (`ReviewWorkspace`).
 **Command UI:** `@help` in the prompt · spec in **[docs/COMMAND_SPEC.md](docs/COMMAND_SPEC.md)** ·
 code layout in **[docs/COMMAND_ARCHITECTURE.md](docs/COMMAND_ARCHITECTURE.md)** · tests: `npm test`.
 
+`@search google` and `@search video` use **Puppeteer** scrapers. On macOS/Linux/Windows we auto-use **system Google Chrome** when installed; otherwise run `npm run puppeteer:install` once.
+
 **Future hosting (Vercel, mobile):** see **[DEPLOY.md](DEPLOY.md)** — one Git repo at `/`, deploy only the `media_tool/` folder; Remotion and renders stay on desktop.
 
 The default manifest is:

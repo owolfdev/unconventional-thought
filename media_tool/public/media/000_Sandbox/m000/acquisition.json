@@ -29,19 +29,20 @@
       "engine_url": "https://www.google.com/search?q={query}",
       "selections": [
         {
-          "result_id": "library:75afac2a2985b09e",
-          "url": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
-          "thumbnail_url": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
-          "title": "Steampunk Guitar",
-          "source_page": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
-          "license": "by-nd 2.0 (flickr)",
-          "engine_id": "google_images",
-          "query": "guitar",
-          "selected_at": "2026-06-20T20:40:11.177Z"
+          "result_id": "library:f1ea7d8e2a29b310",
+          "url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
+          "thumbnail_url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
+          "title": "AC/DC    Jailbreak 1976  official music video",
+          "source_page": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
+          "license": "YouTube — verify rights before use",
+          "engine_id": "youtube",
+          "query": "bon scott",
+          "selected_at": "2026-06-20T21:03:46.314Z",
+          "start_from_sec": 92.517
         }
       ]
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-20T20:40:11.177Z"
+  "updated_at": "2026-06-20T21:03:46.315Z"
 }

@@ -1,6 +1,7 @@
 import { helpText, parseDirectiveInput } from "./directives";
 import type { CommandContext } from "./context";
 import type { ParsedDirective } from "./types";
+import { handleInpoint } from "./inpoint-commands";
 import {
   goToAdjacentCue,
   handleAdd,
@@ -115,6 +116,10 @@ export async function executeDirective(
 
     case "complete":
       await handleComplete(ctx);
+      return;
+
+    case "inpoint":
+      handleInpoint(ctx, parsed.arg);
       return;
 
     case "split":

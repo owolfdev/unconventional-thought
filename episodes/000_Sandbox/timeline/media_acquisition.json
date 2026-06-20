@@ -3,7 +3,7 @@
   "source_manifest": "episodes/000_Sandbox/timeline/media_search.json",
   "episode": "000_Sandbox",
   "created_at": "2026-06-20T06:37:30.932056Z",
-  "updated_at": "2026-06-20T20:19:46.121Z",
+  "updated_at": "2026-06-20T21:19:54.277Z",
   "item_count": 9,
   "completed_count": 1,
   "items": {
@@ -38,21 +38,22 @@
           "engine_url": "https://www.google.com/search?q={query}",
           "selections": [
             {
-              "result_id": "library:d5ddc55d8c47a3f9",
-              "url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
-              "thumbnail_url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
-              "title": "asset.gif",
-              "source_page": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
-              "license": "verify rights before use",
-              "engine_id": "library",
-              "query": "bon",
-              "selected_at": "2026-06-20T19:17:02.028Z"
+              "result_id": "library:f1ea7d8e2a29b310",
+              "url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
+              "thumbnail_url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
+              "title": "AC/DC    Jailbreak 1976  official music video",
+              "source_page": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
+              "license": "YouTube — verify rights before use",
+              "engine_id": "youtube",
+              "query": "bon scott",
+              "selected_at": "2026-06-20T21:03:46.314Z",
+              "start_from_sec": 92.517
             }
           ]
         }
       ],
       "completed_at": null,
-      "updated_at": "2026-06-20T20:19:46.096Z"
+      "updated_at": "2026-06-20T21:03:46.315Z"
     },
     "m001": {
       "id": "m001",

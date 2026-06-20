@@ -9,6 +9,7 @@ import {
   getActiveStickerSelection,
   selectionFilename,
 } from "@/lib/overlay-media";
+import { formatVideoTime, mediaKindFromUrl } from "@/lib/selection-media";
 
 function plateLines(acq: ItemAcquisition): string[] {
   const lines: string[] = [];
@@ -25,7 +26,11 @@ function plateLines(acq: ItemAcquisition): string[] {
 
 function formatSelection(index: number, s: SelectedMedia): string {
   const fn = s.url.split("/").pop()?.split("?")[0] ?? s.title;
-  return `[${index}] ${fn} · ${s.engine_id} · ${s.title.slice(0, 60)}`;
+  const inPoint =
+    s.start_from_sec != null && mediaKindFromUrl(s.url) === "video"
+      ? ` · in @ ${formatVideoTime(s.start_from_sec)}`
+      : "";
+  return `[${index}] ${fn} · ${s.engine_id} · ${s.title.slice(0, 60)}${inPoint}`;
 }
 
 export function formatInfo(

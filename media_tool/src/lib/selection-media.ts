@@ -15,6 +15,31 @@ export function normalizeStartFromSec(value: unknown): number | undefined {
   return Math.round(n * 1000) / 1000;
 }
 
+/** Parse @inpoint args: seconds, m:ss.s, clear/none, playhead. */
+export function parseInpointArg(raw: string): number | "clear" | "playhead" | null {
+  const trimmed = raw.trim();
+  if (!trimmed) return null;
+  const lower = trimmed.toLowerCase();
+  if (lower === "clear" || lower === "none" || lower === "reset") return "clear";
+  if (lower === "playhead" || lower === "head") return "playhead";
+
+  if (/^\d+(\.\d+)?$/.test(trimmed)) {
+    return normalizeStartFromSec(Number(trimmed)) ?? null;
+  }
+
+  const timeMatch = trimmed.match(/^(\d+):(\d+(?:\.\d+)?)$/);
+  if (timeMatch) {
+    const minutes = Number(timeMatch[1]);
+    const seconds = Number(timeMatch[2]);
+    if (!Number.isFinite(minutes) || !Number.isFinite(seconds) || seconds >= 60) {
+      return null;
+    }
+    return normalizeStartFromSec(minutes * 60 + seconds) ?? null;
+  }
+
+  return null;
+}
+
 export function updateSelectionStartFromSec(
   acq: ItemAcquisition,
   resultId: string,

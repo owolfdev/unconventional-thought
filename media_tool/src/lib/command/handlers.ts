@@ -317,6 +317,9 @@ export async function handleSearch(
     const nextGallery = await runGallerySearch(engine, query);
     ctx.actions.setGallery(nextGallery);
     ctx.actions.pushLine(gallerySummary(nextGallery));
+    if (nextGallery.apiNote) {
+      ctx.actions.pushLine(nextGallery.apiNote, "warn");
+    }
   } catch (e) {
     ctx.actions.pushLine(
       e instanceof Error ? e.message : "Search failed",

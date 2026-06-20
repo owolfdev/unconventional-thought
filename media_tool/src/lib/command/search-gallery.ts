@@ -53,11 +53,12 @@ export async function runGallerySearch(
     };
   }
 
-  const engineId = engine === "google" ? "google_images" : "youtube";
-  const res = await fetch("/api/search", {
+  const scrapePath =
+    engine === "google" ? "/api/scrape/google-images" : "/api/scrape/youtube";
+  const res = await fetch(scrapePath, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ engineId, query: trimmed, limit: 20 }),
+    body: JSON.stringify({ query: trimmed, limit: 20 }),
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.error ?? "Search failed");
@@ -66,11 +67,15 @@ export async function runGallerySearch(
     (data.gallerySource as string) ??
     (engine === "google" ? "Google Images" : "YouTube");
 
+  const results = (data.results as SearchResult[]) ?? [];
+  const note = data.apiNote as string | undefined;
+
   return {
     source: engine,
     sourceLabel: label,
     query: trimmed,
-    results: (data.results as SearchResult[]) ?? [],
+    results,
+    apiNote: note,
   };
 }
 
