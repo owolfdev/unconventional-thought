@@ -4,6 +4,8 @@ Personal in-house tool. Replaces the form-heavy `ReviewWorkspace` with a single 
 response area, cue preview, and media gallery. **All existing API routes and disk layout
 are preserved**; this spec defines the new interaction layer only.
 
+**Implementation guide:** [COMMAND_ARCHITECTURE.md](COMMAND_ARCHITECTURE.md) — code layout, how to add commands, tests.
+
 ---
 
 ## Layout (top → bottom)

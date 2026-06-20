@@ -15,13 +15,14 @@ const HELP_TEXT = `Directives (@ prefix):
   @search library|google|gif|video <query>
   @add <n>  @preview <n>
   @gallery [tiny|small|medium|large]
-  @save  @complete
+  @save  @clear  @complete
   @render <cue>  @render <from> <to>
   @play  @play loop  @play loop 5
   @cue split: … @end
   @cue merge 8 9  @use 8  @confirm  @cancel
 
 Cue refs: 22, 022, m22, or m022 (same cue).
+⌃/⌘ ]  next cue · ⌃/⌘ [  prev cue
 Natural language (no @) — agent coming in phase 4.
 Enter = submit · Shift+Enter = newline · Tab = focus prompt
 Legacy UI: ?legacy=1`;
@@ -78,6 +79,7 @@ export function parseDirectiveInput(raw: string): ParsedDirective {
   if (lower === "@effects") return { kind: "effects" };
   if (lower === "@status") return { kind: "status" };
   if (lower === "@save") return { kind: "save" };
+  if (lower === "@clear") return { kind: "clear" };
   if (lower === "@complete") return { kind: "complete" };
   if (lower === "@confirm") return { kind: "confirm" };
   if (lower === "@cancel") return { kind: "cancel" };

@@ -49,7 +49,7 @@ export function PromptInput({
       className={`shrink-0 border-t border-zinc-800 bg-zinc-950 px-4 py-3 ${className}`}
     >
       <label className="mb-1 block font-mono text-xs text-zinc-500">
-        prompt · Enter submit · Shift+Enter newline · Tab → gallery
+        prompt · Enter submit · Shift+Enter newline · Tab → gallery · ⌃/⌘ ] [ cue next/prev
       </label>
       <textarea
         ref={ref}

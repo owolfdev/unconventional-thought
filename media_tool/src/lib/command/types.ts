@@ -50,6 +50,7 @@ export type ParsedDirective =
   | { kind: "preview"; index: number }
   | { kind: "gallery"; size?: GallerySize }
   | { kind: "save" }
+  | { kind: "clear" }
   | { kind: "complete" }
   | { kind: "split"; lines: string[] }
   | { kind: "merge"; firstId: string; secondId: string }

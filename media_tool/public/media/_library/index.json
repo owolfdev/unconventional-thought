@@ -1,8 +1,24 @@
 {
   "version": 1,
-  "updated_at": "2026-06-20T20:19:46.229Z",
-  "asset_count": 338,
+  "updated_at": "2026-06-20T20:40:11.175Z",
+  "asset_count": 339,
   "assets": [
+    {
+      "id": "75afac2a2985b09e",
+      "filename": "steampunk-guitar.jpg",
+      "original_filename": "download-c04bfce48559.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
+      "public_url": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
+      "tags": [],
+      "manual_notes": "",
+      "search_text": "steampunk-guitar.jpg download-c04bfce48559.jpg",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-20T20:40:11.163Z",
+      "updated_at": "2026-06-20T20:40:11.163Z"
+    },
     {
       "id": "d5ddc55d8c47a3f9",
       "filename": "asset.gif",

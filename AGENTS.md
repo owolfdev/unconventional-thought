@@ -133,5 +133,6 @@ After significant pipeline changes, ask the user before running (destructive if 
 | `episodes/001_WhoWroteBackInBlack/PROJECT.md` | Episode 001 workflow |
 | `remotion/README.md` | Render commands |
 | `media_tool/README.md` | Acquisition UI (local) |
+| `media_tool/docs/COMMAND_ARCHITECTURE.md` | Command UI code layout, adding `@` commands, tests |
 | `media_tool/DEPLOY.md` | Future web deploy (monorepo subfolder, Phase 1/2) |
 | `episodes/001_WhoWroteBackInBlack/timeline/MEDIA_SEARCH_README.md` | Manifest fields |

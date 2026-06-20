@@ -29,19 +29,19 @@
       "engine_url": "https://www.google.com/search?q={query}",
       "selections": [
         {
-          "result_id": "library:d5ddc55d8c47a3f9",
-          "url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
-          "thumbnail_url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
-          "title": "asset.gif",
-          "source_page": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
-          "license": "verify rights before use",
-          "engine_id": "library",
-          "query": "bon",
-          "selected_at": "2026-06-20T19:17:02.028Z"
+          "result_id": "library:75afac2a2985b09e",
+          "url": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
+          "thumbnail_url": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
+          "title": "Steampunk Guitar",
+          "source_page": "/media/_library/assets/75afac2a2985b09e/steampunk-guitar.jpg",
+          "license": "by-nd 2.0 (flickr)",
+          "engine_id": "google_images",
+          "query": "guitar",
+          "selected_at": "2026-06-20T20:40:11.177Z"
         }
       ]
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-20T20:19:46.096Z"
+  "updated_at": "2026-06-20T20:40:11.177Z"
 }

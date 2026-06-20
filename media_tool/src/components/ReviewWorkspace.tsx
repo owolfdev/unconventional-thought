@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type {
   ItemAcquisition,
   MediaAcquisitionDocument,
+  MediaLibraryStatus,
   MediaToolItem,
   MediaToolManifest,
   ResolvedMediaType,
@@ -56,18 +57,6 @@ import {
 const DEFAULT_MANIFEST =
   process.env.NEXT_PUBLIC_DEFAULT_MANIFEST_PATH ||
   "episodes/001_WhoWroteBackInBlack/timeline/media_search.json";
-
-export interface MediaLibraryStatus {
-  project: string;
-  projectDir: string;
-  publicBaseUrl: string;
-  exists: boolean;
-  itemFolders: number;
-  totalItems: number;
-  withAssetManifest: number;
-  withAcquisition: number;
-  acquiredFileCount: number;
-}
 
 interface LoadState {
   manifest: MediaToolManifest;

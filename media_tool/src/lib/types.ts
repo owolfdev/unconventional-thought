@@ -142,3 +142,16 @@ export interface MediaAcquisitionDocument {
   completed_count: number;
   items: Record<string, ItemAcquisition>;
 }
+
+/** Summary from GET /api/media-library (project folder stats). */
+export interface MediaLibraryStatus {
+  project: string;
+  projectDir: string;
+  publicBaseUrl: string;
+  exists: boolean;
+  itemFolders: number;
+  totalItems: number;
+  withAssetManifest: number;
+  withAcquisition: number;
+  acquiredFileCount: number;
+}

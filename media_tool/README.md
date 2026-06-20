@@ -19,6 +19,12 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+The default UI is **command-driven** (`CommandWorkspace`). Append `?legacy=1` for the
+original form UI (`ReviewWorkspace`).
+
+**Command UI:** `@help` in the prompt · spec in **[docs/COMMAND_SPEC.md](docs/COMMAND_SPEC.md)** ·
+code layout in **[docs/COMMAND_ARCHITECTURE.md](docs/COMMAND_ARCHITECTURE.md)** · tests: `npm test`.
+
 **Future hosting (Vercel, mobile):** see **[DEPLOY.md](DEPLOY.md)** — one Git repo at `/`, deploy only the `media_tool/` folder; Remotion and renders stay on desktop.
 
 The default manifest is:
