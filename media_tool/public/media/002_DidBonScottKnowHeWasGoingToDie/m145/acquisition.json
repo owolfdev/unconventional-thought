@@ -1,0 +1,58 @@
+{
+  "id": "m145",
+  "cue": 145,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches",
+    "film_damage",
+    "shake"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "rock concert crowd cheering 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:d86f16ffc38bdf33",
+          "url": "/media/_library/assets/d86f16ffc38bdf33/genphoto-6d05d0cf.jpg",
+          "thumbnail_url": "/media/_library/assets/d86f16ffc38bdf33/genphoto-6d05d0cf.jpg",
+          "title": "devil running on the highway to hell",
+          "source_page": "/media/_library/assets/d86f16ffc38bdf33/genphoto-6d05d0cf.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: devil running on the highway to hell",
+          "selected_at": "2026-06-15T20:23:13.333Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "concert tickets hands 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "stadium audience rock show 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-16T20:23:45.923Z",
+  "updated_at": "2026-06-16T20:23:45.923Z"
+}

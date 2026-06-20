@@ -13,7 +13,7 @@
   "transition": "film_burn",
   "text_graphic": {
     "type": "transcription",
-    "text": "burning hunger to be a great player and for fame.",
+    "text": "",
     "style": "typewriter"
   },
   "text_graphic_layer": null,
@@ -37,7 +37,7 @@
           "license": "OpenAI generated — verify editorial use",
           "engine_id": "library",
           "query": "text-graphic-in-acdc-font-burning-hunger.png",
-          "selected_at": "2026-06-13T08:13:20.693Z"
+          "selected_at": "2026-06-16T12:14:46.933Z"
         }
       ]
     },
@@ -56,6 +56,6 @@
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:13:38.723Z",
-  "updated_at": "2026-06-13T08:13:38.723Z"
+  "completed_at": "2026-06-16T12:39:09.021Z",
+  "updated_at": "2026-06-16T12:39:09.021Z"
 }

@@ -3,9 +3,9 @@
   "cue": 74,
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
     "film_scratches",
     "film_damage"
@@ -20,38 +20,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Studio 54 1970s photograph",
+      "query": "1970s rock culture documentary photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:254c2b6a7327911b",
-          "url": "/media/_library/assets/254c2b6a7327911b/im-not-no-way-gif.gif",
-          "thumbnail_url": "/media/_library/assets/254c2b6a7327911b/im-not-no-way-gif.gif",
-          "title": "Im Not No Way GIF",
-          "source_page": "/media/_library/assets/254c2b6a7327911b/im-not-no-way-gif.gif",
+          "result_id": "library:8c7992e7a9dae805",
+          "url": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
+          "thumbnail_url": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
+          "title": "black-and-white-optical-illusion-gif.gif",
+          "source_page": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
           "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-          "engine_id": "giphy_sticker",
-          "query": "GIPHY: Im Not No Way GIF",
-          "selected_at": "2026-06-13T08:57:38.823Z"
+          "engine_id": "library",
+          "query": "1970s rock culture documentary photograph",
+          "selected_at": "2026-06-16T19:30:29.832Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "1970s music industry party photograph",
+      "query": "New York music scene 1970s backstage",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "New York nightclub 1970s rock scene",
+      "query": "London rock scene 1970s nightlife",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:57:52.302Z",
-  "updated_at": "2026-06-13T08:57:52.302Z"
+  "completed_at": "2026-06-16T19:28:47.157Z",
+  "updated_at": "2026-06-16T19:30:40.417Z"
 }

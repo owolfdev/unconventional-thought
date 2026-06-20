@@ -1,57 +1,57 @@
 {
   "id": "m073",
   "cue": 73,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_damage",
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Studio 54 1970s photograph",
+      "query": "hypodermic needle macro photograph documentary",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:0947003d4af2538e",
-          "url": "/media/_library/assets/0947003d4af2538e/text-graphic-in-1970s-font-the-70s.png",
-          "thumbnail_url": "/media/_library/assets/0947003d4af2538e/text-graphic-in-1970s-font-the-70s.png",
-          "title": "text graphic in 1970s font: The 70s",
-          "source_page": "/media/_library/assets/0947003d4af2538e/text-graphic-in-1970s-font-the-70s.png",
+          "result_id": "library:cd41bc0899216b21",
+          "url": "/media/_library/assets/cd41bc0899216b21/black-metal-font-invulnerable.png",
+          "thumbnail_url": "/media/_library/assets/cd41bc0899216b21/black-metal-font-invulnerable.png",
+          "title": "black metal font: invulnerable",
+          "source_page": "/media/_library/assets/cd41bc0899216b21/black-metal-font-invulnerable.png",
           "license": "OpenAI generated — verify editorial use",
           "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: text graphic in 1970s font: The 70s",
-          "selected_at": "2026-06-12T22:22:25.970Z"
+          "query": "OpenAI sticker: black metal font: invulnerable",
+          "selected_at": "2026-06-16T19:25:48.314Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "1970s music industry party photograph",
+      "query": "syringe close up medical still life",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "New York nightclub 1970s rock scene",
+      "query": "needle tip macro black background",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:57:26.106Z",
-  "updated_at": "2026-06-13T08:57:26.106Z"
+  "completed_at": "2026-06-16T13:02:12.716Z",
+  "updated_at": "2026-06-16T19:26:24.403Z"
 }

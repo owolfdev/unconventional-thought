@@ -2,32 +2,34 @@
   "version": 1,
   "id": "m053",
   "cue": 53,
-  "t_start": 158.62,
-  "t_end": 159.71,
-  "duration_sec": 1.09,
-  "spoken": "Jim Morrison,",
+  "t_start": 137.32,
+  "t_end": 140.32,
+  "duration_sec": 3,
+  "spoken": "The other musicians were stunned. He now had",
   "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
-  "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
-  "people": [],
-  "date_from": "1969",
-  "date_to": "1994",
+  "expected_media_type": "generated",
+  "editorial_intent": "Johnson returns transformed — other musicians stunned; delta blues scene.",
+  "situation": "Robert Johnson 1930s — post-legend transformation, peers watching",
+  "people": [
+    {
+      "name": "Robert Johnson",
+      "role": "blues musician"
+    }
+  ],
+  "date_from": "1936",
+  "date_to": "1938",
   "location": "",
   "search_queries": [
-    "Jimi Hendrix 1969 photograph",
-    "Janis Joplin 1970 photograph",
-    "Jim Morrison 1971 photograph",
-    "Kurt Cobain 1990s photograph"
+    "Robert Johnson blues musician 1937",
+    "Mississippi juke joint musicians 1930s",
+    "Robert Johnson contemporaries blues scene"
   ],
   "avoid": [
     "stock explainer",
     "corporate presentation",
     "literal album cover art",
     "AI generated faces",
-    "modern stock photo",
-    "wrong artist mislabeled",
-    "tribute collage poster"
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -35,35 +37,36 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+      "description": "Johnson returns transformed — other musicians stunned; delta blues scene.",
       "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: Jimi Hendrix 1969 photograph",
+      "description": "Candidate from query: Robert Johnson blues musician 1937",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Janis Joplin 1970 photograph",
+      "description": "Candidate from query: Mississippi juke joint musicians 1930s",
       "status": "needed"
     },
     {
       "slot": "search_3",
-      "description": "Candidate from query: Jim Morrison 1971 photograph",
+      "description": "Candidate from query: Robert Johnson contemporaries blues scene",
       "status": "needed"
     }
   ],
   "effects": [
     "film_scratches",
-    "film_damage"
+    "film_damage",
+    "slow_zoom_out"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "jim-morrison-1969jpg.jpg"
+    "genphoto-7ce7764d.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.098Z"
+  "updated_at": "2026-06-16T21:57:59.028Z"
 }

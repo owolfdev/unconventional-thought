@@ -2,10 +2,10 @@
   "id": "m100",
   "cue": 100,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "[Library pass — verify license before publish]",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
   "effects": [
     "film_scratches"
   ],
@@ -13,44 +13,44 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "London snow February 1980",
+      "query": "London street night 1980 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:12c325faba92ff7e",
-          "url": "/media/_library/assets/12c325faba92ff7e/black-and-white-snow-gif.gif",
-          "thumbnail_url": "/media/_library/assets/12c325faba92ff7e/black-and-white-snow-gif.gif",
-          "title": "black-and-white-snow-gif.gif",
-          "source_page": "/media/_library/assets/12c325faba92ff7e/black-and-white-snow-gif.gif",
-          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "result_id": "library:8be1f8a0af7e659b",
+          "url": "/media/_library/assets/8be1f8a0af7e659b/500817409_122153642336592501_5034926165230506483_n.jpg",
+          "thumbnail_url": "/media/_library/assets/8be1f8a0af7e659b/500817409_122153642336592501_5034926165230506483_n.jpg",
+          "title": "500817409_122153642336592501_5034926165230506483_n.jpg",
+          "source_page": "/media/_library/assets/8be1f8a0af7e659b/500817409_122153642336592501_5034926165230506483_n.jpg",
+          "license": "manual upload — verify rights",
           "engine_id": "library",
-          "query": "black-and-white-snow-gif.gif",
-          "selected_at": "2026-06-15T19:40:11.983Z"
+          "query": "500817409_122153642336592501_5034926165230506483_n.jpg",
+          "selected_at": "2026-06-13T22:06:26.252Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "London winter frost street night",
+      "query": "London February winter night 1980s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "freezing cold urban night UK 1980s",
+      "query": "UK pub exterior night 1980",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.225882Z",
-  "updated_at": "2026-06-15T19:40:25.043Z"
+  "completed_at": "2026-06-13T22:06:37.411Z",
+  "updated_at": "2026-06-13T22:06:37.411Z"
 }

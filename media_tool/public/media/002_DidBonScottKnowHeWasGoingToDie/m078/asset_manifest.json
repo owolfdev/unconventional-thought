@@ -2,65 +2,53 @@
   "version": 1,
   "id": "m078",
   "cue": 78,
-  "t_start": 238.76,
-  "t_end": 245.08,
-  "duration_sec": 6.32,
-  "spoken": "about it. Eric Clapton lived it. Lou Reed built songs out of it. Keith Richards survived it.",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "t_start": 204.12,
+  "t_end": 207.29,
+  "duration_sec": 3.17,
+  "spoken": "Let's stop pretending this would be impossible.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "'Bargain in chemical form' — spoon, kit, or record-collection metaphor.",
+  "situation": "Inanimate: record collection vinyl stack",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1985",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "vinyl record collection shelf 1970s",
+    "album collection bedroom 1970s photograph",
+    "stack of LPs close up 1970s"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo",
+    "faces prominent",
+    "glamorized drug use"
   ],
-  "artifact": null,
+  "artifact": {
+    "object": "record collection vinyl stack",
+    "story_link": "Heroin in rock history — your record collection",
+    "media_preference": "photo"
+  },
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches",
     "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "asset.jpg"
-  ],
+  "requires_media_files": false,
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.113Z"
+  "updated_at": "2026-06-16T21:57:59.040Z"
 }

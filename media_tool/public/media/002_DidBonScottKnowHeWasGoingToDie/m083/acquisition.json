@@ -2,53 +2,67 @@
   "id": "m083",
   "cue": 83,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "",
-  "effects": [],
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "large",
+  "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott 1979 candid portrait",
+      "query": "Studio 54 1970s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:97447d4131aa20c2",
-          "url": "/media/_library/assets/97447d4131aa20c2/70s-style-font-experimentation.png",
-          "thumbnail_url": "/media/_library/assets/97447d4131aa20c2/70s-style-font-experimentation.png",
-          "title": "70s style font: Experimentation",
-          "source_page": "/media/_library/assets/97447d4131aa20c2/70s-style-font-experimentation.png",
+          "result_id": "library:0947003d4af2538e",
+          "url": "/media/_library/assets/0947003d4af2538e/text-graphic-in-1970s-font-the-70s.png",
+          "thumbnail_url": "/media/_library/assets/0947003d4af2538e/text-graphic-in-1970s-font-the-70s.png",
+          "title": "text graphic in 1970s font: The 70s",
+          "source_page": "/media/_library/assets/0947003d4af2538e/text-graphic-in-1970s-font-the-70s.png",
           "license": "OpenAI generated — verify editorial use",
           "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: 70s style font: Experimentation",
-          "selected_at": "2026-06-13T21:50:19.003Z"
+          "query": "OpenAI sticker: text graphic in 1970s font: The 70s",
+          "selected_at": "2026-06-12T22:22:25.970Z"
+        },
+        {
+          "result_id": "library:5c07e1ac64c1fdaf",
+          "url": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
+          "thumbnail_url": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
+          "title": "crystal-chandeliers-distinguished-guests-and-balls.gif",
+          "source_page": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "Studio 54 1970s photograph",
+          "selected_at": "2026-06-16T13:32:35.323Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott February 1980 era photograph",
+      "query": "1970s music industry party photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Bon Scott London 1979 tired",
+      "query": "New York nightclub 1970s rock scene",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-13T22:01:49.636Z"
+  "completed_at": "2026-06-16T13:34:44.557Z",
+  "updated_at": "2026-06-16T13:34:44.557Z"
 }

@@ -1,11 +1,11 @@
 {
   "id": "m119",
   "cue": 119,
-  "source_visual_mode": "artifact",
-  "resolved_visual_mode": "artifact",
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
     "film_scratches"
   ],
@@ -13,44 +13,44 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Back in Black vinyl record 1980",
+      "query": "Studio 54 1979 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:f9f39c4301aaab48",
-          "url": "/media/_library/assets/f9f39c4301aaab48/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
-          "thumbnail_url": "/media/_library/assets/f9f39c4301aaab48/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
-          "title": "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453 copy.jpg",
-          "source_page": "/media/_library/assets/f9f39c4301aaab48/ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "Back in Black vinyl record 1980",
-          "selected_at": "2026-06-11T09:39:58.228389Z"
+          "result_id": "library:08cda80875af3d05",
+          "url": "/media/_library/assets/08cda80875af3d05/vcq9hfdbbnzro.gif",
+          "thumbnail_url": "/media/_library/assets/08cda80875af3d05/vcq9hfdbbnzro.gif",
+          "title": "vCq9hFdBBnzrO",
+          "source_page": "/media/_library/assets/08cda80875af3d05/vcq9hfdbbnzro.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: vCq9hFdBBnzrO",
+          "selected_at": "2026-06-15T19:52:31.192Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "AC/DC Back in Black album sleeve 1980",
+      "query": "disco nightclub 1979 New York",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "black vinyl LP 1980 Atlantic Records",
+      "query": "1979 disco dance floor photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-15T20:13:46.527Z",
-  "updated_at": "2026-06-15T20:13:46.527Z"
+  "completed_at": "2026-06-16T19:55:39.651Z",
+  "updated_at": "2026-06-16T19:55:39.651Z"
 }

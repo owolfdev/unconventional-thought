@@ -2,15 +2,12 @@
   "id": "m092",
   "cue": 92,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_damage",
-    "film_scratches",
-    "tilt_left",
-    "shake"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
@@ -22,26 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott death newspaper 1980 headline",
+      "query": "Bon Scott London 1979 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:c7b223a0d10268b8",
+          "url": "/media/_library/assets/c7b223a0d10268b8/bon-scott-gif.gif",
+          "thumbnail_url": "/media/_library/assets/c7b223a0d10268b8/bon-scott-gif.gif",
+          "title": "bon scott GIF",
+          "source_page": "/media/_library/assets/c7b223a0d10268b8/bon-scott-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: bon scott GIF",
+          "selected_at": "2026-06-13T09:02:37.691Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott obituary 1980 newspaper",
+      "query": "Bon Scott AC/DC 1979 offstage nightlife",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "AC/DC Bon Scott death news 1980",
+      "query": "London music scene 1979 rock",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-15T19:29:45.239Z"
+  "completed_at": "2026-06-13T09:03:03.749Z",
+  "updated_at": "2026-06-13T09:03:03.749Z"
 }

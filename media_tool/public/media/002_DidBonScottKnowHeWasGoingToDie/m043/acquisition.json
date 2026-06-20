@@ -2,47 +2,56 @@
   "id": "m043",
   "cue": 43,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "text_graphic",
-  "resolved_media_type": "generated",
-  "status": "text_graphic",
-  "notes": "[Library pass — verify license before publish]",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "shake"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "It plays something impossibly good, then hands the guitar back and says, \"now it's yours\".",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson playing guitar photograph",
+      "query": "Robert Johnson crossroads legend illustration",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:e208d4fc81cce8f4",
+          "url": "/media/_library/assets/e208d4fc81cce8f4/genphoto-8a606183.jpg",
+          "thumbnail_url": "/media/_library/assets/e208d4fc81cce8f4/genphoto-8a606183.jpg",
+          "title": "genphoto-8a606183.jpg",
+          "source_page": "/media/_library/assets/e208d4fc81cce8f4/genphoto-8a606183.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "library",
+          "query": "genphoto-8a606183.jpg",
+          "selected_at": "2026-06-16T12:21:50.053Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "blues guitarist hands guitar close up 1930s",
+      "query": "crossroads blues devil folklore art",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Robert Johnson performance photograph",
+      "query": "silhouette figure rural road night",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.219051Z",
-  "updated_at": "2026-06-12T21:22:01.451Z"
+  "completed_at": "2026-06-16T12:39:18.652Z",
+  "updated_at": "2026-06-16T12:39:18.652Z"
 }

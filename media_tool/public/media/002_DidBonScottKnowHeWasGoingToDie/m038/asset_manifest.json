@@ -6,7 +6,7 @@
   "t_end": 105.72,
   "duration_sec": 0.58,
   "spoken": "His name",
-  "visual_mode": "text_graphic",
+  "visual_mode": "effect_only",
   "expected_media_type": "generated",
   "editorial_intent": "Lonely intersection — insects, heat, dirt road; young musician waiting.",
   "situation": "Rural crossroads intersection Mississippi — empty, humid night mood",
@@ -31,9 +31,9 @@
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "His name",
-      "status": "acquired"
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "needed"
     }
   ],
   "effects": [],
@@ -42,5 +42,5 @@
   "requires_media_files": false,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.090Z"
+  "updated_at": "2026-06-16T21:57:59.021Z"
 }

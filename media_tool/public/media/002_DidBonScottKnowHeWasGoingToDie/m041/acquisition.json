@@ -4,7 +4,7 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "text_graphic",
   "resolved_media_type": "generated",
-  "status": "text_graphic",
+  "status": "complete",
   "notes": "",
   "effects": [
     "film_scratches"
@@ -43,6 +43,6 @@
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-12T21:20:59.419Z"
+  "completed_at": "2026-06-16T12:39:12.531Z",
+  "updated_at": "2026-06-16T12:39:12.531Z"
 }

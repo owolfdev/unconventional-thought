@@ -2,58 +2,44 @@
   "id": "m075",
   "cue": 75,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches",
     "film_damage",
-    "tremble",
-    "tilt_left"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "rock band backstage 1970s afterparty",
+      "query": "1970s rock culture documentary photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:114873f95daad37e",
-          "url": "/media/_library/assets/114873f95daad37e/back-stage.jpg",
-          "thumbnail_url": "/media/_library/assets/114873f95daad37e/back-stage.jpg",
-          "title": "back-stage.jpg",
-          "source_page": "/media/_library/assets/114873f95daad37e/back-stage.jpg",
-          "license": "manual upload — verify rights",
-          "engine_id": "library",
-          "query": "Upload: back-stage.jpg",
-          "selected_at": "2026-06-12T22:35:29.933Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "recording studio late night 1970s",
+      "query": "New York music scene 1970s backstage",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "tour bus backstage 1970s musicians",
+      "query": "London rock scene 1970s nightlife",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:58:06.394Z",
-  "updated_at": "2026-06-13T08:58:06.394Z"
+  "completed_at": "2026-06-16T13:05:43.386Z",
+  "updated_at": "2026-06-16T19:28:52.860Z"
 }

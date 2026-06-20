@@ -2,33 +2,34 @@
   "version": 1,
   "id": "m101",
   "cue": 101,
-  "t_start": 311.86,
-  "t_end": 317.82,
-  "duration_sec": 5.96,
-  "spoken": "afternoon the next day? It doesn't make sense. It leaves a lot of questions unanswered.",
+  "t_start": 276.43,
+  "t_end": 277.64,
+  "duration_sec": 1.21,
+  "spoken": "He was left in a car,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "editorial_intent": "Death night — February 1980 London, night out; cold urban night mood.",
+  "situation": "London February 1980 night street — cold, wet, urban",
   "people": [
     {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "Bon Scott",
+      "role": "vocalist"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
-  "location": "",
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "London, UK",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "London street night 1980 photograph",
+    "London February winter night 1980s",
+    "UK pub exterior night 1980"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -36,30 +37,35 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "acquired"
+      "description": "Death night — February 1980 London, night out; cold urban night mood.",
+      "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: London street night 1980 photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: London February winter night 1980s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: UK pub exterior night 1980",
       "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-NScb6PymHQu9FHT1bH.gif",
-    "university-memory-gif.gif"
+    "genphoto-dc257c83.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.127Z"
+  "updated_at": "2026-06-16T21:57:59.054Z"
 }

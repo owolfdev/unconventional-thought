@@ -2,45 +2,43 @@
   "version": 1,
   "id": "m055",
   "cue": 55,
-  "t_start": 160.75,
-  "t_end": 163.2,
-  "duration_sec": 2.45,
-  "spoken": "and many others. Same equation,",
-  "visual_mode": "text_graphic",
+  "t_start": 142.08,
+  "t_end": 147.78,
+  "duration_sec": 5.7,
+  "spoken": "in otherworldly voice. The devil also promised him fame. But Johnson",
+  "visual_mode": "effect_only",
   "expected_media_type": "generated",
-  "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
-  "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
-  "people": [],
-  "date_from": "1969",
-  "date_to": "1994",
+  "editorial_intent": "Supernatural voice & fame promised — Johnson performing, otherworldly intensity.",
+  "situation": "Robert Johnson singing or performing — intense, legendary presence",
+  "people": [
+    {
+      "name": "Robert Johnson",
+      "role": "blues musician"
+    }
+  ],
+  "date_from": "1936",
+  "date_to": "1938",
   "location": "",
   "search_queries": [
-    "Jimi Hendrix 1969 photograph",
-    "Janis Joplin 1970 photograph",
-    "Jim Morrison 1971 photograph",
-    "Kurt Cobain 1990s photograph"
+    "Robert Johnson blues performance photograph",
+    "Robert Johnson portrait intense",
+    "blues singer 1930s Mississippi performance"
   ],
   "avoid": [
     "stock explainer",
     "corporate presentation",
     "literal album cover art",
     "AI generated faces",
-    "modern stock photo",
-    "wrong artist mislabeled",
-    "tribute collage poster"
+    "modern stock photo"
   ],
   "artifact": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "and many others. ",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "and many others. ",
-      "status": "needed"
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
     }
   ],
   "effects": [
@@ -52,5 +50,5 @@
   "requires_media_files": false,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.099Z"
+  "updated_at": "2026-06-16T21:57:59.028Z"
 }

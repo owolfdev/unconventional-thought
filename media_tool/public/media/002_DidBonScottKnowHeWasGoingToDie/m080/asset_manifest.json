@@ -2,26 +2,26 @@
   "version": 1,
   "id": "m080",
   "cue": 80,
-  "t_start": 249.76,
-  "t_end": 253.4,
-  "duration_sec": 3.64,
-  "spoken": "would an artist like Bond Scott ever have been around heroin.",
+  "t_start": 209.5,
+  "t_end": 214.7,
+  "duration_sec": 5.2,
+  "spoken": "through the 90s, check your record collection. Most likely a lot of the artists you listened to were",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "Bon Scott historical photograph 1978-1981",
+  "situation": "AC/DC historical photograph 1978-1981",
   "people": [
     {
-      "name": "Bon Scott",
-      "role": "vocalist"
+      "name": "AC/DC",
+      "role": "band"
     }
   ],
   "date_from": "1978",
   "date_to": "1981",
   "location": "",
   "search_queries": [
-    "Bon Scott 1979 photograph",
-    "Bon Scott AC/DC 1980"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
     "courtroom",
@@ -41,12 +41,12 @@
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: Bon Scott 1979 photograph",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Bon Scott AC/DC 1980",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
     }
   ],
@@ -58,8 +58,8 @@
   "requires_media_files": true,
   "acquired_files": [
     "giphy-dM2xuxnJCg4H6.gif",
-    "bon-scott-gif.gif"
+    "vinyl-collection-at-a-record-store-unsplashjpg.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.114Z"
+  "updated_at": "2026-06-16T21:57:59.041Z"
 }

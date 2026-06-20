@@ -2,68 +2,59 @@
   "version": 1,
   "id": "m068",
   "cue": 68,
-  "t_start": 204.12,
-  "t_end": 207.29,
-  "duration_sec": 3.17,
-  "spoken": "Let's stop pretending this would be impossible.",
-  "visual_mode": "artifact",
-  "expected_media_type": "photo",
-  "editorial_intent": "'Bargain in chemical form' — spoon, kit, or record-collection metaphor.",
-  "situation": "Inanimate: record collection vinyl stack",
-  "people": [],
-  "date_from": "1975",
-  "date_to": "1985",
+  "t_start": 172.48,
+  "t_end": 178.94,
+  "duration_sec": 6.46,
+  "spoken": "Bond wasn't 27. He was 33 when he died. But the bargain doesn't care about birthdays. It cares",
+  "visual_mode": "historical",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
   "search_queries": [
-    "vinyl record collection shelf 1970s",
-    "album collection bedroom 1970s photograph",
-    "stack of LPs close up 1970s"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo",
-    "faces prominent",
-    "glamorized drug use"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
-  "artifact": {
-    "object": "record collection vinyl stack",
-    "story_link": "Heroin in rock history — your record collection",
-    "media_preference": "photo"
+  "artifact": null,
+  "text_graphic": {
+    "type": "title",
+    "text": "33.",
+    "style": "minimal_white"
   },
-  "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "'Bargain in chemical form' — spoon, kit, or record-collection metaphor.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: vinyl record collection shelf 1970s",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: album collection bedroom 1970s photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: stack of LPs close up 1970s",
-      "status": "needed"
+      "slot": "generated",
+      "description": "",
+      "status": "acquired"
     }
   ],
   "effects": [
-    "film_damage"
+    "film_damage",
+    "slow_push_in"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-Y0VFEdJxkE2H0qSoA8.gif",
+    "dark-bon.webp"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.108Z"
+  "updated_at": "2026-06-16T21:57:59.035Z"
 }

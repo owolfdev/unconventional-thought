@@ -24,15 +24,15 @@
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:e29b6eb53267fb4c",
-          "url": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
-          "thumbnail_url": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
-          "title": "and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
-          "source_page": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
-          "license": "migrated from episode 001 acquired/ — verify rights",
+          "result_id": "library:d5ddc55d8c47a3f9",
+          "url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+          "thumbnail_url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+          "title": "asset.gif",
+          "source_page": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+          "license": "verify rights before use",
           "engine_id": "library",
           "query": "Bon Scott 1979 live arms spread stage",
-          "selected_at": "2026-06-11T09:39:58.217360Z"
+          "selected_at": "2026-06-16T12:06:28.431Z"
         }
       ]
     },
@@ -52,5 +52,5 @@
     }
   ],
   "completed_at": "2026-06-14T18:00:05.547Z",
-  "updated_at": "2026-06-14T18:00:05.547Z"
+  "updated_at": "2026-06-16T12:06:42.799Z"
 }

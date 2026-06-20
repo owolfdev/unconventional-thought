@@ -2,22 +2,23 @@
   "version": 1,
   "id": "m063",
   "cue": 63,
-  "t_start": 191.49,
-  "t_end": 195.3,
-  "duration_sec": 3.81,
-  "spoken": "Legend has it that it can make artists feel invulnerable,",
-  "visual_mode": "artifact",
-  "expected_media_type": "photo",
-  "editorial_intent": "'Tip of a hypodermic needle' — macro, clinical, NOT glamorized.",
-  "situation": "Inanimate: hypodermic needle macro",
+  "t_start": 160.75,
+  "t_end": 163.2,
+  "duration_sec": 2.45,
+  "spoken": "and many others. Same equation,",
+  "visual_mode": "historical",
+  "expected_media_type": "generated",
+  "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+  "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
   "people": [],
-  "date_from": "1975",
-  "date_to": "1985",
+  "date_from": "1969",
+  "date_to": "1994",
   "location": "",
   "search_queries": [
-    "hypodermic needle macro photograph documentary",
-    "syringe close up medical still life",
-    "needle tip macro black background"
+    "Jimi Hendrix 1969 photograph",
+    "Janis Joplin 1970 photograph",
+    "Jim Morrison 1971 photograph",
+    "Kurt Cobain 1990s photograph"
   ],
   "avoid": [
     "stock explainer",
@@ -25,48 +26,29 @@
     "literal album cover art",
     "AI generated faces",
     "modern stock photo",
-    "injection in arm",
-    "glamorized drug use",
-    "blood",
-    "faces prominent",
-    "glamorized drug use"
+    "wrong artist mislabeled",
+    "tribute collage poster"
   ],
-  "artifact": {
-    "object": "hypodermic needle macro",
-    "story_link": "Heroin as the modern devil bargain",
-    "media_preference": "photo"
-  },
+  "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "'Tip of a hypodermic needle' — macro, clinical, NOT glamorized.",
-      "status": "needed"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: hypodermic needle macro photograph documentary",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: syringe close up medical still life",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: needle tip macro black background",
-      "status": "needed"
+      "slot": "generated",
+      "description": "and many others. ",
+      "status": "selected"
     }
   ],
   "effects": [
+    "film_scratches",
     "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "asset.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.103Z"
+  "updated_at": "2026-06-16T21:57:59.032Z"
 }

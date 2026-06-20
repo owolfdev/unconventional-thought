@@ -5,7 +5,7 @@
   "resolved_visual_mode": "effect_only",
   "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
     "film_scratches"
   ],
@@ -19,38 +19,33 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "1970s rock culture documentary photograph",
+      "query": "Jimi Hendrix 1969 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:8c7992e7a9dae805",
-          "url": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
-          "thumbnail_url": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
-          "title": "black and white optical illusion GIF",
-          "source_page": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
-          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-          "engine_id": "giphy_sticker",
-          "query": "GIPHY: black and white optical illusion GIF",
-          "selected_at": "2026-06-13T08:46:49.369Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "New York music scene 1970s backstage",
+      "query": "Janis Joplin 1970 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "London rock scene 1970s nightlife",
+      "query": "Jim Morrison 1971 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 3,
+      "query": "Kurt Cobain 1990s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:47:13.819Z",
-  "updated_at": "2026-06-13T08:47:13.819Z"
+  "completed_at": "2026-06-16T19:14:19.412Z",
+  "updated_at": "2026-06-16T19:14:19.412Z"
 }

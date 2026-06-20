@@ -2,7 +2,7 @@
   "id": "m038",
   "cue": 38,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
   "resolved_media_type": "generated",
   "status": "complete",
   "notes": "",
@@ -37,6 +37,6 @@
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:11:56.995Z",
-  "updated_at": "2026-06-13T08:11:56.995Z"
+  "completed_at": "2026-06-16T12:39:02.623Z",
+  "updated_at": "2026-06-16T12:39:02.623Z"
 }

@@ -2,11 +2,11 @@
   "version": 1,
   "id": "m071",
   "cue": 71,
-  "t_start": 214.7,
-  "t_end": 218.33,
-  "duration_sec": 3.63,
-  "spoken": "in the grips of that substance during their most creative periods.",
-  "visual_mode": "historical",
+  "t_start": 187.26,
+  "t_end": 189.26,
+  "duration_sec": 2,
+  "spoken": "the tip of a hypodermic needle.",
+  "visual_mode": "artifact",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
@@ -51,18 +51,17 @@
     }
   ],
   "effects": [
-    "film_scratches",
-    "slow_spin",
-    "tremble",
-    "film_damage"
+    "film_damage",
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-xTeV7JLtojjOKA1aP6.gif",
-    "genphoto-164b286b.jpg"
+    "giphy-dM2xuxnJCg4H6.gif",
+    "hypodermic-needle-close-up-back-stage.png",
+    "genphoto-40660548.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.109Z"
+  "updated_at": "2026-06-16T21:57:59.037Z"
 }

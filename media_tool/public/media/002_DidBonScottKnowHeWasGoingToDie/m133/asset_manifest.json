@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "id": "m133",
+  "cue": 133,
+  "t_start": 385.24,
+  "t_end": 388.06,
+  "duration_sec": 2.82,
+  "spoken": "who's gonna buy a back in black if Bond Scott just",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Back in Black coming — LP object, avoid trademark cover if possible; sleeve or vinyl edge.",
+  "situation": "Inanimate: Back in Black vinyl record sleeve",
+  "people": [],
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "",
+  "search_queries": [
+    "Back in Black vinyl record 1980",
+    "AC/DC Back in Black album sleeve 1980",
+    "black vinyl LP 1980 Atlantic Records"
+  ],
+  "avoid": [
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo",
+    "Brian Johnson prominent cover portrait",
+    "faces prominent",
+    "glamorized drug use"
+  ],
+  "artifact": {
+    "object": "Back in Black vinyl record sleeve",
+    "story_link": "Album about to ship — commercial stakes",
+    "media_preference": "photo"
+  },
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
+    }
+  ],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": false,
+  "acquired_files": [],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-16T21:57:59.069Z"
+}

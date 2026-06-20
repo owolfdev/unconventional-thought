@@ -2,65 +2,53 @@
   "version": 1,
   "id": "m110",
   "cue": 110,
-  "t_start": 347.08,
-  "t_end": 351.16,
-  "duration_sec": 4.08,
-  "spoken": "You have to understand their demographic at that moment. Working class,",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Demographic — working class, suburban, beer, denim; heartland not coastal elite.",
-  "situation": "American working class rock fans 1980 — beer, denim, trucks",
-  "people": [],
-  "date_from": "1979",
+  "t_start": 300.9,
+  "t_end": 301.9,
+  "duration_sec": 1,
+  "spoken": "alternative.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
   "date_to": "1981",
-  "location": "USA",
+  "location": "",
   "search_queries": [
-    "American rock concert crowd 1980 denim",
-    "suburban teenagers rock concert 1980",
-    "pickup truck tailgate beer 1980s photograph"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Demographic — working class, suburban, beer, denim; heartland not coastal elite.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: American rock concert crowd 1980 denim",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: suburban teenagers rock concert 1980",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: pickup truck tailgate beer 1980s photograph",
-      "status": "needed"
+      "slot": "black_plate",
+      "description": "[Library pass — verify license before publish]",
+      "status": "acquired"
     }
   ],
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "heavy-metal-80s-movies-gif-by-retro-fiend.gif"
+    "giphy-Td1iHZdeXx7TjS5bHB.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.134Z"
+  "updated_at": "2026-06-16T21:57:59.058Z"
 }

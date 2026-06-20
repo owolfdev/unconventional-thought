@@ -2,69 +2,54 @@
   "version": 1,
   "id": "m087",
   "cue": 87,
-  "t_start": 270.05,
-  "t_end": 276.43,
-  "duration_sec": 6.38,
-  "spoken": "Now the death itself. February 1980, London, night out, drinking.",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Death night — February 1980 London, night out; cold urban night mood.",
-  "situation": "London February 1980 night street — cold, wet, urban",
+  "t_start": 233.58,
+  "t_end": 237.68,
+  "duration_sec": 4.1,
+  "spoken": "Some of the biggest artists in modern music have openly talked about it.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
   "people": [
     {
-      "name": "Bon Scott",
-      "role": "vocalist"
+      "name": "AC/DC",
+      "role": "band"
     }
   ],
-  "date_from": "1980",
-  "date_to": "1980",
-  "location": "London, UK",
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
   "search_queries": [
-    "London street night 1980 photograph",
-    "London February winter night 1980s",
-    "UK pub exterior night 1980"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Death night — February 1980 London, night out; cold urban night mood.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: London street night 1980 photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: London February winter night 1980s",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: UK pub exterior night 1980",
-      "status": "needed"
+      "slot": "black_plate",
+      "description": "[Library pass — verify license before publish]",
+      "status": "acquired"
     }
   ],
   "effects": [
+    "film_damage",
     "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "500817409_122153642336592501_5034926165230506483_n.jpg"
+    "giphy-Naz61B60A2e6A.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.118Z"
+  "updated_at": "2026-06-16T21:57:59.044Z"
 }

@@ -5,52 +5,53 @@
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "slow_push_in"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "rock star spotlight 1970s silhouette",
+      "query": "Robert Johnson grave Mississippi",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:578ade59254d3f4d",
-          "url": "/media/_library/assets/578ade59254d3f4d/text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png",
-          "thumbnail_url": "/media/_library/assets/578ade59254d3f4d/text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png",
-          "title": "text graphic for AC/DC font: \nThey Sold Their Souls For Rock N Roll",
-          "source_page": "/media/_library/assets/578ade59254d3f4d/text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: text graphic for AC/DC font: \nThey Sold Their Souls For Rock N Roll",
-          "selected_at": "2026-06-12T21:50:19.073Z"
+          "result_id": "library:2df273db285237b1",
+          "url": "/media/_library/assets/2df273db285237b1/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/2df273db285237b1/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/2df273db285237b1/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "Robert Johnson grave Mississippi",
+          "selected_at": "2026-06-12T21:33:56.596Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "musician backstage alone 1970s",
+      "query": "Robert Johnson death memorial blues",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "crossroads blues rock mythology photograph",
+      "query": "Robert Johnson 1938 obituary newspaper",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:19:49.372Z",
-  "updated_at": "2026-06-13T08:19:49.372Z"
+  "completed_at": "2026-06-16T12:47:06.485Z",
+  "updated_at": "2026-06-16T12:47:06.485Z"
 }

@@ -4,54 +4,64 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "effect_only",
   "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "[Library pass — verify license before publish]",
+  "status": "complete",
+  "notes": "",
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "large",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "business handshake meeting 1980 photograph",
+      "query": "Disco Demolition Night 1979 Comiskey Park",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:7206a855e6688cd6",
-          "url": "/media/_library/assets/7206a855e6688cd6/in-acdc-font-money.png",
-          "thumbnail_url": "/media/_library/assets/7206a855e6688cd6/in-acdc-font-money.png",
-          "title": "in AC/DC font: Money",
-          "source_page": "/media/_library/assets/7206a855e6688cd6/in-acdc-font-money.png",
+          "result_id": "library:6486bf57de551835",
+          "url": "/media/_library/assets/6486bf57de551835/the-word-disco-with-a-cancel-circle-slash.png",
+          "thumbnail_url": "/media/_library/assets/6486bf57de551835/the-word-disco-with-a-cancel-circle-slash.png",
+          "title": "the word disco with a cancel circle slash",
+          "source_page": "/media/_library/assets/6486bf57de551835/the-word-disco-with-a-cancel-circle-slash.png",
           "license": "OpenAI generated — verify editorial use",
           "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: in AC/DC font: Money",
-          "selected_at": "2026-06-15T20:20:37.787Z"
+          "query": "OpenAI sticker: the word disco with a cancel circle slash",
+          "selected_at": "2026-06-16T19:58:38.033Z"
+        },
+        {
+          "result_id": "library:83995c303a8f8378",
+          "url": "/media/_library/assets/83995c303a8f8378/genphoto-208be390.jpg",
+          "thumbnail_url": "/media/_library/assets/83995c303a8f8378/genphoto-208be390.jpg",
+          "title": "the word disco with a cancel circle slash",
+          "source_page": "/media/_library/assets/83995c303a8f8378/genphoto-208be390.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: the word disco with a cancel circle slash",
+          "selected_at": "2026-06-16T19:58:43.470Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "record label meeting 1980",
+      "query": "Steve Dahl disco demolition 1979",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "music industry executives meeting 1980s",
+      "query": "disco records explosion baseball field 1979",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.229571Z",
-  "updated_at": "2026-06-15T20:20:43.933Z"
+  "completed_at": "2026-06-16T20:00:56.300Z",
+  "updated_at": "2026-06-16T20:00:56.300Z"
 }

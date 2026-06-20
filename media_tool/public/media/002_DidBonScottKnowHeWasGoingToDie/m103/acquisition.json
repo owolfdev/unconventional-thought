@@ -5,7 +5,7 @@
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
     "film_scratches"
   ],
@@ -13,44 +13,44 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Rolling Stone magazine 1980 cover",
+      "query": "parked car snow winter night 1980s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:cb5d996f1cdae9ce",
-          "url": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
-          "thumbnail_url": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
-          "title": "lets-look-at-the-facts-its-1980.png",
-          "source_page": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "Rolling Stone magazine 1980 cover",
-          "selected_at": "2026-06-11T09:39:58.226552Z"
+          "result_id": "library:0bca3f03155818f7",
+          "url": "/media/_library/assets/0bca3f03155818f7/genphoto-0ec6ca16.jpg",
+          "thumbnail_url": "/media/_library/assets/0bca3f03155818f7/genphoto-0ec6ca16.jpg",
+          "title": "an official death certificate of bon scott with a big rubber stamp print for cause of death: \n\nacute alcohol poisoning.",
+          "source_page": "/media/_library/assets/0bca3f03155818f7/genphoto-0ec6ca16.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: an official death certificate of bon scott with a big rubber stamp print for cause of death: \n\nacute alcohol poisoning.",
+          "selected_at": "2026-06-13T22:16:52.381Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "1980 news broadcast television studio",
+      "query": "car interior back seat night photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "music magazine 1980 rock",
+      "query": "London winter street parked cars 1980",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-15T19:48:42.370Z",
-  "updated_at": "2026-06-15T19:48:42.370Z"
+  "completed_at": "2026-06-13T22:19:52.051Z",
+  "updated_at": "2026-06-13T22:19:52.051Z"
 }

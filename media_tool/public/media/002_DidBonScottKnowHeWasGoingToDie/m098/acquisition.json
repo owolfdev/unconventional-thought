@@ -1,16 +1,21 @@
 {
   "id": "m098",
   "cue": 98,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "in_progress",
   "notes": "",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "",
+    "style": "minimal_white"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
@@ -19,38 +24,24 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "car parked alley winter night",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
       "selections": [
         {
-          "result_id": "library:7577f22a845b8a3c",
-          "url": "/media/_library/assets/7577f22a845b8a3c/IMG_5729.JPG",
-          "thumbnail_url": "/media/_library/assets/7577f22a845b8a3c/IMG_5729.JPG",
-          "title": "IMG_5729.JPG",
-          "source_page": "/media/_library/assets/7577f22a845b8a3c/IMG_5729.JPG",
-          "license": "manual import — verify rights",
+          "result_id": "library:03dedc4354bdf92b",
+          "url": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
+          "thumbnail_url": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
+          "title": "pressure-gif.gif",
+          "source_page": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
           "engine_id": "library",
-          "query": "IMG_5729.JPG",
-          "selected_at": "2026-06-14T17:16:22.497Z"
+          "query": "pressure-gif.gif",
+          "selected_at": "2026-06-16T19:37:51.911Z"
         }
       ]
-    },
-    {
-      "query_index": 1,
-      "query": "sleeping in car winter photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "friend leaving car night street",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-15T19:37:38.375Z"
+  "updated_at": "2026-06-16T19:39:32.768Z"
 }

@@ -4,8 +4,8 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "effect_only",
   "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "[Library pass — verify license before publish]",
+  "status": "complete",
+  "notes": "",
   "effects": [
     "film_damage"
   ],
@@ -13,32 +13,32 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "John Lennon 1970s photograph interview",
+      "query": "1970s rock culture documentary photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 1,
-      "query": "John Lennon New York 1970s",
+      "query": "New York music scene 1970s backstage",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "John Lennon studio 1970s",
+      "query": "London rock scene 1970s nightlife",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.222764Z",
-  "updated_at": "2026-06-13T08:58:28.025Z"
+  "completed_at": "2026-06-16T13:05:50.500Z",
+  "updated_at": "2026-06-16T13:05:50.500Z"
 }

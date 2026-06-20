@@ -2,29 +2,33 @@
   "version": 1,
   "id": "m104",
   "cue": 104,
-  "t_start": 328.02,
-  "t_end": 332.12,
-  "duration_sec": 4.1,
-  "spoken": "1980, in media narratives, heroin was tied to nightlife",
+  "t_start": 285.12,
+  "t_end": 286.76,
+  "duration_sec": 1.64,
+  "spoken": "Here's what bothers people.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "1980 media narratives — heroin tied to 'alien' subcultures; year stamp.",
-  "situation": "1980 American media culture — news magazine, rock press",
-  "people": [],
-  "date_from": "1980",
-  "date_to": "1980",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
   "search_queries": [
-    "Rolling Stone magazine 1980 cover",
-    "1980 news broadcast television studio",
-    "music magazine 1980 rock"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -32,32 +36,33 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "1980 media narratives — heroin tied to 'alien' subcultures; year stamp.",
-      "status": "selected"
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: Rolling Stone magazine 1980 cover",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: 1980 news broadcast television studio",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: music magazine 1980 rock",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_damage",
+    "shake",
+    "desaturate_soft"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "asset.jpg"
+    "giphy-3b5uEK1rJJ0IEjpoXT.gif",
+    "IMG_5734.JPG"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.129Z"
+  "updated_at": "2026-06-16T21:57:59.055Z"
 }

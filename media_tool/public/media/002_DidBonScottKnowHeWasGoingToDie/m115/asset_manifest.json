@@ -2,34 +2,33 @@
   "version": 1,
   "id": "m115",
   "cue": 115,
-  "t_start": 362.32,
-  "t_end": 366.74,
-  "duration_sec": 4.42,
-  "spoken": "imagination of that era, heroin read as downtown junkies,",
+  "t_start": 318.7,
+  "t_end": 324.52,
+  "duration_sec": 5.82,
+  "spoken": "So if it was a heroin overdose, why would they have covered it up? Why would anyone prefer the",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Heroin reads as downtown / art scene — Velvet Underground, Warhol factory echo.",
-  "situation": "New York downtown art scene 1970s — Lou Reed era, bohemian",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
   "people": [
     {
-      "name": "Lou Reed",
-      "role": "musician"
+      "name": "AC/DC",
+      "role": "band"
     }
   ],
-  "date_from": "1970",
-  "date_to": "1980",
-  "location": "New York, USA",
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
   "search_queries": [
-    "Andy Warhol factory 1970s photograph",
-    "Velvet Underground era New York 1970s",
-    "downtown Manhattan 1970s nightlife"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -37,32 +36,30 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Heroin reads as downtown / art scene — Velvet Underground, Warhol factory echo.",
-      "status": "selected"
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: Andy Warhol factory 1970s photograph",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Velvet Underground era New York 1970s",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: downtown Manhattan 1970s nightlife",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "asset.jpg"
+    "giphy-l41YrI2G6EXpqXbig.gif",
+    "silence-sh-gif.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.137Z"
+  "updated_at": "2026-06-16T21:57:59.060Z"
 }

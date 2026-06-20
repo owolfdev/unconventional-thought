@@ -2,43 +2,56 @@
   "id": "m094",
   "cue": 94,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "text_graphic",
-  "resolved_media_type": "generated",
-  "status": "text_graphic",
-  "notes": "",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "vignette_soft"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott drinking beer pub 1970s",
+      "query": "Bon Scott 1979 candid portrait",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:7c57afe3d05b94ca",
+          "url": "/media/_library/assets/7c57afe3d05b94ca/original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
+          "thumbnail_url": "/media/_library/assets/7c57afe3d05b94ca/original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
+          "title": "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
+          "source_page": "/media/_library/assets/7c57afe3d05b94ca/original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "Bon Scott 1979 candid portrait",
+          "selected_at": "2026-06-11T09:39:58.224197Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott bar candid 1970s",
+      "query": "Bon Scott February 1980 era photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "rock musician pub 1970s documentary",
+      "query": "Bon Scott London 1979 tired",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T09:17:10.092Z",
-  "updated_at": "2026-06-13T20:26:09.842Z"
+  "completed_at": "2026-06-13T09:05:03.096Z",
+  "updated_at": "2026-06-13T09:05:03.096Z"
 }

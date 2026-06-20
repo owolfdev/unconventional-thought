@@ -3,59 +3,54 @@
   "cue": 114,
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
-  "resolved_media_type": "generated",
+  "resolved_media_type": "photo",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "art scene",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Andy Warhol",
-      "engine_id": "google_images",
-      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "query": "wall clock afternoon photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:e8fa5d224be1833e",
-          "url": "/media/_library/assets/e8fa5d224be1833e/bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
-          "thumbnail_url": "/media/_library/assets/e8fa5d224be1833e/bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
-          "title": "bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
-          "source_page": "/media/_library/assets/e8fa5d224be1833e/bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
-          "license": "manual upload — verify rights",
-          "engine_id": "library",
-          "query": "bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
-          "selected_at": "2026-06-15T20:11:34.006Z"
+          "result_id": "library:19eb0ad16c9f110b",
+          "url": "/media/_library/assets/19eb0ad16c9f110b/university-memory-gif.gif",
+          "thumbnail_url": "/media/_library/assets/19eb0ad16c9f110b/university-memory-gif.gif",
+          "title": "university memory GIF",
+          "source_page": "/media/_library/assets/19eb0ad16c9f110b/university-memory-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: university memory GIF",
+          "selected_at": "2026-06-15T19:45:46.211Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Velvet Underground era New York 1970s",
+      "query": "winter afternoon light window",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "downtown Manhattan 1970s nightlife",
+      "query": "alarm clock afternoon bedside",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-15T20:11:41.939Z",
-  "updated_at": "2026-06-15T20:11:41.939Z"
+  "completed_at": "2026-06-16T19:45:18.320Z",
+  "updated_at": "2026-06-16T19:45:18.320Z"
 }

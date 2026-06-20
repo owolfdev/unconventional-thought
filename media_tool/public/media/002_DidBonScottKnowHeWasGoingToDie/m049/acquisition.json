@@ -1,57 +1,49 @@
 {
   "id": "m049",
   "cue": 49,
-  "source_visual_mode": "historical",
+  "source_visual_mode": "text_graphic",
   "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
+    "film_damage",
     "film_scratches",
-    "slow_push_in"
+    "vignette_soft",
+    "film_grain"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson grave Mississippi",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
       "selections": [
         {
-          "result_id": "library:2df273db285237b1",
-          "url": "/media/_library/assets/2df273db285237b1/asset.jpg",
-          "thumbnail_url": "/media/_library/assets/2df273db285237b1/asset.jpg",
-          "title": "asset.jpg",
-          "source_page": "/media/_library/assets/2df273db285237b1/asset.jpg",
-          "license": "verify rights before use",
+          "result_id": "library:443a904987dcfc04",
+          "url": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
+          "thumbnail_url": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
+          "title": "genphoto-c3bbca95.jpg",
+          "source_page": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
+          "license": "OpenAI generated — verify editorial use",
           "engine_id": "library",
-          "query": "Robert Johnson grave Mississippi",
-          "selected_at": "2026-06-12T21:33:56.596Z"
+          "query": "genphoto-c3bbca95.jpg",
+          "selected_at": "2026-06-12T21:26:34.429Z"
         }
       ]
-    },
-    {
-      "query_index": 1,
-      "query": "Robert Johnson death memorial blues",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "Robert Johnson 1938 obituary newspaper",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:18:36.915Z",
-  "updated_at": "2026-06-13T08:18:36.915Z"
+  "completed_at": "2026-06-16T12:39:44.188Z",
+  "updated_at": "2026-06-16T12:39:44.188Z"
 }

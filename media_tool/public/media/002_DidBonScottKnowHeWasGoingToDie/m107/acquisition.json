@@ -2,56 +2,43 @@
   "id": "m107",
   "cue": 107,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "text_graphic",
+  "notes": "",
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "vignette_soft"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "large",
+  "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC US tour 1980 crowd",
+      "query": "Bon Scott drinking beer pub 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:ddbd21b9ac1f4628",
-          "url": "/media/_library/assets/ddbd21b9ac1f4628/explode-blow-up-gif-by-motortrend.gif",
-          "thumbnail_url": "/media/_library/assets/ddbd21b9ac1f4628/explode-blow-up-gif-by-motortrend.gif",
-          "title": "Explode Blow Up GIF by MotorTrend",
-          "source_page": "/media/_library/assets/ddbd21b9ac1f4628/explode-blow-up-gif-by-motortrend.gif",
-          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-          "engine_id": "giphy_sticker",
-          "query": "GIPHY: Explode Blow Up GIF by MotorTrend",
-          "selected_at": "2026-06-15T19:54:55.439Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "AC/DC American audience 1980 concert",
+      "query": "Bon Scott bar candid 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "rock concert USA 1980 denim crowd",
+      "query": "rock musician pub 1970s documentary",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.227015Z",
-  "updated_at": "2026-06-15T19:55:10.472Z"
+  "completed_at": "2026-06-13T09:17:10.092Z",
+  "updated_at": "2026-06-13T20:26:09.842Z"
 }

@@ -2,32 +2,33 @@
   "version": 1,
   "id": "m054",
   "cue": 54,
-  "t_start": 159.71,
-  "t_end": 160.75,
-  "duration_sec": 1.04,
-  "spoken": "Kurt Cobain,",
+  "t_start": 140.32,
+  "t_end": 147.78,
+  "duration_sec": 7.46,
+  "spoken": "supernatural ability on the guitar in otherworldly voice. The devil also promised him fame. But Johnson",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
-  "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
-  "people": [],
-  "date_from": "1969",
-  "date_to": "1994",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
   "search_queries": [
-    "Jimi Hendrix 1969 photograph",
-    "Janis Joplin 1970 photograph",
-    "Jim Morrison 1971 photograph",
-    "Kurt Cobain 1990s photograph"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo",
-    "wrong artist mislabeled",
-    "tribute collage poster"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -35,34 +36,31 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
-      "status": "selected"
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: Jimi Hendrix 1969 photograph",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Janis Joplin 1970 photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: Jim Morrison 1971 photograph",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
     }
   ],
   "effects": [
+    "film_scratches",
     "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "asset.jpg"
+    "giphy-dM2xuxnJCg4H6.gif",
+    "1930s-font-supernatural.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.098Z"
+  "updated_at": "2026-06-16T21:57:59.028Z"
 }

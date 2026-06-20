@@ -5,52 +5,54 @@
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "tilt_left",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "large",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Studio 54 1979 photograph",
+      "query": "Bon Scott drinking beer pub 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:08cda80875af3d05",
-          "url": "/media/_library/assets/08cda80875af3d05/vcq9hfdbbnzro.gif",
-          "thumbnail_url": "/media/_library/assets/08cda80875af3d05/vcq9hfdbbnzro.gif",
-          "title": "vCq9hFdBBnzrO",
-          "source_page": "/media/_library/assets/08cda80875af3d05/vcq9hfdbbnzro.gif",
-          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-          "engine_id": "giphy_sticker",
-          "query": "GIPHY: vCq9hFdBBnzrO",
-          "selected_at": "2026-06-15T19:52:31.192Z"
+          "result_id": "library:e0dfcca454491ede",
+          "url": "/media/_library/assets/e0dfcca454491ede/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/e0dfcca454491ede/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/e0dfcca454491ede/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "Bon Scott drinking beer pub 1970s",
+          "selected_at": "2026-06-13T09:15:13.454Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "disco nightclub 1979 New York",
+      "query": "Bon Scott bar candid 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "1979 disco dance floor photograph",
+      "query": "rock musician pub 1970s documentary",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-15T19:52:53.172Z",
-  "updated_at": "2026-06-15T19:52:53.172Z"
+  "completed_at": "2026-06-11T09:39:58.225276Z",
+  "updated_at": "2026-06-13T09:15:32.096Z"
 }

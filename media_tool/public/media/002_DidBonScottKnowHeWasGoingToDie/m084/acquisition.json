@@ -1,46 +1,57 @@
 {
   "id": "m084",
   "cue": 84,
-  "source_visual_mode": "text_graphic",
+  "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "in_progress",
-  "notes": "[Library pass — verify license before publish]",
+  "status": "complete",
+  "notes": "",
   "effects": [
+    "film_scratches",
     "film_damage"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "quote",
-    "text": "YOU DECIDE.",
-    "style": "minimal_white"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "bon scott",
-      "engine_id": "google_images",
-      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
+      "query": "Studio 54 1970s photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:22da30cd994e0132",
-          "url": "/media/_library/assets/22da30cd994e0132/bon%20.jpg",
-          "thumbnail_url": "/media/_library/assets/22da30cd994e0132/bon%20.jpg",
-          "title": "bon .jpg",
-          "source_page": "/media/_library/assets/22da30cd994e0132/bon%20.jpg",
-          "license": "manual upload — verify rights",
-          "engine_id": "library",
-          "query": "Upload: bon .jpg",
-          "selected_at": "2026-06-13T20:19:19.751Z"
+          "result_id": "library:254c2b6a7327911b",
+          "url": "/media/_library/assets/254c2b6a7327911b/im-not-no-way-gif.gif",
+          "thumbnail_url": "/media/_library/assets/254c2b6a7327911b/im-not-no-way-gif.gif",
+          "title": "Im Not No Way GIF",
+          "source_page": "/media/_library/assets/254c2b6a7327911b/im-not-no-way-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: Im Not No Way GIF",
+          "selected_at": "2026-06-13T08:57:38.823Z"
         }
       ]
+    },
+    {
+      "query_index": 1,
+      "query": "1970s music industry party photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "New York nightclub 1970s rock scene",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.224421Z",
-  "updated_at": "2026-06-13T20:19:19.751Z"
+  "completed_at": "2026-06-16T13:34:47.826Z",
+  "updated_at": "2026-06-16T13:34:47.826Z"
 }

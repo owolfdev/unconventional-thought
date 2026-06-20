@@ -2,62 +2,65 @@
   "version": 1,
   "id": "m125",
   "cue": 125,
-  "t_start": 408.56,
-  "t_end": 415.4,
-  "duration_sec": 6.84,
-  "spoken": "store in America. Fifty million copies sold. That's a lot of money. You don't need a secret",
-  "visual_mode": "artifact",
+  "t_start": 353.49,
+  "t_end": 355.87,
+  "duration_sec": 2.38,
+  "spoken": "beer, denim, v8s.",
+  "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Artifact: sales award object — tight on disc/plaque, not band portrait.",
-  "situation": "Inanimate: gold / platinum award disc",
+  "editorial_intent": "Anti-disco — Disco Demolition Night Comiskey Park July 1979; cultural war.",
+  "situation": "Disco Demolition Night Comiskey Park July 1979",
   "people": [],
-  "date_from": "1980",
-  "date_to": "1982",
-  "location": "",
+  "date_from": "1979",
+  "date_to": "1979",
+  "location": "Chicago, USA",
   "search_queries": [
-    "gold record award disc close up",
-    "platinum album plaque 1980s"
+    "Disco Demolition Night 1979 Comiskey Park",
+    "Steve Dahl disco demolition 1979",
+    "disco records explosion baseball field 1979"
   ],
   "avoid": [
-    "people faces prominent",
     "stock explainer",
-    "unrelated product"
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
-  "artifact": {
-    "object": "gold / platinum award disc",
-    "story_link": "Back in Black sales milestone",
-    "media_preference": "photo"
-  },
+  "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
-      "description": "Artifact: sales award object — tight on disc/plaque, not band portrait.",
-      "status": "acquired"
+      "description": "Anti-disco — Disco Demolition Night Comiskey Park July 1979; cultural war.",
+      "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: gold record award disc close up",
+      "description": "Candidate from query: Disco Demolition Night 1979 Comiskey Park",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: platinum album plaque 1980s",
+      "description": "Candidate from query: Steve Dahl disco demolition 1979",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: disco records explosion baseball field 1979",
       "status": "needed"
     }
   ],
   "effects": [
-    "slow_spin",
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "bib_gold2-blkbg.jpg"
+    "genphoto-9d4ef105.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.143Z"
+  "updated_at": "2026-06-16T21:57:59.065Z"
 }

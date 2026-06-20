@@ -2,11 +2,12 @@
   "id": "m066",
   "cue": 66,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
-  "status": "in_progress",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
   "notes": "",
   "effects": [
+    "film_scratches",
     "film_damage"
   ],
   "transition": null,
@@ -14,31 +15,43 @@
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "1970s rock culture documentary photograph",
+      "query": "rock star spotlight 1970s silhouette",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:578ade59254d3f4d",
+          "url": "/media/_library/assets/578ade59254d3f4d/text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png",
+          "thumbnail_url": "/media/_library/assets/578ade59254d3f4d/text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png",
+          "title": "text graphic for AC/DC font: \nThey Sold Their Souls For Rock N Roll",
+          "source_page": "/media/_library/assets/578ade59254d3f4d/text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: text graphic for AC/DC font: \nThey Sold Their Souls For Rock N Roll",
+          "selected_at": "2026-06-12T21:50:19.073Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "New York music scene 1970s backstage",
+      "query": "musician backstage alone 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "London rock scene 1970s nightlife",
+      "query": "crossroads blues rock mythology photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-13T08:53:06.177Z"
+  "completed_at": "2026-06-16T12:52:15.909Z",
+  "updated_at": "2026-06-16T12:52:15.909Z"
 }

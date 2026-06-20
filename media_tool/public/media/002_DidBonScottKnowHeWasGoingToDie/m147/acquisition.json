@@ -1,0 +1,57 @@
+{
+  "id": "m147",
+  "cue": 147,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "video",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches",
+    "slow_push_in"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Bon Scott Highway to Hell live 1979",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:4df094b9972c4bbc",
+          "url": "/media/_library/assets/4df094b9972c4bbc/highway-to-hell-not-a-vague-rock-statement.jpg",
+          "thumbnail_url": "/media/_library/assets/4df094b9972c4bbc/highway-to-hell-not-a-vague-rock-statement.jpg",
+          "title": "highway-to-hell-not-a-vague-rock-statement.jpg",
+          "source_page": "/media/_library/assets/4df094b9972c4bbc/highway-to-hell-not-a-vague-rock-statement.jpg",
+          "license": "migrated from episode 001 acquired/ — verify rights",
+          "engine_id": "library",
+          "query": "highway-to-hell-not-a-vague-rock-statement.jpg",
+          "selected_at": "2026-06-16T11:54:34.429Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "Bon Scott AC/DC 1979 tour finale energy",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Bon Scott singing highway to hell live",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-11T09:39:58.230453Z",
+  "updated_at": "2026-06-16T20:23:57.171Z"
+}

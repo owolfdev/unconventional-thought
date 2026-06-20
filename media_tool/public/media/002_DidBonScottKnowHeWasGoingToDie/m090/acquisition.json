@@ -5,52 +5,75 @@
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "parked car snow winter night 1980s",
+      "query": "Eric Clapton 1970s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:0bca3f03155818f7",
-          "url": "/media/_library/assets/0bca3f03155818f7/genphoto-0ec6ca16.jpg",
-          "thumbnail_url": "/media/_library/assets/0bca3f03155818f7/genphoto-0ec6ca16.jpg",
-          "title": "an official death certificate of bon scott with a big rubber stamp print for cause of death: \n\nacute alcohol poisoning.",
-          "source_page": "/media/_library/assets/0bca3f03155818f7/genphoto-0ec6ca16.jpg",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_photo",
-          "query": "OpenAI photo: an official death certificate of bon scott with a big rubber stamp print for cause of death: \n\nacute alcohol poisoning.",
-          "selected_at": "2026-06-13T22:16:52.381Z"
+          "result_id": "library:3e8624e30d528f35",
+          "url": "/media/_library/assets/3e8624e30d528f35/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/3e8624e30d528f35/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/3e8624e30d528f35/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "Eric Clapton 1970s photograph",
+          "selected_at": "2026-06-12T22:45:31.763Z"
+        },
+        {
+          "result_id": "library:bc835195b7810b28",
+          "url": "/media/_library/assets/bc835195b7810b28/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/bc835195b7810b28/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/bc835195b7810b28/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "Eric Clapton 1970s photograph",
+          "selected_at": "2026-06-12T22:45:23.069Z"
+        },
+        {
+          "result_id": "library:c9dc225a4dbcb00a",
+          "url": "/media/_library/assets/c9dc225a4dbcb00a/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/c9dc225a4dbcb00a/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/c9dc225a4dbcb00a/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "keith richards",
+          "selected_at": "2026-06-12T22:45:08.130Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "car interior back seat night photograph",
+      "query": "Lou Reed 1970s New York photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "London winter street parked cars 1980",
+      "query": "Keith Richards 1970s Rolling Stones",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T22:19:52.051Z",
-  "updated_at": "2026-06-13T22:19:52.051Z"
+  "completed_at": "2026-06-11T09:39:58.222973Z",
+  "updated_at": "2026-06-13T08:58:47.111Z"
 }

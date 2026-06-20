@@ -2,34 +2,33 @@
   "version": 1,
   "id": "m108",
   "cue": 108,
-  "t_start": 343.2,
-  "t_end": 345.98,
-  "duration_sec": 2.78,
-  "spoken": "ACDC was trying to further conquer the",
+  "t_start": 295.26,
+  "t_end": 297.64,
+  "duration_sec": 2.38,
+  "spoken": "That sentence may be true at one level.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "AC/DC conquering America — US tour crowd, denim, heartland 1980.",
-  "situation": "AC/DC American tour 1980 crowd — mainstream rock audience",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
   "people": [
     {
       "name": "AC/DC",
       "role": "band"
     }
   ],
-  "date_from": "1980",
-  "date_to": "1980",
-  "location": "USA",
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
   "search_queries": [
-    "AC/DC US tour 1980 crowd",
-    "AC/DC American audience 1980 concert",
-    "rock concert USA 1980 denim crowd"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -37,35 +36,30 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "AC/DC conquering America — US tour crowd, denim, heartland 1980.",
-      "status": "selected"
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "status": "acquired"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC US tour 1980 crowd",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC American audience 1980 concert",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: rock concert USA 1980 denim crowd",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
       "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "acdc-1979-billboard-1548.webp"
+    "giphy-dM2xuxnJCg4H6.gif",
+    "michael-richards-yes-gif.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.133Z"
+  "updated_at": "2026-06-16T21:57:59.057Z"
 }

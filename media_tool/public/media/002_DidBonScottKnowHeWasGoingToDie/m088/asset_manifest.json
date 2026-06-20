@@ -2,27 +2,27 @@
   "version": 1,
   "id": "m088",
   "cue": 88,
-  "t_start": 276.43,
-  "t_end": 277.64,
-  "duration_sec": 1.21,
-  "spoken": "He was left in a car,",
+  "t_start": 235.76,
+  "t_end": 237.68,
+  "duration_sec": 1.92,
+  "spoken": "have openly talked about it.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Death night — February 1980 London, night out; cold urban night mood.",
-  "situation": "London February 1980 night street — cold, wet, urban",
+  "editorial_intent": "John Lennon spoke about it — Lennon era press, not Bon.",
+  "situation": "John Lennon 1970s press photograph",
   "people": [
     {
-      "name": "Bon Scott",
-      "role": "vocalist"
+      "name": "John Lennon",
+      "role": "musician"
     }
   ],
-  "date_from": "1980",
+  "date_from": "1970",
   "date_to": "1980",
-  "location": "London, UK",
+  "location": "",
   "search_queries": [
-    "London street night 1980 photograph",
-    "London February winter night 1980s",
-    "UK pub exterior night 1980"
+    "John Lennon 1970s photograph interview",
+    "John Lennon New York 1970s",
+    "John Lennon studio 1970s"
   ],
   "avoid": [
     "stock explainer",
@@ -37,35 +37,34 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Death night — February 1980 London, night out; cold urban night mood.",
+      "description": "John Lennon spoke about it — Lennon era press, not Bon.",
       "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: London street night 1980 photograph",
+      "description": "Candidate from query: John Lennon 1970s photograph interview",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: London February winter night 1980s",
+      "description": "Candidate from query: John Lennon New York 1970s",
       "status": "needed"
     },
     {
       "slot": "search_3",
-      "description": "Candidate from query: UK pub exterior night 1980",
+      "description": "Candidate from query: John Lennon studio 1970s",
       "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "genphoto-dc257c83.jpg"
+    "asset.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.119Z"
+  "updated_at": "2026-06-16T21:57:59.045Z"
 }

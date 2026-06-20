@@ -2,17 +2,20 @@
   "id": "m093",
   "cue": 93,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
+  "status": "text_graphic",
+  "notes": "",
   "effects": [
-    "film_scratches",
-    "tilt_left",
-    "film_damage"
+    "film_damage",
+    "film_scratches"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "Of course he would.",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": false,
@@ -21,38 +24,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott drinking beer pub 1970s",
+      "query": "Bon Scott London 1979 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:e0dfcca454491ede",
-          "url": "/media/_library/assets/e0dfcca454491ede/asset.jpg",
-          "thumbnail_url": "/media/_library/assets/e0dfcca454491ede/asset.jpg",
-          "title": "asset.jpg",
-          "source_page": "/media/_library/assets/e0dfcca454491ede/asset.jpg",
-          "license": "verify rights before use",
-          "engine_id": "library",
-          "query": "Bon Scott drinking beer pub 1970s",
-          "selected_at": "2026-06-13T09:15:13.454Z"
+          "result_id": "library:813c75fb65aa1098",
+          "url": "/media/_library/assets/813c75fb65aa1098/thats-bon.gif",
+          "thumbnail_url": "/media/_library/assets/813c75fb65aa1098/thats-bon.gif",
+          "title": "bon scott GIF",
+          "source_page": "/media/_library/assets/813c75fb65aa1098/thats-bon.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: bon scott GIF",
+          "selected_at": "2026-06-13T09:03:25.628Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott bar candid 1970s",
+      "query": "Bon Scott AC/DC 1979 offstage nightlife",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "rock musician pub 1970s documentary",
+      "query": "London music scene 1979 rock",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.225276Z",
-  "updated_at": "2026-06-13T09:15:32.096Z"
+  "completed_at": "2026-06-13T09:04:51.672Z",
+  "updated_at": "2026-06-13T20:20:45.525Z"
 }

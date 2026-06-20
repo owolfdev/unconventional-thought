@@ -2,48 +2,67 @@
   "id": "m086",
   "cue": 86,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "text_graphic",
-  "resolved_media_type": "generated",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
     "film_scratches",
-    "desaturate_soft"
+    "film_damage"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "you decide.",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "London street night 1980 photograph",
+      "query": "rock band backstage 1970s afterparty",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:294ef0e17dfc566c",
+          "url": "/media/_library/assets/294ef0e17dfc566c/qvxp7b9tbcvd1.jpeg",
+          "thumbnail_url": "/media/_library/assets/294ef0e17dfc566c/qvxp7b9tbcvd1.jpeg",
+          "title": "qvxp7b9tbcvd1.jpeg",
+          "source_page": "/media/_library/assets/294ef0e17dfc566c/qvxp7b9tbcvd1.jpeg",
+          "license": "manual upload — verify rights",
+          "engine_id": "library",
+          "query": "rock band backstage 1970s afterparty",
+          "selected_at": "2026-06-16T13:32:07.778Z"
+        },
+        {
+          "result_id": "library:25c33416b466d0f4",
+          "url": "/media/_library/assets/25c33416b466d0f4/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/25c33416b466d0f4/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/25c33416b466d0f4/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "rock band backstage 1970s afterparty",
+          "selected_at": "2026-06-16T13:32:01.407Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "London February winter night 1980s",
+      "query": "recording studio late night 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "UK pub exterior night 1980",
+      "query": "tour bus backstage 1970s musicians",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T22:06:02.227Z",
-  "updated_at": "2026-06-15T19:26:59.209Z"
+  "completed_at": "2026-06-16T13:40:35.967Z",
+  "updated_at": "2026-06-16T13:40:35.967Z"
 }

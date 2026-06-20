@@ -2,20 +2,18 @@
   "id": "m081",
   "cue": 81,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "text_graphic",
-  "resolved_media_type": "generated",
-  "status": "text_graphic",
-  "notes": "",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_damage",
-    "film_scratches"
+    "film_scratches",
+    "slow_spin",
+    "tremble",
+    "film_damage"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "Of course he would.",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": false,
@@ -24,38 +22,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Bon Scott London 1979 photograph",
+      "query": "rock musician funeral 1970s newspaper",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:813c75fb65aa1098",
-          "url": "/media/_library/assets/813c75fb65aa1098/thats-bon.gif",
-          "thumbnail_url": "/media/_library/assets/813c75fb65aa1098/thats-bon.gif",
-          "title": "bon scott GIF",
-          "source_page": "/media/_library/assets/813c75fb65aa1098/thats-bon.gif",
-          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-          "engine_id": "giphy_sticker",
-          "query": "GIPHY: bon scott GIF",
-          "selected_at": "2026-06-13T09:03:25.628Z"
+          "result_id": "library:66f81dd175430b1f",
+          "url": "/media/_library/assets/66f81dd175430b1f/genphoto-164b286b.jpg",
+          "thumbnail_url": "/media/_library/assets/66f81dd175430b1f/genphoto-164b286b.jpg",
+          "title": "psychedelic musician on stage in a blur of motion. high on something. use dark/back lighting to obscure any identity",
+          "source_page": "/media/_library/assets/66f81dd175430b1f/genphoto-164b286b.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: psychedelic musician on stage in a blur of motion. high on something. use dark/back lighting to obscure any identity",
+          "selected_at": "2026-06-12T22:19:30.171Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Bon Scott AC/DC 1979 offstage nightlife",
+      "query": "Eric Clapton 1970s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "London music scene 1979 rock",
+      "query": "Keith Richards 1970s live photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T09:04:51.672Z",
-  "updated_at": "2026-06-13T20:20:45.525Z"
+  "completed_at": "2026-06-16T13:18:01.249Z",
+  "updated_at": "2026-06-16T13:18:01.249Z"
 }

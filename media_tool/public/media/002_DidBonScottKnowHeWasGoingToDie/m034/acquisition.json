@@ -2,18 +2,19 @@
   "id": "m034",
   "cue": 34,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
@@ -51,6 +52,6 @@
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:11:42.625Z",
-  "updated_at": "2026-06-13T08:11:42.625Z"
+  "completed_at": "2026-06-16T12:38:52.380Z",
+  "updated_at": "2026-06-16T12:38:52.380Z"
 }

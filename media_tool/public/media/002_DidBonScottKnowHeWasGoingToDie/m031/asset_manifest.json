@@ -36,12 +36,16 @@
     "modern stock photo"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "It reminds me of a story...",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
       "slot": "generated",
-      "description": "It reminds me of a story,",
+      "description": "It reminds me of a story...",
       "status": "acquired"
     }
   ],
@@ -51,5 +55,5 @@
   "requires_media_files": false,
   "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.086Z"
+  "updated_at": "2026-06-16T21:57:59.018Z"
 }

@@ -2,26 +2,26 @@
   "version": 1,
   "id": "m127",
   "cue": 127,
-  "t_start": 422.92,
-  "t_end": 429.34,
-  "duration_sec": 6.42,
-  "spoken": "explanation. So given all this, did Bond Scott know that he was going to die?",
+  "t_start": 359.88,
+  "t_end": 362.32,
+  "duration_sec": 2.44,
+  "spoken": "art scene posturing. And in the public",
   "visual_mode": "historical",
-  "expected_media_type": "photo",
+  "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "Bon Scott historical photograph 1978-1981",
+  "situation": "AC/DC historical photograph 1978-1981",
   "people": [
     {
-      "name": "Bon Scott",
-      "role": "vocalist"
+      "name": "AC/DC",
+      "role": "band"
     }
   ],
   "date_from": "1978",
   "date_to": "1981",
   "location": "",
   "search_queries": [
-    "Bon Scott 1979 photograph",
-    "Bon Scott AC/DC 1980"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
     "courtroom",
@@ -31,42 +31,26 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": {
-    "type": "quote",
-    "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "generated",
+      "description": "art scene",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: Bon Scott 1979 photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: Bon Scott AC/DC 1980",
-      "status": "needed"
     }
   ],
   "effects": [
     "film_scratches",
-    "film_damage",
-    "tremble",
-    "slow_zoom_in"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-l3mZfLTMnoP71sISI.gif",
-    "the-man-has-been-dead-for-five-months.jpg"
+    "giphy-3oEjI5z7E4wMw8xxoQ.gif",
+    "bb1ffdf3-0b74-4513-924a-4c452ac37681.webp"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.144Z"
+  "updated_at": "2026-06-16T21:57:59.066Z"
 }

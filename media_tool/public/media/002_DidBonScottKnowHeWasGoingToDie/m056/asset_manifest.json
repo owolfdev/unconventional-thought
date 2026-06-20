@@ -2,53 +2,71 @@
   "version": 1,
   "id": "m056",
   "cue": 56,
-  "t_start": 163.6,
-  "t_end": 166.4,
-  "duration_sec": 2.8,
-  "spoken": "they traded something for greatness, for art.",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "t_start": 146.16,
+  "t_end": 147.78,
+  "duration_sec": 1.62,
+  "spoken": "him fame. But Johnson",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Supernatural voice & fame promised — Johnson performing, otherworldly intensity.",
+  "situation": "Robert Johnson singing or performing — intense, legendary presence",
   "people": [
     {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "Robert Johnson",
+      "role": "blues musician"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1936",
+  "date_to": "1938",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Robert Johnson blues performance photograph",
+    "Robert Johnson portrait intense",
+    "blues singer 1930s Mississippi performance"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "[Library pass — verify license before publish]",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Supernatural voice & fame promised — Johnson performing, otherworldly intensity.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Robert Johnson blues performance photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Robert Johnson portrait intense",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: blues singer 1930s Mississippi performance",
+      "status": "needed"
     }
   ],
   "effects": [
-    "film_damage"
+    "film_scratches",
+    "film_damage",
+    "film_grain"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": false,
+  "requires_media_files": true,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif"
+    "black-metal-font-fame.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.099Z"
+  "updated_at": "2026-06-16T21:57:59.029Z"
 }

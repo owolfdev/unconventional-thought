@@ -1,56 +1,64 @@
 {
   "id": "m061",
   "cue": 61,
-  "source_visual_mode": "artifact",
-  "resolved_visual_mode": "artifact",
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
+    "film_scratches",
     "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "hypodermic needle macro photograph documentary",
+      "query": "Jimi Hendrix 1969 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:fbadbb92edeb5699",
-          "url": "/media/_library/assets/fbadbb92edeb5699/genphoto-1f47c0a6.jpg",
-          "thumbnail_url": "/media/_library/assets/fbadbb92edeb5699/genphoto-1f47c0a6.jpg",
-          "title": "hypodermic needle",
-          "source_page": "/media/_library/assets/fbadbb92edeb5699/genphoto-1f47c0a6.jpg",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_photo",
-          "query": "OpenAI photo: hypodermic needle",
-          "selected_at": "2026-06-12T21:55:49.231Z"
+          "result_id": "library:91d1e32122780dcf",
+          "url": "/media/_library/assets/91d1e32122780dcf/jim-morrison-1969jpg.jpg",
+          "thumbnail_url": "/media/_library/assets/91d1e32122780dcf/jim-morrison-1969jpg.jpg",
+          "title": "jim-morrison-1969jpg.jpg",
+          "source_page": "/media/_library/assets/91d1e32122780dcf/jim-morrison-1969jpg.jpg",
+          "license": "Public domain",
+          "engine_id": "library",
+          "query": "jim-morrison-1969jpg.jpg",
+          "selected_at": "2026-06-12T21:44:24.703Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "syringe close up medical still life",
+      "query": "Janis Joplin 1970 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "needle tip macro black background",
+      "query": "Jim Morrison 1971 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 3,
+      "query": "Kurt Cobain 1990s photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:24:24.927Z",
-  "updated_at": "2026-06-13T08:24:24.927Z"
+  "completed_at": "2026-06-16T12:47:42.810Z",
+  "updated_at": "2026-06-16T12:47:42.810Z"
 }

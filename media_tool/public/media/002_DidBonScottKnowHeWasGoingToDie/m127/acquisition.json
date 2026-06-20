@@ -1,21 +1,19 @@
 {
   "id": "m127",
   "cue": 127,
-  "source_visual_mode": "text_graphic",
+  "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_media_type": "generated",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
     "film_scratches",
-    "film_damage",
-    "tremble",
-    "slow_zoom_in"
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": {
-    "type": "quote",
-    "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
+    "type": "transcription",
+    "text": "art scene",
     "style": "typewriter"
   },
   "text_graphic_layer": null,
@@ -26,24 +24,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "(text graphic — no archive search)",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "Andy Warhol",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
       "selections": [
         {
-          "result_id": "library:39c25ce872dd60d8",
-          "url": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
-          "thumbnail_url": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
-          "title": "the-man-has-been-dead-for-five-months.jpg",
-          "source_page": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
+          "result_id": "library:e8fa5d224be1833e",
+          "url": "/media/_library/assets/e8fa5d224be1833e/bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
+          "thumbnail_url": "/media/_library/assets/e8fa5d224be1833e/bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
+          "title": "bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
+          "source_page": "/media/_library/assets/e8fa5d224be1833e/bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
+          "license": "manual upload — verify rights",
           "engine_id": "library",
-          "query": "the-man-has-been-dead-for-five-months.jpg",
-          "selected_at": "2026-06-14T15:05:40.345Z"
+          "query": "bb1ffdf3-0b74-4513-924a-4c452ac37681.webp",
+          "selected_at": "2026-06-15T20:11:34.006Z"
         }
       ]
+    },
+    {
+      "query_index": 1,
+      "query": "Velvet Underground era New York 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "downtown Manhattan 1970s nightlife",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-15T20:21:10.266Z",
-  "updated_at": "2026-06-15T20:21:10.266Z"
+  "completed_at": "2026-06-16T20:00:59.667Z",
+  "updated_at": "2026-06-16T20:00:59.667Z"
 }

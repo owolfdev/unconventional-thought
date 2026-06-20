@@ -4,7 +4,7 @@
   "style": "historical_documentary_not_explainer",
   "source_transcript": "transcript/did_bon_scott_know_he_was_going_to_die.srt",
   "source_audio": "audio/vo/did_bon_scott_know_he_was_going_to_die 2.mp3",
-  "cue_count": 133,
+  "cue_count": 149,
   "historical_count": 55,
   "artifact_count": 6,
   "text_graphic_count": 8,
@@ -1523,9 +1523,9 @@
       "id": "m042",
       "cue": 42,
       "t_start": 112.06,
-      "t_end": 118.04,
-      "duration_sec": 5.98,
-      "spoken": "a dark figure steps out of the blackness. It takes the guitar, tunes it, plays something",
+      "t_end": 114.9,
+      "duration_sec": 2.84,
+      "spoken": "a dark figure steps out of the blackness.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1556,10 +1556,44 @@
     {
       "id": "m043",
       "cue": 43,
+      "t_start": 114.9,
+      "t_end": 118.04,
+      "duration_sec": 3.14,
+      "spoken": "It takes the guitar, tunes it, plays something",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Dark figure at crossroads — folklore illustration or high-contrast silhouette; tasteful, not horror B-movie.",
+      "people": [],
+      "situation": "Crossroads devil folklore — silhouette at rural intersection, blues myth",
+      "date_from": "1930",
+      "date_to": "1940",
+      "location": "",
+      "search_queries": [
+        "Robert Johnson crossroads legend illustration",
+        "crossroads blues devil folklore art",
+        "silhouette figure rural road night"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "horror movie monster",
+        "cartoon devil horns comedy"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m044",
+      "cue": 44,
       "t_start": 118.04,
-      "t_end": 125.8,
-      "duration_sec": 7.76,
-      "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
+      "t_end": 121.69,
+      "duration_sec": 3.65,
+      "spoken": "impossible. It plays something impossibly good,",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1591,12 +1625,86 @@
       "priority": "high"
     },
     {
-      "id": "m044",
-      "cue": 44,
+      "id": "m045",
+      "cue": 45,
+      "t_start": 121.69,
+      "t_end": 123.38,
+      "duration_sec": 1.69,
+      "spoken": "then hands the guitar back",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Impossibly good guitar — Johnson transformed; hands on guitar close-up.",
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson playing guitar — supernatural skill folklore moment",
+      "date_from": "1936",
+      "date_to": "1938",
+      "location": "",
+      "search_queries": [
+        "Robert Johnson playing guitar photograph",
+        "blues guitarist hands guitar close up 1930s",
+        "Robert Johnson performance photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m046",
+      "cue": 46,
+      "t_start": 123.38,
+      "t_end": 125.8,
+      "duration_sec": 2.42,
+      "spoken": "and says, now it's yours.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Impossibly good guitar — Johnson transformed; hands on guitar close-up.",
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson playing guitar — supernatural skill folklore moment",
+      "date_from": "1936",
+      "date_to": "1938",
+      "location": "",
+      "search_queries": [
+        "Robert Johnson playing guitar photograph",
+        "blues guitarist hands guitar close up 1930s",
+        "Robert Johnson performance photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m047",
+      "cue": 47,
       "t_start": 126.74,
-      "t_end": 129.33,
-      "duration_sec": 2.59,
-      "spoken": "But understand kid, it ain't free.",
+      "t_end": 128.02,
+      "duration_sec": 1.28,
+      "spoken": "But understand kid,",
       "visual_mode": "text_graphic",
       "text_graphic": {
         "type": "quote",
@@ -1617,8 +1725,34 @@
       "priority": "high"
     },
     {
-      "id": "m045",
-      "cue": 45,
+      "id": "m048",
+      "cue": 48,
+      "t_start": 128.02,
+      "t_end": 129.33,
+      "duration_sec": 1.31,
+      "spoken": "it ain't free.",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "'It ain't free' — contract/bargain beat; intertitle on grain.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m049",
+      "cue": 49,
       "t_start": 129.33,
       "t_end": 133.06,
       "duration_sec": 3.73,
@@ -1643,12 +1777,12 @@
       "priority": "high"
     },
     {
-      "id": "m046",
-      "cue": 46,
+      "id": "m050",
+      "cue": 50,
       "t_start": 133.06,
-      "t_end": 137.32,
-      "duration_sec": 4.26,
-      "spoken": "for immortality. He came back different, transformed.",
+      "t_end": 134.38,
+      "duration_sec": 1.32,
+      "spoken": "for immortality.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1680,8 +1814,82 @@
       "priority": "high"
     },
     {
-      "id": "m047",
-      "cue": 47,
+      "id": "m051",
+      "cue": 51,
+      "t_start": 134.38,
+      "t_end": 136.04,
+      "duration_sec": 1.66,
+      "spoken": "He came back different,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Johnson returns transformed — other musicians stunned; delta blues scene.",
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson 1930s — post-legend transformation, peers watching",
+      "date_from": "1936",
+      "date_to": "1938",
+      "location": "",
+      "search_queries": [
+        "Robert Johnson blues musician 1937",
+        "Mississippi juke joint musicians 1930s",
+        "Robert Johnson contemporaries blues scene"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m052",
+      "cue": 52,
+      "t_start": 136.04,
+      "t_end": 137.32,
+      "duration_sec": 1.28,
+      "spoken": "transformed.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Johnson returns transformed — other musicians stunned; delta blues scene.",
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson 1930s — post-legend transformation, peers watching",
+      "date_from": "1936",
+      "date_to": "1938",
+      "location": "",
+      "search_queries": [
+        "Robert Johnson blues musician 1937",
+        "Mississippi juke joint musicians 1930s",
+        "Robert Johnson contemporaries blues scene"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m053",
+      "cue": 53,
       "t_start": 137.32,
       "t_end": 140.32,
       "duration_sec": 3,
@@ -1717,12 +1925,12 @@
       "priority": "high"
     },
     {
-      "id": "m048",
-      "cue": 48,
+      "id": "m054",
+      "cue": 54,
       "t_start": 140.32,
-      "t_end": 147.78,
-      "duration_sec": 7.46,
-      "spoken": "supernatural ability on the guitar in otherworldly voice. The devil also promised him fame. But Johnson",
+      "t_end": 142.08,
+      "duration_sec": 1.76,
+      "spoken": "supernatural ability on the guitar",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -1754,8 +1962,82 @@
       "priority": "high"
     },
     {
-      "id": "m049",
-      "cue": 49,
+      "id": "m055",
+      "cue": 55,
+      "t_start": 142.08,
+      "t_end": 146.16,
+      "duration_sec": 4.08,
+      "spoken": "in otherworldly voice. The devil also promised",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Supernatural voice & fame promised — Johnson performing, otherworldly intensity.",
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson singing or performing — intense, legendary presence",
+      "date_from": "1936",
+      "date_to": "1938",
+      "location": "",
+      "search_queries": [
+        "Robert Johnson blues performance photograph",
+        "Robert Johnson portrait intense",
+        "blues singer 1930s Mississippi performance"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m056",
+      "cue": 56,
+      "t_start": 146.16,
+      "t_end": 147.78,
+      "duration_sec": 1.62,
+      "spoken": "him fame. But Johnson",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Supernatural voice & fame promised — Johnson performing, otherworldly intensity.",
+      "people": [
+        {
+          "name": "Robert Johnson",
+          "role": "blues musician"
+        }
+      ],
+      "situation": "Robert Johnson singing or performing — intense, legendary presence",
+      "date_from": "1936",
+      "date_to": "1938",
+      "location": "",
+      "search_queries": [
+        "Robert Johnson blues performance photograph",
+        "Robert Johnson portrait intense",
+        "blues singer 1930s Mississippi performance"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m057",
+      "cue": 57,
       "t_start": 147.78,
       "t_end": 154.15,
       "duration_sec": 6.37,
@@ -1791,8 +2073,8 @@
       "priority": "high"
     },
     {
-      "id": "m050",
-      "cue": 50,
+      "id": "m058",
+      "cue": 58,
       "t_start": 154.15,
       "t_end": 156.08,
       "duration_sec": 1.93,
@@ -1828,8 +2110,8 @@
       "priority": "high"
     },
     {
-      "id": "m051",
-      "cue": 51,
+      "id": "m059",
+      "cue": 59,
       "t_start": 156.66,
       "t_end": 157.49,
       "duration_sec": 0.83,
@@ -1863,8 +2145,8 @@
       "priority": "high"
     },
     {
-      "id": "m052",
-      "cue": 52,
+      "id": "m060",
+      "cue": 60,
       "t_start": 157.49,
       "t_end": 158.62,
       "duration_sec": 1.13,
@@ -1898,8 +2180,8 @@
       "priority": "high"
     },
     {
-      "id": "m053",
-      "cue": 53,
+      "id": "m061",
+      "cue": 61,
       "t_start": 158.62,
       "t_end": 159.71,
       "duration_sec": 1.09,
@@ -1933,8 +2215,8 @@
       "priority": "high"
     },
     {
-      "id": "m054",
-      "cue": 54,
+      "id": "m062",
+      "cue": 62,
       "t_start": 159.71,
       "t_end": 160.75,
       "duration_sec": 1.04,
@@ -1968,12 +2250,12 @@
       "priority": "high"
     },
     {
-      "id": "m055",
-      "cue": 55,
+      "id": "m063",
+      "cue": 63,
       "t_start": 160.75,
-      "t_end": 163.2,
-      "duration_sec": 2.45,
-      "spoken": "and many others. Same equation,",
+      "t_end": 161.98,
+      "duration_sec": 1.23,
+      "spoken": "and many others.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2003,8 +2285,43 @@
       "priority": "high"
     },
     {
-      "id": "m056",
-      "cue": 56,
+      "id": "m064",
+      "cue": 64,
+      "t_start": 161.98,
+      "t_end": 163.2,
+      "duration_sec": 1.22,
+      "spoken": "Same equation,",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+      "people": [],
+      "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
+      "date_from": "1969",
+      "date_to": "1994",
+      "location": "",
+      "search_queries": [
+        "Jimi Hendrix 1969 photograph",
+        "Janis Joplin 1970 photograph",
+        "Jim Morrison 1971 photograph",
+        "Kurt Cobain 1990s photograph"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "wrong artist mislabeled",
+        "tribute collage poster"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m065",
+      "cue": 65,
       "t_start": 163.6,
       "t_end": 166.4,
       "duration_sec": 2.8,
@@ -2035,8 +2352,8 @@
       "priority": "medium"
     },
     {
-      "id": "m057",
-      "cue": 57,
+      "id": "m066",
+      "cue": 66,
       "t_start": 166.4,
       "t_end": 169.1,
       "duration_sec": 2.7,
@@ -2067,8 +2384,8 @@
       "priority": "medium"
     },
     {
-      "id": "m058",
-      "cue": 58,
+      "id": "m067",
+      "cue": 67,
       "t_start": 169.62,
       "t_end": 171.74,
       "duration_sec": 2.12,
@@ -2105,8 +2422,8 @@
       "priority": "high"
     },
     {
-      "id": "m059",
-      "cue": 59,
+      "id": "m068",
+      "cue": 68,
       "t_start": 172.48,
       "t_end": 178.94,
       "duration_sec": 6.46,
@@ -2131,12 +2448,12 @@
       "priority": "high"
     },
     {
-      "id": "m060",
-      "cue": 60,
+      "id": "m069",
+      "cue": 69,
       "t_start": 178.94,
-      "t_end": 187.26,
-      "duration_sec": 8.32,
-      "spoken": "about cost. And the devil always gets his due. So who is the devil? Well, for many, he's found at",
+      "t_end": 182.88,
+      "duration_sec": 3.94,
+      "spoken": "about cost. And the devil always gets his due.",
       "visual_mode": "text_graphic",
       "text_graphic": {
         "type": "intertitle",
@@ -2157,8 +2474,34 @@
       "priority": "high"
     },
     {
-      "id": "m061",
-      "cue": 61,
+      "id": "m070",
+      "cue": 70,
+      "t_start": 182.88,
+      "t_end": 187.26,
+      "duration_sec": 4.38,
+      "spoken": "So who is the devil? Well, for many, he's found at",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "intertitle",
+        "text": "SO WHO IS THE DEVIL?",
+        "style": "blockbuster"
+      },
+      "artifact": null,
+      "editorial_intent": "Section turn — devil reveal setup.",
+      "people": [],
+      "situation": "Generated text graphic (intertitle)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m071",
+      "cue": 71,
       "t_start": 187.26,
       "t_end": 189.26,
       "duration_sec": 2,
@@ -2198,8 +2541,8 @@
       "priority": "high"
     },
     {
-      "id": "m062",
-      "cue": 62,
+      "id": "m072",
+      "cue": 72,
       "t_start": 189.26,
       "t_end": 191.49,
       "duration_sec": 2.23,
@@ -2239,8 +2582,8 @@
       "priority": "high"
     },
     {
-      "id": "m063",
-      "cue": 63,
+      "id": "m073",
+      "cue": 73,
       "t_start": 191.49,
       "t_end": 195.3,
       "duration_sec": 3.81,
@@ -2280,8 +2623,8 @@
       "priority": "high"
     },
     {
-      "id": "m064",
-      "cue": 64,
+      "id": "m074",
+      "cue": 74,
       "t_start": 195.3,
       "t_end": 197.66,
       "duration_sec": 2.36,
@@ -2314,8 +2657,8 @@
       "priority": "medium"
     },
     {
-      "id": "m065",
-      "cue": 65,
+      "id": "m075",
+      "cue": 75,
       "t_start": 197.66,
       "t_end": 201.47,
       "duration_sec": 3.81,
@@ -2348,8 +2691,8 @@
       "priority": "medium"
     },
     {
-      "id": "m066",
-      "cue": 66,
+      "id": "m076",
+      "cue": 76,
       "t_start": 201.47,
       "t_end": 202.54,
       "duration_sec": 1.07,
@@ -2382,8 +2725,8 @@
       "priority": "medium"
     },
     {
-      "id": "m067",
-      "cue": 67,
+      "id": "m077",
+      "cue": 77,
       "t_start": 202.54,
       "t_end": 204.12,
       "duration_sec": 1.58,
@@ -2420,8 +2763,8 @@
       "priority": "high"
     },
     {
-      "id": "m068",
-      "cue": 68,
+      "id": "m078",
+      "cue": 78,
       "t_start": 204.12,
       "t_end": 207.29,
       "duration_sec": 3.17,
@@ -2458,8 +2801,8 @@
       "priority": "high"
     },
     {
-      "id": "m069",
-      "cue": 69,
+      "id": "m079",
+      "cue": 79,
       "t_start": 207.29,
       "t_end": 209.5,
       "duration_sec": 2.21,
@@ -2496,8 +2839,8 @@
       "priority": "high"
     },
     {
-      "id": "m070",
-      "cue": 70,
+      "id": "m080",
+      "cue": 80,
       "t_start": 209.5,
       "t_end": 214.7,
       "duration_sec": 5.2,
@@ -2528,8 +2871,8 @@
       "priority": "medium"
     },
     {
-      "id": "m071",
-      "cue": 71,
+      "id": "m081",
+      "cue": 81,
       "t_start": 214.7,
       "t_end": 218.33,
       "duration_sec": 3.63,
@@ -2560,8 +2903,8 @@
       "priority": "high"
     },
     {
-      "id": "m072",
-      "cue": 72,
+      "id": "m082",
+      "cue": 82,
       "t_start": 218.33,
       "t_end": 220.88,
       "duration_sec": 2.55,
@@ -2592,8 +2935,8 @@
       "priority": "high"
     },
     {
-      "id": "m073",
-      "cue": 73,
+      "id": "m083",
+      "cue": 83,
       "t_start": 221.42,
       "t_end": 225.07,
       "duration_sec": 3.65,
@@ -2624,8 +2967,8 @@
       "priority": "high"
     },
     {
-      "id": "m074",
-      "cue": 74,
+      "id": "m084",
+      "cue": 84,
       "t_start": 225.07,
       "t_end": 227.4,
       "duration_sec": 2.33,
@@ -2656,12 +2999,12 @@
       "priority": "high"
     },
     {
-      "id": "m075",
-      "cue": 75,
+      "id": "m085",
+      "cue": 85,
       "t_start": 227.92,
-      "t_end": 232.92,
-      "duration_sec": 5,
-      "spoken": "It moved through elite rooms, working bands, after parties, and studio circles.",
+      "t_end": 230.71,
+      "duration_sec": 2.79,
+      "spoken": "It moved through elite rooms, working bands,",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2688,12 +3031,44 @@
       "priority": "high"
     },
     {
-      "id": "m076",
-      "cue": 76,
+      "id": "m086",
+      "cue": 86,
+      "t_start": 230.71,
+      "t_end": 232.92,
+      "duration_sec": 2.21,
+      "spoken": "after parties, and studio circles.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "After parties and studio circles — heroin moved through working bands.",
+      "people": [],
+      "situation": "Rock band backstage afterparty 1970s — industry access",
+      "date_from": "1975",
+      "date_to": "1979",
+      "location": "",
+      "search_queries": [
+        "rock band backstage 1970s afterparty",
+        "recording studio late night 1970s",
+        "tour bus backstage 1970s musicians"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m087",
+      "cue": 87,
       "t_start": 233.58,
-      "t_end": 237.68,
-      "duration_sec": 4.1,
-      "spoken": "Some of the biggest artists in modern music have openly talked about it.",
+      "t_end": 235.76,
+      "duration_sec": 2.18,
+      "spoken": "Some of the biggest artists in modern music",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -2725,8 +3100,45 @@
       "priority": "high"
     },
     {
-      "id": "m077",
-      "cue": 77,
+      "id": "m088",
+      "cue": 88,
+      "t_start": 235.76,
+      "t_end": 237.68,
+      "duration_sec": 1.92,
+      "spoken": "have openly talked about it.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "John Lennon spoke about it — Lennon era press, not Bon.",
+      "people": [
+        {
+          "name": "John Lennon",
+          "role": "musician"
+        }
+      ],
+      "situation": "John Lennon 1970s press photograph",
+      "date_from": "1970",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "John Lennon 1970s photograph interview",
+        "John Lennon New York 1970s",
+        "John Lennon studio 1970s"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m089",
+      "cue": 89,
       "t_start": 237.68,
       "t_end": 238.76,
       "duration_sec": 1.08,
@@ -2762,8 +3174,8 @@
       "priority": "high"
     },
     {
-      "id": "m078",
-      "cue": 78,
+      "id": "m090",
+      "cue": 90,
       "t_start": 238.76,
       "t_end": 245.08,
       "duration_sec": 6.32,
@@ -2807,8 +3219,8 @@
       "priority": "high"
     },
     {
-      "id": "m079",
-      "cue": 79,
+      "id": "m091",
+      "cue": 91,
       "t_start": 245.08,
       "t_end": 249.76,
       "duration_sec": 4.68,
@@ -2833,8 +3245,8 @@
       "priority": "high"
     },
     {
-      "id": "m080",
-      "cue": 80,
+      "id": "m092",
+      "cue": 92,
       "t_start": 249.76,
       "t_end": 253.4,
       "duration_sec": 3.64,
@@ -2870,8 +3282,8 @@
       "priority": "high"
     },
     {
-      "id": "m081",
-      "cue": 81,
+      "id": "m093",
+      "cue": 93,
       "t_start": 253.4,
       "t_end": 254.64,
       "duration_sec": 1.24,
@@ -2907,8 +3319,8 @@
       "priority": "high"
     },
     {
-      "id": "m082",
-      "cue": 82,
+      "id": "m094",
+      "cue": 94,
       "t_start": 255,
       "t_end": 257.9,
       "duration_sec": 2.9,
@@ -2944,8 +3356,8 @@
       "priority": "high"
     },
     {
-      "id": "m083",
-      "cue": 83,
+      "id": "m095",
+      "cue": 95,
       "t_start": 257.9,
       "t_end": 260.24,
       "duration_sec": 2.34,
@@ -2981,8 +3393,8 @@
       "priority": "high"
     },
     {
-      "id": "m084",
-      "cue": 84,
+      "id": "m096",
+      "cue": 96,
       "t_start": 260.82,
       "t_end": 262.5,
       "duration_sec": 1.68,
@@ -3007,12 +3419,12 @@
       "priority": "medium"
     },
     {
-      "id": "m085",
-      "cue": 85,
+      "id": "m097",
+      "cue": 97,
       "t_start": 262.5,
-      "t_end": 267.2,
-      "duration_sec": 4.7,
-      "spoken": "Given the era, the access, the circles, the schedule, and the pressure,",
+      "t_end": 265.64,
+      "duration_sec": 3.14,
+      "spoken": "Given the era, the access, the circles,",
       "visual_mode": "text_graphic",
       "text_graphic": {
         "type": "quote",
@@ -3033,8 +3445,34 @@
       "priority": "medium"
     },
     {
-      "id": "m086",
-      "cue": 86,
+      "id": "m098",
+      "cue": 98,
+      "t_start": 265.64,
+      "t_end": 267.2,
+      "duration_sec": 1.56,
+      "spoken": "the schedule, and the pressure,",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "YOU DECIDE.",
+        "style": "minimal_white"
+      },
+      "artifact": null,
+      "editorial_intent": "'Hmm, you decide' — hand verdict to viewer; whitespace beat.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m099",
+      "cue": 99,
       "t_start": 267.74,
       "t_end": 270.05,
       "duration_sec": 2.31,
@@ -3070,8 +3508,8 @@
       "priority": "high"
     },
     {
-      "id": "m087",
-      "cue": 87,
+      "id": "m100",
+      "cue": 100,
       "t_start": 270.05,
       "t_end": 276.43,
       "duration_sec": 6.38,
@@ -3107,8 +3545,8 @@
       "priority": "high"
     },
     {
-      "id": "m088",
-      "cue": 88,
+      "id": "m101",
+      "cue": 101,
       "t_start": 276.43,
       "t_end": 277.64,
       "duration_sec": 1.21,
@@ -3144,8 +3582,8 @@
       "priority": "high"
     },
     {
-      "id": "m089",
-      "cue": 89,
+      "id": "m102",
+      "cue": 102,
       "t_start": 278,
       "t_end": 281.03,
       "duration_sec": 3.03,
@@ -3178,8 +3616,8 @@
       "priority": "high"
     },
     {
-      "id": "m090",
-      "cue": 90,
+      "id": "m103",
+      "cue": 103,
       "t_start": 281.03,
       "t_end": 284.1,
       "duration_sec": 3.07,
@@ -3212,8 +3650,8 @@
       "priority": "high"
     },
     {
-      "id": "m091",
-      "cue": 91,
+      "id": "m104",
+      "cue": 104,
       "t_start": 285.12,
       "t_end": 286.76,
       "duration_sec": 1.64,
@@ -3249,8 +3687,8 @@
       "priority": "high"
     },
     {
-      "id": "m092",
-      "cue": 92,
+      "id": "m105",
+      "cue": 105,
       "t_start": 286.76,
       "t_end": 289.58,
       "duration_sec": 2.82,
@@ -3286,8 +3724,8 @@
       "priority": "high"
     },
     {
-      "id": "m093",
-      "cue": 93,
+      "id": "m106",
+      "cue": 106,
       "t_start": 289.82,
       "t_end": 293.41,
       "duration_sec": 3.59,
@@ -3323,8 +3761,8 @@
       "priority": "high"
     },
     {
-      "id": "m094",
-      "cue": 94,
+      "id": "m107",
+      "cue": 107,
       "t_start": 293.41,
       "t_end": 294.7,
       "duration_sec": 1.29,
@@ -3360,8 +3798,8 @@
       "priority": "high"
     },
     {
-      "id": "m095",
-      "cue": 95,
+      "id": "m108",
+      "cue": 108,
       "t_start": 295.26,
       "t_end": 297.64,
       "duration_sec": 2.38,
@@ -3393,8 +3831,8 @@
       "priority": "medium"
     },
     {
-      "id": "m096",
-      "cue": 96,
+      "id": "m109",
+      "cue": 109,
       "t_start": 297.64,
       "t_end": 300.9,
       "duration_sec": 3.26,
@@ -3426,8 +3864,8 @@
       "priority": "medium"
     },
     {
-      "id": "m097",
-      "cue": 97,
+      "id": "m110",
+      "cue": 110,
       "t_start": 300.9,
       "t_end": 301.9,
       "duration_sec": 1,
@@ -3458,8 +3896,8 @@
       "priority": "medium"
     },
     {
-      "id": "m098",
-      "cue": 98,
+      "id": "m111",
+      "cue": 111,
       "t_start": 301.9,
       "t_end": 304.54,
       "duration_sec": 2.64,
@@ -3490,8 +3928,8 @@
       "priority": "medium"
     },
     {
-      "id": "m099",
-      "cue": 99,
+      "id": "m112",
+      "cue": 112,
       "t_start": 304.54,
       "t_end": 306.56,
       "duration_sec": 2.02,
@@ -3522,8 +3960,8 @@
       "priority": "medium"
     },
     {
-      "id": "m100",
-      "cue": 100,
+      "id": "m113",
+      "cue": 113,
       "t_start": 306.56,
       "t_end": 311.86,
       "duration_sec": 5.3,
@@ -3554,8 +3992,8 @@
       "priority": "high"
     },
     {
-      "id": "m101",
-      "cue": 101,
+      "id": "m114",
+      "cue": 114,
       "t_start": 311.86,
       "t_end": 317.82,
       "duration_sec": 5.96,
@@ -3586,8 +4024,8 @@
       "priority": "medium"
     },
     {
-      "id": "m102",
-      "cue": 102,
+      "id": "m115",
+      "cue": 115,
       "t_start": 318.7,
       "t_end": 324.52,
       "duration_sec": 5.82,
@@ -3618,8 +4056,8 @@
       "priority": "high"
     },
     {
-      "id": "m103",
-      "cue": 103,
+      "id": "m116",
+      "cue": 116,
       "t_start": 324.52,
       "t_end": 328.02,
       "duration_sec": 3.5,
@@ -3650,8 +4088,8 @@
       "priority": "high"
     },
     {
-      "id": "m104",
-      "cue": 104,
+      "id": "m117",
+      "cue": 117,
       "t_start": 328.02,
       "t_end": 332.12,
       "duration_sec": 4.1,
@@ -3682,8 +4120,8 @@
       "priority": "high"
     },
     {
-      "id": "m105",
-      "cue": 105,
+      "id": "m118",
+      "cue": 118,
       "t_start": 332.12,
       "t_end": 335.92,
       "duration_sec": 3.8,
@@ -3716,8 +4154,8 @@
       "priority": "high"
     },
     {
-      "id": "m106",
-      "cue": 106,
+      "id": "m119",
+      "cue": 119,
       "t_start": 335.92,
       "t_end": 338.96,
       "duration_sec": 3.04,
@@ -3750,8 +4188,8 @@
       "priority": "high"
     },
     {
-      "id": "m107",
-      "cue": 107,
+      "id": "m120",
+      "cue": 120,
       "t_start": 339.62,
       "t_end": 343.2,
       "duration_sec": 3.58,
@@ -3787,8 +4225,8 @@
       "priority": "high"
     },
     {
-      "id": "m108",
-      "cue": 108,
+      "id": "m121",
+      "cue": 121,
       "t_start": 343.2,
       "t_end": 345.98,
       "duration_sec": 2.78,
@@ -3824,8 +4262,8 @@
       "priority": "high"
     },
     {
-      "id": "m109",
-      "cue": 109,
+      "id": "m122",
+      "cue": 122,
       "t_start": 345.98,
       "t_end": 347.08,
       "duration_sec": 1.1,
@@ -3856,8 +4294,8 @@
       "priority": "high"
     },
     {
-      "id": "m110",
-      "cue": 110,
+      "id": "m123",
+      "cue": 123,
       "t_start": 347.08,
       "t_end": 351.16,
       "duration_sec": 4.08,
@@ -3888,8 +4326,8 @@
       "priority": "high"
     },
     {
-      "id": "m111",
-      "cue": 111,
+      "id": "m124",
+      "cue": 124,
       "t_start": 351.16,
       "t_end": 353.49,
       "duration_sec": 2.33,
@@ -3920,8 +4358,8 @@
       "priority": "high"
     },
     {
-      "id": "m112",
-      "cue": 112,
+      "id": "m125",
+      "cue": 125,
       "t_start": 353.49,
       "t_end": 355.87,
       "duration_sec": 2.38,
@@ -3952,8 +4390,8 @@
       "priority": "high"
     },
     {
-      "id": "m113",
-      "cue": 113,
+      "id": "m126",
+      "cue": 126,
       "t_start": 355.87,
       "t_end": 359.88,
       "duration_sec": 4.01,
@@ -3984,8 +4422,8 @@
       "priority": "high"
     },
     {
-      "id": "m114",
-      "cue": 114,
+      "id": "m127",
+      "cue": 127,
       "t_start": 359.88,
       "t_end": 362.32,
       "duration_sec": 2.44,
@@ -4021,8 +4459,8 @@
       "priority": "high"
     },
     {
-      "id": "m115",
-      "cue": 115,
+      "id": "m128",
+      "cue": 128,
       "t_start": 362.32,
       "t_end": 366.74,
       "duration_sec": 4.42,
@@ -4058,8 +4496,8 @@
       "priority": "high"
     },
     {
-      "id": "m116",
-      "cue": 116,
+      "id": "m129",
+      "cue": 129,
       "t_start": 367.06,
       "t_end": 375.48,
       "duration_sec": 8.42,
@@ -4092,8 +4530,8 @@
       "priority": "high"
     },
     {
-      "id": "m117",
-      "cue": 117,
+      "id": "m130",
+      "cue": 130,
       "t_start": 375.48,
       "t_end": 380.21,
       "duration_sec": 4.73,
@@ -4129,8 +4567,8 @@
       "priority": "high"
     },
     {
-      "id": "m118",
-      "cue": 118,
+      "id": "m131",
+      "cue": 131,
       "t_start": 380.21,
       "t_end": 382.42,
       "duration_sec": 2.21,
@@ -4166,8 +4604,8 @@
       "priority": "high"
     },
     {
-      "id": "m119",
-      "cue": 119,
+      "id": "m132",
+      "cue": 132,
       "t_start": 382.42,
       "t_end": 385.24,
       "duration_sec": 2.82,
@@ -4205,8 +4643,8 @@
       "priority": "high"
     },
     {
-      "id": "m120",
-      "cue": 120,
+      "id": "m133",
+      "cue": 133,
       "t_start": 385.24,
       "t_end": 388.06,
       "duration_sec": 2.82,
@@ -4244,8 +4682,8 @@
       "priority": "high"
     },
     {
-      "id": "m121",
-      "cue": 121,
+      "id": "m134",
+      "cue": 134,
       "t_start": 388.06,
       "t_end": 390.58,
       "duration_sec": 2.52,
@@ -4276,8 +4714,8 @@
       "priority": "high"
     },
     {
-      "id": "m122",
-      "cue": 122,
+      "id": "m135",
+      "cue": 135,
       "t_start": 390.58,
       "t_end": 394.9,
       "duration_sec": 4.32,
@@ -4308,12 +4746,12 @@
       "priority": "high"
     },
     {
-      "id": "m123",
-      "cue": 123,
+      "id": "m136",
+      "cue": 136,
       "t_start": 395.54,
-      "t_end": 401.96,
-      "duration_sec": 6.42,
-      "spoken": "Advertisers were risk averse. Program directors would have backed away fast. A heroin story could",
+      "t_end": 397.43,
+      "duration_sec": 1.89,
+      "spoken": "Advertisers were risk averse.",
       "visual_mode": "historical",
       "text_graphic": null,
       "artifact": null,
@@ -4341,8 +4779,74 @@
       "priority": "medium"
     },
     {
-      "id": "m124",
-      "cue": 124,
+      "id": "m137",
+      "cue": 137,
+      "t_start": 397.43,
+      "t_end": 400.28,
+      "duration_sec": 2.85,
+      "spoken": "Program directors would have backed away fast.",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Advertisers risk-averse — Chevrolet commercial era, brand safety.",
+      "people": [],
+      "situation": "1980 television commercial production — advertiser friendly",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "1980 car commercial television still",
+        "advertising agency 1980 meeting",
+        "Chevrolet advertisement 1980"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "specific living executive faces"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m138",
+      "cue": 138,
+      "t_start": 400.28,
+      "t_end": 401.96,
+      "duration_sec": 1.68,
+      "spoken": "A heroin story could",
+      "visual_mode": "historical",
+      "text_graphic": null,
+      "artifact": null,
+      "editorial_intent": "Advertisers risk-averse — Chevrolet commercial era, brand safety.",
+      "people": [],
+      "situation": "1980 television commercial production — advertiser friendly",
+      "date_from": "1980",
+      "date_to": "1980",
+      "location": "",
+      "search_queries": [
+        "1980 car commercial television still",
+        "advertising agency 1980 meeting",
+        "Chevrolet advertisement 1980"
+      ],
+      "avoid": [
+        "stock explainer",
+        "corporate presentation",
+        "literal album cover art",
+        "AI generated faces",
+        "modern stock photo",
+        "specific living executive faces"
+      ],
+      "media_type": "photo",
+      "reuse_id": "",
+      "priority": "medium"
+    },
+    {
+      "id": "m139",
+      "cue": 139,
       "t_start": 401.96,
       "t_end": 408.56,
       "duration_sec": 6.6,
@@ -4378,8 +4882,8 @@
       "priority": "high"
     },
     {
-      "id": "m125",
-      "cue": 125,
+      "id": "m140",
+      "cue": 140,
       "t_start": 408.56,
       "t_end": 415.4,
       "duration_sec": 6.84,
@@ -4416,8 +4920,8 @@
       "priority": "high"
     },
     {
-      "id": "m126",
-      "cue": 126,
+      "id": "m141",
+      "cue": 141,
       "t_start": 415.4,
       "t_end": 422.92,
       "duration_sec": 7.52,
@@ -4449,12 +4953,12 @@
       "priority": "medium"
     },
     {
-      "id": "m127",
-      "cue": 127,
+      "id": "m142",
+      "cue": 142,
       "t_start": 422.92,
-      "t_end": 429.34,
-      "duration_sec": 6.42,
-      "spoken": "explanation. So given all this, did Bond Scott know that he was going to die?",
+      "t_end": 426.4,
+      "duration_sec": 3.48,
+      "spoken": "explanation. So given all this,",
       "visual_mode": "text_graphic",
       "text_graphic": {
         "type": "quote",
@@ -4475,8 +4979,34 @@
       "priority": "high"
     },
     {
-      "id": "m128",
-      "cue": 128,
+      "id": "m143",
+      "cue": 143,
+      "t_start": 426.4,
+      "t_end": 429.34,
+      "duration_sec": 2.94,
+      "spoken": "did Bond Scott know that he was going to die?",
+      "visual_mode": "text_graphic",
+      "text_graphic": {
+        "type": "quote",
+        "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
+        "style": "typewriter"
+      },
+      "artifact": null,
+      "editorial_intent": "Thesis return — question on grain over Bon plate or black.",
+      "people": [],
+      "situation": "Generated text graphic (quote)",
+      "date_from": "",
+      "date_to": "",
+      "location": "",
+      "search_queries": [],
+      "avoid": [],
+      "media_type": "generated",
+      "reuse_id": "",
+      "priority": "high"
+    },
+    {
+      "id": "m144",
+      "cue": 144,
       "t_start": 429.34,
       "t_end": 436.54,
       "duration_sec": 7.2,
@@ -4512,8 +5042,8 @@
       "priority": "high"
     },
     {
-      "id": "m129",
-      "cue": 129,
+      "id": "m145",
+      "cue": 145,
       "t_start": 436.54,
       "t_end": 439.22,
       "duration_sec": 2.68,
@@ -4544,8 +5074,8 @@
       "priority": "medium"
     },
     {
-      "id": "m130",
-      "cue": 130,
+      "id": "m146",
+      "cue": 146,
       "t_start": 439.22,
       "t_end": 443.46,
       "duration_sec": 4.24,
@@ -4576,8 +5106,8 @@
       "priority": "medium"
     },
     {
-      "id": "m131",
-      "cue": 131,
+      "id": "m147",
+      "cue": 147,
       "t_start": 443.46,
       "t_end": 448.8,
       "duration_sec": 5.34,
@@ -4613,8 +5143,8 @@
       "priority": "high"
     },
     {
-      "id": "m132",
-      "cue": 132,
+      "id": "m148",
+      "cue": 148,
       "t_start": 448.8,
       "t_end": 450.8,
       "duration_sec": 2,

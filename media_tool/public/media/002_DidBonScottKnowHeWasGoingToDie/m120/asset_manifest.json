@@ -2,45 +2,52 @@
   "version": 1,
   "id": "m120",
   "cue": 120,
-  "t_start": 385.24,
-  "t_end": 388.06,
-  "duration_sec": 2.82,
-  "spoken": "who's gonna buy a back in black if Bond Scott just",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
-  "editorial_intent": "Back in Black coming — LP object, avoid trademark cover if possible; sleeve or vinyl edge.",
-  "situation": "Inanimate: Back in Black vinyl record sleeve",
-  "people": [],
-  "date_from": "1980",
-  "date_to": "1980",
+  "t_start": 339.62,
+  "t_end": 343.2,
+  "duration_sec": 3.58,
+  "spoken": "And that stigma made the story commercially explosive.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
   "search_queries": [
-    "Back in Black vinyl record 1980",
-    "AC/DC Back in Black album sleeve 1980",
-    "black vinyl LP 1980 Atlantic Records"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo",
-    "Brian Johnson prominent cover portrait",
-    "faces prominent",
-    "glamorized drug use"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
-  "artifact": {
-    "object": "Back in Black vinyl record sleeve",
-    "story_link": "Album about to ship — commercial stakes",
-    "media_preference": "photo"
-  },
+  "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
       "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "status": "needed"
     }
   ],
   "effects": [
@@ -49,10 +56,11 @@
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": false,
+  "requires_media_files": true,
   "acquired_files": [
-    "asset.jpg"
+    "giphy-dM2xuxnJCg4H6.gif",
+    "explode-blow-up-gif-by-motortrend.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.140Z"
+  "updated_at": "2026-06-16T21:57:59.063Z"
 }

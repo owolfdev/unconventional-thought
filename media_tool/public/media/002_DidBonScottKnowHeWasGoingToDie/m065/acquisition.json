@@ -5,7 +5,7 @@
   "resolved_visual_mode": "effect_only",
   "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
     "film_damage"
   ],
@@ -13,32 +13,32 @@
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "1970s rock culture documentary photograph",
+      "query": "rock star spotlight 1970s silhouette",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 1,
-      "query": "New York music scene 1970s backstage",
+      "query": "musician backstage alone 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "London rock scene 1970s nightlife",
+      "query": "crossroads blues rock mythology photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:47:34.189Z",
-  "updated_at": "2026-06-13T08:47:34.189Z"
+  "completed_at": "2026-06-16T12:51:56.729Z",
+  "updated_at": "2026-06-16T12:51:56.729Z"
 }

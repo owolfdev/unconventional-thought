@@ -3,9 +3,9 @@
   "source_manifest": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
   "episode": "002_DidBonScottKnowHeWasGoingToDie",
   "created_at": "2026-06-06T10:46:09.767Z",
-  "updated_at": "2026-06-15T20:27:46.663Z",
-  "item_count": 133,
-  "completed_count": 103,
+  "updated_at": "2026-06-16T21:57:58.060Z",
+  "item_count": 149,
+  "completed_count": 129,
   "items": {
     "m000": {
       "id": "m000",
@@ -1502,15 +1502,15 @@
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": [
             {
-              "result_id": "library:e29b6eb53267fb4c",
-              "url": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
-              "thumbnail_url": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
-              "title": "and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
-              "source_page": "/media/_library/assets/e29b6eb53267fb4c/and-best-of-all-youve-got-this-swagger-that-is-just-pure-distilled-bottled-energ.gif",
-              "license": "migrated from episode 001 acquired/ — verify rights",
+              "result_id": "library:d5ddc55d8c47a3f9",
+              "url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+              "thumbnail_url": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+              "title": "asset.gif",
+              "source_page": "/media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+              "license": "verify rights before use",
               "engine_id": "library",
               "query": "Bon Scott 1979 live arms spread stage",
-              "selected_at": "2026-06-11T09:39:58.217360Z"
+              "selected_at": "2026-06-16T12:06:28.431Z"
             }
           ]
         },
@@ -1530,7 +1530,7 @@
         }
       ],
       "completed_at": "2026-06-14T18:00:05.547Z",
-      "updated_at": "2026-06-14T18:00:05.547Z"
+      "updated_at": "2026-06-16T12:06:42.799Z"
     },
     "m029": {
       "id": "m029",
@@ -1604,15 +1604,15 @@
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": [
             {
-              "result_id": "library:6babf13dda7a42c0",
-              "url": "/media/_library/assets/6babf13dda7a42c0/asset.jpg",
-              "thumbnail_url": "/media/_library/assets/6babf13dda7a42c0/asset.jpg",
-              "title": "asset.jpg",
-              "source_page": "/media/_library/assets/6babf13dda7a42c0/asset.jpg",
-              "license": "verify rights before use",
+              "result_id": "library:64de483cac40cd2b",
+              "url": "/media/_library/assets/64de483cac40cd2b/highwaytohell.jpg",
+              "thumbnail_url": "/media/_library/assets/64de483cac40cd2b/highwaytohell.jpg",
+              "title": "highwaytohell.jpg",
+              "source_page": "/media/_library/assets/64de483cac40cd2b/highwaytohell.jpg",
+              "license": "manual upload — verify rights",
               "engine_id": "library",
-              "query": "highway to hell platinum record",
-              "selected_at": "2026-06-14T18:02:53.626Z"
+              "query": "Upload: highwaytohell.jpg",
+              "selected_at": "2026-06-16T19:09:22.486Z"
             }
           ]
         },
@@ -1632,7 +1632,7 @@
         }
       ],
       "completed_at": "2026-06-11T09:39:58.217586Z",
-      "updated_at": "2026-06-14T18:03:02.599Z"
+      "updated_at": "2026-06-16T19:09:22.486Z"
     },
     "m031": {
       "id": "m031",
@@ -1644,7 +1644,11 @@
       "notes": "",
       "effects": [],
       "transition": null,
-      "text_graphic": null,
+      "text_graphic": {
+        "type": "transcription",
+        "text": "It reminds me of a story...",
+        "style": "typewriter"
+      },
       "text_graphic_layer": null,
       "background_color": "#000000",
       "sticker_overlay_enabled": true,
@@ -1674,7 +1678,7 @@
         }
       ],
       "completed_at": "2026-06-13T08:08:59.040Z",
-      "updated_at": "2026-06-13T08:08:59.040Z"
+      "updated_at": "2026-06-16T12:08:32.284Z"
     },
     "m032": {
       "id": "m032",
@@ -1717,8 +1721,8 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:09:01.238Z",
-      "updated_at": "2026-06-13T08:09:01.238Z"
+      "completed_at": "2026-06-16T12:09:05.024Z",
+      "updated_at": "2026-06-16T12:09:05.024Z"
     },
     "m033": {
       "id": "m033",
@@ -1774,25 +1778,26 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:11:33.828Z",
-      "updated_at": "2026-06-13T08:11:33.828Z"
+      "completed_at": "2026-06-16T12:09:10.172Z",
+      "updated_at": "2026-06-16T12:09:10.172Z"
     },
     "m034": {
       "id": "m034",
       "cue": 34,
       "source_visual_mode": "historical",
-      "resolved_visual_mode": "historical",
-      "resolved_media_type": "photo",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "generated",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "text_graphic": null,
       "text_graphic_layer": null,
       "background_color": "#000000",
-      "sticker_overlay_enabled": true,
+      "sticker_overlay_enabled": false,
       "sticker_overlay_size": "medium",
       "title_overlay_enabled": true,
       "queries": [
@@ -1830,8 +1835,8 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:11:42.625Z",
-      "updated_at": "2026-06-13T08:11:42.625Z"
+      "completed_at": "2026-06-16T12:38:52.380Z",
+      "updated_at": "2026-06-16T12:38:52.380Z"
     },
     "m035": {
       "id": "m035",
@@ -1886,8 +1891,8 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:11:48.340Z",
-      "updated_at": "2026-06-13T08:11:48.340Z"
+      "completed_at": "2026-06-16T12:38:56.784Z",
+      "updated_at": "2026-06-16T12:38:56.784Z"
     },
     "m036": {
       "id": "m036",
@@ -1942,8 +1947,8 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:14:12.171Z",
-      "updated_at": "2026-06-13T08:14:12.171Z"
+      "completed_at": "2026-06-16T12:38:58.468Z",
+      "updated_at": "2026-06-16T12:38:58.468Z"
     },
     "m037": {
       "id": "m037",
@@ -1989,14 +1994,14 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:11:53.239Z",
-      "updated_at": "2026-06-13T08:11:53.239Z"
+      "completed_at": "2026-06-16T12:39:00.598Z",
+      "updated_at": "2026-06-16T12:39:00.598Z"
     },
     "m038": {
       "id": "m038",
       "cue": 38,
       "source_visual_mode": "historical",
-      "resolved_visual_mode": "text_graphic",
+      "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
       "status": "complete",
       "notes": "",
@@ -2031,8 +2036,8 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:11:56.995Z",
-      "updated_at": "2026-06-13T08:11:56.995Z"
+      "completed_at": "2026-06-16T12:39:02.623Z",
+      "updated_at": "2026-06-16T12:39:02.623Z"
     },
     "m039": {
       "id": "m039",
@@ -2087,8 +2092,8 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:12:00.708Z",
-      "updated_at": "2026-06-13T08:12:00.708Z"
+      "completed_at": "2026-06-16T12:39:05.653Z",
+      "updated_at": "2026-06-16T12:39:05.653Z"
     },
     "m040": {
       "id": "m040",
@@ -2105,7 +2110,7 @@
       "transition": "film_burn",
       "text_graphic": {
         "type": "transcription",
-        "text": "burning hunger to be a great player and for fame.",
+        "text": "",
         "style": "typewriter"
       },
       "text_graphic_layer": null,
@@ -2129,7 +2134,7 @@
               "license": "OpenAI generated — verify editorial use",
               "engine_id": "library",
               "query": "text-graphic-in-acdc-font-burning-hunger.png",
-              "selected_at": "2026-06-13T08:13:20.693Z"
+              "selected_at": "2026-06-16T12:14:46.933Z"
             }
           ]
         },
@@ -2148,8 +2153,8 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:13:38.723Z",
-      "updated_at": "2026-06-13T08:13:38.723Z"
+      "completed_at": "2026-06-16T12:39:09.021Z",
+      "updated_at": "2026-06-16T12:39:09.021Z"
     },
     "m041": {
       "id": "m041",
@@ -2157,7 +2162,7 @@
       "source_visual_mode": "historical",
       "resolved_visual_mode": "text_graphic",
       "resolved_media_type": "generated",
-      "status": "text_graphic",
+      "status": "complete",
       "notes": "",
       "effects": [
         "film_scratches"
@@ -2196,8 +2201,8 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-12T21:20:59.419Z"
+      "completed_at": "2026-06-16T12:39:12.531Z",
+      "updated_at": "2026-06-16T12:39:12.531Z"
     },
     "m042": {
       "id": "m042",
@@ -2239,12 +2244,12 @@
               "result_id": "library:5abe374f91e45bd2",
               "url": "/media/_library/assets/5abe374f91e45bd2/genphoto-95b3e197.jpg",
               "thumbnail_url": "/media/_library/assets/5abe374f91e45bd2/genphoto-95b3e197.jpg",
-              "title": "1931, the dead of night. lonely crossroad in mississippi. a dark (satanic) figure steps out of the blackness.",
+              "title": "genphoto-95b3e197.jpg",
               "source_page": "/media/_library/assets/5abe374f91e45bd2/genphoto-95b3e197.jpg",
               "license": "OpenAI generated — verify editorial use",
-              "engine_id": "openai_photo",
-              "query": "OpenAI photo: 1931, the dead of night. lonely crossroad in mississippi. a dark (satanic) figure steps out of the blackness.",
-              "selected_at": "2026-06-12T21:10:55.383Z"
+              "engine_id": "library",
+              "query": "Robert Johnson crossroads legend illustration",
+              "selected_at": "2026-06-16T12:21:22.321Z"
             }
           ]
         },
@@ -2263,16 +2268,73 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.218822Z",
-      "updated_at": "2026-06-12T21:10:55.383Z"
+      "completed_at": "2026-06-16T12:39:15.306Z",
+      "updated_at": "2026-06-16T12:39:15.306Z"
     },
     "m043": {
       "id": "m043",
       "cue": 43,
       "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_scratches",
+        "shake"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Robert Johnson crossroads legend illustration",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": [
+            {
+              "result_id": "library:e208d4fc81cce8f4",
+              "url": "/media/_library/assets/e208d4fc81cce8f4/genphoto-8a606183.jpg",
+              "thumbnail_url": "/media/_library/assets/e208d4fc81cce8f4/genphoto-8a606183.jpg",
+              "title": "genphoto-8a606183.jpg",
+              "source_page": "/media/_library/assets/e208d4fc81cce8f4/genphoto-8a606183.jpg",
+              "license": "OpenAI generated — verify editorial use",
+              "engine_id": "library",
+              "query": "genphoto-8a606183.jpg",
+              "selected_at": "2026-06-16T12:21:50.053Z"
+            }
+          ]
+        },
+        {
+          "query_index": 1,
+          "query": "crossroads blues devil folklore art",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "silhouette figure rural road night",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T12:39:18.652Z",
+      "updated_at": "2026-06-16T12:39:18.652Z"
+    },
+    "m044": {
+      "id": "m044",
+      "cue": 44,
+      "source_visual_mode": "historical",
       "resolved_visual_mode": "text_graphic",
       "resolved_media_type": "generated",
-      "status": "text_graphic",
+      "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_scratches"
@@ -2280,7 +2342,7 @@
       "transition": null,
       "text_graphic": {
         "type": "transcription",
-        "text": "It plays something impossibly good, then hands the guitar back and says, \"now it's yours\".",
+        "text": "It plays something impossibly good",
         "style": "typewriter"
       },
       "text_graphic_layer": null,
@@ -2311,16 +2373,117 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.219051Z",
-      "updated_at": "2026-06-12T21:22:01.451Z"
+      "completed_at": "2026-06-16T12:39:23.489Z",
+      "updated_at": "2026-06-16T12:39:23.489Z"
     },
-    "m044": {
-      "id": "m044",
-      "cue": 44,
-      "source_visual_mode": "text_graphic",
-      "resolved_visual_mode": "text_graphic",
+    "m045": {
+      "id": "m045",
+      "cue": 45,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
-      "status": "text_graphic",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Robert Johnson playing guitar photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "blues guitarist hands guitar close up 1930s",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "Robert Johnson performance photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T12:39:26.609Z",
+      "updated_at": "2026-06-16T12:39:26.609Z"
+    },
+    "m046": {
+      "id": "m046",
+      "cue": 46,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Robert Johnson playing guitar photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": [
+            {
+              "result_id": "library:8fcacf2ae53714b0",
+              "url": "/media/_library/assets/8fcacf2ae53714b0/in-an-acdc-font-now-its-yours.png",
+              "thumbnail_url": "/media/_library/assets/8fcacf2ae53714b0/in-an-acdc-font-now-its-yours.png",
+              "title": "in an AC/DC font: Now It's Yours",
+              "source_page": "/media/_library/assets/8fcacf2ae53714b0/in-an-acdc-font-now-its-yours.png",
+              "license": "OpenAI generated — verify editorial use",
+              "engine_id": "openai_sticker",
+              "query": "OpenAI sticker: in an AC/DC font: Now It's Yours",
+              "selected_at": "2026-06-16T12:24:56.414Z"
+            }
+          ]
+        },
+        {
+          "query_index": 1,
+          "query": "blues guitarist hands guitar close up 1930s",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "Robert Johnson performance photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T12:39:29.623Z",
+      "updated_at": "2026-06-16T12:39:29.623Z"
+    },
+    "m047": {
+      "id": "m047",
+      "cue": 47,
+      "source_visual_mode": "text_graphic",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "generated",
+      "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_scratches"
@@ -2328,7 +2491,7 @@
       "transition": null,
       "text_graphic": {
         "type": "quote",
-        "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
+        "text": "But understand kid...",
         "style": "typewriter"
       },
       "text_graphic_layer": null,
@@ -2342,27 +2505,47 @@
           "query": "(text graphic — no archive search)",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": [
-            {
-              "result_id": "library:443a904987dcfc04",
-              "url": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
-              "thumbnail_url": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
-              "title": "1931, the dead of night. lonely crossroad in mississippi. A satanic contract is proffered to a young robert johnson. jus",
-              "source_page": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
-              "license": "OpenAI generated — verify editorial use",
-              "engine_id": "openai_photo",
-              "query": "OpenAI photo: 1931, the dead of night. lonely crossroad in mississippi. A satanic contract is proffered to a young robert johnson. jus",
-              "selected_at": "2026-06-12T21:24:24.632Z"
-            }
-          ]
+          "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.219278Z",
-      "updated_at": "2026-06-12T21:25:39.007Z"
+      "completed_at": "2026-06-16T12:39:32.864Z",
+      "updated_at": "2026-06-16T12:39:32.864Z"
     },
-    "m045": {
-      "id": "m045",
-      "cue": 45,
+    "m048": {
+      "id": "m048",
+      "cue": 48,
+      "source_visual_mode": "text_graphic",
+      "resolved_visual_mode": "text_graphic",
+      "resolved_media_type": "generated",
+      "status": "complete",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": {
+        "type": "quote",
+        "text": "IT AIN'T FREE!",
+        "style": "typewriter"
+      },
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "(text graphic — no archive search)",
+          "engine_id": "google",
+          "engine_url": "https://www.google.com/search?q={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T12:39:35.482Z",
+      "updated_at": "2026-06-16T12:39:35.482Z"
+    },
+    "m049": {
+      "id": "m049",
+      "cue": 49,
       "source_visual_mode": "text_graphic",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "generated",
@@ -2377,7 +2560,7 @@
       "transition": null,
       "text_graphic": {
         "type": "quote",
-        "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
+        "text": "",
         "style": "typewriter"
       },
       "text_graphic_layer": null,
@@ -2406,16 +2589,16 @@
           ]
         }
       ],
-      "completed_at": "2026-06-13T08:14:32.383Z",
-      "updated_at": "2026-06-13T08:14:32.383Z"
+      "completed_at": "2026-06-16T12:39:44.188Z",
+      "updated_at": "2026-06-16T12:39:44.188Z"
     },
-    "m046": {
-      "id": "m046",
-      "cue": 46,
+    "m050": {
+      "id": "m050",
+      "cue": 50,
       "source_visual_mode": "historical",
-      "resolved_visual_mode": "text_graphic",
+      "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
-      "status": "complete",
+      "status": "in_progress",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_scratches"
@@ -2423,7 +2606,7 @@
       "transition": null,
       "text_graphic": {
         "type": "transcription",
-        "text": "He came back different, transformed. The other musicians were stunned. ",
+        "text": "",
         "style": "typewriter"
       },
       "text_graphic_layer": null,
@@ -2454,15 +2637,117 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:14:57.830Z",
-      "updated_at": "2026-06-13T08:14:57.830Z"
+      "completed_at": "2026-06-16T12:39:54.485Z",
+      "updated_at": "2026-06-16T12:40:24.412Z"
     },
-    "m047": {
-      "id": "m047",
-      "cue": 47,
+    "m051": {
+      "id": "m051",
+      "cue": 51,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "text_graphic",
+      "resolved_media_type": "generated",
+      "status": "complete",
+      "notes": "",
+      "effects": [],
+      "transition": null,
+      "text_graphic": {
+        "type": "transcription",
+        "text": "He came back different",
+        "style": "typewriter"
+      },
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Robert Johnson blues musician 1937",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Mississippi juke joint musicians 1930s",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "Robert Johnson contemporaries blues scene",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T12:40:00.433Z",
+      "updated_at": "2026-06-16T12:40:00.433Z"
+    },
+    "m052": {
+      "id": "m052",
+      "cue": 52,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "large",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Robert Johnson blues musician 1937",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": [
+            {
+              "result_id": "library:96fd0ea34c1775a3",
+              "url": "/media/_library/assets/96fd0ea34c1775a3/black-metal-font-transformed.png",
+              "thumbnail_url": "/media/_library/assets/96fd0ea34c1775a3/black-metal-font-transformed.png",
+              "title": "Black metal font: Transformed",
+              "source_page": "/media/_library/assets/96fd0ea34c1775a3/black-metal-font-transformed.png",
+              "license": "OpenAI generated — verify editorial use",
+              "engine_id": "openai_sticker",
+              "query": "OpenAI sticker: Black metal font: Transformed",
+              "selected_at": "2026-06-16T12:30:06.211Z"
+            }
+          ]
+        },
+        {
+          "query_index": 1,
+          "query": "Mississippi juke joint musicians 1930s",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "Robert Johnson contemporaries blues scene",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T12:30:29.708Z",
+      "updated_at": "2026-06-16T12:30:29.708Z"
+    },
+    "m053": {
+      "id": "m053",
+      "cue": 53,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "generated",
       "status": "complete",
       "notes": "",
       "effects": [
@@ -2471,7 +2756,11 @@
         "slow_zoom_out"
       ],
       "transition": null,
-      "text_graphic": null,
+      "text_graphic": {
+        "type": "transcription",
+        "text": "",
+        "style": "typewriter"
+      },
       "text_graphic_layer": null,
       "background_color": "#000000",
       "sticker_overlay_enabled": true,
@@ -2512,19 +2801,20 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:18:03.160Z",
-      "updated_at": "2026-06-13T08:18:03.160Z"
+      "completed_at": "2026-06-16T12:30:51.807Z",
+      "updated_at": "2026-06-16T12:30:51.807Z"
     },
-    "m048": {
-      "id": "m048",
-      "cue": 48,
+    "m054": {
+      "id": "m054",
+      "cue": 54,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "text_graphic": null,
@@ -2568,12 +2858,115 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:18:21.767Z",
-      "updated_at": "2026-06-13T08:18:21.767Z"
+      "completed_at": "2026-06-16T12:31:37.905Z",
+      "updated_at": "2026-06-16T12:31:37.905Z"
     },
-    "m049": {
-      "id": "m049",
-      "cue": 49,
+    "m055": {
+      "id": "m055",
+      "cue": 55,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "generated",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "large",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Robert Johnson blues performance photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "Robert Johnson portrait intense",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "blues singer 1930s Mississippi performance",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T12:42:43.002Z",
+      "updated_at": "2026-06-16T12:42:43.002Z"
+    },
+    "m056": {
+      "id": "m056",
+      "cue": 56,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_scratches",
+        "film_damage",
+        "film_grain"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Robert Johnson blues performance photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": [
+            {
+              "result_id": "library:ea7e3c821ff4bbbb",
+              "url": "/media/_library/assets/ea7e3c821ff4bbbb/black-metal-font-fame.png",
+              "thumbnail_url": "/media/_library/assets/ea7e3c821ff4bbbb/black-metal-font-fame.png",
+              "title": "black-metal-font-fame.png",
+              "source_page": "/media/_library/assets/ea7e3c821ff4bbbb/black-metal-font-fame.png",
+              "license": "OpenAI generated — verify editorial use",
+              "engine_id": "library",
+              "query": "black-metal-font-fame.png",
+              "selected_at": "2026-06-16T12:45:23.949Z"
+            }
+          ]
+        },
+        {
+          "query_index": 1,
+          "query": "Robert Johnson portrait intense",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "blues singer 1930s Mississippi performance",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T12:47:03.870Z",
+      "updated_at": "2026-06-16T12:47:03.870Z"
+    },
+    "m057": {
+      "id": "m057",
+      "cue": 57,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -2625,12 +3018,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:18:36.915Z",
-      "updated_at": "2026-06-13T08:18:36.915Z"
+      "completed_at": "2026-06-16T12:47:06.485Z",
+      "updated_at": "2026-06-16T12:47:06.485Z"
     },
-    "m050": {
-      "id": "m050",
-      "cue": 50,
+    "m058": {
+      "id": "m058",
+      "cue": 58,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -2681,12 +3074,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:18:41.377Z",
-      "updated_at": "2026-06-13T08:18:41.377Z"
+      "completed_at": "2026-06-16T12:47:11.805Z",
+      "updated_at": "2026-06-16T12:47:11.805Z"
     },
-    "m051": {
-      "id": "m051",
-      "cue": 51,
+    "m059": {
+      "id": "m059",
+      "cue": 59,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -2745,12 +3138,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:18:44.160Z",
-      "updated_at": "2026-06-13T08:18:44.160Z"
+      "completed_at": "2026-06-16T12:47:15.690Z",
+      "updated_at": "2026-06-16T12:47:15.690Z"
     },
-    "m052": {
-      "id": "m052",
-      "cue": 52,
+    "m060": {
+      "id": "m060",
+      "cue": 60,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -2808,12 +3201,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:18:46.920Z",
-      "updated_at": "2026-06-13T08:18:46.920Z"
+      "completed_at": "2026-06-16T12:47:40.997Z",
+      "updated_at": "2026-06-16T12:47:40.997Z"
     },
-    "m053": {
-      "id": "m053",
-      "cue": 53,
+    "m061": {
+      "id": "m061",
+      "cue": 61,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -2872,12 +3265,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:18:48.788Z",
-      "updated_at": "2026-06-13T08:18:48.788Z"
+      "completed_at": "2026-06-16T12:47:42.810Z",
+      "updated_at": "2026-06-16T12:47:42.810Z"
     },
-    "m054": {
-      "id": "m054",
-      "cue": 54,
+    "m062": {
+      "id": "m062",
+      "cue": 62,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -2908,8 +3301,8 @@
               "source_page": "/media/_library/assets/5e72bb5c1adbda89/asset.jpg",
               "license": "verify rights before use",
               "engine_id": "library",
-              "query": "Jimi Hendrix 1969 photograph",
-              "selected_at": "2026-06-12T21:46:37.048Z"
+              "query": "asset.jpg",
+              "selected_at": "2026-06-16T12:50:02.925Z"
             }
           ]
         },
@@ -2935,16 +3328,16 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:18:50.686Z",
-      "updated_at": "2026-06-13T08:18:50.686Z"
+      "completed_at": "2026-06-16T12:51:16.724Z",
+      "updated_at": "2026-06-16T12:51:16.724Z"
     },
-    "m055": {
-      "id": "m055",
-      "cue": 55,
+    "m063": {
+      "id": "m063",
+      "cue": 63,
       "source_visual_mode": "historical",
-      "resolved_visual_mode": "text_graphic",
+      "resolved_visual_mode": "historical",
       "resolved_media_type": "generated",
-      "status": "text_graphic",
+      "status": "complete",
       "notes": "",
       "effects": [
         "film_scratches",
@@ -2953,9 +3346,72 @@
       "transition": null,
       "text_graphic": {
         "type": "transcription",
-        "text": "and many others. ",
+        "text": "",
         "style": "typewriter"
       },
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "Jimi Hendrix 1969 photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": [
+            {
+              "result_id": "library:5e72bb5c1adbda89",
+              "url": "/media/_library/assets/5e72bb5c1adbda89/asset.jpg",
+              "thumbnail_url": "/media/_library/assets/5e72bb5c1adbda89/asset.jpg",
+              "title": "asset.jpg",
+              "source_page": "/media/_library/assets/5e72bb5c1adbda89/asset.jpg",
+              "license": "verify rights before use",
+              "engine_id": "library",
+              "query": "asset.jpg",
+              "selected_at": "2026-06-16T12:51:27.929Z"
+            }
+          ]
+        },
+        {
+          "query_index": 1,
+          "query": "Janis Joplin 1970 photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "Jim Morrison 1971 photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 3,
+          "query": "Kurt Cobain 1990s photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T12:51:36.052Z",
+      "updated_at": "2026-06-16T12:51:36.052Z"
+    },
+    "m064": {
+      "id": "m064",
+      "cue": 64,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "generated",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "text_graphic": null,
       "text_graphic_layer": null,
       "background_color": "#000000",
       "sticker_overlay_enabled": true,
@@ -2991,12 +3447,12 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-13T08:18:57.533Z"
+      "completed_at": "2026-06-16T19:14:19.412Z",
+      "updated_at": "2026-06-16T19:14:19.412Z"
     },
-    "m056": {
-      "id": "m056",
-      "cue": 56,
+    "m065": {
+      "id": "m065",
+      "cue": 65,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
@@ -3035,26 +3491,27 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:19:45.179Z",
-      "updated_at": "2026-06-13T08:19:45.179Z"
+      "completed_at": "2026-06-16T12:51:56.729Z",
+      "updated_at": "2026-06-16T12:51:56.729Z"
     },
-    "m057": {
-      "id": "m057",
-      "cue": 57,
+    "m066": {
+      "id": "m066",
+      "cue": 66,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
       "status": "complete",
       "notes": "",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "text_graphic": null,
       "text_graphic_layer": null,
       "background_color": "#000000",
       "sticker_overlay_enabled": true,
-      "sticker_overlay_size": "medium",
+      "sticker_overlay_size": "large",
       "title_overlay_enabled": true,
       "queries": [
         {
@@ -3091,27 +3548,26 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:19:49.372Z",
-      "updated_at": "2026-06-13T08:19:49.372Z"
+      "completed_at": "2026-06-16T12:52:15.909Z",
+      "updated_at": "2026-06-16T12:52:15.909Z"
     },
-    "m058": {
-      "id": "m058",
-      "cue": 58,
+    "m067": {
+      "id": "m067",
+      "cue": 67,
       "source_visual_mode": "artifact",
       "resolved_visual_mode": "artifact",
       "resolved_media_type": "photo",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
-        "film_damage",
         "film_scratches"
       ],
       "transition": null,
       "text_graphic": null,
       "text_graphic_layer": null,
       "background_color": "#000000",
-      "sticker_overlay_enabled": false,
-      "sticker_overlay_size": "medium",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "large",
       "title_overlay_enabled": true,
       "queries": [
         {
@@ -3121,15 +3577,15 @@
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": [
             {
-              "result_id": "library:d83d6b1e6a60a42f",
-              "url": "/media/_library/assets/d83d6b1e6a60a42f/bib_gold2-blkbg.jpg",
-              "thumbnail_url": "/media/_library/assets/d83d6b1e6a60a42f/bib_gold2-blkbg.jpg",
-              "title": "bib_gold2-blkbg.jpg",
-              "source_page": "/media/_library/assets/d83d6b1e6a60a42f/bib_gold2-blkbg.jpg",
-              "license": "migrated from episode 001 acquired/ — verify rights",
-              "engine_id": "library",
-              "query": "gold record award disc close up",
-              "selected_at": "2026-06-13T08:23:07.224Z"
+              "result_id": "library:1139177e1e3669d5",
+              "url": "/media/_library/assets/1139177e1e3669d5/black-and-white-concert-gif.gif",
+              "thumbnail_url": "/media/_library/assets/1139177e1e3669d5/black-and-white-concert-gif.gif",
+              "title": "Black And White Concert GIF",
+              "source_page": "/media/_library/assets/1139177e1e3669d5/black-and-white-concert-gif.gif",
+              "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+              "engine_id": "giphy_sticker",
+              "query": "GIPHY: Black And White Concert GIF",
+              "selected_at": "2026-06-16T12:52:49.018Z"
             }
           ]
         },
@@ -3148,25 +3604,26 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:23:27.644Z",
-      "updated_at": "2026-06-13T08:23:27.644Z"
+      "completed_at": "2026-06-16T12:53:16.727Z",
+      "updated_at": "2026-06-16T12:53:16.727Z"
     },
-    "m059": {
-      "id": "m059",
-      "cue": 59,
+    "m068": {
+      "id": "m068",
+      "cue": 68,
       "source_visual_mode": "text_graphic",
       "resolved_visual_mode": "historical",
-      "resolved_media_type": "photo",
+      "resolved_media_type": "generated",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
-        "film_damage"
+        "film_damage",
+        "slow_push_in"
       ],
       "transition": null,
       "text_graphic": {
         "type": "title",
-        "text": "33.",
-        "style": "minimal_white"
+        "text": "",
+        "style": ""
       },
       "text_graphic_layer": null,
       "background_color": "#000000",
@@ -3194,26 +3651,25 @@
           ]
         }
       ],
-      "completed_at": "2026-06-13T08:32:25.811Z",
-      "updated_at": "2026-06-13T08:32:34.915Z"
+      "completed_at": "2026-06-16T19:18:03.119Z",
+      "updated_at": "2026-06-16T19:18:03.119Z"
     },
-    "m060": {
-      "id": "m060",
-      "cue": 60,
+    "m069": {
+      "id": "m069",
+      "cue": 69,
       "source_visual_mode": "text_graphic",
-      "resolved_visual_mode": "historical",
-      "resolved_media_type": "photo",
+      "resolved_visual_mode": "text_graphic",
+      "resolved_media_type": "generated",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_scratches",
-        "film_damage",
-        "shake"
+        "film_damage"
       ],
       "transition": null,
       "text_graphic": {
         "type": "intertitle",
-        "text": "SO WHO IS THE DEVIL?",
+        "text": "The devil always gets his due. ",
         "style": "blockbuster"
       },
       "text_graphic_layer": null,
@@ -3242,19 +3698,66 @@
           ]
         }
       ],
-      "completed_at": "2026-06-13T08:32:38.341Z",
-      "updated_at": "2026-06-13T08:32:56.175Z"
+      "completed_at": "2026-06-16T19:20:00.231Z",
+      "updated_at": "2026-06-16T19:20:00.231Z"
     },
-    "m061": {
-      "id": "m061",
-      "cue": 61,
+    "m070": {
+      "id": "m070",
+      "cue": 70,
+      "source_visual_mode": "text_graphic",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "generated",
+      "status": "in_progress",
+      "notes": "",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "text_graphic": {
+        "type": "intertitle",
+        "text": "SO WHO IS THE DEVIL?",
+        "style": "blockbuster"
+      },
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "(text graphic — no archive search)",
+          "engine_id": "google",
+          "engine_url": "https://www.google.com/search?q={query}",
+          "selections": [
+            {
+              "result_id": "library:8b27777b6270009a",
+              "url": "/media/_library/assets/8b27777b6270009a/genphoto-e35a905c.jpg",
+              "thumbnail_url": "/media/_library/assets/8b27777b6270009a/genphoto-e35a905c.jpg",
+              "title": "genphoto-e35a905c.jpg",
+              "source_page": "/media/_library/assets/8b27777b6270009a/genphoto-e35a905c.jpg",
+              "license": "OpenAI generated — verify editorial use",
+              "engine_id": "library",
+              "query": "genphoto-e35a905c.jpg",
+              "selected_at": "2026-06-16T19:20:49.803Z"
+            }
+          ]
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-16T19:20:56.826Z"
+    },
+    "m071": {
+      "id": "m071",
+      "cue": 71,
       "source_visual_mode": "artifact",
       "resolved_visual_mode": "artifact",
       "resolved_media_type": "photo",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
-        "film_damage"
+        "film_damage",
+        "film_scratches"
       ],
       "transition": null,
       "text_graphic": null,
@@ -3271,15 +3774,26 @@
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": [
             {
-              "result_id": "library:fbadbb92edeb5699",
-              "url": "/media/_library/assets/fbadbb92edeb5699/genphoto-1f47c0a6.jpg",
-              "thumbnail_url": "/media/_library/assets/fbadbb92edeb5699/genphoto-1f47c0a6.jpg",
-              "title": "hypodermic needle",
-              "source_page": "/media/_library/assets/fbadbb92edeb5699/genphoto-1f47c0a6.jpg",
+              "result_id": "library:9897312106740db3",
+              "url": "/media/_library/assets/9897312106740db3/hypodermic-needle-close-up-back-stage.png",
+              "thumbnail_url": "/media/_library/assets/9897312106740db3/hypodermic-needle-close-up-back-stage.png",
+              "title": "hypodermic needle. close up. back stage.",
+              "source_page": "/media/_library/assets/9897312106740db3/hypodermic-needle-close-up-back-stage.png",
+              "license": "OpenAI generated — verify editorial use",
+              "engine_id": "openai_sticker",
+              "query": "OpenAI sticker: hypodermic needle. close up. back stage.",
+              "selected_at": "2026-06-16T12:55:28.930Z"
+            },
+            {
+              "result_id": "library:6dfa972032021589",
+              "url": "/media/_library/assets/6dfa972032021589/genphoto-40660548.jpg",
+              "thumbnail_url": "/media/_library/assets/6dfa972032021589/genphoto-40660548.jpg",
+              "title": "hypodermic needle. close up. back stage.",
+              "source_page": "/media/_library/assets/6dfa972032021589/genphoto-40660548.jpg",
               "license": "OpenAI generated — verify editorial use",
               "engine_id": "openai_photo",
-              "query": "OpenAI photo: hypodermic needle",
-              "selected_at": "2026-06-12T21:55:49.231Z"
+              "query": "OpenAI photo: hypodermic needle. close up. back stage.",
+              "selected_at": "2026-06-16T12:55:52.519Z"
             }
           ]
         },
@@ -3298,26 +3812,30 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:24:24.927Z",
-      "updated_at": "2026-06-13T08:24:24.927Z"
+      "completed_at": "2026-06-16T12:59:04.103Z",
+      "updated_at": "2026-06-16T12:59:04.103Z"
     },
-    "m062": {
-      "id": "m062",
-      "cue": 62,
+    "m072": {
+      "id": "m072",
+      "cue": 72,
       "source_visual_mode": "artifact",
-      "resolved_visual_mode": "artifact",
-      "resolved_media_type": "photo",
-      "status": "in_progress",
+      "resolved_visual_mode": "text_graphic",
+      "resolved_media_type": "generated",
+      "status": "complete",
       "notes": "",
       "effects": [
         "film_damage"
       ],
       "transition": null,
-      "text_graphic": null,
+      "text_graphic": {
+        "type": "transcription",
+        "text": "heroin...",
+        "style": "typewriter"
+      },
       "text_graphic_layer": null,
       "background_color": "#000000",
-      "sticker_overlay_enabled": true,
-      "sticker_overlay_size": "medium",
+      "sticker_overlay_enabled": false,
+      "sticker_overlay_size": "small",
       "title_overlay_enabled": true,
       "queries": [
         {
@@ -3354,26 +3872,27 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-13T08:45:30.066Z"
+      "completed_at": "2026-06-16T12:59:46.259Z",
+      "updated_at": "2026-06-16T12:59:46.259Z"
     },
-    "m063": {
-      "id": "m063",
-      "cue": 63,
+    "m073": {
+      "id": "m073",
+      "cue": 73,
       "source_visual_mode": "artifact",
       "resolved_visual_mode": "artifact",
       "resolved_media_type": "photo",
       "status": "complete",
       "notes": "",
       "effects": [
-        "film_damage"
+        "film_damage",
+        "film_scratches"
       ],
       "transition": null,
       "text_graphic": null,
       "text_graphic_layer": null,
       "background_color": "#000000",
       "sticker_overlay_enabled": true,
-      "sticker_overlay_size": "medium",
+      "sticker_overlay_size": "large",
       "title_overlay_enabled": true,
       "queries": [
         {
@@ -3381,7 +3900,19 @@
           "query": "hypodermic needle macro photograph documentary",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": []
+          "selections": [
+            {
+              "result_id": "library:cd41bc0899216b21",
+              "url": "/media/_library/assets/cd41bc0899216b21/black-metal-font-invulnerable.png",
+              "thumbnail_url": "/media/_library/assets/cd41bc0899216b21/black-metal-font-invulnerable.png",
+              "title": "black metal font: invulnerable",
+              "source_page": "/media/_library/assets/cd41bc0899216b21/black-metal-font-invulnerable.png",
+              "license": "OpenAI generated — verify editorial use",
+              "engine_id": "openai_sticker",
+              "query": "OpenAI sticker: black metal font: invulnerable",
+              "selected_at": "2026-06-16T19:25:48.314Z"
+            }
+          ]
         },
         {
           "query_index": 1,
@@ -3398,19 +3929,20 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:46:12.125Z",
-      "updated_at": "2026-06-13T08:46:12.125Z"
+      "completed_at": "2026-06-16T13:02:12.716Z",
+      "updated_at": "2026-06-16T19:26:24.403Z"
     },
-    "m064": {
-      "id": "m064",
-      "cue": 64,
+    "m074": {
+      "id": "m074",
+      "cue": 74,
       "source_visual_mode": "historical",
-      "resolved_visual_mode": "effect_only",
+      "resolved_visual_mode": "historical",
       "resolved_media_type": "generated",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "text_graphic": null,
@@ -3430,12 +3962,12 @@
               "result_id": "library:8c7992e7a9dae805",
               "url": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
               "thumbnail_url": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
-              "title": "black and white optical illusion GIF",
+              "title": "black-and-white-optical-illusion-gif.gif",
               "source_page": "/media/_library/assets/8c7992e7a9dae805/black-and-white-optical-illusion-gif.gif",
               "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-              "engine_id": "giphy_sticker",
-              "query": "GIPHY: black and white optical illusion GIF",
-              "selected_at": "2026-06-13T08:46:49.369Z"
+              "engine_id": "library",
+              "query": "1970s rock culture documentary photograph",
+              "selected_at": "2026-06-16T19:30:29.832Z"
             }
           ]
         },
@@ -3454,12 +3986,57 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:47:13.819Z",
-      "updated_at": "2026-06-13T08:47:13.819Z"
+      "completed_at": "2026-06-16T19:28:47.157Z",
+      "updated_at": "2026-06-16T19:30:40.417Z"
     },
-    "m065": {
-      "id": "m065",
-      "cue": 65,
+    "m075": {
+      "id": "m075",
+      "cue": 75,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "generated",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_damage",
+        "film_scratches"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "large",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "1970s rock culture documentary photograph",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "New York music scene 1970s backstage",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "London rock scene 1970s nightlife",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T13:05:43.386Z",
+      "updated_at": "2026-06-16T19:28:52.860Z"
+    },
+    "m076": {
+      "id": "m076",
+      "cue": 76,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
@@ -3498,58 +4075,14 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:47:34.189Z",
-      "updated_at": "2026-06-13T08:47:34.189Z"
+      "completed_at": "2026-06-16T13:05:50.500Z",
+      "updated_at": "2026-06-16T13:05:50.500Z"
     },
-    "m066": {
-      "id": "m066",
-      "cue": 66,
-      "source_visual_mode": "historical",
-      "resolved_visual_mode": "effect_only",
-      "resolved_media_type": "generated",
-      "status": "in_progress",
-      "notes": "",
-      "effects": [
-        "film_damage"
-      ],
-      "transition": null,
-      "text_graphic": null,
-      "text_graphic_layer": null,
-      "background_color": "#000000",
-      "sticker_overlay_enabled": true,
-      "sticker_overlay_size": "medium",
-      "title_overlay_enabled": true,
-      "queries": [
-        {
-          "query_index": 0,
-          "query": "1970s rock culture documentary photograph",
-          "engine_id": "commons",
-          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": []
-        },
-        {
-          "query_index": 1,
-          "query": "New York music scene 1970s backstage",
-          "engine_id": "commons",
-          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": []
-        },
-        {
-          "query_index": 2,
-          "query": "London rock scene 1970s nightlife",
-          "engine_id": "commons",
-          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": []
-        }
-      ],
-      "completed_at": null,
-      "updated_at": "2026-06-13T08:53:06.177Z"
-    },
-    "m067": {
-      "id": "m067",
-      "cue": 67,
+    "m077": {
+      "id": "m077",
+      "cue": 77,
       "source_visual_mode": "artifact",
-      "resolved_visual_mode": "effect_only",
+      "resolved_visual_mode": "text_graphic",
       "resolved_media_type": "generated",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
@@ -3586,15 +4119,15 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:53:20.036Z",
-      "updated_at": "2026-06-13T08:53:20.036Z"
+      "completed_at": "2026-06-16T13:06:33.963Z",
+      "updated_at": "2026-06-16T13:06:33.963Z"
     },
-    "m068": {
-      "id": "m068",
-      "cue": 68,
+    "m078": {
+      "id": "m078",
+      "cue": 78,
       "source_visual_mode": "artifact",
-      "resolved_visual_mode": "artifact",
-      "resolved_media_type": "photo",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "generated",
       "status": "complete",
       "notes": "",
       "effects": [
@@ -3630,12 +4163,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:55:46.905Z",
-      "updated_at": "2026-06-13T08:55:46.905Z"
+      "completed_at": "2026-06-16T13:17:47.119Z",
+      "updated_at": "2026-06-16T13:17:47.119Z"
     },
-    "m069": {
-      "id": "m069",
-      "cue": 69,
+    "m079": {
+      "id": "m079",
+      "cue": 79,
       "source_visual_mode": "artifact",
       "resolved_visual_mode": "artifact",
       "resolved_media_type": "photo",
@@ -3687,12 +4220,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:56:42.764Z",
-      "updated_at": "2026-06-13T08:56:42.764Z"
+      "completed_at": "2026-06-16T13:17:52.144Z",
+      "updated_at": "2026-06-16T13:17:52.144Z"
     },
-    "m070": {
-      "id": "m070",
-      "cue": 70,
+    "m080": {
+      "id": "m080",
+      "cue": 80,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -3743,12 +4276,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.221945Z",
-      "updated_at": "2026-06-12T22:01:56.930Z"
+      "completed_at": "2026-06-16T13:17:58.337Z",
+      "updated_at": "2026-06-16T13:17:58.337Z"
     },
-    "m071": {
-      "id": "m071",
-      "cue": 71,
+    "m081": {
+      "id": "m081",
+      "cue": 81,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -3802,19 +4335,20 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:56:56.180Z",
-      "updated_at": "2026-06-13T08:56:56.180Z"
+      "completed_at": "2026-06-16T13:18:01.249Z",
+      "updated_at": "2026-06-16T13:18:01.249Z"
     },
-    "m072": {
-      "id": "m072",
-      "cue": 72,
+    "m082": {
+      "id": "m082",
+      "cue": 82,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
       "status": "complete",
       "notes": "",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "film_damage"
       ],
       "transition": null,
       "text_graphic": null,
@@ -3858,12 +4392,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:57:05.743Z",
-      "updated_at": "2026-06-13T08:57:05.743Z"
+      "completed_at": "2026-06-16T13:18:11.036Z",
+      "updated_at": "2026-06-16T13:18:11.036Z"
     },
-    "m073": {
-      "id": "m073",
-      "cue": 73,
+    "m083": {
+      "id": "m083",
+      "cue": 83,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -3897,6 +4431,17 @@
               "engine_id": "openai_sticker",
               "query": "OpenAI sticker: text graphic in 1970s font: The 70s",
               "selected_at": "2026-06-12T22:22:25.970Z"
+            },
+            {
+              "result_id": "library:5c07e1ac64c1fdaf",
+              "url": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
+              "thumbnail_url": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
+              "title": "crystal-chandeliers-distinguished-guests-and-balls.gif",
+              "source_page": "/media/_library/assets/5c07e1ac64c1fdaf/crystal-chandeliers-distinguished-guests-and-balls.gif",
+              "license": "migrated from episode 001 acquired/ — verify rights",
+              "engine_id": "library",
+              "query": "Studio 54 1970s photograph",
+              "selected_at": "2026-06-16T13:32:35.323Z"
             }
           ]
         },
@@ -3915,12 +4460,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:57:26.106Z",
-      "updated_at": "2026-06-13T08:57:26.106Z"
+      "completed_at": "2026-06-16T13:34:44.557Z",
+      "updated_at": "2026-06-16T13:34:44.557Z"
     },
-    "m074": {
-      "id": "m074",
-      "cue": 74,
+    "m084": {
+      "id": "m084",
+      "cue": 84,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -3972,12 +4517,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:57:52.302Z",
-      "updated_at": "2026-06-13T08:57:52.302Z"
+      "completed_at": "2026-06-16T13:34:47.826Z",
+      "updated_at": "2026-06-16T13:34:47.826Z"
     },
-    "m075": {
-      "id": "m075",
-      "cue": 75,
+    "m085": {
+      "id": "m085",
+      "cue": 85,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -3985,9 +4530,7 @@
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_scratches",
-        "film_damage",
-        "tremble",
-        "tilt_left"
+        "film_damage"
       ],
       "transition": null,
       "text_graphic": null,
@@ -4004,15 +4547,37 @@
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": [
             {
-              "result_id": "library:114873f95daad37e",
-              "url": "/media/_library/assets/114873f95daad37e/back-stage.jpg",
-              "thumbnail_url": "/media/_library/assets/114873f95daad37e/back-stage.jpg",
-              "title": "back-stage.jpg",
-              "source_page": "/media/_library/assets/114873f95daad37e/back-stage.jpg",
+              "result_id": "library:d0db06db03c607f1",
+              "url": "/media/_library/assets/d0db06db03c607f1/asset.jpg",
+              "thumbnail_url": "/media/_library/assets/d0db06db03c607f1/asset.jpg",
+              "title": "asset.jpg",
+              "source_page": "/media/_library/assets/d0db06db03c607f1/asset.jpg",
+              "license": "verify rights before use",
+              "engine_id": "library",
+              "query": "led zepplin 1970s afterparty",
+              "selected_at": "2026-06-16T13:39:38.819Z"
+            },
+            {
+              "result_id": "library:bebd436b46a9dba6",
+              "url": "/media/_library/assets/bebd436b46a9dba6/asset.jpg",
+              "thumbnail_url": "/media/_library/assets/bebd436b46a9dba6/asset.jpg",
+              "title": "asset.jpg",
+              "source_page": "/media/_library/assets/bebd436b46a9dba6/asset.jpg",
+              "license": "verify rights before use",
+              "engine_id": "library",
+              "query": "rock band backstage 1970s afterparty",
+              "selected_at": "2026-06-16T13:39:49.819Z"
+            },
+            {
+              "result_id": "library:5303d73886869530",
+              "url": "/media/_library/assets/5303d73886869530/5ef82431-3303-455f-b2d4-5d414d5e57d2_1505x1875.jpg",
+              "thumbnail_url": "/media/_library/assets/5303d73886869530/5ef82431-3303-455f-b2d4-5d414d5e57d2_1505x1875.jpg",
+              "title": "5ef82431-3303-455f-b2d4-5d414d5e57d2_1505x1875.jpg",
+              "source_page": "/media/_library/assets/5303d73886869530/5ef82431-3303-455f-b2d4-5d414d5e57d2_1505x1875.jpg",
               "license": "manual upload — verify rights",
               "engine_id": "library",
-              "query": "Upload: back-stage.jpg",
-              "selected_at": "2026-06-12T22:35:29.933Z"
+              "query": "rock band backstage 1970s afterparty",
+              "selected_at": "2026-06-16T13:39:56.091Z"
             }
           ]
         },
@@ -4031,19 +4596,88 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T08:58:06.394Z",
-      "updated_at": "2026-06-13T08:58:06.394Z"
+      "completed_at": "2026-06-16T13:40:33.109Z",
+      "updated_at": "2026-06-16T13:40:33.109Z"
     },
-    "m076": {
-      "id": "m076",
-      "cue": 76,
+    "m086": {
+      "id": "m086",
+      "cue": 86,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "rock band backstage 1970s afterparty",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": [
+            {
+              "result_id": "library:294ef0e17dfc566c",
+              "url": "/media/_library/assets/294ef0e17dfc566c/qvxp7b9tbcvd1.jpeg",
+              "thumbnail_url": "/media/_library/assets/294ef0e17dfc566c/qvxp7b9tbcvd1.jpeg",
+              "title": "qvxp7b9tbcvd1.jpeg",
+              "source_page": "/media/_library/assets/294ef0e17dfc566c/qvxp7b9tbcvd1.jpeg",
+              "license": "manual upload — verify rights",
+              "engine_id": "library",
+              "query": "rock band backstage 1970s afterparty",
+              "selected_at": "2026-06-16T13:32:07.778Z"
+            },
+            {
+              "result_id": "library:25c33416b466d0f4",
+              "url": "/media/_library/assets/25c33416b466d0f4/asset.jpg",
+              "thumbnail_url": "/media/_library/assets/25c33416b466d0f4/asset.jpg",
+              "title": "asset.jpg",
+              "source_page": "/media/_library/assets/25c33416b466d0f4/asset.jpg",
+              "license": "verify rights before use",
+              "engine_id": "library",
+              "query": "rock band backstage 1970s afterparty",
+              "selected_at": "2026-06-16T13:32:01.407Z"
+            }
+          ]
+        },
+        {
+          "query_index": 1,
+          "query": "recording studio late night 1970s",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "tour bus backstage 1970s musicians",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T13:40:35.967Z",
+      "updated_at": "2026-06-16T13:40:35.967Z"
+    },
+    "m087": {
+      "id": "m087",
+      "cue": 87,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
       "status": "in_progress",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
-        "film_damage"
+        "film_damage",
+        "film_scratches"
       ],
       "transition": null,
       "text_graphic": null,
@@ -4076,11 +4710,67 @@
         }
       ],
       "completed_at": "2026-06-11T09:39:58.222764Z",
-      "updated_at": "2026-06-13T08:58:28.025Z"
+      "updated_at": "2026-06-16T21:14:22.525Z"
     },
-    "m077": {
-      "id": "m077",
-      "cue": 77,
+    "m088": {
+      "id": "m088",
+      "cue": 88,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "in_progress",
+      "notes": "",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "John Lennon 1970s photograph interview",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": [
+            {
+              "result_id": "library:6a48240fbb8a846c",
+              "url": "/media/_library/assets/6a48240fbb8a846c/asset.jpg",
+              "thumbnail_url": "/media/_library/assets/6a48240fbb8a846c/asset.jpg",
+              "title": "asset.jpg",
+              "source_page": "/media/_library/assets/6a48240fbb8a846c/asset.jpg",
+              "license": "verify rights before use",
+              "engine_id": "library",
+              "query": "john",
+              "selected_at": "2026-06-16T21:14:50.562Z"
+            }
+          ]
+        },
+        {
+          "query_index": 1,
+          "query": "John Lennon New York 1970s",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "John Lennon studio 1970s",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-16T21:14:57.998Z"
+    },
+    "m089": {
+      "id": "m089",
+      "cue": 89,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -4134,9 +4824,9 @@
       "completed_at": null,
       "updated_at": "2026-06-12T22:38:31.134Z"
     },
-    "m078": {
-      "id": "m078",
-      "cue": 78,
+    "m090": {
+      "id": "m090",
+      "cue": 90,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -4213,9 +4903,9 @@
       "completed_at": "2026-06-11T09:39:58.222973Z",
       "updated_at": "2026-06-13T08:58:47.111Z"
     },
-    "m079": {
-      "id": "m079",
-      "cue": 79,
+    "m091": {
+      "id": "m091",
+      "cue": 91,
       "source_visual_mode": "text_graphic",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
@@ -4260,9 +4950,9 @@
       "completed_at": "2026-06-13T09:01:56.603Z",
       "updated_at": "2026-06-13T20:38:42.086Z"
     },
-    "m080": {
-      "id": "m080",
-      "cue": 80,
+    "m092": {
+      "id": "m092",
+      "cue": 92,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -4316,9 +5006,9 @@
       "completed_at": "2026-06-13T09:03:03.749Z",
       "updated_at": "2026-06-13T09:03:03.749Z"
     },
-    "m081": {
-      "id": "m081",
-      "cue": 81,
+    "m093": {
+      "id": "m093",
+      "cue": 93,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "text_graphic",
       "resolved_media_type": "generated",
@@ -4377,9 +5067,9 @@
       "completed_at": "2026-06-13T09:04:51.672Z",
       "updated_at": "2026-06-13T20:20:45.525Z"
     },
-    "m082": {
-      "id": "m082",
-      "cue": 82,
+    "m094": {
+      "id": "m094",
+      "cue": 94,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -4434,13 +5124,13 @@
       "completed_at": "2026-06-13T09:05:03.096Z",
       "updated_at": "2026-06-13T09:05:03.096Z"
     },
-    "m083": {
-      "id": "m083",
-      "cue": 83,
+    "m095": {
+      "id": "m095",
+      "cue": 95,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "",
       "effects": [],
       "transition": null,
@@ -4485,16 +5175,16 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-13T22:01:49.636Z"
+      "completed_at": "2026-06-16T19:33:59.918Z",
+      "updated_at": "2026-06-16T19:33:59.918Z"
     },
-    "m084": {
-      "id": "m084",
-      "cue": 84,
+    "m096": {
+      "id": "m096",
+      "cue": 96,
       "source_visual_mode": "text_graphic",
       "resolved_visual_mode": "historical",
-      "resolved_media_type": "photo",
-      "status": "in_progress",
+      "resolved_media_type": "generated",
+      "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_damage"
@@ -4502,7 +5192,7 @@
       "transition": null,
       "text_graphic": {
         "type": "quote",
-        "text": "YOU DECIDE.",
+        "text": "",
         "style": "minimal_white"
       },
       "text_graphic_layer": null,
@@ -4531,16 +5221,16 @@
           ]
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.224421Z",
-      "updated_at": "2026-06-13T20:19:19.751Z"
+      "completed_at": "2026-06-16T19:37:00.016Z",
+      "updated_at": "2026-06-16T19:37:00.016Z"
     },
-    "m085": {
-      "id": "m085",
-      "cue": 85,
+    "m097": {
+      "id": "m097",
+      "cue": 97,
       "source_visual_mode": "text_graphic",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
-      "status": "complete",
+      "status": "in_progress",
       "notes": "",
       "effects": [
         "film_scratches",
@@ -4549,7 +5239,7 @@
       "transition": null,
       "text_graphic": {
         "type": "quote",
-        "text": "YOU DECIDE.",
+        "text": "",
         "style": "minimal_white"
       },
       "text_graphic_layer": null,
@@ -4563,27 +5253,62 @@
           "query": "(text graphic — no archive search)",
           "engine_id": "google",
           "engine_url": "https://www.google.com/search?q={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T19:37:33.286Z",
+      "updated_at": "2026-06-16T19:39:59.897Z"
+    },
+    "m098": {
+      "id": "m098",
+      "cue": 98,
+      "source_visual_mode": "text_graphic",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "generated",
+      "status": "in_progress",
+      "notes": "",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "text_graphic": {
+        "type": "quote",
+        "text": "",
+        "style": "minimal_white"
+      },
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "(text graphic — no archive search)",
+          "engine_id": "google",
+          "engine_url": "https://www.google.com/search?q={query}",
           "selections": [
             {
               "result_id": "library:03dedc4354bdf92b",
               "url": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
               "thumbnail_url": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
-              "title": "pressure GIF",
+              "title": "pressure-gif.gif",
               "source_page": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
               "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-              "engine_id": "giphy_sticker",
-              "query": "GIPHY: pressure GIF",
-              "selected_at": "2026-06-15T19:27:45.854Z"
+              "engine_id": "library",
+              "query": "pressure-gif.gif",
+              "selected_at": "2026-06-16T19:37:51.911Z"
             }
           ]
         }
       ],
-      "completed_at": "2026-06-13T22:05:51.561Z",
-      "updated_at": "2026-06-15T19:27:45.854Z"
+      "completed_at": null,
+      "updated_at": "2026-06-16T19:39:32.768Z"
     },
-    "m086": {
-      "id": "m086",
-      "cue": 86,
+    "m099": {
+      "id": "m099",
+      "cue": 99,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "text_graphic",
       "resolved_media_type": "generated",
@@ -4630,9 +5355,9 @@
       "completed_at": "2026-06-13T22:06:02.227Z",
       "updated_at": "2026-06-15T19:26:59.209Z"
     },
-    "m087": {
-      "id": "m087",
-      "cue": 87,
+    "m100": {
+      "id": "m100",
+      "cue": 100,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -4686,9 +5411,9 @@
       "completed_at": "2026-06-13T22:06:37.411Z",
       "updated_at": "2026-06-13T22:06:37.411Z"
     },
-    "m088": {
-      "id": "m088",
-      "cue": 88,
+    "m101": {
+      "id": "m101",
+      "cue": 101,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -4743,9 +5468,9 @@
       "completed_at": null,
       "updated_at": "2026-06-15T19:28:27.205Z"
     },
-    "m089": {
-      "id": "m089",
-      "cue": 89,
+    "m102": {
+      "id": "m102",
+      "cue": 102,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "text_graphic",
       "resolved_media_type": "generated",
@@ -4804,9 +5529,9 @@
       "completed_at": "2026-06-13T22:14:36.030Z",
       "updated_at": "2026-06-15T19:29:01.046Z"
     },
-    "m090": {
-      "id": "m090",
-      "cue": 90,
+    "m103": {
+      "id": "m103",
+      "cue": 103,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -4860,9 +5585,9 @@
       "completed_at": "2026-06-13T22:19:52.051Z",
       "updated_at": "2026-06-13T22:19:52.051Z"
     },
-    "m091": {
-      "id": "m091",
-      "cue": 91,
+    "m104": {
+      "id": "m104",
+      "cue": 104,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -4919,9 +5644,9 @@
       "completed_at": "2026-06-11T09:39:58.225065Z",
       "updated_at": "2026-06-15T19:29:26.269Z"
     },
-    "m092": {
-      "id": "m092",
-      "cue": 92,
+    "m105": {
+      "id": "m105",
+      "cue": 105,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
@@ -4966,9 +5691,9 @@
       "completed_at": null,
       "updated_at": "2026-06-15T19:29:45.239Z"
     },
-    "m093": {
-      "id": "m093",
-      "cue": 93,
+    "m106": {
+      "id": "m106",
+      "cue": 106,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -5024,9 +5749,9 @@
       "completed_at": "2026-06-11T09:39:58.225276Z",
       "updated_at": "2026-06-13T09:15:32.096Z"
     },
-    "m094": {
-      "id": "m094",
-      "cue": 94,
+    "m107": {
+      "id": "m107",
+      "cue": 107,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "text_graphic",
       "resolved_media_type": "generated",
@@ -5068,9 +5793,9 @@
       "completed_at": "2026-06-13T09:17:10.092Z",
       "updated_at": "2026-06-13T20:26:09.842Z"
     },
-    "m095": {
-      "id": "m095",
-      "cue": 95,
+    "m108": {
+      "id": "m108",
+      "cue": 108,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -5124,13 +5849,13 @@
       "completed_at": "2026-06-13T20:26:33.253Z",
       "updated_at": "2026-06-13T20:26:33.253Z"
     },
-    "m096": {
-      "id": "m096",
-      "cue": 96,
+    "m109": {
+      "id": "m109",
+      "cue": 109,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "",
       "effects": [
         "film_scratches"
@@ -5181,16 +5906,16 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-13T09:23:29.495Z",
-      "updated_at": "2026-06-15T19:37:05.775Z"
+      "completed_at": "2026-06-16T19:43:18.969Z",
+      "updated_at": "2026-06-16T19:43:18.969Z"
     },
-    "m097": {
-      "id": "m097",
-      "cue": 97,
+    "m110": {
+      "id": "m110",
+      "cue": 110,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_scratches"
@@ -5225,16 +5950,16 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.225683Z",
-      "updated_at": "2026-06-15T19:37:23.844Z"
+      "completed_at": "2026-06-16T19:44:17.809Z",
+      "updated_at": "2026-06-16T19:44:17.809Z"
     },
-    "m098": {
-      "id": "m098",
-      "cue": 98,
+    "m111": {
+      "id": "m111",
+      "cue": 111,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "",
       "effects": [
         "film_scratches"
@@ -5281,16 +6006,16 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-15T19:37:38.375Z"
+      "completed_at": "2026-06-16T19:45:07.587Z",
+      "updated_at": "2026-06-16T19:45:07.587Z"
     },
-    "m099": {
-      "id": "m099",
-      "cue": 99,
+    "m112": {
+      "id": "m112",
+      "cue": 112,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "",
       "effects": [],
       "transition": null,
@@ -5335,16 +6060,16 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-15T19:44:02.302Z"
+      "completed_at": "2026-06-16T19:45:11.196Z",
+      "updated_at": "2026-06-16T19:45:11.196Z"
     },
-    "m100": {
-      "id": "m100",
-      "cue": 100,
+    "m113": {
+      "id": "m113",
+      "cue": 113,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_scratches"
@@ -5391,12 +6116,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.225882Z",
-      "updated_at": "2026-06-15T19:40:25.043Z"
+      "completed_at": "2026-06-16T19:45:15.281Z",
+      "updated_at": "2026-06-16T19:45:15.281Z"
     },
-    "m101": {
-      "id": "m101",
-      "cue": 101,
+    "m114": {
+      "id": "m114",
+      "cue": 114,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -5447,12 +6172,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.226110Z",
-      "updated_at": "2026-06-15T19:46:04.266Z"
+      "completed_at": "2026-06-16T19:45:18.320Z",
+      "updated_at": "2026-06-16T19:45:18.320Z"
     },
-    "m102": {
-      "id": "m102",
-      "cue": 102,
+    "m115": {
+      "id": "m115",
+      "cue": 115,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -5503,12 +6228,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T19:47:58.338Z",
-      "updated_at": "2026-06-15T19:47:58.338Z"
+      "completed_at": "2026-06-16T19:45:21.919Z",
+      "updated_at": "2026-06-16T19:45:21.919Z"
     },
-    "m103": {
-      "id": "m103",
-      "cue": 103,
+    "m116": {
+      "id": "m116",
+      "cue": 116,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -5521,8 +6246,8 @@
       "text_graphic": null,
       "text_graphic_layer": null,
       "background_color": "#000000",
-      "sticker_overlay_enabled": false,
-      "sticker_overlay_size": "medium",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "large",
       "title_overlay_enabled": true,
       "queries": [
         {
@@ -5532,15 +6257,15 @@
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": [
             {
-              "result_id": "library:cb5d996f1cdae9ce",
-              "url": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
-              "thumbnail_url": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
-              "title": "lets-look-at-the-facts-its-1980.png",
-              "source_page": "/media/_library/assets/cb5d996f1cdae9ce/lets-look-at-the-facts-its-1980.png",
-              "license": "migrated from episode 001 acquired/ — verify rights",
-              "engine_id": "library",
-              "query": "Rolling Stone magazine 1980 cover",
-              "selected_at": "2026-06-11T09:39:58.226552Z"
+              "result_id": "library:f744012ad76f10ce",
+              "url": "/media/_library/assets/f744012ad76f10ce/in-rock-n-roll-font-1980.png",
+              "thumbnail_url": "/media/_library/assets/f744012ad76f10ce/in-rock-n-roll-font-1980.png",
+              "title": "in rock n roll font: 1980",
+              "source_page": "/media/_library/assets/f744012ad76f10ce/in-rock-n-roll-font-1980.png",
+              "license": "OpenAI generated — verify editorial use",
+              "engine_id": "openai_sticker",
+              "query": "OpenAI sticker: in rock n roll font: 1980",
+              "selected_at": "2026-06-16T19:47:14.290Z"
             }
           ]
         },
@@ -5559,16 +6284,16 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T19:48:42.370Z",
-      "updated_at": "2026-06-15T19:48:42.370Z"
+      "completed_at": "2026-06-16T19:47:31.382Z",
+      "updated_at": "2026-06-16T19:47:31.382Z"
     },
-    "m104": {
-      "id": "m104",
-      "cue": 104,
+    "m117": {
+      "id": "m117",
+      "cue": 117,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "",
       "effects": [],
       "transition": null,
@@ -5576,7 +6301,7 @@
       "text_graphic_layer": null,
       "background_color": "#000000",
       "sticker_overlay_enabled": true,
-      "sticker_overlay_size": "medium",
+      "sticker_overlay_size": "large",
       "title_overlay_enabled": true,
       "queries": [
         {
@@ -5586,15 +6311,15 @@
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": [
             {
-              "result_id": "library:468343728f2a87c1",
-              "url": "/media/_library/assets/468343728f2a87c1/asset.jpg",
-              "thumbnail_url": "/media/_library/assets/468343728f2a87c1/asset.jpg",
-              "title": "asset.jpg",
-              "source_page": "/media/_library/assets/468343728f2a87c1/asset.jpg",
-              "license": "verify rights before use",
-              "engine_id": "library",
-              "query": "studio 54 1980",
-              "selected_at": "2026-06-15T19:50:02.830Z"
+              "result_id": "library:b50ff4631474b716",
+              "url": "/media/_library/assets/b50ff4631474b716/rave-gif.gif",
+              "thumbnail_url": "/media/_library/assets/b50ff4631474b716/rave-gif.gif",
+              "title": "rave GIF",
+              "source_page": "/media/_library/assets/b50ff4631474b716/rave-gif.gif",
+              "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+              "engine_id": "giphy_sticker",
+              "query": "GIPHY: rave GIF",
+              "selected_at": "2026-06-16T19:52:49.116Z"
             }
           ]
         },
@@ -5613,12 +6338,12 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-15T19:50:02.830Z"
+      "completed_at": "2026-06-16T19:55:35.046Z",
+      "updated_at": "2026-06-16T19:55:35.046Z"
     },
-    "m105": {
-      "id": "m105",
-      "cue": 105,
+    "m118": {
+      "id": "m118",
+      "cue": 118,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -5642,15 +6367,15 @@
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": [
             {
-              "result_id": "library:6d74d60939a20771",
-              "url": "/media/_library/assets/6d74d60939a20771/heavy-metal-80s-gif-by-retro-fiend.gif",
-              "thumbnail_url": "/media/_library/assets/6d74d60939a20771/heavy-metal-80s-gif-by-retro-fiend.gif",
-              "title": "heavy metal 80s GIF by RETRO-FIEND",
-              "source_page": "/media/_library/assets/6d74d60939a20771/heavy-metal-80s-gif-by-retro-fiend.gif",
+              "result_id": "library:3664a60b57b4e086",
+              "url": "/media/_library/assets/3664a60b57b4e086/punk-rock-vintage-gif.gif",
+              "thumbnail_url": "/media/_library/assets/3664a60b57b4e086/punk-rock-vintage-gif.gif",
+              "title": "punk rock vintage GIF",
+              "source_page": "/media/_library/assets/3664a60b57b4e086/punk-rock-vintage-gif.gif",
               "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
               "engine_id": "giphy_sticker",
-              "query": "GIPHY: heavy metal 80s GIF by RETRO-FIEND",
-              "selected_at": "2026-06-15T19:51:14.727Z"
+              "query": "GIPHY: punk rock vintage GIF",
+              "selected_at": "2026-06-16T19:49:44.736Z"
             }
           ]
         },
@@ -5669,12 +6394,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.226780Z",
-      "updated_at": "2026-06-15T19:51:26.595Z"
+      "completed_at": "2026-06-16T19:55:37.094Z",
+      "updated_at": "2026-06-16T19:55:37.094Z"
     },
-    "m106": {
-      "id": "m106",
-      "cue": 106,
+    "m119": {
+      "id": "m119",
+      "cue": 119,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -5725,12 +6450,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T19:52:53.172Z",
-      "updated_at": "2026-06-15T19:52:53.172Z"
+      "completed_at": "2026-06-16T19:55:39.651Z",
+      "updated_at": "2026-06-16T19:55:39.651Z"
     },
-    "m107": {
-      "id": "m107",
-      "cue": 107,
+    "m120": {
+      "id": "m120",
+      "cue": 120,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -5782,16 +6507,16 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.227015Z",
-      "updated_at": "2026-06-15T19:55:10.472Z"
+      "completed_at": "2026-06-16T19:55:43.192Z",
+      "updated_at": "2026-06-16T19:55:43.192Z"
     },
-    "m108": {
-      "id": "m108",
-      "cue": 108,
+    "m121": {
+      "id": "m121",
+      "cue": 121,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "",
       "effects": [
         "film_scratches",
@@ -5839,12 +6564,12 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-15T19:54:22.714Z"
+      "completed_at": "2026-06-16T19:55:47.436Z",
+      "updated_at": "2026-06-16T19:55:47.436Z"
     },
-    "m109": {
-      "id": "m109",
-      "cue": 109,
+    "m122": {
+      "id": "m122",
+      "cue": 122,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -5895,16 +6620,16 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T19:56:20.870Z",
-      "updated_at": "2026-06-15T19:56:20.870Z"
+      "completed_at": "2026-06-16T19:55:51.823Z",
+      "updated_at": "2026-06-16T19:55:51.823Z"
     },
-    "m110": {
-      "id": "m110",
-      "cue": 110,
+    "m123": {
+      "id": "m123",
+      "cue": 123,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "",
       "effects": [
         "film_scratches",
@@ -5952,12 +6677,12 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-15T19:56:56.378Z"
+      "completed_at": "2026-06-16T19:55:54.292Z",
+      "updated_at": "2026-06-16T19:55:54.292Z"
     },
-    "m111": {
-      "id": "m111",
-      "cue": 111,
+    "m124": {
+      "id": "m124",
+      "cue": 124,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "text_graphic",
       "resolved_media_type": "generated",
@@ -6000,16 +6725,16 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T19:59:53.178Z",
-      "updated_at": "2026-06-15T19:59:53.178Z"
+      "completed_at": "2026-06-16T19:55:59.355Z",
+      "updated_at": "2026-06-16T19:55:59.355Z"
     },
-    "m112": {
-      "id": "m112",
-      "cue": 112,
+    "m125": {
+      "id": "m125",
+      "cue": 125,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "",
       "effects": [
         "film_scratches",
@@ -6057,26 +6782,25 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-15T20:01:43.871Z"
+      "completed_at": "2026-06-16T19:56:03.763Z",
+      "updated_at": "2026-06-16T19:56:03.763Z"
     },
-    "m113": {
-      "id": "m113",
-      "cue": 113,
+    "m126": {
+      "id": "m126",
+      "cue": 126,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "",
       "effects": [
-        "film_scratches",
-        "film_damage"
+        "film_scratches"
       ],
       "transition": null,
       "text_graphic": null,
       "text_graphic_layer": null,
       "background_color": "#000000",
-      "sticker_overlay_enabled": true,
+      "sticker_overlay_enabled": false,
       "sticker_overlay_size": "medium",
       "title_overlay_enabled": true,
       "queries": [
@@ -6085,7 +6809,30 @@
           "query": "Disco Demolition Night 1979 Comiskey Park",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": []
+          "selections": [
+            {
+              "result_id": "library:6486bf57de551835",
+              "url": "/media/_library/assets/6486bf57de551835/the-word-disco-with-a-cancel-circle-slash.png",
+              "thumbnail_url": "/media/_library/assets/6486bf57de551835/the-word-disco-with-a-cancel-circle-slash.png",
+              "title": "the word disco with a cancel circle slash",
+              "source_page": "/media/_library/assets/6486bf57de551835/the-word-disco-with-a-cancel-circle-slash.png",
+              "license": "OpenAI generated — verify editorial use",
+              "engine_id": "openai_sticker",
+              "query": "OpenAI sticker: the word disco with a cancel circle slash",
+              "selected_at": "2026-06-16T19:58:38.033Z"
+            },
+            {
+              "result_id": "library:83995c303a8f8378",
+              "url": "/media/_library/assets/83995c303a8f8378/genphoto-208be390.jpg",
+              "thumbnail_url": "/media/_library/assets/83995c303a8f8378/genphoto-208be390.jpg",
+              "title": "the word disco with a cancel circle slash",
+              "source_page": "/media/_library/assets/83995c303a8f8378/genphoto-208be390.jpg",
+              "license": "OpenAI generated — verify editorial use",
+              "engine_id": "openai_photo",
+              "query": "OpenAI photo: the word disco with a cancel circle slash",
+              "selected_at": "2026-06-16T19:58:43.470Z"
+            }
+          ]
         },
         {
           "query_index": 1,
@@ -6102,12 +6849,12 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-15T20:02:06.319Z"
+      "completed_at": "2026-06-16T20:00:56.300Z",
+      "updated_at": "2026-06-16T20:00:56.300Z"
     },
-    "m114": {
-      "id": "m114",
-      "cue": 114,
+    "m127": {
+      "id": "m127",
+      "cue": 127,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "generated",
@@ -6163,12 +6910,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:11:41.939Z",
-      "updated_at": "2026-06-15T20:11:41.939Z"
+      "completed_at": "2026-06-16T20:00:59.667Z",
+      "updated_at": "2026-06-16T20:00:59.667Z"
     },
-    "m115": {
-      "id": "m115",
-      "cue": 115,
+    "m128": {
+      "id": "m128",
+      "cue": 128,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -6217,16 +6964,16 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:11:46.537Z",
-      "updated_at": "2026-06-15T20:11:46.537Z"
+      "completed_at": "2026-06-16T20:01:09.694Z",
+      "updated_at": "2026-06-16T20:01:09.694Z"
     },
-    "m116": {
-      "id": "m116",
-      "cue": 116,
+    "m129": {
+      "id": "m129",
+      "cue": 129,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "text_graphic",
       "resolved_media_type": "generated",
-      "status": "text_graphic",
+      "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_scratches",
@@ -6235,7 +6982,7 @@
       "transition": null,
       "text_graphic": {
         "type": "transcription",
-        "text": "disco bathrooms, punk squads, self-destruction, and gay",
+        "text": "disco bathrooms, punk squats, self-destruction, and gay",
         "style": "typewriter"
       },
       "text_graphic_layer": null,
@@ -6278,12 +7025,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.227917Z",
-      "updated_at": "2026-06-15T20:12:42.876Z"
+      "completed_at": "2026-06-16T20:02:43.462Z",
+      "updated_at": "2026-06-16T20:02:43.462Z"
     },
-    "m117": {
-      "id": "m117",
-      "cue": 117,
+    "m130": {
+      "id": "m130",
+      "cue": 130,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -6334,16 +7081,16 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:13:10.716Z",
-      "updated_at": "2026-06-15T20:13:10.716Z"
+      "completed_at": "2026-06-16T20:02:46.153Z",
+      "updated_at": "2026-06-16T20:02:46.153Z"
     },
-    "m118": {
-      "id": "m118",
-      "cue": 118,
+    "m131": {
+      "id": "m131",
+      "cue": 131,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "",
       "effects": [
         "film_scratches",
@@ -6379,12 +7126,12 @@
           "selections": []
         }
       ],
-      "completed_at": null,
-      "updated_at": "2026-06-15T20:13:27.560Z"
+      "completed_at": "2026-06-16T20:02:51.095Z",
+      "updated_at": "2026-06-16T20:02:51.095Z"
     },
-    "m119": {
-      "id": "m119",
-      "cue": 119,
+    "m132": {
+      "id": "m132",
+      "cue": 132,
       "source_visual_mode": "artifact",
       "resolved_visual_mode": "artifact",
       "resolved_media_type": "photo",
@@ -6435,12 +7182,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:13:46.527Z",
-      "updated_at": "2026-06-15T20:13:46.527Z"
+      "completed_at": "2026-06-16T20:02:55.723Z",
+      "updated_at": "2026-06-16T20:02:55.723Z"
     },
-    "m120": {
-      "id": "m120",
-      "cue": 120,
+    "m133": {
+      "id": "m133",
+      "cue": 133,
       "source_visual_mode": "artifact",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
@@ -6463,19 +7210,7 @@
           "query": "Back in Black vinyl record 1980",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-          "selections": [
-            {
-              "result_id": "library:fbae57ba1193a747",
-              "url": "/media/_library/assets/fbae57ba1193a747/asset.jpg",
-              "thumbnail_url": "/media/_library/assets/fbae57ba1193a747/asset.jpg",
-              "title": "asset.jpg",
-              "source_page": "/media/_library/assets/fbae57ba1193a747/asset.jpg",
-              "license": "verify rights before use",
-              "engine_id": "library",
-              "query": "velvet underground groopie",
-              "selected_at": "2026-06-15T20:15:36.905Z"
-            }
-          ]
+          "selections": []
         },
         {
           "query_index": 1,
@@ -6492,12 +7227,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:15:55.255Z",
-      "updated_at": "2026-06-15T20:15:55.255Z"
+      "completed_at": "2026-06-16T20:03:07.491Z",
+      "updated_at": "2026-06-16T20:03:07.491Z"
     },
-    "m121": {
-      "id": "m121",
-      "cue": 121,
+    "m134": {
+      "id": "m134",
+      "cue": 134,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "video",
@@ -6549,12 +7284,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:17:05.501Z",
-      "updated_at": "2026-06-15T20:17:05.501Z"
+      "completed_at": "2026-06-16T20:04:37.941Z",
+      "updated_at": "2026-06-16T20:04:37.941Z"
     },
-    "m122": {
-      "id": "m122",
-      "cue": 122,
+    "m135": {
+      "id": "m135",
+      "cue": 135,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -6605,12 +7340,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:18:04.487Z",
-      "updated_at": "2026-06-15T20:18:04.487Z"
+      "completed_at": "2026-06-16T20:04:41.144Z",
+      "updated_at": "2026-06-16T20:04:41.144Z"
     },
-    "m123": {
-      "id": "m123",
-      "cue": 123,
+    "m136": {
+      "id": "m136",
+      "cue": 136,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
@@ -6650,12 +7385,113 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:18:32.875Z",
-      "updated_at": "2026-06-15T20:18:32.875Z"
+      "completed_at": "2026-06-16T20:04:57.403Z",
+      "updated_at": "2026-06-16T20:04:57.403Z"
     },
-    "m124": {
-      "id": "m124",
-      "cue": 124,
+    "m137": {
+      "id": "m137",
+      "cue": 137,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "historical",
+      "resolved_media_type": "photo",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_damage",
+        "film_scratches"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "large",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "1980 car commercial television still",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": [
+            {
+              "result_id": "library:faf528d80de64c7f",
+              "url": "/media/_library/assets/faf528d80de64c7f/no-way-do-not-want-gif.gif",
+              "thumbnail_url": "/media/_library/assets/faf528d80de64c7f/no-way-do-not-want-gif.gif",
+              "title": "No Way Do Not Want GIF",
+              "source_page": "/media/_library/assets/faf528d80de64c7f/no-way-do-not-want-gif.gif",
+              "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+              "engine_id": "giphy_sticker",
+              "query": "GIPHY: No Way Do Not Want GIF",
+              "selected_at": "2026-06-16T20:08:18.780Z"
+            }
+          ]
+        },
+        {
+          "query_index": 1,
+          "query": "advertising agency 1980 meeting",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "Chevrolet advertisement 1980",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T20:07:06.056Z",
+      "updated_at": "2026-06-16T20:08:18.780Z"
+    },
+    "m138": {
+      "id": "m138",
+      "cue": 138,
+      "source_visual_mode": "historical",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "generated",
+      "status": "in_progress",
+      "notes": "",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "text_graphic": null,
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "1980 car commercial television still",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 1,
+          "query": "advertising agency 1980 meeting",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        },
+        {
+          "query_index": 2,
+          "query": "Chevrolet advertisement 1980",
+          "engine_id": "commons",
+          "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": null,
+      "updated_at": "2026-06-16T20:07:25.123Z"
+    },
+    "m139": {
+      "id": "m139",
+      "cue": 139,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -6710,17 +7546,16 @@
       "completed_at": "2026-06-15T20:19:15.144Z",
       "updated_at": "2026-06-15T20:19:15.144Z"
     },
-    "m125": {
-      "id": "m125",
-      "cue": 125,
+    "m140": {
+      "id": "m140",
+      "cue": 140,
       "source_visual_mode": "artifact",
       "resolved_visual_mode": "artifact",
       "resolved_media_type": "photo",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
-        "slow_spin",
-        "film_scratches"
+        "slow_spin"
       ],
       "transition": null,
       "text_graphic": null,
@@ -6764,23 +7599,27 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:19:35.048Z",
-      "updated_at": "2026-06-15T20:19:35.048Z"
+      "completed_at": "2026-06-16T20:20:46.587Z",
+      "updated_at": "2026-06-16T20:20:46.587Z"
     },
-    "m126": {
-      "id": "m126",
-      "cue": 126,
+    "m141": {
+      "id": "m141",
+      "cue": 141,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "generated",
-      "status": "in_progress",
+      "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_scratches",
         "film_damage"
       ],
       "transition": null,
-      "text_graphic": null,
+      "text_graphic": {
+        "type": "transcription",
+        "text": "It'a all about the money. ",
+        "style": "typewriter"
+      },
       "text_graphic_layer": null,
       "background_color": "#000000",
       "sticker_overlay_enabled": true,
@@ -6794,15 +7633,15 @@
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": [
             {
-              "result_id": "library:7206a855e6688cd6",
-              "url": "/media/_library/assets/7206a855e6688cd6/in-acdc-font-money.png",
-              "thumbnail_url": "/media/_library/assets/7206a855e6688cd6/in-acdc-font-money.png",
-              "title": "in AC/DC font: Money",
-              "source_page": "/media/_library/assets/7206a855e6688cd6/in-acdc-font-money.png",
-              "license": "OpenAI generated — verify editorial use",
-              "engine_id": "openai_sticker",
-              "query": "OpenAI sticker: in AC/DC font: Money",
-              "selected_at": "2026-06-15T20:20:37.787Z"
+              "result_id": "library:eaab80544c277235",
+              "url": "/media/_library/assets/eaab80544c277235/make-it-rain-money-gif.gif",
+              "thumbnail_url": "/media/_library/assets/eaab80544c277235/make-it-rain-money-gif.gif",
+              "title": "Make It Rain Money GIF",
+              "source_page": "/media/_library/assets/eaab80544c277235/make-it-rain-money-gif.gif",
+              "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+              "engine_id": "giphy_sticker",
+              "query": "GIPHY: Make It Rain Money GIF",
+              "selected_at": "2026-06-16T20:17:02.212Z"
             }
           ]
         },
@@ -6821,27 +7660,25 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.229571Z",
-      "updated_at": "2026-06-15T20:20:43.933Z"
+      "completed_at": "2026-06-16T20:20:52.211Z",
+      "updated_at": "2026-06-16T20:20:52.211Z"
     },
-    "m127": {
-      "id": "m127",
-      "cue": 127,
+    "m142": {
+      "id": "m142",
+      "cue": 142,
       "source_visual_mode": "text_graphic",
-      "resolved_visual_mode": "historical",
-      "resolved_media_type": "photo",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "generated",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
         "film_scratches",
-        "film_damage",
-        "tremble",
-        "slow_zoom_in"
+        "film_damage"
       ],
       "transition": null,
       "text_graphic": {
         "type": "quote",
-        "text": "DID BON SCOTT KNOW HE WAS GOING TO DIE?",
+        "text": "",
         "style": "typewriter"
       },
       "text_graphic_layer": null,
@@ -6855,34 +7692,67 @@
           "query": "(text graphic — no archive search)",
           "engine_id": "commons",
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+          "selections": []
+        }
+      ],
+      "completed_at": "2026-06-16T20:22:02.624Z",
+      "updated_at": "2026-06-16T20:22:02.624Z"
+    },
+    "m143": {
+      "id": "m143",
+      "cue": 143,
+      "source_visual_mode": "text_graphic",
+      "resolved_visual_mode": "effect_only",
+      "resolved_media_type": "generated",
+      "status": "complete",
+      "notes": "",
+      "effects": [
+        "film_scratches"
+      ],
+      "transition": null,
+      "text_graphic": {
+        "type": "quote",
+        "text": "",
+        "style": "typewriter"
+      },
+      "text_graphic_layer": null,
+      "background_color": "#000000",
+      "sticker_overlay_enabled": true,
+      "sticker_overlay_size": "medium",
+      "title_overlay_enabled": true,
+      "queries": [
+        {
+          "query_index": 0,
+          "query": "(text graphic — no archive search)",
+          "engine_id": "google",
+          "engine_url": "https://www.google.com/search?q={query}",
           "selections": [
             {
-              "result_id": "library:39c25ce872dd60d8",
-              "url": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
-              "thumbnail_url": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
-              "title": "the-man-has-been-dead-for-five-months.jpg",
-              "source_page": "/media/_library/assets/39c25ce872dd60d8/the-man-has-been-dead-for-five-months.jpg",
-              "license": "migrated from episode 001 acquired/ — verify rights",
+              "result_id": "library:c7b223a0d10268b8",
+              "url": "/media/_library/assets/c7b223a0d10268b8/bon-scott-gif.gif",
+              "thumbnail_url": "/media/_library/assets/c7b223a0d10268b8/bon-scott-gif.gif",
+              "title": "bon-scott-gif.gif",
+              "source_page": "/media/_library/assets/c7b223a0d10268b8/bon-scott-gif.gif",
+              "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
               "engine_id": "library",
-              "query": "the-man-has-been-dead-for-five-months.jpg",
-              "selected_at": "2026-06-14T15:05:40.345Z"
+              "query": "bon-scott-gif.gif",
+              "selected_at": "2026-06-16T12:00:00.411Z"
             }
           ]
         }
       ],
-      "completed_at": "2026-06-15T20:21:10.266Z",
-      "updated_at": "2026-06-15T20:21:10.266Z"
+      "completed_at": "2026-06-16T20:23:36.892Z",
+      "updated_at": "2026-06-16T20:23:36.892Z"
     },
-    "m128": {
-      "id": "m128",
-      "cue": 128,
+    "m144": {
+      "id": "m144",
+      "cue": 144,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
-        "film_scratches",
         "film_damage",
         "slow_push_in"
       ],
@@ -6928,12 +7798,12 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-11T09:39:58.230018Z",
-      "updated_at": "2026-06-15T20:21:23.555Z"
+      "completed_at": "2026-06-16T20:23:40.816Z",
+      "updated_at": "2026-06-16T20:23:40.816Z"
     },
-    "m129": {
-      "id": "m129",
-      "cue": 129,
+    "m145": {
+      "id": "m145",
+      "cue": 145,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
@@ -6986,20 +7856,19 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:23:49.693Z",
-      "updated_at": "2026-06-15T20:23:49.693Z"
+      "completed_at": "2026-06-16T20:23:45.923Z",
+      "updated_at": "2026-06-16T20:23:45.923Z"
     },
-    "m130": {
-      "id": "m130",
-      "cue": 130,
+    "m146": {
+      "id": "m146",
+      "cue": 146,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "photo",
       "status": "complete",
       "notes": "",
       "effects": [
-        "film_scratches",
-        "film_damage"
+        "film_scratches"
       ],
       "transition": null,
       "text_graphic": null,
@@ -7043,19 +7912,20 @@
           "selections": []
         }
       ],
-      "completed_at": "2026-06-15T20:24:49.112Z",
-      "updated_at": "2026-06-15T20:25:46.885Z"
+      "completed_at": "2026-06-16T20:23:49.349Z",
+      "updated_at": "2026-06-16T20:23:49.349Z"
     },
-    "m131": {
-      "id": "m131",
-      "cue": 131,
+    "m147": {
+      "id": "m147",
+      "cue": 147,
       "source_visual_mode": "historical",
       "resolved_visual_mode": "historical",
       "resolved_media_type": "video",
       "status": "complete",
       "notes": "[Library pass — verify license before publish]",
       "effects": [
-        "film_scratches"
+        "film_scratches",
+        "slow_push_in"
       ],
       "transition": null,
       "text_graphic": null,
@@ -7072,15 +7942,15 @@
           "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
           "selections": [
             {
-              "result_id": "library:b8ccbdb02d5fde6a",
-              "url": "/media/_library/assets/b8ccbdb02d5fde6a/five-months-later-they-release-back-in-black.jpg",
-              "thumbnail_url": "/media/_library/assets/b8ccbdb02d5fde6a/five-months-later-they-release-back-in-black.jpg",
-              "title": "five-months-later-they-release-back-in-black.jpg",
-              "source_page": "/media/_library/assets/b8ccbdb02d5fde6a/five-months-later-they-release-back-in-black.jpg",
+              "result_id": "library:4df094b9972c4bbc",
+              "url": "/media/_library/assets/4df094b9972c4bbc/highway-to-hell-not-a-vague-rock-statement.jpg",
+              "thumbnail_url": "/media/_library/assets/4df094b9972c4bbc/highway-to-hell-not-a-vague-rock-statement.jpg",
+              "title": "highway-to-hell-not-a-vague-rock-statement.jpg",
+              "source_page": "/media/_library/assets/4df094b9972c4bbc/highway-to-hell-not-a-vague-rock-statement.jpg",
               "license": "migrated from episode 001 acquired/ — verify rights",
               "engine_id": "library",
-              "query": "five-months-later-they-release-back-in-black.jpg",
-              "selected_at": "2026-06-14T15:01:31.874Z"
+              "query": "highway-to-hell-not-a-vague-rock-statement.jpg",
+              "selected_at": "2026-06-16T11:54:34.429Z"
             }
           ]
         },
@@ -7100,11 +7970,11 @@
         }
       ],
       "completed_at": "2026-06-11T09:39:58.230453Z",
-      "updated_at": "2026-06-15T20:25:31.434Z"
+      "updated_at": "2026-06-16T20:23:57.171Z"
     },
-    "m132": {
-      "id": "m132",
-      "cue": 132,
+    "m148": {
+      "id": "m148",
+      "cue": 148,
       "source_visual_mode": "effect_only",
       "resolved_visual_mode": "effect_only",
       "resolved_media_type": "photo",

@@ -1,0 +1,61 @@
+{
+  "id": "m141",
+  "cue": 141,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "It'a all about the money. ",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "business handshake meeting 1980 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:eaab80544c277235",
+          "url": "/media/_library/assets/eaab80544c277235/make-it-rain-money-gif.gif",
+          "thumbnail_url": "/media/_library/assets/eaab80544c277235/make-it-rain-money-gif.gif",
+          "title": "Make It Rain Money GIF",
+          "source_page": "/media/_library/assets/eaab80544c277235/make-it-rain-money-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: Make It Rain Money GIF",
+          "selected_at": "2026-06-16T20:17:02.212Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "record label meeting 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "music industry executives meeting 1980s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-16T20:20:52.211Z",
+  "updated_at": "2026-06-16T20:20:52.211Z"
+}

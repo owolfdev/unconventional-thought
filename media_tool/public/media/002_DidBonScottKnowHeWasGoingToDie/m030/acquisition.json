@@ -25,15 +25,15 @@
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:6babf13dda7a42c0",
-          "url": "/media/_library/assets/6babf13dda7a42c0/asset.jpg",
-          "thumbnail_url": "/media/_library/assets/6babf13dda7a42c0/asset.jpg",
-          "title": "asset.jpg",
-          "source_page": "/media/_library/assets/6babf13dda7a42c0/asset.jpg",
-          "license": "verify rights before use",
+          "result_id": "library:64de483cac40cd2b",
+          "url": "/media/_library/assets/64de483cac40cd2b/highwaytohell.jpg",
+          "thumbnail_url": "/media/_library/assets/64de483cac40cd2b/highwaytohell.jpg",
+          "title": "highwaytohell.jpg",
+          "source_page": "/media/_library/assets/64de483cac40cd2b/highwaytohell.jpg",
+          "license": "manual upload — verify rights",
           "engine_id": "library",
-          "query": "highway to hell platinum record",
-          "selected_at": "2026-06-14T18:02:53.626Z"
+          "query": "Upload: highwaytohell.jpg",
+          "selected_at": "2026-06-16T19:09:22.486Z"
         }
       ]
     },
@@ -53,5 +53,5 @@
     }
   ],
   "completed_at": "2026-06-11T09:39:58.217586Z",
-  "updated_at": "2026-06-14T18:03:02.599Z"
+  "updated_at": "2026-06-16T19:09:22.486Z"
 }

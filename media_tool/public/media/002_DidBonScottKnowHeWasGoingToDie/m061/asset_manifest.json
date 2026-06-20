@@ -2,33 +2,32 @@
   "version": 1,
   "id": "m061",
   "cue": 61,
-  "t_start": 187.26,
-  "t_end": 189.26,
-  "duration_sec": 2,
-  "spoken": "the tip of a hypodermic needle.",
-  "visual_mode": "artifact",
+  "t_start": 158.62,
+  "t_end": 159.71,
+  "duration_sec": 1.09,
+  "spoken": "Jim Morrison,",
+  "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+  "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
+  "people": [],
+  "date_from": "1969",
+  "date_to": "1994",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Jimi Hendrix 1969 photograph",
+    "Janis Joplin 1970 photograph",
+    "Jim Morrison 1971 photograph",
+    "Kurt Cobain 1990s photograph"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo",
+    "wrong artist mislabeled",
+    "tribute collage poster"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -36,30 +35,35 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "acquired"
+      "description": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+      "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: Jimi Hendrix 1969 photograph",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Janis Joplin 1970 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Jim Morrison 1971 photograph",
       "status": "needed"
     }
   ],
   "effects": [
+    "film_scratches",
     "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "genphoto-1f47c0a6.jpg"
+    "jim-morrison-1969jpg.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.102Z"
+  "updated_at": "2026-06-16T21:57:59.031Z"
 }

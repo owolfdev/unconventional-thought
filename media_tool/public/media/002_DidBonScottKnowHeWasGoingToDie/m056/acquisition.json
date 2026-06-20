@@ -2,43 +2,57 @@
   "id": "m056",
   "cue": 56,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_damage"
+    "film_scratches",
+    "film_damage",
+    "film_grain"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "rock star spotlight 1970s silhouette",
+      "query": "Robert Johnson blues performance photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:ea7e3c821ff4bbbb",
+          "url": "/media/_library/assets/ea7e3c821ff4bbbb/black-metal-font-fame.png",
+          "thumbnail_url": "/media/_library/assets/ea7e3c821ff4bbbb/black-metal-font-fame.png",
+          "title": "black-metal-font-fame.png",
+          "source_page": "/media/_library/assets/ea7e3c821ff4bbbb/black-metal-font-fame.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "library",
+          "query": "black-metal-font-fame.png",
+          "selected_at": "2026-06-16T12:45:23.949Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "musician backstage alone 1970s",
+      "query": "Robert Johnson portrait intense",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "crossroads blues rock mythology photograph",
+      "query": "blues singer 1930s Mississippi performance",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:19:45.179Z",
-  "updated_at": "2026-06-13T08:19:45.179Z"
+  "completed_at": "2026-06-16T12:47:03.870Z",
+  "updated_at": "2026-06-16T12:47:03.870Z"
 }

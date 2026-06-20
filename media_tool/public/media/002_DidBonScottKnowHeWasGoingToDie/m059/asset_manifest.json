@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m059",
   "cue": 59,
-  "t_start": 172.48,
-  "t_end": 178.94,
-  "duration_sec": 6.46,
-  "spoken": "Bond wasn't 27. He was 33 when he died. But the bargain doesn't care about birthdays. It cares",
+  "t_start": 156.66,
+  "t_end": 157.49,
+  "duration_sec": 0.83,
+  "spoken": "Jimmy Hendrix,",
   "visual_mode": "historical",
   "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -31,11 +31,7 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": {
-    "type": "title",
-    "text": "33.",
-    "style": "minimal_white"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
@@ -55,15 +51,16 @@
     }
   ],
   "effects": [
+    "film_scratches",
     "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-Y0VFEdJxkE2H0qSoA8.gif",
-    "dark-bon.webp"
+    "giphy-y1tVEitC59QTmPGTPx.gif",
+    "asset.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.101Z"
+  "updated_at": "2026-06-16T21:57:59.030Z"
 }

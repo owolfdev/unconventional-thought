@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m124",
   "cue": 124,
-  "t_start": 401.96,
-  "t_end": 408.56,
-  "duration_sec": 6.6,
-  "spoken": "freeze momentum instantly. Just five months after his death, you saw back in black in every record",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
+  "t_start": 351.16,
+  "t_end": 353.49,
+  "duration_sec": 2.33,
+  "spoken": "mainstream, suburban,",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -31,36 +31,28 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "mainstream, suburban",
+    "style": "bold"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "generated",
+      "description": "mainstream, suburban",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "giphy-Sc3qljwE4QSgE.gif",
-    "okay-now-listen-to-the-best-songs-on-back-in-black.mp4"
+    "giphy-dM2xuxnJCg4H6.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.143Z"
+  "updated_at": "2026-06-16T21:57:59.065Z"
 }

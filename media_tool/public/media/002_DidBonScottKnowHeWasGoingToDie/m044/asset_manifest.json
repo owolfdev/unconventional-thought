@@ -2,10 +2,10 @@
   "version": 1,
   "id": "m044",
   "cue": 44,
-  "t_start": 126.74,
-  "t_end": 129.33,
-  "duration_sec": 2.59,
-  "spoken": "But understand kid, it ain't free.",
+  "t_start": 118.04,
+  "t_end": 125.8,
+  "duration_sec": 7.76,
+  "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
   "visual_mode": "text_graphic",
   "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
@@ -32,16 +32,16 @@
   ],
   "artifact": null,
   "text_graphic": {
-    "type": "quote",
-    "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
+    "type": "transcription",
+    "text": "It plays something impossibly good",
     "style": "typewriter"
   },
   "text_graphic_layer": null,
   "targets": [
     {
       "slot": "generated",
-      "description": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
-      "status": "needed"
+      "description": "It plays something impossibly good",
+      "status": "acquired"
     }
   ],
   "effects": [
@@ -51,9 +51,8 @@
   "background_color": "#000000",
   "requires_media_files": false,
   "acquired_files": [
-    "giphy-StFrWoMq05gzAHLW1F.gif",
-    "genphoto-c3bbca95.jpg"
+    "giphy-zci4bImZZ8FwuuYsSm.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.093Z"
+  "updated_at": "2026-06-16T21:57:59.024Z"
 }

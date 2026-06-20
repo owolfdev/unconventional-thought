@@ -1,48 +1,63 @@
 {
   "id": "m060",
   "cue": 60,
-  "source_visual_mode": "text_graphic",
+  "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
-    "film_scratches",
-    "film_damage",
-    "shake"
+    "film_scratches"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "intertitle",
-    "text": "SO WHO IS THE DEVIL?",
-    "style": "blockbuster"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "(text graphic — no archive search)",
+      "query": "Jimi Hendrix 1969 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:8b27777b6270009a",
-          "url": "/media/_library/assets/8b27777b6270009a/genphoto-e35a905c.jpg",
-          "thumbnail_url": "/media/_library/assets/8b27777b6270009a/genphoto-e35a905c.jpg",
-          "title": "Satan, smiling, dark, night time, back lit.",
-          "source_page": "/media/_library/assets/8b27777b6270009a/genphoto-e35a905c.jpg",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_photo",
-          "query": "OpenAI photo: Satan, smiling, dark, night time, back lit.",
-          "selected_at": "2026-06-12T21:53:07.545Z"
+          "result_id": "library:ca1106bcd4e81fba",
+          "url": "/media/_library/assets/ca1106bcd4e81fba/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/ca1106bcd4e81fba/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/ca1106bcd4e81fba/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "Jimi Hendrix 1969 photograph",
+          "selected_at": "2026-06-12T21:42:19.364Z"
         }
       ]
+    },
+    {
+      "query_index": 1,
+      "query": "Janis Joplin 1970 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Jim Morrison 1971 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 3,
+      "query": "Kurt Cobain 1990s photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:32:38.341Z",
-  "updated_at": "2026-06-13T08:32:56.175Z"
+  "completed_at": "2026-06-16T12:47:40.997Z",
+  "updated_at": "2026-06-16T12:47:40.997Z"
 }

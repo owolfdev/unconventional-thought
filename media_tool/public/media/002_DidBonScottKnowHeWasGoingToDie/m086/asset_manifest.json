@@ -2,58 +2,66 @@
   "version": 1,
   "id": "m086",
   "cue": 86,
-  "t_start": 267.74,
-  "t_end": 270.05,
-  "duration_sec": 2.31,
-  "spoken": "hmm, you decide.",
-  "visual_mode": "text_graphic",
-  "expected_media_type": "generated",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "t_start": 230.71,
+  "t_end": 232.92,
+  "duration_sec": 2.21,
+  "spoken": "after parties, and studio circles.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "After parties and studio circles — heroin moved through working bands.",
+  "situation": "Rock band backstage afterparty 1970s — industry access",
+  "people": [],
+  "date_from": "1975",
+  "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "rock band backstage 1970s afterparty",
+    "recording studio late night 1970s",
+    "tour bus backstage 1970s musicians"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "you decide.",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "you decide.",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "After parties and studio circles — heroin moved through working bands.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: rock band backstage 1970s afterparty",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: recording studio late night 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: tour bus backstage 1970s musicians",
+      "status": "needed"
     }
   ],
   "effects": [
     "film_scratches",
-    "desaturate_soft"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": false,
+  "requires_media_files": true,
   "acquired_files": [
-    "giphy-lDj8QUcXH8kNkOUu4h.gif"
+    "qvxp7b9tbcvd1.jpeg",
+    "asset.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.117Z"
+  "updated_at": "2026-06-16T21:57:59.044Z"
 }

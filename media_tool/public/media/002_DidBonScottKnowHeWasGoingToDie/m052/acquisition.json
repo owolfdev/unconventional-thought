@@ -14,50 +14,43 @@
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Jimi Hendrix 1969 photograph",
+      "query": "Robert Johnson blues musician 1937",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:ca1106bcd4e81fba",
-          "url": "/media/_library/assets/ca1106bcd4e81fba/asset.jpg",
-          "thumbnail_url": "/media/_library/assets/ca1106bcd4e81fba/asset.jpg",
-          "title": "asset.jpg",
-          "source_page": "/media/_library/assets/ca1106bcd4e81fba/asset.jpg",
-          "license": "verify rights before use",
-          "engine_id": "library",
-          "query": "Jimi Hendrix 1969 photograph",
-          "selected_at": "2026-06-12T21:42:19.364Z"
+          "result_id": "library:96fd0ea34c1775a3",
+          "url": "/media/_library/assets/96fd0ea34c1775a3/black-metal-font-transformed.png",
+          "thumbnail_url": "/media/_library/assets/96fd0ea34c1775a3/black-metal-font-transformed.png",
+          "title": "Black metal font: Transformed",
+          "source_page": "/media/_library/assets/96fd0ea34c1775a3/black-metal-font-transformed.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: Black metal font: Transformed",
+          "selected_at": "2026-06-16T12:30:06.211Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Janis Joplin 1970 photograph",
+      "query": "Mississippi juke joint musicians 1930s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Jim Morrison 1971 photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 3,
-      "query": "Kurt Cobain 1990s photograph",
+      "query": "Robert Johnson contemporaries blues scene",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:18:46.920Z",
-  "updated_at": "2026-06-13T08:18:46.920Z"
+  "completed_at": "2026-06-16T12:30:29.708Z",
+  "updated_at": "2026-06-16T12:30:29.708Z"
 }

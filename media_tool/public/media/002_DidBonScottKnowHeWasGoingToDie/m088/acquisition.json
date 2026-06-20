@@ -7,8 +7,7 @@
   "status": "in_progress",
   "notes": "",
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
@@ -20,38 +19,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "London street night 1980 photograph",
+      "query": "John Lennon 1970s photograph interview",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:759055daddde4b2d",
-          "url": "/media/_library/assets/759055daddde4b2d/genphoto-dc257c83.jpg",
-          "thumbnail_url": "/media/_library/assets/759055daddde4b2d/genphoto-dc257c83.jpg",
-          "title": "genphoto-dc257c83.jpg",
-          "source_page": "/media/_library/assets/759055daddde4b2d/genphoto-dc257c83.jpg",
-          "license": "OpenAI generated — verify editorial use",
+          "result_id": "library:6a48240fbb8a846c",
+          "url": "/media/_library/assets/6a48240fbb8a846c/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/6a48240fbb8a846c/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/6a48240fbb8a846c/asset.jpg",
+          "license": "verify rights before use",
           "engine_id": "library",
-          "query": "car",
-          "selected_at": "2026-06-13T22:13:17.556Z"
+          "query": "john",
+          "selected_at": "2026-06-16T21:14:50.562Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "London February winter night 1980s",
+      "query": "John Lennon New York 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "UK pub exterior night 1980",
+      "query": "John Lennon studio 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-15T19:28:27.205Z"
+  "updated_at": "2026-06-16T21:14:57.998Z"
 }

@@ -1,20 +1,17 @@
 {
   "id": "m059",
   "cue": 59,
-  "source_visual_mode": "text_graphic",
+  "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
+    "film_scratches",
     "film_damage"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "title",
-    "text": "33.",
-    "style": "minimal_white"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": false,
@@ -23,24 +20,45 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "(text graphic — no archive search)",
+      "query": "Jimi Hendrix 1969 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:aadb15e60b8c24f1",
-          "url": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
-          "thumbnail_url": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
-          "title": "dark-bon.webp",
-          "source_page": "/media/_library/assets/aadb15e60b8c24f1/dark-bon.webp",
+          "result_id": "library:ad534260a1f4831c",
+          "url": "/media/_library/assets/ad534260a1f4831c/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/ad534260a1f4831c/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/ad534260a1f4831c/asset.jpg",
           "license": "verify rights before use",
           "engine_id": "library",
-          "query": "m028",
-          "selected_at": "2026-06-11T09:39:58.220861Z"
+          "query": "Jimi Hendrix 1969 photograph",
+          "selected_at": "2026-06-12T21:40:44.039Z"
         }
       ]
+    },
+    {
+      "query_index": 1,
+      "query": "Janis Joplin 1970 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Jim Morrison 1971 photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 3,
+      "query": "Kurt Cobain 1990s photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:32:25.811Z",
-  "updated_at": "2026-06-13T08:32:34.915Z"
+  "completed_at": "2026-06-16T12:47:15.690Z",
+  "updated_at": "2026-06-16T12:47:15.690Z"
 }

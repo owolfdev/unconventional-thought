@@ -1,60 +1,46 @@
 {
   "id": "m096",
   "cue": 96,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "effect_only",
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "historical",
   "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": {
-    "type": "transcription",
-    "text": "It may also be incomplete and less plausible",
-    "style": "typewriter"
+    "type": "quote",
+    "text": "",
+    "style": "minimal_white"
   },
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "large",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "coroner report document photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "bon scott",
+      "engine_id": "google_images",
+      "engine_url": "https://www.google.com/search?tbm=isch&q={query}",
       "selections": [
         {
-          "result_id": "library:aa9e50775f98f3f8",
-          "url": "/media/_library/assets/aa9e50775f98f3f8/in-an-acdc-font-write-its-incomplete.png",
-          "thumbnail_url": "/media/_library/assets/aa9e50775f98f3f8/in-an-acdc-font-write-its-incomplete.png",
-          "title": "in an AC/DC font write: It's Incomplete",
-          "source_page": "/media/_library/assets/aa9e50775f98f3f8/in-an-acdc-font-write-its-incomplete.png",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: in an AC/DC font write: It's Incomplete",
-          "selected_at": "2026-06-15T19:36:47.840Z"
+          "result_id": "library:22da30cd994e0132",
+          "url": "/media/_library/assets/22da30cd994e0132/bon%20.jpg",
+          "thumbnail_url": "/media/_library/assets/22da30cd994e0132/bon%20.jpg",
+          "title": "bon .jpg",
+          "source_page": "/media/_library/assets/22da30cd994e0132/bon%20.jpg",
+          "license": "manual upload — verify rights",
+          "engine_id": "library",
+          "query": "Upload: bon .jpg",
+          "selected_at": "2026-06-13T20:19:19.751Z"
         }
       ]
-    },
-    {
-      "query_index": 1,
-      "query": "redacted government document",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "manila folder classified stamp",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
     }
   ],
-  "completed_at": "2026-06-13T09:23:29.495Z",
-  "updated_at": "2026-06-15T19:37:05.775Z"
+  "completed_at": "2026-06-16T19:37:00.016Z",
+  "updated_at": "2026-06-16T19:37:00.016Z"
 }

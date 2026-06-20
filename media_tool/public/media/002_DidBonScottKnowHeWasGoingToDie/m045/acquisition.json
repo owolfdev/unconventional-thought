@@ -1,23 +1,17 @@
 {
   "id": "m045",
   "cue": 45,
-  "source_visual_mode": "text_graphic",
-  "resolved_visual_mode": "historical",
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "effect_only",
   "resolved_media_type": "generated",
   "status": "complete",
   "notes": "",
   "effects": [
-    "film_damage",
     "film_scratches",
-    "vignette_soft",
-    "film_grain"
+    "film_damage"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "quote",
-    "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
@@ -26,24 +20,26 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "(text graphic — no archive search)",
-      "engine_id": "google",
-      "engine_url": "https://www.google.com/search?q={query}",
-      "selections": [
-        {
-          "result_id": "library:443a904987dcfc04",
-          "url": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
-          "thumbnail_url": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
-          "title": "genphoto-c3bbca95.jpg",
-          "source_page": "/media/_library/assets/443a904987dcfc04/genphoto-c3bbca95.jpg",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "library",
-          "query": "genphoto-c3bbca95.jpg",
-          "selected_at": "2026-06-12T21:26:34.429Z"
-        }
-      ]
+      "query": "Robert Johnson playing guitar photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 1,
+      "query": "blues guitarist hands guitar close up 1930s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Robert Johnson performance photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:14:32.383Z",
-  "updated_at": "2026-06-13T08:14:32.383Z"
+  "completed_at": "2026-06-16T12:39:26.609Z",
+  "updated_at": "2026-06-16T12:39:26.609Z"
 }

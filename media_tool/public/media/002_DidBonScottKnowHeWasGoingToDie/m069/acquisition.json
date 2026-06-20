@@ -1,57 +1,47 @@
 {
   "id": "m069",
   "cue": 69,
-  "source_visual_mode": "artifact",
-  "resolved_visual_mode": "artifact",
-  "resolved_media_type": "photo",
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
     "film_scratches",
     "film_damage"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "intertitle",
+    "text": "The devil always gets his due. ",
+    "style": "blockbuster"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "vinyl record collection shelf 1970s",
+      "query": "(text graphic — no archive search)",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:bf69b66184ae9dd2",
-          "url": "/media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
-          "thumbnail_url": "/media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
-          "title": "vinyl-collection-at-a-record-store-unsplashjpg.jpg",
-          "source_page": "/media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
-          "license": "CC0",
-          "engine_id": "library",
-          "query": "vinyl-collection-at-a-record-store-unsplashjpg.jpg",
-          "selected_at": "2026-06-13T08:56:28.761Z"
+          "result_id": "library:8b27777b6270009a",
+          "url": "/media/_library/assets/8b27777b6270009a/genphoto-e35a905c.jpg",
+          "thumbnail_url": "/media/_library/assets/8b27777b6270009a/genphoto-e35a905c.jpg",
+          "title": "Satan, smiling, dark, night time, back lit.",
+          "source_page": "/media/_library/assets/8b27777b6270009a/genphoto-e35a905c.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: Satan, smiling, dark, night time, back lit.",
+          "selected_at": "2026-06-12T21:53:07.545Z"
         }
       ]
-    },
-    {
-      "query_index": 1,
-      "query": "album collection bedroom 1970s photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "stack of LPs close up 1970s",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:56:42.764Z",
-  "updated_at": "2026-06-13T08:56:42.764Z"
+  "completed_at": "2026-06-16T19:20:00.231Z",
+  "updated_at": "2026-06-16T19:20:00.231Z"
 }

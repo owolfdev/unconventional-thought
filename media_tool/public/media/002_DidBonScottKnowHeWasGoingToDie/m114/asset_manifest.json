@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m114",
   "cue": 114,
-  "t_start": 359.88,
-  "t_end": 366.74,
-  "duration_sec": 6.86,
-  "spoken": "art scene posturing. And in the public imagination of that era, heroin read as downtown junkies,",
+  "t_start": 311.86,
+  "t_end": 317.82,
+  "duration_sec": 5.96,
+  "spoken": "afternoon the next day? It doesn't make sense. It leaves a lot of questions unanswered.",
   "visual_mode": "historical",
-  "expected_media_type": "generated",
+  "expected_media_type": "photo",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -35,22 +35,31 @@
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "art scene",
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
       "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-3oEjI5z7E4wMw8xxoQ.gif",
-    "bb1ffdf3-0b74-4513-924a-4c452ac37681.webp"
+    "giphy-NScb6PymHQu9FHT1bH.gif",
+    "university-memory-gif.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.137Z"
+  "updated_at": "2026-06-16T21:57:59.060Z"
 }

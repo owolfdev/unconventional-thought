@@ -2,64 +2,62 @@
   "version": 1,
   "id": "m072",
   "cue": 72,
-  "t_start": 218.33,
-  "t_end": 220.88,
-  "duration_sec": 2.55,
-  "spoken": "Some survived, some paid the price.",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Some survived, some paid — contrast portraits; documentary sobriety.",
-  "situation": "Rock survivors vs casualties — era press, funerals, comebacks",
+  "t_start": 189.26,
+  "t_end": 191.49,
+  "duration_sec": 2.23,
+  "spoken": "Yup, heroin.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "'Tip of a hypodermic needle' — macro, clinical, NOT glamorized.",
+  "situation": "Inanimate: hypodermic needle macro",
   "people": [],
-  "date_from": "1970",
-  "date_to": "1980",
+  "date_from": "1975",
+  "date_to": "1985",
   "location": "",
   "search_queries": [
-    "rock musician funeral 1970s newspaper",
-    "Eric Clapton 1970s photograph",
-    "Keith Richards 1970s live photograph"
+    "hypodermic needle macro photograph documentary",
+    "syringe close up medical still life",
+    "needle tip macro black background"
   ],
   "avoid": [
     "stock explainer",
     "corporate presentation",
     "literal album cover art",
     "AI generated faces",
-    "modern stock photo"
+    "modern stock photo",
+    "injection in arm",
+    "glamorized drug use",
+    "blood",
+    "faces prominent",
+    "glamorized drug use"
   ],
-  "artifact": null,
-  "text_graphic": null,
+  "artifact": {
+    "object": "hypodermic needle macro",
+    "story_link": "Heroin as the modern devil bargain",
+    "media_preference": "photo"
+  },
+  "text_graphic": {
+    "type": "transcription",
+    "text": "heroin...",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Some survived, some paid — contrast portraits; documentary sobriety.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: rock musician funeral 1970s newspaper",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: Eric Clapton 1970s photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: Keith Richards 1970s live photograph",
-      "status": "needed"
+      "slot": "generated",
+      "description": "heroin...",
+      "status": "acquired"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "genphoto-8084dfc7.jpg"
+    "scratchy-font-heroin.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.110Z"
+  "updated_at": "2026-06-16T21:57:59.037Z"
 }

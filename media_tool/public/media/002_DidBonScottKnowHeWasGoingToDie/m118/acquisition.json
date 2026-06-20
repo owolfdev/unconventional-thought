@@ -2,44 +2,55 @@
   "id": "m118",
   "cue": 118,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "AC/DC live 1979 crowd joy energy",
+      "query": "Studio 54 1979 photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:3664a60b57b4e086",
+          "url": "/media/_library/assets/3664a60b57b4e086/punk-rock-vintage-gif.gif",
+          "thumbnail_url": "/media/_library/assets/3664a60b57b4e086/punk-rock-vintage-gif.gif",
+          "title": "punk rock vintage GIF",
+          "source_page": "/media/_library/assets/3664a60b57b4e086/punk-rock-vintage-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: punk rock vintage GIF",
+          "selected_at": "2026-06-16T19:49:44.736Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "Angus Young AC/DC 1979 stage energy",
+      "query": "disco nightclub 1979 New York",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "AC/DC concert audience hands up 1979",
+      "query": "1979 disco dance floor photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-15T20:13:27.560Z"
+  "completed_at": "2026-06-16T19:55:37.094Z",
+  "updated_at": "2026-06-16T19:55:37.094Z"
 }

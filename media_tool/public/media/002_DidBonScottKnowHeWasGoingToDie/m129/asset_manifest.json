@@ -2,12 +2,12 @@
   "version": 1,
   "id": "m129",
   "cue": 129,
-  "t_start": 436.54,
-  "t_end": 443.46,
-  "duration_sec": 6.92,
-  "spoken": "hot on his heels, ready to collect. And we consumed it all as entertainment. Either way,",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
+  "t_start": 367.06,
+  "t_end": 375.48,
+  "duration_sec": 8.42,
+  "spoken": "disco bathrooms, punk squads, self-destruction, and gay. So a heroin narrative around Bond would",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
   "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
   "situation": "AC/DC historical photograph 1978-1981",
   "people": [
@@ -31,37 +31,30 @@
     "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "disco bathrooms, punk squats, self-destruction, and gay",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "generated",
+      "description": "disco bathrooms, punk squats, self-destruction, and gay",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
     "film_scratches",
-    "film_damage",
-    "shake"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
     "giphy-dM2xuxnJCg4H6.gif",
-    "genphoto-6d05d0cf.jpg"
+    "thinking-man-png-image-man-thinking.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.145Z"
+  "updated_at": "2026-06-16T21:57:59.067Z"
 }

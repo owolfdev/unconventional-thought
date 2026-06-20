@@ -1,16 +1,14 @@
 {
   "id": "m071",
   "cue": 71,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
   "resolved_media_type": "photo",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_scratches",
-    "slow_spin",
-    "tremble",
-    "film_damage"
+    "film_damage",
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
@@ -22,38 +20,49 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "rock musician funeral 1970s newspaper",
+      "query": "hypodermic needle macro photograph documentary",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:66f81dd175430b1f",
-          "url": "/media/_library/assets/66f81dd175430b1f/genphoto-164b286b.jpg",
-          "thumbnail_url": "/media/_library/assets/66f81dd175430b1f/genphoto-164b286b.jpg",
-          "title": "psychedelic musician on stage in a blur of motion. high on something. use dark/back lighting to obscure any identity",
-          "source_page": "/media/_library/assets/66f81dd175430b1f/genphoto-164b286b.jpg",
+          "result_id": "library:9897312106740db3",
+          "url": "/media/_library/assets/9897312106740db3/hypodermic-needle-close-up-back-stage.png",
+          "thumbnail_url": "/media/_library/assets/9897312106740db3/hypodermic-needle-close-up-back-stage.png",
+          "title": "hypodermic needle. close up. back stage.",
+          "source_page": "/media/_library/assets/9897312106740db3/hypodermic-needle-close-up-back-stage.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: hypodermic needle. close up. back stage.",
+          "selected_at": "2026-06-16T12:55:28.930Z"
+        },
+        {
+          "result_id": "library:6dfa972032021589",
+          "url": "/media/_library/assets/6dfa972032021589/genphoto-40660548.jpg",
+          "thumbnail_url": "/media/_library/assets/6dfa972032021589/genphoto-40660548.jpg",
+          "title": "hypodermic needle. close up. back stage.",
+          "source_page": "/media/_library/assets/6dfa972032021589/genphoto-40660548.jpg",
           "license": "OpenAI generated — verify editorial use",
           "engine_id": "openai_photo",
-          "query": "OpenAI photo: psychedelic musician on stage in a blur of motion. high on something. use dark/back lighting to obscure any identity",
-          "selected_at": "2026-06-12T22:19:30.171Z"
+          "query": "OpenAI photo: hypodermic needle. close up. back stage.",
+          "selected_at": "2026-06-16T12:55:52.519Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Eric Clapton 1970s photograph",
+      "query": "syringe close up medical still life",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Keith Richards 1970s live photograph",
+      "query": "needle tip macro black background",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:56:56.180Z",
-  "updated_at": "2026-06-13T08:56:56.180Z"
+  "completed_at": "2026-06-16T12:59:04.103Z",
+  "updated_at": "2026-06-16T12:59:04.103Z"
 }

@@ -1,47 +1,79 @@
 {
   "id": "m085",
   "cue": 85,
-  "source_visual_mode": "text_graphic",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
     "film_scratches",
     "film_damage"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "quote",
-    "text": "YOU DECIDE.",
-    "style": "minimal_white"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "large",
+  "sticker_overlay_enabled": false,
+  "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "(text graphic — no archive search)",
-      "engine_id": "google",
-      "engine_url": "https://www.google.com/search?q={query}",
+      "query": "rock band backstage 1970s afterparty",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:03dedc4354bdf92b",
-          "url": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
-          "thumbnail_url": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
-          "title": "pressure GIF",
-          "source_page": "/media/_library/assets/03dedc4354bdf92b/pressure-gif.gif",
-          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-          "engine_id": "giphy_sticker",
-          "query": "GIPHY: pressure GIF",
-          "selected_at": "2026-06-15T19:27:45.854Z"
+          "result_id": "library:d0db06db03c607f1",
+          "url": "/media/_library/assets/d0db06db03c607f1/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/d0db06db03c607f1/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/d0db06db03c607f1/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "led zepplin 1970s afterparty",
+          "selected_at": "2026-06-16T13:39:38.819Z"
+        },
+        {
+          "result_id": "library:bebd436b46a9dba6",
+          "url": "/media/_library/assets/bebd436b46a9dba6/asset.jpg",
+          "thumbnail_url": "/media/_library/assets/bebd436b46a9dba6/asset.jpg",
+          "title": "asset.jpg",
+          "source_page": "/media/_library/assets/bebd436b46a9dba6/asset.jpg",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "rock band backstage 1970s afterparty",
+          "selected_at": "2026-06-16T13:39:49.819Z"
+        },
+        {
+          "result_id": "library:5303d73886869530",
+          "url": "/media/_library/assets/5303d73886869530/5ef82431-3303-455f-b2d4-5d414d5e57d2_1505x1875.jpg",
+          "thumbnail_url": "/media/_library/assets/5303d73886869530/5ef82431-3303-455f-b2d4-5d414d5e57d2_1505x1875.jpg",
+          "title": "5ef82431-3303-455f-b2d4-5d414d5e57d2_1505x1875.jpg",
+          "source_page": "/media/_library/assets/5303d73886869530/5ef82431-3303-455f-b2d4-5d414d5e57d2_1505x1875.jpg",
+          "license": "manual upload — verify rights",
+          "engine_id": "library",
+          "query": "rock band backstage 1970s afterparty",
+          "selected_at": "2026-06-16T13:39:56.091Z"
         }
       ]
+    },
+    {
+      "query_index": 1,
+      "query": "recording studio late night 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "tour bus backstage 1970s musicians",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-13T22:05:51.561Z",
-  "updated_at": "2026-06-15T19:27:45.854Z"
+  "completed_at": "2026-06-16T13:40:33.109Z",
+  "updated_at": "2026-06-16T13:40:33.109Z"
 }

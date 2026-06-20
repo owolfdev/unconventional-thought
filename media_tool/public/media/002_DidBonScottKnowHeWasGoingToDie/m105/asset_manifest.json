@@ -2,64 +2,55 @@
   "version": 1,
   "id": "m105",
   "cue": 105,
-  "t_start": 332.12,
-  "t_end": 338.96,
-  "duration_sec": 6.84,
-  "spoken": "subcultures that mainstream rock audiences viewed as alien, like disco, queer, and art scene spaces.",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "t_start": 286.76,
+  "t_end": 289.58,
+  "duration_sec": 2.82,
+  "spoken": "In a case this culturally and commercially important,",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Thin public record — newspaper headline, inquest, missing details.",
+  "situation": "Bon Scott death newspaper headline February 1980",
   "people": [
     {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "Bon Scott",
+      "role": "vocalist"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1980",
+  "date_to": "1980",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Bon Scott death newspaper 1980 headline",
+    "Bon Scott obituary 1980 newspaper",
+    "AC/DC Bon Scott death news 1980"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_damage",
+    "film_scratches",
+    "tilt_left",
+    "shake"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [
-    "giphy-1fPogKALBII0OFpxHj.gif",
-    "heavy-metal-80s-gif-by-retro-fiend.gif"
-  ],
+  "requires_media_files": false,
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.130Z"
+  "updated_at": "2026-06-16T21:57:59.056Z"
 }

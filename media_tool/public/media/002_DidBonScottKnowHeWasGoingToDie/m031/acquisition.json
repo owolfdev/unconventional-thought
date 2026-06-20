@@ -8,7 +8,11 @@
   "notes": "",
   "effects": [],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "It reminds me of a story...",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
@@ -38,5 +42,5 @@
     }
   ],
   "completed_at": "2026-06-13T08:08:59.040Z",
-  "updated_at": "2026-06-13T08:08:59.040Z"
+  "updated_at": "2026-06-16T12:08:32.284Z"
 }

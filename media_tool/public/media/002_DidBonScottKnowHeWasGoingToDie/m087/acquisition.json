@@ -2,55 +2,44 @@
   "id": "m087",
   "cue": 87,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "complete",
-  "notes": "",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "in_progress",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
+    "film_damage",
     "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "London street night 1980 photograph",
+      "query": "John Lennon 1970s photograph interview",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:8be1f8a0af7e659b",
-          "url": "/media/_library/assets/8be1f8a0af7e659b/500817409_122153642336592501_5034926165230506483_n.jpg",
-          "thumbnail_url": "/media/_library/assets/8be1f8a0af7e659b/500817409_122153642336592501_5034926165230506483_n.jpg",
-          "title": "500817409_122153642336592501_5034926165230506483_n.jpg",
-          "source_page": "/media/_library/assets/8be1f8a0af7e659b/500817409_122153642336592501_5034926165230506483_n.jpg",
-          "license": "manual upload — verify rights",
-          "engine_id": "library",
-          "query": "500817409_122153642336592501_5034926165230506483_n.jpg",
-          "selected_at": "2026-06-13T22:06:26.252Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "London February winter night 1980s",
+      "query": "John Lennon New York 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "UK pub exterior night 1980",
+      "query": "John Lennon studio 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T22:06:37.411Z",
-  "updated_at": "2026-06-13T22:06:37.411Z"
+  "completed_at": "2026-06-11T09:39:58.222764Z",
+  "updated_at": "2026-06-16T21:14:22.525Z"
 }

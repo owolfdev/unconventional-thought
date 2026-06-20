@@ -1,56 +1,32 @@
 {
   "id": "m048",
   "cue": 48,
-  "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "text_graphic",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
-  "effects": [
-    "film_scratches"
-  ],
+  "notes": "",
+  "effects": [],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "IT AIN'T FREE!",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson blues performance photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:fc5fa65147b5b3de",
-          "url": "/media/_library/assets/fc5fa65147b5b3de/1930s-font-supernatural.png",
-          "thumbnail_url": "/media/_library/assets/fc5fa65147b5b3de/1930s-font-supernatural.png",
-          "title": "1930s-font-supernatural.png",
-          "source_page": "/media/_library/assets/fc5fa65147b5b3de/1930s-font-supernatural.png",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "library",
-          "query": "Robert Johnson blues performance photograph",
-          "selected_at": "2026-06-12T21:31:53.056Z"
-        }
-      ]
-    },
-    {
-      "query_index": 1,
-      "query": "Robert Johnson portrait intense",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 2,
-      "query": "blues singer 1930s Mississippi performance",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:18:21.767Z",
-  "updated_at": "2026-06-13T08:18:21.767Z"
+  "completed_at": "2026-06-16T12:39:35.482Z",
+  "updated_at": "2026-06-16T12:39:35.482Z"
 }

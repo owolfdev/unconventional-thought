@@ -2,47 +2,55 @@
   "id": "m046",
   "cue": 46,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "text_graphic",
-  "resolved_media_type": "generated",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
     "film_scratches"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "He came back different, transformed. The other musicians were stunned. ",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
+  "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson blues musician 1937",
+      "query": "Robert Johnson playing guitar photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:8fcacf2ae53714b0",
+          "url": "/media/_library/assets/8fcacf2ae53714b0/in-an-acdc-font-now-its-yours.png",
+          "thumbnail_url": "/media/_library/assets/8fcacf2ae53714b0/in-an-acdc-font-now-its-yours.png",
+          "title": "in an AC/DC font: Now It's Yours",
+          "source_page": "/media/_library/assets/8fcacf2ae53714b0/in-an-acdc-font-now-its-yours.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: in an AC/DC font: Now It's Yours",
+          "selected_at": "2026-06-16T12:24:56.414Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "Mississippi juke joint musicians 1930s",
+      "query": "blues guitarist hands guitar close up 1930s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Robert Johnson contemporaries blues scene",
+      "query": "Robert Johnson performance photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:14:57.830Z",
-  "updated_at": "2026-06-13T08:14:57.830Z"
+  "completed_at": "2026-06-16T12:39:29.623Z",
+  "updated_at": "2026-06-16T12:39:29.623Z"
 }

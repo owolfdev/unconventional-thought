@@ -2,31 +2,33 @@
   "version": 1,
   "id": "m065",
   "cue": 65,
-  "t_start": 197.66,
-  "t_end": 201.47,
-  "duration_sec": 3.81,
-  "spoken": "until it takes everything back with interest.",
+  "t_start": 163.6,
+  "t_end": 166.4,
+  "duration_sec": 2.8,
+  "spoken": "they traded something for greatness, for art.",
   "visual_mode": "effect_only",
   "expected_media_type": "generated",
-  "editorial_intent": "Heroin bargain — lucid then ruin; 70s rock documentary tone, not exploitation.",
-  "situation": "1970s rock culture heroin documentary context — era photography",
-  "people": [],
-  "date_from": "1970",
-  "date_to": "1979",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
   "search_queries": [
-    "1970s rock culture documentary photograph",
-    "New York music scene 1970s backstage",
-    "London rock scene 1970s nightlife"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo",
-    "graphic drug use",
-    "needle in vein"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -34,7 +36,7 @@
   "targets": [
     {
       "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
+      "description": "[Library pass — verify license before publish]",
       "status": "acquired"
     }
   ],
@@ -44,7 +46,9 @@
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": false,
-  "acquired_files": [],
+  "acquired_files": [
+    "giphy-dM2xuxnJCg4H6.gif"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.104Z"
+  "updated_at": "2026-06-16T21:57:59.033Z"
 }

@@ -2,43 +2,55 @@
   "id": "m067",
   "cue": 67,
   "source_visual_mode": "artifact",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
   "status": "complete",
   "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": false,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "vinyl record collection shelf 1970s",
+      "query": "gold record award disc close up",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:1139177e1e3669d5",
+          "url": "/media/_library/assets/1139177e1e3669d5/black-and-white-concert-gif.gif",
+          "thumbnail_url": "/media/_library/assets/1139177e1e3669d5/black-and-white-concert-gif.gif",
+          "title": "Black And White Concert GIF",
+          "source_page": "/media/_library/assets/1139177e1e3669d5/black-and-white-concert-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: Black And White Concert GIF",
+          "selected_at": "2026-06-16T12:52:49.018Z"
+        }
+      ]
     },
     {
       "query_index": 1,
-      "query": "album collection bedroom 1970s photograph",
+      "query": "RIAA gold album plaque 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "stack of LPs close up 1970s",
+      "query": "platinum record award wall 1980s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:53:20.036Z",
-  "updated_at": "2026-06-13T08:53:20.036Z"
+  "completed_at": "2026-06-16T12:53:16.727Z",
+  "updated_at": "2026-06-16T12:53:16.727Z"
 }

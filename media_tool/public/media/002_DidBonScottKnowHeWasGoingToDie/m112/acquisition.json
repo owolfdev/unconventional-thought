@@ -4,54 +4,51 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "in_progress",
+  "status": "complete",
   "notes": "",
-  "effects": [
-    "film_scratches",
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "medium",
+  "sticker_overlay_size": "large",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Disco Demolition Night 1979 Comiskey Park",
+      "query": "car parked alley winter night",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:8aa3e128b71e4729",
-          "url": "/media/_library/assets/8aa3e128b71e4729/genphoto-9d4ef105.jpg",
-          "thumbnail_url": "/media/_library/assets/8aa3e128b71e4729/genphoto-9d4ef105.jpg",
-          "title": "beer, denim, v8s.",
-          "source_page": "/media/_library/assets/8aa3e128b71e4729/genphoto-9d4ef105.jpg",
+          "result_id": "library:034a26d98b0a1eb7",
+          "url": "/media/_library/assets/034a26d98b0a1eb7/in-70s-font-why.png",
+          "thumbnail_url": "/media/_library/assets/034a26d98b0a1eb7/in-70s-font-why.png",
+          "title": "in 70s font: Why?",
+          "source_page": "/media/_library/assets/034a26d98b0a1eb7/in-70s-font-why.png",
           "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_photo",
-          "query": "OpenAI photo: beer, denim, v8s.",
-          "selected_at": "2026-06-15T20:01:31.100Z"
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: in 70s font: Why?",
+          "selected_at": "2026-06-15T19:44:02.302Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Steve Dahl disco demolition 1979",
+      "query": "sleeping in car winter photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "disco records explosion baseball field 1979",
+      "query": "friend leaving car night street",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-15T20:01:43.871Z"
+  "completed_at": "2026-06-16T19:45:11.196Z",
+  "updated_at": "2026-06-16T19:45:11.196Z"
 }

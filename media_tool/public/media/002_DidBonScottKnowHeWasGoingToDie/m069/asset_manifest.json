@@ -2,59 +2,46 @@
   "version": 1,
   "id": "m069",
   "cue": 69,
-  "t_start": 207.29,
-  "t_end": 209.5,
-  "duration_sec": 2.21,
-  "spoken": "If you like music from the 60s",
-  "visual_mode": "artifact",
-  "expected_media_type": "photo",
-  "editorial_intent": "'Bargain in chemical form' — spoon, kit, or record-collection metaphor.",
-  "situation": "Inanimate: record collection vinyl stack",
-  "people": [],
-  "date_from": "1975",
-  "date_to": "1985",
+  "t_start": 178.94,
+  "t_end": 187.26,
+  "duration_sec": 8.32,
+  "spoken": "about cost. And the devil always gets his due. So who is the devil? Well, for many, he's found at",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
   "search_queries": [
-    "vinyl record collection shelf 1970s",
-    "album collection bedroom 1970s photograph",
-    "stack of LPs close up 1970s"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo",
-    "faces prominent",
-    "glamorized drug use"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
-  "artifact": {
-    "object": "record collection vinyl stack",
-    "story_link": "Heroin in rock history — your record collection",
-    "media_preference": "photo"
+  "artifact": null,
+  "text_graphic": {
+    "type": "intertitle",
+    "text": "The devil always gets his due. ",
+    "style": "blockbuster"
   },
-  "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "'Bargain in chemical form' — spoon, kit, or record-collection metaphor.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: vinyl record collection shelf 1970s",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: album collection bedroom 1970s photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: stack of LPs close up 1970s",
-      "status": "needed"
+      "slot": "generated",
+      "description": "The devil always gets his due. ",
+      "status": "acquired"
     }
   ],
   "effects": [
@@ -63,10 +50,11 @@
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "vinyl-collection-at-a-record-store-unsplashjpg.jpg"
+    "giphy-3o72EVymX8u70s22mQ.gif",
+    "genphoto-e35a905c.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.108Z"
+  "updated_at": "2026-06-16T21:57:59.036Z"
 }

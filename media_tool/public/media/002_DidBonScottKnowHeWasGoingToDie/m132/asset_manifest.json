@@ -2,38 +2,68 @@
   "version": 1,
   "id": "m132",
   "cue": 132,
-  "t_start": 448.8,
-  "t_end": 450.8,
-  "duration_sec": 2,
-  "spoken": "",
-  "visual_mode": "effect_only",
+  "t_start": 382.42,
+  "t_end": 385.24,
+  "duration_sec": 2.82,
+  "spoken": "back in black. The thought might have been,",
+  "visual_mode": "artifact",
   "expected_media_type": "photo",
-  "editorial_intent": "2s black tail after final VO cue (m067) — picture hold only; master audio ends with m067, no VO shift on m001–m067.",
-  "situation": "Black plate (effect-only tail)",
-  "people": [],
-  "date_from": "",
-  "date_to": "",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "Bon Scott historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "Bon Scott",
+      "role": "vocalist"
+    },
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
-  "search_queries": [],
-  "avoid": [],
+  "search_queries": [
+    "Bon Scott 1979 photograph",
+    "Bon Scott AC/DC 1980"
+  ],
+  "avoid": [
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
+  ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
+      "slot": "primary",
+      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
       "status": "acquired"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Bon Scott 1979 photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: Bon Scott AC/DC 1980",
+      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": false,
-  "acquired_files": [],
+  "requires_media_files": true,
+  "acquired_files": [
+    "giphy-3ohrywH9Y5PLsrAzWo.gif",
+    "ac-dc-back-in-black-1st-ex-uk-vinyl-lp-album-record-k50735-575453%20copy.jpg"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.147Z"
+  "updated_at": "2026-06-16T21:57:59.069Z"
 }

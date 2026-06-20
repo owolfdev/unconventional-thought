@@ -1,0 +1,46 @@
+{
+  "id": "m143",
+  "cue": 143,
+  "source_visual_mode": "text_graphic",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "",
+    "style": "typewriter"
+  },
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "(text graphic — no archive search)",
+      "engine_id": "google",
+      "engine_url": "https://www.google.com/search?q={query}",
+      "selections": [
+        {
+          "result_id": "library:c7b223a0d10268b8",
+          "url": "/media/_library/assets/c7b223a0d10268b8/bon-scott-gif.gif",
+          "thumbnail_url": "/media/_library/assets/c7b223a0d10268b8/bon-scott-gif.gif",
+          "title": "bon-scott-gif.gif",
+          "source_page": "/media/_library/assets/c7b223a0d10268b8/bon-scott-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "library",
+          "query": "bon-scott-gif.gif",
+          "selected_at": "2026-06-16T12:00:00.411Z"
+        }
+      ]
+    }
+  ],
+  "completed_at": "2026-06-16T20:23:36.892Z",
+  "updated_at": "2026-06-16T20:23:36.892Z"
+}

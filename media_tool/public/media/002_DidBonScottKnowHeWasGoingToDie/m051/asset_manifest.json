@@ -2,65 +2,54 @@
   "version": 1,
   "id": "m051",
   "cue": 51,
-  "t_start": 156.66,
-  "t_end": 157.49,
-  "duration_sec": 0.83,
-  "spoken": "Jimmy Hendrix,",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
+  "t_start": 134.38,
+  "t_end": 137.32,
+  "duration_sec": 2.94,
+  "spoken": "He came back different, transformed.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Johnson returns transformed — other musicians stunned; delta blues scene.",
+  "situation": "Robert Johnson 1930s — post-legend transformation, peers watching",
   "people": [
     {
-      "name": "AC/DC",
-      "role": "band"
+      "name": "Robert Johnson",
+      "role": "blues musician"
     }
   ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "date_from": "1936",
+  "date_to": "1938",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Robert Johnson blues musician 1937",
+    "Mississippi juke joint musicians 1930s",
+    "Robert Johnson contemporaries blues scene"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "He came back different",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "generated",
+      "description": "He came back different",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
-  "effects": [
-    "film_scratches",
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [
-    "giphy-y1tVEitC59QTmPGTPx.gif",
-    "asset.jpg"
-  ],
+  "requires_media_files": false,
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.097Z"
+  "updated_at": "2026-06-16T21:57:59.027Z"
 }

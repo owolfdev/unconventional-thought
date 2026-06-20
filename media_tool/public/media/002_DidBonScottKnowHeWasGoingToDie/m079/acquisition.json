@@ -1,47 +1,57 @@
 {
   "id": "m079",
   "cue": 79,
-  "source_visual_mode": "text_graphic",
-  "resolved_visual_mode": "effect_only",
-  "resolved_media_type": "generated",
-  "status": "in_progress",
-  "notes": "[Library pass — verify license before publish]",
+  "source_visual_mode": "artifact",
+  "resolved_visual_mode": "artifact",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
   "effects": [
     "film_scratches",
     "film_damage"
   ],
   "transition": null,
-  "text_graphic": {
-    "type": "quote",
-    "text": "IT'S DOCUMENTED ROCK HISTORY.",
-    "style": "newspaper"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
-  "sticker_overlay_size": "large",
+  "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "(text graphic — no archive search)",
+      "query": "vinyl record collection shelf 1970s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:6e13a6e0e2001e9c",
-          "url": "/media/_library/assets/6e13a6e0e2001e9c/rock-n-roll-history.png",
-          "thumbnail_url": "/media/_library/assets/6e13a6e0e2001e9c/rock-n-roll-history.png",
-          "title": "rock n roll history",
-          "source_page": "/media/_library/assets/6e13a6e0e2001e9c/rock-n-roll-history.png",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: rock n roll history",
-          "selected_at": "2026-06-13T09:01:07.471Z"
+          "result_id": "library:bf69b66184ae9dd2",
+          "url": "/media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
+          "thumbnail_url": "/media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
+          "title": "vinyl-collection-at-a-record-store-unsplashjpg.jpg",
+          "source_page": "/media/_library/assets/bf69b66184ae9dd2/vinyl-collection-at-a-record-store-unsplashjpg.jpg",
+          "license": "CC0",
+          "engine_id": "library",
+          "query": "vinyl-collection-at-a-record-store-unsplashjpg.jpg",
+          "selected_at": "2026-06-13T08:56:28.761Z"
         }
       ]
+    },
+    {
+      "query_index": 1,
+      "query": "album collection bedroom 1970s photograph",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "stack of LPs close up 1970s",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
     }
   ],
-  "completed_at": "2026-06-13T09:01:56.603Z",
-  "updated_at": "2026-06-13T20:38:42.086Z"
+  "completed_at": "2026-06-16T13:17:52.144Z",
+  "updated_at": "2026-06-16T13:17:52.144Z"
 }

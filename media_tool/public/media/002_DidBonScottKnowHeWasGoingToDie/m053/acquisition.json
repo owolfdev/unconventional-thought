@@ -3,15 +3,20 @@
   "cue": 53,
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_media_type": "generated",
   "status": "complete",
   "notes": "",
   "effects": [
     "film_scratches",
-    "film_damage"
+    "film_damage",
+    "slow_zoom_out"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
@@ -20,45 +25,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "Jimi Hendrix 1969 photograph",
+      "query": "Robert Johnson blues musician 1937",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:91d1e32122780dcf",
-          "url": "/media/_library/assets/91d1e32122780dcf/jim-morrison-1969jpg.jpg",
-          "thumbnail_url": "/media/_library/assets/91d1e32122780dcf/jim-morrison-1969jpg.jpg",
-          "title": "jim-morrison-1969jpg.jpg",
-          "source_page": "/media/_library/assets/91d1e32122780dcf/jim-morrison-1969jpg.jpg",
-          "license": "Public domain",
-          "engine_id": "library",
-          "query": "jim-morrison-1969jpg.jpg",
-          "selected_at": "2026-06-12T21:44:24.703Z"
+          "result_id": "library:a4e2d87376e09b91",
+          "url": "/media/_library/assets/a4e2d87376e09b91/genphoto-7ce7764d.jpg",
+          "thumbnail_url": "/media/_library/assets/a4e2d87376e09b91/genphoto-7ce7764d.jpg",
+          "title": "it's 1931 in mississippi. setting a music venue where robert johnson would have played. fellow musicians are stunned at ",
+          "source_page": "/media/_library/assets/a4e2d87376e09b91/genphoto-7ce7764d.jpg",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_photo",
+          "query": "OpenAI photo: it's 1931 in mississippi. setting a music venue where robert johnson would have played. fellow musicians are stunned at ",
+          "selected_at": "2026-06-13T08:17:28.987Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "Janis Joplin 1970 photograph",
+      "query": "Mississippi juke joint musicians 1930s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Jim Morrison 1971 photograph",
-      "engine_id": "commons",
-      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
-    },
-    {
-      "query_index": 3,
-      "query": "Kurt Cobain 1990s photograph",
+      "query": "Robert Johnson contemporaries blues scene",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:18:48.788Z",
-  "updated_at": "2026-06-13T08:18:48.788Z"
+  "completed_at": "2026-06-16T12:30:51.807Z",
+  "updated_at": "2026-06-16T12:30:51.807Z"
 }

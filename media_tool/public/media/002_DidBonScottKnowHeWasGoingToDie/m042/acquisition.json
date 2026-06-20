@@ -38,12 +38,12 @@
           "result_id": "library:5abe374f91e45bd2",
           "url": "/media/_library/assets/5abe374f91e45bd2/genphoto-95b3e197.jpg",
           "thumbnail_url": "/media/_library/assets/5abe374f91e45bd2/genphoto-95b3e197.jpg",
-          "title": "1931, the dead of night. lonely crossroad in mississippi. a dark (satanic) figure steps out of the blackness.",
+          "title": "genphoto-95b3e197.jpg",
           "source_page": "/media/_library/assets/5abe374f91e45bd2/genphoto-95b3e197.jpg",
           "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_photo",
-          "query": "OpenAI photo: 1931, the dead of night. lonely crossroad in mississippi. a dark (satanic) figure steps out of the blackness.",
-          "selected_at": "2026-06-12T21:10:55.383Z"
+          "engine_id": "library",
+          "query": "Robert Johnson crossroads legend illustration",
+          "selected_at": "2026-06-16T12:21:22.321Z"
         }
       ]
     },
@@ -62,6 +62,6 @@
       "selections": []
     }
   ],
-  "completed_at": "2026-06-11T09:39:58.218822Z",
-  "updated_at": "2026-06-12T21:10:55.383Z"
+  "completed_at": "2026-06-16T12:39:15.306Z",
+  "updated_at": "2026-06-16T12:39:15.306Z"
 }

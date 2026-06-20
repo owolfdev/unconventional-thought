@@ -1,0 +1,57 @@
+{
+  "id": "m137",
+  "cue": 137,
+  "source_visual_mode": "historical",
+  "resolved_visual_mode": "historical",
+  "resolved_media_type": "photo",
+  "status": "complete",
+  "notes": "",
+  "effects": [
+    "film_damage",
+    "film_scratches"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "large",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "1980 car commercial television still",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": [
+        {
+          "result_id": "library:faf528d80de64c7f",
+          "url": "/media/_library/assets/faf528d80de64c7f/no-way-do-not-want-gif.gif",
+          "thumbnail_url": "/media/_library/assets/faf528d80de64c7f/no-way-do-not-want-gif.gif",
+          "title": "No Way Do Not Want GIF",
+          "source_page": "/media/_library/assets/faf528d80de64c7f/no-way-do-not-want-gif.gif",
+          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
+          "engine_id": "giphy_sticker",
+          "query": "GIPHY: No Way Do Not Want GIF",
+          "selected_at": "2026-06-16T20:08:18.780Z"
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "query": "advertising agency 1980 meeting",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    },
+    {
+      "query_index": 2,
+      "query": "Chevrolet advertisement 1980",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": "2026-06-16T20:07:06.056Z",
+  "updated_at": "2026-06-16T20:08:18.780Z"
+}

@@ -2,33 +2,29 @@
   "version": 1,
   "id": "m082",
   "cue": 82,
-  "t_start": 255,
-  "t_end": 257.9,
-  "duration_sec": 2.9,
-  "spoken": "The real question is whether in that final stretch,",
+  "t_start": 218.33,
+  "t_end": 220.88,
+  "duration_sec": 2.55,
+  "spoken": "Some survived, some paid the price.",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "editorial_intent": "Some survived, some paid — contrast portraits; documentary sobriety.",
+  "situation": "Rock survivors vs casualties — era press, funerals, comebacks",
+  "people": [],
+  "date_from": "1970",
+  "date_to": "1980",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "rock musician funeral 1970s newspaper",
+    "Eric Clapton 1970s photograph",
+    "Keith Richards 1970s live photograph"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -36,17 +32,22 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-      "status": "acquired"
+      "description": "Some survived, some paid — contrast portraits; documentary sobriety.",
+      "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
+      "description": "Candidate from query: rock musician funeral 1970s newspaper",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
+      "description": "Candidate from query: Eric Clapton 1970s photograph",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Keith Richards 1970s live photograph",
       "status": "needed"
     }
   ],
@@ -58,9 +59,8 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-mIGKlmkNVn8sNITLgS.gif",
-    "original-frontman-of-ac-dc-bon-scott-in-1979-he-would-have-v0-qudaieuwcnjc1.webp"
+    "genphoto-8084dfc7.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.115Z"
+  "updated_at": "2026-06-16T21:57:59.042Z"
 }

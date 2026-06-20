@@ -2,33 +2,32 @@
   "version": 1,
   "id": "m064",
   "cue": 64,
-  "t_start": 195.3,
-  "t_end": 197.66,
-  "duration_sec": 2.36,
-  "spoken": "lucid, insulated, and brilliant",
+  "t_start": 161.98,
+  "t_end": 163.2,
+  "duration_sec": 1.22,
+  "spoken": "Same equation,",
   "visual_mode": "effect_only",
   "expected_media_type": "generated",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "editorial_intent": "27 Club roll call — Hendrix, Joplin, Morrison, Cobain; one face per beat if montage.",
+  "situation": "27 Club musicians — Hendrix, Joplin, Morrison, Cobain era photographs",
+  "people": [],
+  "date_from": "1969",
+  "date_to": "1994",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Jimi Hendrix 1969 photograph",
+    "Janis Joplin 1970 photograph",
+    "Jim Morrison 1971 photograph",
+    "Kurt Cobain 1990s photograph"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo",
+    "wrong artist mislabeled",
+    "tribute collage poster"
   ],
   "artifact": null,
   "text_graphic": null,
@@ -36,7 +35,7 @@
   "targets": [
     {
       "slot": "black_plate",
-      "description": "[Library pass — verify license before publish]",
+      "description": "Effect-only: no media file; effects on #000000",
       "status": "acquired"
     }
   ],
@@ -46,10 +45,7 @@
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": false,
-  "acquired_files": [
-    "giphy-dM2xuxnJCg4H6.gif",
-    "black-and-white-optical-illusion-gif.gif"
-  ],
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.104Z"
+  "updated_at": "2026-06-16T21:57:59.032Z"
 }

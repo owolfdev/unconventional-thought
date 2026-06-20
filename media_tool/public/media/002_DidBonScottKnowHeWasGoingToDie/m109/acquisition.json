@@ -2,15 +2,19 @@
   "id": "m109",
   "cue": 109,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
   "status": "complete",
-  "notes": "[Library pass — verify license before publish]",
+  "notes": "",
   "effects": [
     "film_scratches"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "It may also be incomplete and less plausible",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
@@ -19,38 +23,38 @@
   "queries": [
     {
       "query_index": 0,
-      "query": "American rock concert crowd 1980 denim",
+      "query": "coroner report document photograph",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:c0f1de7b09e285a4",
-          "url": "/media/_library/assets/c0f1de7b09e285a4/american-wrestling-gif.gif",
-          "thumbnail_url": "/media/_library/assets/c0f1de7b09e285a4/american-wrestling-gif.gif",
-          "title": "American Wrestling GIF",
-          "source_page": "/media/_library/assets/c0f1de7b09e285a4/american-wrestling-gif.gif",
-          "license": "GIPHY — verify broadcast/editorial rights (giphy.com/terms)",
-          "engine_id": "giphy_sticker",
-          "query": "GIPHY: American Wrestling GIF",
-          "selected_at": "2026-06-15T19:55:50.303Z"
+          "result_id": "library:aa9e50775f98f3f8",
+          "url": "/media/_library/assets/aa9e50775f98f3f8/in-an-acdc-font-write-its-incomplete.png",
+          "thumbnail_url": "/media/_library/assets/aa9e50775f98f3f8/in-an-acdc-font-write-its-incomplete.png",
+          "title": "in an AC/DC font write: It's Incomplete",
+          "source_page": "/media/_library/assets/aa9e50775f98f3f8/in-an-acdc-font-write-its-incomplete.png",
+          "license": "OpenAI generated — verify editorial use",
+          "engine_id": "openai_sticker",
+          "query": "OpenAI sticker: in an AC/DC font write: It's Incomplete",
+          "selected_at": "2026-06-15T19:36:47.840Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "suburban teenagers rock concert 1980",
+      "query": "redacted government document",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "pickup truck tailgate beer 1980s photograph",
+      "query": "manila folder classified stamp",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-15T19:56:20.870Z",
-  "updated_at": "2026-06-15T19:56:20.870Z"
+  "completed_at": "2026-06-16T19:43:18.969Z",
+  "updated_at": "2026-06-16T19:43:18.969Z"
 }

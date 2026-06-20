@@ -1,0 +1,31 @@
+{
+  "id": "m148",
+  "cue": 148,
+  "source_visual_mode": "effect_only",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "photo",
+  "status": "pending",
+  "notes": "",
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
+  "transition": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "background_color": "#000000",
+  "sticker_overlay_enabled": true,
+  "sticker_overlay_size": "medium",
+  "title_overlay_enabled": true,
+  "queries": [
+    {
+      "query_index": 0,
+      "query": "Black plate (effect-only tail)",
+      "engine_id": "commons",
+      "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
+      "selections": []
+    }
+  ],
+  "completed_at": null,
+  "updated_at": "2026-06-15T20:27:45.591Z"
+}

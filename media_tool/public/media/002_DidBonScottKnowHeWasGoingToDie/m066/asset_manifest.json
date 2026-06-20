@@ -2,49 +2,65 @@
   "version": 1,
   "id": "m066",
   "cue": 66,
-  "t_start": 201.47,
-  "t_end": 202.54,
-  "duration_sec": 1.07,
-  "spoken": "That's the bargain",
-  "visual_mode": "effect_only",
-  "expected_media_type": "generated",
-  "editorial_intent": "Heroin bargain — lucid then ruin; 70s rock documentary tone, not exploitation.",
-  "situation": "1970s rock culture heroin documentary context — era photography",
+  "t_start": 166.4,
+  "t_end": 169.1,
+  "duration_sec": 2.7,
+  "spoken": "Some might say they sold their souls for fame.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Soul for fame equation — same bargain, different eras; crossroads echo.",
+  "situation": "Rock mythology — fame and early death, artistic sacrifice",
   "people": [],
-  "date_from": "1970",
-  "date_to": "1979",
+  "date_from": "1960",
+  "date_to": "1980",
   "location": "",
   "search_queries": [
-    "1970s rock culture documentary photograph",
-    "New York music scene 1970s backstage",
-    "London rock scene 1970s nightlife"
+    "rock star spotlight 1970s silhouette",
+    "musician backstage alone 1970s",
+    "crossroads blues rock mythology photograph"
   ],
   "avoid": [
     "stock explainer",
     "corporate presentation",
     "literal album cover art",
     "AI generated faces",
-    "modern stock photo",
-    "graphic drug use",
-    "needle in vein"
+    "modern stock photo"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "black_plate",
-      "description": "Effect-only: no media file; effects on #000000",
-      "status": "acquired"
+      "slot": "primary",
+      "description": "Soul for fame equation — same bargain, different eras; crossroads echo.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: rock star spotlight 1970s silhouette",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: musician backstage alone 1970s",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: crossroads blues rock mythology photograph",
+      "status": "needed"
     }
   ],
   "effects": [
+    "film_scratches",
     "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": false,
-  "acquired_files": [],
+  "requires_media_files": true,
+  "acquired_files": [
+    "text-graphic-for-acdc-font-they-sold-their-souls-for-rock-n-roll.png"
+  ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.105Z"
+  "updated_at": "2026-06-16T21:57:59.033Z"
 }

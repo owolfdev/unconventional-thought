@@ -4,51 +4,56 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "in_progress",
-  "notes": "",
-  "effects": [],
+  "status": "complete",
+  "notes": "[Library pass — verify license before publish]",
+  "effects": [
+    "film_scratches",
+    "film_damage",
+    "shake",
+    "desaturate_soft"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Rolling Stone magazine 1980 cover",
+      "query": "Bon Scott death newspaper 1980 headline",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:468343728f2a87c1",
-          "url": "/media/_library/assets/468343728f2a87c1/asset.jpg",
-          "thumbnail_url": "/media/_library/assets/468343728f2a87c1/asset.jpg",
-          "title": "asset.jpg",
-          "source_page": "/media/_library/assets/468343728f2a87c1/asset.jpg",
-          "license": "verify rights before use",
+          "result_id": "library:4f1724dff67e8a84",
+          "url": "/media/_library/assets/4f1724dff67e8a84/IMG_5734.JPG",
+          "thumbnail_url": "/media/_library/assets/4f1724dff67e8a84/IMG_5734.JPG",
+          "title": "IMG_5734.JPG",
+          "source_page": "/media/_library/assets/4f1724dff67e8a84/IMG_5734.JPG",
+          "license": "manual import — verify rights",
           "engine_id": "library",
-          "query": "studio 54 1980",
-          "selected_at": "2026-06-15T19:50:02.830Z"
+          "query": "IMG_5734.JPG",
+          "selected_at": "2026-06-13T19:59:20.655Z"
         }
       ]
     },
     {
       "query_index": 1,
-      "query": "1980 news broadcast television studio",
+      "query": "Bon Scott obituary 1980 newspaper",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "music magazine 1980 rock",
+      "query": "AC/DC Bon Scott death news 1980",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": null,
-  "updated_at": "2026-06-15T19:50:02.830Z"
+  "completed_at": "2026-06-11T09:39:58.225065Z",
+  "updated_at": "2026-06-15T19:29:26.269Z"
 }

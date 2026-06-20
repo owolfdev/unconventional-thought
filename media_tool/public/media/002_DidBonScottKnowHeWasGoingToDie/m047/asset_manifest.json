@@ -2,71 +2,57 @@
   "version": 1,
   "id": "m047",
   "cue": 47,
-  "t_start": 137.32,
-  "t_end": 140.32,
-  "duration_sec": 3,
-  "spoken": "The other musicians were stunned. He now had",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Johnson returns transformed — other musicians stunned; delta blues scene.",
-  "situation": "Robert Johnson 1930s — post-legend transformation, peers watching",
+  "t_start": 126.74,
+  "t_end": 129.33,
+  "duration_sec": 2.59,
+  "spoken": "But understand kid, it ain't free.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
   "people": [
     {
-      "name": "Robert Johnson",
-      "role": "blues musician"
+      "name": "AC/DC",
+      "role": "band"
     }
   ],
-  "date_from": "1936",
-  "date_to": "1938",
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
   "search_queries": [
-    "Robert Johnson blues musician 1937",
-    "Mississippi juke joint musicians 1930s",
-    "Robert Johnson contemporaries blues scene"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "quote",
+    "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Johnson returns transformed — other musicians stunned; delta blues scene.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: Robert Johnson blues musician 1937",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: Mississippi juke joint musicians 1930s",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: Robert Johnson contemporaries blues scene",
-      "status": "needed"
+      "slot": "black_plate",
+      "description": "[Library pass — verify license before publish]",
+      "status": "acquired"
     }
   ],
   "effects": [
-    "film_scratches",
-    "film_damage",
-    "slow_zoom_out"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "genphoto-7ce7764d.jpg"
+    "giphy-StFrWoMq05gzAHLW1F.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.095Z"
+  "updated_at": "2026-06-16T21:57:59.025Z"
 }

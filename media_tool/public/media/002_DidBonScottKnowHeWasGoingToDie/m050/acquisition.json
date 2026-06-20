@@ -2,55 +2,47 @@
   "id": "m050",
   "cue": 50,
   "source_visual_mode": "historical",
-  "resolved_visual_mode": "historical",
-  "resolved_media_type": "photo",
-  "status": "complete",
-  "notes": "",
+  "resolved_visual_mode": "effect_only",
+  "resolved_media_type": "generated",
+  "status": "in_progress",
+  "notes": "[Library pass — verify license before publish]",
   "effects": [
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
-  "text_graphic": null,
+  "text_graphic": {
+    "type": "transcription",
+    "text": "",
+    "style": "typewriter"
+  },
   "text_graphic_layer": null,
   "background_color": "#000000",
-  "sticker_overlay_enabled": true,
+  "sticker_overlay_enabled": false,
   "sticker_overlay_size": "medium",
   "title_overlay_enabled": true,
   "queries": [
     {
       "query_index": 0,
-      "query": "Robert Johnson grave Mississippi",
+      "query": "Robert Johnson blues musician 1937",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": [
-        {
-          "result_id": "library:e9184764dce87c0a",
-          "url": "/media/_library/assets/e9184764dce87c0a/90s-font-27-club.png",
-          "thumbnail_url": "/media/_library/assets/e9184764dce87c0a/90s-font-27-club.png",
-          "title": "90s font: 27 Club",
-          "source_page": "/media/_library/assets/e9184764dce87c0a/90s-font-27-club.png",
-          "license": "OpenAI generated — verify editorial use",
-          "engine_id": "openai_sticker",
-          "query": "OpenAI sticker: 90s font: 27 Club",
-          "selected_at": "2026-06-12T21:35:18.211Z"
-        }
-      ]
+      "selections": []
     },
     {
       "query_index": 1,
-      "query": "Robert Johnson death memorial blues",
+      "query": "Mississippi juke joint musicians 1930s",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     },
     {
       "query_index": 2,
-      "query": "Robert Johnson 1938 obituary newspaper",
+      "query": "Robert Johnson contemporaries blues scene",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": []
     }
   ],
-  "completed_at": "2026-06-13T08:18:41.377Z",
-  "updated_at": "2026-06-13T08:18:41.377Z"
+  "completed_at": "2026-06-16T12:39:54.485Z",
+  "updated_at": "2026-06-16T12:40:24.412Z"
 }

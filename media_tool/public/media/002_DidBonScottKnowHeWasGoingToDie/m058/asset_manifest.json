@@ -2,62 +2,69 @@
   "version": 1,
   "id": "m058",
   "cue": 58,
-  "t_start": 169.62,
-  "t_end": 171.74,
-  "duration_sec": 2.12,
-  "spoken": "Well, they certainly got their money's worth.",
-  "visual_mode": "artifact",
+  "t_start": 154.15,
+  "t_end": 156.08,
+  "duration_sec": 1.93,
+  "spoken": "Take the 27 club,",
+  "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
-  "situation": "Inanimate: vinyl record on turntable",
-  "people": [],
-  "date_from": "1975",
-  "date_to": "1985",
+  "editorial_intent": "Johnson died young — legend only after death; grave or memorial.",
+  "situation": "Robert Johnson grave or death memorial — died before fame",
+  "people": [
+    {
+      "name": "Robert Johnson",
+      "role": "blues musician"
+    }
+  ],
+  "date_from": "1938",
+  "date_to": "1938",
   "location": "",
   "search_queries": [
-    "vinyl record spinning turntable 1970s",
-    "LP record needle drop"
+    "Robert Johnson grave Mississippi",
+    "Robert Johnson death memorial blues",
+    "Robert Johnson 1938 obituary newspaper"
   ],
   "avoid": [
-    "people faces prominent",
     "stock explainer",
-    "unrelated product"
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
   ],
-  "artifact": {
-    "object": "vinyl record on turntable",
-    "story_link": "Rock album culture",
-    "media_preference": "photo"
-  },
+  "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
       "slot": "primary",
-      "description": "Occasional ephemera cut — vinyl/cassette/shirt/amp etc.; keeps energy without another portrait.",
-      "status": "acquired"
+      "description": "Johnson died young — legend only after death; grave or memorial.",
+      "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: vinyl record spinning turntable 1970s",
+      "description": "Candidate from query: Robert Johnson grave Mississippi",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: LP record needle drop",
+      "description": "Candidate from query: Robert Johnson death memorial blues",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: Robert Johnson 1938 obituary newspaper",
       "status": "needed"
     }
   ],
   "effects": [
-    "film_damage",
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "giphy-KzhS227Iawx7pnGAkU.gif",
-    "bib_gold2-blkbg.jpg"
+    "90s-font-27-club.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.100Z"
+  "updated_at": "2026-06-16T21:57:59.030Z"
 }

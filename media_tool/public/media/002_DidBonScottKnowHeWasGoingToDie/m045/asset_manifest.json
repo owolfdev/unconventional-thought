@@ -2,46 +2,53 @@
   "version": 1,
   "id": "m045",
   "cue": 45,
-  "t_start": 129.33,
-  "t_end": 133.06,
-  "duration_sec": 3.73,
-  "spoken": "Everybody knows that Robert Johnson sold his soul to the devil",
-  "visual_mode": "historical",
+  "t_start": 121.69,
+  "t_end": 125.8,
+  "duration_sec": 4.11,
+  "spoken": "then hands the guitar back and says, now it's yours.",
+  "visual_mode": "effect_only",
   "expected_media_type": "generated",
-  "editorial_intent": "'It ain't free' — contract/bargain beat; intertitle on grain.",
-  "situation": "Generated text graphic (quote)",
-  "people": [],
-  "date_from": "",
-  "date_to": "",
+  "editorial_intent": "Impossibly good guitar — Johnson transformed; hands on guitar close-up.",
+  "situation": "Robert Johnson playing guitar — supernatural skill folklore moment",
+  "people": [
+    {
+      "name": "Robert Johnson",
+      "role": "blues musician"
+    }
+  ],
+  "date_from": "1936",
+  "date_to": "1938",
   "location": "",
-  "search_queries": [],
-  "avoid": [],
+  "search_queries": [
+    "Robert Johnson playing guitar photograph",
+    "blues guitarist hands guitar close up 1930s",
+    "Robert Johnson performance photograph"
+  ],
+  "avoid": [
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
+  ],
   "artifact": null,
-  "text_graphic": {
-    "type": "quote",
-    "text": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "BUT UNDERSTAND, KID — IT AIN'T FREE.",
-      "status": "selected"
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
+      "status": "acquired"
     }
   ],
   "effects": [
-    "film_damage",
     "film_scratches",
-    "vignette_soft",
-    "film_grain"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [
-    "genphoto-c3bbca95.jpg"
-  ],
+  "requires_media_files": false,
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.094Z"
+  "updated_at": "2026-06-16T21:57:59.024Z"
 }

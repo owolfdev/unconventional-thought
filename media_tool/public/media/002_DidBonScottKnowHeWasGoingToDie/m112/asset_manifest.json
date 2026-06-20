@@ -2,22 +2,22 @@
   "version": 1,
   "id": "m112",
   "cue": 112,
-  "t_start": 353.49,
-  "t_end": 355.87,
-  "duration_sec": 2.38,
-  "spoken": "beer, denim, v8s.",
+  "t_start": 304.54,
+  "t_end": 306.56,
+  "duration_sec": 2.02,
+  "spoken": "And why did his friend leave him in a car",
   "visual_mode": "historical",
   "expected_media_type": "photo",
-  "editorial_intent": "Anti-disco — Disco Demolition Night Comiskey Park July 1979; cultural war.",
-  "situation": "Disco Demolition Night Comiskey Park July 1979",
+  "editorial_intent": "Friend left him in the car — guilt, abandonment; car in cold night.",
+  "situation": "Friend's car winter night — left alone, troubling decision",
   "people": [],
-  "date_from": "1979",
-  "date_to": "1979",
-  "location": "Chicago, USA",
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "London, UK",
   "search_queries": [
-    "Disco Demolition Night 1979 Comiskey Park",
-    "Steve Dahl disco demolition 1979",
-    "disco records explosion baseball field 1979"
+    "car parked alley winter night",
+    "sleeping in car winter photograph",
+    "friend leaving car night street"
   ],
   "avoid": [
     "stock explainer",
@@ -32,35 +32,32 @@
   "targets": [
     {
       "slot": "primary",
-      "description": "Anti-disco — Disco Demolition Night Comiskey Park July 1979; cultural war.",
+      "description": "Friend left him in the car — guilt, abandonment; car in cold night.",
       "status": "selected"
     },
     {
       "slot": "search_1",
-      "description": "Candidate from query: Disco Demolition Night 1979 Comiskey Park",
+      "description": "Candidate from query: car parked alley winter night",
       "status": "needed"
     },
     {
       "slot": "search_2",
-      "description": "Candidate from query: Steve Dahl disco demolition 1979",
+      "description": "Candidate from query: sleeping in car winter photograph",
       "status": "needed"
     },
     {
       "slot": "search_3",
-      "description": "Candidate from query: disco records explosion baseball field 1979",
+      "description": "Candidate from query: friend leaving car night street",
       "status": "needed"
     }
   ],
-  "effects": [
-    "film_scratches",
-    "film_damage"
-  ],
+  "effects": [],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "genphoto-9d4ef105.jpg"
+    "in-70s-font-why.png"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.135Z"
+  "updated_at": "2026-06-16T21:57:59.059Z"
 }

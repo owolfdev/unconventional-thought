@@ -2,57 +2,67 @@
   "version": 1,
   "id": "m043",
   "cue": 43,
-  "t_start": 118.04,
-  "t_end": 125.8,
-  "duration_sec": 7.76,
-  "spoken": "impossible. It plays something impossibly good, then hands the guitar back and says, now it's yours.",
-  "visual_mode": "text_graphic",
-  "expected_media_type": "generated",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "t_start": 114.9,
+  "t_end": 118.04,
+  "duration_sec": 3.14,
+  "spoken": "It takes the guitar, tunes it, plays something",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Dark figure at crossroads — folklore illustration or high-contrast silhouette; tasteful, not horror B-movie.",
+  "situation": "Crossroads devil folklore — silhouette at rural intersection, blues myth",
+  "people": [],
+  "date_from": "1930",
+  "date_to": "1940",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "Robert Johnson crossroads legend illustration",
+    "crossroads blues devil folklore art",
+    "silhouette figure rural road night"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo",
+    "horror movie monster",
+    "cartoon devil horns comedy"
   ],
   "artifact": null,
-  "text_graphic": {
-    "type": "transcription",
-    "text": "It plays something impossibly good, then hands the guitar back and says, \"now it's yours\".",
-    "style": "typewriter"
-  },
+  "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "generated",
-      "description": "It plays something impossibly good, then hands the guitar back and says, \"now it's yours\".",
+      "slot": "primary",
+      "description": "Dark figure at crossroads — folklore illustration or high-contrast silhouette; tasteful, not horror B-movie.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: Robert Johnson crossroads legend illustration",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: crossroads blues devil folklore art",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: silhouette figure rural road night",
       "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "shake"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": false,
+  "requires_media_files": true,
   "acquired_files": [
-    "giphy-zci4bImZZ8FwuuYsSm.gif"
+    "genphoto-8a606183.jpg"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.092Z"
+  "updated_at": "2026-06-16T21:57:59.023Z"
 }

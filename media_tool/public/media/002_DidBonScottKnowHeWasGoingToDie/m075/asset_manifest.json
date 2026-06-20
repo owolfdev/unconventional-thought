@@ -2,67 +2,50 @@
   "version": 1,
   "id": "m075",
   "cue": 75,
-  "t_start": 227.92,
-  "t_end": 232.92,
-  "duration_sec": 5,
-  "spoken": "It moved through elite rooms, working bands, after parties, and studio circles.",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
-  "situation": "AC/DC historical photograph 1978-1981",
-  "people": [
-    {
-      "name": "AC/DC",
-      "role": "band"
-    }
-  ],
-  "date_from": "1978",
-  "date_to": "1981",
+  "t_start": 197.66,
+  "t_end": 201.47,
+  "duration_sec": 3.81,
+  "spoken": "until it takes everything back with interest.",
+  "visual_mode": "effect_only",
+  "expected_media_type": "generated",
+  "editorial_intent": "Heroin bargain — lucid then ruin; 70s rock documentary tone, not exploitation.",
+  "situation": "1970s rock culture heroin documentary context — era photography",
+  "people": [],
+  "date_from": "1970",
+  "date_to": "1979",
   "location": "",
   "search_queries": [
-    "AC/DC 1979 live concert photograph",
-    "AC/DC 1980 press photo band"
+    "1970s rock culture documentary photograph",
+    "New York music scene 1970s backstage",
+    "London rock scene 1970s nightlife"
   ],
   "avoid": [
-    "courtroom",
-    "jury box",
-    "office chair",
-    "cork board",
-    "stock explainer"
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo",
+    "graphic drug use",
+    "needle in vein"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+      "slot": "black_plate",
+      "description": "Effect-only: no media file; effects on #000000",
       "status": "acquired"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: AC/DC 1979 live concert photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: AC/DC 1980 press photo band",
-      "status": "needed"
     }
   ],
   "effects": [
-    "film_scratches",
     "film_damage",
-    "tremble",
-    "tilt_left"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
-  "acquired_files": [
-    "giphy-1qgBUe1lzpDPUJS5bd.gif",
-    "back-stage.jpg"
-  ],
+  "requires_media_files": false,
+  "acquired_files": [],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.111Z"
+  "updated_at": "2026-06-16T21:57:59.039Z"
 }

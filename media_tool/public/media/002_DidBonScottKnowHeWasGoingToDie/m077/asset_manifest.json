@@ -2,69 +2,53 @@
   "version": 1,
   "id": "m077",
   "cue": 77,
-  "t_start": 237.68,
-  "t_end": 238.76,
-  "duration_sec": 1.08,
-  "spoken": "John Lennon talked",
-  "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "John Lennon spoke about it — Lennon era press, not Bon.",
-  "situation": "John Lennon 1970s press photograph",
+  "t_start": 202.54,
+  "t_end": 204.12,
+  "duration_sec": 1.58,
+  "spoken": "in chemical form.",
+  "visual_mode": "text_graphic",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
   "people": [
     {
-      "name": "John Lennon",
-      "role": "musician"
+      "name": "AC/DC",
+      "role": "band"
     }
   ],
-  "date_from": "1970",
-  "date_to": "1980",
+  "date_from": "1978",
+  "date_to": "1981",
   "location": "",
   "search_queries": [
-    "John Lennon 1970s photograph interview",
-    "John Lennon New York 1970s",
-    "John Lennon studio 1970s"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "John Lennon spoke about it — Lennon era press, not Bon.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: John Lennon 1970s photograph interview",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: John Lennon New York 1970s",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: John Lennon studio 1970s",
-      "status": "needed"
+      "slot": "generated",
+      "description": "in chemical form.",
+      "status": "acquired"
     }
   ],
   "effects": [
-    "film_scratches"
+    "film_damage"
   ],
   "transition": null,
   "background_color": "#000000",
-  "requires_media_files": true,
+  "requires_media_files": false,
   "acquired_files": [
-    "asset.jpg"
+    "giphy-I8VJ3IkbBJaXsibfhD.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.112Z"
+  "updated_at": "2026-06-16T21:57:59.040Z"
 }

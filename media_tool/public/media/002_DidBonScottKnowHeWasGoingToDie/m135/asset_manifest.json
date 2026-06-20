@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "id": "m135",
+  "cue": 135,
+  "t_start": 390.58,
+  "t_end": 394.9,
+  "duration_sec": 4.32,
+  "spoken": "Look, in 1980, radio gatekeepers were conservative.",
+  "visual_mode": "historical",
+  "expected_media_type": "photo",
+  "editorial_intent": "Radio gatekeepers 1980 — conservative program directors, advertisers.",
+  "situation": "FM radio station program director 1980 office",
+  "people": [],
+  "date_from": "1980",
+  "date_to": "1980",
+  "location": "USA",
+  "search_queries": [
+    "FM radio station 1980 control room",
+    "radio program director office 1980",
+    "American radio station studio 1980"
+  ],
+  "avoid": [
+    "stock explainer",
+    "corporate presentation",
+    "literal album cover art",
+    "AI generated faces",
+    "modern stock photo"
+  ],
+  "artifact": null,
+  "text_graphic": null,
+  "text_graphic_layer": null,
+  "targets": [
+    {
+      "slot": "primary",
+      "description": "Radio gatekeepers 1980 — conservative program directors, advertisers.",
+      "status": "selected"
+    },
+    {
+      "slot": "search_1",
+      "description": "Candidate from query: FM radio station 1980 control room",
+      "status": "needed"
+    },
+    {
+      "slot": "search_2",
+      "description": "Candidate from query: radio program director office 1980",
+      "status": "needed"
+    },
+    {
+      "slot": "search_3",
+      "description": "Candidate from query: American radio station studio 1980",
+      "status": "needed"
+    }
+  ],
+  "effects": [
+    "film_scratches"
+  ],
+  "transition": null,
+  "background_color": "#000000",
+  "requires_media_files": true,
+  "acquired_files": [
+    "asset.jpg"
+  ],
+  "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
+  "updated_at": "2026-06-16T21:57:59.071Z"
+}

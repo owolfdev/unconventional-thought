@@ -2,53 +2,42 @@
   "version": 1,
   "id": "m074",
   "cue": 74,
-  "t_start": 225.07,
-  "t_end": 227.4,
-  "duration_sec": 2.33,
-  "spoken": "It wasn't fringe. It wasn't rare.",
+  "t_start": 195.3,
+  "t_end": 197.66,
+  "duration_sec": 2.36,
+  "spoken": "lucid, insulated, and brilliant",
   "visual_mode": "historical",
-  "expected_media_type": "photo",
-  "editorial_intent": "Late 70s heroin saturation — elite rooms, not fringe.",
-  "situation": "1970s music industry party studio — heroin era context",
-  "people": [],
-  "date_from": "1977",
-  "date_to": "1979",
-  "location": "New York / Los Angeles",
+  "expected_media_type": "generated",
+  "editorial_intent": "Bridge beat — stay on period rock documentary tone; reuse era montage if short.",
+  "situation": "AC/DC historical photograph 1978-1981",
+  "people": [
+    {
+      "name": "AC/DC",
+      "role": "band"
+    }
+  ],
+  "date_from": "1978",
+  "date_to": "1981",
+  "location": "",
   "search_queries": [
-    "Studio 54 1970s photograph",
-    "1970s music industry party photograph",
-    "New York nightclub 1970s rock scene"
+    "AC/DC 1979 live concert photograph",
+    "AC/DC 1980 press photo band"
   ],
   "avoid": [
-    "stock explainer",
-    "corporate presentation",
-    "literal album cover art",
-    "AI generated faces",
-    "modern stock photo"
+    "courtroom",
+    "jury box",
+    "office chair",
+    "cork board",
+    "stock explainer"
   ],
   "artifact": null,
   "text_graphic": null,
   "text_graphic_layer": null,
   "targets": [
     {
-      "slot": "primary",
-      "description": "Late 70s heroin saturation — elite rooms, not fringe.",
-      "status": "selected"
-    },
-    {
-      "slot": "search_1",
-      "description": "Candidate from query: Studio 54 1970s photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_2",
-      "description": "Candidate from query: 1970s music industry party photograph",
-      "status": "needed"
-    },
-    {
-      "slot": "search_3",
-      "description": "Candidate from query: New York nightclub 1970s rock scene",
-      "status": "needed"
+      "slot": "generated",
+      "description": "lucid, insulated, and brilliant",
+      "status": "acquired"
     }
   ],
   "effects": [
@@ -59,8 +48,9 @@
   "background_color": "#000000",
   "requires_media_files": true,
   "acquired_files": [
-    "im-not-no-way-gif.gif"
+    "giphy-dM2xuxnJCg4H6.gif",
+    "black-and-white-optical-illusion-gif.gif"
   ],
   "source_media_search": "episodes/002_DidBonScottKnowHeWasGoingToDie/timeline/media_search.json",
-  "updated_at": "2026-06-15T20:27:49.111Z"
+  "updated_at": "2026-06-16T21:57:59.038Z"
 }
