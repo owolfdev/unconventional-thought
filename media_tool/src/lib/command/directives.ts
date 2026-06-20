@@ -9,6 +9,7 @@ const CUE_REF = String.raw`(m?\d+)`;
 const HELP_TEXT = `Directives (@ prefix):
   @help @help effects  @info @layers @effects @status
   @effect add|remove <id>
+  @mode  @mode <historical|stock|artifact|text_graphic|effect_only>
   @cue 22  @22  @next  @prev  @next incomplete
   @episode 002  @episodes
   @search library|google|gif|video <query>
@@ -68,6 +69,9 @@ export function parseDirectiveInput(raw: string): ParsedDirective {
   if (lower === "@help effects" || lower === "@help effect") {
     return { kind: "helpTopic", topic: "effects" };
   }
+  if (lower === "@help modes" || lower === "@help mode") {
+    return { kind: "helpTopic", topic: "modes" };
+  }
   if (lower === "@help") return { kind: "help" };
   if (lower === "@info") return { kind: "info" };
   if (lower === "@layers") return { kind: "layers" };
@@ -103,6 +107,12 @@ export function parseDirectiveInput(raw: string): ParsedDirective {
       action: m[1].toLowerCase() as "add" | "remove",
       id: m[2],
     };
+  }
+
+  m = line.match(/^@mode(?:\s+(\S+))?\s*$/i);
+  if (m) {
+    const arg = m[1]?.trim();
+    return arg ? { kind: "mode", set: arg } : { kind: "mode" };
   }
 
   m = line.match(/^@render\s+(\S+)(?:\s+(\S+))?\s*$/i);

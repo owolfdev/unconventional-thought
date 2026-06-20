@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-06-20T19:36:43.672964+00:00",
+  "built_at": "2026-06-20T19:49:51.863034+00:00",
   "episode": "000_Sandbox",
   "max_id": "m008",
   "fps": 30,
@@ -97,15 +97,27 @@
       "visualMode": "stock",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_damage"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
-      "missingMedia": true
+      "src": "media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
     },
     {
       "id": "m003",
@@ -288,7 +300,7 @@
   ],
   "stats": {
     "shot_count": 9,
-    "missing_media": 5,
+    "missing_media": 4,
     "end_sec": 33.0
   }
 }

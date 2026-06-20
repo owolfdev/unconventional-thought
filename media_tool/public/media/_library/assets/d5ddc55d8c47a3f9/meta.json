@@ -40,11 +40,24 @@
       "people": [],
       "situation": "Generated title",
       "editorial_intent": "Title card — test text graphic / effect stack.",
-      "attached_at": "2026-06-20T19:28:18.757Z"
+      "attached_at": "2026-06-20T19:45:33.105Z"
+    },
+    {
+      "episode_id": "000_Sandbox",
+      "cue_id": "m002",
+      "spoken": "Search the library or Google for test images.",
+      "search_queries": [
+        "city skyline stock",
+        "abstract texture background"
+      ],
+      "people": [],
+      "situation": "Stock search test",
+      "editorial_intent": "Exercise @search library and @search google.",
+      "attached_at": "2026-06-20T19:45:33.197Z"
     }
   ],
   "archived": false,
   "created_at": "2026-06-16T12:06:28.369Z",
-  "updated_at": "2026-06-20T19:28:18.758Z",
+  "updated_at": "2026-06-20T19:45:33.197Z",
   "search_text": "asset.gif download-16f8a903a977.gif bon scott"
 }

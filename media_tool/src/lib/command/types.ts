@@ -29,7 +29,8 @@ export type PlayRequest = {
 
 export type ParsedDirective =
   | { kind: "help" }
-  | { kind: "helpTopic"; topic: "effects" }
+  | { kind: "helpTopic"; topic: "effects" | "modes" }
+  | { kind: "mode"; set?: string }
   | { kind: "info" }
   | { kind: "layers" }
   | { kind: "effects" }

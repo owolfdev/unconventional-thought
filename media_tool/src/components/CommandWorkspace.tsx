@@ -22,6 +22,12 @@ import {
   resolveEffectId,
 } from "@/lib/command/effect-commands";
 import {
+  applyVisualModeChange,
+  formatCurrentMode,
+  formatModesHelp,
+  resolveVisualModeArg,
+} from "@/lib/command/mode-commands";
+import {
   gallerySummary,
   runGallerySearch,
 } from "@/lib/command/search-gallery";
@@ -304,6 +310,72 @@ export function CommandWorkspace() {
             `Effect ${action === "add" ? "added" : "removed"}: ${id}`,
             formatEffects({ ...currentAcq, effects: next }),
           ].join("\n"),
+          "success",
+        );
+      } catch (e) {
+        pushLine(
+          setResponseLines,
+          e instanceof Error ? e.message : "Save failed",
+          "error",
+        );
+      } finally {
+        setSaving(false);
+      }
+    },
+    [loadState, currentItem, currentAcq],
+  );
+
+  const applyModeCommand = useCallback(
+    async (rawMode?: string) => {
+      if (!loadState || !currentItem || !currentAcq) return;
+
+      if (!rawMode) {
+        pushLine(setResponseLines, formatCurrentMode(currentAcq));
+        return;
+      }
+
+      const mode = resolveVisualModeArg(rawMode);
+      if (!mode) {
+        pushLine(
+          setResponseLines,
+          `Unknown visual mode: ${rawMode}\nTry @help modes`,
+          "error",
+        );
+        return;
+      }
+
+      if (currentAcq.resolved_visual_mode === mode) {
+        pushLine(setResponseLines, `Already ${mode}.`, "warn");
+        return;
+      }
+
+      const updated = applyVisualModeChange(currentAcq, mode);
+
+      const acquisition = {
+        ...loadState.acquisition,
+        items: {
+          ...loadState.acquisition.items,
+          [currentItem.id]: updated,
+        },
+      };
+
+      setSaving(true);
+      try {
+        const res = await fetch("/api/acquisition", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            manifestPath: loadState.manifestPath,
+            acquisition,
+          }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error ?? "Save failed");
+        setLoadState((s) => (s ? { ...s, acquisition: data.acquisition } : s));
+        setSavedItems(cloneSavedItems(data.acquisition.items));
+        pushLine(
+          setResponseLines,
+          [`Visual mode → ${mode}`, formatCurrentMode(updated)].join("\n"),
           "success",
         );
       } catch (e) {
@@ -663,6 +735,8 @@ export function CommandWorkspace() {
     if (parsed.kind === "helpTopic") {
       if (parsed.topic === "effects") {
         pushLine(setResponseLines, formatEffectsHelp());
+      } else if (parsed.topic === "modes") {
+        pushLine(setResponseLines, formatModesHelp());
       }
       return;
     }
@@ -703,6 +777,9 @@ export function CommandWorkspace() {
         break;
       case "effect":
         await applyEffectCommand(parsed.action, parsed.id);
+        break;
+      case "mode":
+        await applyModeCommand(parsed.set);
         break;
       case "render":
         await startCueRender(parsed.args);
@@ -824,6 +901,7 @@ export function CommandWorkspace() {
     previewGalleryResult,
     saveAcquisition,
     applyEffectCommand,
+    applyModeCommand,
     startCueRender,
     playRenderPreview,
     completeAndNext,
