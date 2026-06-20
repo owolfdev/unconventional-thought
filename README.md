@@ -32,4 +32,4 @@ npm run render:preview:low
 
 ## Git
 
-Large binaries (acquired media, renders, master audio) are **gitignored**. Use local backup or media_tool to restore assets on a fresh clone.
+Large binaries (acquired media, library assets, renders, VO) are **gitignored**. Cue JSON and manifests commit normally. See **[media_tool/docs/GIT_AND_MEDIA.md](media_tool/docs/GIT_AND_MEDIA.md)** and run `python3 tools/check_tracked_media.py` before push.

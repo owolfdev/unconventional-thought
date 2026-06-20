@@ -172,6 +172,16 @@ can still carry notes, effects, and transition metadata.
 checkbox to composite typography over an acquired photo or video (`text_graphic_layer`
 in `acquisition.json` and `asset_manifest.json`, target slot `text_overlay`).
 
+## Git
+
+Large binaries stay **local**; git tracks cue metadata (`acquisition.json`, manifests) and app code. Full policy, backup commands, and pre-push check:
+
+**[docs/GIT_AND_MEDIA.md](docs/GIT_AND_MEDIA.md)**
+
+```bash
+python3 tools/check_tracked_media.py   # from repo root, before push
+```
+
 ## Environment
 
 | Variable | Purpose |

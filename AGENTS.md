@@ -99,7 +99,9 @@ Stock overlays: `media_tool/public/media/_effects/`.
 ## Git & large files
 
 - **Commit:** scripts, JSON manifests, `acquisition.json`, Remotion/media_tool source.
-- **Do not commit:** `media_tool/public/media/**/acquired/*` (binaries), `remotion/out/`, master MP3s (see `.gitignore`).
+- **Do not commit:** anything under `media_tool/public/media/` except `*.json`, `.gitkeep`, and `README.md` (allow-list in root `.gitignore`). Binaries in `acquired/`, `_library/assets/`, `_effects/`, and stray files in cue folders stay local. See **`media_tool/docs/GIT_AND_MEDIA.md`**.
+- **Also local:** `remotion/out/`, episode VO under `audio/vo/`, master MP3s (see `.gitignore`).
+- **Before push:** `python3 tools/check_tracked_media.py`
 - Restore media from local backup (`Backup_TMP`) or re-download via media_tool.
 
 ---

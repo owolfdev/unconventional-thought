@@ -13,19 +13,25 @@ __pycache__/
 # Remotion renders
 remotion/out/
 
-# Acquired media (large binaries) — keep folder structure via .gitkeep
-media_tool/public/media/**/acquired/*
-!media_tool/public/media/**/acquired/.gitkeep
+# -----------------------------------------------------------------------------
+# media_tool/public/media — commit JSON metadata only; all binaries stay local
+# See media_tool/docs/GIT_AND_MEDIA.md
+# -----------------------------------------------------------------------------
+media_tool/public/media/**
+!media_tool/public/media/
+!media_tool/public/media/**/
+!media_tool/public/media/.gitkeep
+!media_tool/public/media/**/*.json
+!media_tool/public/media/**/.gitkeep
+!media_tool/public/media/**/README.md
 
-# Global media library — commit meta + index; ignore binaries
-media_tool/public/media/_library/assets/**/*
-!media_tool/public/media/_library/assets/**/meta.json
-!media_tool/public/media/_library/assets/.gitkeep
+# Scratch downloads / uploads during dev (never commit)
+media_tool/public/tmp/*
+!media_tool/public/tmp/.gitkeep
 
-# Stock effect clips (re-download with tools/download_effects_library.py)
-media_tool/public/media/_effects/**/*.mp4
-media_tool/public/media/_effects/**/*.webm
-media_tool/public/media/_effects/**/*.mov
+# Raw VO sources (local)
+vo_source/*
+!vo_source/.gitkeep
 
 # Episode-local media downloads (optional; uncomment if you move fetch under episodes/)
 # episodes/**/media/fetch/*
@@ -36,6 +42,18 @@ episodes/**/audio/master/*.mp3
 episodes/**/audio/master/*.wav
 episodes/**/audio/segments/*.mp3
 episodes/**/audio/preview/*.mp3
+
+# VO work-in-progress (parts, review renders, archives — local only)
+episodes/**/audio/vo/**/*.mp3
+episodes/**/audio/vo/**/*.mp4
+episodes/**/audio/vo/**/*.wav
+episodes/**/audio/vo/**/*.m4a
+episodes/**/audio/vo/**/*.png
+
+# Large episode graphics sources (keep small PNG comps in git if desired)
+episodes/**/graphics/**/*.af
+episodes/**/graphics/thumbnail.jpg
+episodes/**/media/**/*.af
 
 # OS / editor
 .DS_Store
