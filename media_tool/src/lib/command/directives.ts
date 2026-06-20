@@ -16,6 +16,7 @@ const HELP_TEXT = `Directives (@ prefix):
   @gallery [tiny|small|medium|large]
   @save  @complete
   @render <cue>  @render <from> <to>
+  @play  @play loop  @play loop 5
   @cue split: … @end
   @cue merge 8 9  @use 8  @confirm  @cancel
 
@@ -109,6 +110,20 @@ export function parseDirectiveInput(raw: string): ParsedDirective {
     const args = [m[1], m[2]].filter(Boolean) as string[];
     return { kind: "render", args };
   }
+
+  m = line.match(/^@play\s+loop(?:\s+(\d+))?\s*$/i);
+  if (m) {
+    if (m[1]) {
+      const count = Number.parseInt(m[1], 10);
+      if (count < 1) {
+        return { kind: "unknown", raw: "Loop count must be at least 1." };
+      }
+      return { kind: "play", loopCount: count };
+    }
+    return { kind: "play", loopCount: null };
+  }
+
+  if (lower === "@play") return { kind: "play" };
 
   m = line.match(/^@search\s+(library|google|gif|video)\s+(.+)$/i);
   if (m) {

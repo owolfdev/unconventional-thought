@@ -28,10 +28,12 @@ export const CuePreview: React.FC<CuePreviewProps> = ({ shotId }) => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      <Audio
-        src={staticFile(timeline.audioSrc)}
-        startFrom={Math.round(shot.tStart * timeline.fps)}
-      />
+      {timeline.audioSrc ? (
+        <Audio
+          src={staticFile(timeline.audioSrc)}
+          startFrom={Math.round(shot.tStart * timeline.fps)}
+        />
+      ) : null}
       <ShotClip
         shot={shot}
         showCueOverlay={showCueOverlay}

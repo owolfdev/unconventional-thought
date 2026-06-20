@@ -20,6 +20,13 @@ export type ResponseLine = {
   tone?: "info" | "error" | "success" | "warn";
 };
 
+/** Drives CommandRenderPanel playback without mouse (from @play). */
+export type PlayRequest = {
+  seq: number;
+  /** omitted = once; null = infinite loop; number = play N times total */
+  loopCount?: number | null;
+};
+
 export type ParsedDirective =
   | { kind: "help" }
   | { kind: "helpTopic"; topic: "effects" }
@@ -28,6 +35,7 @@ export type ParsedDirective =
   | { kind: "effects" }
   | { kind: "effect"; action: "add" | "remove"; id: string }
   | { kind: "render"; args: string[] }
+  | { kind: "play"; loopCount?: number | null }
   | { kind: "status" }
   | {
       kind: "navigate";

@@ -7,22 +7,26 @@ import {
 import { timeline } from "./timeline-data";
 
 export const EpisodePreview: React.FC = () => {
-  const audioSrc = staticFile(timeline.audioSrc);
   const audioFromFrame = timeline.audioFromFrame ?? 0;
   const showCueOverlay =
     timeline.showCueOverlay !== false && previewShowCueOverlay;
   const showStickerOverlays =
     timeline.showStickerOverlays !== false && previewShowStickerOverlays;
 
-  return (
-    <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      {audioFromFrame > 0 ? (
+  const audio =
+    timeline.audioSrc != null && timeline.audioSrc !== "" ? (
+      audioFromFrame > 0 ? (
         <Sequence from={audioFromFrame} layout="none">
-          <Audio src={audioSrc} />
+          <Audio src={staticFile(timeline.audioSrc)} />
         </Sequence>
       ) : (
-        <Audio src={audioSrc} />
-      )}
+        <Audio src={staticFile(timeline.audioSrc)} />
+      )
+    ) : null;
+
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#000" }}>
+      {audio}
       {timeline.shots.map((shot) => (
         <Sequence
           key={shot.id}

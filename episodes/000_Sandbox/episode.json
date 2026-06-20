@@ -3,5 +3,6 @@
   "number": "000",
   "title": "Sandbox (media_tool test)",
   "timeline_manifest": "timeline/media_search.json",
-  "transcript_json": "transcript/sandbox.json"
+  "transcript_json": "transcript/sandbox.json",
+  "audio_master": ""
 }

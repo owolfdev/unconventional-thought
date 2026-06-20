@@ -35,7 +35,7 @@ import {
   parseRenderRange,
   renderRangeLabel,
 } from "@/lib/command/render-parse";
-import type { GalleryState, ResponseLine } from "@/lib/command/types";
+import type { GalleryState, PlayRequest, ResponseLine } from "@/lib/command/types";
 import type { RenderJob } from "@/lib/render-launcher";
 import type {
   ItemAcquisition,
@@ -86,6 +86,8 @@ export function CommandWorkspace() {
   const [saving, setSaving] = useState(false);
   const [acquiredFiles, setAcquiredFiles] = useState<string[]>([]);
   const [renderJob, setRenderJob] = useState<RenderJob | null>(null);
+  const [playRequest, setPlayRequest] = useState<PlayRequest | null>(null);
+  const playSeqRef = useRef(0);
   const didInitialLoad = useRef(false);
 
   const items = loadState?.manifest.items ?? [];
@@ -379,6 +381,31 @@ export function CommandWorkspace() {
       }
     },
     [loadState, isDirty],
+  );
+
+  const playRenderPreview = useCallback(
+    (loopCount?: number | null) => {
+      if (!renderJob || renderJob.status !== "completed") {
+        pushLine(
+          setResponseLines,
+          "No completed render — @render first.",
+          "warn",
+        );
+        return;
+      }
+
+      playSeqRef.current += 1;
+      setPlayRequest({ seq: playSeqRef.current, loopCount });
+
+      const label =
+        loopCount === null
+          ? "Playing render preview (loop)."
+          : typeof loopCount === "number"
+            ? `Playing render preview (${loopCount}×).`
+            : "Playing render preview.";
+      pushLine(setResponseLines, label, "success");
+    },
+    [renderJob],
   );
 
   const navigateToIndex = useCallback((index: number) => {
@@ -680,6 +707,9 @@ export function CommandWorkspace() {
       case "render":
         await startCueRender(parsed.args);
         break;
+      case "play":
+        playRenderPreview(parsed.loopCount);
+        break;
       case "status":
         pushLine(
           setResponseLines,
@@ -795,6 +825,7 @@ export function CommandWorkspace() {
     saveAcquisition,
     applyEffectCommand,
     startCueRender,
+    playRenderPreview,
     completeAndNext,
     gallerySize,
   ]);
@@ -851,10 +882,7 @@ export function CommandWorkspace() {
             dirty={isDirty}
           />
           {loadState.mediaLibrary && (
-            <div className="min-h-0 flex-1 overflow-y-auto px-4 py-4">
-              <p className="mb-3 font-mono text-xs uppercase tracking-wide text-zinc-500">
-                preview
-              </p>
+            <div className="min-h-0 flex-1 overflow-y-auto px-3 py-2">
               <SelectedMediaPreview
                 acquisition={currentAcq}
                 project={loadState.mediaLibrary.project}
@@ -870,6 +898,7 @@ export function CommandWorkspace() {
             <CommandRenderPanel
               manifestPath={loadState.manifestPath}
               job={renderJob}
+              playRequest={playRequest}
               onJobUpdate={setRenderJob}
             />
           </div>

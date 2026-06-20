@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef } from "react";
+import type { PlayRequest } from "@/lib/command/types";
 import type { RenderJob } from "@/lib/render-launcher";
 import type { RenderProgress } from "@/lib/render-progress";
 import { renderRangeLabel } from "@/lib/command/render-parse";
@@ -20,12 +21,14 @@ function progressPercent(p: RenderProgress | undefined): number | null {
 type Props = {
   manifestPath: string;
   job: RenderJob | null;
+  playRequest: PlayRequest | null;
   onJobUpdate: (job: RenderJob | null) => void;
 };
 
 export function CommandRenderPanel({
   manifestPath,
   job,
+  playRequest,
   onJobUpdate,
 }: Props) {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -60,6 +63,40 @@ export function CommandRenderPanel({
     }
   }, [job?.status, job?.id]);
 
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!playRequest || !video || job?.status !== "completed") return;
+
+    let cancelled = false;
+    const infinite = playRequest.loopCount === null;
+    let remaining =
+      typeof playRequest.loopCount === "number" ? playRequest.loopCount : 1;
+
+    video.loop = infinite;
+    video.currentTime = 0;
+
+    const onEnded = () => {
+      if (cancelled || infinite) return;
+      remaining -= 1;
+      if (remaining > 0) {
+        video.currentTime = 0;
+        void video.play().catch(() => {});
+      }
+    };
+
+    if (!infinite && remaining > 1) {
+      video.addEventListener("ended", onEnded);
+    }
+
+    void video.play().catch(() => {});
+
+    return () => {
+      cancelled = true;
+      video.removeEventListener("ended", onEnded);
+      if (!infinite) video.loop = false;
+    };
+  }, [playRequest?.seq, job?.status]);
+
   if (!job) return null;
 
   const pct = progressPercent(job.progress);
@@ -87,15 +124,15 @@ export function CommandRenderPanel({
   };
 
   return (
-    <div className="border-t border-zinc-800 px-4 py-4">
-      <div className="mb-2 flex items-center justify-between gap-2">
-        <p className="font-mono text-xs uppercase tracking-wide text-zinc-500">
+    <div className="border-t border-zinc-800 px-3 py-2">
+      <div className="mb-1 flex items-center justify-between gap-2">
+        <p className="font-mono text-[11px] uppercase tracking-wide text-zinc-500">
           render
         </p>
         <span className={`font-mono text-xs ${statusColor}`}>{job.status}</span>
       </div>
 
-      <p className="font-mono text-xs text-zinc-400">
+      <p className="font-mono text-[11px] text-zinc-400">
         {renderRangeLabel(job.from, job.to)}
         {job.preview ? " · preview" : " · full"}
       </p>
@@ -125,7 +162,7 @@ export function CommandRenderPanel({
         <video
           ref={videoRef}
           key={videoUrl}
-          className="mt-3 w-full rounded border border-zinc-800 bg-black"
+          className="mt-2 w-full rounded border border-zinc-800 bg-black"
           controls
           autoPlay
           playsInline

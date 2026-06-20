@@ -1,14 +1,12 @@
 {
   "version": 1,
-  "built_at": "2026-06-20T19:34:20.076965+00:00",
+  "built_at": "2026-06-20T19:36:43.672964+00:00",
   "episode": "000_Sandbox",
   "max_id": "m008",
   "fps": 30,
   "width": 1920,
   "height": 1080,
   "durationInFrames": 1080,
-  "audioFromFrame": 60,
-  "audioSrc": "audio/master/who_wrote_back_in_black.mp3",
   "showCueOverlay": true,
   "showStickerOverlays": true,
   "shots": [

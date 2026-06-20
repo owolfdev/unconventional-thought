@@ -228,10 +228,12 @@ def effects_respecting_notes(effects: list[str], notes: str) -> list[str]:
 def ensure_remotion_public_links() -> None:
     """Symlink media + audio into remotion/public for staticFile() during render."""
     REMOTION_PUBLIC.mkdir(parents=True, exist_ok=True)
-    links = {
+    links: dict[str, Path] = {
         "media": MEDIA_PUBLIC,
-        "audio": EPISODE / "audio",
     }
+    audio_dir = EPISODE / "audio"
+    if audio_dir.is_dir():
+        links["audio"] = audio_dir
     for name, target in links.items():
         link = REMOTION_PUBLIC / name
         if link.is_symlink() and link.resolve() == target.resolve():
@@ -239,6 +241,10 @@ def ensure_remotion_public_links() -> None:
         if link.exists() or link.is_symlink():
             link.unlink()
         link.symlink_to(target, target_is_directory=True)
+    # Drop stale audio symlink when episode has no audio/
+    audio_link = REMOTION_PUBLIC / "audio"
+    if "audio" not in links and (audio_link.exists() or audio_link.is_symlink()):
+        audio_link.unlink()
 
 
 def default_preview_settings() -> dict:
@@ -982,6 +988,7 @@ def main() -> int:
     configure_episode(args.episode)
     out_path = args.out or DEFAULT_OUT
     audio_path = args.audio or DEFAULT_AUDIO
+    has_audio = audio_path.is_file()
 
     max_n = parse_max_id(args.max)
     ensure_remotion_public_links()
@@ -1030,8 +1037,6 @@ def main() -> int:
         "width": 1920,
         "height": 1080,
         "durationInFrames": duration_frames,
-        "audioFromFrame": audio_from_frame,
-        "audioSrc": rel_public(audio_path.resolve()),
         "showCueOverlay": read_show_cue_overlay(),
         "showStickerOverlays": read_show_sticker_overlays(),
         "shots": shots,
@@ -1041,6 +1046,11 @@ def main() -> int:
             "end_sec": end_sec,
         },
     }
+    if has_audio:
+        doc["audioFromFrame"] = audio_from_frame
+        doc["audioSrc"] = rel_public(audio_path.resolve())
+    else:
+        print(f"  No master audio at {audio_path} — rendering without VO")
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(doc, indent=2) + "\n", encoding="utf-8")

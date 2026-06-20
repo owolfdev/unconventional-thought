@@ -90,7 +90,8 @@ export interface Timeline {
   durationInFrames: number;
   /** Composition frame when master VO begins (after m000 title preroll). */
   audioFromFrame?: number;
-  audioSrc: string;
+  /** Omit when episode has no master VO (e.g. sandbox). */
+  audioSrc?: string;
   /** Burn-in cue + m### labels (from media_tool toggle / preview-settings.json). */
   showCueOverlay?: boolean;
   showStickerOverlays?: boolean;

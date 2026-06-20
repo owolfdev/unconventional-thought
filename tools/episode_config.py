@@ -42,10 +42,33 @@ def episode_paths(episode_id: str) -> dict[str, Path]:
         "remotion_dir": REMOTION_DIR,
         "remotion_public": REMOTION_DIR / "public",
         "media_search": ep / cfg.get("timeline_manifest", "timeline/media_search.json"),
-        "audio_master": ep / cfg.get("audio_master", "audio/master/who_wrote_back_in_black.mp3"),
+        "audio_master": resolve_audio_master(ep, cfg),
         "transcript_json": ep / cfg.get(
             "transcript_json", "transcript/who_wrote_back_in_black.json"
         ),
         "preview_settings": ep / "preview-settings.json",
         "timeline_out": REMOTION_DIR / "src" / "timeline.json",
     }
+
+
+def resolve_audio_master(ep: Path, cfg: dict) -> Path:
+    """Master VO path for timeline; may not exist (e.g. sandbox)."""
+    if "audio_master" in cfg:
+        raw = cfg["audio_master"]
+        if raw is None or raw == "":
+            return ep / "audio" / "master" / ".none.mp3"
+        p = Path(raw)
+        return p if p.is_absolute() else ep / p
+    master_dir = ep / "audio" / "master"
+    if master_dir.is_dir():
+        for pattern in ("*.mp3", "*.wav", "*.m4a"):
+            matches = sorted(master_dir.glob(pattern))
+            if matches:
+                return matches[0]
+    vo_dir = ep / "audio" / "vo"
+    if vo_dir.is_dir():
+        for pattern in ("*.mp3", "*.wav", "*.m4a"):
+            matches = sorted(vo_dir.glob(pattern))
+            if matches:
+                return matches[0]
+    return ep / "audio" / "master" / ".none.mp3"
