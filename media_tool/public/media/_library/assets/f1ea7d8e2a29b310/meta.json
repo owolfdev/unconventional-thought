@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "f1ea7d8e2a29b310",
+  "filename": "acdc-jailbreak-1976-official-music-video.mp4",
+  "original_filename": "g8xScxmekQk.mp4",
+  "kind": "archive",
+  "media_type": "video",
+  "source_url": "https://www.youtube.com/watch?v=g8xScxmekQk",
+  "source_engine": "youtube",
+  "license": "YouTube — verify rights before use",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "000_Sandbox",
+      "cue_id": "m000",
+      "spoken": "",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated title",
+      "editorial_intent": "Title card — test text graphic / effect stack.",
+      "attached_at": "2026-06-20T21:40:12.143Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-20T21:03:46.171Z",
+  "updated_at": "2026-06-20T21:40:12.143Z",
+  "search_text": "acdc-jailbreak-1976-official-music-video.mp4 g8xscxmekqk.mp4"
+}

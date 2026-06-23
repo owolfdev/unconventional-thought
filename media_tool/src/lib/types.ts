@@ -3,6 +3,16 @@ import type { LegacyVisualMode, VisualMode } from "./visual-modes";
 export type { VisualMode, LegacyVisualMode };
 
 export type ResolvedMediaType = "photo" | "video" | "generated";
+export type StickerOverlayPosition =
+  | "center"
+  | "left"
+  | "right"
+  | "top"
+  | "bottom"
+  | "top_left"
+  | "top_right"
+  | "bottom_left"
+  | "bottom_right";
 
 export type AcquisitionStatus =
   | "pending"
@@ -125,6 +135,8 @@ export interface ItemAcquisition {
   sticker_overlay_enabled?: boolean;
   /** Sticker/GIF max dimension vs frame — small 40%, medium 62%, large 90% height. */
   sticker_overlay_size?: "small" | "medium" | "large";
+  /** Sticker/GIF anchor within the frame. */
+  sticker_overlay_position?: StickerOverlayPosition;
   /** When false, Remotion omits title overlay (openai_title). */
   title_overlay_enabled?: boolean;
   queries: QueryAcquisition[];

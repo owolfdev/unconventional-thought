@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "7e5be81ebea9e0c8",
+  "filename": "singer-brian-johnson-of-acdc-performs-a-show-on-october-18-at-the.jpg",
+  "original_filename": "download-03ef4f840c2f.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://media.gettyimages.com/id/76837996/photo/brian-johnson-of-ac-dc.jpg?s=1024x1024&w=gi&k=20&c=pv_O4OqNRtMrDjBJ0aucxqIvMTjAOdO9xkIPVSum4-Y=",
+  "source_engine": "bing_images",
+  "license": "Bing — verify rights before use",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "000_Sandbox",
+      "cue_id": "m001",
+      "spoken": "Welcome to the sandbox episode.",
+      "search_queries": [
+        "test documentary b-roll",
+        "sandbox placeholder photo"
+      ],
+      "people": [],
+      "situation": "Generic documentary b-roll test",
+      "editorial_intent": "Opening beat — any test photo from library.",
+      "attached_at": "2026-06-20T23:40:26.158Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-20T21:29:57.399Z",
+  "updated_at": "2026-06-20T23:40:26.158Z",
+  "search_text": "singer-brian-johnson-of-acdc-performs-a-show-on-october-18-at-the.jpg download-03ef4f840c2f.jpg"
+}

@@ -31,10 +31,20 @@
       "situation": "Bon Scott aggressive early live performance leap or snarl",
       "editorial_intent": "Fight-ready early Bon — about to jump into a brawl; kinetic live still.",
       "attached_at": "2026-06-20T06:35:07.800Z"
+    },
+    {
+      "episode_id": "000_Sandbox",
+      "cue_id": "m000",
+      "spoken": "",
+      "search_queries": [],
+      "people": [],
+      "situation": "Generated title",
+      "editorial_intent": "Title card — test text graphic / effect stack.",
+      "attached_at": "2026-06-20T23:40:26.076Z"
     }
   ],
   "archived": false,
   "created_at": "2026-06-14T17:40:23.352Z",
-  "updated_at": "2026-06-20T06:35:07.800Z",
+  "updated_at": "2026-06-20T23:40:26.076Z",
   "search_text": "asset.webp download-f577e1ad350a.webp bon scott"
 }

@@ -53,8 +53,16 @@ export async function runGallerySearch(
     };
   }
 
-  const scrapePath =
-    engine === "google" ? "/api/scrape/google-images" : "/api/scrape/youtube";
+  const scrapeRoutes: Partial<Record<GallerySource, string>> = {
+    google: "/api/scrape/google-images",
+    bing: "/api/scrape/bing-images",
+    video: "/api/scrape/youtube",
+  };
+  const scrapePath = scrapeRoutes[engine];
+  if (!scrapePath) {
+    throw new Error(`No scrape route for engine: ${engine}`);
+  }
+
   const res = await fetch(scrapePath, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -63,9 +71,13 @@ export async function runGallerySearch(
   const data = await res.json();
   if (!res.ok) throw new Error(data.error ?? "Search failed");
 
+  const defaultLabels: Partial<Record<GallerySource, string>> = {
+    google: "Google Images",
+    bing: "Bing Images",
+    video: "YouTube",
+  };
   const label =
-    (data.gallerySource as string) ??
-    (engine === "google" ? "Google Images" : "YouTube");
+    (data.gallerySource as string) ?? defaultLabels[engine] ?? engine;
 
   const results = (data.results as SearchResult[]) ?? [];
   const note = data.apiNote as string | undefined;

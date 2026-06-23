@@ -9,6 +9,7 @@ function withCompareDefaults(acq: ItemAcquisition): ItemAcquisition {
     text_graphic_layer: acq.text_graphic_layer ?? null,
     sticker_overlay_enabled: acq.sticker_overlay_enabled !== false,
     sticker_overlay_size: normalizeStickerOverlaySize(acq.sticker_overlay_size),
+    sticker_overlay_position: acq.sticker_overlay_position ?? "center",
     title_overlay_enabled: acq.title_overlay_enabled !== false,
   };
 }

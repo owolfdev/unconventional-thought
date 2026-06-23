@@ -111,7 +111,9 @@ export function CommandRenderPanel({
 
   const videoUrl =
     job.status === "completed"
-      ? `/api/render/file?jobId=${encodeURIComponent(job.id)}&path=${encodeURIComponent(manifestPath)}`
+      ? job.id.startsWith("library:")
+        ? `/api/render/file?relative=${encodeURIComponent(job.id.slice("library:".length))}&path=${encodeURIComponent(manifestPath)}`
+        : `/api/render/file?jobId=${encodeURIComponent(job.id)}&path=${encodeURIComponent(manifestPath)}`
       : null;
 
   const openInFinder = async () => {

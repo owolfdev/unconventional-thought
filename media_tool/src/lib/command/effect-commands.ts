@@ -17,8 +17,13 @@ export function formatEffectsHelp(): string {
     "  @effects",
     "",
     "Change stack (saved immediately):",
-    "  @effect add film_scratches",
+    "  @effect add film_scratches          current cue",
     "  @effect remove film_grain",
+    "  @effect add all film_scratches       every cue in episode",
+    "  @effect add even film_scratches      cue numbers 0, 2, 4, …",
+    "  @effect add odd film_scratches       cue numbers 1, 3, 5, …",
+    "  @effect add 0 10 film_scratches      cue range (inclusive)",
+    "  @effect add 8 film_scratches         single cue by number",
   ].join("\n");
 }
 

@@ -4,9 +4,12 @@
   "source_visual_mode": "historical",
   "resolved_visual_mode": "historical",
   "resolved_media_type": "photo",
-  "status": "pending",
+  "status": "in_progress",
   "notes": "Sandbox — safe to experiment.",
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -20,7 +23,19 @@
       "query": "thumbs up gif",
       "engine_id": "commons",
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
-      "selections": []
+      "selections": [
+        {
+          "result_id": "library:16b83bd203675ce6",
+          "url": "/media/_library/assets/16b83bd203675ce6/why-does-acdc-guitarist-angus-young-wear-a-school-uniform.jpg",
+          "thumbnail_url": "/media/_library/assets/16b83bd203675ce6/why-does-acdc-guitarist-angus-young-wear-a-school-uniform.jpg",
+          "title": "Why does AC/DC guitarist Angus Young wear a school uniform?",
+          "source_page": "/media/_library/assets/16b83bd203675ce6/why-does-acdc-guitarist-angus-young-wear-a-school-uniform.jpg",
+          "license": "Bing — verify rights before use",
+          "engine_id": "bing_images",
+          "query": "angus young",
+          "selected_at": "2026-06-20T21:39:42.560Z"
+        }
+      ]
     },
     {
       "query_index": 1,
@@ -31,5 +46,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-20T06:37:30.932056Z"
+  "updated_at": "2026-06-20T22:16:49.797Z"
 }

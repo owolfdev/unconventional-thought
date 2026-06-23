@@ -5,31 +5,21 @@
 
 ## HOOK
 
-[quickly][matter-of-fact] I want to talk about the greatest career pivot that never happened.
+[quickly][matter-of-fact] I want to talk about one of the greatest bodies of work in modern American cinema. [pause] A body of work that's lost to history. Never to be recovered. [slowly][dramatically] The lost works of Quentin Tarantino.
 
 [pause]
 
-[matter-of-fact] Quentin Tarantino — one of the most cinematically intelligent human beings who has ever lived — [quickly] made four films. Four extraordinary, era-defining films. And the fourth one — [pause] the fourth one was pointing somewhere. [slowly] Somewhere genuinely extraordinary. [quickly][matter-of-fact] A body of work that could have stood alongside the greatest crime fiction ever committed to film. Scorsese. Leone. Lumet. [pause] That conversation. That company.
+[matter-of-fact] Quentin Tarantino — one of the most explosive and influential filmmakers of his generation — [quickly] came out of the gate like an 10,000 volt electric shock to the indie film scene, with Reservoir Dogs, Pulp Fiction, and Jackie Brown. Somehow he also wrote the script for True Romance inside that run as well. [pause] That's an absurd and glorious opening stretch. [quickly][matter-of-fact] [slowly] Somewhere genuinely extraordinary. [quickly][matter-of-fact] Toward a great body of work that could've stood alongside the greatest crime fiction ever put on film. Scorsese. Leone. Lumet. [pause] That conversation. That company.
 
 [pause]
 
-[matter-of-fact] And then the audience spoke.
+[matter-of-fact] And then, we lost it. [pause] In the graveyard of cinematic treasures never to be born, reside at least four lost master-works. In place of those we got... some might call it... fluff? 
 
 [pause]
 
-[slowly][conspiratorial] And he listened.
+[matter-of-fact] This is NOT a takedown! [quickly] Tarantino is literally a genius. I'm one of his biggest fans. It's precisely because I love his work so much that I want to clear the air on this. Look, Tarantino's later films are fun... sure, sometimes brilliant, in parts... Kill Bill has fans. [sarcastic]  sorry I threw up in my mouth a little... Whatever... Fine — [sarcastic] Looks good an a DVD shelf, right? [matter-of-fact] But I want to talk about what the work before Kill Bill was pointing toward, and why Jackie Brown is really Tarantino's best film, and what it was pointing toward. The body of work that was right there — [slowly][dramatically] that we can almost see the shape of — [pause] but that we never got.
 
 [pause]
-
-[matter-of-fact] This is not a takedown. [quickly] Tarantino is a genius and his later films are fun and sometimes brilliant and Kill Bill has fans and fine — [sarcastic] great DVD shelf, very impressive — [matter-of-fact] but I want to talk about what Jackie Brown was pointing toward. [quickly] The techniques. The discipline. The craft. [pause] The body of work that was right there — [slowly][dramatically] that we can almost see the shape of — [pause] and that we never got.
-
-[pause]
-
-[slowly] The saddest thing about what happened after Jackie Brown isn't that Tarantino didn't know better.
-
-[pause]
-
-[dramatically] It's that he did.
 
 ---
 
@@ -37,21 +27,23 @@
 
 [matter-of-fact] OK. Quick history. Stay with me because this matters.
 
-[quickly][matter-of-fact] 1992. Reservoir Dogs. Six men, a warehouse, a heist that already went wrong before the film started. Dialogue pouring out of these characters like they'd been talking their whole lives and you'd just walked in mid-conversation. [pause] Nobody had heard American men talk like that on screen. [quickly] Violent and funny and specific and completely alive.
+[quickly][matter-of-fact] 1992. Reservoir Dogs. I think it cant be overstated what a revelation reservoir dogs was. It was a homage to everyone who love cinema and music at the time. It was for people who traded VHS tapes of the the best films and mix tapes of the best music. Quentin was one of those people. And he it a home run. It was like when the Ramones came out. Everyone wanted to be a filmmaker. 
 
-[matter-of-fact] And the technique — [pause] already extraordinary on the first film. [quickly][matter-of-fact] The ear cutting scene. Tarantino does something almost nobody does — he cuts away. [pause] You don't see it. You see Mr Blonde dancing. You hear the screaming. [pause] Your imagination does the rest. [quickly][matter-of-fact] That is not a young filmmaker showing off. That is control. [slowly] Genuine artistic control. From a first film.
+Six men, a warehouse, a heist that already went wrong before the story starts. Dialogue pouring out of these characters like they'd been talking their whole lives and you'd just walked in mid-conversation. [pause] Nobody had heard American men talk like that on screen. [quickly] Violent and funny and completely alive.
 
-[quickly][matter-of-fact] 1993. True Romance. He writes it, Tony Scott directs it. Different sensibility entirely — more commercial, more kinetic. But something extraordinary happens anyway. [pause] Because the script is so alive, so full of genuine romantic feeling underneath all the carnage — [quickly] it survives the translation. [pause] And it showed something important. Tarantino could write love. [pause] Real love. Messy, dangerous, irrational love between imperfect people. [slowly] File that away.
+[matter-of-fact] The technique — [pause] already extraordinary on the first film. The violence... Tarantino took you there. Close up and sustained violence. Breathtaking. [quickly][matter-of-fact] Take the ear cutting scene. Tarantino does something almost nobody does — he cuts away. [pause] You don't see it. You see Mr Blonde dancing, to that song! Omg the music in this film was unreal. It's like someone raided a thift store music bin and just found gold. But I digress. Back to the ear cutting scene. You hear the screaming. [pause] Your imagination does the rest. [quickly][matter-of-fact] That is not a young filmmaker showing off. That is control. [slowly] Genuine artistic control. From a first film.
 
-[quickly][matter-of-fact] 1994. Pulp Fiction. [pause] What do you say. [quickly] Royale with Cheese. The dance. The briefcase. Jules and Vincent in the apartment. Butch going back for the watch. [matter-of-fact] Non-linear structure used not as a gimmick but as a moral argument — the film is literally about redemption and it withholds and reveals information the same way grace does. [pause] You don't realize what you're watching until you've seen it twice. [slowly][dramatically] That is not an accident.
+[quickly][matter-of-fact] 1993. True Romance. He writes it, Tony Scott directs it. Different sensibility entirely — more commercial, more kinetic. But something extraordinary happens anyway. [pause] Because the script is so alive, so full of genuine romantic feeling underneath all the carnage — [quickly] it survives the translation. [pause] And it showed something important. Tarantino could write a love story. [pause] Real love. Messy, dangerous, irrational love between imperfect people. [slowly] File that away.
 
-[quickly][matter-of-fact] Palme d'Or at Cannes. Two hundred million dollars on an eight million dollar budget. Single-handedly resurrects John Travolta's career. [sarcastic] Which in retrospect may not have been an unqualified gift to the world but still. [matter-of-fact] Impressive.
+[quickly][matter-of-fact] 1994. Pulp Fiction. [pause] What do you say. If Reservoir Dogs was a home run, Pulp Fiction was a bases loaded, out of the park, grand slam home run. What!? [quickly] Royale with Cheese. The dance. The briefcase. Jules and Vincent in the apartment. Butch going back for the watch. [matter-of-fact] Non-linear structure used not as a gimmick but as a statement. The film is literally about redemption and it withholds and reveals information the same way grace does. [pause] You don't realize what you're watching until you've seen it twice. [slowly][dramatically] That is not an accident.
+
+[quickly][matter-of-fact] Pulp Fiction wins the Palme d'Or at Cannes. Two hundred million dollars on an eight million dollar budget. Single-handedly resurrects John Travolta's career. [sarcastic] Which in retrospect may not have been an unqualified gift to the world but still. [matter-of-fact] Impressive.
 
 [pause]
 
 [slowly][matter-of-fact] And then. Jackie Brown. 1997.
 
-[quickly][matter-of-fact] And here is where I need you to pay attention. Because Jackie Brown is not just the best film in this run. [pause] It is the most important film in this entire story. [slowly] Not because of what it is. [quickly][matter-of-fact] Because of where it was pointing.
+[quickly][matter-of-fact] And here is where I need you to pay attention. Because Jackie Brown may not just be the best film in this run. [pause] It is the most important film in this entire story. [slowly] Not because of what it is. [quickly][matter-of-fact] Because of where it was pointing.
 
 ---
 
@@ -61,17 +53,17 @@
 
 [pause]
 
-[quickly][matter-of-fact] Not — [slowly] "wouldn't it be cool if." [quickly][matter-of-fact] Not a concept. Not a genre exercise. Not a mixtape of influences arranged into something slick and referential. [pause] Pure craft. [pause] People. Place. Consequence.
+[quickly][matter-of-fact] Not — [slowly] "wouldn't it be cool if." [quickly][matter-of-fact] Not a concept. Not a genre exercise. Not a mixtape of influences arranged into something slick and referential. No it's all about People. Place. Consequence. [pause] Pure craft, serving the story, on every level. 
 
-[quickly][matter-of-fact] Pam Grier. Robert Forster. Samuel L Jackson. Robert De Niro in a performance of such magnificent deliberate low energy it is almost a provocation. [pause] A middle-aged Black woman navigating the gap between two dangerous men using nothing but her intelligence and her dignity. [quickly][matter-of-fact] No superhero moments. No cool guy speeches. [pause] Just a woman who has been underestimated her entire life deciding that this time — [pause] this one last time — [slowly] she is going to win.
+[quickly][matter-of-fact] Pam Grier. Robert Forster. Samuel L Jackson. Robert De Niro in a performance of magnificent deliberate subtlety. [pause] A middle-aged Black woman navigating the gap between two dangerous men using nothing but her intelligence and her dignity. [quickly][matter-of-fact] No superhero moments. No cool speeches. [pause] Just a woman who has been underestimated her entire life deciding that this time — [pause] this one last time — [slowly] she is going to win. That's a story. Yes it's borrowed material, from an Elmore Leonard novel. But just like pulling Travolta out of the bargin bin at Blockbuster, Tarantino puts his own brilliant spin on the story. 
 
 [quickly][matter-of-fact] The film is patient in a way none of his others are. There are scenes that just breathe. [pause] The scene where Robert Forster and Pam Grier listen to the Delfonics in his car. [pause] Nothing happens. [pause] Everything happens. [quickly][matter-of-fact] That is one of the most romantic scenes in American cinema and there is not a single kiss in it. [pause] That is a filmmaker at total command of his instrument.
 
-[matter-of-fact] And it is grounded in a specific place. [pause] Los Angeles. [quickly][matter-of-fact] Not a stylized LA. Not a movie LA. [pause] The LA of strip malls and bail bondsmen and mid-level criminals and people who have been in this city long enough to understand exactly what it costs. [quickly][matter-of-fact] The geography is a character. The light is a character. The specific listlessness of that city — the way ambition curdled into something slower and more resigned — [pause] that is in every frame.
+[matter-of-fact] It is grounded in a specific place. [pause] Los Angeles. [quickly][matter-of-fact] Not a stylized LA. Not a movie LA. [pause] The LA of strip malls and bail bondsmen and mid-level criminals and people who have been in this city long enough to understand exactly what it costs. [quickly][matter-of-fact] The geography is a character. The light is a character. The specific listlessness of that city — the way LA curdles people's ambitions into something resigned and cynical... [pause] that is in every frame of the film.
 
-[slowly][deliberately] And that is what pure craft looks like. [quickly][matter-of-fact] You don't need a Japanese castle. You don't need Nazi-occupied France. You don't need a concept that can be pitched in one sentence. [pause] You need a place you know completely. Characters who live in it fully. [slowly] And the discipline to stay there.
+[slowly][deliberately] That is what pure craft looks like. [quickly][matter-of-fact] You don't need a Japanese castle. You don't need Nazi-occupied France. You don't need a concept that can be pitched in one sentence in an elevator like a sweaty wiz kid overdosed on caffeine and sugar. [pause] [deliberately] You need a place you know completely. Characters who live in it fully. [slowly] And the discipline to stay there.
 
-[quickly][sarcastic] And what did the audience say? [pause] "Yeah it's good... but where's the cool stuff?" [condescending] "It's a bit slow isn't it?" [matter-of-fact] "It's not really HIM." [quickly] The film makes money but not Pulp Fiction money. The reviews are good but not Pulp Fiction reviews. [pause] And Tarantino — who is human, who reads his press, who has ears — [pause] hears the message loud and clear.
+When I first say Jackie Brown I was floored by how mature it was, how restrained, how emotional and effective. I was anticipating Tarantino's next films with excitement and optimism. Like when you are waiting for the next episode of your favorite Netflix drama to drop. You don't want to leave that world. You want more. [quickly][sarcastic] So, how did general audiences react to Jackie Brown? What did they say?  [pause] "Yeah it's good... but where's the cool stuff?" [condescending] "It's a bit slow isn't it?" [matter-of-fact] "It's not really HIM." [quickly] Also the film made money, but not Pulp Fiction money. The reviews are good but not Pulp Fiction reviews. [pause] And Tarantino — who is human, who reads his press, who has ears — [pause] hears the message loud and clear.
 
 [slowly][dramatically] Give them the cool stuff.
 
@@ -85,7 +77,22 @@
 
 [pause]
 
-[slowly][conspiratorial] That is what makes it a tragedy rather than a failure.
+So what did we get? We got what I call the "wouldn't it be cool if" era. Pretty much the rest of his career. Ugh. 
+
+We got Kill Bill. Oh god. The minute I saw the first Kill Bill poster, I knew it was over. What a gut punch. Uma Thurman? Love her but... Uma Thurman as a bad-ass killer ninja with a samurai sword and a yellow Bruce Lee track suit? Yea right... At least cast a real bad-ass if you are going to make a bad-ass movie. Isn't Tarantino supposed to be a casting genius? But I digress. Well... so, I went and saw Kill Bill anyway. I tried to like it. But come on guys... Let's be honest. It was a mess. Excuse my French, but that was a highly polished, michelin starred, shit sandwich. A face plant, the emperor with no clothes. Jesus, I sound bitter!
+
+Kill Bill 2? 
+
+Death Proof? 
+
+Inglourious Basterds?
+
+Django Unchained? 
+
+The Hateful Eight?
+
+Once Upon A Time In Hollywood? 
+
 
 ---
 
@@ -95,11 +102,12 @@
 
 [pause]
 
+
 ### TECHNIQUE 1: ONE PLACE
 
 [matter-of-fact] Leone never left the West. Scorsese never really left New York. The Coens never really left the American heartland. [quickly][matter-of-fact] And it is not a coincidence that those are the bodies of work we return to. That those are the worlds we feel we actually inhabit. [pause] Because constraint produces depth.
 
-[quickly][matter-of-fact] When you cannot wow people with a new location — when you cannot hide behind a Japanese castle or a World War Two chateau — [pause] you have to make a strip mall in Compton feel as loaded as the Colosseum. [quickly][matter-of-fact] You have to find the drama inside the ordinary. The violence inside the mundane. The romance inside a car in a parking lot with a song playing. [slowly] That is the hardest thing in cinema. [quickly][matter-of-fact] And it is the thing Jackie Brown proved Tarantino could do.
+[quickly][matter-of-fact] When you cannot wow people with a new location — when you cannot hide behind a Japanese castle or a World War Two chateau — [pause] you have to make a strip mall in Compton feel as loaded as the Colosseum. [quickly][matter-of-fact] You have to find the drama inside the ordinary. The violence inside the mundane. The romance inside a car in a parking lot. [slowly] That is the hardest thing in cinema. [quickly][matter-of-fact] And it is the thing Jackie Brown proved Tarantino could do.
 
 [pause]
 
@@ -185,6 +193,6 @@
 
 [pause]
 
-[matter-of-fact] Tell me in the comments if I'm wrong. [quickly][matter-of-fact] And before you come at me — yes Kill Bill is fun, yes Inglourious Basterds is brilliant in its own way, yes Once Upon a Time in Hollywood has its moments — [sarcastic] doesn't change what Jackie Brown was pointing toward. [pause] Doesn't change the fingerprint. [pause] Doesn't change what we lost.
+[matter-of-fact] Tell me in the comments if I'm wrong. [quickly][matter-of-fact] And before you come at me — yes Kill Bill is fun, yes Inglourious Basterds is brilliant in its own way, yes Once Upon a Time in Hollywood has its moments — [sarcastic] doesn't change what Jackie Brown was pointing toward. [pause] Doesn't make up for what we lost.
 
 [slowly][dramatically] Thank you. Goodbye.

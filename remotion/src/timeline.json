@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "built_at": "2026-06-20T20:19:52.213430+00:00",
+  "built_at": "2026-06-20T23:44:47.293546+00:00",
   "episode": "000_Sandbox",
   "max_id": "m008",
   "fps": 30,
   "width": 1920,
   "height": 1080,
-  "durationInFrames": 1080,
+  "durationInFrames": 1020,
   "showCueOverlay": true,
   "showStickerOverlays": true,
   "shots": [
@@ -28,19 +28,62 @@
       "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_scratches",
-        "film_damage"
+        "film_scratches"
       ],
       "transition": null,
       "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
+      "textGraphicLayer": {
+        "type": "title",
+        "text": "BON SCOTT",
+        "style": "typewriter size-xxl"
+      },
+      "src": "media/_library/assets/8bf1b3df0a944cea/asset.webp",
       "mediaKind": "image",
       "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
       "overlays": [
         {
           "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
           "startFromSec": 968.123,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
+    },
+    {
+      "id": "m001",
+      "cue": 1,
+      "fromFrame": 60,
+      "durationInFrames": 120,
+      "mediaDelayFrames": 0,
+      "mediaScale": 1.0,
+      "mediaFit": null,
+      "motionTiltDeg": null,
+      "motionScrollSpeed": null,
+      "tStart": 2.0,
+      "tEnd": 6.0,
+      "spoken": "Welcome to the sandbox episode.",
+      "notes": "Sandbox \u2014 safe to experiment.",
+      "visualMode": "historical",
+      "mediaType": "photo",
+      "backgroundColor": "#000000",
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
+      "transition": null,
+      "textGraphic": null,
+      "textGraphicLayer": null,
+      "src": "media/_library/assets/7e5be81ebea9e0c8/singer-brian-johnson-of-acdc-performs-a-show-on-october-18-at-the.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 424.221,
           "blendMode": "plus-lighter",
           "opacity": 0.72,
           "placement": "full",
@@ -60,48 +103,9 @@
       "missingMedia": false
     },
     {
-      "id": "m001",
-      "cue": 1,
-      "fromFrame": 120,
-      "durationInFrames": 120,
-      "mediaDelayFrames": 0,
-      "mediaScale": 1.0,
-      "mediaFit": null,
-      "motionTiltDeg": null,
-      "motionScrollSpeed": null,
-      "tStart": 2.0,
-      "tEnd": 6.0,
-      "spoken": "Welcome to the sandbox episode.",
-      "notes": "Sandbox \u2014 safe to experiment.",
-      "visualMode": "historical",
-      "mediaType": "photo",
-      "backgroundColor": "#000000",
-      "effects": [
-        "film_scratches"
-      ],
-      "transition": null,
-      "textGraphic": null,
-      "textGraphicLayer": null,
-      "src": "media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
-      "mediaKind": "image",
-      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-      "overlays": [
-        {
-          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
-          "startFromSec": 424.221,
-          "blendMode": "plus-lighter",
-          "opacity": 0.72,
-          "placement": "full",
-          "windowSec": null,
-          "loop": true
-        }
-      ],
-      "missingMedia": false
-    },
-    {
       "id": "m002",
       "cue": 2,
-      "fromFrame": 240,
+      "fromFrame": 180,
       "durationInFrames": 150,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
@@ -116,20 +120,20 @@
       "mediaType": "generated",
       "backgroundColor": "#000000",
       "effects": [
-        "film_damage"
+        "film_scratches"
       ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
       "src": "media/_library/assets/d5ddc55d8c47a3f9/asset.gif",
       "mediaKind": "image",
-      "overlaySrc": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
       "overlays": [
         {
-          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
-          "startFromSec": 0.0,
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 62.003,
           "blendMode": "plus-lighter",
-          "opacity": 0.58,
+          "opacity": 0.72,
           "placement": "full",
           "windowSec": null,
           "loop": true
@@ -140,7 +144,7 @@
     {
       "id": "m003",
       "cue": 3,
-      "fromFrame": 390,
+      "fromFrame": 330,
       "durationInFrames": 120,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
@@ -154,20 +158,42 @@
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
-      "src": null,
-      "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
-      "missingMedia": true
+      "src": "media/_library/assets/16b83bd203675ce6/why-does-acdc-guitarist-angus-young-wear-a-school-uniform.jpg",
+      "mediaKind": "image",
+      "overlaySrc": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/DYcqz8gkWUQ.f399.mp4",
+          "startFromSec": 1247.621,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
+      "missingMedia": false
     },
     {
       "id": "m004",
       "cue": 4,
-      "fromFrame": 510,
+      "fromFrame": 450,
       "durationInFrames": 180,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
@@ -181,20 +207,32 @@
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_scratches"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
       "src": null,
       "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
+      "overlaySrc": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/z8Y9W0cdzJU.f399.mp4",
+          "startFromSec": 585.678,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
       "missingMedia": true
     },
     {
       "id": "m005",
       "cue": 5,
-      "fromFrame": 690,
+      "fromFrame": 630,
       "durationInFrames": 120,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
@@ -208,20 +246,42 @@
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
       "src": null,
       "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
+      "overlaySrc": "media/_effects/scratches/su121IWji9o.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/su121IWji9o.f248.webm",
+          "startFromSec": 68.196,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
       "missingMedia": true
     },
     {
       "id": "m006",
       "cue": 6,
-      "fromFrame": 810,
+      "fromFrame": 750,
       "durationInFrames": 180,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
@@ -235,20 +295,32 @@
       "visualMode": "historical",
       "mediaType": "photo",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_scratches"
+      ],
       "transition": null,
       "textGraphic": null,
       "textGraphicLayer": null,
       "src": null,
       "mediaKind": "none",
-      "overlaySrc": null,
-      "overlays": [],
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 503.182,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
       "missingMedia": true
     },
     {
       "id": "m007",
       "cue": 7,
-      "fromFrame": 930,
+      "fromFrame": 870,
       "durationInFrames": 60,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
@@ -262,7 +334,10 @@
       "visualMode": "text_graphic",
       "mediaType": "generated",
       "backgroundColor": "#000000",
-      "effects": [],
+      "effects": [
+        "film_scratches",
+        "film_damage"
+      ],
       "transition": null,
       "textGraphic": {
         "type": "quote",
@@ -272,14 +347,33 @@
       "textGraphicLayer": null,
       "src": null,
       "mediaKind": "generated",
-      "overlaySrc": null,
-      "overlays": [],
+      "overlaySrc": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+      "overlays": [
+        {
+          "src": "media/_effects/scratches/U-Efgj0ZuDo.f248.webm",
+          "startFromSec": 456.286,
+          "blendMode": "plus-lighter",
+          "opacity": 0.72,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        },
+        {
+          "src": "media/_effects/film_damage/n4j77OIbmmw.f399.mp4",
+          "startFromSec": 0.0,
+          "blendMode": "plus-lighter",
+          "opacity": 0.58,
+          "placement": "full",
+          "windowSec": null,
+          "loop": true
+        }
+      ],
       "missingMedia": false
     },
     {
       "id": "m008",
       "cue": 8,
-      "fromFrame": 990,
+      "fromFrame": 930,
       "durationInFrames": 60,
       "mediaDelayFrames": 0,
       "mediaScale": 1.0,
@@ -294,7 +388,8 @@
       "mediaType": "photo",
       "backgroundColor": "#000000",
       "effects": [
-        "film_grain"
+        "film_grain",
+        "film_scratches"
       ],
       "transition": null,
       "textGraphic": null,
@@ -318,7 +413,7 @@
   ],
   "stats": {
     "shot_count": 9,
-    "missing_media": 4,
+    "missing_media": 3,
     "end_sec": 33.0
   }
 }

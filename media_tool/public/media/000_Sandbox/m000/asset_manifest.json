@@ -22,7 +22,11 @@
     "text": "Sandbox 000",
     "style": "typewriter"
   },
-  "text_graphic_layer": null,
+  "text_graphic_layer": {
+    "type": "title",
+    "text": "BON SCOTT",
+    "style": "typewriter size-xxl"
+  },
   "targets": [
     {
       "slot": "black_plate",
@@ -31,15 +35,14 @@
     }
   ],
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": false,
   "acquired_files": [
-    "acdc-jailbreak-1976-official-music-video.mp4"
+    "asset.webp"
   ],
   "source_media_search": "episodes/000_Sandbox/timeline/media_search.json",
-  "updated_at": "2026-06-20T21:19:54.375Z"
+  "updated_at": "2026-06-20T23:40:26.188Z"
 }

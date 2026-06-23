@@ -5,6 +5,17 @@ export interface TextGraphicSpec {
   optional_texture?: string;
 }
 
+export type StickerOverlayPosition =
+  | "center"
+  | "left"
+  | "right"
+  | "top"
+  | "bottom"
+  | "top_left"
+  | "top_right"
+  | "bottom_left"
+  | "bottom_right";
+
 /** Stock effect clip from `media/_effects` (built by build_remotion_timeline.py). */
 /** One plate image/video in a multi-selection sequence. */
 export interface PlateFrame {
@@ -67,6 +78,8 @@ export interface Shot {
   stickerSrc?: string | null;
   /** Max width/height vs frame (percent). From acquisition sticker_overlay_size. */
   stickerMaxPercent?: number;
+  /** Frame anchor for sticker/GIF overlay. */
+  stickerPosition?: StickerOverlayPosition;
   /** Hide sticker/GIF after this many seconds from cue start (e.g. 1). */
   stickerHideAfterSec?: number;
   /** Shake / tremble on sticker only (not the plate). */

@@ -200,7 +200,10 @@ export const ShotClip: React.FC<{
           frame < shot.stickerHideAfterSec * fps) &&
         (() => {
           const pct = shot.stickerMaxPercent ?? DEFAULT_STICKER_MAX_PERCENT;
-          const layout = stickerOverlayLayout(pct);
+          const layout = stickerOverlayLayout(
+            pct,
+            shot.stickerPosition ?? "center",
+          );
           const gifW = Math.round(frameW * (pct / 100));
           const gifH = Math.round(frameH * (pct / 100));
           const stickerMotion = getStickerMotionStyle(
@@ -209,13 +212,7 @@ export const ShotClip: React.FC<{
             shot.durationInFrames,
           );
           return (
-            <AbsoluteFill
-              style={{
-                pointerEvents: "none",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
+            <AbsoluteFill style={layout.container}>
               <div style={{ ...layout.box, ...stickerMotion }}>
                 {isGifSrc(shot.stickerSrc) ? (
                   <SyncedGif

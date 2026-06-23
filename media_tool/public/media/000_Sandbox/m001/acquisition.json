@@ -7,7 +7,8 @@
   "status": "in_progress",
   "notes": "Sandbox — safe to experiment.",
   "effects": [
-    "film_scratches"
+    "film_scratches",
+    "film_damage"
   ],
   "transition": null,
   "text_graphic": null,
@@ -24,15 +25,15 @@
       "engine_url": "https://commons.wikimedia.org/w/index.php?search={query}",
       "selections": [
         {
-          "result_id": "library:2f0ea3cc0654a22e",
-          "url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
-          "thumbnail_url": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
-          "title": "bonscott_onstage-1.jpg",
-          "source_page": "/media/_library/assets/2f0ea3cc0654a22e/bonscott_onstage-1.jpg",
-          "license": "migrated from episode 001 acquired/ — verify rights",
-          "engine_id": "library",
-          "query": "bon",
-          "selected_at": "2026-06-20T19:22:43.707Z"
+          "result_id": "library:7e5be81ebea9e0c8",
+          "url": "/media/_library/assets/7e5be81ebea9e0c8/singer-brian-johnson-of-acdc-performs-a-show-on-october-18-at-the.jpg",
+          "thumbnail_url": "/media/_library/assets/7e5be81ebea9e0c8/singer-brian-johnson-of-acdc-performs-a-show-on-october-18-at-the.jpg",
+          "title": "Singer Brian Johnson of AC/DC performs a show on October 18 at the ...",
+          "source_page": "/media/_library/assets/7e5be81ebea9e0c8/singer-brian-johnson-of-acdc-performs-a-show-on-october-18-at-the.jpg",
+          "license": "Bing — verify rights before use",
+          "engine_id": "bing_images",
+          "query": "brian johnson",
+          "selected_at": "2026-06-20T21:29:57.483Z"
         }
       ]
     },
@@ -45,5 +46,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-20T19:28:18.523Z"
+  "updated_at": "2026-06-20T22:16:49.797Z"
 }

@@ -1,10 +1,13 @@
 import type { SearchResult } from "@/lib/types";
 import type { GiphyStickerHit } from "@/lib/giphy";
+import type { RenderLibraryEntry, RenderListFilter } from "@/lib/render-library-shared";
+import type { HelpTopic } from "./help-topics";
+import type { RenderCommand } from "./render-command-parse";
 import type { GallerySize } from "./gallery-size";
 
 export type { GallerySize };
 
-export type GallerySource = "library" | "google" | "gif" | "video";
+export type GallerySource = "library" | "google" | "bing" | "gif" | "video";
 
 export interface GalleryState {
   source: GallerySource;
@@ -31,13 +34,24 @@ export type PlayRequest = {
 
 export type ParsedDirective =
   | { kind: "help" }
-  | { kind: "helpTopic"; topic: "effects" | "modes" }
+  | { kind: "helpTopic"; topic: HelpTopic }
   | { kind: "mode"; set?: string }
+  | { kind: "generate"; variant: "sticker" | "image"; prompt: string }
+  | {
+      kind: "text";
+      action: "add" | "animate" | "size" | "clear";
+      value?: string;
+    }
+  | {
+      kind: "sticker";
+      action: "add" | "clear" | "place";
+      value?: string;
+    }
   | { kind: "info" }
   | { kind: "layers" }
   | { kind: "effects" }
-  | { kind: "effect"; action: "add" | "remove"; id: string }
-  | { kind: "render"; args: string[] }
+  | { kind: "effect"; action: "add" | "remove"; id: string; scope: EffectScope }
+  | { kind: "render"; command: RenderCommand }
   | { kind: "play"; loopCount?: number | null }
   | { kind: "status" }
   | {

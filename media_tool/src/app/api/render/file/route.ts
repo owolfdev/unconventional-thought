@@ -6,6 +6,7 @@ import {
   listRecentRenderJobs,
   refreshRenderJob,
 } from "@/lib/render-launcher";
+import { resolveRenderOutputPath } from "@/lib/render-library";
 import { getRepoRoot, defaultManifestPath, readJsonFile, resolveManifestPath } from "@/lib/paths";
 import type { MediaToolManifest } from "@/lib/types";
 
@@ -50,13 +51,27 @@ function resolveOutputPath(
 export async function GET(request: NextRequest) {
   try {
     const jobId = request.nextUrl.searchParams.get("jobId");
-    if (!jobId) {
-      return NextResponse.json({ error: "jobId required" }, { status: 400 });
-    }
+    const relative = request.nextUrl.searchParams.get("relative");
     const manifestPath =
       request.nextUrl.searchParams.get("path") ?? defaultManifestPath();
 
-    const { outputPath } = resolveOutputPath(jobId, manifestPath);
+    let outputPath: string;
+
+    if (relative) {
+      const manifest = readJsonFile<MediaToolManifest>(
+        resolveManifestPath(manifestPath),
+      );
+      const episodeNumber = episodeNumberFromManifest(manifest);
+      outputPath = resolveRenderOutputPath(episodeNumber, relative);
+    } else if (jobId) {
+      ({ outputPath } = resolveOutputPath(jobId, manifestPath));
+    } else {
+      return NextResponse.json(
+        { error: "jobId or relative required" },
+        { status: 400 },
+      );
+    }
+
     const stat = fs.statSync(outputPath);
     const stream = fs.createReadStream(outputPath);
 

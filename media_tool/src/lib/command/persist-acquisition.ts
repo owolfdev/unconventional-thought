@@ -2,24 +2,15 @@ import { cloneSavedItems } from "@/lib/acquisition-dirty";
 import type { ItemAcquisition, MediaAcquisitionDocument } from "@/lib/types";
 import { requireCueContext, type CommandContext } from "./context";
 
-export async function persistAcquisitionItem(
+async function persistAcquisitionDocument(
   ctx: CommandContext,
-  itemId: string,
-  updated: ItemAcquisition,
+  acquisition: MediaAcquisitionDocument,
 ): Promise<
   | { ok: true; acquisition: MediaAcquisitionDocument; path: string }
   | { ok: false; error: string }
 > {
   const cue = requireCueContext(ctx);
   if (!cue) return { ok: false, error: "Manifest not loaded." };
-
-  const acquisition = {
-    ...cue.loadState.acquisition,
-    items: {
-      ...cue.loadState.acquisition.items,
-      [itemId]: updated,
-    },
-  };
 
   ctx.actions.setSaving(true);
   try {
@@ -59,4 +50,43 @@ export async function persistAcquisitionItem(
   } finally {
     ctx.actions.setSaving(false);
   }
+}
+
+export async function persistAcquisitionItem(
+  ctx: CommandContext,
+  itemId: string,
+  updated: ItemAcquisition,
+): Promise<
+  | { ok: true; acquisition: MediaAcquisitionDocument; path: string }
+  | { ok: false; error: string }
+> {
+  const cue = requireCueContext(ctx);
+  if (!cue) return { ok: false, error: "Manifest not loaded." };
+
+  return persistAcquisitionDocument(ctx, {
+    ...cue.loadState.acquisition,
+    items: {
+      ...cue.loadState.acquisition.items,
+      [itemId]: updated,
+    },
+  });
+}
+
+export async function persistAcquisitionItems(
+  ctx: CommandContext,
+  updates: Record<string, ItemAcquisition>,
+): Promise<
+  | { ok: true; acquisition: MediaAcquisitionDocument; path: string }
+  | { ok: false; error: string }
+> {
+  const cue = requireCueContext(ctx);
+  if (!cue) return { ok: false, error: "Manifest not loaded." };
+
+  return persistAcquisitionDocument(ctx, {
+    ...cue.loadState.acquisition,
+    items: {
+      ...cue.loadState.acquisition.items,
+      ...updates,
+    },
+  });
 }

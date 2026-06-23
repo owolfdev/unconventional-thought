@@ -1,8 +1,24 @@
 {
   "version": 1,
-  "updated_at": "2026-06-20T21:19:54.373Z",
-  "asset_count": 340,
+  "updated_at": "2026-06-20T23:40:26.187Z",
+  "asset_count": 343,
   "assets": [
+    {
+      "id": "16b83bd203675ce6",
+      "filename": "why-does-acdc-guitarist-angus-young-wear-a-school-uniform.jpg",
+      "original_filename": "download-a9f937f3bbd3.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/16b83bd203675ce6/why-does-acdc-guitarist-angus-young-wear-a-school-uniform.jpg",
+      "public_url": "/media/_library/assets/16b83bd203675ce6/why-does-acdc-guitarist-angus-young-wear-a-school-uniform.jpg",
+      "tags": [],
+      "manual_notes": "",
+      "search_text": "why-does-acdc-guitarist-angus-young-wear-a-school-uniform.jpg download-a9f937f3bbd3.jpg",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-20T21:39:42.475Z",
+      "updated_at": "2026-06-20T23:40:26.178Z"
+    },
     {
       "id": "d5ddc55d8c47a3f9",
       "filename": "asset.gif",
@@ -19,7 +35,76 @@
       "usage_count": 3,
       "archived": false,
       "created_at": "2026-06-16T12:06:28.369Z",
-      "updated_at": "2026-06-20T21:19:54.364Z"
+      "updated_at": "2026-06-20T23:40:26.167Z"
+    },
+    {
+      "id": "7e5be81ebea9e0c8",
+      "filename": "singer-brian-johnson-of-acdc-performs-a-show-on-october-18-at-the.jpg",
+      "original_filename": "download-03ef4f840c2f.jpg",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/7e5be81ebea9e0c8/singer-brian-johnson-of-acdc-performs-a-show-on-october-18-at-the.jpg",
+      "public_url": "/media/_library/assets/7e5be81ebea9e0c8/singer-brian-johnson-of-acdc-performs-a-show-on-october-18-at-the.jpg",
+      "tags": [],
+      "manual_notes": "",
+      "search_text": "singer-brian-johnson-of-acdc-performs-a-show-on-october-18-at-the.jpg download-03ef4f840c2f.jpg",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-20T21:29:57.399Z",
+      "updated_at": "2026-06-20T23:40:26.158Z"
+    },
+    {
+      "id": "8bf1b3df0a944cea",
+      "filename": "asset.webp",
+      "original_filename": "download-f577e1ad350a.webp",
+      "kind": "archive",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/8bf1b3df0a944cea/asset.webp",
+      "public_url": "/media/_library/assets/8bf1b3df0a944cea/asset.webp",
+      "tags": [
+        "bon scott"
+      ],
+      "manual_notes": "",
+      "search_text": "asset.webp download-f577e1ad350a.webp bon scott",
+      "usage_count": 2,
+      "archived": false,
+      "created_at": "2026-06-14T17:40:23.352Z",
+      "updated_at": "2026-06-20T23:40:26.076Z"
+    },
+    {
+      "id": "ff7e5cb0599213d7",
+      "filename": "cracked-vinyl-skull-emblem.png",
+      "original_filename": "sticker-0cf01757.png",
+      "kind": "overlay",
+      "media_type": "photo",
+      "thumbnail_url": "/media/_library/assets/ff7e5cb0599213d7/cracked-vinyl-skull-emblem.png",
+      "public_url": "/media/_library/assets/ff7e5cb0599213d7/cracked-vinyl-skull-emblem.png",
+      "tags": [
+        "sticker",
+        "openai"
+      ],
+      "manual_notes": "cracked vinyl skull emblem",
+      "search_text": "cracked-vinyl-skull-emblem.png sticker-0cf01757.png sticker openai cracked vinyl skull emblem",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-20T23:08:43.964Z",
+      "updated_at": "2026-06-20T23:10:08.884Z"
+    },
+    {
+      "id": "f1ea7d8e2a29b310",
+      "filename": "acdc-jailbreak-1976-official-music-video.mp4",
+      "original_filename": "g8xScxmekQk.mp4",
+      "kind": "archive",
+      "media_type": "video",
+      "thumbnail_url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
+      "public_url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
+      "tags": [],
+      "manual_notes": "",
+      "search_text": "acdc-jailbreak-1976-official-music-video.mp4 g8xscxmekqk.mp4",
+      "usage_count": 1,
+      "archived": false,
+      "created_at": "2026-06-20T21:03:46.171Z",
+      "updated_at": "2026-06-20T21:40:12.143Z"
     },
     {
       "id": "2f0ea3cc0654a22e",
@@ -38,22 +123,6 @@
       "archived": false,
       "created_at": "2026-06-05T22:11:29.000Z",
       "updated_at": "2026-06-20T21:19:54.352Z"
-    },
-    {
-      "id": "f1ea7d8e2a29b310",
-      "filename": "acdc-jailbreak-1976-official-music-video.mp4",
-      "original_filename": "g8xScxmekQk.mp4",
-      "kind": "archive",
-      "media_type": "video",
-      "thumbnail_url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
-      "public_url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
-      "tags": [],
-      "manual_notes": "",
-      "search_text": "acdc-jailbreak-1976-official-music-video.mp4 g8xscxmekqk.mp4",
-      "usage_count": 1,
-      "archived": false,
-      "created_at": "2026-06-20T21:03:46.171Z",
-      "updated_at": "2026-06-20T21:19:54.277Z"
     },
     {
       "id": "75afac2a2985b09e",
@@ -1966,24 +2035,6 @@
       "archived": false,
       "created_at": "2026-06-11T20:02:48.604Z",
       "updated_at": "2026-06-20T06:35:07.808Z"
-    },
-    {
-      "id": "8bf1b3df0a944cea",
-      "filename": "asset.webp",
-      "original_filename": "download-f577e1ad350a.webp",
-      "kind": "archive",
-      "media_type": "photo",
-      "thumbnail_url": "/media/_library/assets/8bf1b3df0a944cea/asset.webp",
-      "public_url": "/media/_library/assets/8bf1b3df0a944cea/asset.webp",
-      "tags": [
-        "bon scott"
-      ],
-      "manual_notes": "",
-      "search_text": "asset.webp download-f577e1ad350a.webp bon scott",
-      "usage_count": 1,
-      "archived": false,
-      "created_at": "2026-06-14T17:40:23.352Z",
-      "updated_at": "2026-06-20T06:35:07.800Z"
     },
     {
       "id": "198a9216264e595b",

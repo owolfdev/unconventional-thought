@@ -462,11 +462,27 @@ OVERLAY_ENGINE_IDS = frozenset({"openai_sticker", "openai_title", "giphy_sticker
 OVERLAY_PREFIXES = ("sticker-", "title-", "giphy-")
 
 STICKER_SIZE_PERCENT = {"small": 40, "medium": 62, "large": 90}
+STICKER_POSITIONS = {
+    "center",
+    "left",
+    "right",
+    "top",
+    "bottom",
+    "top_left",
+    "top_right",
+    "bottom_left",
+    "bottom_right",
+}
 
 
 def sticker_max_percent(acq: dict) -> int:
     raw = acq.get("sticker_overlay_size") or "medium"
     return STICKER_SIZE_PERCENT.get(raw, 62)
+
+
+def sticker_position(acq: dict) -> str:
+    raw = (acq.get("sticker_overlay_position") or "center").strip().lower()
+    return raw if raw in STICKER_POSITIONS else "center"
 
 
 def notes_show_full_image(notes: str) -> bool:
@@ -817,6 +833,34 @@ def compute_preroll_sec(items: list[dict]) -> float:
     return 0.0
 
 
+def timings_already_include_preroll(items: list[dict], preroll_sec: float) -> bool:
+    """True when manifest t_start values are video-absolute (m000 slot already baked in).
+
+    Episodes from build_media_search.py keep SRT/audio times (m001 often starts before
+    m000 ends). Hand-built manifests (e.g. sandbox) may place m001 at t_start >= m000.t_end.
+    """
+    if preroll_sec <= 0:
+        return False
+    m000_end = next(
+        (float(it["t_end"]) for it in items if it.get("id") == "m000"),
+        None,
+    )
+    if m000_end is None:
+        return False
+    for item in items:
+        if item.get("id") == "m000":
+            continue
+        return float(item["t_start"]) >= m000_end - 1e-6
+    return False
+
+
+def compute_preroll_offset_sec(items: list[dict], preroll_sec: float) -> float:
+    """Extra timeline shift for audio-relative manifests; 0 when timings already include m000."""
+    if preroll_sec <= 0 or timings_already_include_preroll(items, preroll_sec):
+        return 0.0
+    return preroll_sec
+
+
 def build_shot(
     item: dict,
     acq: dict,
@@ -824,6 +868,7 @@ def build_shot(
     fps: int,
     transcript_words: list[dict] | None = None,
     preroll_sec: float = 0.0,
+    preroll_offset_sec: float | None = None,
 ) -> dict:
     item_id = item["id"]
     mode = acq.get("resolved_visual_mode") or item.get("visual_mode", "historical")
@@ -835,7 +880,8 @@ def build_shot(
     t_start_adj = max(0.0, t_start - lead_in_sec)
     t_end_adj = t_end + lead_out_sec
 
-    preroll_frames = round(preroll_sec * fps) if item_id != "m000" else 0
+    offset_sec = preroll_sec if preroll_offset_sec is None else preroll_offset_sec
+    preroll_frames = round(offset_sec * fps) if item_id != "m000" else 0
     from_frame = round(t_start_adj * fps) + preroll_frames
     duration_frames = max(1, round((t_end_adj - t_start_adj) * fps))
 
@@ -897,6 +943,7 @@ def build_shot(
     ):
         shot["stickerSrc"] = rel_public(sticker_path.resolve())
         shot["stickerMaxPercent"] = sticker_max_percent(acq)
+        shot["stickerPosition"] = sticker_position(acq)
         hide_after = sticker_hide_after_sec(item_id, notes)
         if hide_after is not None:
             shot["stickerHideAfterSec"] = hide_after
@@ -995,7 +1042,8 @@ def main() -> int:
 
     transcript_words = load_transcript_words()
     preroll_sec = compute_preroll_sec(items)
-    audio_from_frame = round(preroll_sec * args.fps)
+    preroll_offset_sec = compute_preroll_offset_sec(items, preroll_sec)
+    audio_from_frame = round(preroll_offset_sec * args.fps)
     shots: list[dict] = []
     missing = 0
     for item in items:
@@ -1013,7 +1061,13 @@ def main() -> int:
             else None
         )
         shot = build_shot(
-            item, acq, manifest, args.fps, transcript_words, preroll_sec
+            item,
+            acq,
+            manifest,
+            args.fps,
+            transcript_words,
+            preroll_sec,
+            preroll_offset_sec,
         )
         if shot.get("missingMedia") and shot["visualMode"] not in (
             "text_graphic",
@@ -1023,7 +1077,7 @@ def main() -> int:
         shots.append(shot)
 
     end_sec = max(float(it["t_end"]) for it in items)
-    duration_frames = round((end_sec + preroll_sec) * args.fps) + args.fps
+    duration_frames = round((end_sec + preroll_offset_sec) * args.fps) + args.fps
 
     doc = {
         "version": 1,
@@ -1052,7 +1106,12 @@ def main() -> int:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(doc, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {out_path}")
-    preroll_note = f" · preroll {preroll_sec:.2f}s" if preroll_sec > 0 else ""
+    if preroll_sec > 0 and preroll_offset_sec > 0:
+        preroll_note = f" · preroll {preroll_offset_sec:.2f}s"
+    elif preroll_sec > 0:
+        preroll_note = f" · m000 {preroll_sec:.2f}s (timings include title slot)"
+    else:
+        preroll_note = ""
     print(
         f"  {len(shots)} shots · ends {end_sec:.2f}s · {duration_frames} frames @ {args.fps}fps{preroll_note}"
     )

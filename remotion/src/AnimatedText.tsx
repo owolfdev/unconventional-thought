@@ -54,6 +54,14 @@ function fontSizeForText(
   return Math.round(base * mult);
 }
 
+function styleTokens(style: string): string[] {
+  return style
+    .toLowerCase()
+    .split(/\s+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
+}
+
 function fontForStyle(style: string): string {
   const s = style.toLowerCase();
   if (s.includes("typewriter")) {
@@ -143,6 +151,7 @@ export const AnimatedText: React.FC<Props> = ({
 
   const style = spec?.style ?? "typewriter";
   const styleKey = style.toLowerCase();
+  const tokens = styleTokens(style);
   const isTypewriter =
     styleKey.includes("typewriter") && !styleKey.includes("stamp");
   const duration = Math.max(durationInFrames, 1);
@@ -150,6 +159,18 @@ export const AnimatedText: React.FC<Props> = ({
   let sizeMult = 1;
   if (nh.textExtraBig) {
     sizeMult *= 1.35;
+  }
+  if (tokens.includes("size-sm")) {
+    sizeMult *= 0.72;
+  }
+  if (tokens.includes("size-lg")) {
+    sizeMult *= 1.72;
+  }
+  if (tokens.includes("size-xl")) {
+    sizeMult *= 2.75;
+  }
+  if (tokens.includes("size-xxl")) {
+    sizeMult *= 3.45;
   }
   if (nh.textXL) {
     sizeMult *= 1.22;
@@ -253,6 +274,15 @@ export const AnimatedText: React.FC<Props> = ({
         extrapolateRight: "clamp",
       });
     }
+  } else if (styleKey.includes("word_reveal")) {
+    displayText = revealWords(text, frame, duration);
+    opacity = interpolate(frame, [0, 6], [0, 1], {
+      extrapolateRight: "clamp",
+    });
+    scale = interpolate(frame, [0, Math.min(10, duration * 0.2)], [0.97, 1], {
+      extrapolateRight: "clamp",
+      easing: Easing.out(Easing.quad),
+    });
   } else if (
     nh.textStartEarly &&
     (styleKey.includes("title") || styleKey.includes("blockbuster"))

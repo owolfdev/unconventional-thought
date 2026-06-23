@@ -7,7 +7,7 @@
   "status": "in_progress",
   "notes": "Sandbox — safe to experiment.",
   "effects": [
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": null,
@@ -45,5 +45,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-20T19:56:41.465Z"
+  "updated_at": "2026-06-20T22:16:34.107Z"
 }

@@ -9,6 +9,7 @@ import {
   mergeYouTubeHits,
   parseYouTubeWatchHref,
 } from "./parse-youtube";
+import { parseBingImageMetadata } from "./parse-bing-images";
 
 describe("scrapeResultId", () => {
   it("is stable for the same key", () => {
@@ -83,5 +84,20 @@ describe("mapYouTubeHits", () => {
     expect(result.url).toBe("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
     expect(result.thumbnail_url).toContain("dQw4w9WgXcQ");
     expect(result.id).toMatch(/^youtube-[a-f0-9]{12}$/);
+  });
+});
+
+describe("parseBingImageMetadata", () => {
+  it("extracts murl from iusc metadata", () => {
+    const blob = JSON.stringify({
+      murl: "https://cdn.example.com/photo.jpg",
+      turl: "https://th.example.com/thumb.jpg",
+      purl: "https://example.com/page",
+      t: "Steampunk Guitar",
+    });
+    const hits = parseBingImageMetadata([blob]);
+    expect(hits).toHaveLength(1);
+    expect(hits[0].imgUrl).toBe("https://cdn.example.com/photo.jpg");
+    expect(hits[0].title).toBe("Steampunk Guitar");
   });
 });

@@ -8,8 +8,7 @@ import type {
   SelectedMedia,
 } from "@/lib/types";
 import type { MediaLibraryStatus } from "@/lib/types";
-import type { GallerySize } from "./gallery-size";
-import type { GalleryState, PlayRequest, ResponseLine } from "./types";
+import type { RenderLibraryEntry, RenderListFilter } from "@/lib/render-library-shared";
 
 export interface LoadState {
   manifest: MediaToolManifest;
@@ -31,6 +30,8 @@ export interface CommandState {
   gallery: GalleryState | null;
   gallerySize: GallerySize;
   renderJob: RenderJob | null;
+  renderListEntries: RenderLibraryEntry[] | null;
+  renderListFilter: RenderListFilter | null;
 }
 
 /** Mutable UI + IO callbacks handlers may invoke. */
@@ -46,6 +47,10 @@ export interface CommandActions {
   ) => void;
   setSavedItems: (items: Record<string, ItemAcquisition>) => void;
   setRenderJob: (job: RenderJob | null) => void;
+  setRenderList: (
+    entries: RenderLibraryEntry[] | null,
+    filter: RenderListFilter | null,
+  ) => void;
   setPlayRequest: (request: PlayRequest | null) => void;
   navigateToIndex: (index: number) => void;
   loadManifest: (path: string, targetItemId?: string) => Promise<void>;

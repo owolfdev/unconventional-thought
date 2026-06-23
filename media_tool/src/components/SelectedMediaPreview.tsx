@@ -283,7 +283,10 @@ function SelectedMediaPreview(
     Boolean(model.sticker) && !model.showSticker;
   const titleSelectedButHidden = Boolean(model.title) && !model.showTitle;
   const stickerPercent = stickerMaxPercent(acquisition);
-  const stickerLayout = stickerOverlayLayout(stickerPercent);
+  const stickerLayout = stickerOverlayLayout(
+    stickerPercent,
+    acquisition.sticker_overlay_position ?? "center",
+  );
 
   const timelineProgress =
     plateCount > 1
@@ -386,7 +389,7 @@ function SelectedMediaPreview(
         )}
 
         {stickerSrc && (
-          <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+          <div style={stickerLayout.container}>
             <div style={stickerLayout.box} className="drop-shadow-lg">
               <PreviewAsset
                 src={stickerSrc}

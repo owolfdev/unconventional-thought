@@ -8,6 +8,7 @@ import {
   handleComplete,
   handleEffect,
   handleEpisodes,
+  handleGenerate,
   handleGallerySize,
   handleHelpTopic,
   handleMode,
@@ -19,6 +20,8 @@ import {
   handleRender,
   handleSave,
   handleSearch,
+  handleText,
+  handleSticker,
   switchEpisode,
 } from "./handlers";
 
@@ -75,15 +78,27 @@ export async function executeDirective(
       return;
 
     case "effect":
-      await handleEffect(ctx, parsed.action, parsed.id);
+      await handleEffect(ctx, parsed.action, parsed.id, parsed.scope);
       return;
 
     case "mode":
       await handleMode(ctx, parsed.set);
       return;
 
+    case "generate":
+      await handleGenerate(ctx, parsed.variant, parsed.prompt);
+      return;
+
+    case "text":
+      await handleText(ctx, parsed.action, parsed.value);
+      return;
+
+    case "sticker":
+      await handleSticker(ctx, parsed.action, parsed.value);
+      return;
+
     case "render":
-      await handleRender(ctx, parsed.args);
+      await handleRender(ctx, parsed.command);
       return;
 
     case "play":

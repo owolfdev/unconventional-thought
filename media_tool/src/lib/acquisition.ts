@@ -16,6 +16,24 @@ import {
   type VisualMode,
 } from "./visual-modes";
 
+function normalizeStickerOverlayPosition(
+  value: ItemAcquisition["sticker_overlay_position"],
+): NonNullable<ItemAcquisition["sticker_overlay_position"]> {
+  switch (value) {
+    case "left":
+    case "right":
+    case "top":
+    case "bottom":
+    case "top_left":
+    case "top_right":
+    case "bottom_left":
+    case "bottom_right":
+      return value;
+    default:
+      return "center";
+  }
+}
+
 function defaultMediaType(item: MediaToolItem): ResolvedMediaType {
   if (item.visual_mode === "text_graphic") return "generated";
   if (item.media_type === "video") return "video";
@@ -77,6 +95,9 @@ export function itemAcquisitionFromManifest(
     sticker_overlay_enabled: existing?.sticker_overlay_enabled !== false,
     sticker_overlay_size: normalizeStickerOverlaySize(
       existing?.sticker_overlay_size,
+    ),
+    sticker_overlay_position: normalizeStickerOverlayPosition(
+      existing?.sticker_overlay_position,
     ),
     title_overlay_enabled: existing?.title_overlay_enabled !== false,
     queries: existing?.queries ?? defaultQueries(item),

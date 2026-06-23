@@ -6,6 +6,7 @@ import {
   type GallerySize,
 } from "@/lib/command/gallery-size";
 import type { GalleryState } from "@/lib/command/types";
+import { GalleryPreviewModal } from "./GalleryPreviewModal";
 
 interface Props {
   gallery: GalleryState | null;
@@ -26,10 +27,12 @@ export function CommandGallery({
   const config = GALLERY_SIZE_CONFIG[size];
   const listRef = useRef<HTMLUListElement>(null);
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const [previewOpen, setPreviewOpen] = useState(false);
   const resultCount = gallery?.results.length ?? 0;
 
   useEffect(() => {
     setSelectedIndex(0);
+    setPreviewOpen(false);
   }, [gallery?.source, gallery?.query, resultCount]);
 
   useEffect(() => {
@@ -51,7 +54,7 @@ export function CommandGallery({
   );
 
   const onListKeyDown = (e: React.KeyboardEvent) => {
-    if (busy || resultCount === 0) return;
+    if (busy || resultCount === 0 || previewOpen) return;
 
     if (e.key === "ArrowRight" || e.key === "ArrowDown") {
       e.preventDefault();
@@ -68,8 +71,14 @@ export function CommandGallery({
     } else if (e.key === "Enter") {
       e.preventDefault();
       void onAdd?.(selectedIndex + 1);
+    } else if (e.key === " ") {
+      e.preventDefault();
+      setPreviewOpen(true);
     }
   };
+
+  const previewResult =
+    previewOpen && gallery ? gallery.results[selectedIndex] : null;
 
   const listClass =
     config.layout === "grid"
@@ -86,7 +95,7 @@ export function CommandGallery({
       <div className="mb-1.5 flex items-center justify-between gap-2">
         <p className="font-mono text-[10px] uppercase tracking-wide text-zinc-500">
           gallery · {config.label}
-          {hasResults ? " · Tab · ← → · Enter" : ""}
+          {hasResults ? " · Tab · ← → · Space preview · Enter add" : ""}
         </p>
         {gallery && (
           <span className="rounded-full bg-zinc-800 px-1.5 py-0.5 font-mono text-[10px] text-zinc-400">
@@ -172,6 +181,24 @@ export function CommandGallery({
             );
           })}
         </ul>
+      )}
+
+      {previewResult && gallery && (
+        <GalleryPreviewModal
+          result={previewResult}
+          displayIndex={selectedIndex + 1}
+          total={gallery.results.length}
+          source={gallery.source}
+          onClose={() => setPreviewOpen(false)}
+          onNavigate={(delta) => moveSelection(delta)}
+          onAdd={
+            onAdd
+              ? () => {
+                  void onAdd(selectedIndex + 1);
+                }
+              : undefined
+          }
+        />
       )}
     </section>
   );

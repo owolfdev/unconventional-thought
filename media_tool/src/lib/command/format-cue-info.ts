@@ -68,7 +68,7 @@ export function formatLayers(acq: ItemAcquisition): string {
   const sticker = getActiveStickerSelection(acq);
   if (sticker) {
     lines.push(
-      `sticker: ${selectionFilename(sticker) ?? sticker.title} · overlay ${acq.sticker_overlay_enabled !== false ? "on" : "off"}`,
+      `sticker: ${selectionFilename(sticker) ?? sticker.title} · overlay ${acq.sticker_overlay_enabled !== false ? "on" : "off"} · ${acq.sticker_overlay_position ?? "center"}`,
     );
   }
   if (acq.title_overlay_enabled) {

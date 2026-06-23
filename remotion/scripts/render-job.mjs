@@ -130,7 +130,7 @@ function renderCueSpan(active, fromId, toId, preview, logPath, jobPath) {
   const startFrame = shots[0].fromFrame;
   const endFrame =
     Math.max(...shots.map((s) => s.fromFrame + s.durationInFrames)) - 1;
-  const scale = preview ? 0.5 : 1;
+  const scale = preview ? 0.25 : 1;
   const label = renderSpanLabel(shots.map((s) => s.id));
   const { renderDir, previewDir } = renderPaths(active);
   const out = preview

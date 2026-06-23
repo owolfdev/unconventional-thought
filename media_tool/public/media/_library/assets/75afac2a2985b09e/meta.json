@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "75afac2a2985b09e",
+  "filename": "steampunk-guitar.jpg",
+  "original_filename": "download-c04bfce48559.jpg",
+  "kind": "archive",
+  "media_type": "photo",
+  "source_url": "https://live.staticflickr.com/189/475519061_afbf3c2f4a.jpg",
+  "source_engine": "google_images",
+  "license": "by-nd 2.0 (flickr)",
+  "tags": [],
+  "manual_notes": "",
+  "usages": [
+    {
+      "episode_id": "000_Sandbox",
+      "cue_id": "m000",
+      "spoken": "",
+      "search_queries": [
+        "guitar"
+      ],
+      "people": [],
+      "situation": "Generated title",
+      "editorial_intent": "Title card — test text graphic / effect stack.",
+      "attached_at": "2026-06-20T20:40:11.163Z"
+    }
+  ],
+  "archived": false,
+  "created_at": "2026-06-20T20:40:11.163Z",
+  "updated_at": "2026-06-20T20:40:11.163Z",
+  "search_text": "steampunk-guitar.jpg download-c04bfce48559.jpg"
+}

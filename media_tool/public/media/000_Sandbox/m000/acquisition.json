@@ -7,8 +7,7 @@
   "status": "in_progress",
   "notes": "Sandbox — safe to experiment.",
   "effects": [
-    "film_scratches",
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "text_graphic": {
@@ -16,7 +15,11 @@
     "text": "Sandbox 000",
     "style": "typewriter"
   },
-  "text_graphic_layer": null,
+  "text_graphic_layer": {
+    "type": "title",
+    "text": "BON SCOTT",
+    "style": "typewriter size-xxl"
+  },
   "background_color": "#000000",
   "sticker_overlay_enabled": true,
   "sticker_overlay_size": "medium",
@@ -29,20 +32,19 @@
       "engine_url": "https://www.google.com/search?q={query}",
       "selections": [
         {
-          "result_id": "library:f1ea7d8e2a29b310",
-          "url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
-          "thumbnail_url": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
-          "title": "AC/DC    Jailbreak 1976  official music video",
-          "source_page": "/media/_library/assets/f1ea7d8e2a29b310/acdc-jailbreak-1976-official-music-video.mp4",
-          "license": "YouTube — verify rights before use",
-          "engine_id": "youtube",
-          "query": "bon scott",
-          "selected_at": "2026-06-20T21:03:46.314Z",
-          "start_from_sec": 92.517
+          "result_id": "library:8bf1b3df0a944cea",
+          "url": "/media/_library/assets/8bf1b3df0a944cea/asset.webp",
+          "thumbnail_url": "/media/_library/assets/8bf1b3df0a944cea/asset.webp",
+          "title": "asset.webp",
+          "source_page": "/media/_library/assets/8bf1b3df0a944cea/asset.webp",
+          "license": "verify rights before use",
+          "engine_id": "library",
+          "query": "bon",
+          "selected_at": "2026-06-20T21:46:16.089Z"
         }
       ]
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-20T21:03:46.315Z"
+  "updated_at": "2026-06-20T23:40:26.052Z"
 }

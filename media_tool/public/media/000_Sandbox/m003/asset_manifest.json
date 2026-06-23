@@ -26,14 +26,19 @@
     {
       "slot": "primary",
       "description": "Exercise @search gif and gallery Enter to add.",
-      "status": "needed"
+      "status": "selected"
     }
   ],
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
   "transition": null,
   "background_color": "#000000",
   "requires_media_files": true,
-  "acquired_files": [],
+  "acquired_files": [
+    "why-does-acdc-guitarist-angus-young-wear-a-school-uniform.jpg"
+  ],
   "source_media_search": "episodes/000_Sandbox/timeline/media_search.json",
-  "updated_at": "2026-06-20T21:19:54.376Z"
+  "updated_at": "2026-06-20T23:40:26.189Z"
 }

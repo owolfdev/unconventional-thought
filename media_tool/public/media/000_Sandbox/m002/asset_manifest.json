@@ -30,7 +30,7 @@
     }
   ],
   "effects": [
-    "film_damage"
+    "film_scratches"
   ],
   "transition": null,
   "background_color": "#000000",
@@ -39,5 +39,5 @@
     "asset.gif"
   ],
   "source_media_search": "episodes/000_Sandbox/timeline/media_search.json",
-  "updated_at": "2026-06-20T21:19:54.376Z"
+  "updated_at": "2026-06-20T23:40:26.188Z"
 }

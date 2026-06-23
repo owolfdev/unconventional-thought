@@ -128,6 +128,7 @@ Command UI `@search google` / `@search video` call Puppeteer scrapers — no Goo
 | Route | Engine |
 |-------|--------|
 | `POST /api/scrape/google-images` | Google Images (`tbm=isch`) |
+| `POST /api/scrape/bing-images` | Bing Images |
 | `POST /api/scrape/youtube` | YouTube results page |
 
 Shared browser: `src/lib/scrape/browser.ts` (one headless Chrome per dev process, tab per request, 1.5s throttle between scrapes).

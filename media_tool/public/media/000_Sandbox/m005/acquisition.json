@@ -6,7 +6,10 @@
   "resolved_media_type": "photo",
   "status": "pending",
   "notes": "Sandbox — safe to experiment.",
-  "effects": [],
+  "effects": [
+    "film_scratches",
+    "film_damage"
+  ],
   "transition": null,
   "text_graphic": null,
   "text_graphic_layer": null,
@@ -24,5 +27,5 @@
     }
   ],
   "completed_at": null,
-  "updated_at": "2026-06-20T06:37:30.932056Z"
+  "updated_at": "2026-06-20T22:16:49.797Z"
 }

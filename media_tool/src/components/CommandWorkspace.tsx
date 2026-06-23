@@ -16,6 +16,7 @@ import { pushResponseLine } from "@/lib/command/response";
 import type { GalleryState, PlayRequest, ResponseLine } from "@/lib/command/types";
 import { updateSelectionStartFromSec } from "@/lib/selection-media";
 import type { RenderJob } from "@/lib/render-launcher";
+import type { RenderLibraryEntry, RenderListFilter } from "@/lib/render-library-shared";
 import type {
   ItemAcquisition,
   MediaToolItem,
@@ -50,6 +51,12 @@ export function CommandWorkspace() {
   const [saving, setSaving] = useState(false);
   const [acquiredFiles, setAcquiredFiles] = useState<string[]>([]);
   const [renderJob, setRenderJob] = useState<RenderJob | null>(null);
+  const [renderListEntries, setRenderListEntries] = useState<
+    RenderLibraryEntry[] | null
+  >(null);
+  const [renderListFilter, setRenderListFilter] = useState<
+    RenderListFilter | null
+  >(null);
   const [playRequest, setPlayRequest] = useState<PlayRequest | null>(null);
   const playSeqRef = useRef(0);
   const previewRef = useRef<SelectedMediaPreviewHandle>(null);
@@ -227,6 +234,8 @@ export function CommandWorkspace() {
       gallery,
       gallerySize,
       renderJob,
+      renderListEntries,
+      renderListFilter,
     }),
     [
       loadState,
@@ -239,6 +248,8 @@ export function CommandWorkspace() {
       gallery,
       gallerySize,
       renderJob,
+      renderListEntries,
+      renderListFilter,
     ],
   );
 
@@ -253,6 +264,10 @@ export function CommandWorkspace() {
       setLoadState,
       setSavedItems,
       setRenderJob,
+      setRenderList: (entries, filter) => {
+        setRenderListEntries(entries);
+        setRenderListFilter(filter);
+      },
       setPlayRequest,
       navigateToIndex,
       loadManifest,
